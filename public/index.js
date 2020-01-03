@@ -73,6 +73,7 @@
                     features: [],
                 },
                 maxAge: 6, // hours
+                sortBy: 'updated',
                 filters: {},
                 filtersSelected: {},
                 featureSelected: 0,
@@ -132,14 +133,22 @@
                         }
                     ).sort(
                         function (a, b) {
+                            var k = vm.sortBy;
                             var a = a.properties;
                             var b = b.properties;
-                            if (a.hasOwnProperty('updated') && b.hasOwnProperty('updated')) {
-                                return new Date(b.updated) - new Date(a.updated);
-                            } else if (a.hasOwnProperty('updated')) {
-                                return -1
+                            if (b[k] == a[k]) {
+                                k = 'updated';
+                            }
+                            if (a.hasOwnProperty(k) && b.hasOwnProperty(k)) {
+                                if (k == 'created' || k == 'updated') {
+                                    return new Date(b[k]) - new Date(a[k]);
+                                } else {
+                                    return parseFloat(b[k]) - parseFloat(a[k]);
+                                }
+                            } else if (a.hasOwnProperty(k)) {
+                                return -1;
                             } else {
-                                return 1
+                                return 1;
                             }
                         }
                     );

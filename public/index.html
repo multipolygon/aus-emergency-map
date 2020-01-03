@@ -29,7 +29,7 @@
           <h2>Filters</h2>
           <p>
             Max age:
-            <input type="number" v-model="maxAge">
+            <input type="number" min="0" max="999" v-model="maxAge" style="width: 3em;">
             hours
           </p>
           <div v-for="(options, filter) in filters" v-bind:key="filter">
@@ -53,6 +53,15 @@
           <p>
             <span class="badge bg-red">{{ totalResources }}</span>
             Total Resources
+          </p>
+          <p>
+            Sort:
+            <select v-model="sortBy">
+              <option>updated</option>
+              <option>created</option>
+              <option>resources</option>
+              <option>size</option>
+            </select>
           </p>
           <div v-for="feature in geoFeatures" v-bind:key="fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'listItem ' + (fid(feature) == featureSelected ? 'selected' : '')">
             <a v-bind:name="fid(feature)"></a>

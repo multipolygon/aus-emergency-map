@@ -4,7 +4,7 @@ services:
   nginx:
     image: nginx
     env_file:
-      - .web.env
+      - web.env
     restart: unless-stopped
     volumes:
       - ./public:/usr/share/nginx/html:ro

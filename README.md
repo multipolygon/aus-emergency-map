@@ -1,6 +1,8 @@
 # Aus Emergency Map
 
-A better data-filtering UI for the Vic Emergency data feed.
+https://aus.emergencymap.info
+
+A nicer, faster, data-filtering map UI for the Vic Emergency incident feed.
 
 <img src="./screenshot.png" style="width: 100%;"/>
 

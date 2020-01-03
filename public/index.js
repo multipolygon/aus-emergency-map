@@ -62,7 +62,10 @@
             el: '#panel',
             data: {
                 showPanel: true,
-                geo: {},
+                geo: {
+                    features: [],
+                },
+                maxAge: 6, // hours
                 filters: {
                     'feedType': {
                     },
@@ -78,12 +81,21 @@
                         'Out Of Control': true,
                     },
                 },
-                filtersCount: {},
                 selected: 0,
+                dateLocale: "en-AU",
+                dateOptions: {
+                    dateStyle: "short",
+                    timeStyle: "short",
+                    hour12: true,
+                    year: "numeric",
+                    month: "short",
+                    day: "numeric",
+                    hour: "numeric",
+                    minute: "numeric",
+                },
             },
             computed: {
-                filtersSelected: function () {
-                    var vm = this;
+                filtersSelected: function (vm) {
                     return Object.keys(vm.filters).reduce(
                         function(filters, filter) {
                             options = Object.keys(vm.filters[filter]).filter(
@@ -99,8 +111,7 @@
                         {}
                     );
                 },
-                counts: function () {
-                    var vm = this;
+                counts: function (vm) {
                     return Object.keys(vm.filters).reduce(
                         function (filters, filter) {
                             filters[filter] = vm.geoFeatures.reduce(
@@ -118,29 +129,41 @@
                         {}
                     );
                 },
-                geoFeatures: function () {
-                    var vm = this;
-                    if (vm.geo.features) {
-                        return vm.geo.features.filter(
-                            function (feature) {
-                                return Object.keys(vm.filtersSelected).reduce(
-                                    function (show, filter) {
-                                        return show && vm.filtersSelected[filter].indexOf(feature.properties[filter]) != -1;
-                                    },
-                                    true
-                                );
-                            }
-                        ).sort(
-                            function (a, b) {
-                                return (b.properties.resources || 0) - (a.properties.resources || 0);
-                            }
-                        );
-                    } else {
-                        return [];
-                    }
+                maxAgeDate: function () {
+                    return new Date(new Date() - this.maxAge * 60 * 60 * 1000);
                 },
-                totalResources: function () {
-                    return this.geoFeatures.reduce(
+                geoFeatures: function (vm) {
+                    return vm.geo.features.filter(
+                        function (feature) {
+                            if (feature.properties.hasOwnProperty('updated')) {
+                                return new Date(feature.properties.updated) > vm.maxAgeDate;
+                            }
+                        },
+                    ).filter(
+                        function (feature) {
+                            return Object.keys(vm.filtersSelected).reduce(
+                                function (show, filter) {
+                                    return show && vm.filtersSelected[filter].indexOf(feature.properties[filter]) != -1;
+                                },
+                                true
+                            );
+                        }
+                    ).sort(
+                        function (a, b) {
+                            var a = a.properties;
+                            var b = b.properties;
+                            if (a.hasOwnProperty('updated') && b.hasOwnProperty('updated')) {
+                                return new Date(b.updated) - new Date(a.updated);
+                            } else if (a.hasOwnProperty('updated')) {
+                                return -1
+                            } else {
+                                return 1
+                            }
+                        }
+                    );
+                },
+                totalResources: function (vm) {
+                    return vm.geoFeatures.reduce(
                         function (n, feature) {
                             if (feature.properties.hasOwnProperty('resources')) {
                                 n += feature.properties.resources;
@@ -168,13 +191,12 @@
                         this.updateFilters();
                     }
                 },
-                filters: {
-                    deep: true,
+                geoFeatures: {
+                    deep: false,
                     handler: function () {
                         this.updateMap();
-                        this.filtersCount;
                     }
-                },
+                }
             },
             methods: {
                 togglePanel: function () {
@@ -226,12 +248,10 @@
                             }
                         },
                         onEachFeature: function (feature, layer) {
-                            layer.on('click', function (e) {
-                                vm.selectFeature(e.target.feature);
+                            layer.on('click', function () {
+                                vm.selectFeature(feature);
                             }).bindPopup(function () {
-                                return layer.feature.properties.sourceTitle +
-                                    "<br/>" +
-                                    layer.feature.properties.location;
+                                return vm.fhtml(feature, ['sourceTitle', 'location', 'sizeFmt', 'updated']);
                             }, {
                                 autoPan: false,
                                 closeButton: true,
@@ -246,7 +266,7 @@
                     }
                 },
                 selectFeature: function (feature) {
-                    this.selected = feature.properties.id;
+                    this.selected = this.fid(feature);
                     var lgeo = L.geoJSON(feature);
                     var bounds = lgeo.getBounds()
                     lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
@@ -259,7 +279,34 @@
                             fillColor: '#FFFFE0'
                         }
                     ).addTo(lTargetMarker);
-                }
+                },
+                fid: function (feature) {
+                    return feature.properties.sourceFeed + feature.properties.id;
+                },
+                fdate: function (feature) {
+                    if (feature.properties.hasOwnProperty('updated')) {
+                        return (new Date(feature.properties.updated)).toLocaleString(
+                            this.dateLocale,
+                            this.dateOptions
+                        );
+                    } else {
+                        return '';
+                    }
+                },
+                fhtml: function (feature, keys) {
+                    var vm = this;
+                    var s = [];
+                    keys.forEach(
+                        function (k) {
+                            if (k == 'updated') {
+                                s.push(vm.fdate(feature))
+                            } else if (feature.properties.hasOwnProperty(k)) {
+                                s.push(feature.properties[k]);
+                            }
+                        }
+                    )
+                    return s.join('<br>');
+                },
             },
             created: function () {
                 var vm = this;

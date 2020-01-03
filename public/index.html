@@ -27,6 +27,11 @@
         <div class="inner">
           <h1>Aus Emergency</h1>
           <h2>Filters</h2>
+          <p>
+            Max age:
+            <input type="number" v-model="maxAge">
+            hours
+          </p>
           <div v-for="(items, filter) in filters" v-bind:key="filter">
             <h3>{{ filter }}</h3>
             <div v-for="item in Object.keys(items)" v-bind:key="filter + item" v-bind:style="counts[filter][item] == undefined ? 'color: #AAAAAA;' : ''">
@@ -47,12 +52,18 @@
             <span class="badge bg-red">{{ totalResources }}</span>
             Total Resources
           </p>
-          <div v-for="item in geoFeatures" v-bind:key="item.properties.id" v-on:click.prevent="selectFeature(item)" v-bind:class="'listItem ' + (item.properties.id == selected ? 'selected' : '')">
-            <a v-bind:name="item.properties.id"></a>
-            <h3>{{ item.properties.sourceTitle }}</h3>
-            <p v-html="item.properties.location"></p>
-            <p v-if="item.properties.resources">
-              <span class="badge bg-red">{{ item.properties.resources }}</span> Resources
+          <div v-for="feature in geoFeatures" v-bind:key="fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'listItem ' + (fid(feature) == selected ? 'selected' : '')">
+            <a v-bind:name="fid(feature)"></a>
+            <h3>{{ feature.properties.sourceTitle }}</h3>
+            <p v-html="feature.properties.location"></p>
+            <p v-if="feature.properties.resources">
+              <span class="badge bg-red">{{ feature.properties.resources }}</span> Resources
+            </p>
+            <p v-if="feature.properties.sizeFmt">
+              {{ feature.properties.sizeFmt }}
+            </p>
+            <p>
+              {{ fdate(feature) }}
             </p>
           </div>
           <p v-if="geoFeatures.length == 0">No items.</p>
@@ -60,7 +71,7 @@
             <h2>About This Page</h2>
             <p>This page is in no way officially affiliated with Vic Emergency.</p>
             <p><a href="https://github.com/reillybeacom/aus-emergency-map">Fork this on Github.</a></p>
-            <p>Proudly built with open-source software:</p>
+            <p>Proudly built with free, open-source software:</p>
             <ul>
               <li>
                 <a href="http://leafletjs.com/">Leaflet</a>

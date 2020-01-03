@@ -16,7 +16,7 @@ A nicer, faster, data-filtering map UI for the Vic Emergency incident feed.
 
 ## Tech
 
-Proudly built with open-source software:
+Proudly built with free, open-source software:
 
 - <a href="http://leafletjs.com/">Leaflet</a>
 - <a href="https://www.openstreetmap.org/about">OpenStreetMap</a>

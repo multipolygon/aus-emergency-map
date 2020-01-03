@@ -21,6 +21,7 @@
         <div class="toggle">
           <span style="font-size: 10px;" v-on:click.prevent="togglePanel()">MENU</span>
           <button class="button" v-on:click.prevent="togglePanel()" title="toggle menu">&#x21C6;</button>
+          <div class="circle bg-alert" title="Data Error" v-if="!dataOk">!</div>
           <div class="circle bg-blue" title="Items">{{ geoFeatures.length }}</div>
           <div class="circle bg-red" title="Resources">{{ totalResources }}</div>
         </div>

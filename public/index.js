@@ -69,6 +69,7 @@
             el: '#panel',
             data: {
                 showPanel: true,
+                dataOk: false,
                 geo: {
                     features: [],
                 },
@@ -195,14 +196,15 @@
                 togglePanel: function () {
                     this.showPanel = !this.showPanel;
                 },
-                fetch: function () {
+                fetchData: function () {
                     var vm = this;
                     axios.get('./osom-geojson.json')
                         .then(function (response) {
                             vm.geo = response.data;
+                            vm.dataOk = true;
                         })
                         .catch(function () {
-                            alert('Sorry, unable to load data!');
+                            vm.dataOk = false;
                         });
                 },
                 updateFilters: function () {
@@ -304,7 +306,7 @@
             created: function () {
                 var vm = this;
                 vm.filtersSelected = filtersDefault;
-                vm.fetch()
+                vm.fetchData()
                 setInterval(
                     function () {
                         vm.fetch();

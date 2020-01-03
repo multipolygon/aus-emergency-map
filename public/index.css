@@ -48,7 +48,7 @@
 #panel > .toggle > .button {
     box-sizing: border-box;
     padding: 0;
-    margin: 8px 2px 4px 2px;
+    margin: 2px 2px 4px 2px;
     font-weight: bold;
     font-size: 2em;
     background-color: white;
@@ -87,6 +87,7 @@
     width: 40px;
     border-radius: 20px;
     font-size: 16px;
+    font-weight: bold;
     line-height: 40px;
 }
 
@@ -100,4 +101,17 @@
     color: white;
     background-color: #cc3333;
     border: 1px solid #cc3333;
+}
+
+#panel .listItem {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 0.1em;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+#panel .listItem.selected {
+    background-color: #FFFFE0;
 }

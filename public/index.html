@@ -16,10 +16,11 @@
   </head>
   <body>
     <div id="page">
-      <div id="lmap" class="full"></div>
+      <div id="lmap" class="split"></div>
       <div id="panel" v-bind:class="showPanel ? 'split' : 'full'">
         <div class="toggle">
-          <button class="button" v-on:click.prevent="togglePanel()">&#x21C6;</button>
+          <span style="font-size: 10px;" v-on:click.prevent="togglePanel()">MENU</span>
+          <button class="button" v-on:click.prevent="togglePanel()" title="toggle menu">&#x21C6;</button>
           <div class="circle bg-blue" title="Items">{{ geoFeatures.length }}</div>
           <div class="circle bg-red" title="Resources">{{ totalResources }}</div>
         </div>
@@ -37,13 +38,21 @@
             </div>
           </div>
           <br/>
-          <h2>List ({{ geoFeatures.length }})</h2>
-          <div v-for="item in geoFeatures" v-bind:key="item.properties.id" style="margin: 1rem 0.2rem 0 0.2rem; border-bottom: 1px solid grey;">
+          <h2>List</h2>
+          <p>
+            <span class="badge bg-blue">{{ geoFeatures.length }}</span>
+            Total Items
+          </p>
+          <p>
+            <span class="badge bg-red">{{ totalResources }}</span>
+            Total Resources
+          </p>
+          <div v-for="item in geoFeatures" v-bind:key="item.properties.id" v-on:click.prevent="selectFeature(item)" v-bind:class="'listItem ' + (item.properties.id == selected ? 'selected' : '')">
             <a v-bind:name="item.properties.id"></a>
             <h3>{{ item.properties.sourceTitle }}</h3>
             <p v-html="item.properties.location"></p>
             <p v-if="item.properties.resources">
-              Resources: <span class="badge bg-red">{{ item.properties.resources }}</span>
+              <span class="badge bg-red">{{ item.properties.resources }}</span> Resources
             </p>
           </div>
           <p v-if="geoFeatures.length == 0">No items.</p>
@@ -51,11 +60,8 @@
             <h2>About This Page</h2>
             <p>This page is in no way officially affiliated with Vic Emergency.</p>
             <p><a href="https://github.com/reillybeacom/aus-emergency-map">Fork this on Github.</a></p>
-            <p>Built with open-source tools:</p>
+            <p>Proudly built with open-source software:</p>
             <ul>
-              <li>
-                <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
-              </li>
               <li>
                 <a href="http://leafletjs.com/">Leaflet</a>
               </li>
@@ -64,6 +70,9 @@
               </li>
               <li>
                 <a href="https://vuejs.org/">Vue.js</a>
+              </li>
+              <li>
+                <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
               </li>
             </ul>
             <br/>

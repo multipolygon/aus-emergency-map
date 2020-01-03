@@ -53,36 +53,33 @@
         );
 
         var lgeo = L.layerGroup().addTo(lmap);
+        
+        var lTargetMarker = L.layerGroup().addTo(lmap);
 
         //////////////////////////////////
-
-        intial = false;
 
         new Vue({
             el: '#panel',
             data: {
-                showPanel: false,
+                showPanel: true,
                 geo: {},
                 filters: {
                     'feedType': {
-                        'incident': true,
                     },
                     'category1': {
-                        'Fire': intial,
+                        'Evacuate Immediately': true,
+                        'Fire': true,
                     },
                     'category2': {
-                        'Bushfire': intial,
                     },
                     'status': {
-                        'Under Control': intial,
-                        'Contained': intial,
-                        'Not Yet Under Control': intial,
-                        'Responding': intial,
-                        'Out Of Control': intial,
-                        'Being Controlled': intial,
+                        'Severe': true,
+                        'Not Yet Under Control': true,
+                        'Out Of Control': true,
                     },
                 },
                 filtersCount: {},
+                selected: 0,
             },
             computed: {
                 filtersSelected: function () {
@@ -227,13 +224,42 @@
                             case 'incident':   return { color: "#0000ff" };
                             case 'burn-area': return { color: "#770000" };
                             }
-                        }
+                        },
+                        onEachFeature: function (feature, layer) {
+                            layer.on('click', function (e) {
+                                vm.selectFeature(e.target.feature);
+                            }).bindPopup(function () {
+                                return layer.feature.properties.sourceTitle +
+                                    "<br/>" +
+                                    layer.feature.properties.location;
+                            }, {
+                                autoPan: false,
+                                closeButton: true,
+                                closeOnEscapeKey: true,
+                                closeOnClick: true,
+                            });
+                        },
                     }).addTo(lgeo).getBounds();
                     if (!userZoom) {
                         autoZoom = true;
-                        lmap.fitBounds(bounds);
+                        lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
                     }
                 },
+                selectFeature: function (feature) {
+                    this.selected = feature.properties.id;
+                    var lgeo = L.geoJSON(feature);
+                    var bounds = lgeo.getBounds()
+                    lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
+                    lTargetMarker.clearLayers();
+                    L.circleMarker(
+                        bounds.getCenter(),
+                        {
+                            radius: 30,
+                            color: '#FFFFE0',
+                            fillColor: '#FFFFE0'
+                        }
+                    ).addTo(lTargetMarker);
+                }
             },
             created: function () {
                 var vm = this;

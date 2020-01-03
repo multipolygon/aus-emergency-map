@@ -25,20 +25,22 @@
           <div class="circle bg-red" title="Resources">{{ totalResources }}</div>
         </div>
         <div class="inner">
-          <h1>Aus Emergency</h1>
+          <h1 v-on:click.prevent="debug()">Aus Emergency</h1>
           <h2>Filters</h2>
           <p>
             Max age:
             <input type="number" v-model="maxAge">
             hours
           </p>
-          <div v-for="(items, filter) in filters" v-bind:key="filter">
+          <div v-for="(options, filter) in filters" v-bind:key="filter">
             <h3>{{ filter }}</h3>
-            <div v-for="item in Object.keys(items)" v-bind:key="filter + item" v-bind:style="counts[filter][item] == undefined ? 'color: #AAAAAA;' : ''">
-              <label v-bind:for="filter + item" style="display: inline;">
-                <input v-bind:id="filter + item" type="checkbox" v-model:value="items[item]" style="vertical-align: middle;" />
-                {{ item }}
-                <span class="badge bg-blue" v-if="counts[filter][item] != undefined">{{ counts[filter][item] }}</span>
+            <div v-for="opt in Array.from(options).sort()" v-bind:key="filter + opt" v-bind:style="filtersCount[filter][opt] ? '' : 'color: #AAAAAA;'">
+              <label v-bind:for="filter + opt" style="display: inline;">
+                <input type="checkbox" v-bind:id="filter + opt" v-bind:value="opt" v-model="filtersSelected[filter]">
+                {{ opt }}
+                <span class="badge bg-blue" v-if="filtersCount[filter][opt]">
+                  {{ filtersCount[filter][opt] }}
+                </span>
               </label>
             </div>
           </div>
@@ -52,7 +54,7 @@
             <span class="badge bg-red">{{ totalResources }}</span>
             Total Resources
           </p>
-          <div v-for="feature in geoFeatures" v-bind:key="fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'listItem ' + (fid(feature) == selected ? 'selected' : '')">
+          <div v-for="feature in geoFeatures" v-bind:key="fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'listItem ' + (fid(feature) == featureSelected ? 'selected' : '')">
             <a v-bind:name="fid(feature)"></a>
             <h3>{{ feature.properties.sourceTitle }}</h3>
             <p v-html="feature.properties.location"></p>

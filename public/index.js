@@ -58,6 +58,13 @@
 
         //////////////////////////////////
 
+        filtersDefault = {
+            'feedType': [],
+            'category1': ['Evacuate Immediately', 'Fire'],
+            'category2': [],
+            'status': ['Severe', 'Not Yet Under Control', 'Out Of Control'],
+        };
+
         new Vue({
             el: '#panel',
             data: {
@@ -66,22 +73,9 @@
                     features: [],
                 },
                 maxAge: 6, // hours
-                filters: {
-                    'feedType': {
-                    },
-                    'category1': {
-                        'Evacuate Immediately': true,
-                        'Fire': true,
-                    },
-                    'category2': {
-                    },
-                    'status': {
-                        'Severe': true,
-                        'Not Yet Under Control': true,
-                        'Out Of Control': true,
-                    },
-                },
-                selected: 0,
+                filters: {},
+                filtersSelected: {},
+                featureSelected: 0,
                 dateLocale: "en-AU",
                 dateOptions: {
                     dateStyle: "short",
@@ -95,23 +89,7 @@
                 },
             },
             computed: {
-                filtersSelected: function (vm) {
-                    return Object.keys(vm.filters).reduce(
-                        function(filters, filter) {
-                            options = Object.keys(vm.filters[filter]).filter(
-                                function (option) {
-                                    return vm.filters[filter][option];
-                                }
-                            );
-                            if (options.length > 0) {
-                                filters[filter] = options;
-                            }
-                            return filters;
-                        },
-                        {}
-                    );
-                },
-                counts: function (vm) {
+                filtersCount: function (vm) {
                     return Object.keys(vm.filters).reduce(
                         function (filters, filter) {
                             filters[filter] = vm.geoFeatures.reduce(
@@ -132,21 +110,25 @@
                 maxAgeDate: function () {
                     return new Date(new Date() - this.maxAge * 60 * 60 * 1000);
                 },
+                activeFilters: function (vm) {
+                    return Object.keys(vm.filtersSelected).filter(
+                        function (filter) {
+                            return vm.filtersSelected[filter].length > 0;
+                        }
+                    );
+                },                
                 geoFeatures: function (vm) {
                     return vm.geo.features.filter(
                         function (feature) {
-                            if (feature.properties.hasOwnProperty('updated')) {
-                                return new Date(feature.properties.updated) > vm.maxAgeDate;
-                            }
-                        },
-                    ).filter(
-                        function (feature) {
-                            return Object.keys(vm.filtersSelected).reduce(
-                                function (show, filter) {
-                                    return show && vm.filtersSelected[filter].indexOf(feature.properties[filter]) != -1;
-                                },
-                                true
-                            );
+                            return feature.properties.hasOwnProperty('updated') &&
+                                new Date(feature.properties.updated) > vm.maxAgeDate &&
+                                vm.activeFilters.reduce(
+                                    function (show, filter) {
+                                        return show &&
+                                            vm.filtersSelected[filter].indexOf(feature.properties[filter]) != -1;
+                                    },
+                                    true
+                                );
                         }
                     ).sort(
                         function (a, b) {
@@ -196,9 +178,11 @@
                     handler: function () {
                         this.updateMap();
                     }
-                }
+                },
             },
             methods: {
+                debug: function () {
+                },
                 togglePanel: function () {
                     this.showPanel = !this.showPanel;
                 },
@@ -214,59 +198,59 @@
                 },
                 updateFilters: function () {
                     var vm = this;
-                    vm.filters = Object.keys(vm.filters).reduce(
-                        function (filters, filter) {
-                            filters[filter] = vm.geo.features.reduce(
-                                function (options, feature) {
+                    Object.keys(filtersDefault).forEach(
+                        function (filter) {
+                            if (!vm.filters.hasOwnProperty(filter)) {
+                                vm.filters[filter] = new Set(filtersDefault[filter]);
+                            }
+                            vm.geo.features.forEach(
+                                function (feature) {
                                     if (feature.properties.hasOwnProperty(filter)) {
-                                        var option = feature.properties[filter];
-                                        options[option] = vm.filters[filter][option] === true;
+                                        vm.filters[filter].add(feature.properties[filter]);
                                     }
-                                    return options;
                                 },
-                                {}
                             );
-                            return filters;
                         },
-                        {}
                     );
                 },
                 updateMap: function () {
                     var vm = this;
                     lgeo.clearLayers();
-                    //https://leafletjs.com/examples/geojson/
-                    var bounds = L.geoJSON({
-                        "type": "FeatureCollection",
-                        "features": vm.geoFeatures,
-                        "properties": {},
-                    }, {
-                        style: function(feature) {
-                            switch (feature.properties.feedType) {
-                            case 'warning': return { color: "#777700" };
-                            case 'incident':   return { color: "#0000ff" };
-                            case 'burn-area': return { color: "#770000" };
-                            }
-                        },
-                        onEachFeature: function (feature, layer) {
-                            layer.on('click', function () {
-                                vm.selectFeature(feature);
-                            }).bindPopup(function () {
-                                return vm.fhtml(feature, ['sourceTitle', 'location', 'sizeFmt', 'updated']);
-                            }, {
-                                autoPan: false,
-                                closeButton: true,
-                                closeOnEscapeKey: true,
-                                closeOnClick: true,
-                            });
-                        },
-                    }).addTo(lgeo).getBounds();
-                    if (!userZoom) {
-                        autoZoom = true;
-                        lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
+                    if (vm.geoFeatures.length > 0) {
+                        //https://leafletjs.com/examples/geojson/
+                        var bounds = L.geoJSON({
+                            "type": "FeatureCollection",
+                            "features": vm.geoFeatures,
+                            "properties": {},
+                        }, {
+                            style: function(feature) {
+                                switch (feature.properties.feedType) {
+                                case 'warning': return { color: "#777700" };
+                                case 'incident':   return { color: "#0000ff" };
+                                case 'burn-area': return { color: "#770000" };
+                                }
+                            },
+                            onEachFeature: function (feature, layer) {
+                                layer.on('click', function () {
+                                    vm.selectFeature(feature);
+                                }).bindPopup(function () {
+                                    return vm.fhtml(feature, ['sourceTitle', 'location', 'sizeFmt', 'updated']);
+                                }, {
+                                    autoPan: false,
+                                    closeButton: true,
+                                    closeOnEscapeKey: true,
+                                    closeOnClick: true,
+                                });
+                            },
+                        }).addTo(lgeo).getBounds();
+                        if (!userZoom) {
+                            autoZoom = true;
+                            lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
+                        }
                     }
                 },
                 selectFeature: function (feature) {
-                    this.selected = this.fid(feature);
+                    this.featureSelected = this.fid(feature);
                     var lgeo = L.geoJSON(feature);
                     var bounds = lgeo.getBounds()
                     lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
@@ -310,6 +294,7 @@
             },
             created: function () {
                 var vm = this;
+                vm.filtersSelected = filtersDefault;
                 vm.fetch()
                 setInterval(
                     function () {

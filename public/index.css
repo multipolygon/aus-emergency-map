@@ -109,7 +109,15 @@
     border: 1px solid #FFAA1D;
 }
 
-#panel .listItem {
+#panel ol {
+    padding: 0;
+}
+
+#panel ol li {
+    list-style: none;
+}
+
+#panel ol li.feature {
     box-sizing: border-box;
     margin: 0;
     padding: 0 0.1em;
@@ -118,6 +126,7 @@
     cursor: pointer;
 }
 
-#panel .listItem.selected {
+#panel ol li.selected {
     background-color: #FFFFE0;
 }
+

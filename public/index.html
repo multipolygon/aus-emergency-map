@@ -33,17 +33,31 @@
             <input type="number" min="0" max="999" v-model="maxAge" style="width: 3em;">
             hours
           </p>
+          <p>
+            <small>
+              <button v-on:click.prevent="filtersSet(true)">all</button>
+              <button v-on:click.prevent="filtersSet(false)">none</button>
+            </small>
+          </p>
           <div v-for="(options, filter) in filters" v-bind:key="filter">
-            <h3>{{ filter }}</h3>
-            <div v-for="opt in Array.from(options).sort()" v-bind:key="filter + opt" v-bind:style="filtersCount[filter][opt] ? '' : 'color: #AAAAAA;'">
-              <label v-bind:for="filter + opt" style="display: inline;">
-                <input type="checkbox" v-bind:id="filter + opt" v-bind:value="opt" v-model="filtersSelected[filter]">
-                {{ opt }}
+            <h3>{{ filterLabels[filter] }}</h3>
+            <p>
+              <small>
+                <button v-on:click.prevent="filtersSet(true, filter)">all</button>
+                <button v-on:click.prevent="filtersSet(false, filter)">none</button>
+              </small>
+            </p>
+            <ol class="filter-options">
+              <li v-for="opt in Array.from(options).sort()" v-bind:key="filter + opt" v-bind:style="filtersCount[filter][opt] ? '' : 'color: #AAAAAA;'">
+                <label v-bind:for="filter + opt" style="display: inline;">
+                  <input type="checkbox" v-bind:id="filter + opt" v-bind:value="opt" v-model="filtersSelected[filter]">
+                  {{ opt }}
                 <span class="badge bg-blue" v-if="filtersCount[filter][opt]">
                   {{ filtersCount[filter][opt] }}
                 </span>
-              </label>
-            </div>
+                </label>
+              </li>
+            </ol>
           </div>
           <br/>
           <h2>List</h2>
@@ -64,20 +78,22 @@
               <option>size</option>
             </select>
           </p>
-          <div v-for="feature in geoFeatures" v-bind:key="fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'listItem ' + (fid(feature) == featureSelected ? 'selected' : '')">
-            <a v-bind:name="fid(feature)"></a>
-            <h3>{{ feature.properties.sourceTitle }}</h3>
-            <p v-html="feature.properties.location"></p>
-            <p v-if="feature.properties.resources">
-              <span class="badge bg-red">{{ feature.properties.resources }}</span> Resources
-            </p>
-            <p v-if="feature.properties.sizeFmt">
-              {{ feature.properties.sizeFmt }}
-            </p>
-            <p>
-              {{ fdate(feature) }}
-            </p>
-          </div>
+          <ol>
+            <li v-for="feature in geoFeatures" v-bind:key="fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
+              <a v-bind:name="fid(feature)"></a>
+              <h3>{{ feature.properties.sourceTitle }}</h3>
+              <p v-html="feature.properties.location"></p>
+              <p v-if="feature.properties.resources">
+                <span class="badge bg-red">{{ feature.properties.resources }}</span> Resources
+              </p>
+              <p v-if="feature.properties.sizeFmt">
+                {{ feature.properties.sizeFmt }}
+              </p>
+              <p>
+                {{ fdate(feature) }}
+              </p>
+            </li>
+          </ol>
           <p v-if="geoFeatures.length == 0">No items.</p>
           <div>
             <h2>About This Page</h2>

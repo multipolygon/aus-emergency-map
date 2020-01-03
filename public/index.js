@@ -59,7 +59,7 @@
         //////////////////////////////////
 
         filtersDefault = {
-            'feedType': [],
+            'feedType': ['incident', 'warning'],
             'category1': ['Evacuate Immediately', 'Fire'],
             'category2': [],
             'status': ['Severe', 'Not Yet Under Control', 'Out Of Control'],
@@ -78,6 +78,12 @@
                 filters: {},
                 filtersSelected: {},
                 featureSelected: 0,
+                filterLabels: {
+                    'feedType': 'Type',
+                    'category1': 'Category',
+                    'category2': 'Sub-Category',
+                    'status': 'Status',
+                },
                 dateLocale: "en-AU",
                 dateOptions: {
                     dateStyle: "short",
@@ -254,10 +260,8 @@
                                 });
                             },
                         }).addTo(lgeo).getBounds();
-                        if (!userZoom) {
-                            autoZoom = true;
-                            lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
-                        }
+                        autoZoom = true;
+                        lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
                     }
                 },
                 selectFeature: function (feature) {
@@ -301,6 +305,18 @@
                         }
                     )
                     return s.join('<br>');
+                },
+                filtersSet: function (setto, f) {
+                    var vm = this;
+                    (f != undefined ? [f] : Object.keys(vm.filters)).forEach(
+                        function (filter) {
+                            var a = vm.filtersSelected[filter];
+                            a.splice(0, a.length);
+                            if (setto) {
+                                a.push(...vm.filters[filter]);
+                            }
+                        }
+                    )
                 },
             },
             created: function () {

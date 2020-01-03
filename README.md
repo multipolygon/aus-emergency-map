@@ -2,7 +2,7 @@
 
 A better data-filtering UI for the Vic Emergency data feed.
 
-<img src="./screenshot.png" width="100"/>
+<img src="./screenshot.png" style="width: 100%;"/>
 
 ## Features
 
@@ -16,17 +16,7 @@ A better data-filtering UI for the Vic Emergency data feed.
 
 Proudly built with open-source software:
 
-<ful>
-  <li>
-    <a href="http://leafletjs.com/">Leaflet</a>
-  </li>
-  <li>
-    <a href="https://www.openstreetmap.org/about">OpenStreetMap</a>
-  </li>
-  <li>
-    <a href="https://vuejs.org/">Vue.js</a>
-  </li>
-  <li>
-    <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
-  </li>
-</ul>
+- <a href="http://leafletjs.com/">Leaflet</a>
+- <a href="https://www.openstreetmap.org/about">OpenStreetMap</a>
+- <a href="https://vuejs.org/">Vue.js</a>
+- <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>

@@ -19,11 +19,17 @@
       <div id="lmap" class="split"></div>
       <div id="panel" v-bind:class="showPanel ? 'split' : 'full'">
         <div class="toggle">
-          <span style="font-size: 10px;" v-on:click.prevent="togglePanel()">MENU</span>
-          <button class="button" v-on:click.prevent="togglePanel()" title="toggle menu">&#x21C6;</button>
-          <div class="circle bg-alert" title="Data Error" v-if="!dataOk">!</div>
-          <div class="circle bg-blue" title="Items">{{ geoFeatures.length }}</div>
-          <div class="circle bg-red" title="Resources">{{ totalResources }}</div>
+          <div v-on:click.prevent="togglePanel()" title="toggle menu" style="cursor: pointer; user-select: none;">
+            <div style="font-size: 40px; line-height: 50px;">&#x21C6;</div>
+            <div style="font-size: 10px; line-height: 10px; margin-top: -12px;">MENU</div>
+          </div>
+          <div title="Items" class="circle bg-blue">{{ geoFeatures.length }}</div>
+          <div title="Resources" class="circle bg-red">{{ totalResources }}</div>
+          <div title="Reload" class="circle reload" v-on:click.prevent="fetchData()">
+            <!-- <div class="animate" v-bind:style="animateIf(dataLoading)">&#x21bb;</div> -->
+            <div v-bind:class="'animate rotate ' + (dataLoading ? 'running' : 'paused')">&#x21bb;</div>
+          </div>
+          <div title="Data Error" class="circle bg-alert" v-if="dataAlert" v-on:click.prevent="fetchData()">!</div>
         </div>
         <div class="inner">
           <h1 v-on:click.prevent="debug()">Aus Emergency</h1>
@@ -33,33 +39,56 @@
             <input type="number" min="0" max="999" v-model="maxAge" style="width: 3em;">
             hours
           </p>
-          <p>
-            <small>
-              <button v-on:click.prevent="filtersSet(true)">all</button>
-              <button v-on:click.prevent="filtersSet(false)">none</button>
-            </small>
-          </p>
-          <div v-for="(options, filter) in filters" v-bind:key="filter">
-            <h3>{{ filterLabels[filter] }}</h3>
-            <p>
+          <ol>
+            <li v-for="(obj, feedType) in filterTree" v-bind:key="feedType">
+              <label>
+                <input type="checkbox" v-model="obj._show">
+                <strong>{{ feedTypeLabel[feedType] }}</strong>
+              </label>
               <small>
-                <button v-on:click.prevent="filtersSet(true, filter)">all</button>
-                <button v-on:click.prevent="filtersSet(false, filter)">none</button>
+                <button v-on:click.prevent="filterSet(obj, '_show', true)">all</button>
+                <button v-on:click.prevent="filterSet(obj, '_show', false)">none</button>
               </small>
-            </p>
-            <ol class="filter-options">
-              <li v-for="opt in Array.from(options).sort()" v-bind:key="filter + opt" v-bind:style="filtersCount[filter][opt] ? '' : 'color: #AAAAAA;'">
-                <label v-bind:for="filter + opt" style="display: inline;">
-                  <input type="checkbox" v-bind:id="filter + opt" v-bind:value="opt" v-model="filtersSelected[filter]">
-                  {{ opt }}
-                <span class="badge bg-blue" v-if="filtersCount[filter][opt]">
-                  {{ filtersCount[filter][opt] }}
-                </span>
-                </label>
-              </li>
-            </ol>
-          </div>
-          <br/>
+              <ol>
+                <li>
+                  <em>Category</em>
+                  <ol>
+                    <li v-for="(subcategories, category) in obj.category" v-if="category != '_show'" v-bind:key="feedType + category">
+                      <label>
+                        <input type="checkbox" v-model="subcategories._show">
+                        {{ category }}
+                      </label>
+                      <ol>
+                        <li v-for="(opt, subcategory) in subcategories" v-bind:key="feedType + category + subcategory">
+                          <label v-if="subcategory != '_show'">
+                            <input type="checkbox" v-model="opt._show">
+                            {{ subcategory }}
+                            <span class="badge bg-blue" v-if="opt.count">
+                              {{ opt.count }}
+                            </span>
+                          </label>
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <em>Status</em>
+                  <ol>
+                    <li v-for="(opt, status) in obj.status" v-bind:key="feedType + status">
+                      <label v-if="status != '_show'">
+                        <input type="checkbox" v-model="opt._show">
+                        {{ status }}
+                        <span class="badge bg-blue" v-if="opt.count">
+                          {{ opt.count }}
+                        </span>
+                      </label>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </li>
+          </ol>
           <h2>List</h2>
           <p>
             <span class="badge bg-blue">{{ geoFeatures.length }}</span>

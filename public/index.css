@@ -85,10 +85,28 @@
     padding: 0;
     height: 40px;
     width: 40px;
+    line-height: 40px;
     border-radius: 20px;
     font-size: 16px;
     font-weight: bold;
-    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.circle.reload {
+    color: black;
+    background-color: #DDDDDD;
+    border: 1px solid #DDDDDD;
+    font-size: 32px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.circle.alert {
+    color: black;
+    background-color: #FFAA1D;
+    border: 1px solid #FFAA1D;
+    cursor: pointer;
 }
 
 .bg-blue {
@@ -103,18 +121,22 @@
     border: 1px solid #cc3333;
 }
 
-.bg-alert {
-    color: black;
-    background-color: #FFAA1D;
-    border: 1px solid #FFAA1D;
-}
-
 #panel ol {
     padding: 0;
 }
 
+#panel ol ol {
+    padding: 0 0 0 1em;
+}
+
 #panel ol li {
     list-style: none;
+}
+
+#panel ol li label {
+    display: inline;
+    user-select: none;
+    white-space: nowrap;
 }
 
 #panel ol li.feature {
@@ -130,3 +152,19 @@
     background-color: #FFFFE0;
 }
 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate.rotate {
+    animation: rotate 2s linear infinite;
+}
+
+.animate.paused {
+    animation-play-state: paused;
+}

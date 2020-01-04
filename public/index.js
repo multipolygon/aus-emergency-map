@@ -58,85 +58,60 @@
 
         //////////////////////////////////
 
-        filtersDefault = {
-            'feedType': ['incident', 'warning'],
-            'category1': ['Evacuate Immediately', 'Fire'],
-            'category2': [],
-            'status': ['Severe', 'Not Yet Under Control', 'Out Of Control'],
-        };
-
         new Vue({
             el: '#panel',
-            data: {
-                showPanel: true,
-                dataOk: false,
-                geo: {
-                    features: [],
-                },
-                maxAge: 6, // hours
-                sortBy: 'updated',
-                filters: {},
-                filtersSelected: {},
-                featureSelected: 0,
-                filterLabels: {
-                    'feedType': 'Type',
-                    'category1': 'Category',
-                    'category2': 'Sub-Category',
-                    'status': 'Status',
-                },
-                dateLocale: "en-AU",
-                dateOptions: {
-                    dateStyle: "short",
-                    timeStyle: "short",
-                    hour12: true,
-                    year: "numeric",
-                    month: "short",
-                    day: "numeric",
-                    hour: "numeric",
-                    minute: "numeric",
-                },
+            data () {
+                return {
+                    showPanel: true,
+                    dataLoading: false,
+                    dataAlert: false,
+                    geo: {
+                        features: [],
+                    },
+                    maxAge: 6, // hours
+                    sortBy: 'updated',
+                    filterTree: {},
+                    featureSelected: 0,
+                    dateLocale: "en-AU",
+                    dateOptions: {
+                        dateStyle: "short",
+                        timeStyle: "short",
+                        hour12: true,
+                        year: "numeric",
+                        month: "short",
+                        day: "numeric",
+                        hour: "numeric",
+                        minute: "numeric",
+                    },
+                    feedTypeLabel: {
+                        warning: 'Warning',
+                        incident: 'Incident',
+                        'burn-area': 'Burn Area',
+                    },
+                };
             },
             computed: {
-                filtersCount: function (vm) {
-                    return Object.keys(vm.filters).reduce(
-                        function (filters, filter) {
-                            filters[filter] = vm.geoFeatures.reduce(
-                                function (counts, feature) {
-                                    if (feature.properties.hasOwnProperty(filter)) {
-                                        var option = feature.properties[filter];
-                                        counts[option] = (counts[option] || 0) + 1;
-                                    }
-                                    return counts;
-                                },
-                                {}
-                            );
-                            return filters;
-                        },
-                        {}
-                    );
+                maxAgeDate: function (vm) {
+                    return new Date(new Date() - vm.maxAge * 60 * 60 * 1000);
                 },
-                maxAgeDate: function () {
-                    return new Date(new Date() - this.maxAge * 60 * 60 * 1000);
-                },
-                activeFilters: function (vm) {
-                    return Object.keys(vm.filtersSelected).filter(
-                        function (filter) {
-                            return vm.filtersSelected[filter].length > 0;
-                        }
-                    );
-                },                
-                geoFeatures: function (vm) {
+                geoFeaturesMaxAge: function (vm) {
                     return vm.geo.features.filter(
                         function (feature) {
                             return feature.properties.hasOwnProperty('updated') &&
-                                new Date(feature.properties.updated) > vm.maxAgeDate &&
-                                vm.activeFilters.reduce(
-                                    function (show, filter) {
-                                        return show &&
-                                            vm.filtersSelected[filter].indexOf(feature.properties[filter]) != -1;
-                                    },
-                                    true
-                                );
+                                new Date(feature.properties.updated) > vm.maxAgeDate;
+                        }
+                    );
+                },
+                geoFeatures: function (vm) {
+                    return vm.geoFeaturesMaxAge.filter(
+                        function (feature) {
+                            var p = feature.properties;
+                            return p.hasOwnProperty('updated') &&
+                                new Date(p.updated) > vm.maxAgeDate &&
+                                vm.filterTree[p.feedType]._show &&
+                                vm.filterTree[p.feedType].category[p.category1]._show &&
+                                vm.filterTree[p.feedType].category[p.category1][p.category2]._show &&
+                                vm.filterTree[p.feedType].status[p.status]._show;
                         }
                     ).sort(
                         function (a, b) {
@@ -183,7 +158,7 @@
                         div.classList.add('full');
                     }
                 },
-                geo: {
+                geoFeaturesMaxAge: {
                     deep: false,
                     handler: function () {
                         this.updateFilters();
@@ -204,31 +179,86 @@
                 },
                 fetchData: function () {
                     var vm = this;
-                    axios.get('./osom-geojson.json')
-                        .then(function (response) {
-                            vm.geo = response.data;
-                            vm.dataOk = true;
-                        })
-                        .catch(function () {
-                            vm.dataOk = false;
-                        });
+                    if (!vm.dataLoading) {
+                        vm.dataLoading = true;
+                        axios.get('./osom-geojson.json')
+                            .then(function (response) {
+                                vm.geo = response.data;
+                                vm.dataAlert = false;
+                                vm.dataLoaded()
+                            })
+                            .catch(function () {
+                                vm.dataAlert = true;
+                                vm.dataLoaded()
+                            });
+                    }
+                },
+                dataLoaded: function () {
+                    var vm = this;
+                    setTimeout(
+                        function () {
+                            vm.dataLoading = false;
+                        },
+                        2000
+                    );
                 },
                 updateFilters: function () {
                     var vm = this;
-                    Object.keys(filtersDefault).forEach(
-                        function (filter) {
-                            if (!vm.filters.hasOwnProperty(filter)) {
-                                vm.filters[filter] = new Set(filtersDefault[filter]);
+                    vm.filterSet(vm.filterTree, 'count', 0);
+                    vm.geoFeaturesMaxAge.forEach(
+                        function (feature) {
+                            var p = feature.properties;
+                            
+                            if (!(p.feedType in vm.filterTree)) {
+                                vm.$set(
+                                    vm.filterTree,
+                                    p.feedType,
+                                    { _show: true, category: {}, status: {} }
+                                );
                             }
-                            vm.geo.features.forEach(
-                                function (feature) {
-                                    if (feature.properties.hasOwnProperty(filter)) {
-                                        vm.filters[filter].add(feature.properties[filter]);
-                                    }
-                                },
-                            );
+                            
+                            if (!(p.category1 in vm.filterTree[p.feedType].category)) {
+                                vm.$set(
+                                    vm.filterTree[p.feedType].category,
+                                    p.category1,
+                                    { _show: true }
+                                );
+                            }
+
+                            if (!(p.category2 in vm.filterTree[p.feedType].category[p.category1])) {
+                                vm.$set(
+                                    vm.filterTree[p.feedType].category[p.category1],
+                                    p.category2,
+                                    { _show: true, count: 1 }
+                                );
+                            } else {
+                                vm.filterTree[p.feedType].category[p.category1][p.category2].count += 1;
+                            }
+
+                            if (!(p.status in vm.filterTree[p.feedType].status)) {
+                                vm.$set(
+                                    vm.filterTree[p.feedType].status,
+                                    p.status,
+                                    { _show: true, count: 1 }
+                                );
+                            } else {
+                                vm.filterTree[p.feedType].status[p.status].count += 1;
+                            }
                         },
                     );
+                },
+                filterSet: function (obj, prop, val) {
+                    var vm = this;
+                    if (typeof obj === 'object') {
+                        if (prop in obj) {
+                            obj[prop] = val;
+                        }
+                        for (var k in obj) {
+                            if (k != prop) {
+                                vm.filterSet(obj[k], prop, val);
+                            }
+                        }
+                    }
                 },
                 updateMap: function () {
                     var vm = this;
@@ -306,26 +336,16 @@
                     )
                     return s.join('<br>');
                 },
-                filtersSet: function (setto, f) {
-                    var vm = this;
-                    (f != undefined ? [f] : Object.keys(vm.filters)).forEach(
-                        function (filter) {
-                            var a = vm.filtersSelected[filter];
-                            a.splice(0, a.length);
-                            if (setto) {
-                                a.push(...vm.filters[filter]);
-                            }
-                        }
-                    )
+                animateIf: function (opt) {
+                    return 'animation-play-state: ' + (opt ? 'running' : 'paused');
                 },
             },
             created: function () {
                 var vm = this;
-                vm.filtersSelected = filtersDefault;
                 vm.fetchData()
                 setInterval(
                     function () {
-                        vm.fetch();
+                        vm.fetchData();
                     },
                     5 * 60 * 1000
                 );

@@ -63,10 +63,19 @@
             data () {
                 return {
                     showPanel: true,
-                    dataLoading: false,
-                    dataAlert: false,
-                    geo: {
-                        features: [],
+                    data: {
+                        vic: {
+                            label: 'Victoria',
+                            loading: false,
+                            alert: false,
+                            features: [],
+                        },
+                        nsw: {
+                            label: 'New South Wales',
+                            loading: false,
+                            alert: false,
+                            features: [],
+                        },
                     },
                     maxAge: 6, // hours
                     sortBy: 'updated',
@@ -95,7 +104,7 @@
                     return new Date(new Date() - vm.maxAge * 60 * 60 * 1000);
                 },
                 geoFeaturesMaxAge: function (vm) {
-                    return vm.geo.features.filter(
+                    return vm.data.vic.features.concat(vm.data.nsw.features).filter(
                         function (feature) {
                             return feature.properties.hasOwnProperty('updated') &&
                                 new Date(feature.properties.updated) > vm.maxAgeDate;
@@ -106,12 +115,12 @@
                     return vm.geoFeaturesMaxAge.filter(
                         function (feature) {
                             var p = feature.properties;
-                            return p.hasOwnProperty('updated') &&
-                                new Date(p.updated) > vm.maxAgeDate &&
-                                vm.filterTree[p.feedType]._show &&
-                                vm.filterTree[p.feedType].category[p.category1]._show &&
-                                vm.filterTree[p.feedType].category[p.category1][p.category2]._show &&
-                                vm.filterTree[p.feedType].status[p.status]._show;
+                            return vm.filterTree.hasOwnProperty(p._data_src) &&
+                                vm.filterTree[p._data_src]._show &&
+                                vm.filterTree[p._data_src][p.feedType]._show &&
+                                vm.filterTree[p._data_src][p.feedType].category[p.category1]._show &&
+                                vm.filterTree[p._data_src][p.feedType].category[p.category1][p.category2]._show &&
+                                vm.filterTree[p._data_src][p.feedType].status[p.status]._show;
                         }
                     ).sort(
                         function (a, b) {
@@ -186,30 +195,71 @@
                         100
                     );
                 },
-                fetchData: function () {
+                parseHtmlKeyPairs: function (html) {
+                    return html.split('<br />').reduce(
+                        function (obj, line) {
+                            var pair = line.split(':');
+                            var k = pair.shift().trim().toLowerCase();
+                            obj[k] = pair.join(':').trim();
+                            return obj;
+                        },
+                        {}
+                    );
+                },
+                fetchData: function (src) {
                     var vm = this;
-                    if (!vm.dataLoading) {
-                        vm.dataLoading = true;
-                        axios.get('./osom-geojson.json')
-                            .then(function (response) {
-                                vm.geo = response.data;
-                                vm.dataAlert = false;
-                                vm.dataLoaded()
-                            })
-                            .catch(function () {
-                                vm.dataAlert = true;
-                                vm.dataLoaded()
-                            });
+                    if (src === undefined) {
+                        vm.fetchData('vic');
+                        vm.fetchData('nsw');
+                    } else {
+                        if (!vm.data[src].loading) {
+                            vm.data[src].loading = true;
+                            axios.get('./' + src + '.json')
+                                .then(function (response) {
+                                    vm.data[src].features = response.data.features;
+                                    vm.data[src].features.forEach(
+                                        function (i) {
+                                            var p = i.properties;
+                                            p._data_src = src;
+                                            if (src == 'nsw') {
+                                                var d = vm.parseHtmlKeyPairs(p.description);
+                                                p.id = p.guid;
+                                                p.sourceTitle = p.title;
+                                                p.created = p.pubDate;
+                                                p.updated = d.updated || p.pubDate;
+                                                p.feedType = p.category == 'Not Applicable' ? 'incident' : 'warning';
+                                                p.category1 = p.category == 'Not Applicable' ? (d.fire == 'Yes' ? 'Fire' : 'Other') : p.category;
+                                                p.category2 = d.type || 'Other';
+                                                p.status = d.status || 'Other';
+                                                p.location = d.location || 'Unknown';
+                                                p.size = parseFloat(d.size || 0);
+                                            }
+                                        }
+                                    );
+                                    vm.data[src].alert = false;
+                                    vm.dataLoaded(src);
+                                })
+                                .catch(function () {
+                                    vm.data[src].alert = true;
+                                    vm.dataLoaded(src);
+                                });
+                        }
                     }
                 },
-                dataLoaded: function () {
+                dataLoaded: function (src) {
                     var vm = this;
                     setTimeout(
                         function () {
-                            vm.dataLoading = false;
+                            vm.data[src].loading = false;
                         },
                         2000
                     );
+                },
+                setObj: function (obj, prop, val) {
+                    if (!(prop in obj)) {
+                        this.$set(obj, prop, val);
+                    }
+                    return obj[prop];
                 },
                 updateFilters: function () {
                     var vm = this;
@@ -217,43 +267,14 @@
                     vm.geoFeaturesMaxAge.forEach(
                         function (feature) {
                             var p = feature.properties;
-                            
-                            if (!(p.feedType in vm.filterTree)) {
-                                vm.$set(
-                                    vm.filterTree,
-                                    p.feedType,
-                                    { _show: true, category: {}, status: {} }
-                                );
-                            }
-                            
-                            if (!(p.category1 in vm.filterTree[p.feedType].category)) {
-                                vm.$set(
-                                    vm.filterTree[p.feedType].category,
-                                    p.category1,
-                                    { _show: true }
-                                );
-                            }
-
-                            if (!(p.category2 in vm.filterTree[p.feedType].category[p.category1])) {
-                                vm.$set(
-                                    vm.filterTree[p.feedType].category[p.category1],
-                                    p.category2,
-                                    { _show: true, count: 1 }
-                                );
-                            } else {
-                                vm.filterTree[p.feedType].category[p.category1][p.category2].count += 1;
-                            }
-
-                            if (!(p.status in vm.filterTree[p.feedType].status)) {
-                                vm.$set(
-                                    vm.filterTree[p.feedType].status,
-                                    p.status,
-                                    { _show: true, count: 1 }
-                                );
-                            } else {
-                                vm.filterTree[p.feedType].status[p.status].count += 1;
-                            }
-                        },
+                            var src = vm.setObj(vm.filterTree, p._data_src, { _show: true });
+                            var type = vm.setObj(src, p.feedType, { _show: true, category: {}, status: {} });
+                            var cat = vm.setObj(type.category, p.category1, { _show: true });
+                            var subcat = vm.setObj(cat, p.category2, { _show: true, count: 0 });
+                            var stat = vm.setObj(type.status, p.status, { _show: true, count: 0 });
+                            subcat.count += 1;
+                            stat.count += 1;
+                        }
                     );
                 },
                 filterSet: function (obj, prop, val) {
@@ -283,14 +304,14 @@
                                 switch (feature.properties.feedType) {
                                 case 'warning': return { color: "#777700" };
                                 case 'incident':   return { color: "#0000ff" };
-                                case 'burn-area': return { color: "#770000" };
+                                case 'burn-area': return { color: "#444444" };
                                 }
                             },
                             onEachFeature: function (feature, layer) {
                                 layer.on('click', function () {
                                     vm.selectFeature(feature);
                                 }).bindPopup(function () {
-                                    return vm.fhtml(feature, ['sourceTitle', 'location', 'sizeFmt', 'updated']);
+                                    return vm.fhtml(feature, ['sourceTitle', 'location', 'updated']);
                                 }, {
                                     autoPan: false,
                                     closeButton: true,
@@ -304,6 +325,7 @@
                     }
                 },
                 selectFeature: function (feature) {
+                    console.log(this.fid(feature));
                     this.featureSelected = this.fid(feature);
                     var lgeo = L.geoJSON(feature);
                     var bounds = lgeo.getBounds()
@@ -319,7 +341,8 @@
                     ).addTo(lTargetMarker);
                 },
                 fid: function (feature) {
-                    return feature.properties.sourceFeed + feature.properties.id;
+                    var p = feature.properties;
+                    return p._data_src + p.id;
                 },
                 fdate: function (feature) {
                     if (feature.properties.hasOwnProperty('updated')) {

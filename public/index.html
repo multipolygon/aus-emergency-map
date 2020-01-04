@@ -19,9 +19,9 @@
       <div id="lmap" class="split"></div>
       <div id="panel" v-bind:class="showPanel ? 'split' : 'full'">
         <div class="toggle">
-          <div v-on:click.prevent="togglePanel()" title="toggle menu" style="cursor: pointer; user-select: none;">
-            <div style="font-size: 40px; line-height: 50px;">&#x21C6;</div>
-            <div style="font-size: 10px; line-height: 10px; margin-top: -12px;">MENU</div>
+          <div v-on:click.prevent="togglePanel()" title="toggle menu" style="cursor: pointer; user-select: none; margin: 8px 0 10px 0;">
+            <div style="font-size: 40px; line-height: 40px;">&#x21C6;</div>
+            <div style="font-size: 10px; line-height: 10px; margin-top: -5px;">MENU</div>
           </div>
           <div title="Items" class="circle bg-blue">{{ geoFeatures.length }}</div>
           <div title="Resources" class="circle bg-red">{{ totalResources }}</div>
@@ -29,7 +29,8 @@
             <!-- <div class="animate" v-bind:style="animateIf(dataLoading)">&#x21bb;</div> -->
             <div v-bind:class="'animate rotate ' + (dataLoading ? 'running' : 'paused')">&#x21bb;</div>
           </div>
-          <div title="Data Error" class="circle bg-alert" v-if="dataAlert" v-on:click.prevent="fetchData()">!</div>
+          <div title="Data Error" class="circle alert" v-if="dataAlert" v-on:click.prevent="fetchData()">!</div>
+          <div title="Info" class="circle info" v-on:click.prevent="showInfo()">?</div>
         </div>
         <div class="inner">
           <h1 v-on:click.prevent="debug()">Aus Emergency</h1>
@@ -124,10 +125,14 @@
             </li>
           </ol>
           <p v-if="geoFeatures.length == 0">No items.</p>
-          <div>
+          <div id="info">
             <h2>About This Page</h2>
-            <p>This page is in no way officially affiliated with Vic Emergency.</p>
-            <p><a href="https://github.com/reillybeacom/aus-emergency-map">Fork this on Github.</a></p>
+            <p>This page is not officially affiliated with Vic Emergency or the Victoria State Government.</p>
+            <p>
+              <a href="https://github.com/reillybeacom/aus-emergency-map">
+                Source code available on Github
+              </a>
+            </p>
             <p>Proudly built with free, open-source software:</p>
             <ul>
               <li>
@@ -143,6 +148,15 @@
                 <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
               </li>
             </ul>
+            <p style="font-size: 70%; color: grey;">
+              THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+              IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+              FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+              AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+              LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+              OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+              THE SOFTWARE.
+            </p>
             <br/>
             <br/>
           </div>

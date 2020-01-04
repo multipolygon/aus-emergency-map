@@ -177,6 +177,15 @@
                 togglePanel: function () {
                     this.showPanel = !this.showPanel;
                 },
+                showInfo: function () {
+                    this.showPanel = true;
+                    setTimeout(
+                        function () {
+                            document.getElementById("info").scrollIntoView({ behavior: 'smooth' });
+                        },
+                        100
+                    );
+                },
                 fetchData: function () {
                     var vm = this;
                     if (!vm.dataLoading) {

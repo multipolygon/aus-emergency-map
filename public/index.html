@@ -34,7 +34,7 @@
           <div title="Zoom map to current location" class="circle button small" v-on:click.prevent="zoomToUserLocation()">
             <div v-if="userLocation === null" class="mdi mdi-map-marker"></div>
             <div v-if="userLocation === true" class="mdi mdi-map-marker-check"></div>
-            <div v-if="userLocation === false" class="mdi mdi-map-marker-alert"></div>
+            <div v-if="userLocation === false" class="mdi mdi-map-marker-alert-outline"></div>
           </div>
           <div title="Zoom map to show all data" class="circle button small" v-on:click.prevent="resetZoom()">
             <div class="mdi mdi-fit-to-page"></div>

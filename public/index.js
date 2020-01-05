@@ -6,7 +6,7 @@
 (
     function() {
         var lmap = L.map(
-            'lmap',
+            'map',
             {
                 center: [-37, 145],
                 zoom: 8,
@@ -59,7 +59,7 @@
         //////////////////////////////////
 
         new Vue({
-            el: '#panel',
+            el: '#vue',
             data () {
                 return {
                     showPanel: true,
@@ -158,7 +158,7 @@
             },
             watch: {
                 showPanel: function (showPanel) {
-                    var div = document.getElementById("lmap");
+                    var div = document.getElementById("page");
                     if (showPanel) {
                         div.classList.remove('full');
                         div.classList.add('split');
@@ -166,6 +166,7 @@
                         div.classList.remove('split');
                         div.classList.add('full');
                     }
+                    setTimeout(function(){ lmap.invalidateSize(true)}, 750);
                 },
                 geoFeaturesMaxAge: {
                     deep: false,
@@ -185,7 +186,6 @@
                 },
                 togglePanel: function () {
                     this.showPanel = !this.showPanel;
-                    setTimeout(function(){ lmap.invalidateSize(true)}, 500);
                 },
                 parseHtmlKeyPairs: function (html) {
                     return html.split('<br />').reduce(

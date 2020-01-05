@@ -1,39 +1,28 @@
 @media print { body { min-width: 1000px; } .no-print, .no-print * { display: none !important; } }
 
-.body {
-    margin: 0;
-    padding: 0;
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
 }
 
-#lmap {
+#map {
     position: absolute;
     box-sizing: border-box;
     top: 0;
     right: 0;
     bottom: 0;
+}
+
+#page.full #map {
     left: 50px;
+    transition-duration: 0.4s;
 }
 
-#lmap.split {
+#page.split #map {
     left: 350px;
+    transition-duration: 0.4s;
 }
 
-#panel {
-    position: absolute;
-    box-sizing: border-box;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 50px;
-    font-family: Helvetica, Arial, Sans-Serif;
-    overflow: hidden;
-}
-
-#panel.split {
-    width: 350px;
-}
-
-#panel > #panelSidebar {
+#sidebar {
     position: absolute;
     box-sizing: border-box;
     top: 0;
@@ -43,28 +32,38 @@
     text-align: center;
     background-color: #EEEEEE;
     overflow: hidden;
+    z-index: 1000;
 }
 
-#panel > #panelSidebar > #panelToggleButton {
-    cursor: pointer;
-    user-select: none;
-    margin: 8px 0 10px 0;
-    overflow: hidden;
+#page.full #sidebar > #panelToggle > div {
+    transform: scaleX(-1);
+    transition-duration: 0.4s;
 }
 
-#panel > #panelInner {
+#page.split #sidebar > #panelToggle > div {
+    transform: scaleX(1);
+    transition-duration: 0.4s;
+}
+
+#panel {
+    position: absolute;
     box-sizing: border-box;
-    margin: 0 0 0 50px;
-    padding: 0 1em 2em 1em;
+    top: 0;
+    bottom: 0;
     width: 300px;
-    height: 100vh;
+    padding: 0 1em 2em 1em;
     overflow-x: hidden;
     overflow-y: scroll;
-    display: none;
 }
 
-#panel.split > #panelInner {
-    display: block;
+#page.full #panel {
+    left: -250px;
+    transition-duration: 0.4s;
+}
+
+#page.split #panel {
+    left: 50px;
+    transition-duration: 0.4s;
 }
 
 .badge {
@@ -86,33 +85,35 @@
     text-align: center;
     overflow: hidden;
     user-select: none;
-}
-
-.circle.reload {
     color: black;
     background-color: #DDDDDD;
-    border: 1px solid #DDDDDD;
+}
+
+.circle.button {
     font-size: 32px;
     cursor: pointer;
 }
 
 .circle.alert {
-    color: black;
-    background-color: #FFAA1D;
-    border: 1px solid #FFAA1D;
-    cursor: pointer;
+    font-size: 22px;
 }
 
-.circle.info {
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    border-radius: 15px;
+.circle.button:hover {
+    background-color: #CCCCCC;
+}
+
+.circle.reload {
     color: black;
     background-color: #DDDDDD;
-    border: 1px solid #DDDDDD;
-    margin: 10px auto;
-    cursor: pointer;
+}
+
+.circle.small {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 15px;
+    margin: 10px;
 }
 
 .bg-blue {
@@ -125,6 +126,11 @@
     color: white;
     background-color: #cc3333;
     border: 1px solid #cc3333;
+}
+
+.bg-yellow {
+    color: black;
+    background-color: #FFAA1D;
 }
 
 #panel ol {

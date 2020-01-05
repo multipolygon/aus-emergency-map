@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>Aus Emergency Map</title>
     <meta name="viewport" content="width=device-width" />
-    <meta property="og:title" content="Aus Emergency Map" />
+    <meta property="og:title" content="Australian Emergency Map" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ausemergencymap.info" />
+    <meta property="og:url" content="https://aus.emergencymap.info" />
     <meta property="og:description" content="Fire and emergency information, Australia." />
     <!-- <meta property="og:image" content="" /> -->
     <link rel="stylesheet" href="./leaflet/leaflet.css" />
@@ -15,28 +15,37 @@
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <div id="page">
-      <div id="lmap" class="split"></div>
-      <div id="panel" v-bind:class="showPanel ? 'split' : 'full'">
-        <div id="panelSidebar">
-          <div v-on:click.prevent="togglePanel()" title="toggle menu" id="panelToggleButton">
-            <div style="font-size: 40px; line-height: 40px;">&#x21C6;</div>
-            <div style="font-size: 10px; line-height: 10px; margin-top: -5px;">MENU</div>
+    <div id="page" class="split">
+      <div id="map"></div>
+      <div id="vue">
+        <div id="sidebar">
+          <div title="Menu" id="panelToggle" class="circle button" v-on:click.prevent="togglePanel()">
+            <div class="mdi mdi-menu-open"></div>
           </div>
           <div title="Items" class="circle bg-blue">{{ geoFeatures.length }}</div>
           <div title="Resources" class="circle bg-red">{{ totalResources }}</div>
-          <div title="Reload" class="circle reload" v-on:click.prevent="fetchData()">
-            <div v-bind:class="'animate rotate ' + (data.vic.loading || data.nsw.loading ? 'running' : 'paused')">&#x21bb;</div>
+          <div title="Data Error" class="circle alert bg-yellow" v-bind:style="'display: ' + (data.vic.alert || data.nsw.alert ? 'block' : 'none')" v-on:click.prevent="fetchData()">
+            <div class="mdi mdi-alert"></div>
           </div>
-          <div title="Data Error" class="circle alert" v-if="data.vic.alert || data.nsw.alert" v-on:click.prevent="fetchData()">!</div>
-          <div title="Scroll To Top" class="circle info" v-on:click.prevent="scrollTo('panelTop'); resetZoom()">&#x2302;</div>
-          <div title="Filters" class="circle info" v-on:click.prevent="scrollTo('panelFilters')">&#9745;</div>
-          <div title="List" class="circle info" v-on:click.prevent="scrollTo('panelList')">&#8801;</div>
-          <div title="Info" class="circle info" v-on:click.prevent="scrollTo('panelInfo')">?</div>
+          <div title="Reload" class="circle button" v-on:click.prevent="fetchData()" v-bind:class="'animate rotate ' + (data.vic.loading || data.nsw.loading ? 'running' : 'paused')">
+            <div class="mdi mdi-refresh"></div>
+          </div>
+          <div title="Scroll To Top" class="circle button small" v-on:click.prevent="scrollTo('panelTop'); resetZoom()">
+            <div class="mdi mdi-home"></div>
+          </div>
+          <div title="Filters" class="circle button small" v-on:click.prevent="scrollTo('panelFilters')">
+            <div class="mdi mdi-checkbox-marked"></div>
+          </div>
+          <div title="List" class="circle button small" v-on:click.prevent="scrollTo('panelList')">
+            <div class="mdi mdi-view-list"></div>
+          </div>
+          <div title="Info" class="circle button small" v-on:click.prevent="scrollTo('panelInfo')">
+            <div class="mdi mdi-help-circle"></div>
+          </div>
         </div>
-        <div id="panelInner">
+        <div id="panel">
           <span id="panelTop"></span>
-          <h1 v-on:click.prevent="debug()">Aus Emergency</h1>
+          <h1 v-on:click.prevent="debug()" style="font-size: 120%;">Australian Emergency Map</h1>
           <h2 id="panelFilters">Filters</h2>
           <p>
             Max age:
@@ -183,5 +192,6 @@
     <script src="./tokml/tokml.js"></script>
     <script src="./togpx/togpx.js"></script>
     <script src="./index.js"></script>
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.7.95/css/materialdesignicons.min.css">
   </body>
 </html>

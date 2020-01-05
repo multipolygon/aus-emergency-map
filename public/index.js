@@ -65,12 +65,14 @@
                     showPanel: true,
                     data: {
                         vic: {
+                            _show: true,
                             label: 'Victoria',
                             loading: false,
                             alert: false,
                             features: [],
                         },
                         nsw: {
+                            _show: true,
                             label: 'New South Wales',
                             loading: false,
                             alert: false,
@@ -92,11 +94,6 @@
                         hour: "numeric",
                         minute: "numeric",
                     },
-                    feedTypeLabel: {
-                        warning: 'Warning',
-                        incident: 'Incident',
-                        'burn-area': 'Burn Area',
-                    },
                 };
             },
             computed: {
@@ -115,12 +112,11 @@
                     return vm.geoFeaturesMaxAge.filter(
                         function (feature) {
                             var p = feature.properties;
-                            return vm.filterTree.hasOwnProperty(p._data_src) &&
-                                vm.filterTree[p._data_src]._show &&
-                                vm.filterTree[p._data_src][p.feedType]._show &&
-                                vm.filterTree[p._data_src][p.feedType].category[p.category1]._show &&
-                                vm.filterTree[p._data_src][p.feedType].category[p.category1][p.category2]._show &&
-                                vm.filterTree[p._data_src][p.feedType].status[p.status]._show;
+                            return vm.data[p._data_src]._show &&
+                                vm.filterTree[p.feedType]._show &&
+                                vm.filterTree[p.feedType].category[p.category1]._show &&
+                                vm.filterTree[p.feedType].category[p.category1][p.category2]._show &&
+                                vm.filterTree[p.feedType].status[p.status]._show;
                         }
                     ).sort(
                         function (a, b) {
@@ -226,6 +222,12 @@
                                                 p.location = d.location || 'Unknown';
                                                 p.size = parseFloat(d.size || 0);
                                             }
+                                            p.feedType = p.feedType.toLowerCase()
+                                            p.category1 = p.category1.toLowerCase();
+                                            p.category2 = p.category2.toLowerCase();
+                                            p.status = p.status.toLowerCase();
+                                            if (p.category1 == 'accident / rescue') p.category1 = 'rescue';
+                                            if (p.category2 == 'bush fire') p.category2 = 'bushfire';
                                         }
                                     );
                                     vm.data[src].alert = false;
@@ -259,8 +261,7 @@
                     vm.geoFeaturesMaxAge.forEach(
                         function (feature) {
                             var p = feature.properties;
-                            var src = vm.setObj(vm.filterTree, p._data_src, { _show: true });
-                            var type = vm.setObj(src, p.feedType, { _show: true, category: {}, status: {} });
+                            var type = vm.setObj(vm.filterTree, p.feedType, { _show: true, category: {}, status: {} });
                             var cat = vm.setObj(type.category, p.category1, { _show: true });
                             var subcat = vm.setObj(cat, p.category2, { _show: true, count: 0 });
                             var stat = vm.setObj(type.status, p.status, { _show: true, count: 0 });

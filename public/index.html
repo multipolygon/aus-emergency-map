@@ -57,57 +57,57 @@
             <input type="range" min="0" value="10" max="100" step="1" v-model.lazy="maxAge" title="Max age (hours)">
           </p>
           <ol>
-            <li v-for="src in ['vic', 'nsw']" v-if="src in filterTree" v-bind:key="src">
+            <li v-for="(obj, src) in data" v-bind:key="src">
               <label>
-                <input type="checkbox" v-model="filterTree[src]._show">
-                <strong style="font-size: 110%;">{{ data[src].label }}</strong>
+                <input type="checkbox" v-model="data[src]._show">
+                {{ data[src].label }}
               </label>
+            </li>
+          </ol>
+          <ol>
+            <li v-for="(obj, feedType) in filterTree" v-if="feedType != '_show'" v-bind:key="feedType">
+              <label>
+                <input type="checkbox" v-model="obj._show">
+                <strong>{{ feedType }}</strong>
+              </label>
+              <small>
+                <button v-on:click.prevent="filterSet(obj, '_show', true)">all</button>
+                <button v-on:click.prevent="filterSet(obj, '_show', false)">none</button>
+              </small>
               <ol>
-                <li v-for="(obj, feedType) in filterTree[src]" v-if="feedType != '_show'" v-bind:key="feedType">
-                  <label>
-                    <input type="checkbox" v-model="obj._show">
-                    <strong>{{ feedTypeLabel[feedType] }}</strong>
-                  </label>
-                  <small>
-                    <button v-on:click.prevent="filterSet(obj, '_show', true)">all</button>
-                    <button v-on:click.prevent="filterSet(obj, '_show', false)">none</button>
-                  </small>
+                <li>
+                  <em>Category</em>
                   <ol>
-                    <li>
-                      <em>Category</em>
+                    <li v-for="(subcategories, category) in obj.category" v-if="category != '_show'" v-bind:key="feedType + category">
+                      <label>
+                        <input type="checkbox" v-model="subcategories._show">
+                        {{ category }}
+                      </label>
                       <ol>
-                        <li v-for="(subcategories, category) in obj.category" v-if="category != '_show'" v-bind:key="feedType + category">
-                          <label>
-                            <input type="checkbox" v-model="subcategories._show">
-                            {{ category }}
-                          </label>
-                          <ol>
-                            <li v-for="(opt, subcategory) in subcategories" v-bind:key="feedType + category + subcategory">
-                              <label v-if="subcategory != '_show'">
-                                <input type="checkbox" v-model="opt._show">
-                                {{ subcategory }}
-                                <span class="badge bg-blue" v-if="opt.count">
-                                  {{ opt.count }}
-                                </span>
-                              </label>
-                            </li>
-                          </ol>
-                        </li>
-                      </ol>
-                    </li>
-                    <li>
-                      <em>Status</em>
-                      <ol>
-                        <li v-for="(opt, status) in obj.status" v-bind:key="feedType + status">
-                          <label v-if="status != '_show'">
+                        <li v-for="(opt, subcategory) in subcategories" v-bind:key="feedType + category + subcategory">
+                          <label v-if="subcategory != '_show'">
                             <input type="checkbox" v-model="opt._show">
-                            {{ status }}
+                            {{ subcategory }}
                             <span class="badge bg-blue" v-if="opt.count">
                               {{ opt.count }}
                             </span>
                           </label>
                         </li>
                       </ol>
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <em>Status</em>
+                  <ol>
+                    <li v-for="(opt, status) in obj.status" v-bind:key="feedType + status">
+                      <label v-if="status != '_show'">
+                        <input type="checkbox" v-model="opt._show">
+                        {{ status }}
+                        <span class="badge bg-blue" v-if="opt.count">
+                          {{ opt.count }}
+                        </span>
+                      </label>
                     </li>
                   </ol>
                 </li>

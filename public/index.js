@@ -152,7 +152,12 @@ var vue = new Vue({
             setTimeout(
                 function() {
                     lmap.invalidateSize(true);
-                    vm.updateMap();
+                    setTimeout(
+                        function () {
+                            vm.updateMap();
+                        },
+                        250
+                    );
                 },
                 750
             );

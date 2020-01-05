@@ -79,6 +79,7 @@ var vue = new Vue({
                 hour: "numeric",
                 minute: "numeric",
             },
+            mapDataBounds: null,
             userLocation: null,
         };
     },
@@ -196,7 +197,12 @@ var vue = new Vue({
             var vm = this;
             if (src === undefined) {
                 vm.fetchData('vic');
-                vm.fetchData('nsw');
+                setTimeout(
+                    function() {
+                        vm.fetchData('nsw');
+                    },
+                    1000
+                );
             } else {
                 if (!vm.data[src].loading) {
                     vm.data[src].loading = true;
@@ -286,7 +292,7 @@ var vue = new Vue({
             lgeo.clearLayers();
             if (vm.geoFeatures.length > 0) {
                 //https://leafletjs.com/examples/geojson/
-                var bounds = L.geoJSON({
+                vm.mapDataBounds = L.geoJSON({
                     "type": "FeatureCollection",
                     "features": vm.geoFeatures,
                     "properties": {},
@@ -313,13 +319,19 @@ var vue = new Vue({
                 }).addTo(lgeo).getBounds();
                 if (!userZoom) {
                     autoZoom = true;
-                    lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
+                    lmap.stop();
+                    vm.zoomMap();
                 }
             }
         },
+        zoomMap: function () {
+            if (this.mapDataBounds) {
+                lmap.fitBounds(this.mapDataBounds, { maxZoom: 10, animate: true, duration: 1 });
+            };
+        },
         resetZoom: function () {
             userZoom = false;
-            this.updateMap();
+            this.zoomMap();
         },
         zoomToUserLocation: function () {
             userZoom = true;

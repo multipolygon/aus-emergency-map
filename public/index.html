@@ -31,8 +31,13 @@
           <div title="Reload" class="circle button" v-on:click.prevent="fetchData()" v-bind:class="'animate rotate ' + (data.vic.loading || data.nsw.loading ? 'running' : 'paused')">
             <div class="mdi mdi-refresh"></div>
           </div>
-          <div title="Scroll To Top" class="circle button small" v-on:click.prevent="scrollTo('panelTop'); resetZoom()">
-            <div class="mdi mdi-home"></div>
+          <div title="Zoom map to current location" class="circle button small" v-on:click.prevent="zoomToUserLocation()">
+            <div v-if="userLocation === null" class="mdi mdi-map-marker"></div>
+            <div v-if="userLocation === true" class="mdi mdi-map-marker-check"></div>
+            <div v-if="userLocation === false" class="mdi mdi-map-marker-alert"></div>
+          </div>
+          <div title="Zoom map to show all data" class="circle button small" v-on:click.prevent="resetZoom()">
+            <div class="mdi mdi-fit-to-page"></div>
           </div>
           <div title="Filters" class="circle button small" v-on:click.prevent="scrollTo('panelFilters')">
             <div class="mdi mdi-checkbox-marked"></div>

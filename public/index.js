@@ -185,15 +185,7 @@
                 },
                 togglePanel: function () {
                     this.showPanel = !this.showPanel;
-                },
-                showInfo: function () {
-                    this.showPanel = true;
-                    setTimeout(
-                        function () {
-                            document.getElementById("info").scrollIntoView({ behavior: 'smooth' });
-                        },
-                        100
-                    );
+                    setTimeout(function(){ lmap.invalidateSize(true)}, 500);
                 },
                 parseHtmlKeyPairs: function (html) {
                     return html.split('<br />').reduce(
@@ -309,7 +301,7 @@
                             },
                             onEachFeature: function (feature, layer) {
                                 layer.on('click', function () {
-                                    vm.selectFeature(feature);
+                                    vm.selectFeature(feature, true);
                                 }).bindPopup(function () {
                                     return vm.fhtml(feature, ['sourceTitle', 'location', 'updated']);
                                 }, {
@@ -320,13 +312,19 @@
                                 });
                             },
                         }).addTo(lgeo).getBounds();
-                        autoZoom = true;
-                        lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
+                        if (!userZoom) {
+                            autoZoom = true;
+                            lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
+                        }
                     }
                 },
-                selectFeature: function (feature) {
-                    console.log(this.fid(feature));
-                    this.featureSelected = this.fid(feature);
+                resetZoom: function () {
+                    userZoom = false;
+                    this.updateMap();
+                },
+                selectFeature: function (feature, scroll) {
+                    var fid = this.fid(feature);
+                    this.featureSelected = fid;
                     var lgeo = L.geoJSON(feature);
                     var bounds = lgeo.getBounds()
                     lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
@@ -339,6 +337,9 @@
                             fillColor: '#FFFFE0'
                         }
                     ).addTo(lTargetMarker);
+                    if (scroll && this.showPanel) {
+                        this.scrollTo("featureListItem" + fid);
+                    }
                 },
                 fid: function (feature) {
                     var p = feature.properties;
@@ -368,9 +369,16 @@
                     )
                     return s.join('<br>');
                 },
-                animateIf: function (opt) {
-                    return 'animation-play-state: ' + (opt ? 'running' : 'paused');
+                scrollTo: function (id) {
+                    this.showPanel = true;
+                    setTimeout(
+                        function () {
+                            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+                        },
+                        100
+                    );
                 },
+                
             },
             created: function () {
                 var vm = this;

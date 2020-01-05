@@ -18,8 +18,8 @@
     <div id="page">
       <div id="lmap" class="split"></div>
       <div id="panel" v-bind:class="showPanel ? 'split' : 'full'">
-        <div class="toggle">
-          <div v-on:click.prevent="togglePanel()" title="toggle menu" style="cursor: pointer; user-select: none; margin: 8px 0 10px 0;">
+        <div id="panelSidebar">
+          <div v-on:click.prevent="togglePanel()" title="toggle menu" id="panelToggleButton">
             <div style="font-size: 40px; line-height: 40px;">&#x21C6;</div>
             <div style="font-size: 10px; line-height: 10px; margin-top: -5px;">MENU</div>
           </div>
@@ -29,15 +29,22 @@
             <div v-bind:class="'animate rotate ' + (data.vic.loading || data.nsw.loading ? 'running' : 'paused')">&#x21bb;</div>
           </div>
           <div title="Data Error" class="circle alert" v-if="data.vic.alert || data.nsw.alert" v-on:click.prevent="fetchData()">!</div>
-          <div title="Info" class="circle info" v-on:click.prevent="showInfo()">?</div>
+          <div title="Scroll To Top" class="circle info" v-on:click.prevent="scrollTo('panelTop'); resetZoom()">&#x2302;</div>
+          <div title="Filters" class="circle info" v-on:click.prevent="scrollTo('panelFilters')">&#9745;</div>
+          <div title="List" class="circle info" v-on:click.prevent="scrollTo('panelList')">&#8801;</div>
+          <div title="Info" class="circle info" v-on:click.prevent="scrollTo('panelInfo')">?</div>
         </div>
-        <div class="inner">
+        <div id="panelInner">
+          <span id="panelTop"></span>
           <h1 v-on:click.prevent="debug()">Aus Emergency</h1>
-          <h2>Filters</h2>
+          <h2 id="panelFilters">Filters</h2>
           <p>
             Max age:
-            <input type="number" min="0" max="999" v-model="maxAge" style="width: 3em;">
+            <input type="number" min="0" max="100" step="1" v-model.lazy="maxAge" style="width: 3em;">
             hours
+          </p>
+          <p>
+            <input type="range" min="0" value="10" max="100" step="1" v-model.lazy="maxAge" title="Max age (hours)">
           </p>
           <ol>
             <li v-for="src in ['vic', 'nsw']" v-if="src in filterTree" v-bind:key="src">
@@ -97,7 +104,7 @@
               </ol>
             </li>
           </ol>
-          <h2>List</h2>
+          <h2 id="panelList">List</h2>
           <p>
             <span class="badge bg-blue">{{ geoFeatures.length }}</span>
             Total Items
@@ -116,7 +123,7 @@
             </select>
           </p>
           <ol>
-            <li v-for="feature in geoFeatures" v-bind:key="fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
+            <li v-for="feature in geoFeatures" v-bind:key="fid(feature)" v-bind:id="'featureListItem' + fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
               <h3>{{ feature.properties.sourceTitle }}</h3>
               <p v-html="feature.properties.location"></p>
               <p v-if="feature.properties.resources">
@@ -131,9 +138,9 @@
             </li>
           </ol>
           <p v-if="geoFeatures.length == 0">No items.</p>
-          <div id="info">
+          <div id="panelInfo">
             <h2>About This Page</h2>
-            <p>This page is not officially affiliated with Vic Emergency or the Victoria State Government.</p>
+            <p>This page is in no way officially affiliated with any State Government or data provider.</p>
             <p>
               <a href="https://github.com/reillybeacom/aus-emergency-map">
                 Source code available on Github

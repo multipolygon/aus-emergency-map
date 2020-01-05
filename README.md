@@ -25,7 +25,7 @@ Proudly built with free, open-source software:
 
 ## Notice
 
-This page is not officially affiliated with Vic Emergency or the Victoria State Government.
+This page is in no way officially affiliated with any State Government or data provider.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

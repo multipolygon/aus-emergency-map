@@ -61,6 +61,12 @@
           <p>
             <input type="range" min="0" value="10" max="100" step="1" v-model.lazy="maxAge" title="Max age (hours)">
           </p>
+          <p>
+            <label>
+              <input type="checkbox" v-model="fadeWithAge">
+              Fade with age
+            </label>
+          </p>
           <ol>
             <li v-for="(obj, src) in data" v-bind:key="src">
               <label>

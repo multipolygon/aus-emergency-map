@@ -17,9 +17,10 @@ var lmap = L.map(
 );
 
 L.tileLayer(
-    'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+    '//{s}.tile.osm.org/{z}/{x}/{y}.png',
     {
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        subdomains: 'abc',
+        attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
     }
 ).addTo(lmap);
 
@@ -41,7 +42,11 @@ var lgeo = L.layerGroup().addTo(lmap);
 
 var lTargetMarker = L.layerGroup().addTo(lmap);
 
-//////////////////////////////////
+var mapColor = {
+    warning: "#FFFF00",
+    incident: "#0000FF",
+    'burn-area': "#333333",
+}
 
 var vue = new Vue({
     el: '#vue',
@@ -65,6 +70,7 @@ var vue = new Vue({
                 },
             },
             maxAge: 6, // hours
+            fadeWithAge: true,
             sortBy: 'updated',
             filterTree: {},
             featureSelected: 0,
@@ -84,14 +90,23 @@ var vue = new Vue({
         };
     },
     computed: {
-        maxAgeDate: function (vm) {
-            return new Date(new Date() - vm.maxAge * 60 * 60 * 1000);
-        },
         geoFeaturesMaxAge: function (vm) {
+            var now = new Date();
+            var maxAge = vm.maxAge * 60 * 60 * 1000;
             return vm.data.vic.features.concat(vm.data.nsw.features).filter(
                 function (feature) {
-                    return feature.properties.hasOwnProperty('updated') &&
-                        new Date(feature.properties.updated) > vm.maxAgeDate;
+                    if (feature.properties.hasOwnProperty('updated')) {
+                        try {
+                            var age = now - (new Date(feature.properties.updated));
+                        } catch {
+                            return false;
+                        }
+                        if (age < maxAge) {
+                            feature.properties._opacity = age <= 0 ? 1 : 1 - (age / maxAge / 1.1);
+                            return true;
+                        }
+                    }
+                    return false;
                 }
             );
         },
@@ -175,6 +190,9 @@ var vue = new Vue({
                 this.updateMap();
             }
         },
+        fadeWithAge: function () {
+            this.updateMap();
+        }
     },
     methods: {
         debug: function () {
@@ -289,6 +307,7 @@ var vue = new Vue({
         },
         updateMap: function () {
             var vm = this;
+            var maxAge = vm.maxAge * 60 * 60 * 1000;
             lgeo.clearLayers();
             if (vm.geoFeatures.length > 0) {
                 //https://leafletjs.com/examples/geojson/
@@ -297,11 +316,15 @@ var vue = new Vue({
                     "features": vm.geoFeatures,
                     "properties": {},
                 }, {
+                    pointToLayer: function(feature, latlng) {
+                        return L.circleMarker(latlng, { radius: 7 });
+                    },
                     style: function(feature) {
-                        switch (feature.properties.feedType) {
-                        case 'warning': return { color: "#777700" };
-                        case 'incident':   return { color: "#0000ff" };
-                        case 'burn-area': return { color: "#444444" };
+                        return {
+                            weight: 2,
+                            color: mapColor[feature.properties.feedType] || mapColor['incident'],
+                            opacity: (vm.fadeWithAge ? feature.properties._opacity : 1) * (feature.geometry.type == 'Point' ? 1 : 0.4),
+                            fillOpacity: (vm.fadeWithAge ? feature.properties._opacity : 1) * (feature.geometry.type == 'Point' ? 0.8 : 0.3),
                         }
                     },
                     onEachFeature: function (feature, layer) {

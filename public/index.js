@@ -1,6 +1,5 @@
 /* globals
-   L Vue
-   axios tokml togpx
+   L Vue axios
 */
 
 var lmap = L.map(
@@ -41,18 +40,6 @@ lmap.on(
 var lgeo = L.layerGroup().addTo(lmap);
 
 var lTargetMarker = L.layerGroup().addTo(lmap);
-
-function objTreeSetProp(obj, prop, val) {
-    var vm = this;
-    if (typeof obj === 'object') {
-        obj[prop] = val;
-        for (var k in obj) {
-            if (k != prop) {
-                objTreeSetProp(obj[k], prop, val);
-            }
-        }
-    }
-};
 
 Vue.component('checkbox-toggles', {
     props: ['obj', 'parents'],
@@ -95,6 +82,7 @@ var vue = new Vue({
             maxAge: 6, // hours
             fadeWithAge: true,
             sortBy: 'updated',
+            loadDefault: true,
             filterTree: {
                 incident: { _show: true, _color: "#CC3333", category: {}, status: {} },
                 warning: { _show: true, _color: "#FFAA1D", category: {}, status: {} },
@@ -114,6 +102,7 @@ var vue = new Vue({
             },
             mapDataBounds: null,
             userLocation: null,
+            sharable: false,
         };
     },
     computed: {
@@ -205,6 +194,12 @@ var vue = new Vue({
                 750
             );
         },
+        filterTree: {
+            deep: true,
+            handler: function () {
+                this.saveFilterTree();
+            }
+        },
         featuresAgeFiltered: {
             deep: false,
             handler: function () {
@@ -265,7 +260,7 @@ var vue = new Vue({
                                         try {
                                             p._age = now - (new Date(p.updated));
                                         } catch {
-                                            console.log('date parse error');
+                                            // console.log('date parse error');
                                         }
                                     }
                                     if (src == 'nsw') {
@@ -292,6 +287,7 @@ var vue = new Vue({
                                         p.feedType = 'warning';
                                         p.category1 = 'weather';
                                     }
+                                    p._geom_type = i.geometry.type;
                                 }
                             );
                             vm.data[src].alert = false;
@@ -319,22 +315,46 @@ var vue = new Vue({
             }
             return obj[prop];
         },
+        saveFilterTree: function () {
+            var vm = this;
+            var json = JSON.stringify(objPack(vm.filterTree, '_show', true));
+            var param = encodeURIComponent(json);
+            vm.sharable = param.length < 1000;
+            history.replaceState("", document.title, window.location.pathname + (vm.sharable ? '?filter=' + param : ''));
+            Cookies.set('filter', json, { expires: 30 * 24 * 60 * 60 });
+        },
+        loadFilterTree: function () {
+            var vm = this;
+            var param = getSearchParam('filter');
+            var obj = null;
+            if (!param) {
+                param = Cookies('filter');
+            }
+            if (param) {
+                obj = JSON.parse(param);
+                if (obj && typeof obj === 'object') {
+                    objTreeSetProp(vm.filterTree, '_show', false);
+                    objUnpack(obj, vm.filterTree, '_show', true);
+                    vm.loadDefault = false;
+                }
+            }
+        },
         updateFilterTree: function () {
             var vm = this;
             vm.featuresAgeFiltered.forEach(
                 function (feature) {
                     var p = feature.properties;
                     var type = vm.filterTree[p.feedType];
-                    var cat = vm.setObj(type.category, p.category1, { _show: type._show });
-                    var subcat = vm.setObj(cat, p.category2, { _show: cat._show });
-                    var stat = vm.setObj(type.status, p.status, { _show: type._show });
+                    var cat = vm.setObj(type.category, p.category1, { _show: vm.loadDefault && type._show });
+                    var subcat = vm.setObj(cat, p.category2, { _show: vm.loadDefault && cat._show });
+                    var stat = vm.setObj(type.status, p.status, { _show: vm.loadDefault && type._show });
                 }
             );
         },
         updateFilterTreeCounts: function () {
             var vm = this;
-            objTreeSetProp(vm.filterTree, '_count', 0);
-            objTreeSetProp(vm.filterTree, '_resources', 0);
+            objTreeSetProp(vm.filterTree, '_count', 0, true);
+            objTreeSetProp(vm.filterTree, '_resources', 0, true);
             vm.featuresFiltered.forEach(
                 function (feature) {
                     var p = feature.properties;
@@ -366,16 +386,18 @@ var vue = new Vue({
                     "properties": {},
                 }, {
                     pointToLayer: function(feature, latlng) {
-                        return L.circleMarker(latlng, { radius: 7 });
+                        if (feature.properties._geom_type == 'Point') {
+                            return L.circleMarker(latlng, { radius: 7 });
+                        }
                     },
                     style: function(feature) {
                         var p = feature.properties;
                         var opacity = vm.fadeWithAge && p._age > 0 ? 1 - (p._age / vm.maxAge_ms) : 1;
                         return {
-                            weight: 2,
+                            weight: (p._geom_type == 'Point' ? 0 : 2),
                             color: vm.filterTree[p.feedType]._color,
                             opacity: opacity,
-                            fillOpacity: opacity * 0.3,
+                            fillOpacity: opacity * (p._geom_type == 'Point' ? 1 : 0.3),
                         }
                     },
                     onEachFeature: function (feature, layer) {
@@ -472,6 +494,7 @@ var vue = new Vue({
     },
     created: function () {
         var vm = this;
+        vm.loadFilterTree()
         vm.fetchData()
         setInterval(
             function () {
@@ -492,10 +515,10 @@ lmap.on(
         L.circleMarker(
             e.latlng,
             {
-                radius: e.accuracy / 2,
-                opacity: 0.4,
+                radius: 7,
                 color: '#00FF00',
-                fillColor: 'transparent',
+                opacity: 1,
+                fillOpacity: 0.9,
             }
         ).addTo(llocation);
     }

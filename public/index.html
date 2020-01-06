@@ -50,6 +50,9 @@
           <div title="Info" class="circle button small" v-on:click.prevent="scrollTo('panelInfo')">
             <div class="mdi mdi-help-circle"></div>
           </div>
+          <div title="Share URL" v-if="sharable" class="circle button small" v-on:click.prevent="prompt('Shareable URL for currently selected filters:', [window.location])">
+            <div class="mdi mdi-link-box-variant"></div>
+          </div>
         </div>
         <div id="panel">
           <span id="panelTop"></span>
@@ -102,7 +105,7 @@
                         <input type="checkbox" v-model="subcategories._show" v-on:change.lazy="obj._show = obj._show || subcategories._show">
                         {{ category }}
                       </label>
-                      <checkbox-toggles v-bind:obj="subcategories" v-bind:parents="[obj, obj.category]"></checkbox-toggles>
+                      <checkbox-toggles v-bind:obj="subcategories" v-bind:parents="[obj, subcategories]"></checkbox-toggles>
                       <small v-if="subcategories._count" v-bind:class="'badge feature-' + feedType">{{ subcategories._count }}</small>
                       <small v-if="subcategories._resources" class="badge feature-resources">{{ subcategories._resources }}</small>
                       <ol>
@@ -168,7 +171,7 @@
           <p v-if="featuresFiltered.length == 0">No items.</p>
           <div id="panelInfo">
             <h2>About This Page</h2>
-            <p>This page is in no way officially affiliated with any State Government or data provider.</p>
+            <p>This page is in no way officially affiliated with any State Government or data source.</p>
             <p>
               <a href="https://github.com/reillybeacom/aus-emergency-map">
                 Source code available on Github
@@ -208,8 +211,10 @@
     <script src="./leaflet/leaflet.js"></script>
     <script src="./leaflet.fullscreen/Control.FullScreen.js"></script>
     <script src="./vue/vue.min.js"></script>
+    <script src="./cookies/cookies.js"></script>
     <script src="./tokml/tokml.js"></script>
     <script src="./togpx/togpx.js"></script>
+    <script src="./utils.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>

@@ -23,7 +23,7 @@
           <div title="Menu" id="panelToggle" class="circle button" v-on:click.prevent="togglePanel()">
             <div class="mdi mdi-menu-open"></div>
           </div>
-          <div title="Items" class="circle bg-blue">{{ geoFeatures.length }}</div>
+          <div title="Items" class="circle bg-blue">{{ featuresFiltered.length }}</div>
           <div title="Resources" class="circle bg-red">{{ totalResources }}</div>
           <div title="Data Error" class="circle alert bg-yellow" v-bind:style="'display: ' + (data.vic.alert || data.nsw.alert ? 'block' : 'none')" v-on:click.prevent="fetchData()">
             <div class="mdi mdi-alert"></div>
@@ -127,7 +127,7 @@
           </ol>
           <h2 id="panelList">List</h2>
           <p>
-            <span class="badge bg-blue">{{ geoFeatures.length }}</span>
+            <span class="badge bg-blue">{{ featuresFiltered.length }}</span>
             Total Items
           </p>
           <p>
@@ -144,7 +144,7 @@
             </select>
           </p>
           <ol>
-            <li v-for="feature in geoFeatures" v-bind:key="fid(feature)" v-bind:id="'featureListItem' + fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
+            <li v-for="feature in featuresSorted" v-bind:key="fid(feature)" v-bind:id="'featureListItem' + fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
               <h3>{{ feature.properties.sourceTitle }}</h3>
               <p v-html="feature.properties.location"></p>
               <p v-if="feature.properties.resources">
@@ -158,7 +158,7 @@
               </p>
             </li>
           </ol>
-          <p v-if="geoFeatures.length == 0">No items.</p>
+          <p v-if="featuresFiltered.length == 0">No items.</p>
           <div id="panelInfo">
             <h2>About This Page</h2>
             <p>This page is in no way officially affiliated with any State Government or data provider.</p>

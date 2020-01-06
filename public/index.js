@@ -90,37 +90,25 @@ var vue = new Vue({
         };
     },
     computed: {
-        geoFeaturesMaxAge: function (vm) {
-            var now = new Date();
-            var maxAge = vm.maxAge * 60 * 60 * 1000;
-            return vm.data.vic.features.concat(vm.data.nsw.features).filter(
-                function (feature) {
-                    if (feature.properties.hasOwnProperty('updated')) {
-                        try {
-                            var age = now - (new Date(feature.properties.updated));
-                        } catch {
-                            return false;
-                        }
-                        if (age < maxAge) {
-                            feature.properties._opacity = age <= 0 ? 1 : 1 - (age / maxAge / 1.1);
-                            return true;
-                        }
-                    }
-                    return false;
-                }
+        maxAge_ms: function (vm) {
+            return vm.maxAge * 60 * 60 * 1000;
+        },
+        featuresAgeFiltered: function (vm) {
+            return Object.keys(vm.data).reduce(
+                function (features, src) {
+                    return features.concat(
+                        vm.data[src].features.filter(
+                            function (feature) {
+                                return feature.properties._age < vm.maxAge_ms;
+                            }
+                        )
+                    );
+                },
+                []
             );
         },
-        geoFeatures: function (vm) {
-            return vm.geoFeaturesMaxAge.filter(
-                function (feature) {
-                    var p = feature.properties;
-                    return vm.data[p._data_src]._show &&
-                        vm.filterTree[p.feedType]._show &&
-                        vm.filterTree[p.feedType].category[p.category1]._show &&
-                        vm.filterTree[p.feedType].category[p.category1][p.category2]._show &&
-                        vm.filterTree[p.feedType].status[p.status]._show;
-                }
-            ).sort(
+        featuresSorted : function (vm) {
+            return vm.featuresAgeFiltered.sort(
                 function (a, b) {
                     var k = vm.sortBy;
                     var a = a.properties;
@@ -142,8 +130,20 @@ var vue = new Vue({
                 }
             );
         },
+        featuresFiltered: function (vm) {
+            return vm.featuresAgeFiltered.filter(
+                function (feature) {
+                    var p = feature.properties;
+                    return vm.data[p._data_src]._show &&
+                        vm.filterTree[p.feedType]._show &&
+                        vm.filterTree[p.feedType].category[p.category1]._show &&
+                        vm.filterTree[p.feedType].category[p.category1][p.category2]._show &&
+                        vm.filterTree[p.feedType].status[p.status]._show;
+                }
+            )
+        },
         totalResources: function (vm) {
-            return vm.geoFeatures.reduce(
+            return vm.featuresFiltered.reduce(
                 function (n, feature) {
                     if (feature.properties.hasOwnProperty('resources')) {
                         n += feature.properties.resources;
@@ -178,13 +178,13 @@ var vue = new Vue({
                 750
             );
         },
-        geoFeaturesMaxAge: {
+        featuresAgeFiltered: {
             deep: false,
             handler: function () {
                 this.updateFilters();
             }
         },
-        geoFeatures: {
+        featuresFiltered: {
             deep: false,
             handler: function () {
                 this.updateMap();
@@ -200,7 +200,7 @@ var vue = new Vue({
         togglePanel: function () {
             this.showPanel = !this.showPanel;
         },
-        parseHtmlKeyPairs: function (html) {
+        parseHtmlData: function (html) {
             return html.split('<br />').reduce(
                 function (obj, line) {
                     var pair = line.split(':');
@@ -226,13 +226,22 @@ var vue = new Vue({
                     vm.data[src].loading = true;
                     axios.get('./' + src + '.json')
                         .then(function (response) {
+                            var now = new Date();
                             vm.data[src].features = response.data.features;
                             vm.data[src].features.forEach(
                                 function (i) {
                                     var p = i.properties;
                                     p._data_src = src;
+                                    p._age = 0;
+                                    if (p.hasOwnProperty('updated')) {
+                                        try {
+                                            p._age = now - (new Date(p.updated));
+                                        } catch {
+                                            console.log('date parse error');
+                                        }
+                                    }
                                     if (src == 'nsw') {
-                                        var d = vm.parseHtmlKeyPairs(p.description);
+                                        var d = vm.parseHtmlData(p.description);
                                         p.id = p.guid;
                                         p.sourceTitle = p.title;
                                         p.created = p.pubDate;
@@ -280,7 +289,7 @@ var vue = new Vue({
         updateFilters: function () {
             var vm = this;
             vm.filterSet(vm.filterTree, 'count', 0);
-            vm.geoFeaturesMaxAge.forEach(
+            vm.featuresAgeFiltered.forEach(
                 function (feature) {
                     var p = feature.properties;
                     var type = vm.setObj(vm.filterTree, p.feedType, { _show: true, category: {}, status: {} });
@@ -307,24 +316,25 @@ var vue = new Vue({
         },
         updateMap: function () {
             var vm = this;
-            var maxAge = vm.maxAge * 60 * 60 * 1000;
             lgeo.clearLayers();
-            if (vm.geoFeatures.length > 0) {
+            if (vm.featuresFiltered.length > 0) {
                 //https://leafletjs.com/examples/geojson/
                 vm.mapDataBounds = L.geoJSON({
                     "type": "FeatureCollection",
-                    "features": vm.geoFeatures,
+                    "features": vm.featuresFiltered,
                     "properties": {},
                 }, {
                     pointToLayer: function(feature, latlng) {
                         return L.circleMarker(latlng, { radius: 7 });
                     },
                     style: function(feature) {
+                        var p = feature.properties;
+                        var opacity = vm.fadeWithAge && p._age > 0 ? 1 - (p._age / vm.maxAge_ms) : 1;
                         return {
                             weight: 2,
-                            color: mapColor[feature.properties.feedType] || mapColor['incident'],
-                            opacity: (vm.fadeWithAge ? feature.properties._opacity : 1) * (feature.geometry.type == 'Point' ? 1 : 0.4),
-                            fillOpacity: (vm.fadeWithAge ? feature.properties._opacity : 1) * (feature.geometry.type == 'Point' ? 0.8 : 0.3),
+                            color: mapColor[p.feedType] || mapColor['incident'],
+                            opacity: opacity,
+                            fillOpacity: opacity * 0.3,
                         }
                     },
                     onEachFeature: function (feature, layer) {

@@ -494,6 +494,9 @@ var vue = new Vue({
     },
     created: function () {
         var vm = this;
+        try {
+            vm.showPanel = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 600) >= 600;
+        } catch {}
         vm.loadFilterTree()
         vm.fetchData()
         setInterval(

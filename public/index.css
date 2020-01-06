@@ -10,6 +10,7 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
+    background: #DDDDDD;
 }
 
 #page.full #map {
@@ -116,23 +117,6 @@ body {
     margin: 10px;
 }
 
-.bg-blue {
-    color: white;
-    background-color: #2981CA;
-    border: 1px solid #2981CA;
-}
-
-.bg-red {
-    color: white;
-    background-color: #CC3333;
-    border: 1px solid #CC3333;
-}
-
-.bg-yellow {
-    color: black;
-    background-color: #FFAA1D;
-}
-
 #panel ol {
     padding: 0;
 }
@@ -145,11 +129,31 @@ body {
     list-style: none;
 }
 
+#panel ol.filterTree li {
+    white-space: nowrap;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
 #panel ol li label {
     display: inline;
     user-select: none;
-    white-space: nowrap;
     text-transform: capitalize;
+}
+
+span.show-all {
+    color: #5094fd;
+    cursor: pointer;
+}
+
+span.show-all:hover {
+    color: #3B88FD;
 }
 
 #panel ol li.feature {
@@ -180,4 +184,32 @@ body {
 
 .animate.paused {
     animation-play-state: paused;
+}
+
+.feature-incident {
+    color: white;
+    background-color: #CC333390;
+    border: 2px solid #CC3333;
+}
+
+.feature-warning {
+    color: black;
+    background-color: #FFAA1D90;
+    border: 2px solid #FFAA1D;
+}
+
+.feature-other {
+    color: white;
+    background-color: #2981CA90;
+    border: 2px solid #2981CA;
+}
+
+.feature-resources {
+    color: black;
+    background-color: #90EE9090;
+    border: 2px solid #90EE90;
+}
+
+.mdi-fire-truck::before {
+    transform: scaleX(-1);
 }

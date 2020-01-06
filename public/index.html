@@ -23,8 +23,10 @@
           <div title="Menu" id="panelToggle" class="circle button" v-on:click.prevent="togglePanel()">
             <div class="mdi mdi-menu-open"></div>
           </div>
-          <div title="Items" class="circle bg-blue">{{ featuresFiltered.length }}</div>
-          <div title="Resources" class="circle bg-red">{{ totalResources }}</div>
+          <div title="Incidents" v-if="filterTree.incident._show" class="circle feature-incident">{{ filterTree.incident._count }}</div>
+          <div title="Resources" v-if="filterTree._resources" class="circle feature-resources">{{ filterTree._resources }}</div>
+          <div title="Warnings" v-if="filterTree.warning._show" class="circle feature-warning">{{ filterTree.warning._count }}</div>
+          <div title="Other" v-if="filterTree.other._show" class="circle feature-other">{{ filterTree.other._count }}</div>
           <div title="Data Error" class="circle alert bg-yellow" v-bind:style="'display: ' + (data.vic.alert || data.nsw.alert ? 'block' : 'none')" v-on:click.prevent="fetchData()">
             <div class="mdi mdi-alert"></div>
           </div>
@@ -54,6 +56,12 @@
           <h1 v-on:click.prevent="debug()" style="font-size: 120%;">Australian Emergency Map</h1>
           <h2 id="panelFilters">Filters</h2>
           <p>
+            <label>
+              <input type="checkbox" v-model="fadeWithAge">
+              Fade-out with age
+            </label>
+          </p>
+          <p>
             Max age:
             <input type="number" min="0" max="100" step="1" v-model.lazy="maxAge" style="width: 3em;">
             hours
@@ -61,47 +69,49 @@
           <p>
             <input type="range" min="0" value="10" max="100" step="1" v-model.lazy="maxAge" title="Max age (hours)">
           </p>
-          <p>
-            <label>
-              <input type="checkbox" v-model="fadeWithAge">
-              Fade with age
-            </label>
-          </p>
-          <ol>
-            <li v-for="(obj, src) in data" v-bind:key="src">
+          <ol class="filterTree">
+            <li>
               <label>
-                <input type="checkbox" v-model="data[src]._show">
-                {{ data[src].label }}
+                <input type="checkbox" checked disabled>
+                <strong>Data Source</strong>
               </label>
+              <ol>
+                <li v-for="(obj, src) in data" v-bind:key="src">
+                  <label>
+                    <input type="checkbox" v-model="data[src]._show">
+                    {{ data[src].label }}
+                  </label>
+                </li>
+              </ol>
             </li>
-          </ol>
-          <ol>
-            <li v-for="(obj, feedType) in filterTree" v-if="feedType != '_show'" v-bind:key="feedType">
+            <li v-for="(obj, feedType) in filterTree" v-if="feedType[0] != '_'" v-bind:key="feedType">
               <label>
                 <input type="checkbox" v-model="obj._show">
                 <strong>{{ feedType }}</strong>
               </label>
-              <small>
-                <button v-on:click.prevent="filterSet(obj, '_show', true)">all</button>
-                <button v-on:click.prevent="filterSet(obj, '_show', false)">none</button>
-              </small>
+              <checkbox-toggles v-bind:obj="obj"></checkbox-toggles>
+              <small v-if="obj._count" v-bind:class="'badge feature-' + feedType">{{ obj._count }}</small>
+              <small v-if="obj._resources" class="badge feature-resources">{{ obj._resources }}</small>
               <ol>
                 <li>
                   <em>Category</em>
+                  <checkbox-toggles v-bind:obj="obj.category" v-bind:parents="[obj]"></checkbox-toggles>
                   <ol>
-                    <li v-for="(subcategories, category) in obj.category" v-if="category != '_show'" v-bind:key="feedType + category">
+                    <li v-for="(subcategories, category) in obj.category" v-if="category[0] != '_'" v-bind:key="feedType + category">
                       <label>
-                        <input type="checkbox" v-model="subcategories._show">
+                        <input type="checkbox" v-model="subcategories._show" v-on:change.lazy="obj._show = obj._show || subcategories._show">
                         {{ category }}
                       </label>
+                      <checkbox-toggles v-bind:obj="subcategories" v-bind:parents="[obj, obj.category]"></checkbox-toggles>
+                      <small v-if="subcategories._count" v-bind:class="'badge feature-' + feedType">{{ subcategories._count }}</small>
+                      <small v-if="subcategories._resources" class="badge feature-resources">{{ subcategories._resources }}</small>
                       <ol>
                         <li v-for="(opt, subcategory) in subcategories" v-bind:key="feedType + category + subcategory">
-                          <label v-if="subcategory != '_show'">
-                            <input type="checkbox" v-model="opt._show">
+                          <label v-if="subcategory[0] != '_'">
+                            <input type="checkbox" v-model="opt._show" v-on:change.lazy="obj._show = subcategories._show = obj._show || subcategories._show || opt._show">
                             {{ subcategory }}
-                            <span class="badge bg-blue" v-if="opt.count">
-                              {{ opt.count }}
-                            </span>
+                            <small v-if="opt._count" v-bind:class="'badge feature-' + feedType">{{ opt._count }}</small>
+                            <small v-if="opt._resources" class="badge feature-resources">{{ opt._resources }}</small>
                           </label>
                         </li>
                       </ol>
@@ -110,14 +120,14 @@
                 </li>
                 <li>
                   <em>Status</em>
+                  <checkbox-toggles v-bind:obj="obj.status" v-bind:parents="[obj]"></checkbox-toggles>
                   <ol>
                     <li v-for="(opt, status) in obj.status" v-bind:key="feedType + status">
-                      <label v-if="status != '_show'">
-                        <input type="checkbox" v-model="opt._show">
+                      <label v-if="status[0] != '_'">
+                        <input type="checkbox" v-model="opt._show" v-on:change.lazy="obj._show = obj._show || opt._show">
                         {{ status }}
-                        <span class="badge bg-blue" v-if="opt.count">
-                          {{ opt.count }}
-                        </span>
+                        <small v-if="opt._count" v-bind:class="'badge feature-' + feedType">{{ opt._count }}</small>
+                        <small v-if="opt._resources" class="badge feature-resources">{{ opt._resources }}</small>
                       </label>
                     </li>
                   </ol>
@@ -127,12 +137,8 @@
           </ol>
           <h2 id="panelList">List</h2>
           <p>
-            <span class="badge bg-blue">{{ featuresFiltered.length }}</span>
-            Total Items
-          </p>
-          <p>
-            <span class="badge bg-red">{{ totalResources }}</span>
-            Total Resources
+            Resources:
+            <span class="badge feature-resources"><span class="mdi mdi-fire-truck"></span> {{ filterTree._resources }}</span>
           </p>
           <p>
             Sort:
@@ -148,7 +154,8 @@
               <h3>{{ feature.properties.sourceTitle }}</h3>
               <p v-html="feature.properties.location"></p>
               <p v-if="feature.properties.resources">
-                Resources: <span class="badge bg-red">{{ feature.properties.resources }}</span>
+                Resources:
+                <span class="badge feature-resources"><span class="mdi mdi-fire-truck"></span> {{ feature.properties.resources }}</span>
               </p>
               <p v-if="feature.properties.size">
                 Size: {{ feature.properties.size }}

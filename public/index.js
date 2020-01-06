@@ -42,11 +42,34 @@ var lgeo = L.layerGroup().addTo(lmap);
 
 var lTargetMarker = L.layerGroup().addTo(lmap);
 
-var mapColor = {
-    warning: "#FFFF00",
-    incident: "#0000FF",
-    'burn-area': "#333333",
-}
+function objTreeSetProp(obj, prop, val) {
+    var vm = this;
+    if (typeof obj === 'object') {
+        obj[prop] = val;
+        for (var k in obj) {
+            if (k != prop) {
+                objTreeSetProp(obj[k], prop, val);
+            }
+        }
+    }
+};
+
+Vue.component('checkbox-toggles', {
+    props: ['obj', 'parents'],
+    methods: {
+        click: function (val) {
+            objTreeSetProp(this.obj, '_show', val);
+            if (val && this.parents) {
+                this.parents.forEach(
+                    function (p) {
+                        p._show = true;
+                    }
+                );
+            }
+        },
+    },
+    template: '<span class="show-all"><span class="mdi mdi-playlist-check" v-on:click.prevent="click(true)">&nbsp;</span><span class="mdi mdi-playlist-remove" v-on:click.prevent="click(false)"></span></span>',
+});
 
 var vue = new Vue({
     el: '#vue',
@@ -72,7 +95,11 @@ var vue = new Vue({
             maxAge: 6, // hours
             fadeWithAge: true,
             sortBy: 'updated',
-            filterTree: {},
+            filterTree: {
+                incident: { _show: true, _color: "#CC3333", category: {}, status: {} },
+                warning: { _show: true, _color: "#FFAA1D", category: {}, status: {} },
+                other: { _show: true, _color: "#2981CA", category: {}, status: {} },
+            },
             featureSelected: 0,
             dateLocale: "en-AU",
             dateOptions: {
@@ -181,13 +208,14 @@ var vue = new Vue({
         featuresAgeFiltered: {
             deep: false,
             handler: function () {
-                this.updateFilters();
+                this.updateFilterTree();
             }
         },
         featuresFiltered: {
             deep: false,
             handler: function () {
                 this.updateMap();
+                this.updateFilterTreeCounts();
             }
         },
         fadeWithAge: function () {
@@ -246,8 +274,8 @@ var vue = new Vue({
                                         p.sourceTitle = p.title;
                                         p.created = p.pubDate;
                                         p.updated = d.updated || p.pubDate;
-                                        p.feedType = p.category == 'Not Applicable' ? 'incident' : 'warning';
-                                        p.category1 = p.category == 'Not Applicable' ? (d.fire == 'Yes' ? 'Fire' : 'Other') : p.category;
+                                        p.feedType = 'incident';
+                                        p.category1 = d.fire == 'Yes' ? 'Fire' : 'Other';
                                         p.category2 = d.type || 'Other';
                                         p.status = d.status || 'Other';
                                         p.location = d.location || 'Unknown';
@@ -257,8 +285,13 @@ var vue = new Vue({
                                     p.category1 = p.category1.toLowerCase();
                                     p.category2 = p.category2.toLowerCase();
                                     p.status = p.status.toLowerCase();
+                                    if (!(p.feedType in vm.filterTree)) p.feedType = 'other';
                                     if (p.category1 == 'accident / rescue') p.category1 = 'rescue';
                                     if (p.category2 == 'bush fire') p.category2 = 'bushfire';
+                                    if (p.category1 == 'met') {
+                                        p.feedType = 'warning';
+                                        p.category1 = 'weather';
+                                    }
                                 }
                             );
                             vm.data[src].alert = false;
@@ -286,33 +319,41 @@ var vue = new Vue({
             }
             return obj[prop];
         },
-        updateFilters: function () {
+        updateFilterTree: function () {
             var vm = this;
-            vm.filterSet(vm.filterTree, 'count', 0);
             vm.featuresAgeFiltered.forEach(
                 function (feature) {
                     var p = feature.properties;
-                    var type = vm.setObj(vm.filterTree, p.feedType, { _show: true, category: {}, status: {} });
-                    var cat = vm.setObj(type.category, p.category1, { _show: true });
-                    var subcat = vm.setObj(cat, p.category2, { _show: true, count: 0 });
-                    var stat = vm.setObj(type.status, p.status, { _show: true, count: 0 });
-                    subcat.count += 1;
-                    stat.count += 1;
+                    var type = vm.filterTree[p.feedType];
+                    var cat = vm.setObj(type.category, p.category1, { _show: type._show });
+                    var subcat = vm.setObj(cat, p.category2, { _show: cat._show });
+                    var stat = vm.setObj(type.status, p.status, { _show: type._show });
                 }
             );
         },
-        filterSet: function (obj, prop, val) {
+        updateFilterTreeCounts: function () {
             var vm = this;
-            if (typeof obj === 'object') {
-                if (prop in obj) {
-                    obj[prop] = val;
+            objTreeSetProp(vm.filterTree, '_count', 0);
+            objTreeSetProp(vm.filterTree, '_resources', 0);
+            vm.featuresFiltered.forEach(
+                function (feature) {
+                    var p = feature.properties;
+                    var type = vm.filterTree[p.feedType];
+                    var cat = type.category[p.category1];
+                    var subcat = cat[p.category2];
+                    var stat = type.status[p.status];
+                    type._count += 1;
+                    cat._count += 1;
+                    subcat._count += 1;
+                    stat._count += 1;
+                    var r = 'resources' in p ? parseInt(p.resources) : 0;
+                    vm.filterTree._resources += r;
+                    type._resources += r;
+                    cat._resources += r;
+                    subcat._resources += r;
+                    stat._resources += r;
                 }
-                for (var k in obj) {
-                    if (k != prop) {
-                        vm.filterSet(obj[k], prop, val);
-                    }
-                }
-            }
+            );
         },
         updateMap: function () {
             var vm = this;
@@ -332,7 +373,7 @@ var vue = new Vue({
                         var opacity = vm.fadeWithAge && p._age > 0 ? 1 - (p._age / vm.maxAge_ms) : 1;
                         return {
                             weight: 2,
-                            color: mapColor[p.feedType] || mapColor['incident'],
+                            color: vm.filterTree[p.feedType]._color,
                             opacity: opacity,
                             fillOpacity: opacity * 0.3,
                         }

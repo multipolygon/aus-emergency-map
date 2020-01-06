@@ -303,6 +303,13 @@ var vue = new Vue({
             }
             return obj[prop];
         },
+        setAdd: function(obj, prop, n) {
+            if (prop in obj) {
+                obj[prop] += n;
+            } else {
+                this.$set(obj, prop, n);
+            }
+        },
         saveFilterTree: function () {
             var vm = this;
             var json = JSON.stringify(objPack(vm.filterTree, '_show', true));
@@ -326,7 +333,7 @@ var vue = new Vue({
                         obj,
                         vm.filterTree,
                         function (target, key) {
-                            vm.setObj(target, key, {})._show = true;
+                            vm.$set(vm.setObj(target, key, {}), '_show', true);
                         }
                     );
                     vm.loadDefault = false;
@@ -347,8 +354,8 @@ var vue = new Vue({
         },
         updateFilterTreeCounts: function () {
             var vm = this;
-            objTreeSetProp(vm.filterTree, '_count', 0, true);
-            objTreeSetProp(vm.filterTree, '_resources', 0, true);
+            objTreeSetProp(vm.filterTree, '_count', 0);
+            objTreeSetProp(vm.filterTree, '_resources', 0);
             vm.featuresFiltered.forEach(
                 function (feature) {
                     var p = feature.properties;
@@ -356,16 +363,16 @@ var vue = new Vue({
                     var cat = type.category[p.category1];
                     var subcat = cat[p.category2];
                     var stat = type.status[p.status];
-                    type._count += 1;
-                    cat._count += 1;
-                    subcat._count += 1;
-                    stat._count += 1;
+                    vm.setAdd(type, '_count', 1);
+                    vm.setAdd(cat, '_count', 1);
+                    vm.setAdd(subcat, '_count', 1);
+                    vm.setAdd(stat, '_count', 1);
                     var r = 'resources' in p ? parseInt(p.resources) : 0;
                     vm.filterTree._resources += r;
-                    type._resources += r;
-                    cat._resources += r;
-                    subcat._resources += r;
-                    stat._resources += r;
+                    vm.setAdd(type, '_resources', r);
+                    vm.setAdd(cat, '_resources', r);
+                    vm.setAdd(subcat, '_resources', r);
+                    vm.setAdd(stat, '_resources', r);
                 }
             );
         },

@@ -12,14 +12,14 @@ function getSearchParam(paramName) {
     return null;
 }
 
-function objTreeSetProp(obj, prop, val, force) {
+function objTreeSetProp(obj, prop, val) {
     if (typeof obj === 'object') {
-        if (force || (prop in obj)) {
+        if (prop in obj) {
             obj[prop] = val;
         }
         for (var k in obj) {
             if (k != prop) {
-                objTreeSetProp(obj[k], prop, val, force);
+                objTreeSetProp(obj[k], prop, val);
             }
         }
     }
@@ -39,9 +39,7 @@ function objUnpack(obj, target, callback) {
     if (typeof obj === 'object' && typeof target === 'object') {
         for (var k in obj) {
             callback(target, k);
-            if (typeof target[k] === 'object') {
-                objUnpack(obj[k], target[k], callback);
-            }
+            objUnpack(obj[k], target[k], callback);
         }
     }
 };

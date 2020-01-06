@@ -38,7 +38,7 @@ function objPack(obj, prop, val) {
 function objUnpack(obj, target, callback) {
     if (typeof obj === 'object' && typeof target === 'object') {
         for (var k in obj) {
-            if (!(k in target)) callback(target, k);
+            callback(target, k);
             if (typeof target[k] === 'object') {
                 objUnpack(obj[k], target[k], callback);
             }

@@ -326,7 +326,7 @@ var vue = new Vue({
                         obj,
                         vm.filterTree,
                         function (target, key) {
-                            vm.$set(target, key, { _show: true });
+                            vm.setObj(target, key, {})._show = true;
                         }
                     );
                     vm.loadDefault = false;

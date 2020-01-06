@@ -103,6 +103,7 @@ var vue = new Vue({
             mapDataBounds: null,
             userLocation: null,
             sharable: false,
+            mapDelay: 2000,
         };
     },
     computed: {
@@ -181,18 +182,8 @@ var vue = new Vue({
                 div.classList.remove('split');
                 div.classList.add('full');
             }
-            setTimeout(
-                function() {
-                    lmap.invalidateSize(true);
-                    setTimeout(
-                        function () {
-                            vm.updateMap();
-                        },
-                        250
-                    );
-                },
-                750
-            );
+            vm.mapDelay = 750;
+            vm.updateMap();
         },
         filterTree: {
             deep: true,
@@ -236,14 +227,11 @@ var vue = new Vue({
         },
         fetchData: function (src) {
             var vm = this;
+            vm.mapDelay = 2000;
             if (src === undefined) {
-                vm.fetchData('vic');
-                setTimeout(
-                    function() {
-                        vm.fetchData('nsw');
-                    },
-                    1000
-                );
+                for (var src in vm.data) {
+                    vm.fetchData(src);
+                }
             } else {
                 if (!vm.data[src].loading) {
                     vm.data[src].loading = true;
@@ -334,7 +322,13 @@ var vue = new Vue({
                 obj = JSON.parse(param);
                 if (obj && typeof obj === 'object') {
                     objTreeSetProp(vm.filterTree, '_show', false);
-                    objUnpack(obj, vm.filterTree, '_show', true);
+                    objUnpack(
+                        obj,
+                        vm.filterTree,
+                        function (target, key) {
+                            vm.$set(target, key, { _show: true });
+                        }
+                    );
                     vm.loadDefault = false;
                 }
             }
@@ -377,6 +371,13 @@ var vue = new Vue({
         },
         updateMap: function () {
             var vm = this;
+            clearTimeout(vm._updateMapTimeout);
+            vm._updateMapTimeout = setTimeout(function () { vm._updateMap() }, vm.mapDelay);
+        },
+        _updateMap: function () {
+            var vm = this;
+            vm.mapDelay = 500;
+            lmap.invalidateSize(true);
             lgeo.clearLayers();
             if (vm.featuresFiltered.length > 0) {
                 //https://leafletjs.com/examples/geojson/

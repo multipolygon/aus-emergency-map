@@ -35,13 +35,12 @@ function objPack(obj, prop, val) {
     return obj2;
 };
 
-function objUnpack(obj, target, prop, val) {
+function objUnpack(obj, target, callback) {
     if (typeof obj === 'object' && typeof target === 'object') {
         for (var k in obj) {
-            if (!(k in target)) target[k] = {};
+            if (!(k in target)) callback(target, k);
             if (typeof target[k] === 'object') {
-                target[k][prop] = val;
-                objUnpack(obj[k], target[k], prop, val);
+                objUnpack(obj[k], target[k], callback);
             }
         }
     }

@@ -78,17 +78,35 @@ var vue = new Vue({
             showPanel: true,
             data: {
                 vic: {
-                    _show: true,
+                    url: 'vic.geo.json',
                     label: 'Victoria',
                     loading: false,
-                    alert: false,
+                    error: false,
+                    _show: true,
                     features: [],
                 },
                 nsw: {
-                    _show: true,
+                    url: 'nsw.geo.json',
                     label: 'New South Wales',
                     loading: false,
-                    alert: false,
+                    error: false,
+                    _show: true,
+                    features: [],
+                },
+                wa: {
+                    url: 'wa.geo.json',
+                    label: 'Western Australia',
+                    loading: false,
+                    error: false,
+                    _show: true,
+                    features: [],
+                },
+                wa_warn: {
+                    url: 'wa-warn.geo.json',
+                    label: 'Western Australia',
+                    loading: false,
+                    error: false,
+                    _show: true,
                     features: [],
                 },
             },
@@ -110,6 +128,24 @@ var vue = new Vue({
         };
     },
     computed: {
+        dataLoading: function () {
+            var vm = this;
+            return Object.keys(vm.data).reduce(
+                function (val, src) {
+                    return val || vm.data[src].loading;
+                },
+                false
+            );
+        },
+        dataError: function () {
+            var vm = this;
+            return Object.keys(vm.data).reduce(
+                function (val, src) {
+                    return val || vm.data[src].error;
+                },
+                false
+            );
+        },
         maxAge_ms: function (vm) {
             return vm.maxAge * 60 * 60 * 1000;
         },
@@ -243,7 +279,7 @@ var vue = new Vue({
             } else {
                 if (!vm.data[src].loading) {
                     vm.data[src].loading = true;
-                    axios.get('./' + src + '.json')
+                    axios.get('./data/' + vm.data[src].url)
                         .then(function (response) {
                             var now = new Date();
                             vm.data[src].features = response.data.features;
@@ -264,6 +300,17 @@ var vue = new Vue({
                                         p.status = d.status || 'Other';
                                         p.location = d.location || 'Unknown';
                                         p.size = parseFloat(d.size || 0);
+                                    } else if (src == 'wa' || src == 'wa_warn') {
+                                        p.id = p.incidentEventsId;
+                                        p.sourceTitle = p.locationSuburb;
+                                        p.created = p.startTime;
+                                        p.updated = p.lastUpdatedTime;
+                                        p.feedType = (src == 'wa_warn') ? 'warning' : 'incident';
+                                        p.category1 = (p.type == 'Bushfire') ? 'Fire' : 'Other';
+                                        p.category2 = p.type || 'Other';
+                                        p.status = p.status || 'Other';
+                                        p.location = p.locationSuburb;
+                                        p.size = p.areaBurnt;
                                     }
                                     p.feedType = p.feedType.toLowerCase()
                                     p.category1 = p.category1.toLowerCase();
@@ -287,11 +334,11 @@ var vue = new Vue({
                                     }
                                 }
                             );
-                            vm.data[src].alert = false;
+                            vm.data[src].error = false;
                             vm.dataLoaded(src);
                         })
                         .catch(function () {
-                            vm.data[src].alert = true;
+                            vm.data[src].error = true;
                             vm.dataLoaded(src);
                         });
                 }

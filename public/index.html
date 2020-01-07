@@ -33,10 +33,10 @@
           <div title="Resources" v-if="filterTree._resources" class="circle feature-resources">{{ filterTree._resources }}</div>
           <div title="Warnings" v-if="filterTree.warning._show" class="circle feature-warning">{{ filterTree.warning._count }}</div>
           <div title="Other" v-if="filterTree.other._show" class="circle feature-other">{{ filterTree.other._count }}</div>
-          <div title="Some data failed to download" v-if="data.vic.alert || data.nsw.alert" class="circle alert bg-yellow" v-on:click.prevent="fetchData()">
+          <div title="Some data failed to download" v-if="dataError" class="circle alert bg-yellow" v-on:click.prevent="fetchData()">
             <div class="mdi mdi-alert"></div>
           </div>
-          <div title="Reload" class="circle button" v-on:click.prevent="fetchData()" v-bind:class="'animate rotate ' + (data.vic.loading || data.nsw.loading ? 'running' : 'paused')">
+          <div title="Reload" class="circle button" v-on:click.prevent="fetchData()" v-bind:class="'animate rotate ' + (dataLoading ? 'running' : 'paused')">
             <div class="mdi mdi-refresh"></div>
           </div>
           <div title="Zoom map to current location" class="circle button small" v-on:click.prevent="zoomToUserLocation()">

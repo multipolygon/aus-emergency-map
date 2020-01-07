@@ -1,18 +1,17 @@
-# Aus Emergency Map
+# Australian Emergency Map
 
-https://aus.emergencymap.info
-
-A nicer, faster, data-filtering map UI for the Vic Emergency incident feed.
+https://australia.emergencymap.info
 
 <img src="./screenshot.png" style="width: 100%;"/>
 
 ## Features
 
-- Filter data by feed-type, category1, category2 and status.
+- Filter data by feed-type, categories and status.
+- Fade-out map markers with age
 - Automatic map zoom
 - Automatic data fetch
-- Blue: Count of incidents matching selected filters
-- Red: Total count of resources (eg fire trucks) attending
+- Counters for each category of incident and allocated resources
+- Save and load selected filters as a cookie or URL
 
 ## Tech
 

@@ -2,7 +2,7 @@
 
 https://australia.emergencymap.info
 
-<img src="./screenshot.png" style="width: 100%;"/>
+<img src="./screenshot.jpg" style="width: 100%;"/>
 
 ## Features
 

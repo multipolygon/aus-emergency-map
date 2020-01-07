@@ -23,6 +23,14 @@ body {
     transition-duration: 0.4s;
 }
 
+#vue {
+    visibility: hidden;
+}
+
+#vue.loaded {
+    visibility: visible;
+}
+
 #sidebar {
     position: absolute;
     box-sizing: border-box;
@@ -98,6 +106,8 @@ body {
 
 .circle.alert {
     font-size: 22px;
+    color: black;
+    background-color: #FFFF00;
 }
 
 .circle.button:hover {
@@ -211,6 +221,69 @@ span.show-all:hover {
     border: 2px solid #90EE90;
 }
 
+.feature-current-location {
+    color: black;
+    background-color: #00FF00E0;
+    border: 2px solid #00FF00;
+}
+
 .mdi-fire-truck::before {
     transform: scaleX(-1);
+}
+
+.map-icon {
+    display: block;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.map-icon.op0 {
+    opacity: 0;
+}
+
+.map-icon.op1 {
+    opacity: 0.1;
+}
+
+.map-icon.op2 {
+    opacity: 0.2;
+}
+
+.map-icon.op3 {
+    opacity: 0.3;
+}
+
+.map-icon.op4 {
+    opacity: 0.4;
+}
+
+.map-icon.op5 {
+    opacity: 0.5;
+}
+
+.map-icon.op6 {
+    opacity: 0.6;
+}
+
+.map-icon.op7 {
+    opacity: 0.7;
+}
+
+.map-icon.op8 {
+    opacity: 0.8;
+}
+
+.map-icon.op9 {
+    opacity: 0.9;
+}
+
+.map-icon.op10 {
+    opacity: 1;
 }

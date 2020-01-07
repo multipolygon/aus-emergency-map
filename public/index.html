@@ -20,7 +20,7 @@
   <body>
     <div id="page" class="split">
       <div id="map"></div>
-      <div id="vue">
+      <div id="vue" v-bind:class="'loaded'">
         <div id="sidebar">
           <div title="Menu" id="panelToggle" class="circle button" v-on:click.prevent="togglePanel()">
             <div class="mdi mdi-menu-open"></div>
@@ -29,7 +29,7 @@
           <div title="Resources" v-if="filterTree._resources" class="circle feature-resources">{{ filterTree._resources }}</div>
           <div title="Warnings" v-if="filterTree.warning._show" class="circle feature-warning">{{ filterTree.warning._count }}</div>
           <div title="Other" v-if="filterTree.other._show" class="circle feature-other">{{ filterTree.other._count }}</div>
-          <div title="Data Error" class="circle alert bg-yellow" v-bind:style="'display: ' + (data.vic.alert || data.nsw.alert ? 'block' : 'none')" v-on:click.prevent="fetchData()">
+          <div title="Some data failed to download" v-if="data.vic.alert || data.nsw.alert" class="circle alert bg-yellow" v-on:click.prevent="fetchData()">
             <div class="mdi mdi-alert"></div>
           </div>
           <div title="Reload" class="circle button" v-on:click.prevent="fetchData()" v-bind:class="'animate rotate ' + (data.vic.loading || data.nsw.loading ? 'running' : 'paused')">
@@ -61,12 +61,6 @@
           <h1 v-on:click.prevent="debug()" style="font-size: 120%;">Australian Emergency Map</h1>
           <h2 id="panelFilters">Filters</h2>
           <p>
-            <label>
-              <input type="checkbox" v-model="fadeWithAge">
-              Fade-out with age
-            </label>
-          </p>
-          <p>
             Max age:
             <input type="number" min="0" max="100" step="1" v-model.lazy="maxAge" style="width: 3em;">
             hours
@@ -74,6 +68,21 @@
           <p>
             <input type="range" min="0" value="10" max="100" step="1" v-model.lazy="maxAge" title="Max age (hours)">
           </p>
+          <ol>
+            <li>
+              <label>
+                <input type="checkbox" v-model="fadeWithAge">
+                Fade-out with age
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" v-model="showResources">
+                Show resources
+              </label>
+              <small v-if="filterTree._resources" class="badge feature-resources">{{ filterTree._resources }}</small>
+            </li>
+          </ol>
           <ol class="filterTree">
             <li>
               <label>
@@ -96,7 +105,7 @@
               </label>
               <checkbox-toggles v-bind:obj="obj"></checkbox-toggles>
               <small v-if="obj._count" v-bind:class="'badge feature-' + feedType">{{ obj._count }}</small>
-              <small v-if="obj._resources" class="badge feature-resources">{{ obj._resources }}</small>
+              <small v-if="showResources && obj._resources" class="badge feature-resources">{{ obj._resources }}</small>
               <ol>
                 <li>
                   <em>Category</em>
@@ -109,14 +118,14 @@
                       </label>
                       <checkbox-toggles v-bind:obj="subcategories" v-bind:parents="[obj, subcategories]"></checkbox-toggles>
                       <small v-if="subcategories._count" v-bind:class="'badge feature-' + feedType">{{ subcategories._count }}</small>
-                      <small v-if="subcategories._resources" class="badge feature-resources">{{ subcategories._resources }}</small>
+                      <small v-if="showResources && subcategories._resources" class="badge feature-resources">{{ subcategories._resources }}</small>
                       <ol>
                         <li v-for="(opt, subcategory) in subcategories" v-bind:key="feedType + category + subcategory">
                           <label v-if="subcategory[0] != '_'">
                             <input type="checkbox" v-model="opt._show" v-on:change.lazy="obj._show = subcategories._show = obj._show || subcategories._show || opt._show">
                             {{ subcategory }}
                             <small v-if="opt._count" v-bind:class="'badge feature-' + feedType">{{ opt._count }}</small>
-                            <small v-if="opt._resources" class="badge feature-resources">{{ opt._resources }}</small>
+                            <small v-if="showResources && opt._resources" class="badge feature-resources">{{ opt._resources }}</small>
                           </label>
                         </li>
                       </ol>
@@ -132,7 +141,7 @@
                         <input type="checkbox" v-model="opt._show" v-on:change.lazy="obj._show = obj._show || opt._show">
                         {{ status }}
                         <small v-if="opt._count" v-bind:class="'badge feature-' + feedType">{{ opt._count }}</small>
-                        <small v-if="opt._resources" class="badge feature-resources">{{ opt._resources }}</small>
+                        <small v-if="showResources && opt._resources" class="badge feature-resources">{{ opt._resources }}</small>
                       </label>
                     </li>
                   </ol>
@@ -148,15 +157,17 @@
           <p>
             Sort:
             <select v-model="sortBy">
-              <option>updated</option>
-              <option>created</option>
+              <option value="_age">date-time</option>
               <option>resources</option>
               <option>size</option>
             </select>
           </p>
           <ol>
-            <li v-for="feature in featuresSorted" v-bind:key="fid(feature)" v-bind:id="'featureListItem' + fid(feature)" v-on:click.prevent="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
+            <li v-for="feature in featuresFiltered" v-bind:key="fid(feature)" v-bind:id="'featureListItem' + fid(feature)" v-on:click="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
               <h3>{{ feature.properties.sourceTitle }}</h3>
+              <p>
+                {{ feature.properties._date_f }}
+              </p>
               <p v-html="feature.properties.location"></p>
               <p v-if="feature.properties.resources">
                 Resources:
@@ -165,9 +176,15 @@
               <p v-if="feature.properties.size">
                 Size: {{ feature.properties.size }}
               </p>
-              <p>
-                {{ fdate(feature) }}
-              </p>
+              <div v-if="fid(feature) == featureSelected">
+                <p v-if="feature.properties.text" v-text="feature.properties.text"></p>
+                <p v-else-if="feature.properties.description" v-html="feature.properties.description"></p>
+                <p>
+                  <a v-if="feature.properties.link || feature.properties.url" v-bind:href="feature.properties.link || feature.properties.url" target="_blank">
+                    more information
+                  </a>
+                </p>
+              </div>
             </li>
           </ol>
           <p v-if="featuresFiltered.length == 0">No items.</p>

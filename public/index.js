@@ -58,6 +58,19 @@ Vue.component('checkbox-toggles', {
     template: '<span class="show-all"><span class="mdi mdi-playlist-check" v-on:click.prevent="click(true)">&nbsp;</span><span class="mdi mdi-playlist-remove" v-on:click.prevent="click(false)"></span></span>',
 });
 
+var dateLocale = "en-AU";
+
+var dateOptions = {
+    dateStyle: "short",
+    timeStyle: "short",
+    hour12: true,
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+};
+
 var vue = new Vue({
     el: '#vue',
     data () {
@@ -81,25 +94,15 @@ var vue = new Vue({
             },
             maxAge: 6, // hours
             fadeWithAge: true,
-            sortBy: 'updated',
+            showResources: false,
+            sortBy: '_age',
             loadDefault: true,
             filterTree: {
-                incident: { _show: true, _color: "#CC3333", category: {}, status: {} },
-                warning: { _show: true, _color: "#FFAA1D", category: {}, status: {} },
-                other: { _show: true, _color: "#2981CA", category: {}, status: {} },
+                incident: { _show: true, _color: "#CC3333", _icon: 'fire-truck', category: {}, status: {} },
+                warning: { _show: true, _color: "#FFAA1D", _icon: 'alert', category: {}, status: {} },
+                other: { _show: true, _color: "#2981CA", _icon: 'information', category: {}, status: {} },
             },
             featureSelected: 0,
-            dateLocale: "en-AU",
-            dateOptions: {
-                dateStyle: "short",
-                timeStyle: "short",
-                hour12: true,
-                year: "numeric",
-                month: "short",
-                day: "numeric",
-                hour: "numeric",
-                minute: "numeric",
-            },
             mapDataBounds: null,
             userLocation: null,
             sharable: false,
@@ -116,7 +119,9 @@ var vue = new Vue({
                     return features.concat(
                         vm.data[src].features.filter(
                             function (feature) {
-                                return feature.properties._age < vm.maxAge_ms;
+                                var p = feature.properties;
+                                p._opacity = (p._age > 0) ? (1 - (p._age / vm.maxAge_ms)) : 1;
+                                return p._age < vm.maxAge_ms;
                             }
                         )
                     );
@@ -131,11 +136,11 @@ var vue = new Vue({
                     var a = a.properties;
                     var b = b.properties;
                     if (b[k] == a[k]) {
-                        k = 'updated';
+                        k = '_age';
                     }
                     if (a.hasOwnProperty(k) && b.hasOwnProperty(k)) {
-                        if (k == 'created' || k == 'updated') {
-                            return new Date(b[k]) - new Date(a[k]);
+                        if (k == '_age') {
+                            return a._age - b._age;
                         } else {
                             return parseFloat(b[k]) - parseFloat(a[k]);
                         }
@@ -206,7 +211,10 @@ var vue = new Vue({
         },
         fadeWithAge: function () {
             this.updateMap();
-        }
+        },
+        showResources: function () {
+            this.updateMap();
+        },
     },
     methods: {
         debug: function () {
@@ -244,13 +252,6 @@ var vue = new Vue({
                                     var p = i.properties;
                                     p._data_src = src;
                                     p._age = 0;
-                                    if (p.hasOwnProperty('updated')) {
-                                        try {
-                                            p._age = now - (new Date(p.updated));
-                                        } catch {
-                                            // console.log('date parse error');
-                                        }
-                                    }
                                     if (src == 'nsw') {
                                         var d = vm.parseHtmlData(p.description);
                                         p.id = p.guid;
@@ -275,7 +276,15 @@ var vue = new Vue({
                                         p.feedType = 'warning';
                                         p.category1 = 'weather';
                                     }
-                                    p._geom_type = i.geometry.type;
+                                    p._age = 0;
+                                    p._date_f = p.updated || '';
+                                    if (p.hasOwnProperty('updated')) {
+                                        try {
+                                            var date = new Date(p.updated);
+                                            p._age = now - date;
+                                            p._date_f = date.toLocaleString(dateLocale, dateOptions);
+                                        } catch { }
+                                    }
                                 }
                             );
                             vm.data[src].alert = false;
@@ -394,31 +403,45 @@ var vue = new Vue({
                     "properties": {},
                 }, {
                     pointToLayer: function(feature, latlng) {
-                        if (feature.properties._geom_type == 'Point') {
-                            return L.circleMarker(latlng, { radius: 7 });
-                        }
+                        var p = feature.properties;
+                        var icon = L.divIcon({
+                            className: 'map-icon feature-' + p.feedType + ' mdi mdi-' + vm.filterTree[p.feedType]._icon + ' op' + Math.round(10 * (vm.fadeWithAge ? p._opacity : 1)),
+                            iconSize: [20, 20],
+                            iconAnchor: [10, 10],
+                        });
+                        return L.featureGroup([L.marker(latlng, { icon: icon })]);
                     },
                     style: function(feature) {
                         var p = feature.properties;
-                        var opacity = vm.fadeWithAge && p._age > 0 ? 1 - (p._age / vm.maxAge_ms) : 1;
                         return {
-                            weight: (p._geom_type == 'Point' ? 0 : 2),
+                            weight: 2,
                             color: vm.filterTree[p.feedType]._color,
-                            opacity: opacity,
-                            fillOpacity: opacity * (p._geom_type == 'Point' ? 1 : 0.3),
+                            opacity: (vm.fadeWithAge ? p._opacity : 1) * 0.4,
+                            fillOpacity: (vm.fadeWithAge ? p._opacity : 1) * 0.2,
                         }
                     },
                     onEachFeature: function (feature, layer) {
                         layer.on('click', function () {
                             vm.selectFeature(feature, true);
                         }).bindPopup(function () {
-                            return vm.fhtml(feature, ['sourceTitle', 'location', 'updated']);
+                            return vm.fhtml(feature, ['sourceTitle', '_date_f', 'location']);
                         }, {
                             autoPan: false,
                             closeButton: true,
                             closeOnEscapeKey: true,
                             closeOnClick: true,
                         });
+                        var p = feature.properties;
+                        if (vm.showResources && 'resources' in p && 'getBounds' in layer) {
+                            L.circleMarker(
+                                layer.getBounds().getCenter(), {
+                                    color: '#90EE90',
+                                    radius: ((parseInt(p.resources) || 0) / 3) + 5,
+                                    opacity: (vm.fadeWithAge ? p._opacity : 1) * 0.9,
+                                    fillOpacity: (vm.fadeWithAge ? p._opacity : 1) * 0.6,
+                                }
+                            ).addTo(layer);
+                        }
                     },
                 }).addTo(lgeo).getBounds();
                 if (!userZoom) {
@@ -465,26 +488,12 @@ var vue = new Vue({
             var p = feature.properties;
             return p._data_src + p.id;
         },
-        fdate: function (feature) {
-            if (feature.properties.hasOwnProperty('updated')) {
-                return (new Date(feature.properties.updated)).toLocaleString(
-                    this.dateLocale,
-                    this.dateOptions
-                );
-            } else {
-                return '';
-            }
-        },
         fhtml: function (feature, keys) {
             var vm = this;
             var s = [];
             keys.forEach(
                 function (k) {
-                    if (k == 'updated') {
-                        s.push(vm.fdate(feature))
-                    } else if (feature.properties.hasOwnProperty(k)) {
-                        s.push(feature.properties[k]);
-                    }
+                    s.push(feature.properties[k]);
                 }
             )
             return s.join('<br>');
@@ -523,15 +532,12 @@ lmap.on(
     function (e) {
         vue.userLocation = true;
         llocation.clearLayers();
-        L.circleMarker(
-            e.latlng,
-            {
-                radius: 7,
-                color: '#00FF00',
-                opacity: 1,
-                fillOpacity: 0.9,
-            }
-        ).addTo(llocation);
+        var icon = L.divIcon({
+            className: 'map-icon feature-current-location mdi mdi-home',
+            iconSize: [20, 20],
+            iconAnchor: [10, 10],
+        });
+        L.marker(e.latlng, { icon: icon }).addTo(llocation);
     }
 );
 

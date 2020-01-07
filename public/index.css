@@ -110,8 +110,10 @@ body {
     background-color: #FFFF00;
 }
 
-.circle.button:hover {
-    background-color: #CCCCCC;
+@media (hover: hover) {
+    .circle.button:hover {
+        background-color: #CCCCCC;
+    }
 }
 
 .circle.reload {
@@ -163,8 +165,10 @@ span.show-all {
     cursor: pointer;
 }
 
-span.show-all:hover {
-    color: #3B88FD;
+@media (hover: hover) {
+    span.show-all:hover {
+        color: #3B88FD;
+    }
 }
 
 #panel ol li.feature {

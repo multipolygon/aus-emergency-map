@@ -79,7 +79,7 @@ var vue = new Vue({
             data: {
                 vic: {
                     url: 'vic.geo.json',
-                    label: 'Victoria',
+                    label: 'Vic',
                     loading: false,
                     error: false,
                     _show: true,
@@ -87,7 +87,7 @@ var vue = new Vue({
                 },
                 nsw: {
                     url: 'nsw.geo.json',
-                    label: 'New South Wales',
+                    label: 'NSW',
                     loading: false,
                     error: false,
                     _show: true,
@@ -95,7 +95,7 @@ var vue = new Vue({
                 },
                 wa: {
                     url: 'wa.geo.json',
-                    label: 'Western Australia',
+                    label: 'WA Incidents',
                     loading: false,
                     error: false,
                     _show: true,
@@ -103,10 +103,36 @@ var vue = new Vue({
                 },
                 wa_warn: {
                     url: 'wa-warn.geo.json',
-                    label: 'Western Australia',
+                    label: 'WA Warnings',
                     loading: false,
                     error: false,
                     _show: true,
+                    features: [],
+                },
+                sa_warn: {
+                    url: 'sa-warn.geo.json',
+                    label: 'SA Warnings',
+                    loading: false,
+                    error: false,
+                    _show: true,
+                    features: [],
+                },
+                sa_cfs: {
+                    url: 'sa-cfs.kml',
+                    label: 'SA CFS',
+                    loading: false,
+                    error: false,
+                    _show: true,
+                    type: 'document',
+                    features: [],
+                },
+                sa_mfs: {
+                    url: 'sa-mfs.kml',
+                    label: 'SA MFS',
+                    loading: false,
+                    error: false,
+                    _show: true,
+                    type: 'document',
                     features: [],
                 },
             },
@@ -258,8 +284,8 @@ var vue = new Vue({
         togglePanel: function () {
             this.showPanel = !this.showPanel;
         },
-        parseHtmlData: function (html) {
-            return html.split('<br />').reduce(
+        parseHtmlData: function (html,sep) {
+            return html.split(sep || '<br />').reduce(
                 function (obj, line) {
                     var pair = line.split(':');
                     var k = pair.shift().trim().toLowerCase();
@@ -279,15 +305,18 @@ var vue = new Vue({
             } else {
                 if (!vm.data[src].loading) {
                     vm.data[src].loading = true;
-                    axios.get('./data/' + vm.data[src].url)
+                    axios.get('./data/' + vm.data[src].url, { responseType: vm.data[src].type || 'json' })
                         .then(function (response) {
                             var now = new Date();
-                            vm.data[src].features = response.data.features;
+                            if (vm.data[src].type == 'document') {
+                                vm.data[src].features = toGeoJSON.kml(response.data).features;
+                            } else {
+                                vm.data[src].features = response.data.features;
+                            }
                             vm.data[src].features.forEach(
                                 function (i) {
                                     var p = i.properties;
                                     p._data_src = src;
-                                    p._age = 0;
                                     if (src == 'nsw') {
                                         var d = vm.parseHtmlData(p.description);
                                         p.id = p.guid;
@@ -295,9 +324,9 @@ var vue = new Vue({
                                         p.created = p.pubDate;
                                         p.updated = d.updated || p.pubDate;
                                         p.feedType = 'incident';
-                                        p.category1 = d.fire == 'Yes' ? 'Fire' : 'Other';
-                                        p.category2 = d.type || 'Other';
-                                        p.status = d.status || 'Other';
+                                        p.category1 = d.fire == 'Yes' ? 'fire' : 'other';
+                                        p.category2 = d.type || 'other';
+                                        p.status = d.status || 'other';
                                         p.location = d.location || 'Unknown';
                                         p.size = parseFloat(d.size || 0);
                                     } else if (src == 'wa' || src == 'wa_warn') {
@@ -306,11 +335,28 @@ var vue = new Vue({
                                         p.created = p.startTime;
                                         p.updated = p.lastUpdatedTime;
                                         p.feedType = (src == 'wa_warn') ? 'warning' : 'incident';
-                                        p.category1 = (p.type == 'Bushfire') ? 'Fire' : 'Other';
-                                        p.category2 = p.type || 'Other';
-                                        p.status = p.status || 'Other';
+                                        p.category1 = (p.type == 'Bushfire') ? 'fire' : 'other';
+                                        p.category2 = p.type || 'other';
+                                        p.status = p.status || 'other';
                                         p.location = p.locationSuburb;
                                         p.size = p.areaBurnt;
+                                    } else if (src == 'sa_warn') {
+                                        p.id = p.incident_id;
+                                        p.sourceTitle = p.icon;
+                                        p.updated = p.last_edited_date;
+                                        p.feedType = 'warning'
+                                        p.category1 = p.icon;
+                                        p.category2 = 'other';
+                                        p.status = 'other';
+                                    } else if (src == 'sa_cfs' || src == 'sa_mfs') {
+                                        d = vm.parseHtmlData(p.description, '<br>');
+                                        p.id = i.id;
+                                        p.sourceTitle = p.name;
+                                        p.updated = d['first reported'];
+                                        p.feedType = 'incident';
+                                        p.category1 = p.styleUrl.replace('#','').replace('ClosedIcon','').replace('OpenIcon','').replace('SafeIcon','');
+                                        p.category2 = p.description.split('<br>',1)[0];
+                                        p.status = d.status;
                                     }
                                     p.feedType = p.feedType.toLowerCase()
                                     p.category1 = p.category1.toLowerCase();

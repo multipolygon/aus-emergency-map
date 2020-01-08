@@ -700,12 +700,21 @@ var vue = new Vue({
                 }
             );
         },
+        reloadApp: function () {
+            window.location.reload();
+        },
         clearLocalStorage: function () {
             localStorage.clear();
         },
     },
     created: function () {
         var vm = this;
+        try {
+            window.applicationCache.addEventListener('updateready', vm.reloadApp);
+            if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+                vm.reloadApp();
+            }
+        } catch {}
         try {
             vm.showPanel = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 600) >= 600;
         } catch {}

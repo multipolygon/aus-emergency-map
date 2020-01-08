@@ -219,6 +219,11 @@
             </ul>
             <p>
               <small>
+                <button v-on:click.prevent="reloadApp">Reload App</button>
+              </small>
+            </p>
+            <p>
+              <small>
                 <button v-on:click.prevent="clearLocalStorage">Clear Saved Settings</button>
               </small>
             </p>

@@ -99,45 +99,45 @@
                 <strong>Data Source</strong>
               </label>
               <ol>
-                <li v-for="(obj, src) in data" v-bind:key="src">
+                <li v-for="i in sortKeys(data)" v-bind:key="i.key">
                   <label>
-                    <input type="checkbox" v-model="dataSource" v-bind:value="src">
-                    {{ obj.label }}
+                    <input type="checkbox" v-model="dataSource" v-bind:value="i.key">
+                    {{ i.val.label }}
                   </label>
                 </li>
               </ol>
             </li>
-            <li v-for="(obj, feedType) in filterTree" v-if="feedType[0] != '_'" v-bind:key="feedType">
+            <li v-for="feedType in getKeys(filterTree, ['incident', 'warning', 'other'])" v-if="feedType.key[0] != '_'" v-bind:key="feedType.key">
               <label>
-                <input type="checkbox" v-model="obj._show">
-                <strong>{{ feedType }}</strong>
+                <input type="checkbox" v-model="feedType.val._show">
+                <strong>{{ feedType.key }}</strong>
               </label>
-              <checkbox-toggles v-bind:obj="obj"></checkbox-toggles>
-              <small v-if="obj._count" v-bind:class="'badge feature-' + feedType">{{ obj._count }}</small>
-              <small v-else-if="obj._count_all" v-bind:class="'badge ghost'">{{ obj._count_all }}</small>
-              <small v-if="showResources && obj._resources" class="badge feature-resources">{{ obj._resources }}</small>
+              <checkbox-toggles v-bind:obj="feedType.val"></checkbox-toggles>
+              <small v-if="feedType.val._count" v-bind:class="'badge feature-' + feedType.key">{{ feedType.val._count }}</small>
+              <small v-else-if="feedType.val._count_all" v-bind:class="'badge ghost'">{{ feedType.val._count_all }}</small>
+              <small v-if="showResources && feedType.val._resources" class="badge feature-resources">{{ feedType.val._resources }}</small>
               <ol>
                 <li>
                   <em>Category</em>
-                  <checkbox-toggles v-bind:obj="obj.category" v-bind:parents="[obj]"></checkbox-toggles>
+                  <checkbox-toggles v-bind:obj="feedType.val.category" v-bind:parents="[feedType.val]"></checkbox-toggles>
                   <ol>
-                    <li v-for="(subcategories, category) in obj.category" v-if="category[0] != '_'" v-bind:key="feedType + category">
+                    <li v-for="category in sortKeys(feedType.val.category)" v-if="category.key[0] != '_'" v-bind:key="feedType.key + category.key">
                       <label>
-                        <input type="checkbox" v-model="subcategories._show" v-on:change.lazy="obj._show = obj._show || subcategories._show">
-                        {{ category }}
+                        <input type="checkbox" v-model="category.val._show" v-on:change.lazy="feedType.val._show = feedType.val._show || category.val._show">
+                        {{ category.key }}
                       </label>
-                      <checkbox-toggles v-bind:obj="subcategories" v-bind:parents="[obj, subcategories]"></checkbox-toggles>
-                      <small v-if="subcategories._count" v-bind:class="'badge feature-' + feedType">{{ subcategories._count }}</small>
-                      <small v-else-if="subcategories._count_all" v-bind:class="'badge ghost'">{{ subcategories._count_all }}</small>
-                      <small v-if="showResources && subcategories._resources" class="badge feature-resources">{{ subcategories._resources }}</small>
+                      <checkbox-toggles v-bind:obj="category.val" v-bind:parents="[feedType.val, category.val]"></checkbox-toggles>
+                      <small v-if="category.val._count" v-bind:class="'badge feature-' + feedType.key">{{ category.val._count }}</small>
+                      <small v-else-if="category.val._count_all" v-bind:class="'badge ghost'">{{ category.val._count_all }}</small>
+                      <small v-if="showResources && category.val._resources" class="badge feature-resources">{{ category.val._resources }}</small>
                       <ol>
-                        <li v-for="(opt, subcategory) in subcategories" v-bind:key="feedType + category + subcategory">
-                          <label v-if="subcategory[0] != '_'">
-                            <input type="checkbox" v-model="opt._show" v-on:change.lazy="obj._show = subcategories._show = obj._show || subcategories._show || opt._show">
-                            {{ subcategory }}
-                            <small v-if="opt._count" v-bind:class="'badge feature-' + feedType">{{ opt._count }}</small>
-                            <small v-else-if="opt._count_all" v-bind:class="'badge ghost'">{{ opt._count_all }}</small>
-                            <small v-if="showResources && opt._resources" class="badge feature-resources">{{ opt._resources }}</small>
+                        <li v-for="subcat in sortKeys(category.val)" v-bind:key="feedType.key + category.key + subcat.key">
+                          <label v-if="subcat.key[0] != '_'">
+                            <input type="checkbox" v-model="subcat.val._show" v-on:change.lazy="feedType.val._show = category.val._show = feedType.val._show || category.val._show || subcat.val._show">
+                            {{ subcat.key }}
+                            <small v-if="subcat.val._count" v-bind:class="'badge feature-' + feedType.key">{{ subcat.val._count }}</small>
+                            <small v-else-if="subcat.val._count_all" v-bind:class="'badge ghost'">{{ subcat.val._count_all }}</small>
+                            <small v-if="showResources && subcat.val._resources" class="badge feature-resources">{{ subcat.val._resources }}</small>
                           </label>
                         </li>
                       </ol>
@@ -146,15 +146,15 @@
                 </li>
                 <li>
                   <em>Status</em>
-                  <checkbox-toggles v-bind:obj="obj.status" v-bind:parents="[obj]"></checkbox-toggles>
+                  <checkbox-toggles v-bind:obj="feedType.val.status" v-bind:parents="[feedType.val]"></checkbox-toggles>
                   <ol>
-                    <li v-for="(opt, status) in obj.status" v-bind:key="feedType + status">
-                      <label v-if="status[0] != '_'">
-                        <input type="checkbox" v-model="opt._show" v-on:change.lazy="obj._show = obj._show || opt._show">
-                        {{ status }}
-                        <small v-if="opt._count" v-bind:class="'badge feature-' + feedType">{{ opt._count }}</small>
-                        <small v-else-if="opt._count_all" v-bind:class="'badge ghost'">{{ opt._count_all }}</small>
-                        <small v-if="showResources && opt._resources" class="badge feature-resources">{{ opt._resources }}</small>
+                    <li v-for="status in sortKeys(feedType.val.status)" v-bind:key="feedType.key + status.key">
+                      <label v-if="status.key[0] != '_'">
+                        <input type="checkbox" v-model="status.val._show" v-on:change.lazy="feedType.val._show = feedType.val._show || status.val._show">
+                        {{ status.key }}
+                        <small v-if="status.val._count" v-bind:class="'badge feature-' + feedType.key">{{ status.val._count }}</small>
+                        <small v-else-if="status.val._count_all" v-bind:class="'badge ghost'">{{ status.val._count_all }}</small>
+                        <small v-if="showResources && status.val._resources" class="badge feature-resources">{{ status.val._resources }}</small>
                       </label>
                     </li>
                   </ol>
@@ -172,7 +172,7 @@
             <select v-model="sortBy">
               <option value="_age">date-time</option>
               <option>resources</option>
-              <option>size</option>
+              <option>size</option>              
             </select>
           </p>
           <ol>

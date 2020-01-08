@@ -665,6 +665,20 @@ var vue = new Vue({
                 100
             );
         },
+        getKeys: function (obj, keys) {
+            return keys.map(
+                function (k) {
+                    return { key: k, val: obj[k] }
+                }
+            );
+        },
+        sortKeys: function (obj) {
+            return Object.keys(obj).sort().map(
+                function (k) {
+                    return { key: k, val: obj[k] }
+                }
+            );
+        },
         clearLocalStorage: function () {
             localStorage.clear();
         },

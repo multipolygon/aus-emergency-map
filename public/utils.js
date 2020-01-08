@@ -82,3 +82,23 @@ function parseTasDescription(s) {
         {}
     );
 }
+
+cookieVersion = '2'
+
+function cookieSet(key, val) {
+    // https://github.com/ScottHamper/Cookies
+    return Cookies.set(key + '_v' + cookieVersion, JSON.stringify(val), { expires: 30 * 24 * 60 * 60 });
+}
+
+function cookieGet(key, _val) {
+    var val = Cookies.get(key + '_v' + cookieVersion);
+    if (val) {
+        return JSON.parse(val);
+    } else {
+        return _val;
+    }
+}
+
+function cookieDelete(key) {
+    return Cookies.set(key + '_v' + cookieVersion, undefined);
+}

@@ -101,8 +101,8 @@
               <ol>
                 <li v-for="(obj, src) in data" v-bind:key="src">
                   <label>
-                    <input type="checkbox" v-model="data[src]._show">
-                    {{ data[src].label }}
+                    <input type="checkbox" v-model="dataSource" v-bind:value="src">
+                    {{ obj.label }}
                   </label>
                 </li>
               </ol>

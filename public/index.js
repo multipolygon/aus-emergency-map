@@ -76,7 +76,6 @@ var vue = new Vue({
                     label: 'Vic',
                     loading: false,
                     error: false,
-                    _show: true,
                     features: [],
                 },
                 nsw: {
@@ -84,7 +83,6 @@ var vue = new Vue({
                     label: 'NSW',
                     loading: false,
                     error: false,
-                    _show: true,
                     features: [],
                 },
                 wa: {
@@ -92,7 +90,6 @@ var vue = new Vue({
                     label: 'WA incidents',
                     loading: false,
                     error: false,
-                    _show: true,
                     features: [],
                 },
                 wa_warn: {
@@ -100,7 +97,6 @@ var vue = new Vue({
                     label: 'WA warnings',
                     loading: false,
                     error: false,
-                    _show: true,
                     features: [],
                 },
                 sa_warn: {
@@ -108,7 +104,6 @@ var vue = new Vue({
                     label: 'SA warnings',
                     loading: false,
                     error: false,
-                    _show: true,
                     features: [],
                 },
                 sa_cfs: {
@@ -116,7 +111,6 @@ var vue = new Vue({
                     label: 'SA CFS',
                     loading: false,
                     error: false,
-                    _show: true,
                     type: 'document',
                     features: [],
                 },
@@ -125,7 +119,6 @@ var vue = new Vue({
                     label: 'SA MFS',
                     loading: false,
                     error: false,
-                    _show: true,
                     type: 'document',
                     features: [],
                 },
@@ -134,7 +127,6 @@ var vue = new Vue({
                     label: 'Tas',
                     loading: false,
                     error: false,
-                    _show: true,
                     type: 'document',
                     features: [],
                 },
@@ -143,7 +135,6 @@ var vue = new Vue({
                     label: 'Tas warnings',
                     loading: false,
                     error: false,
-                    _show: true,
                     type: 'document',
                     features: [],
                 },
@@ -152,11 +143,11 @@ var vue = new Vue({
                     label: 'Qld',
                     loading: false,
                     error: false,
-                    _show: true,
                     type: 'document',
                     features: [],
                 },
             },
+            dataSource: [],
             maxAge: 12, // hours
             fadeWithAge: true,
             showResources: false,
@@ -234,7 +225,7 @@ var vue = new Vue({
             return vm.featuresAgeFiltered.filter(
                 function (feature) {
                     var p = feature.properties;
-                    return vm.data[p._data_src]._show &&
+                    return vm.dataSource.includes(p._data_src) &&
                         vm.filterTree[p.feedType]._show &&
                         vm.filterTree[p.feedType].category[p.category1]._show &&
                         vm.filterTree[p.feedType].category[p.category1][p.category2]._show &&
@@ -293,6 +284,18 @@ var vue = new Vue({
         showResources: function () {
             this.updateMap();
         },
+        dataSource: function (now, old) {
+            for (var src of now) {
+                if (!old.includes(src)) {
+                    this.fetchData(src);
+                }
+            }
+            if (now.length == Object.keys(this.data).length) {
+                cookieDelete('dataSource');
+            } else {
+                cookieSet('dataSource', now);
+            }
+        },
     },
     methods: {
         debug: function () {
@@ -304,7 +307,7 @@ var vue = new Vue({
             var vm = this;
             vm.mapDelay = 2000;
             if (src === undefined) {
-                for (var src in vm.data) {
+                for (var src of vm.dataSource) {
                     vm.fetchData(src);
                 }
             } else {
@@ -459,8 +462,7 @@ var vue = new Vue({
             } else {
                 vm.shareableUrl = null;
             }
-            var cookie = JSON.stringify(objTreeGetProp(vm.filterTree, '_show'))
-            Cookies.set('filter_v2', cookie, { expires: 30 * 24 * 60 * 60 });
+            cookieSet('filterTree', objTreeGetProp(vm.filterTree, '_show'));
         },
         loadFilterTree: function () {
             var vm = this;
@@ -473,10 +475,7 @@ var vue = new Vue({
                 force = true;
                 vm.loadDefault = false;
             } else {
-                var cookie = Cookies('filter_v2');
-                if (cookie) {
-                    obj = JSON.parse(cookie);
-                }
+                var obj = cookieGet('filterTree', null);
             }
             if (obj !== null) {
                 objTreeSetProp(vm.filterTree, '_show', false);
@@ -674,7 +673,7 @@ var vue = new Vue({
             vm.showPanel = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 600) >= 600;
         } catch {}
         vm.loadFilterTree()
-        vm.fetchData()
+        vm.dataSource = cookieGet('dataSource', Object.keys(vm.data));
         setInterval(
             function () {
                 vm.fetchData();

@@ -336,7 +336,7 @@ var vue = new Vue({
                                         p.created = p.pubDate;
                                         p.updated = moment.tz(d.updated, "D MMM YYYY HH:mm", "Australia/Sydney");
                                         p.feedType = 'incident';
-                                        p.category1 = d.fire == 'Yes' ? 'fire' : 'other';
+                                        p.category1 = (d.fire == 'Yes') ? 'fire' : 'other';
                                         p.category2 = d.type || 'other';
                                         p.status = d.status || 'other';
                                         p.location = d.location || 'Unknown';
@@ -469,31 +469,39 @@ var vue = new Vue({
         },
         loadFilterTree: function () {
             var vm = this;
-            var obj;
-            var setto;
+            var obj = null;
+            var force = false;
             var param = getSearchParam('filter');
             if (param) {
-                history.replaceState("", document.title, window.location.host);
+                history.pushState("", document.title, '/');
                 obj = JSON.parse(param);
-                setto = true;
+                force = true;
                 vm.loadDefault = false;
             } else {
                 var cookie = Cookies('filter');
                 if (cookie) {
                     obj = JSON.parse(cookie);
-                    setto = false;
                 }
             }
-            if (obj) {
+            if (obj !== null) {
                 objTreeSetProp(vm.filterTree, '_show', false);
-                objUnpack(
+                objMerge(
                     obj,
                     vm.filterTree,
                     function (source, target, key) {
-                        if (key != '_show') {
-                            var obj2 = vm.setObj(target, key, {});
-                            if (setto || ('_show' in source[key])) {
-                                vm.$set(obj2, '_show', setto || source[key]._show);
+                        if (key === '_show') {
+                            if ('_show' in target) {
+                                target._show = force || source._show;
+                            } else {
+                                vm.$set(target, '_show', force || source._show);
+                            }
+                        } else {
+                            if (key in target) {
+                                if (force && ('_show' in target)) {
+                                    target._show = true;
+                                }
+                            } else {
+                                vm.$set(target, key, (force ? { _show: true } : {}));
                             }
                         }
                     }
@@ -527,7 +535,7 @@ var vue = new Vue({
                     vm.setAdd(cat, '_count', 1);
                     vm.setAdd(subcat, '_count', 1);
                     vm.setAdd(stat, '_count', 1);
-                    var r = 'resources' in p ? parseInt(p.resources) : 0;
+                    var r = ('resources' in p) ? parseInt(p.resources) : 0;
                     vm.filterTree._resources += r;
                     vm.setAdd(type, '_resources', r);
                     vm.setAdd(cat, '_resources', r);

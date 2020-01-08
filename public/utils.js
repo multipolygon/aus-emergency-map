@@ -48,11 +48,11 @@ function objPack(obj, prop, val) {
     return obj2;
 };
 
-function objUnpack(obj, target, callback) {
+function objMerge(obj, target, callback) {
     if (typeof obj === 'object' && typeof target === 'object') {
         for (var k in obj) {
             callback(obj, target, k);
-            objUnpack(obj[k], target[k], callback);
+            objMerge(obj[k], target[k], callback);
         }
     }
 };

@@ -113,9 +113,7 @@
                 <strong>{{ feedType.key }}</strong>
               </label>
               <checkbox-toggles v-bind:obj="feedType.val"></checkbox-toggles>
-              <small v-if="feedType.val._count" v-bind:class="'badge feature-' + feedType.key">{{ feedType.val._count }}</small>
-              <small v-if="feedType.val._count_all - feedType.val._count" v-bind:class="'badge ghost'">{{ feedType.val._count_all - feedType.val._count }}</small>
-              <small v-if="showResources && feedType.val._resources" class="badge feature-resources">{{ feedType.val._resources }}</small>
+              <filter-counts v-bind:obj="feedType.val" v-bind:resources="showResources" v-bind:cls="feedType.key"></filter-counts>
               <ol>
                 <li>
                   <em>Category</em>
@@ -127,17 +125,13 @@
                         {{ category.key }}
                       </label>
                       <checkbox-toggles v-bind:obj="category.val" v-bind:parents="[feedType.val, category.val]"></checkbox-toggles>
-                      <small v-if="category.val._count" v-bind:class="'badge feature-' + feedType.key">{{ category.val._count }}</small>
-                      <small v-if="category.val._count_all - category.val._count" v-bind:class="'badge ghost'">{{ category.val._count_all - category.val._count }}</small>
-                      <small v-if="showResources && category.val._resources" class="badge feature-resources">{{ category.val._resources }}</small>
+                      <filter-counts v-bind:obj="category.val" v-bind:resources="showResources" v-bind:cls="feedType.key"></filter-counts>
                       <ol>
                         <li v-for="subcat in sortKeys(category.val)" v-bind:key="feedType.key + category.key + subcat.key">
                           <label v-if="subcat.key[0] != '_'">
                             <input type="checkbox" v-model="subcat.val._show" v-on:change.lazy="feedType.val._show = category.val._show = feedType.val._show || category.val._show || subcat.val._show">
                             {{ subcat.key }}
-                            <small v-if="subcat.val._count" v-bind:class="'badge feature-' + feedType.key">{{ subcat.val._count }}</small>
-                            <small v-if="subcat.val._count_all - subcat.val._count" v-bind:class="'badge ghost'">{{ subcat.val._count_all - subcat.val._count }}</small>
-                            <small v-if="showResources && subcat.val._resources" class="badge feature-resources">{{ subcat.val._resources }}</small>
+                            <filter-counts v-bind:obj="subcat.val" v-bind:resources="showResources" v-bind:cls="feedType.key"></filter-counts>
                           </label>
                         </li>
                       </ol>
@@ -152,9 +146,7 @@
                       <label v-if="status.key[0] != '_'">
                         <input type="checkbox" v-model="status.val._show" v-on:change.lazy="feedType.val._show = feedType.val._show || status.val._show">
                         {{ status.key }}
-                        <small v-if="status.val._count" v-bind:class="'badge feature-' + feedType.key">{{ status.val._count }}</small>
-                        <small v-if="status.val._count_all - status.val._count" v-bind:class="'badge ghost'">{{ status.val._count_all - status.val._count }}</small>
-                        <small v-if="showResources && status.val._resources" class="badge feature-resources">{{ status.val._resources }}</small>
+                        <filter-counts v-bind:obj="status.val" v-bind:resources="showResources" v-bind:cls="feedType.key"></filter-counts>
                       </label>
                     </li>
                   </ol>

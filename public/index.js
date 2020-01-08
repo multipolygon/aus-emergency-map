@@ -62,7 +62,28 @@ Vue.component('checkbox-toggles', {
             }
         },
     },
-    template: '<span class="show-all"><span class="mdi mdi-playlist-check" v-on:click.prevent="click(true)">&nbsp;</span><span class="mdi mdi-playlist-remove" v-on:click.prevent="click(false)"></span></span>',
+    template: `
+<span class="show-all">
+  <span class="mdi mdi-playlist-check" v-on:click.prevent="click(true)">&nbsp;</span>
+  <span class="mdi mdi-playlist-remove" v-on:click.prevent="click(false)"></span>
+</span>
+`,
+});
+
+Vue.component('filter-counts', {
+    props: ['obj', 'resources', 'cls'],
+    computed: {
+        count_hidden: function () {
+            return (this.obj._count_all || 0) - (this.obj._count || 0);
+        },
+    },
+    template: `
+<span>
+  <small v-if="obj._count" v-bind:class="'badge feature-' + cls">{{ obj._count }}</small>
+  <small v-if="count_hidden" v-bind:class="'badge ghost'">{{ count_hidden }}</small>
+  <small v-if="resources && obj._resources" class="badge feature-resources">{{ obj._resources }}</small>
+</span>
+`,
 });
 
 var vue = new Vue({

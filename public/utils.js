@@ -43,3 +43,17 @@ function objUnpack(obj, target, callback) {
         }
     }
 };
+
+function parseTasDescription(s) {
+    var re = '<th.*?>(.*?)<\/th><td.*?>(.*?)<\/td>';
+    return s.match(new RegExp(re, 'g')).reduce(
+        function (obj, m) {
+            var e = m.match(new RegExp(re));
+            if (e) {
+                obj[e[1]] = e[2];
+            }
+            return obj
+        },
+        {}
+    );
+}

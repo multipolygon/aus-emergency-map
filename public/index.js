@@ -41,6 +41,13 @@ var lgeo = L.layerGroup().addTo(lmap);
 
 var lTargetMarker = L.layerGroup().addTo(lmap);
 
+Vue.config.errorHandler = function (e) {
+    console.error(e);
+    if (confirm('There was an error. Reload page?')) {
+        window.location.reload(true);
+    }
+};
+
 Vue.component('checkbox-toggles', {
     props: ['obj', 'parents'],
     methods: {
@@ -57,19 +64,6 @@ Vue.component('checkbox-toggles', {
     },
     template: '<span class="show-all"><span class="mdi mdi-playlist-check" v-on:click.prevent="click(true)">&nbsp;</span><span class="mdi mdi-playlist-remove" v-on:click.prevent="click(false)"></span></span>',
 });
-
-var dateLocale = "en-AU";
-
-var dateOptions = {
-    dateStyle: "short",
-    timeStyle: "short",
-    hour12: true,
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    hour: "numeric",
-    minute: "numeric",
-};
 
 var vue = new Vue({
     el: '#vue',
@@ -95,7 +89,7 @@ var vue = new Vue({
                 },
                 wa: {
                     url: 'wa.geo.json',
-                    label: 'WA Incidents',
+                    label: 'WA incidents',
                     loading: false,
                     error: false,
                     _show: true,
@@ -103,7 +97,7 @@ var vue = new Vue({
                 },
                 wa_warn: {
                     url: 'wa-warn.geo.json',
-                    label: 'WA Warnings',
+                    label: 'WA warnings',
                     loading: false,
                     error: false,
                     _show: true,
@@ -111,7 +105,7 @@ var vue = new Vue({
                 },
                 sa_warn: {
                     url: 'sa-warn.geo.json',
-                    label: 'SA Warnings',
+                    label: 'SA warnings',
                     loading: false,
                     error: false,
                     _show: true,
@@ -129,6 +123,33 @@ var vue = new Vue({
                 sa_mfs: {
                     url: 'sa-mfs.kml',
                     label: 'SA MFS',
+                    loading: false,
+                    error: false,
+                    _show: true,
+                    type: 'document',
+                    features: [],
+                },
+                tas: {
+                    url: 'tas.kml',
+                    label: 'Tas',
+                    loading: false,
+                    error: false,
+                    _show: true,
+                    type: 'document',
+                    features: [],
+                },
+                tas_warn: {
+                    url: 'tas-warn.kml',
+                    label: 'Tas warnings',
+                    loading: false,
+                    error: false,
+                    _show: true,
+                    type: 'document',
+                    features: [],
+                },
+                qld: {
+                    url: 'qld.kml',
+                    label: 'Qld',
                     loading: false,
                     error: false,
                     _show: true,
@@ -317,12 +338,14 @@ var vue = new Vue({
                                 function (i) {
                                     var p = i.properties;
                                     p._data_src = src;
-                                    if (src == 'nsw') {
+                                    if (src == 'vic') {
+                                        p.updated = moment.tz(p.updated, moment.ISO_8601, "Australia/Melbourne");
+                                    } else if (src == 'nsw') {
                                         var d = vm.parseHtmlData(p.description);
                                         p.id = p.guid;
                                         p.sourceTitle = p.title;
                                         p.created = p.pubDate;
-                                        p.updated = d.updated || p.pubDate;
+                                        p.updated = moment.tz(d.updated, "D MMM YYYY HH:mm", "Australia/Sydney");
                                         p.feedType = 'incident';
                                         p.category1 = d.fire == 'Yes' ? 'fire' : 'other';
                                         p.category2 = d.type || 'other';
@@ -330,10 +353,14 @@ var vue = new Vue({
                                         p.location = d.location || 'Unknown';
                                         p.size = parseFloat(d.size || 0);
                                     } else if (src == 'wa' || src == 'wa_warn') {
-                                        p.id = p.incidentEventsId;
+                                        p.id = p.incidentEventsId + p.messageId;
                                         p.sourceTitle = p.locationSuburb;
                                         p.created = p.startTime;
-                                        p.updated = p.lastUpdatedTime;
+                                        if (src == 'wa') {
+                                            p.updated = moment.tz(p.lastUpdatedTime, "YYYY-MM-DD HH:mm:ss", "Australia/Perth");
+                                        } else {
+                                            p.updated = moment.tz(p.lastUpdatedTime, "DD-MM-YY hh:mm:ss a", "Australia/Perth");
+                                        }
                                         p.feedType = (src == 'wa_warn') ? 'warning' : 'incident';
                                         p.category1 = (p.type == 'Bushfire') ? 'fire' : 'other';
                                         p.category2 = p.type || 'other';
@@ -343,7 +370,7 @@ var vue = new Vue({
                                     } else if (src == 'sa_warn') {
                                         p.id = p.incident_id;
                                         p.sourceTitle = p.icon;
-                                        p.updated = p.last_edited_date;
+                                        p.updated = moment.tz(p.last_edited_date, "x", "Australia/Adelaide");
                                         p.feedType = 'warning'
                                         p.category1 = p.icon;
                                         p.category2 = 'other';
@@ -352,11 +379,40 @@ var vue = new Vue({
                                         d = vm.parseHtmlData(p.description, '<br>');
                                         p.id = i.id;
                                         p.sourceTitle = p.name;
-                                        p.updated = d['first reported'];
+                                        p.updated = moment.tz(d['first reported'], "dddd DD MMM YYYY HH:mm:ss", "Australia/Adelaide");
                                         p.feedType = 'incident';
                                         p.category1 = p.styleUrl.replace('#','').replace('ClosedIcon','').replace('OpenIcon','').replace('SafeIcon','');
                                         p.category2 = p.description.split('<br>',1)[0];
                                         p.status = d.status;
+                                    } else if (src == 'qld') {
+                                        p.id = p.Master_Incident_Number;
+                                        p.sourceTitle = p.Location;
+                                        p.updated = moment.tz(p.LastUpdate, "YYYYMMDDHHmmss", "Australia/Brisbane");
+                                        p.feedType = 'incident';
+                                        p.category1 = 'other';
+                                        p.category2 = p.IncidentType;
+                                        p.status = p.CurrentStatus;
+                                        p.location = p.Region;
+                                        p.description = p.MediaMessage;
+                                        p.resources = parseInt(p.VehiclesOnRoute) + parseInt(p.VehiclesOnScene);
+                                    } else if (src == 'tas') {
+                                        d = parseTasDescription(p.description);
+                                        p.id = i.id + p.name;
+                                        p.sourceTitle = p.name;
+                                        p.updated = moment.tz(d['Last Update'], "DD-MMM-YYYY hh:mm a", "Australia/Hobart");
+                                        p.feedType = (src == 'tas') ? 'incident' : 'warning';
+                                        p.category1 = d.Type.includes('FIRE') ? 'fire' : 'other';
+                                        p.category2 = d.Type;
+                                        p.status = d.Status;
+                                        p.size = d.Size;
+                                    } else if (src == 'tas_warn') {
+                                        p.id = i.id;
+                                        p.sourceTitle = 'Unknown';
+                                        p.updated = moment();
+                                        p.feedType = 'other';
+                                        p.category1 = 'other';
+                                        p.category2 = 'other';
+                                        p.status = 'other';
                                     }
                                     p.feedType = p.feedType.toLowerCase()
                                     p.category1 = p.category1.toLowerCase();
@@ -369,21 +425,20 @@ var vue = new Vue({
                                         p.feedType = 'warning';
                                         p.category1 = 'weather';
                                     }
-                                    p._age = 0;
-                                    p._date_f = p.updated || '';
-                                    if (p.hasOwnProperty('updated')) {
-                                        try {
-                                            var date = new Date(p.updated);
-                                            p._age = now - date;
-                                            p._date_f = date.toLocaleString(dateLocale, dateOptions);
-                                        } catch { }
+                                    if (p.updated.isValid()) {
+                                        p._age = now - p.updated;
+                                        p._date_f = p.updated.format('h:mma DD MMM YYYY z');
+                                    } else {
+                                        p._age = 0;
+                                        p._date_f = 'Invalid date';
                                     }
                                 }
                             );
                             vm.data[src].error = false;
                             vm.dataLoaded(src);
                         })
-                        .catch(function () {
+                        .catch(function (e) {
+                            // console.warn(e);
                             vm.data[src].error = true;
                             vm.dataLoaded(src);
                         });
@@ -641,3 +696,4 @@ lmap.on(
         llocation.clearLayers();
     }
 );
+

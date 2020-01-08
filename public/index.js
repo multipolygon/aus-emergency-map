@@ -465,7 +465,7 @@ var vue = new Vue({
                 vm.shareableUrl = null;
             }
             var cookie = JSON.stringify(objTreeGetProp(vm.filterTree, '_show'))
-            Cookies.set('filter', cookie, { expires: 30 * 24 * 60 * 60 });
+            Cookies.set('filter_v2', cookie, { expires: 30 * 24 * 60 * 60 });
         },
         loadFilterTree: function () {
             var vm = this;
@@ -478,7 +478,7 @@ var vue = new Vue({
                 force = true;
                 vm.loadDefault = false;
             } else {
-                var cookie = Cookies('filter');
+                var cookie = Cookies('filter_v2');
                 if (cookie) {
                     obj = JSON.parse(cookie);
                 }

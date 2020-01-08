@@ -157,7 +157,7 @@ var vue = new Vue({
                     features: [],
                 },
             },
-            maxAge: 6, // hours
+            maxAge: 12, // hours
             fadeWithAge: true,
             showResources: false,
             sortBy: '_age',
@@ -510,6 +510,7 @@ var vue = new Vue({
         },
         updateFilterTree: function () {
             var vm = this;
+            objTreeSetProp(vm.filterTree, '_count_all', 0);
             vm.featuresAgeFiltered.forEach(
                 function (feature) {
                     var p = feature.properties;
@@ -517,6 +518,10 @@ var vue = new Vue({
                     var cat = vm.setObj(type.category, p.category1, { _show: vm.loadDefault && type._show });
                     var subcat = vm.setObj(cat, p.category2, { _show: vm.loadDefault && cat._show });
                     var stat = vm.setObj(type.status, p.status, { _show: vm.loadDefault && type._show });
+                    vm.setAdd(type, '_count_all', 1);
+                    vm.setAdd(cat, '_count_all', 1);
+                    vm.setAdd(subcat, '_count_all', 1);
+                    vm.setAdd(stat, '_count_all', 1);
                 }
             );
         },

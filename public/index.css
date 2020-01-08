@@ -232,6 +232,13 @@ span.show-all {
     border: 2px solid #00FF00;
 }
 
+.ghost {
+    color: black;
+    background-color: #DDDDDDE0;
+    border: 2px solid #DDDDDD;
+    opacity: 0.7;
+}
+
 .mdi-fire-truck::before {
     transform: scaleX(-1);
 }
@@ -291,4 +298,14 @@ span.show-all {
 
 .map-icon.op10 {
     opacity: 1;
+}
+
+.blink {
+    opacity: 1;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0%,100% { opacity: 1 }
+    50% { opacity: 0.1 }
 }

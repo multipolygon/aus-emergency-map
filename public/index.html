@@ -176,7 +176,7 @@
             </select>
           </p>
           <ol>
-            <li v-for="feature in featuresFiltered" v-bind:key="fid(feature)" v-bind:id="'featureListItem' + fid(feature)" v-on:click="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
+            <li v-for="feature in featuresSorted" v-bind:key="fid(feature)" v-bind:id="'featureListItem' + fid(feature)" v-on:click="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
               <h3>{{ feature.properties.sourceTitle }}</h3>
               <p>
                 {{ feature.properties._date_f }}

@@ -203,7 +203,7 @@ var vue = new Vue({
                         vm.data[src].features.filter(
                             function (feature) {
                                 var p = feature.properties;
-                                p._opacity = (p._age > 0) ? (1 - (p._age / vm.maxAge_ms)) : 1;
+                                p._opacity = (p._age > 0) ? (1 - (p._age / vm.maxAge_ms / 1.1)) : 1;
                                 return p._age < vm.maxAge_ms;
                             }
                         )
@@ -213,21 +213,17 @@ var vue = new Vue({
             );
         },
         featuresSorted : function (vm) {
-            return vm.featuresAgeFiltered.sort(
+            console.log('featuresSorted');
+            var k = vm.sortBy;
+            return vm.featuresFiltered.sort(
                 function (a, b) {
-                    var k = vm.sortBy;
                     var a = a.properties;
                     var b = b.properties;
-                    if (b[k] == a[k]) {
-                        k = '_age';
-                    }
-                    if (a.hasOwnProperty(k) && b.hasOwnProperty(k)) {
-                        if (k == '_age') {
-                            return a._age - b._age;
-                        } else {
-                            return parseFloat(b[k]) - parseFloat(a[k]);
-                        }
-                    } else if (a.hasOwnProperty(k)) {
+                    if (k === '_age' || a[k] === b[k]) {
+                        return a._age - b._age;
+                    } else if ((k in a) && (k in b)) {
+                        return parseFloat(b[k]) - parseFloat(a[k]);
+                    } else if (k in a) {
                         return -1;
                     } else {
                         return 1;

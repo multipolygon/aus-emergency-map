@@ -25,6 +25,19 @@ function objTreeSetProp(obj, prop, val) {
     }
 };
 
+function objTreeGetProp(obj, prop) {
+    var obj2 = {};
+    if (prop in obj) {
+        obj2[prop] = obj[prop];
+    }
+    for (var k in obj) {
+        if (typeof obj[k] === 'object') {
+            obj2[k] = objTreeGetProp(obj[k], prop);
+        }
+    }
+    return obj2;
+};
+
 function objPack(obj, prop, val) {
     var obj2 = {};
     for (var k in obj) {
@@ -38,7 +51,7 @@ function objPack(obj, prop, val) {
 function objUnpack(obj, target, callback) {
     if (typeof obj === 'object' && typeof target === 'object') {
         for (var k in obj) {
-            callback(target, k);
+            callback(obj, target, k);
             objUnpack(obj[k], target[k], callback);
         }
     }

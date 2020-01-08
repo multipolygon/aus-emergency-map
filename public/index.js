@@ -41,12 +41,12 @@ var lgeo = L.layerGroup().addTo(lmap);
 
 var lTargetMarker = L.layerGroup().addTo(lmap);
 
-Vue.config.errorHandler = function (e) {
-    console.error(e);
-    if (confirm('There was an error. Reload page?')) {
-        window.location.reload(true);
-    }
-};
+// Vue.config.errorHandler = function (e) {
+//     console.error(e);
+//     if (confirm('There was an error. Reload page?')) {
+//         window.location.reload(true);
+//     }
+// };
 
 Vue.component('checkbox-toggles', {
     props: ['obj', 'parents'],
@@ -170,7 +170,7 @@ var vue = new Vue({
             featureSelected: 0,
             mapDataBounds: null,
             userLocation: null,
-            sharable: false,
+            shareableUrl: null,
             mapDelay: 2000,
         };
     },
@@ -458,32 +458,48 @@ var vue = new Vue({
         },
         saveFilterTree: function () {
             var vm = this;
-            var json = JSON.stringify(objPack(vm.filterTree, '_show', true));
-            var param = encodeURIComponent(json);
-            vm.sharable = param.length < 1000;
-            history.replaceState("", document.title, window.location.pathname + (vm.sharable ? '?filter=' + param : ''));
-            Cookies.set('filter', json, { expires: 30 * 24 * 60 * 60 });
+            var param = encodeURIComponent(JSON.stringify(objPack(vm.filterTree, '_show', true)));
+            if (param.length < 1000) {
+                vm.shareableUrl = window.location.host + '?filter=' + param;
+            } else {
+                vm.shareableUrl = null;
+            }
+            var cookie = JSON.stringify(objTreeGetProp(vm.filterTree, '_show'))
+            Cookies.set('filter', cookie, { expires: 30 * 24 * 60 * 60 });
         },
         loadFilterTree: function () {
             var vm = this;
+            var obj;
+            var setto;
             var param = getSearchParam('filter');
-            var obj = null;
-            if (!param) {
-                param = Cookies('filter');
-            }
             if (param) {
+                history.replaceState("", document.title, window.location.host);
                 obj = JSON.parse(param);
-                if (obj && typeof obj === 'object') {
-                    objTreeSetProp(vm.filterTree, '_show', false);
-                    objUnpack(
-                        obj,
-                        vm.filterTree,
-                        function (target, key) {
-                            vm.$set(vm.setObj(target, key, {}), '_show', true);
-                        }
-                    );
-                    vm.loadDefault = false;
+                setto = true;
+                vm.loadDefault = false;
+            } else {
+                var cookie = Cookies('filter');
+                if (cookie) {
+                    obj = JSON.parse(cookie);
+                    setto = false;
+                    console.log('Cookie:');
                 }
+            }
+            if (obj) {
+                console.log(obj);
+                objTreeSetProp(vm.filterTree, '_show', false);
+                objUnpack(
+                    obj,
+                    vm.filterTree,
+                    function (source, target, key) {
+                        if (key != '_show') {
+                            var obj2 = vm.setObj(target, key, {});
+                            if (setto || ('_show' in source[key])) {
+                                vm.$set(obj2, '_show', setto || source[key]._show);
+                            }
+                        }
+                    }
+                );
             }
         },
         updateFilterTree: function () {

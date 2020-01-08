@@ -56,7 +56,7 @@
           <div title="Info" class="circle button small" v-on:click.prevent="scrollTo('panelInfo')">
             <div class="mdi mdi-help-circle"></div>
           </div>
-          <div title="Share URL" v-if="sharable" class="circle button small" v-on:click.prevent="prompt('Shareable URL for currently selected filters:', [window.location])">
+          <div title="Share URL" v-if="shareableUrl" class="circle button small" v-on:click.prevent="prompt('Shareable URL for currently selected filters:', [shareableUrl])">
             <div class="mdi mdi-link-box-variant"></div>
           </div>
         </div>

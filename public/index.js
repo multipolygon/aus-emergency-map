@@ -482,11 +482,9 @@ var vue = new Vue({
                 if (cookie) {
                     obj = JSON.parse(cookie);
                     setto = false;
-                    console.log('Cookie:');
                 }
             }
             if (obj) {
-                console.log(obj);
                 objTreeSetProp(vm.filterTree, '_show', false);
                 objUnpack(
                     obj,

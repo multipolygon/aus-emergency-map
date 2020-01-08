@@ -44,6 +44,18 @@ function objUnpack(obj, target, callback) {
     }
 };
 
+function parseHtmlData(html, sep) {
+    return html.split(sep || '<br />').reduce(
+        function (obj, line) {
+            var pair = line.split(':');
+            var k = pair.shift().trim().toLowerCase();
+            obj[k] = pair.join(':').trim();
+            return obj;
+        },
+        {}
+    );
+}
+
 function parseTasDescription(s) {
     var re = '<th.*?>(.*?)<\/th><td.*?>(.*?)<\/td>';
     return s.match(new RegExp(re, 'g')).reduce(

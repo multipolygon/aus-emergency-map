@@ -305,17 +305,6 @@ var vue = new Vue({
         togglePanel: function () {
             this.showPanel = !this.showPanel;
         },
-        parseHtmlData: function (html,sep) {
-            return html.split(sep || '<br />').reduce(
-                function (obj, line) {
-                    var pair = line.split(':');
-                    var k = pair.shift().trim().toLowerCase();
-                    obj[k] = pair.join(':').trim();
-                    return obj;
-                },
-                {}
-            );
-        },
         fetchData: function (src) {
             var vm = this;
             vm.mapDelay = 2000;
@@ -341,7 +330,7 @@ var vue = new Vue({
                                     if (src == 'vic') {
                                         p.updated = moment.tz(p.updated, moment.ISO_8601, "Australia/Melbourne");
                                     } else if (src == 'nsw') {
-                                        var d = vm.parseHtmlData(p.description);
+                                        var d = parseHtmlData(p.description);
                                         p.id = p.guid;
                                         p.sourceTitle = p.title;
                                         p.created = p.pubDate;
@@ -376,7 +365,7 @@ var vue = new Vue({
                                         p.category2 = 'other';
                                         p.status = 'other';
                                     } else if (src == 'sa_cfs' || src == 'sa_mfs') {
-                                        d = vm.parseHtmlData(p.description, '<br>');
+                                        d = parseHtmlData(p.description, '<br>');
                                         p.id = i.id;
                                         p.sourceTitle = p.name;
                                         p.updated = moment.tz(d['first reported'], "dddd DD MMM YYYY HH:mm:ss", "Australia/Adelaide");

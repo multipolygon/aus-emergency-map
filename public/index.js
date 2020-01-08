@@ -291,9 +291,9 @@ var vue = new Vue({
                 }
             }
             if (now.length == Object.keys(this.data).length) {
-                cookieDelete('dataSource');
+                localRemove('dataSource');
             } else {
-                cookieSet('dataSource', now);
+                localSet('dataSource', now);
             }
         },
     },
@@ -462,7 +462,7 @@ var vue = new Vue({
             } else {
                 vm.shareableUrl = null;
             }
-            cookieSet('filterTree', objTreeGetProp(vm.filterTree, '_show'));
+            localSet('filterTree', objTreeGetProp(vm.filterTree, '_show'));
         },
         loadFilterTree: function () {
             var vm = this;
@@ -475,7 +475,7 @@ var vue = new Vue({
                 force = true;
                 vm.loadDefault = false;
             } else {
-                var obj = cookieGet('filterTree', null);
+                var obj = localGet('filterTree', null);
             }
             if (obj !== null) {
                 objTreeSetProp(vm.filterTree, '_show', false);
@@ -665,7 +665,9 @@ var vue = new Vue({
                 100
             );
         },
-        
+        clearLocalStorage: function () {
+            localStorage.clear();
+        },
     },
     created: function () {
         var vm = this;
@@ -673,7 +675,7 @@ var vue = new Vue({
             vm.showPanel = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 600) >= 600;
         } catch {}
         vm.loadFilterTree()
-        vm.dataSource = cookieGet('dataSource', Object.keys(vm.data));
+        vm.dataSource = localGet('dataSource', Object.keys(vm.data));
         setInterval(
             function () {
                 vm.fetchData();

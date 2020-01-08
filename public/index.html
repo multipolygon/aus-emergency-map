@@ -202,12 +202,13 @@
           </ol>
           <p v-if="featuresFiltered.length == 0">No items.</p>
           <div id="panelInfo">
-            <h2>About This Page</h2>
-            <p>This page is in no way officially affiliated with any State Government or data source.</p>
+            <h2>About This</h2>
+            <p>This map is in no way officially affiliated with any State Government or data source.</p>
             <p>
-              <a href="https://github.com/reillybeacom/aus-emergency-map">
-                Source code available on Github
-              </a>
+              This is a non-commercial, volunteer project. <a href="https://github.com/reillybeacom/aus-emergency-map">Source code</a> is available and feedback or contributions welcome.
+            </p>
+            <p>
+              The layout works best on desktop, but it is also great on tablet or mobile where it can be added to the home screen.
             </p>
             <p>Proudly built with free, open-source software:</p>
             <ul>
@@ -224,6 +225,11 @@
                 <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
               </li>
             </ul>
+            <p>
+              <small>
+                <button v-on:click.prevent="clearLocalStorage">Clear Saved Settings</button>
+              </small>
+            </p>
             <p style="font-size: 70%; color: grey;">
               THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
               IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -243,7 +249,6 @@
     <script src="./leaflet/leaflet.js"></script>
     <script src="./leaflet.fullscreen/Control.FullScreen.js"></script>
     <script src="./vue/vue.min.js"></script>
-    <script src="./cookies/cookies.js"></script>
     <script src="./togeojson/togeojson.js"></script>
     <script src="./togpx/togpx.js"></script>
     <script src="./moment/moment.min.js"></script>

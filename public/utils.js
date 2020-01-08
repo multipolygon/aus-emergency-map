@@ -83,22 +83,21 @@ function parseTasDescription(s) {
     );
 }
 
-cookieVersion = '2'
+storageVersion = '1'
 
-function cookieSet(key, val) {
-    // https://github.com/ScottHamper/Cookies
-    return Cookies.set(key + '_v' + cookieVersion, JSON.stringify(val), { expires: 30 * 24 * 60 * 60 });
+function localSet(key, val) {
+    return localStorage.setItem(key + '_v' + storageVersion, JSON.stringify(val));
 }
 
-function cookieGet(key, _val) {
-    var val = Cookies.get(key + '_v' + cookieVersion);
-    if (val) {
+function localGet(key, _val) {
+    var val = localStorage.getItem(key + '_v' + storageVersion);
+    if (val !== null) {
         return JSON.parse(val);
     } else {
         return _val;
     }
 }
 
-function cookieDelete(key) {
-    return Cookies.set(key + '_v' + cookieVersion, undefined);
+function localRemove(key) {
+    return localStorage.removeItem(key + '_v' + storageVersion);
 }

@@ -213,7 +213,6 @@ var vue = new Vue({
             );
         },
         featuresSorted : function (vm) {
-            console.log('featuresSorted');
             var k = vm.sortBy;
             return vm.featuresFiltered.sort(
                 function (a, b) {

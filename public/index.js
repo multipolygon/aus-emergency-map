@@ -180,7 +180,10 @@ var vue = new Vue({
                 other: { _show: true, _color: "#2981CA", _icon: 'information', category: {}, status: {} },
             },
             featureSelected: 0,
-            mapDataBounds: null,
+            mapBounds: {
+                watchZone: null,
+                features: null,
+            },
             userLocation: null,
             shareableUrl: null,
             mapDelay: 2000,
@@ -242,7 +245,7 @@ var vue = new Vue({
                 }
             );
         },
-        featuresFiltered: function (vm) {
+        featuresFilteredByProperty: function (vm) {
             return vm.featuresAgeFiltered.filter(
                 function (feature) {
                     var p = feature.properties;
@@ -253,6 +256,24 @@ var vue = new Vue({
                         vm.filterTree[p.feedType].status[p.status]._show;
                 }
             )
+        },
+        featuresFilteredByWatchZone: function (vm) {
+            return vm.featuresFilteredByProperty.filter(
+                function (feature) {
+                    var p = feature.properties;
+                    if (!('_geo_bounds' in p)) {
+                        p._geo_bounds = Object.freeze(L.geoJSON(feature).getBounds());
+                    }
+                    return vm.mapBounds.watchZone.contains(p._geo_bounds);
+                }
+            );
+        },
+        featuresFiltered: function (vm) {
+            if (vm.mapBounds.watchZone === null) {
+                return vm.featuresFilteredByProperty;
+            } else {
+                return vm.featuresFilteredByWatchZone;
+            }
         },
         totalResources: function (vm) {
             return vm.featuresFiltered.reduce(
@@ -317,6 +338,16 @@ var vue = new Vue({
                 localSet('dataSource', now);
             }
         },
+        mapBounds: {
+            deep: true,
+            handler: function (bounds) {
+                if (bounds.watchZone === null) {
+                    localRemove('watchZone');
+                } else {
+                    localSet('watchZone', bounds.watchZone);
+                }
+            }
+        },
     },
     methods: {
         debug: function () {
@@ -376,7 +407,6 @@ var vue = new Vue({
                                         p.location = p.locationSuburb;
                                         p.size = p.areaBurnt;
                                     } else if (src == 'sa_warn') {
-                                        console.log(p);
                                         p.id = String(p.incident_id || 0) + String(p.objectid || 0); 
                                         p.sourceTitle = p.icon;
                                         p.updated = moment.tz(p.last_edited_date, "x", "Australia/Adelaide");
@@ -592,9 +622,17 @@ var vue = new Vue({
             vm.mapDelay = 500;
             lmap.invalidateSize(true);
             lgeo.clearLayers();
+            if (vm.mapBounds.watchZone !== null) {
+                L.rectangle(vm.mapBounds.watchZone, {
+                    weight: 4,
+                    color: "#00EE00",
+                    opacity: 0.7,
+                    fillColor: 'transparent',
+                }).addTo(lgeo);
+            }
             if (vm.featuresFiltered.length > 0) {
                 //https://leafletjs.com/examples/geojson/
-                vm.mapDataBounds = L.geoJSON({
+                var geo = L.geoJSON({
                     "type": "FeatureCollection",
                     "features": vm.featuresFiltered,
                     "properties": {},
@@ -640,7 +678,8 @@ var vue = new Vue({
                             ).addTo(layer);
                         }
                     },
-                }).addTo(lgeo).getBounds();
+                }).addTo(lgeo);
+                vm.mapBounds.features = Object.freeze(geo.getBounds());
                 if (!userZoom) {
                     autoZoom = true;
                     lmap.stop();
@@ -649,8 +688,8 @@ var vue = new Vue({
             }
         },
         zoomMap: function () {
-            if (this.mapDataBounds) {
-                lmap.fitBounds(this.mapDataBounds, { maxZoom: 10, animate: true, duration: 1 });
+            if (this.mapBounds.features !== null) {
+                lmap.fitBounds(this.mapBounds.features, { padding: [20,20], maxZoom: 10, animate: true, duration: 1 });
             };
         },
         resetZoom: function () {
@@ -660,6 +699,15 @@ var vue = new Vue({
         zoomToUserLocation: function () {
             userZoom = true;
             lmap.locate({ setView: true, maxZoom: 10, duration: 1 });
+        },
+        updateWatchZone: function () {
+            if (this.mapBounds.watchZone === null) {
+                this.mapBounds.watchZone = Object.freeze(lmap.getBounds());
+            } else {
+                if (confirm('Remove active watch zone?')) {
+                    this.mapBounds.watchZone = null;
+                }
+            }
         },
         selectFeature: function (feature, scroll) {
             var fid = this.fid(feature);
@@ -724,6 +772,12 @@ var vue = new Vue({
         clearLocalStorage: function () {
             localStorage.clear();
         },
+        alert: function (s) {
+            alert(s);
+        },
+        dataSourceAlert: function (s) {
+            alert(s + Object.values(this.data).filter(i => i.error).map(i => i.label).join(', '));
+        },
     },
     created: function () {
         var vm = this;
@@ -736,6 +790,10 @@ var vue = new Vue({
         try {
             vm.showPanel = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 600) >= 600;
         } catch {}
+        var watchZone = localGet('watchZone', null);
+        if (watchZone !== null) {
+            vm.mapBounds.watchZone = Object.freeze(L.latLngBounds(watchZone._northEast, watchZone._southWest));
+        }
         vm.loadFilterTree()
         vm.dataSource = localGet('dataSource', Object.keys(vm.data));
         setInterval(

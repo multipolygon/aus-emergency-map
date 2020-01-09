@@ -86,6 +86,12 @@ Vue.component('filter-counts', {
 `,
 });
 
+var defaultFilterTree = {
+    incident: { _show: true, _color: "#CC3333", _icon: 'fire-truck', category: {}, status: {} },
+    warning: { _show: true, _color: "#FFAA1D", _icon: 'alert', category: {}, status: {} },
+    other: { _show: true, _color: "#2981CA", _icon: 'information', category: {}, status: {} },
+};
+
 var vue = new Vue({
     el: '#vue',
     data () {
@@ -174,11 +180,7 @@ var vue = new Vue({
             showResources: false,
             sortBy: '_age',
             loadDefault: true,
-            filterTree: {
-                incident: { _show: true, _color: "#CC3333", _icon: 'fire-truck', category: {}, status: {} },
-                warning: { _show: true, _color: "#FFAA1D", _icon: 'alert', category: {}, status: {} },
-                other: { _show: true, _color: "#2981CA", _icon: 'information', category: {}, status: {} },
-            },
+            filterTree: {},
             featureSelected: 0,
             mapBounds: {
                 watchZone: null,
@@ -525,44 +527,42 @@ var vue = new Vue({
             } else {
                 vm.shareableUrl = null;
             }
-            localSet('filterTree', objTreeGetProp(vm.filterTree, '_show'));
+            localSet('filterTree', vm.filterTree);
         },
         loadFilterTree: function () {
             var vm = this;
-            var obj = null;
-            var force = false;
             var param = getSearchParam('filter');
             if (param) {
                 history.pushState("", document.title, '/');
-                obj = JSON.parse(param);
-                force = true;
-                vm.loadDefault = false;
-            } else {
-                var obj = localGet('filterTree', null);
-            }
-            if (obj !== null) {
-                objTreeSetProp(vm.filterTree, '_show', false);
-                objMerge(
-                    obj,
-                    vm.filterTree,
-                    function (source, target, key) {
-                        if (key === '_show') {
-                            if ('_show' in target) {
-                                target._show = force || source._show;
-                            } else {
-                                vm.$set(target, '_show', force || source._show);
-                            }
-                        } else {
-                            if (key in target) {
-                                if (force && ('_show' in target)) {
+                var obj = JSON.parse(param);
+                if (obj !== null) {
+                    vm.loadDefault = false;
+                    vm.filterTree = defaultFilterTree;
+                    objTreeSetProp(vm.filterTree, '_show', false);
+                    objMerge(
+                        obj,
+                        vm.filterTree,
+                        function (source, target, key) {
+                            if (key === '_show') {
+                                if ('_show' in target) {
                                     target._show = true;
+                                } else {
+                                    vm.$set(target, '_show', true);
                                 }
                             } else {
-                                vm.$set(target, key, (force ? { _show: true } : {}));
+                                if (key in target) {
+                                    if ('_show' in target) {
+                                        target._show = true;
+                                    }
+                                } else {
+                                    vm.$set(target, key, { _show: true });
+                                }
                             }
                         }
-                    }
-                );
+                    );
+                }
+            } else {
+                vm.filterTree = localGet('filterTree', defaultFilterTree);
             }
         },
         updateFilterTree: function () {
@@ -786,6 +786,9 @@ var vue = new Vue({
         alert: function (s) {
             alert(s);
         },
+        prompt: function (s, val) {
+            prompt(s, val);
+        },
         dataSourceAlert: function (s) {
             alert(s + Object.values(this.data).filter(i => i.error).map(i => i.label).join(', '));
         },
@@ -806,7 +809,7 @@ var vue = new Vue({
             vm.mapBounds.watchZone = Object.freeze(L.latLngBounds(watchZone._northEast, watchZone._southWest));
         }
         vm.maxAge = localGet('maxAge', 12);
-        vm.loadFilterTree()
+        vm.loadFilterTree();
         vm.dataSource = localGet('dataSource', Object.keys(vm.data));
         setInterval(
             function () {

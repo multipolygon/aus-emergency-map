@@ -97,7 +97,7 @@ function parseTasDescription(s) {
     );
 }
 
-storageVersion = '1'
+storageVersion = '2'
 
 function localSet(key, val) {
     return localStorage.setItem(key + '_v' + storageVersion, JSON.stringify(val));

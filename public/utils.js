@@ -39,11 +39,11 @@ function objTreeGetProp(obj, prop) {
 };
 
 function objTreeHasValue(obj, prop, val) {
-    if ((prop in obj) && obj[prop] === val) {
-        return true;
-    }
-    for (var k in obj) {
-        if (typeof obj[k] === 'object') {
+    if (typeof obj === 'object') {
+        if ((prop in obj) && obj[prop] === val) {
+            return true;
+        }
+        for (var k in obj) {
             if (objTreeHasValue(obj[k], prop, val)) {
                 return true;
             }

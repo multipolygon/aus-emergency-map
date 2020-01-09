@@ -12,6 +12,11 @@ https://australia.emergencymap.info
 - Automatic data fetch
 - Counters for each category of incident and allocated resources
 - Save and load selected filters as a cookie or URL
+- Watch-zone bounding box
+
+See (user guide)[./public/user_guide/index.md] for more details.
+
+### 
 
 ## Tech
 
@@ -23,8 +28,6 @@ Proudly built with free, open-source software:
 - <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
 
 ## Notice
-
-This page is in no way officially affiliated with any State Government or data provider.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

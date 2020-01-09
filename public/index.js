@@ -361,7 +361,7 @@ var vue = new Vue({
                                         p.location = d.location || 'Unknown';
                                         p.size = parseFloat(d.size || 0);
                                     } else if (src == 'wa' || src == 'wa_warn') {
-                                        p.id = p.incidentEventsId + p.messageId;
+                                        p.id = String(p.incidentEventsId || 0) + String(p.messageId || 0);
                                         p.sourceTitle = p.locationSuburb;
                                         p.created = p.startTime;
                                         if (src == 'wa') {
@@ -376,7 +376,8 @@ var vue = new Vue({
                                         p.location = p.locationSuburb;
                                         p.size = p.areaBurnt;
                                     } else if (src == 'sa_warn') {
-                                        p.id = p.incident_id;
+                                        console.log(p);
+                                        p.id = String(p.incident_id || 0) + String(p.objectid || 0); 
                                         p.sourceTitle = p.icon;
                                         p.updated = moment.tz(p.last_edited_date, "x", "Australia/Adelaide");
                                         p.feedType = 'warning'
@@ -526,6 +527,12 @@ var vue = new Vue({
         updateFilterTree: function () {
             var vm = this;
             objTreeSetProp(vm.filterTree, '_count_all', 0);
+            Object.values(vm.data).forEach(
+                function (obj) {
+                    vm.setObj(obj, '_count_all', 0);
+                    obj._count_all = 0;
+                }
+            );
             vm.featuresAgeFiltered.forEach(
                 function (feature) {
                     var p = feature.properties;
@@ -533,6 +540,7 @@ var vue = new Vue({
                     var cat = vm.setObj(type.category, p.category1, { _show: vm.loadDefault && type._show });
                     var subcat = vm.setObj(cat, p.category2, { _show: vm.loadDefault && cat._show });
                     var stat = vm.setObj(type.status, p.status, { _show: vm.loadDefault && type._show });
+                    vm.setAdd(vm.data[p._data_src], '_count_all', 1);
                     vm.setAdd(type, '_count_all', 1);
                     vm.setAdd(cat, '_count_all', 1);
                     vm.setAdd(subcat, '_count_all', 1);
@@ -544,6 +552,14 @@ var vue = new Vue({
             var vm = this;
             objTreeSetProp(vm.filterTree, '_count', 0);
             objTreeSetProp(vm.filterTree, '_resources', 0);
+            Object.values(vm.data).forEach(
+                function (obj) {
+                    vm.setObj(obj, '_count', 0);
+                    obj._count = 0;
+                    vm.setObj(obj, '_resources', 0);
+                    obj._resources = 0;
+                }
+            );
             vm.featuresFiltered.forEach(
                 function (feature) {
                     var p = feature.properties;
@@ -551,12 +567,14 @@ var vue = new Vue({
                     var cat = type.category[p.category1];
                     var subcat = cat[p.category2];
                     var stat = type.status[p.status];
+                    vm.setAdd(vm.data[p._data_src], '_count', 1);
                     vm.setAdd(type, '_count', 1);
                     vm.setAdd(cat, '_count', 1);
                     vm.setAdd(subcat, '_count', 1);
                     vm.setAdd(stat, '_count', 1);
                     var r = ('resources' in p) ? parseInt(p.resources) : 0;
                     vm.filterTree._resources += r;
+                    vm.setAdd(vm.data[p._data_src], '_resources', r);
                     vm.setAdd(type, '_resources', r);
                     vm.setAdd(cat, '_resources', r);
                     vm.setAdd(subcat, '_resources', r);

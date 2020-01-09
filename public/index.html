@@ -104,6 +104,7 @@
                     <input type="checkbox" v-model="dataSource" v-bind:value="i.key">
                     {{ i.val.label }}
                   </label>
+                  <filter-counts v-bind:obj="i.val" v-bind:resources="showResources" cls="source"></filter-counts>
                 </li>
               </ol>
             </li>

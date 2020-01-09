@@ -179,7 +179,7 @@ var vue = new Vue({
                 },
             },
             dataSource: [],
-            maxAge: 12, // hours
+            maxAge: 24, // hours
             fadeWithAge: true,
             showResources: false,
             sortBy: '_age',
@@ -814,7 +814,7 @@ var vue = new Vue({
         if (watchZone !== null) {
             vm.mapBounds.watchZone = Object.freeze(L.latLngBounds(watchZone._northEast, watchZone._southWest));
         }
-        vm.maxAge = localGet('maxAge', 12);
+        vm.maxAge = localGet('maxAge', 24);
         vm.loadFilterTree();
         vm.dataSource = localGet('dataSource', Object.keys(vm.data));
         setInterval(

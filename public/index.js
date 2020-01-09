@@ -761,7 +761,10 @@ var vue = new Vue({
             this.showPanel = true;
             setTimeout(
                 function () {
-                    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+                    var e = document.getElementById(id);
+                    if (e) {
+                        e.scrollIntoView({ behavior: 'smooth' });
+                    }
                 },
                 100
             );

@@ -35,10 +35,10 @@
             <div class="mdi mdi-close-box-multiple blink"></div>
           </div>
           <div v-else>
-            <div title="Incidents" v-if="filterTree.incident._show" class="circle feature-incident">{{ filterTree.incident._count || 0 }}</div>
-            <div title="Resources" v-if="filterTree._resources" class="circle feature-resources">{{ filterTree._resources || 0 }}</div>
-            <div title="Warnings" v-if="filterTree.warning._show" class="circle feature-warning">{{ filterTree.warning._count || 0 }}</div>
-            <div title="Other" v-if="filterTree.other._show" class="circle feature-other">{{ filterTree.other._count || 0 }}</div>
+            <div title="Incidents" v-if="filterTree.incident._show" v-on:click.prevent="scrollTo('panelFilters-incident')" class="circle feature-incident">{{ filterTree.incident._count || 0 }}</div>
+            <div title="Resources" v-if="showResources" v-on:click.prevent="scrollTo('panelFilters-incident')" class="circle feature-resources">{{ filterTree._resources || 0 }}</div>
+            <div title="Warnings" v-if="filterTree.warning._show" v-on:click.prevent="scrollTo('panelFilters-warning')" class="circle feature-warning">{{ filterTree.warning._count || 0 }}</div>
+            <div title="Other" v-if="filterTree.other._show" v-on:click.prevent="scrollTo('panelFilters-other')" class="circle feature-other">{{ filterTree.other._count || 0 }}</div>
           </div>
           <div title="Some data failed to download" v-if="dataError" class="circle alert" v-on:click="dataSourceAlert('The following data source failed to download: ')">
             <div class="mdi mdi-alert"></div>
@@ -123,7 +123,7 @@
               </ol>
             </li>
             <li v-for="feedType in getKeys(filterTree, ['incident', 'warning', 'other'])" v-if="feedType.key[0] != '_'" v-bind:key="feedType.key">
-              <label>
+              <label v-bind:id="'panelFilters-' + feedType.key">
                 <input type="checkbox" v-model="feedType.val._show">
                 <strong>{{ feedType.key }}</strong>
               </label>

@@ -1,5 +1,9 @@
 /* globals
-   L Vue axios
+   L Vue axios moment toGeoJSON
+   objTreeSetProp objTreeHasValue objPack objMerge
+   getSearchParam
+   parseHtmlData parseTasDescription
+   localSet localGet localRemove 
 */
 
 var lmap = L.map(
@@ -241,8 +245,8 @@ var vue = new Vue({
             var k = vm.sortBy;
             return vm.featuresFiltered.sort(
                 function (a, b) {
-                    var a = a.properties;
-                    var b = b.properties;
+                    a = a.properties;
+                    b = b.properties;
                     if (k === '_age' || a[k] === b[k]) {
                         return a._age - b._age;
                     } else if ((k in a) && (k in b)) {
@@ -265,7 +269,7 @@ var vue = new Vue({
                         vm.filterTree[p.feedType].category[p.category1][p.category2]._show &&
                         vm.filterTree[p.feedType].status[p.status]._show;
                 }
-            )
+            );
         },
         featuresFilteredByWatchZone: function (vm) {
             return vm.featuresFilteredByProperty.filter(
@@ -372,7 +376,7 @@ var vue = new Vue({
             var vm = this;
             vm.mapDelay = 2000;
             if (src === undefined) {
-                for (var src of vm.dataSource) {
+                for (src of vm.dataSource) {
                     vm.fetchData(src);
                 }
             } else {
@@ -423,7 +427,7 @@ var vue = new Vue({
                                         p.id = String(p.incident_id || 0) + String(p.objectid || 0); 
                                         p.sourceTitle = p.icon;
                                         p.updated = moment.tz(p.last_edited_date, "x", "Australia/Adelaide");
-                                        p.feedType = 'warning'
+                                        p.feedType = 'warning';
                                         p.category1 = p.icon;
                                         p.category2 = 'other';
                                         p.status = 'other';
@@ -466,13 +470,13 @@ var vue = new Vue({
                                         p.category2 = 'other';
                                         p.status = 'other';
                                     }
-                                    p.feedType = p.feedType.toLowerCase()
+                                    p.feedType = p.feedType.toLowerCase();
                                     p.category1 = p.category1.toLowerCase();
                                     p.category2 = p.category2.toLowerCase();
                                     p.status = p.status.toLowerCase();
-                                    if (!(p.feedType in vm.filterTree)) p.feedType = 'other';
-                                    if (p.category1 == 'accident / rescue') p.category1 = 'rescue';
-                                    if (p.category2 == 'bush fire') p.category2 = 'bushfire';
+                                    if (!(p.feedType in vm.filterTree)) {p.feedType = 'other';}
+                                    if (p.category1 == 'accident / rescue') {p.category1 = 'rescue';}
+                                    if (p.category2 == 'bush fire') {p.category2 = 'bushfire';}
                                     if (p.category1 == 'met') {
                                         p.feedType = 'warning';
                                         p.category1 = 'weather';
@@ -626,7 +630,7 @@ var vue = new Vue({
         updateMap: function () {
             var vm = this;
             clearTimeout(vm._updateMapTimeout);
-            vm._updateMapTimeout = setTimeout(function () { vm._updateMap() }, vm.mapDelay);
+            vm._updateMapTimeout = setTimeout(function () { vm._updateMap(); }, vm.mapDelay);
         },
         _updateMap: function () {
             var vm = this;
@@ -664,7 +668,7 @@ var vue = new Vue({
                             color: vm.filterTree[p.feedType]._color,
                             opacity: (vm.fadeWithAge ? p._opacity : 1) * 0.4,
                             fillOpacity: (vm.fadeWithAge ? p._opacity : 1) * 0.2,
-                        }
+                        };
                     },
                     onEachFeature: function (feature, layer) {
                         layer.on('click', function () {
@@ -701,7 +705,7 @@ var vue = new Vue({
         zoomMap: function () {
             if (this.mapBounds.features !== null) {
                 lmap.fitBounds(this.mapBounds.features, { padding: [20,20], maxZoom: 10, animate: true, duration: 1 });
-            };
+            }
         },
         resetZoom: function () {
             userZoom = false;
@@ -723,8 +727,8 @@ var vue = new Vue({
         selectFeature: function (feature, scroll) {
             var fid = this.fid(feature);
             this.featureSelected = fid;
-            var lgeo = L.geoJSON(feature);
-            var bounds = lgeo.getBounds()
+            var geo = L.geoJSON(feature);
+            var bounds = geo.getBounds();
             lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
             lTargetMarker.clearLayers();
             L.circleMarker(
@@ -745,13 +749,12 @@ var vue = new Vue({
             return p._data_src + p.id;
         },
         fhtml: function (feature, keys) {
-            var vm = this;
             var s = [];
             keys.forEach(
                 function (k) {
                     s.push(feature.properties[k]);
                 }
-            )
+            );
             return s.join('<br>');
         },
         scrollTo: function (id) {
@@ -766,14 +769,14 @@ var vue = new Vue({
         getKeys: function (obj, keys) {
             return keys.map(
                 function (k) {
-                    return { key: k, val: obj[k] }
+                    return { key: k, val: obj[k] };
                 }
             );
         },
         sortKeys: function (obj) {
             return Object.keys(obj).sort().map(
                 function (k) {
-                    return { key: k, val: obj[k] }
+                    return { key: k, val: obj[k] };
                 }
             );
         },
@@ -800,10 +803,10 @@ var vue = new Vue({
             if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
                 vm.reloadApp();
             }
-        } catch {}
+        } catch (e) { }
         try {
             vm.showPanel = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 600) >= 600;
-        } catch {}
+        } catch (e) { }
         var watchZone = localGet('watchZone', null);
         if (watchZone !== null) {
             vm.mapBounds.watchZone = Object.freeze(L.latLngBounds(watchZone._northEast, watchZone._southWest));

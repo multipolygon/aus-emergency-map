@@ -3,7 +3,7 @@
 function getSearchParam(paramName) {
     paramName = encodeURIComponent(paramName);
     var searchString = window.location.search.substring(1), i, val, params = searchString.split("&");
-    for (i=0;i<params.length;i++) {
+    for (i = 0; i < params.length; i++) {
         val = params[i].split("=");
         if (val[0] == paramName) {
             return decodeURIComponent(val[1]);
@@ -23,7 +23,7 @@ function objTreeSetProp(obj, prop, val) {
             }
         }
     }
-};
+}
 
 function objTreeGetProp(obj, prop) {
     var obj2 = {};
@@ -36,7 +36,7 @@ function objTreeGetProp(obj, prop) {
         }
     }
     return obj2;
-};
+}
 
 function objTreeHasValue(obj, prop, val) {
     if (typeof obj === 'object') {
@@ -50,7 +50,7 @@ function objTreeHasValue(obj, prop, val) {
         }
     }
     return false;
-};
+}
 
 function objPack(obj, prop, val) {
     var obj2 = {};
@@ -60,7 +60,7 @@ function objPack(obj, prop, val) {
         }
     }
     return obj2;
-};
+}
 
 function objMerge(obj, target, callback) {
     if (typeof obj === 'object' && typeof target === 'object') {
@@ -69,7 +69,7 @@ function objMerge(obj, target, callback) {
             objMerge(obj[k], target[k], callback);
         }
     }
-};
+}
 
 function parseHtmlData(html, sep) {
     return html.split(sep || '<br />').reduce(
@@ -91,13 +91,13 @@ function parseTasDescription(s) {
             if (e) {
                 obj[e[1]] = e[2];
             }
-            return obj
+            return obj;
         },
         {}
     );
 }
 
-storageVersion = '2'
+var storageVersion = '2';
 
 function localSet(key, val) {
     return localStorage.setItem(key + '_v' + storageVersion, JSON.stringify(val));

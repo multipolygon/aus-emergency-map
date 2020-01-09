@@ -208,6 +208,14 @@ var vue = new Vue({
                 false
             );
         },
+        filterTreeActive: function (vm) {
+            for (var k in vm.filterTree) {
+                if (objTreeHasValue(vm.filterTree[k].category, '_show', true) && objTreeHasValue(vm.filterTree[k].status, '_show', true)) {
+                    return true;
+                }
+            }
+            return false;
+        },
         maxAge_ms: function (vm) {
             return vm.maxAge * 60 * 60 * 1000;
         },
@@ -325,6 +333,9 @@ var vue = new Vue({
         },
         showResources: function () {
             this.updateMap();
+        },
+        maxAge: function (val) {
+            localSet('maxAge', val);
         },
         dataSource: function (now, old) {
             for (var src of now) {
@@ -794,6 +805,7 @@ var vue = new Vue({
         if (watchZone !== null) {
             vm.mapBounds.watchZone = Object.freeze(L.latLngBounds(watchZone._northEast, watchZone._southWest));
         }
+        vm.maxAge = localGet('maxAge', 12);
         vm.loadFilterTree()
         vm.dataSource = localGet('dataSource', Object.keys(vm.data));
         setInterval(

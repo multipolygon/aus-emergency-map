@@ -38,6 +38,20 @@ function objTreeGetProp(obj, prop) {
     return obj2;
 };
 
+function objTreeHasValue(obj, prop, val) {
+    if ((prop in obj) && obj[prop] === val) {
+        return true;
+    }
+    for (var k in obj) {
+        if (typeof obj[k] === 'object') {
+            if (objTreeHasValue(obj[k], prop, val)) {
+                return true;
+            }
+        }
+    }
+    return false;
+};
+
 function objPack(obj, prop, val) {
     var obj2 = {};
     for (var k in obj) {

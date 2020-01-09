@@ -16,8 +16,6 @@ https://australia.emergencymap.info
 
 See (user guide)[./public/user_guide/index.md] for more details.
 
-### 
-
 ## Tech
 
 Proudly built with free, open-source software:

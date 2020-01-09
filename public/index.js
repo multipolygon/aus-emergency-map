@@ -264,7 +264,7 @@ var vue = new Vue({
                     if (!('_geo_bounds' in p)) {
                         p._geo_bounds = Object.freeze(L.geoJSON(feature).getBounds());
                     }
-                    return vm.mapBounds.watchZone.contains(p._geo_bounds);
+                    return vm.mapBounds.watchZone.intersects(p._geo_bounds);
                 }
             );
         },

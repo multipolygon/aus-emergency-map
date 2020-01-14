@@ -14,7 +14,7 @@ https://australia.emergencymap.info
 - Save and load selected filters as a cookie or URL
 - Watch-zone bounding box
 
-See (user guide)[./public/user_guide/index.md] for more details.
+See [user guide](./public/user_guide/index.md) for more details.
 
 ## Tech
 

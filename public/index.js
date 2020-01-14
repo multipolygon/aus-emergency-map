@@ -182,7 +182,7 @@ var vue = new Vue({
             maxAge: 24, // hours
             fadeWithAge: true,
             showResources: false,
-            sortBy: '_age',
+            sortBy: null,
             loadDefault: true,
             filterTree: {},
             featureSelected: 0,
@@ -292,8 +292,23 @@ var vue = new Vue({
         totalResources: function (vm) {
             return vm.featuresFiltered.reduce(
                 function (n, feature) {
-                    if (feature.properties.hasOwnProperty('resources')) {
-                        n += feature.properties.resources;
+                    if ('resources' in feature.properties) {
+                        var r = parseInt(feature.properties.resources) || 0;
+                        n += r;
+                    }
+                    return n;
+                },
+                0
+            );
+        },
+        maxResources: function (vm) {
+            return vm.featuresFiltered.reduce(
+                function (n, feature) {
+                    if ('resources' in feature.properties) {
+                        var r = parseInt(feature.properties.resources) || 0;
+                        if (r > n) {
+                            return r;
+                        }
                     }
                     return n;
                 },
@@ -334,11 +349,13 @@ var vue = new Vue({
                 this.updateFilterTreeCounts();
             }
         },
-        fadeWithAge: function () {
+        fadeWithAge: function (val) {
             this.updateMap();
+            localSet('fadeWithAge', val);
         },
-        showResources: function () {
+        showResources: function (val) {
             this.updateMap();
+            localSet('showResources', val);
         },
         maxAge: function (val) {
             localSet('maxAge', val);
@@ -364,6 +381,9 @@ var vue = new Vue({
                     localSet('watchZone', bounds.watchZone);
                 }
             }
+        },
+        sortBy: function (val) {
+            localSet('sortBy', val);
         },
     },
     methods: {
@@ -672,23 +692,32 @@ var vue = new Vue({
                     },
                     onEachFeature: function (feature, layer) {
                         layer.on('click', function () {
-                            vm.selectFeature(feature, true);
+                            vm.selectFeature(feature, true, false);
                         }).bindPopup(function () {
-                            return vm.fhtml(feature, ['sourceTitle', '_date_f', 'location']);
+                            return vm.fhtml(feature, {
+                                Name: 'sourceTitle',
+                                Updated: '_date_f',
+                                Location: 'location',
+                                Resources: 'resources',
+                                Category: 'category1',
+                                Subcategory: 'category2',
+                                Status: 'status',
+                                Size: 'size',
+                            });
                         }, {
-                            autoPan: false,
+                            autoPan: true,
                             closeButton: true,
                             closeOnEscapeKey: true,
                             closeOnClick: true,
                         });
                         var p = feature.properties;
-                        if (vm.showResources && 'resources' in p && 'getBounds' in layer) {
+                        if (vm.showResources && 'resources' in p && 'getBounds' in layer && vm.maxResources != 0) {
                             L.circleMarker(
                                 layer.getBounds().getCenter(), {
                                     color: '#90EE90',
-                                    radius: ((parseInt(p.resources) || 0) / 3) + 5,
+                                    radius: (parseInt(p.resources) || 0) / vm.maxResources * 50 + 12,
                                     opacity: (vm.fadeWithAge ? p._opacity : 1) * 0.9,
-                                    fillOpacity: (vm.fadeWithAge ? p._opacity : 1) * 0.6,
+                                    fillOpacity: (vm.fadeWithAge ? p._opacity : 1) * 0.7,
                                 }
                             ).addTo(layer);
                         }
@@ -724,12 +753,14 @@ var vue = new Vue({
                 }
             }
         },
-        selectFeature: function (feature, scroll) {
+        selectFeature: function (feature, scroll, zoom) {
             var fid = this.fid(feature);
             this.featureSelected = fid;
             var geo = L.geoJSON(feature);
             var bounds = geo.getBounds();
-            lmap.fitBounds(bounds, { maxZoom: 10, animate: true, duration: 1 });
+            if (zoom) {
+                lmap.flyToBounds(bounds, { maxZoom: 8, padding: [20, 20], animate: true, duration: 1 });
+            }
             lTargetMarker.clearLayers();
             L.circleMarker(
                 bounds.getCenter(),
@@ -750,11 +781,12 @@ var vue = new Vue({
         },
         fhtml: function (feature, keys) {
             var s = [];
-            keys.forEach(
-                function (k) {
-                    s.push(feature.properties[k]);
+            for (var label in keys) {
+                var k = keys[label];
+                if (k in feature.properties) {
+                    s.push('<strong>' + label + '</strong>: ' + feature.properties[k]);
                 }
-            );
+            }
             return s.join('<br>');
         },
         scrollTo: function (id) {
@@ -815,6 +847,9 @@ var vue = new Vue({
             vm.mapBounds.watchZone = Object.freeze(L.latLngBounds(watchZone._northEast, watchZone._southWest));
         }
         vm.maxAge = localGet('maxAge', 24);
+        vm.fadeWithAge = localGet('fadeWithAge', true);
+        vm.showResources = localGet('showResources', false);
+        vm.sortBy = localGet('sortBy', '_age');
         vm.loadFilterTree();
         vm.dataSource = localGet('dataSource', Object.keys(vm.data));
         setInterval(

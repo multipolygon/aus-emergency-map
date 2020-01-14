@@ -171,19 +171,19 @@
           </ol>
           <h2 id="panelList">List</h2>
           <p>
-            Resources:
-            <span class="badge feature-resources"><span class="mdi mdi-fire-truck"></span> {{ filterTree._resources }}</span>
+            Total Resources:
+            <span class="badge feature-resources"><span class="mdi mdi-fire-truck"></span>{{ filterTree._resources }}</span>
           </p>
           <p>
             Sort:
             <select v-model="sortBy">
               <option value="_age">date-time</option>
               <option>resources</option>
-              <option>size</option>              
+              <option>size</option>
             </select>
           </p>
           <ol>
-            <li v-for="feature in featuresSorted" v-bind:key="fid(feature)" v-bind:id="'featureListItem' + fid(feature)" v-on:click="selectFeature(feature)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
+            <li v-for="feature in featuresSorted" v-bind:key="fid(feature)" v-bind:id="'featureListItem' + fid(feature)" v-on:click="selectFeature(feature, false, true)" v-bind:class="'feature ' + (fid(feature) == featureSelected ? 'selected' : '')">
               <h3>{{ feature.properties.sourceTitle }}</h3>
               <p>
                 {{ feature.properties._date_f }}
@@ -211,9 +211,6 @@
           <div id="panelInfo">
             <h2>About This</h2>
             <p>
-              <a href="./user_guide/index.html" target="_blank">User Guide</a>
-            </p>
-            <p>
               This map is in no way officially affiliated with any emergency services, state government or data source.
             </p>
             <p>
@@ -224,6 +221,10 @@
             </p>
             <p>
               The layout works best on desktop, but it is also great on tablet or mobile where it can be added to the home screen.
+            </p>
+            <p>
+              For an overview of features please see the
+              <a href="./user_guide/index.html" target="_blank">User Guide</a>.
             </p>
             <p>Built with free, open-source, community-driven software:</p>
             <ul>

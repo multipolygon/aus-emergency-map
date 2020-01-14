@@ -100,18 +100,29 @@ function parseTasDescription(s) {
 var storageVersion = '2';
 
 function localSet(key, val) {
-    return localStorage.setItem(key + '_v' + storageVersion, JSON.stringify(val));
+    try {
+        if (localStorage && localStorage.setItem) {
+            return localStorage.setItem(key + '_v' + storageVersion, JSON.stringify(val));
+        }
+    } catch (e) { }
 }
 
 function localGet(key, _val) {
-    var val = localStorage.getItem(key + '_v' + storageVersion);
-    if (val !== null) {
-        return JSON.parse(val);
-    } else {
-        return _val;
-    }
+    try {
+        if (localStorage && localStorage.getItem) {
+            var val = localStorage.getItem(key + '_v' + storageVersion);
+            if (val !== null) {
+                return JSON.parse(val);
+            }
+        }
+    } catch (e) { }
+    return _val;
 }
 
 function localRemove(key) {
-    return localStorage.removeItem(key + '_v' + storageVersion);
+    try {
+        if (localStorage && localStorage.removeItem) {
+            return localStorage.removeItem(key + '_v' + storageVersion);
+        }
+    } catch (e) { }
 }

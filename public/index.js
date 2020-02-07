@@ -194,14 +194,6 @@ var vue = new Vue({
                     type: 'document',
                     features: [],
                 },
-                lightning: {
-                    url: 'wwlln.json',
-                    label: 'Lightning',
-                    link: 'https://wwlln.net',
-                    loading: false,
-                    error: false,
-                    features: [],
-                },
             },
             feedsSelected: [],
             maxAge: 24, // hours

@@ -11,7 +11,6 @@ curl --compressed -o "./public/data/sa-warn.geo.json" -A "$USER_AGENT" -H "Origi
 ## Other JSON
 curl --compressed -o "./public/data/nt.json" -A "$USER_AGENT" "https://www.pfes.nt.gov.au/incidentmap/json/ntfrsincidents.json"
 curl --compressed -o "./public/data/nt-warn.json" -A "$USER_AGENT" "https://www.pfes.nt.gov.au/incidentmap/json/warnings.json"
-curl --compressed -o "./public/data/wwlln.json" -A "$USER_AGENT" "http://wwlln.net/new/map/data/current.json"
 
 ## KML
 curl --compressed -o "./public/data/sa-cfs.kml" -A "$USER_AGENT" "http://data.eso.sa.gov.au/prod/cfs/criimson/cfs_incident_placemark.xml"

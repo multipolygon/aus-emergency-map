@@ -11,6 +11,7 @@ curl --compressed -o "./public/data/sa-warn.geo.json" -A "$USER_AGENT" -H "Origi
 ## Other JSON
 curl --compressed -o "./public/data/nt.json" -A "$USER_AGENT" "https://www.pfes.nt.gov.au/incidentmap/json/ntfrsincidents.json"
 curl --compressed -o "./public/data/nt-warn.json" -A "$USER_AGENT" "https://www.pfes.nt.gov.au/incidentmap/json/warnings.json"
+curl --compressed -o "./public/data/wwlln.json" -A "$USER_AGENT" "http://wwlln.net/new/map/data/current.json"
 
 ## KML
 curl --compressed -o "./public/data/sa-cfs.kml" -A "$USER_AGENT" "http://data.eso.sa.gov.au/prod/cfs/criimson/cfs_incident_placemark.xml"
@@ -18,3 +19,4 @@ curl --compressed -o "./public/data/sa-mfs.kml" -A "$USER_AGENT" "http://data.es
 curl --compressed -o "./public/data/tas.kml" -A "$USER_AGENT" "http://www.fire.tas.gov.au/Show?pageId=bfKml&t=26306052"
 curl --compressed -o "./public/data/tas-warn.kml" -A "$USER_AGENT" "http://www.fire.tas.gov.au/Show?pageId=alertKml&t=26306052"
 curl --compressed -o "./public/data/qld.zip" -A "$USER_AGENT" "https://www.qfes.qld.gov.au/data/alerts/bushfireAlert.kmz" && cd public/data && unzip qld.zip && mv doc.kml qld.kml
+

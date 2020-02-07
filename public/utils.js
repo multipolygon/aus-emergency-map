@@ -1,4 +1,3 @@
-
 // https://stackoverflow.com/a/523293
 function getSearchParam(paramName) {
     paramName = encodeURIComponent(paramName);
@@ -105,6 +104,7 @@ function localSet(key, val) {
             return localStorage.setItem(key + '_v' + storageVersion, JSON.stringify(val));
         }
     } catch (e) { }
+    return false;
 }
 
 function localGet(key, _val) {
@@ -125,4 +125,5 @@ function localRemove(key) {
             return localStorage.removeItem(key + '_v' + storageVersion);
         }
     } catch (e) { }
+    return false;
 }

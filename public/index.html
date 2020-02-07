@@ -40,10 +40,10 @@
             <div title="Warnings" v-if="filterTree.warning._show" v-on:click.prevent="scrollTo('panelFilters-warning')" class="circle feature-warning">{{ filterTree.warning._count || 0 }}</div>
             <div title="Other" v-if="filterTree.other._show" v-on:click.prevent="scrollTo('panelFilters-other')" class="circle feature-other">{{ filterTree.other._count || 0 }}</div>
           </div>
-          <div title="Some data failed to download" v-if="dataError" class="circle alert" v-on:click="dataSourceAlert('The following data source failed to download: ')">
+          <div title="Some data failed to download" v-if="feedError" class="circle alert" v-on:click="feedErrorAlert('The following data source failed to download: ')">
             <div class="mdi mdi-alert"></div>
           </div>
-          <div title="Reload" class="circle button" v-on:click.prevent="fetchData()" v-bind:class="'animate rotate ' + (dataLoading ? 'running' : 'paused')">
+          <div title="Reload" class="circle button" v-on:click.prevent="fetchFeed()" v-bind:class="'animate rotate ' + (feedLoading ? 'running' : 'paused')">
             <div class="mdi mdi-refresh"></div>
           </div>
           <div class="spacer"></div>
@@ -113,11 +113,12 @@
                 <strong>Data Source</strong>
               </label>
               <ol>
-                <li v-for="i in sortKeys(data)" v-bind:key="i.key">
+                <li v-for="i in sortKeys(feeds)" v-bind:key="i.key">
                   <label>
-                    <input type="checkbox" v-model="dataSource" v-bind:value="i.key">
+                    <input type="checkbox" v-model="feedsSelected" v-bind:value="i.key">
                     {{ i.val.label }}
                   </label>
+                  <small><a v-bind:href="i.val.link" target="_blank"><span class="mdi mdi-link-variant show-all"></span></a></small>
                   <filter-counts v-bind:obj="i.val" v-bind:resources="showResources" cls="source"></filter-counts>
                 </li>
               </ol>

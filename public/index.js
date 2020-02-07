@@ -6,16 +6,28 @@
    localSet localGet localRemove 
 */
 
+var ausBounds = L.latLngBounds(
+    {
+        "lat": -8.671039380459929,
+        "lng": 156.18524544032667
+    },
+    {
+        "lat": -45.27710831357647,
+        "lng": 110.48212044032667
+    }
+);
+
 var lmap = L.map(
     'map',
     {
-        center: [-37, 145],
-        zoom: 8,
+        center: ausBounds.getCenter(),
+        zoom: 5,
         scrollWheelZoom: true,
         fullscreenControl: true,
         fullscreenControlOptions: {
             position: 'topright'
         },
+        maxBounds: ausBounds,
     }
 );
 
@@ -45,12 +57,7 @@ var lgeo = L.layerGroup().addTo(lmap);
 
 var lTargetMarker = L.layerGroup().addTo(lmap);
 
-// Vue.config.errorHandler = function (e) {
-//     console.error(e);
-//     if (confirm('There was an error. Reload page?')) {
-//         window.location.reload(true);
-//     }
-// };
+const timeFormat = 'h:mma DD MMM YYYY z';
 
 Vue.component('checkbox-toggles', {
     props: ['obj', 'parents'],
@@ -101,10 +108,11 @@ var vue = new Vue({
     data () {
         return {
             showPanel: true,
-            data: {
+            feeds: {
                 vic: {
                     url: 'vic.geo.json',
                     label: 'Vic',
+                    link: 'https://emergency.vic.gov.au',
                     loading: false,
                     error: false,
                     features: [],
@@ -112,6 +120,7 @@ var vue = new Vue({
                 nsw: {
                     url: 'nsw.geo.json',
                     label: 'NSW',
+                    link: 'https://www.rfs.nsw.gov.au',
                     loading: false,
                     error: false,
                     features: [],
@@ -119,6 +128,7 @@ var vue = new Vue({
                 wa: {
                     url: 'wa.geo.json',
                     label: 'WA incidents',
+                    link: 'https://www.emergency.wa.gov.au',
                     loading: false,
                     error: false,
                     features: [],
@@ -126,6 +136,7 @@ var vue = new Vue({
                 wa_warn: {
                     url: 'wa-warn.geo.json',
                     label: 'WA warnings',
+                    link: 'https://www.emergency.wa.gov.au',
                     loading: false,
                     error: false,
                     features: [],
@@ -133,6 +144,7 @@ var vue = new Vue({
                 sa_warn: {
                     url: 'sa-warn.geo.json',
                     label: 'SA warnings',
+                    link: 'https://apps.geohub.sa.gov.au/CFSMap/index.html',
                     loading: false,
                     error: false,
                     features: [],
@@ -140,6 +152,7 @@ var vue = new Vue({
                 sa_cfs: {
                     url: 'sa-cfs.kml',
                     label: 'SA CFS',
+                    link: 'https://apps.geohub.sa.gov.au/CFSMap/index.html',
                     loading: false,
                     error: false,
                     type: 'document',
@@ -148,6 +161,7 @@ var vue = new Vue({
                 sa_mfs: {
                     url: 'sa-mfs.kml',
                     label: 'SA MFS',
+                    link: 'https://apps.geohub.sa.gov.au/CFSMap/index.html',
                     loading: false,
                     error: false,
                     type: 'document',
@@ -156,6 +170,7 @@ var vue = new Vue({
                 tas: {
                     url: 'tas.kml',
                     label: 'Tas',
+                    link: 'http://www.fire.tas.gov.au/Show?pageId=colGMapBushfires',
                     loading: false,
                     error: false,
                     type: 'document',
@@ -164,6 +179,7 @@ var vue = new Vue({
                 tas_warn: {
                     url: 'tas-warn.kml',
                     label: 'Tas warnings',
+                    link: 'http://www.fire.tas.gov.au/Show?pageId=colGMapBushfires',
                     loading: false,
                     error: false,
                     type: 'document',
@@ -172,13 +188,22 @@ var vue = new Vue({
                 qld: {
                     url: 'qld.kml',
                     label: 'Qld',
+                    link: 'https://www.ruralfire.qld.gov.au/map/Pages/default.aspx',
                     loading: false,
                     error: false,
                     type: 'document',
                     features: [],
                 },
+                lightning: {
+                    url: 'wwlln.json',
+                    label: 'Lightning',
+                    link: 'https://wwlln.net',
+                    loading: false,
+                    error: false,
+                    features: [],
+                },
             },
-            dataSource: [],
+            feedsSelected: [],
             maxAge: 24, // hours
             fadeWithAge: true,
             showResources: false,
@@ -193,23 +218,24 @@ var vue = new Vue({
             userLocation: null,
             shareableUrl: null,
             mapDelay: 2000,
+            lightning: [],
         };
     },
     computed: {
-        dataLoading: function () {
+        feedLoading: function () {
             var vm = this;
-            return Object.keys(vm.data).reduce(
+            return Object.keys(vm.feeds).reduce(
                 function (val, src) {
-                    return val || vm.data[src].loading;
+                    return val || vm.feeds[src].loading;
                 },
                 false
             );
         },
-        dataError: function () {
+        feedError: function () {
             var vm = this;
-            return Object.keys(vm.data).reduce(
+            return Object.keys(vm.feeds).reduce(
                 function (val, src) {
-                    return val || vm.data[src].error;
+                    return val || vm.feeds[src].error;
                 },
                 false
             );
@@ -225,11 +251,25 @@ var vue = new Vue({
         maxAge_ms: function (vm) {
             return vm.maxAge * 60 * 60 * 1000;
         },
+        lightningAgeFiltered: function (vm) {
+            if (vm.feedsSelected.includes('lightning')) {
+                var now = new Date();
+                return vm.lightning.filter(
+                    function (i) {
+                        const age = now - moment.unix(i.unixTime);
+                        i._opacity = (age > 0) ? (1 - (age / vm.maxAge_ms / 1.1)) : 1;
+                        return age < vm.maxAge_ms;
+                    }
+                );
+            } else {
+                return [];
+            }
+        },
         featuresAgeFiltered: function (vm) {
-            return Object.keys(vm.data).reduce(
+            return Object.keys(vm.feeds).reduce(
                 function (features, src) {
                     return features.concat(
-                        vm.data[src].features.filter(
+                        vm.feeds[src].features.filter(
                             function (feature) {
                                 var p = feature.properties;
                                 p._opacity = (p._age > 0) ? (1 - (p._age / vm.maxAge_ms / 1.1)) : 1;
@@ -263,7 +303,7 @@ var vue = new Vue({
             return vm.featuresAgeFiltered.filter(
                 function (feature) {
                     var p = feature.properties;
-                    return vm.dataSource.includes(p._data_src) &&
+                    return vm.feedsSelected.includes(p._feed_src) &&
                         vm.filterTree[p.feedType]._show &&
                         vm.filterTree[p.feedType].category[p.category1]._show &&
                         vm.filterTree[p.feedType].category[p.category1][p.category2]._show &&
@@ -349,6 +389,12 @@ var vue = new Vue({
                 this.updateFilterTreeCounts();
             }
         },
+        lightningAgeFiltered: {
+            deep: false,
+            handler: function () {
+                this.updateMap();
+            }
+        },
         fadeWithAge: function (val) {
             this.updateMap();
             localSet('fadeWithAge', val);
@@ -360,16 +406,16 @@ var vue = new Vue({
         maxAge: function (val) {
             localSet('maxAge', val);
         },
-        dataSource: function (now, old) {
+        feedsSelected: function (now, old) {
             for (var src of now) {
                 if (!old.includes(src)) {
-                    this.fetchData(src);
+                    this.fetchFeed(src);
                 }
             }
-            if (now.length == Object.keys(this.data).length) {
-                localRemove('dataSource');
+            if (now.length == Object.keys(this.feeds).length) {
+                localRemove('feedsSelected');
             } else {
-                localSet('dataSource', now);
+                localSet('feedsSelected', now);
             }
         },
         mapBounds: {
@@ -392,28 +438,32 @@ var vue = new Vue({
         togglePanel: function () {
             this.showPanel = !this.showPanel;
         },
-        fetchData: function (src) {
+        fetchFeed: function (src) {
             var vm = this;
             vm.mapDelay = 2000;
             if (src === undefined) {
-                for (src of vm.dataSource) {
-                    vm.fetchData(src);
+                for (src of vm.feedsSelected) {
+                    vm.fetchFeed(src);
                 }
             } else {
-                if (!vm.data[src].loading) {
-                    vm.data[src].loading = true;
-                    axios.get('./data/' + vm.data[src].url, { responseType: vm.data[src].type || 'json' })
+                if ((src in vm.feeds) && !vm.feeds[src].loading) {
+                    vm.feeds[src].loading = true;
+                    axios.get('./data/' + vm.feeds[src].url, { responseType: vm.feeds[src].type || 'json' })
                         .then(function (response) {
                             var now = new Date();
-                            if (vm.data[src].type == 'document') {
-                                vm.data[src].features = toGeoJSON.kml(response.data).features;
+                            if (src == 'lightning') {
+                                vm.lightning = Object.values(response.data).filter(
+                                    i => ausBounds.contains(L.latLng([i.lat, i.long]))
+                                );
+                            } else if (vm.feeds[src].type == 'document') {
+                                vm.feeds[src].features = toGeoJSON.kml(response.data).features;
                             } else {
-                                vm.data[src].features = response.data.features;
+                                vm.feeds[src].features = response.data.features;
                             }
-                            vm.data[src].features.forEach(
+                            vm.feeds[src].features.forEach(
                                 function (i) {
                                     var p = i.properties;
-                                    p._data_src = src;
+                                    p._feed_src = src;
                                     if (src == 'vic') {
                                         p.updated = moment.tz(p.updated, moment.ISO_8601, "Australia/Melbourne");
                                     } else if (src == 'nsw') {
@@ -503,29 +553,29 @@ var vue = new Vue({
                                     }
                                     if (p.updated.isValid()) {
                                         p._age = now - p.updated;
-                                        p._date_f = p.updated.format('h:mma DD MMM YYYY z');
+                                        p._date_f = p.updated.format(timeFormat);
                                     } else {
                                         p._age = 0;
                                         p._date_f = 'Invalid date';
                                     }
                                 }
                             );
-                            vm.data[src].error = false;
-                            vm.dataLoaded(src);
+                            vm.feeds[src].error = false;
+                            vm.feedLoaded(src);
                         })
-                        .catch(function (e) {
-                            // console.warn(e);
-                            vm.data[src].error = true;
-                            vm.dataLoaded(src);
+                        .catch(function () {
+                            // console.warn('Error: ' + src);
+                            vm.feeds[src].error = true;
+                            vm.feedLoaded(src);
                         });
                 }
             }
         },
-        dataLoaded: function (src) {
+        feedLoaded: function (src) {
             var vm = this;
             setTimeout(
                 function () {
-                    vm.data[src].loading = false;
+                    vm.feeds[src].loading = false;
                 },
                 2000
             );
@@ -592,7 +642,7 @@ var vue = new Vue({
         updateFilterTree: function () {
             var vm = this;
             objTreeSetProp(vm.filterTree, '_count_all', 0);
-            Object.values(vm.data).forEach(
+            Object.values(vm.feeds).forEach(
                 function (obj) {
                     vm.setObj(obj, '_count_all', 0);
                     obj._count_all = 0;
@@ -605,7 +655,7 @@ var vue = new Vue({
                     var cat = vm.setObj(type.category, p.category1, { _show: vm.loadDefault && type._show });
                     var subcat = vm.setObj(cat, p.category2, { _show: vm.loadDefault && cat._show });
                     var stat = vm.setObj(type.status, p.status, { _show: vm.loadDefault && type._show });
-                    vm.setAdd(vm.data[p._data_src], '_count_all', 1);
+                    vm.setAdd(vm.feeds[p._feed_src], '_count_all', 1);
                     vm.setAdd(type, '_count_all', 1);
                     vm.setAdd(cat, '_count_all', 1);
                     vm.setAdd(subcat, '_count_all', 1);
@@ -617,7 +667,7 @@ var vue = new Vue({
             var vm = this;
             objTreeSetProp(vm.filterTree, '_count', 0);
             objTreeSetProp(vm.filterTree, '_resources', 0);
-            Object.values(vm.data).forEach(
+            Object.values(vm.feeds).forEach(
                 function (obj) {
                     vm.setObj(obj, '_count', 0);
                     obj._count = 0;
@@ -632,14 +682,14 @@ var vue = new Vue({
                     var cat = type.category[p.category1];
                     var subcat = cat[p.category2];
                     var stat = type.status[p.status];
-                    vm.setAdd(vm.data[p._data_src], '_count', 1);
+                    vm.setAdd(vm.feeds[p._feed_src], '_count', 1);
                     vm.setAdd(type, '_count', 1);
                     vm.setAdd(cat, '_count', 1);
                     vm.setAdd(subcat, '_count', 1);
                     vm.setAdd(stat, '_count', 1);
                     var r = ('resources' in p) ? parseInt(p.resources) : 0;
                     vm.filterTree._resources += r;
-                    vm.setAdd(vm.data[p._data_src], '_resources', r);
+                    vm.setAdd(vm.feeds[p._feed_src], '_resources', r);
                     vm.setAdd(type, '_resources', r);
                     vm.setAdd(cat, '_resources', r);
                     vm.setAdd(subcat, '_resources', r);
@@ -657,6 +707,18 @@ var vue = new Vue({
             vm.mapDelay = 500;
             lmap.invalidateSize(true);
             lgeo.clearLayers();
+            vm.lightningAgeFiltered.forEach(
+                function (i) {
+                    var icon = L.divIcon({
+                        className: 'map-icon feature-lightning mdi mdi-flash op' + Math.round(10 * (vm.fadeWithAge ? i._opacity : 1)),
+                        iconSize: [20, 20],
+                        iconAnchor: [10, 10],
+                    });
+                    L.marker(L.latLng([i.lat, i.long]), { icon: icon })
+                        .bindPopup('Lightning strike at ' + moment.unix(i.unixTime).format(timeFormat))
+                        .addTo(lgeo);
+                }
+            );
             if (vm.mapBounds.watchZone !== null) {
                 L.rectangle(vm.mapBounds.watchZone, {
                     weight: 4,
@@ -777,7 +839,7 @@ var vue = new Vue({
         },
         fid: function (feature) {
             var p = feature.properties;
-            return p._data_src + p.id;
+            return p._feed_src + p.id;
         },
         fhtml: function (feature, keys) {
             var s = [];
@@ -827,8 +889,8 @@ var vue = new Vue({
         prompt: function (s, val) {
             prompt(s, val);
         },
-        dataSourceAlert: function (s) {
-            alert(s + Object.values(this.data).filter(i => i.error).map(i => i.label).join(', '));
+        feedErrorAlert: function (s) {
+            alert(s + Object.values(this.feeds).filter(i => i.error).map(i => i.label).join(', '));
         },
     },
     created: function () {
@@ -851,10 +913,10 @@ var vue = new Vue({
         vm.showResources = localGet('showResources', false);
         vm.sortBy = localGet('sortBy', '_age');
         vm.loadFilterTree();
-        vm.dataSource = localGet('dataSource', Object.keys(vm.data));
+        vm.feedsSelected = localGet('feedsSelected', Object.keys(vm.feeds));
         setInterval(
             function () {
-                vm.fetchData();
+                vm.fetchFeed();
             },
             5 * 60 * 1000
         );
@@ -879,7 +941,7 @@ lmap.on(
 
 lmap.on(
     'locationerror',
-    function (e) {
+    function () {
         vue.userLocation = false;
         llocation.clearLayers();
     }

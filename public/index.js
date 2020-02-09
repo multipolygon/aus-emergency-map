@@ -31,14 +31,6 @@ var lmap = L.map(
     }
 );
 
-L.tileLayer(
-    '//{s}.tile.osm.org/{z}/{x}/{y}.png',
-    {
-        subdomains: 'abc',
-        attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-    }
-).addTo(lmap);
-
 var userZoom = false;
 var autoZoom = false;
 
@@ -912,6 +904,14 @@ var vue = new Vue({
             },
             5 * 60 * 1000
         );
+        // Tiles must be added last to avoid blocking entire page:
+        L.tileLayer(
+            'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            {
+                subdomains: 'abc',
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+            }
+        ).addTo(lmap);
     }
 });
 

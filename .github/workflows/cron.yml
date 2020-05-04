@@ -1,0 +1,29 @@
+name: Cron
+
+on:
+  schedule:
+    - cron:  '*/5 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2        
+      
+      - name: Checkout build
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: dist
+
+      - name: Fetch data
+        run: ./scripts/fetch.sh
+
+      - name: Git Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          BRANCH: gh-pages
+          FOLDER: dist
+          CLEAN: false

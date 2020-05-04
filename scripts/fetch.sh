@@ -1,6 +1,8 @@
 USER_AGENT="Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0"
 echo "$USER_AGENT"
 
+mkdir -p ./dist/data
+
 ## GeoJSON
 curl --compressed -o "./dist/data/vic.geo.json" -A "$USER_AGENT" "https://emergency.vic.gov.au/public/osom-geojson.json"
 curl --compressed -o "./dist/data/nsw.geo.json" -A "$USER_AGENT" "https://www.rfs.nsw.gov.au/feeds/majorIncidents.json"
@@ -17,4 +19,6 @@ curl --compressed -o "./dist/data/sa-cfs.kml" -A "$USER_AGENT" "http://data.eso.
 curl --compressed -o "./dist/data/sa-mfs.kml" -A "$USER_AGENT" "http://data.eso.sa.gov.au/prod/mfs/criimson/mfs_incident_placemark.xml"
 curl --compressed -o "./dist/data/tas.kml" -A "$USER_AGENT" "http://www.fire.tas.gov.au/Show?pageId=bfKml&t=26306052"
 curl --compressed -o "./dist/data/tas-warn.kml" -A "$USER_AGENT" "http://www.fire.tas.gov.au/Show?pageId=alertKml&t=26306052"
-curl --compressed -o "./dist/data/qld.zip" -A "$USER_AGENT" "https://www.qfes.qld.gov.au/data/alerts/bushfireAlert.kmz" && cd ./dist/data && unzip qld.zip && mv doc.kml qld.kml
+curl --compressed -o "./dist/data/qld.zip" -A "$USER_AGENT" "https://www.qfes.qld.gov.au/data/alerts/bushfireAlert.kmz" && cd ./dist/data && unzip qld.zip && mv doc.kml qld.kml && cd -
+
+ls -1 ./dist/data

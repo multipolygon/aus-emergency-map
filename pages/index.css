@@ -1,0 +1,310 @@
+.h1x { color: red; }
+
+#sidebar {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  text-align: center;
+  background-color: #EEEEEE;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+#sidebar .spacer {
+  height: 1px;
+}
+
+#page.full #sidebar > #panelToggle > div {
+  transform: scaleX(-1);
+  transition-duration: 0.4s;
+}
+
+#page.split #sidebar > #panelToggle > div {
+  transform: scaleX(1);
+  transition-duration: 0.4s;
+}
+
+#panel {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 0 1em 2em 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#page.full #panel {
+  left: -250px;
+  transition-duration: 0.4s;
+  overflow-y: hidden;
+}
+
+#page.split #panel {
+  left: 50px;
+  transition-duration: 0.4s;
+}
+
+.badge {
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+.circle {
+  box-sizing: border-box;
+  margin: 10px 5px;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  user-select: none;
+  color: black;
+  background-color: #DDDDDD;
+  cursor: pointer;
+}
+
+.circle.button {
+  font-size: 32px;
+}
+
+.circle.alert {
+  font-size: 22px;
+  color: black;
+  background-color: #FFFF00;
+}
+
+.circle.activeWatchZone {
+  background-color: #00EE00;
+}
+
+@media (hover: hover) {
+  .circle.button:hover {
+    background-color: #CCCCCC;
+  }
+
+  .circle.button.activeWatchZone:hover {
+    background-color: #00DD00;
+  }
+}
+
+.circle.reload {
+  color: black;
+  background-color: #DDDDDD;
+}
+
+.circle.small {
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+#panel ol {
+  padding: 0;
+}
+
+#panel ol ol {
+  padding: 0 0 0 1em;
+}
+
+#panel ol li {
+  list-style: none;
+}
+
+#panel ol.filterTree li {
+  white-space: nowrap;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+}
+
+#panel ol li label {
+  display: inline;
+  user-select: none;
+  text-transform: capitalize;
+}
+
+span.show-all {
+  color: #5094fd;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  span.show-all:hover {
+    color: #3B88FD;
+  }
+}
+
+#panel ol li.feature {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0.1em;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+}
+
+#panel ol li.selected {
+  background-color: #FFFFE0;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate.rotate {
+  animation: rotate 2s linear infinite;
+}
+
+.animate.paused {
+  animation-play-state: paused;
+}
+
+.feature-incident {
+  color: white;
+  background-color: #CC3333E0;
+  border: 2px solid #CC3333;
+}
+
+.feature-warning {
+  color: black;
+  background-color: #FFAA1DE0;
+  border: 2px solid #FFAA1D;
+}
+
+.feature-other {
+  color: white;
+  background-color: #2981CAE0;
+  border: 2px solid #2981CA;
+}
+
+.feature-resources {
+  color: black;
+  background-color: #90EE90E0;
+  border: 2px solid #90EE90;
+}
+
+.feature-current-location {
+  color: black;
+  background-color: #00EE00E0;
+  border: 2px solid #00EE00;
+}
+
+.feature-source {
+  color: white;
+  background-color: #000000;
+  border: 2px solid #333333;
+}
+
+.feature-lightning {
+  color: #7DF9FF;
+  background-color: #AAAAAAE0;
+  border: 2px solid #AAAAAA;
+  border-radius: 10px !important;
+}
+
+
+.ghost {
+  color: black;
+  background-color: #DDDDDDE0;
+  border: 2px solid #DDDDDD;
+  opacity: 0.7;
+}
+
+.mdi-fire-truck::before {
+  transform: scaleX(-1);
+}
+
+.map-icon {
+  display: block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  border: 0px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.map-icon.op0 {
+  opacity: 0;
+}
+
+.map-icon.op1 {
+  opacity: 0.1;
+}
+
+.map-icon.op2 {
+  opacity: 0.2;
+}
+
+.map-icon.op3 {
+  opacity: 0.3;
+}
+
+.map-icon.op4 {
+  opacity: 0.4;
+}
+
+.map-icon.op5 {
+  opacity: 0.5;
+}
+
+.map-icon.op6 {
+  opacity: 0.6;
+}
+
+.map-icon.op7 {
+  opacity: 0.7;
+}
+
+.map-icon.op8 {
+  opacity: 0.8;
+}
+
+.map-icon.op9 {
+  opacity: 0.9;
+}
+
+.map-icon.op10 {
+  opacity: 1;
+}
+
+.blink {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0%,100% { opacity: 1 }
+  50% { opacity: 0.1 }
+}
+
+.noselect {
+  user-select: none;
+}

@@ -4,15 +4,15 @@ services:
   nginx:
     image: nginx
     env_file:
-      - web.env
+      - .env
     restart: unless-stopped
     volumes:
-      - ./gzip.conf:/etc/nginx/conf.d/gzip.conf
-      - ./public:/usr/share/nginx/html:ro
+      - ./docker-nginx-gzip.conf:/etc/nginx/conf.d/gzip.conf
+      - ./dist:/usr/share/nginx/html:ro
     networks:
       - default
       - www
-
+      
 networks:
   www:
     external:

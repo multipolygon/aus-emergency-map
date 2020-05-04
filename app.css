@@ -1,0 +1,24 @@
+@media print { body { min-width: 1000px; } .no-print, .no-print * { display: none !important; } }
+
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+#map {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #DDDDDD;
+}
+
+#page.full #map {
+  left: 50px;
+  transition-duration: 0.4s;
+}
+
+#page.split #map {
+  left: 350px;
+  transition-duration: 0.4s;
+}

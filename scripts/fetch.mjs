@@ -1,17 +1,19 @@
 /* eslint-disable no-console */
 
-import FS from 'fs';
-import Path from 'path';
+import fs from 'fs';
+import path from 'path';
 import { exec } from 'child_process';
 import fetch from 'node-fetch';
 import jsonschema from 'jsonschema';
 import toGeoJSON from '@mapbox/togeojson';
 import moment from 'moment-timezone';
 import jsdom from 'jsdom';
+import mkdirp from 'mkdirp';
 
+const targetPath = path.join('.', 'static', 'data');
 const useCache = process.argv.includes('--cache');
 const userAgent = 'Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0';
-const geoJsonSchema = JSON.parse(FS.readFileSync(Path.join('.', 'scripts', 'schema.geo.json')));
+const geoJsonSchema = JSON.parse(fs.readFileSync(path.join('.', 'scripts', 'schema.geo.json')));
 const validator = new jsonschema.Validator();
 
 const sources = {
@@ -79,7 +81,7 @@ const download = (src, filePath) =>
             },
         })
             .then((response) => {
-                const fileStream = FS.createWriteStream(filePath);
+                const fileStream = fs.createWriteStream(filePath);
                 response.body.pipe(fileStream);
                 response.body.on('error', () => {
                     console.log(` > FAILED!`);
@@ -136,11 +138,19 @@ const mapFeedType = {
 
 const mapCategory = {
     'accident / rescue': 'rescue',
+    'burn off': 'fire',
+    'planned burn': 'fire',
+    'structure fire': 'fire',
+    'storm - get ready': 'weather',
+    'storm - take action now': 'weather',
+    storm: 'weather',
+    burnoff: 'fire',
     bushfire: 'fire',
 };
 
 const mapSubcategory = {
     'bush fire': 'bushfire',
+    met: 'weather',
 };
 
 const lower = (str) => (typeof str === 'string' ? str.toLowerCase() : 'other');
@@ -352,8 +362,8 @@ const convertGeoJson = (name, src, obj) => {
                 properties: cleanProperties(mapProperties[name](feature.properties, feature.id)),
             })),
         };
-        const filePath = Path.join('.', 'static', 'data', `${name}.geo.json`);
-        FS.writeFileSync(filePath, JSON.stringify(output, null, 4));
+        const filePath = path.join(targetPath, `${name}.geo.json`);
+        fs.writeFileSync(filePath, JSON.stringify(output, null, 4));
     } catch (e) {
         console.log('Conversion error!');
         console.log(e);
@@ -363,22 +373,22 @@ const convertGeoJson = (name, src, obj) => {
 const convertKml = (name, src, content) => {
     const document = new jsdom.JSDOM(content.toString()).window.document;
     const obj = toGeoJSON.kml(document);
-    const filePath = Path.join('.', 'static', 'data', 'orig', `${name}.geo.json`);
-    FS.writeFileSync(filePath, JSON.stringify(obj, null, 4));
+    const filePath = path.join(targetPath, 'orig', `${name}.geo.json`);
+    fs.writeFileSync(filePath, JSON.stringify(obj, null, 4));
     return convertGeoJson(name, src, obj);
 };
 
 const convertKmz = (name, src) => {
-    const dirPath = Path.join('.', 'static', 'data', 'orig');
+    const dirPath = path.join(targetPath, 'orig');
     exec(`cd ${dirPath} && unzip -o ${name}.kmz doc.kml`, (error, stdout, stderr) => {
         if (error || stderr) {
             console.log(error);
             console.log(stderr);
         } else {
             console.log(stdout);
-            const filePath = Path.join(dirPath, 'doc.kml');
-            if (FS.existsSync(filePath)) {
-                const kml = FS.readFileSync(filePath);
+            const filePath = path.join(dirPath, 'doc.kml');
+            if (fs.existsSync(filePath)) {
+                const kml = fs.readFileSync(filePath);
                 convertKml(name, src, kml);
             }
         }
@@ -403,15 +413,16 @@ const run = async () => {
     for (const name in sources) {
         console.log(name);
         const src = sources[name];
-        const filePath = Path.join('.', 'static', 'data', 'orig', `${name}.${src.type}`);
-        // TODO: mkdir_p
-        if (!useCache || !FS.existsSync(filePath)) {
+        const dirPath = path.join(targetPath, 'orig');
+        mkdirp.sync(dirPath);
+        const filePath = path.join(dirPath, `${name}.${src.type}`);
+        if (!useCache || !fs.existsSync(filePath)) {
             await download(src, filePath);
         }
-        if (FS.existsSync(filePath)) {
+        if (fs.existsSync(filePath)) {
             if (src.type === 'geo.json' || src.type === 'json' || src.type === 'kml') {
                 console.log('Read File:', filePath);
-                const content = FS.readFileSync(filePath);
+                const content = fs.readFileSync(filePath);
                 if (src.type === 'geo.json' || src.type === 'json') {
                     try {
                         convert(name, src, JSON.parse(content));

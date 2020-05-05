@@ -2,7 +2,7 @@ name: Cron
 
 on:
   schedule:
-    - cron:  '*/10 * * * *'
+    - cron:  '*/15 * * * *'
 
 jobs:
   build:
@@ -18,8 +18,16 @@ jobs:
           ref: gh-pages
           path: dist
 
+      - name: NPM Install
+        run: npm ci --only=production
+          
       - name: Fetch data
-        run: ./scripts/fetch.sh
+        run: npm run fetch
+
+      - name: Move files
+        run: |
+          cp ./static/data/*.geo.json ./dist/data/
+          ls -lth ./dist/data/
 
       - name: Git Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3

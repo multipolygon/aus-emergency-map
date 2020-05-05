@@ -15,12 +15,12 @@ jobs:
         
       - name: NPM Install
         run: npm ci
+
+      - name: Fetch data
+        run: npm run fetch
         
       - name: Generate
         run: npm run generate
-
-      - name: Fetch data
-        run: ./scripts/fetch.sh
 
       - name: Git Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3

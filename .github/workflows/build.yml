@@ -18,6 +18,10 @@ jobs:
 
       - name: Fetch data
         run: npm run fetch
+
+      - name: Remove temp files
+        run: |
+          rm ./static/data/orig/*
         
       - name: Generate
         run: npm run generate

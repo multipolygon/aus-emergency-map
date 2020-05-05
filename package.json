@@ -9,21 +9,23 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    "lint": "eslint --fix --ext .js,.mjs,.vue --ignore-path .gitignore .",
+    "fetch": "node --experimental-modules scripts/fetch.mjs"
   },
   "dependencies": {
     "@mapbox/togeojson": "^0.16.0",
+    "jsdom": "^16.2.2",
+    "jsonschema": "^1.2.6",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
     "@mdi/font": "^5.1.45",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
     "axios": "^0.19.2",
     "leaflet": "^1.6.0",
-    "leaflet-fullscreen": "^1.0.2",
-    "leaflet.markercluster": "^1.4.1",
     "normalize.css": "^8.0.1",
-    "nuxt": "^2.0.0"
-  },
-  "devDependencies": {
+    "nuxt": "^2.0.0",
     "@nuxtjs/eslint-config": "^2.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
     "@nuxtjs/moment": "^1.6.0",

@@ -7644,10 +7644,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Jamieson St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
+                "subcategory": "bushfire",
+                "status": "safe",
                 "created": "2020-05-06T12:35:00+10:00",
-                "updated": "2020-05-06T12:35:00+10:00",
+                "updated": "2020-05-06T12:51:00+10:00",
                 "id": "ESTA:200503776",
                 "location": "Jamieson St, Broadford",
                 "size": "Small",
@@ -7657,22 +7657,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0605127065947,
-                    -37.203892421803104
+                    145.06148211315374,
+                    -37.202114763703136
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glenys Ct",
+                "sourceTitle": "Commercial Rd",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-06T11:49:00+10:00",
-                "updated": "2020-05-06T11:58:00+10:00",
-                "id": "ESTA:200503716",
-                "location": "Glenys Ct, Belmont",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-05-06T12:54:06+10:00",
+                "updated": "2020-05-06T12:54:06+10:00",
+                "id": "ESTA:200503801",
+                "location": "Commercial Rd, Melbourne",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -7680,8 +7680,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3358042563426,
-                    -38.187643448572025
+                    144.98277516612208,
+                    -37.84561177558025
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-06T12:48:00+10:00",
+                "updated": "2020-05-06T12:55:00+10:00",
+                "id": "ESTA:200503793",
+                "location": "Kilmore",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95163995983194,
+                    -37.30700962777719
                 ]
             }
         },
@@ -7714,9 +7737,9 @@
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-05-06T12:44:00+10:00",
-                "updated": "2020-05-06T12:44:00+10:00",
+                "updated": "2020-05-06T12:55:00+10:00",
                 "id": "ESTA:200503786",
                 "location": "Sunbury",
                 "size": "Small",
@@ -7728,6 +7751,29 @@
                 "coordinates": [
                     144.7142332051537,
                     -37.585254504970834
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Botanic Dr",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-06T12:55:19+10:00",
+                "updated": "2020-05-06T12:55:19+10:00",
+                "id": "ESTA:200503790",
+                "location": "Botanic Dr, Glen Waverley",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1663077981606,
+                    -37.89280851417279
                 ]
             }
         },
@@ -14262,6 +14308,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Alkira Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-06T10:19:00+10:00",
+                "updated": "2020-05-06T12:52:00+10:00",
+                "id": "ESTA:200503569",
+                "location": "Alkira Ct, Heathmont",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26252836522852,
+                    -37.83082386173058
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Topping St",
                 "category": "other",
                 "subcategory": "other",
@@ -14285,29 +14354,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "East Tce",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-06T12:25:00+10:00",
-                "updated": "2020-05-06T12:25:00+10:00",
-                "id": "ESTA:200503763",
-                "location": "East Tce, Mount Helen",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.89682416881658,
-                    -37.623263873792155
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ballan Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -14325,52 +14371,6 @@
                 "coordinates": [
                     144.61540420862437,
                     -37.87572522116199
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-05-06T11:12:00+10:00",
-                "updated": "2020-05-06T11:52:00+10:00",
-                "id": "ESTA:200503652",
-                "location": "Barnawartha",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.66525074162678,
-                    -36.05301992764353
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Alkira Ct",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-06T10:29:19+10:00",
-                "updated": "2020-05-06T10:29:19+10:00",
-                "id": "ESTA:200503569",
-                "location": "Alkira Ct, Heathmont",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26253671070117,
-                    -37.83081986925587
                 ]
             }
         },

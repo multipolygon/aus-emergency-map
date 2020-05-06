@@ -7572,14 +7572,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hunter St",
+                "sourceTitle": "Abbott Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-05-06T16:02:00+10:00",
+                "updated": "2020-05-06T16:02:00+10:00",
+                "id": "ESTA:200504034",
+                "location": "Abbott Rd, Hallam",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2589245563387,
+                    -38.00795547837687
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hoggs Lane",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-06T15:42:00+10:00",
-                "updated": "2020-05-06T15:51:00+10:00",
-                "id": "ESTA:200504019",
-                "location": "Hunter St, Euroa",
+                "created": "2020-05-06T15:39:00+10:00",
+                "updated": "2020-05-06T16:14:00+10:00",
+                "id": "ESTA:200504017",
+                "location": "Hoggs Lane, Lakes Entrance",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -7587,30 +7610,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.57611420655937,
-                    -36.75004720030045
+                    147.99952722870268,
+                    -37.83937312446608
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hallam",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Melbourne",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-05-06T16:00:08+10:00",
-                "updated": "2020-05-06T16:01:44+10:00",
-                "id": "ESTA:200504034",
-                "location": "Abbott Rd, Hallam",
-                "title": "incident: rescue"
+                "created": "2020-05-06T16:13:34+10:00",
+                "updated": "2020-05-06T16:15:39+10:00",
+                "id": "ESTA:200504046",
+                "location": "Lonsdale St, Melbourne",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.25893486289672,
-                    -38.00794068562917
+                    144.95868811093345,
+                    -37.813104180558
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tarnook",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-06T01:12:17+10:00",
+                "updated": "2020-05-06T16:16:10+10:00",
+                "id": "ESTA:200503239",
+                "location": "Burness Rd, Tarnook",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.86810190093493,
+                    -36.5209976662881
                 ]
             }
         },
@@ -8324,9 +8369,9 @@
                 "category": "met",
                 "subcategory": "weather",
                 "status": "warning",
-                "created": "2020-05-06T10:44:20+10:00",
+                "created": "2020-05-06T16:14:04+10:00",
                 "updated": "Invalid date",
-                "id": "IDV21037/ce1222bda1d8fef19871b3b290b6338b",
+                "id": "IDV21037/4a4516746f039d593ebe137c68f8fed8",
                 "location": "Central, East Gippsland, South West, North Central, North East, West and South Gippsland and Wimmera",
                 "title": "incident: met"
             },
@@ -14145,14 +14190,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hoggs Lane",
+                "sourceTitle": "Hunter St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-06T15:39:00+10:00",
-                "updated": "2020-05-06T15:39:00+10:00",
-                "id": "ESTA:200504017",
-                "location": "Hoggs Lane, Lakes Entrance",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-06T15:42:00+10:00",
+                "updated": "2020-05-06T15:51:00+10:00",
+                "id": "ESTA:200504019",
+                "location": "Hunter St, Euroa",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -14160,8 +14205,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.99952722870268,
-                    -37.83937312446608
+                    145.57611420655937,
+                    -36.75004720030045
                 ]
             }
         },

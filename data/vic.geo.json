@@ -6155,23 +6155,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Malahang Pde",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-09T06:20:02+10:00",
-                "updated": "2020-05-09T06:20:02+10:00",
-                "id": "ESTA:200506605",
-                "location": "Malahang Pde, Heidelberg West",
+                "sourceTitle": "High St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-05-09T06:24:00+10:00",
+                "updated": "2020-05-09T06:24:00+10:00",
+                "id": "ESTA:200506606",
+                "location": "High St, Melton West",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0456704505633,
-                    -37.743600806407585
+                    144.56350528581922,
+                    -37.68500352746502
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hospital St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-09T06:43:00+10:00",
+                "updated": "2020-05-09T06:43:00+10:00",
+                "id": "ESTA:200506607",
+                "location": "Hospital St, Daylesford",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.1452416275946,
+                    -37.33750420062012
                 ]
             }
         },
@@ -6195,29 +6218,6 @@
                 "coordinates": [
                     144.33644483286187,
                     -38.08536338948693
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "High St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-09T06:24:00+10:00",
-                "updated": "2020-05-09T06:24:00+10:00",
-                "id": "ESTA:200506606",
-                "location": "High St, Melton West",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.56350528581922,
-                    -37.68500352746502
                 ]
             }
         },

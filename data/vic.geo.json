@@ -6224,14 +6224,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sandlewood Lane",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-05-08T10:00:00+10:00",
+                "updated": "2020-05-08T10:01:00+10:00",
+                "id": "ESTA:200550829",
+                "location": "Rowville",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2536742620147,
+                    -37.920488947301415
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cunninghame St",
                 "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
-                "created": "2020-05-08T09:40:00+10:00",
-                "updated": "2020-05-08T09:40:00+10:00",
-                "id": "ESTA:200505251",
-                "location": "Sandlewood Lane, Point Cook",
+                "subcategory": "rescue",
+                "status": "under control",
+                "created": "2020-05-08T09:53:00+10:00",
+                "updated": "2020-05-08T10:02:00+10:00",
+                "id": "ESTA:200505319",
+                "location": "Cunninghame St, Sale",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -6239,8 +6261,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.76055105468723,
-                    -37.89240059862264
+                    147.06303198011943,
+                    -38.10685690969723
                 ]
             }
         },
@@ -9120,6 +9142,29 @@
                 "coordinates": [
                     147.804393769,
                     -35.7550104489999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sandlewood Lane",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-05-08T09:40:00+10:00",
+                "updated": "2020-05-08T09:40:00+10:00",
+                "id": "ESTA:200505251",
+                "location": "Sandlewood Lane, Point Cook",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.76055105468723,
+                    -37.89240059862264
                 ]
             }
         },

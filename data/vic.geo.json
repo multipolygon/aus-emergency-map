@@ -4613,16 +4613,39 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wimmera Cr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Frankston-Cranbourne Rd",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-05-09T21:12:44+10:00",
-                "updated": "2020-05-09T21:12:44+10:00",
+                "created": "2020-05-09T21:19:00+10:00",
+                "updated": "2020-05-09T21:19:00+10:00",
+                "id": "ESTA:200507109",
+                "location": "Frankston-Cranbourne Rd, Langwarrin",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18323350038906,
+                    -38.15422322962459
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wimmera Cr",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-09T21:21:20+10:00",
+                "updated": "2020-05-09T21:21:20+10:00",
                 "id": "ESTA:200507107",
                 "location": "Wimmera Cr, Keilor Downs",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
@@ -4636,22 +4659,69 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Keilor Downs",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-05-09T21:15:12+10:00",
-                "updated": "2020-05-09T21:15:53+10:00",
-                "id": "ESTA:200507108",
-                "location": "Wimmera Cr, Keilor Downs",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Reynolds Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-09T20:45:00+10:00",
+                "updated": "2020-05-09T20:59:00+10:00",
+                "id": "ESTA:200507103",
+                "location": "Reynolds Rd, Wattle Glen",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.81330709785462,
-                    -37.72392703972261
+                    145.18309499824502,
+                    -37.668343662543336
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Commercial Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-05-09T21:29:54+10:00",
+                "updated": "2020-05-09T21:29:54+10:00",
+                "id": "ESTA:200507110",
+                "location": "Commercial Rd, South Yarra",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98438945712468,
+                    -37.84134128897479
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pax Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-09T21:30:00+10:00",
+                "updated": "2020-05-09T21:30:00+10:00",
+                "id": "ESTA:200507111",
+                "location": "Pax Rd, Traralgon",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.52993400638792,
+                    -38.1898949307538
                 ]
             }
         },
@@ -6660,58 +6730,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Donne Ct",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-09T21:10:38+10:00",
-                "updated": "2020-05-09T21:10:38+10:00",
-                "id": "ESTA:200507102",
-                "location": "Donne Ct, Mooroolbark",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.32410350514442,
-                    -37.79027709811255
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Reynolds Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-09T20:45:00+10:00",
-                "updated": "2020-05-09T20:59:00+10:00",
-                "id": "ESTA:200507103",
-                "location": "Reynolds Rd, Wattle Glen",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.18309499824502,
-                    -37.668343662543336
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mcclelland Dr",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-05-09T20:23:00+10:00",
-                "updated": "2020-05-09T20:45:00+10:00",
+                "updated": "2020-05-09T21:25:00+10:00",
                 "id": "ESTA:200507101",
                 "location": "Mcclelland Dr, Langwarrin",
                 "size": "Small",
@@ -6723,6 +6747,29 @@
                 "coordinates": [
                     145.1756307828828,
                     -38.144228655857376
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Donne Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-09T20:38:00+10:00",
+                "updated": "2020-05-09T21:11:00+10:00",
+                "id": "ESTA:200507102",
+                "location": "Donne Ct, Mooroolbark",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3240985972872,
+                    -37.79027810403874
                 ]
             }
         },

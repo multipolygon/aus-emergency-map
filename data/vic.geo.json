@@ -6155,14 +6155,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dee Wy Rd",
+                "sourceTitle": "Forest Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-09T09:52:00+10:00",
-                "updated": "2020-05-09T09:53:00+10:00",
-                "id": "ESTA:200506745",
-                "location": "Dee Wy Rd, Narre Warren South",
+                "created": "2020-05-09T10:05:00+10:00",
+                "updated": "2020-05-09T10:11:00+10:00",
+                "id": "ESTA:200506765",
+                "location": "Forest Rd, Ferntree Gully",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -6170,22 +6170,44 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.28934881704276,
-                    -38.03383366620116
+                    145.2969332566194,
+                    -37.88222702078893
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Frank St",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-05-09T09:57:00+10:00",
+                "updated": "2020-05-09T10:17:00+10:00",
+                "id": "ESTA:200550871",
+                "location": "Blind Bight",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.33639502080868,
+                    -38.21423122021976
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-09T10:06:30+10:00",
-                "updated": "2020-05-09T10:06:30+10:00",
-                "id": "ESTA:200506755",
-                "location": "Frank St, Balwyn North",
+                "subcategory": "washaway",
+                "status": "under control",
+                "created": "2020-05-09T09:46:00+10:00",
+                "updated": "2020-05-09T10:18:00+10:00",
+                "id": "ESTA:200506738",
+                "location": "Merrimu",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -6193,8 +6215,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.09370998745945,
-                    -37.7965979658302
+                    144.4668274559311,
+                    -37.67609878627478
                 ]
             }
         },
@@ -6224,14 +6246,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fawn Ct",
+                "sourceTitle": "Hakea St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-09T09:56:00+10:00",
-                "updated": "2020-05-09T10:08:00+10:00",
-                "id": "ESTA:200506752",
-                "location": "Fawn Ct, Langwarrin",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-05-09T10:30:52+10:00",
+                "updated": "2020-05-09T10:30:52+10:00",
+                "id": "ESTA:200506788",
+                "location": "Hakea St, Watsonia North",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -6239,77 +6261,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.19651499138723,
-                    -38.15432885750645
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Forest Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-09T10:05:00+10:00",
-                "updated": "2020-05-09T10:11:00+10:00",
-                "id": "ESTA:200506765",
-                "location": "Forest Rd, Ferntree Gully",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2969332566194,
-                    -37.88222702078893
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
-                "created": "2020-05-09T09:46:00+10:00",
-                "updated": "2020-05-09T09:46:00+10:00",
-                "id": "ESTA:200506738",
-                "location": "Merrimu",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.4668274559311,
-                    -37.67609878627478
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Docklands",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-09T10:10:06+10:00",
-                "updated": "2020-05-09T10:10:06+10:00",
-                "id": "ESTA:200506769",
-                "location": "Docklands, Docklands",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94550894902764,
-                    -37.81241685988354
+                    145.08637340891937,
+                    -37.69600353724631
                 ]
             }
         },
@@ -11283,6 +11236,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Dee Wy Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-09T09:52:00+10:00",
+                "updated": "2020-05-09T09:53:00+10:00",
+                "id": "ESTA:200506745",
+                "location": "Dee Wy Rd, Narre Warren South",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.28934881704276,
+                    -38.03383366620116
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Greenwood St",
                 "category": "other",
                 "subcategory": "other",
@@ -11375,6 +11351,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Fawn Ct",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-09T09:56:00+10:00",
+                "updated": "2020-05-09T10:08:00+10:00",
+                "id": "ESTA:200506752",
+                "location": "Fawn Ct, Langwarrin",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19651499138723,
+                    -38.15432885750645
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Citylink -",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -11398,12 +11397,57 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Frank St",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-09T10:06:30+10:00",
+                "updated": "2020-05-09T10:06:30+10:00",
+                "id": "ESTA:200506755",
+                "location": "Frank St, Balwyn North",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.09370998745945,
+                    -37.7965979658302
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-05-09T09:28:00+10:00",
+                "updated": "2020-05-09T10:29:00+10:00",
+                "id": "ESTA:200550865",
+                "location": "Thornbury",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9990605700627,
+                    -37.758385485899474
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue persons trapped",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-05-09T10:10:00+10:00",
-                "updated": "2020-05-09T10:12:00+10:00",
+                "updated": "2020-05-09T10:17:00+10:00",
                 "id": "ESTA:200550872",
                 "location": "Docklands",
                 "title": "incident: rescue"
@@ -11436,28 +11480,6 @@
                 "coordinates": [
                     145.28934881704276,
                     -38.03383366620116
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-05-09T09:57:00+10:00",
-                "updated": "2020-05-09T10:01:00+10:00",
-                "id": "ESTA:200550871",
-                "location": "Blind Bight",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33639502080868,
-                    -38.21423122021976
                 ]
             }
         },
@@ -11524,28 +11546,6 @@
                 "coordinates": [
                     144.9669942199304,
                     -37.70984826483697
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-05-09T09:28:00+10:00",
-                "updated": "2020-05-09T09:33:00+10:00",
-                "id": "ESTA:200550865",
-                "location": "Thornbury",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9990605700627,
-                    -37.758385485899474
                 ]
             }
         }

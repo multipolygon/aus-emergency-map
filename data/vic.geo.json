@@ -4613,12 +4613,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-05-10T08:08:00+10:00",
+                "updated": "2020-05-10T09:06:00+10:00",
+                "id": "ESTA:200550942",
+                "location": "Elwood",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98160123834833,
+                    -37.87854809222827
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Armer Ct",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-05-10T08:47:00+10:00",
-                "updated": "2020-05-10T08:47:00+10:00",
+                "updated": "2020-05-10T09:10:00+10:00",
                 "id": "ESTA:200507187",
                 "location": "Armer Ct, Aspendale Gardens",
                 "size": "Small",
@@ -4630,29 +4652,6 @@
                 "coordinates": [
                     145.11198804270947,
                     -38.02207977989934
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pascoe Vale",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-10T08:59:30+10:00",
-                "updated": "2020-05-10T08:59:30+10:00",
-                "id": "ESTA:200507189",
-                "location": "Pascoe Vale, Pascoe Vale",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9328477763276,
-                    -37.720839579802906
                 ]
             }
         },
@@ -6241,22 +6240,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-10T08:08:00+10:00",
-                "updated": "2020-05-10T08:10:00+10:00",
-                "id": "ESTA:200550942",
-                "location": "Elwood",
-                "title": "incident: tree down"
+                "sourceTitle": "Pascoe Vale",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-10T08:59:30+10:00",
+                "updated": "2020-05-10T08:59:30+10:00",
+                "id": "ESTA:200507189",
+                "location": "Pascoe Vale, Pascoe Vale",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.98160123834833,
-                    -37.87854809222827
+                    144.9328477763276,
+                    -37.720839579802906
                 ]
             }
         },

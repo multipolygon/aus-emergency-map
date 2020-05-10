@@ -9,72 +9,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            141.23889874683687,
-                            -36.76723652858928
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    141.23575519787207,
-                                    -36.76365262986296
-                                ],
-                                [
-                                    141.24015402065305,
-                                    -36.76279312595286
-                                ],
-                                [
-                                    141.24356579052682,
-                                    -36.766162326149455
-                                ],
-                                [
-                                    141.242492906918,
-                                    -36.77049393746737
-                                ],
-                                [
-                                    141.23890947567685,
-                                    -36.771679931225705
-                                ],
-                                [
-                                    141.23599123226117,
-                                    -36.77035642975759
-                                ],
-                                [
-                                    141.23423170314695,
-                                    -36.76695303536076
-                                ],
-                                [
-                                    141.23575519787207,
-                                    -36.76365262986296
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Community Information",
-                "category": "community update",
-                "subcategory": "env",
-                "status": "unknown",
-                "created": "2020-04-27T15:13:14+10:00",
-                "updated": "2020-04-27T15:13:14+10:00",
-                "id": "13884",
-                "location": "Minimay",
-                "title": "warning: community update"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             146.93124999999998,
                             -36.393750000000004
                         ]
@@ -898,11 +832,77 @@
                 "category": "advice",
                 "subcategory": "weather",
                 "status": "minor",
-                "created": "2020-05-09T10:59:22+10:00",
-                "updated": "2020-05-09T10:59:22+10:00",
-                "id": "14060",
+                "created": "2020-05-10T10:59:28+10:00",
+                "updated": "2020-05-10T10:59:29+10:00",
+                "id": "14061",
                 "location": "The Kiewa River at Bandiana",
                 "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            141.23889874683687,
+                            -36.76723652858928
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ],
+                                [
+                                    141.24015402065305,
+                                    -36.76279312595286
+                                ],
+                                [
+                                    141.24356579052682,
+                                    -36.766162326149455
+                                ],
+                                [
+                                    141.242492906918,
+                                    -36.77049393746737
+                                ],
+                                [
+                                    141.23890947567685,
+                                    -36.771679931225705
+                                ],
+                                [
+                                    141.23599123226117,
+                                    -36.77035642975759
+                                ],
+                                [
+                                    141.23423170314695,
+                                    -36.76695303536076
+                                ],
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "env",
+                "status": "unknown",
+                "created": "2020-04-27T15:13:14+10:00",
+                "updated": "2020-04-27T15:13:14+10:00",
+                "id": "13884",
+                "location": "Minimay",
+                "title": "warning: community update"
             }
         },
         {
@@ -4613,14 +4613,81 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Webster Av",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-05-10T10:46:00+10:00",
+                "updated": "2020-05-10T11:00:00+10:00",
+                "id": "ESTA:200550948",
+                "location": "Wantirna South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.25257885013937,
+                    -37.86435479742232
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-05-10T10:53:00+10:00",
+                "updated": "2020-05-10T10:59:00+10:00",
+                "id": "ESTA:200550949",
+                "location": "Healesville",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.53954754411083,
+                    -37.661229332053715
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-05-10T10:57:00+10:00",
+                "updated": "2020-05-10T10:57:00+10:00",
+                "id": "ESTA:200507318",
+                "location": "Epping",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03241014394084,
+                    -37.63825835974339
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rice St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-10T10:29:00+10:00",
-                "updated": "2020-05-10T10:31:00+10:00",
-                "id": "ESTA:200507275",
-                "location": "Webster Av, Venus Bay",
+                "status": "under control",
+                "created": "2020-05-10T10:24:00+10:00",
+                "updated": "2020-05-10T10:57:00+10:00",
+                "id": "ESTA:200507265",
+                "location": "Rice St, Ballarat East",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -4628,53 +4695,326 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.78839204625547,
-                    -38.67722201258097
+                    143.87994960107207,
+                    -37.55438581896748
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Waradgery Dr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Inkerman Rd",
+                "category": "rescue",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-05-10T10:45:00+10:00",
-                "updated": "2020-05-10T10:45:00+10:00",
-                "id": "ESTA:200507296",
-                "location": "Waradgery Dr, Rowville",
+                "created": "2020-05-10T10:59:17+10:00",
+                "updated": "2020-05-10T10:59:17+10:00",
+                "id": "ESTA:200507320",
+                "location": "Inkerman Rd, St Kilda East",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.22758168712292,
-                    -37.922667162736175
+                    145.00215938447147,
+                    -37.866560968106725
                 ]
             }
         },
         {
+            "type": "Feature",
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wantirna South",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "responding",
-                "created": "2020-05-10T10:44:24+10:00",
-                "updated": "2020-05-10T10:46:00+10:00",
-                "id": "ESTA:200550948",
-                "location": "Lewis Rd, Wantirna South",
-                "title": "incident: tree down"
+                "sourceTitle": "Gale Warning",
+                "category": "met",
+                "subcategory": "gale wind",
+                "status": "warning",
+                "created": "2020-05-10T10:00:00+10:00",
+                "updated": "Invalid date",
+                "id": "IDV20600/67238fb0d5c7f53686757b967e19def9",
+                "location": "East Gippsland Coast",
+                "title": "incident: met"
             },
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.25258994942493,
-                    -37.86434413366687
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.9045,
+                                    -37.5429
+                                ],
+                                [
+                                    149.9117,
+                                    -37.569
+                                ],
+                                [
+                                    149.9124,
+                                    -37.5693
+                                ],
+                                [
+                                    151.0211,
+                                    -37.568
+                                ],
+                                [
+                                    151.0211,
+                                    -38.4446
+                                ],
+                                [
+                                    147.9951,
+                                    -39.6977
+                                ],
+                                [
+                                    147.9951,
+                                    -37.8844
+                                ],
+                                [
+                                    148.0796,
+                                    -37.8616
+                                ],
+                                [
+                                    148.083,
+                                    -37.8609
+                                ],
+                                [
+                                    148.0776,
+                                    -37.8331
+                                ],
+                                [
+                                    148.0702,
+                                    -37.827
+                                ],
+                                [
+                                    148.1033,
+                                    -37.8413
+                                ],
+                                [
+                                    148.127,
+                                    -37.809
+                                ],
+                                [
+                                    148.1262,
+                                    -37.8351
+                                ],
+                                [
+                                    148.0915,
+                                    -37.8563
+                                ],
+                                [
+                                    148.088,
+                                    -37.8581
+                                ],
+                                [
+                                    148.2788,
+                                    -37.8115
+                                ],
+                                [
+                                    148.3433,
+                                    -37.8047
+                                ],
+                                [
+                                    148.6517,
+                                    -37.8025
+                                ],
+                                [
+                                    148.6993,
+                                    -37.8009
+                                ],
+                                [
+                                    148.7296,
+                                    -37.8131
+                                ],
+                                [
+                                    148.73,
+                                    -37.8134
+                                ],
+                                [
+                                    148.7432,
+                                    -37.799
+                                ],
+                                [
+                                    148.7492,
+                                    -37.7963
+                                ],
+                                [
+                                    148.8251,
+                                    -37.7847
+                                ],
+                                [
+                                    149.1344,
+                                    -37.7775
+                                ],
+                                [
+                                    149.1431,
+                                    -37.7774
+                                ],
+                                [
+                                    149.1367,
+                                    -37.7705
+                                ],
+                                [
+                                    149.1215,
+                                    -37.7677
+                                ],
+                                [
+                                    149.1175,
+                                    -37.742
+                                ],
+                                [
+                                    149.1255,
+                                    -37.7401
+                                ],
+                                [
+                                    149.1412,
+                                    -37.7745
+                                ],
+                                [
+                                    149.1458,
+                                    -37.7775
+                                ],
+                                [
+                                    149.2382,
+                                    -37.7785
+                                ],
+                                [
+                                    149.2753,
+                                    -37.8031
+                                ],
+                                [
+                                    149.3405,
+                                    -37.7767
+                                ],
+                                [
+                                    149.3448,
+                                    -37.7757
+                                ],
+                                [
+                                    149.4669,
+                                    -37.7689
+                                ],
+                                [
+                                    149.4869,
+                                    -37.775
+                                ],
+                                [
+                                    149.4973,
+                                    -37.7534
+                                ],
+                                [
+                                    149.5964,
+                                    -37.7256
+                                ],
+                                [
+                                    149.5966,
+                                    -37.7257
+                                ],
+                                [
+                                    149.6175,
+                                    -37.7011
+                                ],
+                                [
+                                    149.6748,
+                                    -37.6866
+                                ],
+                                [
+                                    149.7541,
+                                    -37.5782
+                                ],
+                                [
+                                    149.7672,
+                                    -37.573
+                                ],
+                                [
+                                    149.7593,
+                                    -37.5458
+                                ],
+                                [
+                                    149.7598,
+                                    -37.5449
+                                ],
+                                [
+                                    149.6979,
+                                    -37.5072
+                                ],
+                                [
+                                    149.7063,
+                                    -37.4993
+                                ],
+                                [
+                                    149.7354,
+                                    -37.4982
+                                ],
+                                [
+                                    149.7449,
+                                    -37.4929
+                                ],
+                                [
+                                    149.7402,
+                                    -37.5251
+                                ],
+                                [
+                                    149.7431,
+                                    -37.5272
+                                ],
+                                [
+                                    149.7793,
+                                    -37.5072
+                                ],
+                                [
+                                    149.7753,
+                                    -37.4916
+                                ],
+                                [
+                                    149.7839,
+                                    -37.5019
+                                ],
+                                [
+                                    149.8045,
+                                    -37.4923
+                                ],
+                                [
+                                    149.8108,
+                                    -37.4878
+                                ],
+                                [
+                                    149.7894,
+                                    -37.511
+                                ],
+                                [
+                                    149.8024,
+                                    -37.5311
+                                ],
+                                [
+                                    149.8022,
+                                    -37.5333
+                                ],
+                                [
+                                    149.7699,
+                                    -37.5595
+                                ],
+                                [
+                                    149.7686,
+                                    -37.5609
+                                ],
+                                [
+                                    149.9045,
+                                    -37.5429
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.50811274100005,
+                            -38.59273152499995
+                        ],
+                        "name": "East Gippsland Coast"
+                    }
                 ]
             }
         },
@@ -5455,301 +5795,6 @@
             }
         },
         {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gale Warning",
-                "category": "met",
-                "subcategory": "gale wind",
-                "status": "warning",
-                "created": "2020-05-10T10:00:00+10:00",
-                "updated": "Invalid date",
-                "id": "IDV20600/67238fb0d5c7f53686757b967e19def9",
-                "location": "East Gippsland Coast",
-                "title": "incident: met"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.9045,
-                                    -37.5429
-                                ],
-                                [
-                                    149.9117,
-                                    -37.569
-                                ],
-                                [
-                                    149.9124,
-                                    -37.5693
-                                ],
-                                [
-                                    151.0211,
-                                    -37.568
-                                ],
-                                [
-                                    151.0211,
-                                    -38.4446
-                                ],
-                                [
-                                    147.9951,
-                                    -39.6977
-                                ],
-                                [
-                                    147.9951,
-                                    -37.8844
-                                ],
-                                [
-                                    148.0796,
-                                    -37.8616
-                                ],
-                                [
-                                    148.083,
-                                    -37.8609
-                                ],
-                                [
-                                    148.0776,
-                                    -37.8331
-                                ],
-                                [
-                                    148.0702,
-                                    -37.827
-                                ],
-                                [
-                                    148.1033,
-                                    -37.8413
-                                ],
-                                [
-                                    148.127,
-                                    -37.809
-                                ],
-                                [
-                                    148.1262,
-                                    -37.8351
-                                ],
-                                [
-                                    148.0915,
-                                    -37.8563
-                                ],
-                                [
-                                    148.088,
-                                    -37.8581
-                                ],
-                                [
-                                    148.2788,
-                                    -37.8115
-                                ],
-                                [
-                                    148.3433,
-                                    -37.8047
-                                ],
-                                [
-                                    148.6517,
-                                    -37.8025
-                                ],
-                                [
-                                    148.6993,
-                                    -37.8009
-                                ],
-                                [
-                                    148.7296,
-                                    -37.8131
-                                ],
-                                [
-                                    148.73,
-                                    -37.8134
-                                ],
-                                [
-                                    148.7432,
-                                    -37.799
-                                ],
-                                [
-                                    148.7492,
-                                    -37.7963
-                                ],
-                                [
-                                    148.8251,
-                                    -37.7847
-                                ],
-                                [
-                                    149.1344,
-                                    -37.7775
-                                ],
-                                [
-                                    149.1431,
-                                    -37.7774
-                                ],
-                                [
-                                    149.1367,
-                                    -37.7705
-                                ],
-                                [
-                                    149.1215,
-                                    -37.7677
-                                ],
-                                [
-                                    149.1175,
-                                    -37.742
-                                ],
-                                [
-                                    149.1255,
-                                    -37.7401
-                                ],
-                                [
-                                    149.1412,
-                                    -37.7745
-                                ],
-                                [
-                                    149.1458,
-                                    -37.7775
-                                ],
-                                [
-                                    149.2382,
-                                    -37.7785
-                                ],
-                                [
-                                    149.2753,
-                                    -37.8031
-                                ],
-                                [
-                                    149.3405,
-                                    -37.7767
-                                ],
-                                [
-                                    149.3448,
-                                    -37.7757
-                                ],
-                                [
-                                    149.4669,
-                                    -37.7689
-                                ],
-                                [
-                                    149.4869,
-                                    -37.775
-                                ],
-                                [
-                                    149.4973,
-                                    -37.7534
-                                ],
-                                [
-                                    149.5964,
-                                    -37.7256
-                                ],
-                                [
-                                    149.5966,
-                                    -37.7257
-                                ],
-                                [
-                                    149.6175,
-                                    -37.7011
-                                ],
-                                [
-                                    149.6748,
-                                    -37.6866
-                                ],
-                                [
-                                    149.7541,
-                                    -37.5782
-                                ],
-                                [
-                                    149.7672,
-                                    -37.573
-                                ],
-                                [
-                                    149.7593,
-                                    -37.5458
-                                ],
-                                [
-                                    149.7598,
-                                    -37.5449
-                                ],
-                                [
-                                    149.6979,
-                                    -37.5072
-                                ],
-                                [
-                                    149.7063,
-                                    -37.4993
-                                ],
-                                [
-                                    149.7354,
-                                    -37.4982
-                                ],
-                                [
-                                    149.7449,
-                                    -37.4929
-                                ],
-                                [
-                                    149.7402,
-                                    -37.5251
-                                ],
-                                [
-                                    149.7431,
-                                    -37.5272
-                                ],
-                                [
-                                    149.7793,
-                                    -37.5072
-                                ],
-                                [
-                                    149.7753,
-                                    -37.4916
-                                ],
-                                [
-                                    149.7839,
-                                    -37.5019
-                                ],
-                                [
-                                    149.8045,
-                                    -37.4923
-                                ],
-                                [
-                                    149.8108,
-                                    -37.4878
-                                ],
-                                [
-                                    149.7894,
-                                    -37.511
-                                ],
-                                [
-                                    149.8024,
-                                    -37.5311
-                                ],
-                                [
-                                    149.8022,
-                                    -37.5333
-                                ],
-                                [
-                                    149.7699,
-                                    -37.5595
-                                ],
-                                [
-                                    149.7686,
-                                    -37.5609
-                                ],
-                                [
-                                    149.9045,
-                                    -37.5429
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            149.50811274100005,
-                            -38.59273152499995
-                        ],
-                        "name": "East Gippsland Coast"
-                    }
-                ]
-            }
-        },
-        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Puddlers Plantation Windrow",
@@ -5818,14 +5863,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rice St",
+                "sourceTitle": "Webster Av",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-10T10:24:00+10:00",
-                "updated": "2020-05-10T10:24:00+10:00",
-                "id": "ESTA:200507265",
-                "location": "Rice St, Ballarat East",
+                "status": "safe",
+                "created": "2020-05-10T10:29:00+10:00",
+                "updated": "2020-05-10T10:31:00+10:00",
+                "id": "ESTA:200507275",
+                "location": "Webster Av, Venus Bay",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -5833,8 +5878,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.87994960107207,
-                    -37.55438581896748
+                    145.78839204625547,
+                    -38.67722201258097
                 ]
             }
         },
@@ -5933,6 +5978,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-10T10:54:00+10:00",
+                "updated": "2020-05-10T11:00:00+10:00",
+                "id": "ESTA:200507313",
+                "location": "Epping",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03241014394084,
+                    -37.63825835974339
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Intervale Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -5960,6 +6028,28 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
+                "created": "2020-05-10T10:29:00+10:00",
+                "updated": "2020-05-10T10:47:00+10:00",
+                "id": "ESTA:200550947",
+                "location": "Whitlands",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.37486092459903,
+                    -36.77526986192091
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
                 "created": "2020-05-10T10:26:00+10:00",
                 "updated": "2020-05-10T10:39:00+10:00",
                 "id": "ESTA:200550946",
@@ -5972,28 +6062,6 @@
                 "coordinates": [
                     145.78839204625547,
                     -38.67722201258097
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-10T10:29:00+10:00",
-                "updated": "2020-05-10T10:33:00+10:00",
-                "id": "ESTA:200550947",
-                "location": "Whitlands",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.37486092459903,
-                    -36.77526986192091
                 ]
             }
         },

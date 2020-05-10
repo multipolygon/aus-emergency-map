@@ -4613,14 +4613,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Miller St",
+                "sourceTitle": "Hospital St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-11T07:32:00+10:00",
-                "updated": "2020-05-11T07:46:00+10:00",
-                "id": "ESTA:200507850",
-                "location": "Miller St, Colac",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-11T08:21:00+10:00",
+                "updated": "2020-05-11T08:21:00+10:00",
+                "id": "ESTA:200507885",
+                "location": "Hospital St, Daylesford",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4628,8 +4628,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.58133110319596,
-                    -38.341734403961546
+                    144.1452416275946,
+                    -37.33750420062012
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thirteenth St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-11T08:23:00+10:00",
+                "updated": "2020-05-11T08:23:00+10:00",
+                "id": "ESTA:200507887",
+                "location": "Thirteenth St, Mildura",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.14531487082343,
+                    -34.18509512859539
                 ]
             }
         },
@@ -4639,7 +4662,7 @@
                 "sourceTitle": "Linton-Naringhil Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-05-11T08:07:00+10:00",
                 "updated": "2020-05-11T08:07:00+10:00",
                 "id": "ESTA:200507872",
@@ -4659,23 +4682,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fawkner",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-05-11T08:04:50+10:00",
-                "updated": "2020-05-11T08:04:50+10:00",
-                "id": "ESTA:200507870",
-                "location": "Fawkner, Fawkner",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
+                "status": "complete",
+                "created": "2020-05-11T06:41:00+10:00",
+                "updated": "2020-05-11T08:26:00+10:00",
+                "id": "ESTA:200507835",
+                "location": "Elmore",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9583633334027,
-                    -37.69203579622584
+                    144.6629889331313,
+                    -36.415547750515536
                 ]
             }
         },
@@ -4999,23 +5021,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "on scene",
-                "created": "2020-05-11T06:41:00+10:00",
-                "updated": "2020-05-11T07:16:00+10:00",
-                "id": "ESTA:200507835",
-                "location": "Elmore",
+                "sourceTitle": "Miller St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-11T07:32:00+10:00",
+                "updated": "2020-05-11T07:46:00+10:00",
+                "id": "ESTA:200507850",
+                "location": "Miller St, Colac",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.6629889331313,
-                    -36.415547750515536
+                    143.58133110319596,
+                    -38.341734403961546
                 ]
             }
         },

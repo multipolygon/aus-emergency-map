@@ -4613,10 +4613,56 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tanti Av",
+                "sourceTitle": "Blairs Lane",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-05-10T23:53:00+10:00",
+                "updated": "2020-05-10T23:53:00+10:00",
+                "id": "ESTA:200507809",
+                "location": "Blairs Lane, Warrenheip",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.90726892806927,
+                    -37.56888052492627
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ellerslie Rise",
                 "category": "fire",
                 "subcategory": "building fire",
                 "status": "responding",
+                "created": "2020-05-10T23:52:00+10:00",
+                "updated": "2020-05-10T23:52:00+10:00",
+                "id": "ESTA:200507808",
+                "location": "Ellerslie Rise, Yarck",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.62176899696456,
+                    -37.108099398294584
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tanti Av",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
                 "created": "2020-05-10T23:35:00+10:00",
                 "updated": "2020-05-10T23:35:00+10:00",
                 "id": "ESTA:200507806",
@@ -4634,29 +4680,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bartons Lane",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-05-10T23:16:00+10:00",
-                "updated": "2020-05-10T23:16:00+10:00",
-                "id": "ESTA:200507805",
-                "location": "Bartons Lane, Loy Yang",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.5658267125797,
-                    -38.24917317041413
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -4664,9 +4687,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-05-10T22:00:00+10:00",
+                "created": "2020-05-11T00:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/f7cea74250f9e862d8b6cc29b889b928",
+                "id": "IDV20600/db0a0ddc8b4972eb5cdec6f6607ba55d",
                 "location": "East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -4976,23 +4999,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kennedy Pde",
-                "category": "other",
+                "sourceTitle": "Bartons Lane",
+                "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-10T22:52:00+10:00",
-                "updated": "2020-05-10T23:01:00+10:00",
-                "id": "ESTA:200507802",
-                "location": "Kennedy Pde, Roxburgh Park",
+                "status": "under control",
+                "created": "2020-05-10T23:16:00+10:00",
+                "updated": "2020-05-10T23:47:00+10:00",
+                "id": "ESTA:200507805",
+                "location": "Bartons Lane, Loy Yang",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9277910976405,
-                    -37.62221862692071
+                    146.5658267125797,
+                    -38.24917317041413
                 ]
             }
         },

@@ -4612,23 +4612,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Heather Gr",
-                "category": "rescue",
+                "sourceTitle": "Charlemont",
+                "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-11T21:39:15+10:00",
-                "updated": "2020-05-11T21:39:15+10:00",
-                "id": "ESTA:200508702",
-                "location": "Heather Gr, Cheltenham",
-                "size": "Small",
-                "title": "incident: rescue"
+                "status": "responding",
+                "created": "2020-05-11T22:01:04+10:00",
+                "updated": "2020-05-11T22:01:37+10:00",
+                "id": "ESTA:200508709",
+                "location": "Charlemont",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.048977405137,
-                    -37.96157580760528
+                    144.34726824367164,
+                    -38.220635696948946
                 ]
             }
         },
@@ -4701,23 +4700,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ellis Rd",
-                "category": "other",
+                "sourceTitle": "Alkira Av",
+                "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-11T20:33:00+10:00",
-                "updated": "2020-05-11T20:54:00+10:00",
-                "id": "ESTA:200508693",
-                "location": "Ellis Rd, Coomoora",
+                "created": "2020-05-11T21:04:00+10:00",
+                "updated": "2020-05-11T21:12:00+10:00",
+                "id": "ESTA:200508699",
+                "location": "Alkira Av, Norlane",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.1898307322101,
-                    -37.33446354330656
+                    144.35401602750386,
+                    -38.0937979205219
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Plumpton Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-11T20:49:00+10:00",
+                "updated": "2020-05-11T21:08:00+10:00",
+                "id": "ESTA:200508698",
+                "location": "Plumpton Rd, Diggers Rest",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7053100653067,
+                    -37.64530601344198
                 ]
             }
         },
@@ -4787,52 +4809,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Alkira Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-11T21:04:00+10:00",
-                "updated": "2020-05-11T21:12:00+10:00",
-                "id": "ESTA:200508699",
-                "location": "Alkira Av, Norlane",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.35401602750386,
-                    -38.0937979205219
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Plumpton Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-11T20:49:00+10:00",
-                "updated": "2020-05-11T21:08:00+10:00",
-                "id": "ESTA:200508698",
-                "location": "Plumpton Rd, Diggers Rest",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7053100653067,
-                    -37.64530601344198
                 ]
             }
         }

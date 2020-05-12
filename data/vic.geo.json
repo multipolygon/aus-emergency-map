@@ -4588,14 +4588,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Main Rd",
+                "sourceTitle": "Brookfield Av",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-12T15:29:00+10:00",
-                "updated": "2020-05-12T15:29:00+10:00",
-                "id": "ESTA:200509252",
-                "location": "Main Rd, Golden Point (Ballarat)",
+                "status": "safe",
+                "created": "2020-05-12T15:47:00+10:00",
+                "updated": "2020-05-12T15:58:00+10:00",
+                "id": "ESTA:200509255",
+                "location": "Brookfield Av, Brookfield",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4603,31 +4603,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.86909244690077,
-                    -37.57435663971824
+                    144.5556698143267,
+                    -37.69709663721831
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Brentleigh Ct",
-                "category": "rescue",
+                "sourceTitle": "Toolamba West",
+                "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-12T15:31:51+10:00",
-                "updated": "2020-05-12T15:31:51+10:00",
-                "id": "ESTA:200509245",
-                "location": "Brentleigh Ct, Vermont South",
-                "size": "Small",
-                "title": "incident: rescue"
+                "created": "2020-05-12T10:44:45+10:00",
+                "updated": "2020-05-12T15:52:53+10:00",
+                "id": "ESTA:200508985",
+                "location": "Bitcon Rd, Toolamba West",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.18315610343,
-                    -37.85033865929899
+                    145.25162967440866,
+                    -36.49880861779085
                 ]
             }
         },
@@ -4637,7 +4636,7 @@
                 "sourceTitle": "Simpson Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-05-12T15:33:00+10:00",
                 "updated": "2020-05-12T15:33:00+10:00",
                 "id": "ESTA:200509253",
@@ -4657,14 +4656,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Iluka Pl",
+                "sourceTitle": "Main Rd",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-05-12T15:28:00+10:00",
-                "updated": "2020-05-12T15:36:00+10:00",
-                "id": "ESTA:200509251",
-                "location": "Iluka Pl, Mornington",
+                "created": "2020-05-12T15:29:00+10:00",
+                "updated": "2020-05-12T15:55:00+10:00",
+                "id": "ESTA:200509252",
+                "location": "Main Rd, Golden Point (Ballarat)",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4672,22 +4671,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.03856446253133,
-                    -38.228510084510205
+                    143.86889799917444,
+                    -37.574009954641255
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Winbrook Ct",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-12T15:40:51+10:00",
-                "updated": "2020-05-12T15:40:51+10:00",
-                "id": "ESTA:200509249",
-                "location": "Winbrook Ct, Doncaster",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-05-12T16:00:00+10:00",
+                "updated": "2020-05-12T16:00:00+10:00",
+                "id": "ESTA:200509264",
+                "location": "Mooroolbark",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -4695,8 +4694,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.12712380991815,
-                    -37.78134907906951
+                    145.3108937832085,
+                    -37.78716951992964
                 ]
             }
         },
@@ -6432,6 +6431,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Iluka Pl",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-12T15:28:00+10:00",
+                "updated": "2020-05-12T15:36:00+10:00",
+                "id": "ESTA:200509251",
+                "location": "Iluka Pl, Mornington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03856446253133,
+                    -38.228510084510205
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Western Hwy",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -6449,52 +6471,6 @@
                 "coordinates": [
                     142.98532419361953,
                     -37.30358708275155
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Red Gum Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-12T13:41:00+10:00",
-                "updated": "2020-05-12T14:54:00+10:00",
-                "id": "ESTA:200509145",
-                "location": "Red Gum Dr, Teesdale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.03247536391976,
-                    -38.03419715139804
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thompsons Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-12T13:40:00+10:00",
-                "updated": "2020-05-12T14:48:00+10:00",
-                "id": "ESTA:200509143",
-                "location": "Thompsons Rd, Cranbourne East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.31225377436408,
-                    -38.086776030298324
                 ]
             }
         },
@@ -6547,14 +6523,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mangan St",
+                "sourceTitle": "Winbrook Ct",
                 "category": "rescue",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-12T15:22:08+10:00",
-                "updated": "2020-05-12T15:22:08+10:00",
-                "id": "ESTA:200509230",
-                "location": "Mangan St, Balwyn",
+                "status": "safe",
+                "created": "2020-05-12T15:40:51+10:00",
+                "updated": "2020-05-12T15:40:51+10:00",
+                "id": "ESTA:200509249",
+                "location": "Winbrook Ct, Doncaster",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -6562,30 +6538,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0832118670129,
-                    -37.811391254611614
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "complete",
-                "created": "2020-05-12T12:45:00+10:00",
-                "updated": "2020-05-12T15:44:00+10:00",
-                "id": "ESTA:200551016",
-                "location": "Endeavour Hills",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.254131218017,
-                    -37.98242581856477
+                    145.12712380991815,
+                    -37.78134907906951
                 ]
             }
         },

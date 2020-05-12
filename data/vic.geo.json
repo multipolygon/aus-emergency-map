@@ -4588,29 +4588,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Red Gum Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-12T13:41:00+10:00",
-                "updated": "2020-05-12T14:54:00+10:00",
-                "id": "ESTA:200509145",
-                "location": "Red Gum Dr, Teesdale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.03247536391976,
-                    -38.03419715139804
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Brougham St",
                 "category": "fire",
                 "subcategory": "other",
@@ -4634,35 +4611,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lydiard St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-12T15:00:00+10:00",
-                "updated": "2020-05-12T15:00:00+10:00",
-                "id": "ESTA:200509222",
-                "location": "Lydiard St, Ballarat Central",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.85732890678528,
-                    -37.56278415806175
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Western Hwy",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-05-12T14:29:00+10:00",
-                "updated": "2020-05-12T14:29:00+10:00",
+                "updated": "2020-05-12T15:01:00+10:00",
                 "id": "ESTA:200509188",
                 "location": "Western Hwy, Ararat",
                 "size": "Small",
@@ -4674,6 +4628,52 @@
                 "coordinates": [
                     142.98532419361953,
                     -37.30358708275155
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mangan St",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-12T15:11:20+10:00",
+                "updated": "2020-05-12T15:11:20+10:00",
+                "id": "ESTA:200509230",
+                "location": "Mangan St, Balwyn",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0832118670129,
+                    -37.811391254611614
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Darebin Dr",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-05-12T15:09:44+10:00",
+                "updated": "2020-05-12T15:09:44+10:00",
+                "id": "ESTA:200509224",
+                "location": "Darebin Dr, Lalor",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0344243886319,
+                    -37.66558317772931
                 ]
             }
         },
@@ -6369,9 +6369,9 @@
                 "category": "fire",
                 "subcategory": "fire",
                 "status": "under control",
-                "created": "2020-05-11T12:13:00+10:00",
-                "updated": "2020-05-11T12:13:00+10:00",
-                "id": "2020-05-11T12:13:00.0000000:381902",
+                "created": "2020-05-12T15:07:00+10:00",
+                "updated": "2020-05-12T15:07:00+10:00",
+                "id": "2020-05-12T15:07:00.0000000:381902",
                 "location": "3 Km West Of Maginnitys Gap",
                 "title": "incident: fire"
             },
@@ -6391,9 +6391,9 @@
                 "category": "fire",
                 "subcategory": "fire",
                 "status": "under control",
-                "created": "2020-05-11T12:00:00+10:00",
-                "updated": "2020-05-11T12:00:00+10:00",
-                "id": "2020-05-11T12:00:00.0000000:382206",
+                "created": "2020-05-12T15:04:00+10:00",
+                "updated": "2020-05-12T15:04:00+10:00",
+                "id": "2020-05-12T15:04:00.0000000:382206",
                 "location": "5Km Northeast Of Rosewood",
                 "title": "incident: fire"
             },
@@ -6403,6 +6403,29 @@
                 "coordinates": [
                     147.791862488,
                     -35.590807335
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Red Gum Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-12T13:41:00+10:00",
+                "updated": "2020-05-12T14:54:00+10:00",
+                "id": "ESTA:200509145",
+                "location": "Red Gum Dr, Teesdale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.03247536391976,
+                    -38.03419715139804
                 ]
             }
         },

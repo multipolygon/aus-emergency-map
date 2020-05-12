@@ -52,10 +52,95 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.665196312382,
-                    -33.853217750648994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.665196312382,
+                            -33.853217750648994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.666576399,
+                                            -33.844485128
+                                        ],
+                                        [
+                                            149.666457427,
+                                            -33.844604101
+                                        ],
+                                        [
+                                            149.668955861,
+                                            -33.8476974009999
+                                        ],
+                                        [
+                                            149.673476836,
+                                            -33.854121945
+                                        ],
+                                        [
+                                            149.673714783,
+                                            -33.855787568
+                                        ],
+                                        [
+                                            149.675142459,
+                                            -33.861498274
+                                        ],
+                                        [
+                                            149.662412343,
+                                            -33.8641156809999
+                                        ],
+                                        [
+                                            149.658129313,
+                                            -33.8648295199999
+                                        ],
+                                        [
+                                            149.656344718,
+                                            -33.864710547
+                                        ],
+                                        [
+                                            149.656701637,
+                                            -33.8638777359999
+                                        ],
+                                        [
+                                            149.65836726,
+                                            -33.86209314
+                                        ],
+                                        [
+                                            149.656225745,
+                                            -33.8612603289999
+                                        ],
+                                        [
+                                            149.654679095,
+                                            -33.86209314
+                                        ],
+                                        [
+                                            149.653608338,
+                                            -33.8612603289999
+                                        ],
+                                        [
+                                            149.650990931,
+                                            -33.8543598919999
+                                        ],
+                                        [
+                                            149.652775526,
+                                            -33.850314808
+                                        ],
+                                        [
+                                            149.666576399,
+                                            -33.844485128
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -111,13 +196,13 @@
                 "sourceTitle": "Berowra Creek, Berowra Creek",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382635",
-                "created": "2020-05-11T23:24:00+10:00",
-                "updated": "2020-05-12T09:24:00+10:00",
+                "created": "2020-05-12T00:23:00+10:00",
+                "updated": "2020-05-12T10:23:00+10:00",
                 "location": "93 Calabash Rd Arcadia",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 93 Calabash Rd Arcadia <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 09:24",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 93 Calabash Rd Arcadia <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 10:23",
                 "title": "incident: fire"
             }
         },
@@ -190,30 +275,6 @@
                 "location": "Cedars Lane, Bellangry NSW",
                 "size": 347,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Cedars Lane, Bellangry NSW <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 347 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 12 May 2020 10:05",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.0095060000001,
-                    -35.14462699999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Corang River Rd, Oallen",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382580",
-                "created": "2020-05-11T03:25:00+10:00",
-                "updated": "2020-05-11T13:25:00+10:00",
-                "location": "93 Corang River Rd, Oallen,  2622",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 93 Corang River Rd, Oallen,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 May 2020 13:25",
                 "title": "incident: fire"
             }
         },
@@ -667,6 +728,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.9897959230001,
+                    -33.390298246999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Singleton Road ",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382644",
+                "created": "2020-05-12T00:28:00+10:00",
+                "updated": "2020-05-12T10:28:00+10:00",
+                "location": "59 Singleton Road , Wismans Ferry",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 59 Singleton Road , Wismans Ferry <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 10:28",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     147.7918624880001,
                     -35.590807334999965
                 ]
@@ -787,6 +872,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.34954600000003,
+                    -34.51611899999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Douglas Rd, New Berrima",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382638",
+                "created": "2020-05-11T23:52:00+10:00",
+                "updated": "2020-05-12T09:52:00+10:00",
+                "location": "101 Douglas Rd, New Berrima,  2577",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 101 Douglas Rd, New Berrima,  2577 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 09:52",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.17591900000002,
                     -35.78744999999998
                 ]
@@ -827,6 +936,30 @@
                 "location": "57 Evergreen Rd, Moree, NSW 2400",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 57 Evergreen Rd, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 09:41",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.62655000000007,
+                    -32.59046799999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Martins Creek Rd, Paterson",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382642",
+                "created": "2020-05-12T00:26:00+10:00",
+                "updated": "2020-05-12T10:26:00+10:00",
+                "location": "Martins Creek Rd, Paterson, NSW 2421",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Martins Creek Rd, Paterson, NSW 2421 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 10:26",
                 "title": "incident: fire"
             }
         },

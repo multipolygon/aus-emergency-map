@@ -4566,14 +4566,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Preston",
+                "sourceTitle": "Western Hwy",
                 "category": "rescue",
-                "subcategory": "other",
+                "subcategory": "road accident",
                 "status": "responding",
-                "created": "2020-05-13T06:08:27+10:00",
-                "updated": "2020-05-13T06:08:27+10:00",
-                "id": "ESTA:200509434",
-                "location": "Preston, Preston",
+                "created": "2020-05-13T06:40:00+10:00",
+                "updated": "2020-05-13T06:40:00+10:00",
+                "id": "ESTA:200509439",
+                "location": "Western Hwy, Ravenhall",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -4581,77 +4581,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.01152751144272,
-                    -37.73880645608931
+                    144.74683317048726,
+                    -37.758841698391
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tarneit Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-13T05:14:00+10:00",
-                "updated": "2020-05-13T05:55:00+10:00",
-                "id": "ESTA:200509429",
-                "location": "Tarneit Rd, Werribee",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.66284201455923,
-                    -37.88658035105563
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dover Ct",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Crown Tce",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-05-13T06:13:37+10:00",
-                "updated": "2020-05-13T06:13:37+10:00",
-                "id": "ESTA:200509436",
-                "location": "Dover Ct, Mulgrave",
+                "created": "2020-05-13T06:42:33+10:00",
+                "updated": "2020-05-13T06:42:33+10:00",
+                "id": "ESTA:200509438",
+                "location": "Crown Tce, Ascot Vale",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.17413981322173,
-                    -37.92670987043899
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Monte St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-13T06:02:00+10:00",
-                "updated": "2020-05-13T06:02:00+10:00",
-                "id": "ESTA:200509433",
-                "location": "Monte St, Nerrina",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.8957418940554,
-                    -37.54279004597904
+                    144.9014966657644,
+                    -37.771762127869835
                 ]
             }
         },
@@ -4768,14 +4722,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lovell Ct",
+                "sourceTitle": "Monte St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-13T06:02:00+10:00",
+                "updated": "2020-05-13T06:25:00+10:00",
+                "id": "ESTA:200509433",
+                "location": "Monte St, Nerrina",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8957418940554,
+                    -37.54279004597904
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tarneit Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-13T04:14:00+10:00",
-                "updated": "2020-05-13T05:17:00+10:00",
-                "id": "ESTA:200509427",
-                "location": "Lovell Ct, Whittington",
+                "created": "2020-05-13T05:14:00+10:00",
+                "updated": "2020-05-13T05:55:00+10:00",
+                "id": "ESTA:200509429",
+                "location": "Tarneit Rd, Werribee",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -4783,8 +4760,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.39418967665222,
-                    -38.176664408949975
+                    144.66284201455923,
+                    -37.88658035105563
                 ]
             }
         },
@@ -4831,6 +4808,52 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dover Ct",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-05-13T06:29:58+10:00",
+                "updated": "2020-05-13T06:29:58+10:00",
+                "id": "ESTA:200509436",
+                "location": "Dover Ct, Mulgrave",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17413981322173,
+                    -37.92670987043899
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Preston",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-13T06:20:50+10:00",
+                "updated": "2020-05-13T06:20:50+10:00",
+                "id": "ESTA:200509434",
+                "location": "Preston, Preston",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01152751144272,
+                    -37.73880645608931
                 ]
             }
         }

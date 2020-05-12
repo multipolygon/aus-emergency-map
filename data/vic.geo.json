@@ -4610,36 +4610,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-12T13:54:00+10:00",
-                "updated": "2020-05-12T14:03:00+10:00",
-                "id": "ESTA:200551019",
-                "location": "Kangaroo Ground",
-                "title": "incident: tree down"
+                "sourceTitle": "Cheltenham Rd",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-12T14:26:25+10:00",
+                "updated": "2020-05-12T14:26:25+10:00",
+                "id": "ESTA:200509185",
+                "location": "Cheltenham Rd, Keysborough",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2097295467137,
-                    -37.66209999739146
+                    145.17325930876788,
+                    -37.993975898042024
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Red Gum Dr",
+                "sourceTitle": "Altona",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-05-12T13:41:00+10:00",
-                "updated": "2020-05-12T14:05:00+10:00",
-                "id": "ESTA:200509145",
-                "location": "Red Gum Dr, Teesdale",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-05-12T14:27:45+10:00",
+                "updated": "2020-05-12T14:27:45+10:00",
+                "id": "ESTA:200509183",
+                "location": "Altona, Altona",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4647,8 +4648,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.03247536391976,
-                    -38.03419715139804
+                    144.83041597474903,
+                    -37.86836935462887
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brougham St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-12T14:30:00+10:00",
+                "updated": "2020-05-12T14:30:00+10:00",
+                "id": "ESTA:200509191",
+                "location": "Brougham St, Maryborough",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.73419670644864,
+                    -37.053504974960894
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Western Hwy",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-05-12T14:29:00+10:00",
+                "updated": "2020-05-12T14:29:00+10:00",
+                "id": "ESTA:200509188",
+                "location": "Western Hwy, Ararat",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.98532419361953,
+                    -37.30358708275155
                 ]
             }
         },
@@ -6384,6 +6431,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Red Gum Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-05-12T13:41:00+10:00",
+                "updated": "2020-05-12T14:05:00+10:00",
+                "id": "ESTA:200509145",
+                "location": "Red Gum Dr, Teesdale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.03247536391976,
+                    -38.03419715139804
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Thompsons Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -6401,52 +6471,6 @@
                 "coordinates": [
                     145.31225377436408,
                     -38.086776030298324
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sturt St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-12T13:29:00+10:00",
-                "updated": "2020-05-12T13:30:00+10:00",
-                "id": "ESTA:200509126",
-                "location": "Sturt St, Ballarat Central",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.84343441186223,
-                    -37.55995713113434
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Raglan Pde",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2020-05-12T13:07:00+10:00",
-                "updated": "2020-05-12T13:16:00+10:00",
-                "id": "ESTA:200509107",
-                "location": "Raglan Pde, Dennington",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.44588025892932,
-                    -38.35853738553506
                 ]
             }
         },

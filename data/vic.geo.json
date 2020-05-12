@@ -9,6 +9,80 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.23580716801987,
+                            -38.13144589227602
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.23389743520477,
+                                    -38.1287791381424
+                                ],
+                                [
+                                    145.23029254628372,
+                                    -38.13083836431572
+                                ],
+                                [
+                                    145.23321078969943,
+                                    -38.13529419585242
+                                ],
+                                [
+                                    145.24132178975603,
+                                    -38.13188483404179
+                                ],
+                                [
+                                    145.23801730824582,
+                                    -38.12759758869963
+                                ],
+                                [
+                                    145.23402618123924,
+                                    -38.12874537985208
+                                ],
+                                [
+                                    145.23432658865008,
+                                    -38.12871162154614
+                                ],
+                                [
+                                    145.23411201192295,
+                                    -38.12861034653535
+                                ],
+                                [
+                                    145.23424075795742,
+                                    -38.128576588167675
+                                ],
+                                [
+                                    145.23389743520477,
+                                    -38.1287791381424
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "cbrne",
+                "status": "minor",
+                "created": "2020-05-12T12:00:20+10:00",
+                "updated": "2020-05-12T12:00:20+10:00",
+                "id": "14066",
+                "location": "Cranbourne South",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             146.93124999999998,
                             -36.393750000000004
                         ]
@@ -4588,58 +4662,13 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-12T11:07:00+10:00",
-                "updated": "2020-05-12T11:35:00+10:00",
-                "id": "ESTA:200551009",
-                "location": "Avonsleigh",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.48922821058295,
-                    -37.90192174411395
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Berry St",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-12T11:41:11+10:00",
-                "updated": "2020-05-12T11:41:11+10:00",
-                "id": "ESTA:200509032",
-                "location": "Berry St, Essendon North",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.90486039546997,
-                    -37.74165255884736
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-05-12T11:34:00+10:00",
-                "updated": "2020-05-12T11:42:00+10:00",
-                "id": "ESTA:200509030",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-05-12T11:49:00+10:00",
+                "updated": "2020-05-12T11:49:00+10:00",
+                "id": "ESTA:200509041",
                 "location": "Flynn",
                 "size": "Small",
                 "title": "incident: rescue"
@@ -4656,22 +4685,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-12T11:28:00+10:00",
-                "updated": "2020-05-12T11:44:00+10:00",
-                "id": "ESTA:200551012",
-                "location": "Deer Park",
-                "title": "incident: tree down"
+                "sourceTitle": "Frankston North",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "unknown",
+                "created": "2020-05-11T23:54:20+10:00",
+                "updated": "2020-05-12T11:49:13+10:00",
+                "id": "ESTA:200508716",
+                "location": "Lehmann Cr, Frankston North",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.76459347103562,
-                    -37.76988577610231
+                    145.1496262708131,
+                    -38.121754140369035
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sackville St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-12T12:01:00+10:00",
+                "updated": "2020-05-12T12:01:00+10:00",
+                "id": "ESTA:200509047",
+                "location": "Sackville St, Mernda",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0700653382811,
+                    -37.60772551438079
                 ]
             }
         },
@@ -6407,6 +6459,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Arawata Pde",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-12T10:32:00+10:00",
+                "updated": "2020-05-12T11:54:00+10:00",
+                "id": "ESTA:200508966",
+                "location": "Arawata Pde, Kurunjang",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.5811327550609,
+                    -37.673976273136866
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Cranbourne-Frankston Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -6424,6 +6499,29 @@
                 "coordinates": [
                     145.23436950399278,
                     -38.13116749754176
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-05-12T11:34:00+10:00",
+                "updated": "2020-05-12T11:42:00+10:00",
+                "id": "ESTA:200509030",
+                "location": "Flynn",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.66718189223724,
+                    -38.17250123307006
                 ]
             }
         },
@@ -6493,29 +6591,6 @@
                 "coordinates": [
                     145.22517328816681,
                     -37.87565138331427
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Arawata Pde",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-12T10:32:00+10:00",
-                "updated": "2020-05-12T10:52:00+10:00",
-                "id": "ESTA:200508966",
-                "location": "Arawata Pde, Kurunjang",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.5811327550609,
-                    -37.673976273136866
                 ]
             }
         },

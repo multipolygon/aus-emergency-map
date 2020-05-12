@@ -305,6 +305,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.47074800100006,
+                    -34.76886499999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mount Scanzi Rd, Budgong",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382685",
+                "created": "2020-05-12T06:39:00+10:00",
+                "updated": "2020-05-12T16:39:00+10:00",
+                "location": "Mount Scanzi Rd, Budgong, NSW 2577",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Mount Scanzi Rd, Budgong, NSW 2577 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 16:39",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -317,6 +341,29 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.702571584,
+                                            -33.7468056709999
+                                        ],
+                                        [
+                                            149.703369895,
+                                            -33.748038826
+                                        ],
+                                        [
+                                            149.702209312,
+                                            -33.748038826
+                                        ],
+                                        [
+                                            149.702571584,
+                                            -33.7468056709999
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -384,29 +431,6 @@
                                         [
                                             149.70690133,
                                             -33.740990585
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.702571584,
-                                            -33.7468056709999
-                                        ],
-                                        [
-                                            149.703369895,
-                                            -33.748038826
-                                        ],
-                                        [
-                                            149.702209312,
-                                            -33.748038826
-                                        ],
-                                        [
-                                            149.702571584,
-                                            -33.7468056709999
                                         ]
                                     ]
                                 ]
@@ -739,11 +763,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382572",
-                "created": "2020-05-11T23:24:00+10:00",
-                "updated": "2020-05-12T09:24:00+10:00",
+                "created": "2020-05-12T06:38:00+10:00",
+                "updated": "2020-05-12T16:38:00+10:00",
                 "location": "woronora dam",
                 "size": 20,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: woronora dam <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 20 ha <br />MAJOR FIRE UPDATE AS AT 12 May 2020 3:16PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10796' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 09:24",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: woronora dam <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 20 ha <br />MAJOR FIRE UPDATE AS AT 12 May 2020 3:16PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10796' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 16:38",
                 "title": "incident: fire"
             }
         },
@@ -776,30 +800,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.62070000000006,
-                    -34.899719999999945
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Asteria St, Worrigee",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382692",
-                "created": "2020-05-12T06:22:00+10:00",
-                "updated": "2020-05-12T16:22:00+10:00",
-                "location": "29 Asteria St, Worrigee,  2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 29 Asteria St, Worrigee,  2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 May 2020 16:22",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.58257600000002,
                     -32.82338599999997
                 ]
@@ -808,14 +808,14 @@
                 "feedType": "incident",
                 "sourceTitle": "Black Hill Rd, Black Hill",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
+                "subcategory": "burn off",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382689",
-                "created": "2020-05-12T06:16:00+10:00",
-                "updated": "2020-05-12T16:16:00+10:00",
+                "created": "2020-05-12T06:35:00+10:00",
+                "updated": "2020-05-12T16:35:00+10:00",
                 "location": "Black Hill Rd, Black Hill, NSW 2322",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Black Hill Rd, Black Hill, NSW 2322 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 16:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Black Hill Rd, Black Hill, NSW 2322 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 16:35",
                 "title": "incident: fire"
             }
         },
@@ -872,30 +872,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.09995000000004,
-                    -34.28226799999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Edwards Rd, Bilbul",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382693",
-                "created": "2020-05-12T06:22:00+10:00",
-                "updated": "2020-05-12T16:22:00+10:00",
-                "location": "Edwards Rd, Bilbul, NSW 2680",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Edwards Rd, Bilbul, NSW 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 16:22",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.016791,
                     -34.047031999999945
                 ]
@@ -929,13 +905,13 @@
                 "sourceTitle": "Lawrence Hargrave Dr, Austinmer",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382687",
-                "created": "2020-05-12T06:12:00+10:00",
-                "updated": "2020-05-12T16:12:00+10:00",
+                "created": "2020-05-12T06:44:00+10:00",
+                "updated": "2020-05-12T16:44:00+10:00",
                 "location": "Lawrence Hargrave Dr, Austinmer, NSW 2515",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lawrence Hargrave Dr, Austinmer, NSW 2515 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 May 2020 16:12",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lawrence Hargrave Dr, Austinmer, NSW 2515 <br />COUNCIL AREA: Wollongong <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 May 2020 16:44",
                 "title": "incident: fire"
             }
         },
@@ -944,22 +920,46 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.60269900000003,
-                    -34.91614099999998
+                    151.02897400000006,
+                    -34.15226099999995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Nowra Hill Rd, South Nowra",
-                "category": "fire",
-                "subcategory": "bushfire",
+                "sourceTitle": "Mckell Av, Royal National Park",
+                "category": "other",
+                "subcategory": "mva/transport",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382669",
-                "created": "2020-05-12T04:24:00+10:00",
-                "updated": "2020-05-12T14:24:00+10:00",
-                "location": "Nowra Hill Rd, South Nowra, NSW 2541",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382684",
+                "created": "2020-05-12T06:04:00+10:00",
+                "updated": "2020-05-12T16:04:00+10:00",
+                "location": "Mckell Av, Royal National Park, NSW 2508",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Nowra Hill Rd, South Nowra, NSW 2541 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 May 2020 14:24",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mckell Av, Royal National Park, NSW 2508 <br />COUNCIL AREA: Sutherland <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 16:04",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.1847229010001,
+                    -33.17462891499997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ophir Rd, Ophir",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382686",
+                "created": "2020-05-12T04:46:00+10:00",
+                "updated": "2020-05-12T14:46:00+10:00",
+                "location": "1606 Ophir Rd, Ophir, NSW 2800",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1606 Ophir Rd, Ophir, NSW 2800 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 14:46",
                 "title": "incident: fire"
             }
         },
@@ -984,6 +984,30 @@
                 "location": "1017 Araluen Rd, Kiora, NSW 2537",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1017 Araluen Rd, Kiora, NSW 2537 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 May 2020 10:17",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.0346300000001,
+                    -34.01035299999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Still Creek, Bangor",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382683",
+                "created": "2020-05-12T06:02:00+10:00",
+                "updated": "2020-05-12T16:02:00+10:00",
+                "location": "Still Creek, Bangor, NSW 2234",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Still Creek, Bangor, NSW 2234 <br />COUNCIL AREA: Sutherland <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 16:02",
                 "title": "incident: fire"
             }
         },

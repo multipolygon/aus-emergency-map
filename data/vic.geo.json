@@ -4610,12 +4610,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Ararat",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-12T17:58:58+10:00",
+                "updated": "2020-05-12T19:32:23+10:00",
+                "id": "ESTA:200509346",
+                "location": "Ararat",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.9543571840591,
+                    -37.27163938626436
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Frawley St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-05-12T19:17:00+10:00",
-                "updated": "2020-05-12T19:17:00+10:00",
+                "updated": "2020-05-12T19:34:00+10:00",
                 "id": "ESTA:200509373",
                 "location": "Frawley St, Frankston",
                 "size": "Small",
@@ -4636,9 +4658,9 @@
                 "sourceTitle": "Rasmussen Av",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2020-05-12T19:10:00+10:00",
-                "updated": "2020-05-12T19:10:00+10:00",
+                "updated": "2020-05-12T19:37:00+10:00",
                 "id": "ESTA:200509369",
                 "location": "Rasmussen Av, Hamilton",
                 "size": "Small",
@@ -4650,52 +4672,6 @@
                 "coordinates": [
                     142.04128775659512,
                     -37.73707591754995
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Horseshoe Bend Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-05-12T18:51:00+10:00",
-                "updated": "2020-05-12T19:10:00+10:00",
-                "id": "ESTA:200509362",
-                "location": "Horseshoe Bend Rd, Mount Duneed",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.34523123265672,
-                    -38.280032037821606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kirby St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-05-12T19:25:52+10:00",
-                "updated": "2020-05-12T19:25:52+10:00",
-                "id": "ESTA:200509370",
-                "location": "Kirby St, Reservoir",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0325480541793,
-                    -37.73055813655204
                 ]
             }
         },
@@ -5589,23 +5565,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Plenty Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Horseshoe Bend Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-05-12T18:01:00+10:00",
-                "updated": "2020-05-12T18:38:00+10:00",
-                "id": "ESTA:200509344",
-                "location": "Plenty Rd, South Morang",
+                "created": "2020-05-12T18:51:00+10:00",
+                "updated": "2020-05-12T19:10:00+10:00",
+                "id": "ESTA:200509362",
+                "location": "Horseshoe Bend Rd, Mount Duneed",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.09615156000768,
-                    -37.63314022041159
+                    144.34523123265672,
+                    -38.280032037821606
                 ]
             }
         },
@@ -5652,6 +5628,29 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kirby St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-05-12T19:25:52+10:00",
+                "updated": "2020-05-12T19:25:52+10:00",
+                "id": "ESTA:200509370",
+                "location": "Kirby St, Reservoir",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0325480541793,
+                    -37.73055813655204
                 ]
             }
         }

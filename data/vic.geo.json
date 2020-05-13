@@ -4543,33 +4543,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cabernet Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-05-13T22:53:00+10:00",
-                "updated": "2020-05-13T22:54:00+10:00",
-                "id": "ESTA:200510013",
-                "location": "Cabernet Rd, Corio",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.34385003338969,
-                    -38.07542139892638
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Goulburn Valley Hwy",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-05-13T23:02:00+10:00",
                 "updated": "2020-05-13T23:02:00+10:00",
                 "id": "ESTA:200510018",
@@ -4583,144 +4560,6 @@
                 "coordinates": [
                     145.39028550747904,
                     -36.40876851684963
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Coonara Ct",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-05-13T23:05:00+10:00",
-                "updated": "2020-05-13T23:05:00+10:00",
-                "id": "ESTA:200510020",
-                "location": "Coonara Ct, Olinda",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.38902129955892,
-                    -37.87343888451292
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wallis Av",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-13T23:07:21+10:00",
-                "updated": "2020-05-13T23:07:21+10:00",
-                "id": "ESTA:200510019",
-                "location": "Wallis Av, Glen Iris",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06987218437428,
-                    -37.85325110197392
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Geelong Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-13T23:09:00+10:00",
-                "updated": "2020-05-13T23:09:00+10:00",
-                "id": "ESTA:200510021",
-                "location": "Geelong Rd, Mount Clear",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.86819345253176,
-                    -37.6019509956061
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Caulfield East",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-05-13T23:13:22+10:00",
-                "updated": "2020-05-13T23:13:22+10:00",
-                "id": "ESTA:200510014",
-                "location": "Caulfield East, Caulfield East",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0431311271792,
-                    -37.88690638571517
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Holdsworth Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-13T23:14:00+10:00",
-                "updated": "2020-05-13T23:14:00+10:00",
-                "id": "ESTA:200510023",
-                "location": "Holdsworth Rd, North Bendigo",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.2811110561903,
-                    -36.7344091092386
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Summit Cr",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-13T23:14:29+10:00",
-                "updated": "2020-05-13T23:14:29+10:00",
-                "id": "ESTA:200510015",
-                "location": "Summit Cr, Ringwood North",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.21731502527027,
-                    -37.80382604140538
                 ]
             }
         },
@@ -4837,6 +4676,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Coonara Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-13T23:05:00+10:00",
+                "updated": "2020-05-13T23:29:00+10:00",
+                "id": "ESTA:200510020",
+                "location": "Coonara Ct, Olinda",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38902129955892,
+                    -37.87343888451292
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Gardenia Gr",
                 "category": "other",
                 "subcategory": "other",
@@ -4860,23 +4722,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mcculloch St",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Cabernet Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "safe",
-                "created": "2020-05-13T21:53:00+10:00",
-                "updated": "2020-05-13T22:18:00+10:00",
-                "id": "ESTA:200510006",
-                "location": "Mcculloch St, Dromana",
+                "created": "2020-05-13T22:53:00+10:00",
+                "updated": "2020-05-13T22:54:00+10:00",
+                "id": "ESTA:200510013",
+                "location": "Cabernet Rd, Corio",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96057058752524,
-                    -38.33770181705994
+                    144.34385003338969,
+                    -38.07542139892638
                 ]
             }
         },
@@ -4923,6 +4785,29 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Caulfield East",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-05-13T23:13:22+10:00",
+                "updated": "2020-05-13T23:13:22+10:00",
+                "id": "ESTA:200510014",
+                "location": "Caulfield East, Caulfield East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0431311271792,
+                    -37.88690638571517
                 ]
             }
         }

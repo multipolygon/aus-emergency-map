@@ -4543,46 +4543,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cureton Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-13T23:41:00+10:00",
-                "updated": "2020-05-14T00:13:00+10:00",
-                "id": "ESTA:200510025",
-                "location": "Cureton Av, Mildura",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-05-13T23:35:00+10:00",
+                "updated": "2020-05-14T00:37:00+10:00",
+                "id": "ESTA:200551044",
+                "location": "Broadford",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.18468343191793,
-                    -34.194388518790085
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pickfords Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-14T00:28:00+10:00",
-                "updated": "2020-05-14T00:28:00+10:00",
-                "id": "ESTA:200510031",
-                "location": "Pickfords Rd, Glendaruel",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.75469060134606,
-                    -37.345852737249594
+                    145.0609209753979,
+                    -37.21171313042327
                 ]
             }
         },
@@ -4593,10 +4569,10 @@
                 "category": "fire",
                 "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-05-14T00:02:00+10:00",
-                "updated": "2020-05-14T00:02:00+10:00",
-                "id": "ESTA:200510028",
-                "location": "Princes Hwy, Pakenham",
+                "created": "2020-05-14T00:38:00+10:00",
+                "updated": "2020-05-14T00:38:00+10:00",
+                "id": "ESTA:200510033",
+                "location": "Princes Hwy, Warrnambool",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4604,8 +4580,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.4520839404456,
-                    -38.060593122090445
+                    142.53843348426992,
+                    -38.3887195950845
                 ]
             }
         },
@@ -4722,12 +4698,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Lamb St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-05-14T00:33:00+10:00",
+                "updated": "2020-05-14T00:33:00+10:00",
+                "id": "ESTA:200510032",
+                "location": "Lamb St, Kilmore",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95361513577774,
+                    -37.30406971262282
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Centenary Av",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-05-14T00:07:00+10:00",
-                "updated": "2020-05-14T00:20:00+10:00",
+                "updated": "2020-05-14T00:32:00+10:00",
                 "id": "ESTA:200510029",
                 "location": "Centenary Av, Melton",
                 "size": "Small",
@@ -4745,23 +4744,69 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gardenia Gr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-13T22:50:00+10:00",
-                "updated": "2020-05-13T23:38:00+10:00",
-                "id": "ESTA:200510012",
-                "location": "Gardenia Gr, Norlane",
+                "sourceTitle": "Pickfords Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-14T00:28:00+10:00",
+                "updated": "2020-05-14T00:28:00+10:00",
+                "id": "ESTA:200510031",
+                "location": "Pickfords Rd, Glendaruel",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.35913817865602,
-                    -38.086434546961705
+                    143.75469060134606,
+                    -37.345852737249594
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cureton Av",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-13T23:41:00+10:00",
+                "updated": "2020-05-14T00:13:00+10:00",
+                "id": "ESTA:200510025",
+                "location": "Cureton Av, Mildura",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.18468343191793,
+                    -34.194388518790085
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-05-14T00:02:00+10:00",
+                "updated": "2020-05-14T00:02:00+10:00",
+                "id": "ESTA:200510028",
+                "location": "Princes Hwy, Pakenham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4520839404456,
+                    -38.060593122090445
                 ]
             }
         },
@@ -4808,28 +4853,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-13T23:35:00+10:00",
-                "updated": "2020-05-13T23:54:00+10:00",
-                "id": "ESTA:200551044",
-                "location": "Broadford",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0609209753979,
-                    -37.21171313042327
                 ]
             }
         }

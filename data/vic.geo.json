@@ -3709,9 +3709,9 @@
                 "sourceTitle": "Mallee 82 - Piangil - Clarke Lane",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "contained",
+                "status": "under control",
                 "created": "2020-05-14T08:30:00+10:00",
-                "updated": "2020-05-14T10:17:00+10:00",
+                "updated": "2020-05-14T14:51:00+10:00",
                 "id": 975435,
                 "location": "2Km Ene Piangil",
                 "size": "0.10",
@@ -3796,12 +3796,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2020-05-14T15:02:00+10:00",
+                "updated": "2020-05-14T15:07:00+10:00",
+                "id": "ESTA:200510799",
+                "location": "Maffra",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.02380840358165,
+                    -37.97583377579101
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Tragowel Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-05-14T14:30:00+10:00",
-                "updated": "2020-05-14T14:51:00+10:00",
+                "updated": "2020-05-14T15:10:00+10:00",
                 "id": "ESTA:200510754",
                 "location": "Tragowel Rd, Tragowel",
                 "size": "Small",
@@ -3819,35 +3842,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cheltenham Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-05-14T14:52:00+10:00",
-                "updated": "2020-05-14T14:52:00+10:00",
-                "id": "ESTA:200510787",
-                "location": "Cheltenham Rd, Dandenong",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.19737048761252,
-                    -37.99136522975016
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mudstone Loop",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "not yet under control",
+                "status": "safe",
                 "created": "2020-05-14T14:25:00+10:00",
-                "updated": "2020-05-14T14:25:00+10:00",
+                "updated": "2020-05-14T15:15:00+10:00",
                 "id": "ESTA:200510742",
                 "location": "Mudstone Loop, West Wodonga",
                 "size": "Small",
@@ -3859,74 +3859,6 @@
                 "coordinates": [
                     146.8299509892057,
                     -36.129622257869414
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
-                "created": "2020-05-14T14:58:00+10:00",
-                "updated": "2020-05-14T14:58:00+10:00",
-                "id": "ESTA:200510793",
-                "location": "Skye",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.19401868428636,
-                    -38.117180643425826
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Taylors Rd",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-14T14:58:08+10:00",
-                "updated": "2020-05-14T14:58:08+10:00",
-                "id": "ESTA:200510794",
-                "location": "Taylors Rd, Keilor Downs",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.80738264927447,
-                    -37.72856066525647
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bondi Windrow Burn",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-05-13T10:27:00+10:00",
-                "updated": "2020-05-13T10:27:00+10:00",
-                "id": "2020-05-13T10:27:00.0000000:382732",
-                "location": "30Km South Of Bombala",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.285745621,
-                    -37.156212277
                 ]
             }
         },
@@ -3955,13 +3887,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bondi Windrow Burn",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-05-13T10:27:00+10:00",
+                "updated": "2020-05-13T10:27:00+10:00",
+                "id": "2020-05-13T10:27:00.0000000:382732",
+                "location": "30Km South Of Bombala",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.285745621,
+                    -37.156212277
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Carabost Hq Pile Burn",
                 "category": "fire",
                 "subcategory": "fire",
                 "status": "under control",
-                "created": "2020-05-13T15:52:00+10:00",
-                "updated": "2020-05-13T15:52:00+10:00",
-                "id": "2020-05-13T15:52:00.0000000:382766",
+                "created": "2020-05-14T14:58:00+10:00",
+                "updated": "2020-05-14T14:58:00+10:00",
+                "id": "2020-05-14T14:58:00.0000000:382766",
                 "location": "4 Km West Of Rosewood",
                 "title": "incident: fire"
             },
@@ -4015,6 +3969,52 @@
                 "coordinates": [
                     145.996612999,
                     -35.98558
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-14T14:58:00+10:00",
+                "updated": "2020-05-14T15:08:00+10:00",
+                "id": "ESTA:200510793",
+                "location": "Skye",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19401868428636,
+                    -38.117180643425826
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cheltenham Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-14T14:52:00+10:00",
+                "updated": "2020-05-14T15:03:00+10:00",
+                "id": "ESTA:200510787",
+                "location": "Cheltenham Rd, Dandenong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19737048761252,
+                    -37.99136522975016
                 ]
             }
         },
@@ -4107,6 +4107,29 @@
                 "coordinates": [
                     145.08395248630183,
                     -37.762483659295846
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maroondah Hwy",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-14T15:10:53+10:00",
+                "updated": "2020-05-14T15:10:53+10:00",
+                "id": "ESTA:200510809",
+                "location": "Maroondah Hwy, Ringwood",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22960141247495,
+                    -37.81484952582767
                 ]
             }
         },

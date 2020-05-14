@@ -3754,7 +3754,7 @@
                 "sourceTitle": "Caroline Springs Bvd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-05-14T11:18:00+10:00",
                 "updated": "2020-05-14T11:18:00+10:00",
                 "id": "ESTA:200510459",
@@ -3774,23 +3774,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ashby St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-14T11:25:00+10:00",
-                "updated": "2020-05-14T11:25:00+10:00",
-                "id": "ESTA:200510471",
-                "location": "Ashby St, Traralgon",
+                "sourceTitle": "Anthony Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-14T11:39:00+10:00",
+                "updated": "2020-05-14T11:41:00+10:00",
+                "id": "ESTA:200510492",
+                "location": "Anthony Ct, Rye",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.5171412700062,
-                    -38.19901776947698
+                    144.79191818845055,
+                    -38.367616832482085
                 ]
             }
         },
@@ -3800,9 +3800,9 @@
                 "sourceTitle": "Ives Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2020-05-14T11:02:00+10:00",
-                "updated": "2020-05-14T11:02:00+10:00",
+                "updated": "2020-05-14T11:42:00+10:00",
                 "id": "ESTA:200510432",
                 "location": "Ives Rd, Lindenow South",
                 "size": "Small",
@@ -3814,29 +3814,6 @@
                 "coordinates": [
                     147.44020838250398,
                     -37.83241810440936
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mitford Cr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-05-14T11:29:24+10:00",
-                "updated": "2020-05-14T11:29:24+10:00",
-                "id": "ESTA:200510472",
-                "location": "Mitford Cr, Craigieburn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93849678654482,
-                    -37.60919259355156
                 ]
             }
         },
@@ -3975,6 +3952,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Mitford Cr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-05-14T11:29:24+10:00",
+                "updated": "2020-05-14T11:29:24+10:00",
+                "id": "ESTA:200510472",
+                "location": "Mitford Cr, Craigieburn",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93849678654482,
+                    -37.60919259355156
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kent Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-14T09:50:00+10:00",
+                "updated": "2020-05-14T11:42:00+10:00",
+                "id": "ESTA:200510271",
+                "location": "Kent Rd, Hamilton",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.01609147135667,
+                    -37.72783222281533
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-14T10:42:00+10:00",
+                "updated": "2020-05-14T10:49:00+10:00",
+                "id": "ESTA:200510391",
+                "location": "Moe",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.2584740086623,
+                    -38.1743448103146
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Pickfords Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -4021,121 +4067,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-14T10:42:00+10:00",
-                "updated": "2020-05-14T10:49:00+10:00",
-                "id": "ESTA:200510391",
-                "location": "Moe",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.2584740086623,
-                    -38.1743448103146
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-14T10:44:00+10:00",
-                "updated": "2020-05-14T10:45:00+10:00",
-                "id": "ESTA:200510396",
-                "location": "Sorrento",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.74392111169564,
-                    -38.3538443233341
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-14T10:20:00+10:00",
-                "updated": "2020-05-14T10:39:00+10:00",
-                "id": "ESTA:200510351",
-                "location": "Wantirna South",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2124465972432,
-                    -37.876774532185046
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hillcrest Gr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-14T10:36:00+10:00",
-                "updated": "2020-05-14T10:38:00+10:00",
-                "id": "ESTA:200510379",
-                "location": "Hillcrest Gr, Springvale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.15162761797617,
-                    -37.95690586683179
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kent Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-14T09:50:00+10:00",
-                "updated": "2020-05-14T10:13:00+10:00",
-                "id": "ESTA:200510271",
-                "location": "Kent Rd, Hamilton",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.01609147135667,
-                    -37.72783222281533
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tambo 35 - Tambo Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -4159,45 +4090,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sunshine Av",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-14T10:36:34+10:00",
-                "updated": "2020-05-14T10:36:34+10:00",
-                "id": "ESTA:200510317",
-                "location": "Sunshine Av, Keilor Downs",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.80330815255672,
-                    -37.716182774971905
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-14T10:45:00+10:00",
-                "updated": "2020-05-14T11:25:00+10:00",
-                "id": "ESTA:200551058",
-                "location": "Sorrento",
+                "status": "request for assistance",
+                "created": "2020-05-14T11:39:00+10:00",
+                "updated": "2020-05-14T11:42:00+10:00",
+                "id": "ESTA:200551060",
+                "location": "Rye",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74392111169564,
-                    -38.3538443233341
+                    144.79191818845055,
+                    -38.367616832482085
                 ]
             }
         }

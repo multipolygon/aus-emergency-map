@@ -3751,14 +3751,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hampshire Rd",
+                "sourceTitle": "Bulban Rd",
                 "category": "rescue",
-                "subcategory": "other",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2020-05-14T16:25:57+10:00",
-                "updated": "2020-05-14T16:25:57+10:00",
-                "id": "ESTA:200510861",
-                "location": "Hampshire Rd, Sunshine",
+                "created": "2020-05-14T15:33:00+10:00",
+                "updated": "2020-05-14T16:37:00+10:00",
+                "id": "ESTA:200510828",
+                "location": "Bulban Rd, Werribee",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -3766,30 +3766,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.83250093322073,
-                    -37.78414670762494
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-14T15:33:00+10:00",
-                "updated": "2020-05-14T16:26:00+10:00",
-                "id": "ESTA:200551068",
-                "location": "Spring Gully",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.28975905079372,
-                    -36.787091862877624
+                    144.62577897501404,
+                    -37.912664445394704
                 ]
             }
         },
@@ -3799,9 +3777,9 @@
                 "sourceTitle": "Marlborough St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-05-14T16:27:09+10:00",
-                "updated": "2020-05-14T16:27:09+10:00",
+                "status": "not yet under control",
+                "created": "2020-05-14T16:37:00+10:00",
+                "updated": "2020-05-14T16:37:00+10:00",
                 "id": "ESTA:200510875",
                 "location": "Marlborough St, Bentleigh East",
                 "size": "Small",
@@ -3819,14 +3797,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cobb And Co Rd",
+                "sourceTitle": "Stanley St",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-05-14T15:26:00+10:00",
-                "updated": "2020-05-14T16:22:00+10:00",
-                "id": "ESTA:200510822",
-                "location": "Cobb And Co Rd, Carlsruhe",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-14T16:36:00+10:00",
+                "updated": "2020-05-14T16:36:00+10:00",
+                "id": "ESTA:200510883",
+                "location": "Stanley St, Wallan",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3834,8 +3812,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.51241988320848,
-                    -37.29865144164194
+                    144.97685772026057,
+                    -37.410815681693734
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "not yet under control",
+                "created": "2020-05-14T16:34:00+10:00",
+                "updated": "2020-05-14T16:34:00+10:00",
+                "id": "ESTA:200510881",
+                "location": "Traralgon",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.5511330080087,
+                    -38.20213579251577
                 ]
             }
         },
@@ -3846,9 +3847,9 @@
                 "category": "fire",
                 "subcategory": "fire",
                 "status": "under control",
-                "created": "2020-05-13T12:05:00+10:00",
-                "updated": "2020-05-13T12:05:00+10:00",
-                "id": "2020-05-13T12:05:00.0000000:382565",
+                "created": "2020-05-14T16:35:00+10:00",
+                "updated": "2020-05-14T16:35:00+10:00",
+                "id": "2020-05-14T16:35:00.0000000:382565",
                 "location": "17Km Ssw Of Dalgety",
                 "title": "incident: fire"
             },
@@ -3953,6 +3954,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Cobb And Co Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-14T15:26:00+10:00",
+                "updated": "2020-05-14T16:22:00+10:00",
+                "id": "ESTA:200510822",
+                "location": "Cobb And Co Rd, Carlsruhe",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.51241988320848,
+                    -37.29865144164194
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
@@ -3970,29 +3994,6 @@
                 "coordinates": [
                     144.35863383956521,
                     -38.074159961129894
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bulban Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "under control",
-                "created": "2020-05-14T15:33:00+10:00",
-                "updated": "2020-05-14T15:46:00+10:00",
-                "id": "ESTA:200510828",
-                "location": "Bulban Rd, Werribee",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.62577897501404,
-                    -37.912664445394704
                 ]
             }
         },
@@ -4085,29 +4086,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Southbank",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-14T15:43:23+10:00",
-                "updated": "2020-05-14T15:43:23+10:00",
-                "id": "ESTA:200510832",
-                "location": "Southbank, Southbank",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9701266886768,
-                    -37.82331863869223
                 ]
             }
         },

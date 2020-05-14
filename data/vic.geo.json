@@ -3751,14 +3751,59 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fitzgerald St",
+                "sourceTitle": "Cloverdale Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-14T21:24:00+10:00",
+                "updated": "2020-05-14T21:24:00+10:00",
+                "id": "ESTA:200511001",
+                "location": "Cloverdale Dr, Corio",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.34777375193457,
+                    -38.068094465382714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-05-14T21:24:00+10:00",
+                "updated": "2020-05-14T21:27:00+10:00",
+                "id": "ESTA:200551074",
+                "location": "Corio",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.34777375193457,
+                    -38.068094465382714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Gippsland Hwy",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-14T20:36:00+10:00",
-                "updated": "2020-05-14T20:45:00+10:00",
-                "id": "ESTA:200510994",
-                "location": "Fitzgerald St, Mornington",
+                "status": "not yet under control",
+                "created": "2020-05-14T21:19:00+10:00",
+                "updated": "2020-05-14T21:19:00+10:00",
+                "id": "ESTA:200511000",
+                "location": "South Gippsland Hwy, Dandenong South",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3766,31 +3811,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.06134290748696,
-                    -38.22337371550734
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ballarat Rd",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-14T21:08:14+10:00",
-                "updated": "2020-05-14T21:08:14+10:00",
-                "id": "ESTA:200510996",
-                "location": "Ballarat Rd, Footscray",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.88852827170442,
-                    -37.79096946955318
+                    145.23134581942938,
+                    -38.01428466175655
                 ]
             }
         },
@@ -3885,6 +3907,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Fitzgerald St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-14T20:36:00+10:00",
+                "updated": "2020-05-14T20:45:00+10:00",
+                "id": "ESTA:200510994",
+                "location": "Fitzgerald St, Mornington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06134290748696,
+                    -38.22337371550734
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Adriana Ct",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -3971,6 +4016,29 @@
                 "coordinates": [
                     145.06706403379468,
                     -37.91557330348892
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ballarat Rd",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-14T21:08:14+10:00",
+                "updated": "2020-05-14T21:08:14+10:00",
+                "id": "ESTA:200510996",
+                "location": "Ballarat Rd, Footscray",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.88852827170442,
+                    -37.79096946955318
                 ]
             }
         }

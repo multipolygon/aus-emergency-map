@@ -3728,28 +3728,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-15T09:17:00+10:00",
-                "updated": "2020-05-15T09:20:00+10:00",
-                "id": "ESTA:200551083",
-                "location": "Oakleigh South",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0844670120612,
-                    -37.930066591794784
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -3773,37 +3751,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gamon St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-05-15T09:25:41+10:00",
-                "updated": "2020-05-15T09:25:41+10:00",
-                "id": "ESTA:200511334",
-                "location": "Gamon St, Yarraville",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.88920085013575,
-                    -37.8123510492284
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Irymple Av",
+                "sourceTitle": "Aldrin Ct",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-15T08:52:00+10:00",
-                "updated": "2020-05-15T09:29:00+10:00",
-                "id": "ESTA:200511228",
-                "location": "Irymple Av, Irymple",
+                "status": "responding",
+                "created": "2020-05-15T09:33:00+10:00",
+                "updated": "2020-05-15T09:33:00+10:00",
+                "id": "ESTA:200511362",
+                "location": "Aldrin Ct, Whittington",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3811,31 +3766,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.16848786941253,
-                    -34.24523348138286
+                    144.39550854403927,
+                    -38.176810822966324
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mair St",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2020-05-15T08:58:00+10:00",
-                "updated": "2020-05-15T09:14:00+10:00",
-                "id": "ESTA:200511248",
-                "location": "Mair St, Lake Wendouree",
+                "sourceTitle": "Geelong Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-05-15T09:36:51+10:00",
+                "updated": "2020-05-15T09:36:51+10:00",
+                "id": "ESTA:200511375",
+                "location": "Geelong Rd, West Footscray",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.838210485074,
-                    -37.5571184033247
+                    144.88317252058837,
+                    -37.80355150064385
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Woodland Rise",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-15T09:42:00+10:00",
+                "updated": "2020-05-15T09:42:00+10:00",
+                "id": "ESTA:200511394",
+                "location": "Woodland Rise, Harkness",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.56941959438254,
+                    -37.665345775048024
                 ]
             }
         },
@@ -3908,6 +3886,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Irymple Av",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-15T08:52:00+10:00",
+                "updated": "2020-05-15T09:29:00+10:00",
+                "id": "ESTA:200511228",
+                "location": "Irymple Av, Irymple",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.16848786941253,
+                    -34.24523348138286
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mair St",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2020-05-15T08:58:00+10:00",
+                "updated": "2020-05-15T09:14:00+10:00",
+                "id": "ESTA:200511248",
+                "location": "Mair St, Lake Wendouree",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.838210485074,
+                    -37.5571184033247
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Montgomery St",
                 "category": "fire",
                 "subcategory": "other",
@@ -3925,29 +3949,6 @@
                 "coordinates": [
                     144.73370987681798,
                     -36.14349041972451
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Townsend Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-15T08:10:00+10:00",
-                "updated": "2020-05-15T08:39:00+10:00",
-                "id": "ESTA:200511135",
-                "location": "Townsend Rd, St Albans Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.39784415936455,
-                    -38.182386019543756
                 ]
             }
         },
@@ -4000,14 +4001,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Scott St",
+                "sourceTitle": "Gamon St",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-05-15T09:21:00+10:00",
-                "updated": "2020-05-15T09:21:00+10:00",
-                "id": "ESTA:200511321",
-                "location": "Scott St, Dandenong",
+                "created": "2020-05-15T09:25:41+10:00",
+                "updated": "2020-05-15T09:25:41+10:00",
+                "id": "ESTA:200511334",
+                "location": "Gamon St, Yarraville",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4015,8 +4016,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20561186996127,
-                    -37.98587691952043
+                    144.88920085013575,
+                    -37.8123510492284
                 ]
             }
         },
@@ -4040,6 +4041,28 @@
                 "coordinates": [
                     145.06706403379468,
                     -37.91557330348892
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-05-15T09:17:00+10:00",
+                "updated": "2020-05-15T09:20:00+10:00",
+                "id": "ESTA:200551083",
+                "location": "Oakleigh South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0844670120612,
+                    -37.930066591794784
                 ]
             }
         }

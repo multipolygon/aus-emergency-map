@@ -3833,14 +3833,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Commercial Rd",
+                "sourceTitle": "Spargo-Blakeville Rd",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-15T18:41:00+10:00",
-                "updated": "2020-05-15T20:01:00+10:00",
-                "id": "ESTA:200512653",
-                "location": "Commercial Rd, Caroline Springs",
+                "created": "2020-05-15T19:46:00+10:00",
+                "updated": "2020-05-15T20:26:00+10:00",
+                "id": "ESTA:200512687",
+                "location": "Spargo-Blakeville Rd, Spargo Creek",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3848,22 +3848,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74404869477064,
-                    -37.729437863750434
+                    144.15586355474755,
+                    -37.478960632133266
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "High Rd",
+                "sourceTitle": "Pearcedale Rd",
                 "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-15T20:09:00+10:00",
-                "updated": "2020-05-15T20:10:00+10:00",
-                "id": "ESTA:200512694",
-                "location": "High Rd, Murchison East",
+                "created": "2020-05-15T20:16:00+10:00",
+                "updated": "2020-05-15T20:31:00+10:00",
+                "id": "ESTA:200512697",
+                "location": "Pearcedale Rd, Pearcedale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3871,8 +3871,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2285828373403,
-                    -36.616061048952275
+                    145.2340614474767,
+                    -38.207788656523405
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Essendon",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-15T20:31:18+10:00",
+                "updated": "2020-05-15T20:31:18+10:00",
+                "id": "ESTA:200512698",
+                "location": "Essendon, Essendon",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9101558009559,
+                    -37.7444858808368
                 ]
             }
         },
@@ -3882,7 +3905,7 @@
                 "sourceTitle": "Hastings Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-05-15T20:20:00+10:00",
                 "updated": "2020-05-15T20:20:00+10:00",
                 "id": "ESTA:200512700",
@@ -3896,52 +3919,6 @@
                 "coordinates": [
                     145.12966202911693,
                     -38.15071467223876
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Horgan Trk",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-15T20:21:00+10:00",
-                "updated": "2020-05-15T20:21:00+10:00",
-                "id": "ESTA:200512701",
-                "location": "Horgan Trk, Spargo Creek",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.15967032134344,
-                    -37.47129397649067
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Milton St",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-05-15T20:25:52+10:00",
-                "updated": "2020-05-15T20:25:52+10:00",
-                "id": "ESTA:200512702",
-                "location": "Milton St, Elwood",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.981870304381,
-                    -37.87584874699304
                 ]
             }
         },
@@ -3971,69 +3948,115 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Spargo-Blakeville Rd",
+                "sourceTitle": "Hampton",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-05-15T20:38:31+10:00",
+                "updated": "2020-05-15T20:38:31+10:00",
+                "id": "ESTA:200512706",
+                "location": "Hampton, Hampton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02422998765977,
+                    -37.935554861724505
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Newton St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-15T20:37:00+10:00",
+                "updated": "2020-05-15T20:37:00+10:00",
+                "id": "ESTA:200512708",
+                "location": "Newton St, Shepparton",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.39808184740986,
+                    -36.35980848339456
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nepean Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-15T20:33:00+10:00",
+                "updated": "2020-05-15T20:33:00+10:00",
+                "id": "ESTA:200512705",
+                "location": "Nepean Hwy, Frankston",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1249393947192,
+                    -38.132814549541166
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Albert St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-15T19:46:00+10:00",
-                "updated": "2020-05-15T20:26:00+10:00",
-                "id": "ESTA:200512687",
-                "location": "Spargo-Blakeville Rd, Spargo Creek",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.15586355474755,
-                    -37.478960632133266
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-05-15T20:16:00+10:00",
-                "updated": "2020-05-15T20:27:00+10:00",
-                "id": "ESTA:200512697",
-                "location": "Pearcedale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.234383097035,
-                    -38.2067661773284
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Essendon",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-05-15T20:19:43+10:00",
-                "updated": "2020-05-15T20:19:43+10:00",
-                "id": "ESTA:200512698",
-                "location": "Essendon, Essendon",
+                "created": "2020-05-15T20:43:00+10:00",
+                "updated": "2020-05-15T20:43:00+10:00",
+                "id": "ESTA:200512710",
+                "location": "Albert St, Point Lonsdale",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9101558009559,
-                    -37.7444858808368
+                    144.61208316112993,
+                    -38.28253552868484
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Horgan Trk",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "not yet under control",
+                "created": "2020-05-15T20:21:00+10:00",
+                "updated": "2020-05-15T20:21:00+10:00",
+                "id": "ESTA:200512701",
+                "location": "Horgan Trk, Spargo Creek",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.15967032134344,
+                    -37.47129397649067
                 ]
             }
         },
@@ -4129,14 +4152,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Australis Dr",
+                "sourceTitle": "High Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-05-15T19:59:00+10:00",
-                "updated": "2020-05-15T19:59:00+10:00",
-                "id": "ESTA:200512693",
-                "location": "Australis Dr, Derrimut",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-15T20:09:00+10:00",
+                "updated": "2020-05-15T20:10:00+10:00",
+                "id": "ESTA:200512694",
+                "location": "High Rd, Murchison East",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4144,45 +4167,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7552094739391,
-                    -37.80350939697003
+                    145.2285828373403,
+                    -36.616061048952275
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ballantynes Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-05-15T19:33:00+10:00",
-                "updated": "2020-05-15T19:39:00+10:00",
-                "id": "ESTA:200512674",
-                "location": "Ballantynes Rd, Nagambie",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16113670515864,
-                    -36.787990911940014
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Coolibah Rd",
+                "sourceTitle": "Commercial Rd",
                 "category": "fire",
                 "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-05-15T18:28:00+10:00",
-                "updated": "2020-05-15T19:37:00+10:00",
-                "id": "ESTA:200512636",
-                "location": "Coolibah Rd, Pearcedale",
+                "created": "2020-05-15T18:41:00+10:00",
+                "updated": "2020-05-15T20:01:00+10:00",
+                "id": "ESTA:200512653",
+                "location": "Commercial Rd, Caroline Springs",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4190,8 +4190,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.27218986562877,
-                    -38.17953698351543
+                    144.74404869477064,
+                    -37.729437863750434
                 ]
             }
         },

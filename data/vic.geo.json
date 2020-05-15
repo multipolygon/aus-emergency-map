@@ -3800,9 +3800,9 @@
                 "sourceTitle": "Fewster Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-05-16T02:32:26+10:00",
-                "updated": "2020-05-16T02:32:26+10:00",
+                "status": "safe",
+                "created": "2020-05-16T02:46:42+10:00",
+                "updated": "2020-05-16T02:46:42+10:00",
                 "id": "ESTA:200512786",
                 "location": "Fewster Rd, Hampton",
                 "size": "Small",
@@ -3820,46 +3820,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Narellan Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-16T02:37:00+10:00",
-                "updated": "2020-05-16T02:37:00+10:00",
-                "id": "ESTA:200512787",
-                "location": "Narellan Dr, Hampton Park",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-05-16T01:18:00+10:00",
+                "updated": "2020-05-16T01:40:00+10:00",
+                "id": "ESTA:200512778",
+                "location": "Beechworth",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.25922512585907,
-                    -38.025100488473775
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Black St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-05-16T02:44:19+10:00",
-                "updated": "2020-05-16T02:44:19+10:00",
-                "id": "ESTA:200512785",
-                "location": "Black St, Brighton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99707727431795,
-                    -37.91495229673048
+                    146.69651974839653,
+                    -36.36326655820456
                 ]
             }
         },
@@ -3932,75 +3909,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Anderson St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-16T00:33:00+10:00",
-                "updated": "2020-05-16T01:54:00+10:00",
-                "id": "ESTA:200512772",
-                "location": "Anderson St, Mooroopna",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3480953773598,
-                    -36.377282423529145
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-05-16T01:21:00+10:00",
-                "updated": "2020-05-16T02:31:00+10:00",
-                "id": "ESTA:200512779",
-                "location": "Lake Eildon",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.04601744257653,
-                    -37.1703036591361
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "under control",
-                "created": "2020-05-16T01:18:00+10:00",
-                "updated": "2020-05-16T01:40:00+10:00",
-                "id": "ESTA:200512778",
-                "location": "Beechworth",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.69651974839653,
-                    -36.36326655820456
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Snowy 16 - Snowy Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -4041,6 +3949,51 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Black St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2020-05-16T02:44:19+10:00",
+                "updated": "2020-05-16T02:44:19+10:00",
+                "id": "ESTA:200512785",
+                "location": "Black St, Brighton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99707727431795,
+                    -37.91495229673048
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2020-05-16T01:21:00+10:00",
+                "updated": "2020-05-16T02:31:00+10:00",
+                "id": "ESTA:200512779",
+                "location": "Lake Eildon",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.04601744257653,
+                    -37.1703036591361
                 ]
             }
         }

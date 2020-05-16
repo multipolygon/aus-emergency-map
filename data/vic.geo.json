@@ -9,6 +9,140 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            144.99095604297685,
+                            -37.67337646873368
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.99849389573555,
+                                    -37.675686518503355
+                                ],
+                                [
+                                    144.99902600748706,
+                                    -37.67372609580687
+                                ],
+                                [
+                                    144.99899551183293,
+                                    -37.67272068914309
+                                ],
+                                [
+                                    144.99834515349625,
+                                    -37.67078265858563
+                                ],
+                                [
+                                    144.99774130479437,
+                                    -37.66989775854585
+                                ],
+                                [
+                                    144.9960502460008,
+                                    -37.66840461124055
+                                ],
+                                [
+                                    144.99500467538888,
+                                    -37.667833136445964
+                                ],
+                                [
+                                    144.99264154488984,
+                                    -37.667110410581486
+                                ],
+                                [
+                                    144.9901119331564,
+                                    -37.66700109925365
+                                ],
+                                [
+                                    144.98886210252758,
+                                    -37.66718223489101
+                                ],
+                                [
+                                    144.9865455088538,
+                                    -37.66799389230804
+                                ],
+                                [
+                                    144.9846591564264,
+                                    -37.66933246321741
+                                ],
+                                [
+                                    144.98393719961237,
+                                    -37.67016008079333
+                                ],
+                                [
+                                    144.98302417191942,
+                                    -37.6720305740532
+                                ],
+                                [
+                                    144.9828860784666,
+                                    -37.674032790280314
+                                ],
+                                [
+                                    144.9835364368033,
+                                    -37.6759707359543
+                                ],
+                                [
+                                    144.9849115853241,
+                                    -37.67765472350631
+                                ],
+                                [
+                                    144.98583134429873,
+                                    -37.67834854083855
+                                ],
+                                [
+                                    144.98802255174127,
+                                    -37.679354838310275
+                                ],
+                                [
+                                    144.98924004540973,
+                                    -37.67964254550679
+                                ],
+                                [
+                                    144.99176965714315,
+                                    -37.679751838213704
+                                ],
+                                [
+                                    144.99421813408964,
+                                    -37.67923711708923
+                                ],
+                                [
+                                    144.99634580226615,
+                                    -37.67814875456587
+                                ],
+                                [
+                                    144.99722243387313,
+                                    -37.67742080159425
+                                ],
+                                [
+                                    144.99849389573555,
+                                    -37.675686518503355
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-05-16T20:09:24+10:00",
+                "updated": "2020-05-16T20:09:24+10:00",
+                "id": "14074",
+                "location": "Lalor, Thomastown",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -3774,28 +3908,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Whitehead Road, Ob Flat",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "going",
-                "created": "2020-05-16T19:00:00+10:00",
-                "updated": "2020-05-16T19:00:00+10:00",
-                "id": "1368047",
-                "location": "Whitehead Road, Ob Flat",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    140.792638794587,
-                    -37.8785850668516
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Anglesea - Salt Creek",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -3865,35 +3977,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ella Ct",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-16T19:30:00+10:00",
-                "updated": "2020-05-16T19:33:00+10:00",
-                "id": "ESTA:200515305",
-                "location": "Ella Ct, Kennington",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3058058396794,
-                    -36.7790305232402
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Alkira Av",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-05-16T19:50:00+10:00",
-                "updated": "2020-05-16T19:50:00+10:00",
+                "updated": "2020-05-16T20:03:00+10:00",
                 "id": "ESTA:200515314",
                 "location": "Alkira Av, Norlane",
                 "size": "Small",
@@ -3911,14 +4000,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Victoria Dr",
+                "sourceTitle": "Bolton Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-05-16T20:00:06+10:00",
-                "updated": "2020-05-16T20:00:06+10:00",
-                "id": "ESTA:200515307",
-                "location": "Victoria Dr, Thomastown",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-16T20:09:00+10:00",
+                "updated": "2020-05-16T20:12:00+10:00",
+                "id": "ESTA:200515320",
+                "location": "Bolton Rd, Selby",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3926,8 +4015,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99111245652506,
-                    -37.67329182300894
+                    145.3704266350972,
+                    -37.92321839276794
                 ]
             }
         },
@@ -4000,6 +4089,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Victoria Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-05-16T20:00:06+10:00",
+                "updated": "2020-05-16T20:00:06+10:00",
+                "id": "ESTA:200515307",
+                "location": "Victoria Dr, Thomastown",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99111245652506,
+                    -37.67329182300894
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Hallam Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -4040,6 +4152,29 @@
                 "coordinates": [
                     145.17962232672303,
                     -38.306992815785605
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ella Ct",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-16T19:30:00+10:00",
+                "updated": "2020-05-16T19:33:00+10:00",
+                "id": "ESTA:200515305",
+                "location": "Ella Ct, Kennington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3058058396794,
+                    -36.7790305232402
                 ]
             }
         },

@@ -3821,12 +3821,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-05-17T07:37:00+10:00",
+                "updated": "2020-05-17T09:03:00+10:00",
+                "id": "ESTA:200551127",
+                "location": "Sebastopol",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.84269605226422,
+                    -37.59202592792967
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Davison St",
                 "category": "rescue",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-05-17T08:53:03+10:00",
-                "updated": "2020-05-17T08:53:03+10:00",
+                "created": "2020-05-17T09:09:00+10:00",
+                "updated": "2020-05-17T09:09:00+10:00",
                 "id": "ESTA:200515491",
                 "location": "Davison St, Richmond",
                 "size": "Small",
@@ -3870,9 +3892,9 @@
                 "sourceTitle": "Panmure-Laang Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-05-17T08:55:00+10:00",
-                "updated": "2020-05-17T08:55:00+10:00",
+                "updated": "2020-05-17T09:11:00+10:00",
                 "id": "ESTA:200515500",
                 "location": "Panmure-Laang Rd, Laang",
                 "size": "Small",
@@ -3956,6 +3978,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Chirnside Park",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-17T09:10:23+10:00",
+                "updated": "2020-05-17T09:10:23+10:00",
+                "id": "ESTA:200515439",
+                "location": "Chirnside Park, Chirnside Park",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.31040530608794,
+                    -37.76129136511046
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Paperbark Trk",
                 "category": "fire",
                 "subcategory": "other",
@@ -3973,29 +4018,6 @@
                 "coordinates": [
                     145.17457453943652,
                     -38.17514893295817
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Chirnside Park",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-17T08:07:43+10:00",
-                "updated": "2020-05-17T08:07:43+10:00",
-                "id": "ESTA:200515439",
-                "location": "Chirnside Park, Chirnside Park",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.31040530608794,
-                    -37.76129136511046
                 ]
             }
         },
@@ -4065,28 +4087,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-05-17T07:37:00+10:00",
-                "updated": "2020-05-17T07:52:00+10:00",
-                "id": "ESTA:200551127",
-                "location": "Sebastopol",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.84269605226422,
-                    -37.59202592792967
                 ]
             }
         }

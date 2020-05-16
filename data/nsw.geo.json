@@ -185,6 +185,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.91853300000002,
+                    -33.412777999999946
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Greens Rd, Lower Portland",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382945",
+                "created": "2020-05-16T02:26:00+10:00",
+                "updated": "2020-05-16T12:26:00+10:00",
+                "location": "673 Greens Rd, Lower Portland, NSW 2756",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 673 Greens Rd, Lower Portland, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 May 2020 12:26",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -945,30 +969,6 @@
                 "location": "Kamilaroi Hwy, Gunnedah, NSW 2380",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kamilaroi Hwy, Gunnedah, NSW 2380 <br />COUNCIL AREA: Gunnedah <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2020 18:18",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.10841100000005,
-                    -35.27003799999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "King St, The Rock",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/382944",
-                "created": "2020-05-16T02:20:00+10:00",
-                "updated": "2020-05-16T12:20:00+10:00",
-                "location": "51 Or 55 King St, The Rock, NSW 2655",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 51 Or 55 King St, The Rock, NSW 2655 <br />COUNCIL AREA: Lockhart <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 May 2020 12:20",
                 "title": "incident: fire"
             }
         },

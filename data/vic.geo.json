@@ -3865,14 +3865,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Governor Rd",
-                "category": "fire",
-                "subcategory": "building fire",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "rescue",
                 "status": "responding",
-                "created": "2020-05-17T12:19:00+10:00",
-                "updated": "2020-05-17T12:19:00+10:00",
-                "id": "ESTA:200516113",
-                "location": "Governor Rd, Braeside",
+                "created": "2020-05-17T12:38:00+10:00",
+                "updated": "2020-05-17T12:38:00+10:00",
+                "id": "ESTA:200516156",
+                "location": "Torquay",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3294455927952,
+                    -38.308397924104604
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ryans Lane",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-05-17T12:38:00+10:00",
+                "updated": "2020-05-17T12:38:00+10:00",
+                "id": "ESTA:200516157",
+                "location": "Ryans Lane, Melton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3880,8 +3903,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10830392031264,
-                    -38.00763790530209
+                    144.61630324534474,
+                    -37.673908751296096
                 ]
             }
         },
@@ -3936,9 +3959,9 @@
                 "category": "fire",
                 "subcategory": "fire",
                 "status": "under control",
-                "created": "2020-05-17T09:40:00+10:00",
-                "updated": "2020-05-17T09:40:00+10:00",
-                "id": "2020-05-17T09:40:00.0000000:382894",
+                "created": "2020-05-17T12:38:00+10:00",
+                "updated": "2020-05-17T12:38:00+10:00",
+                "id": "2020-05-17T12:38:00.0000000:382894",
                 "location": "Condon Fire Trail, Mallee.",
                 "title": "incident: fire"
             },
@@ -3970,29 +3993,6 @@
                 "coordinates": [
                     145.996612999,
                     -35.98558
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kilander Ct",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-17T12:08:00+10:00",
-                "updated": "2020-05-17T12:22:00+10:00",
-                "id": "ESTA:200516084",
-                "location": "Kilander Ct, Ferntree Gully",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2885807601094,
-                    -37.89135224996522
                 ]
             }
         },
@@ -4068,52 +4068,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Neptune Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-17T10:53:00+10:00",
-                "updated": "2020-05-17T11:38:00+10:00",
-                "id": "ESTA:200515820",
-                "location": "Neptune Av, Newcomb",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.39876514762867,
-                    -38.16516049379595
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Canterbury Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-05-17T11:17:00+10:00",
-                "updated": "2020-05-17T11:32:00+10:00",
-                "id": "ESTA:200515937",
-                "location": "Canterbury Rd, Warrnambool",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.48374201920075,
-                    -38.37656518072961
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Victoria Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -4183,46 +4137,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Barbara St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-05-17T11:21:31+10:00",
-                "updated": "2020-05-17T11:21:31+10:00",
-                "id": "ESTA:200515883",
-                "location": "Barbara St, Hadfield",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94223630011874,
-                    -37.71085193788899
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Byron Rd",
-                "category": "rescue",
+                "sourceTitle": "Kilander Ct",
+                "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-17T12:09:10+10:00",
-                "updated": "2020-05-17T12:09:10+10:00",
-                "id": "ESTA:200516060",
-                "location": "Byron Rd, Kilsyth",
+                "created": "2020-05-17T12:08:00+10:00",
+                "updated": "2020-05-17T12:40:00+10:00",
+                "id": "ESTA:200516084",
+                "location": "Kilander Ct, Ferntree Gully",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30440675290325,
-                    -37.804871079401366
+                    145.2885807601094,
+                    -37.89135224996522
                 ]
             }
         },

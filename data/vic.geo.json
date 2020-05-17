@@ -3844,14 +3844,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Barbara St",
+                "sourceTitle": "Neptune Av",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-05-17T11:21:31+10:00",
-                "updated": "2020-05-17T11:21:31+10:00",
-                "id": "ESTA:200515883",
-                "location": "Barbara St, Hadfield",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-17T10:53:00+10:00",
+                "updated": "2020-05-17T11:38:00+10:00",
+                "id": "ESTA:200515820",
+                "location": "Neptune Av, Newcomb",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3859,8 +3859,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94223630011874,
-                    -37.71085193788899
+                    144.39876514762867,
+                    -38.16516049379595
                 ]
             }
         },
@@ -3870,9 +3870,9 @@
                 "sourceTitle": "Canterbury Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-05-17T11:17:00+10:00",
-                "updated": "2020-05-17T11:28:00+10:00",
+                "updated": "2020-05-17T11:32:00+10:00",
                 "id": "ESTA:200515937",
                 "location": "Canterbury Rd, Warrnambool",
                 "size": "Small",
@@ -3884,6 +3884,52 @@
                 "coordinates": [
                     142.48374201920075,
                     -38.37656518072961
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Skye Ct",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-17T11:39:00+10:00",
+                "updated": "2020-05-17T11:39:00+10:00",
+                "id": "ESTA:200515998",
+                "location": "Skye Ct, Chelsea Heights",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13904194034765,
+                    -38.05140268731064
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Centre Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-17T11:45:00+10:00",
+                "updated": "2020-05-17T11:45:00+10:00",
+                "id": "ESTA:200516016",
+                "location": "Centre Rd, Narre Warren South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.30978654558584,
+                    -38.048827721901375
                 ]
             }
         },
@@ -3983,7 +4029,7 @@
                 "subcategory": "other",
                 "status": "on scene",
                 "created": "2020-05-17T10:43:00+10:00",
-                "updated": "2020-05-17T11:17:00+10:00",
+                "updated": "2020-05-17T11:44:00+10:00",
                 "id": "ESTA:200515799",
                 "location": "Kancoona",
                 "size": "Small",
@@ -3995,29 +4041,6 @@
                 "coordinates": [
                     146.9692922373027,
                     -36.55770124634121
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Neptune Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-17T10:53:00+10:00",
-                "updated": "2020-05-17T11:05:00+10:00",
-                "id": "ESTA:200515820",
-                "location": "Neptune Av, Newcomb",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.39876514762867,
-                    -38.16516049379595
                 ]
             }
         },
@@ -4041,29 +4064,6 @@
                 "coordinates": [
                     145.17778717922877,
                     -38.08733569448896
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "complete",
-                "created": "2020-05-17T10:22:00+10:00",
-                "updated": "2020-05-17T11:24:00+10:00",
-                "id": "ESTA:200515740",
-                "location": "Toolangi",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.48593239915058,
-                    -37.5630359334379
                 ]
             }
         },
@@ -4133,6 +4133,29 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Barbara St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-05-17T11:21:31+10:00",
+                "updated": "2020-05-17T11:21:31+10:00",
+                "id": "ESTA:200515883",
+                "location": "Barbara St, Hadfield",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94223630011874,
+                    -37.71085193788899
                 ]
             }
         }

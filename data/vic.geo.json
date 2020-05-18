@@ -3935,14 +3935,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hamilton-Port Fairy Rd",
+                "sourceTitle": "Calder Fwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-05-19T07:03:00+10:00",
+                "updated": "2020-05-19T07:03:00+10:00",
+                "id": "ESTA:200518373",
+                "location": "Calder Fwy, Malmsbury",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.40628145639863,
+                    -37.20077693223773
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Goodwin St",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-05-19T06:28:00+10:00",
-                "updated": "2020-05-19T06:42:00+10:00",
-                "id": "ESTA:200518367",
-                "location": "Hamilton-Port Fairy Rd, Port Fairy",
+                "created": "2020-05-19T07:03:00+10:00",
+                "updated": "2020-05-19T07:14:00+10:00",
+                "id": "ESTA:200518372",
+                "location": "Goodwin St, Toongabbie",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3950,8 +3973,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.21641426767437,
-                    -38.3781753250075
+                    146.62608836578764,
+                    -38.05940368950177
                 ]
             }
         },
@@ -4987,6 +5010,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Tambo 35 - Tambo Complex -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "contained",
+                "created": "2019-11-22T10:04:00+11:00",
+                "updated": "2020-02-22T12:54:00+11:00",
+                "id": "ESTA:3500158",
+                "location": "Tambo 35 - Tambo Complex -, Delwp - Tambo Icc Footprint",
+                "size": "Large",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.6024623878815,
+                    -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Abbotts Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -5010,23 +5056,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Western Hwy",
-                "category": "other",
+                "sourceTitle": "Hamilton-Port Fairy Rd",
+                "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-19T05:50:00+10:00",
-                "updated": "2020-05-19T06:05:00+10:00",
-                "id": "ESTA:200518363",
-                "location": "Western Hwy, Trawalla",
+                "created": "2020-05-19T06:28:00+10:00",
+                "updated": "2020-05-19T06:42:00+10:00",
+                "id": "ESTA:200518367",
+                "location": "Hamilton-Port Fairy Rd, Port Fairy",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.5140899043502,
-                    -37.44947608475817
+                    142.21641426767437,
+                    -38.3781753250075
                 ]
             }
         },
@@ -5050,29 +5096,6 @@
                 "coordinates": [
                     148.99532383225448,
                     -37.53234153064883
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tambo 35 - Tambo Complex -",
-                "category": "other",
-                "subcategory": "other",
-                "status": "contained",
-                "created": "2019-11-22T10:04:00+11:00",
-                "updated": "2020-02-22T12:54:00+11:00",
-                "id": "ESTA:3500158",
-                "location": "Tambo 35 - Tambo Complex -, Delwp - Tambo Icc Footprint",
-                "size": "Large",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.6024623878815,
-                    -37.432291905209674
                 ]
             }
         }

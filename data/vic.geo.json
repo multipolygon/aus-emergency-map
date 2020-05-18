@@ -3913,58 +3913,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Boardwalk Bvd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-05-18T20:48:00+10:00",
-                "updated": "2020-05-18T20:48:00+10:00",
-                "id": "ESTA:200518315",
-                "location": "Boardwalk Bvd, Point Cook",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7338617387255,
-                    -37.880949821685995
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Browns Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-18T20:36:00+10:00",
-                "updated": "2020-05-18T20:48:00+10:00",
-                "id": "ESTA:200518312",
-                "location": "Browns Rd, Werribee",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.61930112247748,
-                    -37.92449125256107
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Brice Av",
                 "category": "rescue",
                 "subcategory": "washaway",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-05-18T20:47:00+10:00",
-                "updated": "2020-05-18T20:58:00+10:00",
+                "updated": "2020-05-18T21:07:00+10:00",
                 "id": "ESTA:200518314",
                 "location": "Brice Av, Mooroolbark",
                 "size": "Small",
@@ -3985,7 +3939,7 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-05-18T20:58:00+10:00",
                 "updated": "2020-05-18T20:58:00+10:00",
                 "id": "ESTA:200518316",
@@ -3999,6 +3953,28 @@
                 "coordinates": [
                     145.1422793045003,
                     -38.16527033802958
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pascoe Vale",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-05-18T21:13:23+10:00",
+                "updated": "2020-05-18T21:15:19+10:00",
+                "id": "ESTA:200518317",
+                "location": "Prospect St, Pascoe Vale",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93406371956996,
+                    -37.727783285410844
                 ]
             }
         },
@@ -4093,6 +4069,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Boardwalk Bvd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-18T20:48:00+10:00",
+                "updated": "2020-05-18T21:04:00+10:00",
+                "id": "ESTA:200518315",
+                "location": "Boardwalk Bvd, Point Cook",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7338617387255,
+                    -37.880949821685995
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Browns Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-18T20:36:00+10:00",
+                "updated": "2020-05-18T21:02:00+10:00",
+                "id": "ESTA:200518312",
+                "location": "Browns Rd, Werribee",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.61930112247748,
+                    -37.92449125256107
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Ripon St",
                 "category": "fire",
                 "subcategory": "other",
@@ -4133,29 +4155,6 @@
                 "coordinates": [
                     145.29960040729668,
                     -38.09894875499841
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ripon St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-18T20:01:00+10:00",
-                "updated": "2020-05-18T20:03:00+10:00",
-                "id": "ESTA:200518305",
-                "location": "Ripon St, Redan",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.83881126431476,
-                    -37.57562094242408
                 ]
             }
         },
@@ -4225,29 +4224,6 @@
                 "coordinates": [
                     144.95989304024337,
                     -37.779571664169204
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Glen Eira Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-05-18T20:12:12+10:00",
-                "updated": "2020-05-18T20:12:12+10:00",
-                "id": "ESTA:200518306",
-                "location": "Glen Eira Rd, Caulfield North",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.00833194619105,
-                    -37.87804821772935
                 ]
             }
         }

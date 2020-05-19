@@ -4028,23 +4028,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Echuca Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2020-05-19T10:27:00+10:00",
-                "updated": "2020-05-19T11:25:00+10:00",
-                "id": "ESTA:200518616",
-                "location": "Echuca Rd, Mooroopna",
+                "created": "2020-05-19T11:10:00+10:00",
+                "updated": "2020-05-19T11:31:00+10:00",
+                "id": "ESTA:200518700",
+                "location": "Bendigo",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.35130134602613,
-                    -36.38066199860148
+                    144.27744167324215,
+                    -36.765362133651706
                 ]
             }
         },
@@ -4054,9 +4054,9 @@
                 "sourceTitle": "Connelly St",
                 "category": "rescue",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-19T11:27:27+10:00",
-                "updated": "2020-05-19T11:27:27+10:00",
+                "status": "under control",
+                "created": "2020-05-19T11:37:33+10:00",
+                "updated": "2020-05-19T11:37:33+10:00",
                 "id": "ESTA:200518727",
                 "location": "Connelly St, Flemington",
                 "size": "Small",
@@ -4066,8 +4066,74 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.92308571924852,
-                    -37.783319958937376
+                    144.9234375511675,
+                    -37.783419295783034
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-05-19T11:42:00+10:00",
+                "updated": "2020-05-19T11:45:00+10:00",
+                "id": "ESTA:200551174",
+                "location": "Ringwood East",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24772708717643,
+                    -37.820565024685415
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Heidelberg",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-19T11:43:50+10:00",
+                "updated": "2020-05-19T11:45:10+10:00",
+                "id": "ESTA:200518747",
+                "location": "Burgundy St, Heidelberg",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06823071687376,
+                    -37.75604410268128
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mount Waverley",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-19T11:43:16+10:00",
+                "updated": "2020-05-19T11:45:46+10:00",
+                "id": "ESTA:200518749",
+                "location": "Talbot Rd, Mount Waverley",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12486057867358,
+                    -37.88507935540756
                 ]
             }
         },
@@ -9002,23 +9068,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-05-19T11:10:00+10:00",
-                "updated": "2020-05-19T11:10:00+10:00",
-                "id": "ESTA:200518700",
-                "location": "Bendigo",
+                "sourceTitle": "Warburton Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-19T08:50:00+10:00",
+                "updated": "2020-05-19T11:42:00+10:00",
+                "id": "ESTA:200518453",
+                "location": "Warburton Hwy, Yarra Junction",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.27744167324215,
-                    -36.765362133651706
+                    145.6127048112941,
+                    -37.78169251814987
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Echuca Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-05-19T10:27:00+10:00",
+                "updated": "2020-05-19T11:25:00+10:00",
+                "id": "ESTA:200518616",
+                "location": "Echuca Rd, Mooroopna",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.35130134602613,
+                    -36.38066199860148
                 ]
             }
         },
@@ -9111,75 +9200,6 @@
                 "coordinates": [
                     146.34454189901786,
                     -38.17467651616808
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-19T10:35:00+10:00",
-                "updated": "2020-05-19T10:44:00+10:00",
-                "id": "ESTA:200518634",
-                "location": "Mornington",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05999273949132,
-                    -38.2217383718124
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dalpura Dr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-19T10:19:00+10:00",
-                "updated": "2020-05-19T10:32:00+10:00",
-                "id": "ESTA:200518600",
-                "location": "Dalpura Dr, Bayswater",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.24941321344312,
-                    -37.841038576198024
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Warburton Hwy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-19T08:50:00+10:00",
-                "updated": "2020-05-19T09:06:00+10:00",
-                "id": "ESTA:200518453",
-                "location": "Warburton Hwy, Yarra Junction",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.6127048112941,
-                    -37.78169251814987
                 ]
             }
         },

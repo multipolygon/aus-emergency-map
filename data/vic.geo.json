@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.05405172239546,
+                            -37.93218004944562
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.06023153196602,
+                                    -37.92794894851994
+                                ],
+                                [
+                                    145.05345090756927,
+                                    -37.92754273597912
+                                ],
+                                [
+                                    145.04787191282486,
+                                    -37.93566656038548
+                                ],
+                                [
+                                    145.058944071639,
+                                    -37.93681736291213
+                                ],
+                                [
+                                    145.06023153196602,
+                                    -37.92794894851994
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-05-19T10:28:31+10:00",
+                "updated": "2020-05-19T10:28:32+10:00",
+                "id": "14076",
+                "location": "Bentleigh, Bentleigh East, Moorabbin",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -3913,14 +3967,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sunraysia Hwy",
+                "sourceTitle": "Cobungra - Great Alpine Road Heaps",
+                "category": "fire",
+                "subcategory": "planned burn",
+                "status": "in progress",
+                "created": "2020-05-19T09:50:54+10:00",
+                "updated": "2020-05-19T09:50:54+10:00",
+                "id": 3006254,
+                "location": "0Km N Of Cobungra",
+                "size": "72.95",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.4226971,
+                    -37.0966295
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Centre Rd",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-19T10:18:08+10:00",
+                "updated": "2020-05-19T10:18:08+10:00",
+                "id": "ESTA:200518572",
+                "location": "Centre Rd, Oakleigh South",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0950663762056,
+                    -37.927032678914586
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dalpura Dr",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-19T09:06:00+10:00",
-                "updated": "2020-05-19T10:12:00+10:00",
-                "id": "ESTA:200518479",
-                "location": "Sunraysia Hwy, Redbank",
+                "status": "responding",
+                "created": "2020-05-19T10:19:00+10:00",
+                "updated": "2020-05-19T10:19:00+10:00",
+                "id": "ESTA:200518600",
+                "location": "Dalpura Dr, Bayswater",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3928,8 +4028,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.33489415801796,
-                    -36.902450584197844
+                    145.24941321344312,
+                    -37.841038576198024
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glenview Dr",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-05-19T09:37:00+10:00",
+                "updated": "2020-05-19T10:19:00+10:00",
+                "id": "ESTA:200518531",
+                "location": "Glenview Dr, Warrnambool",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.5178214093083,
+                    -38.38530261779108
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Echuca Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-05-19T10:27:00+10:00",
+                "updated": "2020-05-19T10:27:00+10:00",
+                "id": "ESTA:200518616",
+                "location": "Echuca Rd, Mooroopna",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.35130134602613,
+                    -36.38066199860148
                 ]
             }
         },
@@ -4965,6 +5111,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bridge St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-19T10:21:00+10:00",
+                "updated": "2020-05-19T10:21:00+10:00",
+                "id": "ESTA:200518606",
+                "location": "Bridge St, Benalla",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.97935774180823,
+                    -36.55297618770177
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sunraysia Hwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-19T09:06:00+10:00",
+                "updated": "2020-05-19T10:12:00+10:00",
+                "id": "ESTA:200518479",
+                "location": "Sunraysia Hwy, Redbank",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.33489415801796,
+                    -36.902450584197844
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -4982,29 +5174,6 @@
                 "coordinates": [
                     141.31401559825377,
                     -37.67228724388433
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Glenview Dr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "not yet under control",
-                "created": "2020-05-19T09:37:00+10:00",
-                "updated": "2020-05-19T09:37:00+10:00",
-                "id": "ESTA:200518531",
-                "location": "Glenview Dr, Warrnambool",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.5178214093083,
-                    -38.38530261779108
                 ]
             }
         },
@@ -5051,29 +5220,6 @@
                 "coordinates": [
                     144.28457109638006,
                     -38.304204425700746
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dalry Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-19T09:02:00+10:00",
-                "updated": "2020-05-19T09:21:00+10:00",
-                "id": "ESTA:200518469",
-                "location": "Dalry Rd, Launching Place",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.56319172847833,
-                    -37.75840547989982
                 ]
             }
         },
@@ -5166,29 +5312,6 @@
                 "coordinates": [
                     145.0578282726761,
                     -37.92879521743366
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Centre Rd",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-19T10:00:52+10:00",
-                "updated": "2020-05-19T10:00:52+10:00",
-                "id": "ESTA:200518572",
-                "location": "Centre Rd, Oakleigh South",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0950663762056,
-                    -37.927032678914586
                 ]
             }
         }

@@ -4143,38 +4143,16 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kilmore",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-05-20T18:53:37+10:00",
-                "updated": "2020-05-20T21:02:20+10:00",
-                "id": "ESTA:200551589",
-                "location": "May St, Kilmore",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93410492096504,
-                    -37.288393599319456
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Celeste Ct",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-05-20T21:07:54+10:00",
-                "updated": "2020-05-20T21:07:54+10:00",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-20T21:19:16+10:00",
+                "updated": "2020-05-20T21:19:16+10:00",
                 "id": "ESTA:200519611",
                 "location": "Celeste Ct, St Kilda East",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
@@ -4191,33 +4169,33 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-20T19:55:00+10:00",
-                "updated": "2020-05-20T21:12:00+10:00",
-                "id": "ESTA:200551595",
-                "location": "Main Ridge",
+                "status": "request for assistance",
+                "created": "2020-05-20T21:21:00+10:00",
+                "updated": "2020-05-20T21:24:00+10:00",
+                "id": "ESTA:200551600",
+                "location": "Drouin South",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94219559978993,
-                    -38.39874551826964
+                    145.82037197880442,
+                    -38.17240116648523
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hazeldean Rd",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-05-20T21:13:00+10:00",
-                "updated": "2020-05-20T21:13:00+10:00",
-                "id": "ESTA:200519612",
-                "location": "Hazeldean Rd, Ellinbank",
+                "created": "2020-05-20T21:27:00+10:00",
+                "updated": "2020-05-20T21:27:00+10:00",
+                "id": "ESTA:200519616",
+                "location": "Roxburgh Park",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4225,22 +4203,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.93812132739907,
-                    -38.24055791334669
+                    144.92301604032707,
+                    -37.6358327998762
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Albert St",
+                "sourceTitle": "Roxburgh Park",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-05-20T21:04:00+10:00",
-                "updated": "2020-05-20T21:04:00+10:00",
-                "id": "ESTA:200519610",
-                "location": "Albert St, Upper Ferntree Gully",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-05-20T21:28:55+10:00",
+                "updated": "2020-05-20T21:28:55+10:00",
+                "id": "ESTA:200519615",
+                "location": "Roxburgh Park, Roxburgh Park",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4248,8 +4226,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.31355368361392,
-                    -37.89881430085934
+                    144.92302028413215,
+                    -37.635828325917586
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-20T20:09:00+10:00",
+                "updated": "2020-05-20T20:32:00+10:00",
+                "id": "ESTA:200519597",
+                "location": "Diamond Creek",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16082491899445,
+                    -37.64228647585789
                 ]
             }
         },
@@ -6238,6 +6239,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Albert St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-20T21:04:00+10:00",
+                "updated": "2020-05-20T21:21:00+10:00",
+                "id": "ESTA:200519610",
+                "location": "Albert St, Upper Ferntree Gully",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.31355368361392,
+                    -37.89881430085934
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hazeldean Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-20T21:13:00+10:00",
+                "updated": "2020-05-20T21:13:00+10:00",
+                "id": "ESTA:200519612",
+                "location": "Hazeldean Rd, Ellinbank",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.93812132739907,
+                    -38.24055791334669
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Mcdonalds Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -6255,75 +6302,6 @@
                 "coordinates": [
                     145.0663768249567,
                     -37.651603305299005
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-20T20:09:00+10:00",
-                "updated": "2020-05-20T20:32:00+10:00",
-                "id": "ESTA:200519597",
-                "location": "Diamond Creek",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16082491899445,
-                    -37.64228647585789
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Shannon Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-20T20:13:00+10:00",
-                "updated": "2020-05-20T20:28:00+10:00",
-                "id": "ESTA:200519599",
-                "location": "Shannon Av, Newtown (Geelong)",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.33555205354963,
-                    -38.146001030474444
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-05-20T19:31:00+10:00",
-                "updated": "2020-05-20T20:24:00+10:00",
-                "id": "ESTA:200519589",
-                "location": "Merbein West",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.00865980956263,
-                    -34.17671744286906
                 ]
             }
         },
@@ -6415,28 +6393,6 @@
                 "coordinates": [
                     144.32291665461608,
                     -38.220327646268025
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-05-20T10:54:00+10:00",
-                "updated": "2020-05-20T21:07:00+10:00",
-                "id": "ESTA:200551519",
-                "location": "Waurn Ponds",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.30986176462892,
-                    -38.214451657030565
                 ]
             }
         },

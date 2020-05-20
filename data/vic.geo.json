@@ -4143,22 +4143,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "complete",
-                "created": "2020-05-20T19:41:00+10:00",
-                "updated": "2020-05-20T20:05:00+10:00",
-                "id": "ESTA:200551594",
-                "location": "Richmond",
-                "title": "incident: flooding"
+                "sourceTitle": "Princes Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-20T20:18:00+10:00",
+                "updated": "2020-05-20T20:18:00+10:00",
+                "id": "ESTA:200519600",
+                "location": "Princes Hwy, Noble Park North",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99041076183218,
-                    -37.81666196161483
+                    145.18126902983985,
+                    -37.95215912660122
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-20T19:31:00+10:00",
+                "updated": "2020-05-20T20:24:00+10:00",
+                "id": "ESTA:200519589",
+                "location": "Merbein West",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.00865980956263,
+                    -34.17671744286906
                 ]
             }
         },
@@ -4168,9 +4192,9 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-05-20T20:09:00+10:00",
-                "updated": "2020-05-20T20:09:00+10:00",
+                "updated": "2020-05-20T20:24:00+10:00",
                 "id": "ESTA:200519597",
                 "location": "Diamond Creek",
                 "size": "Small",
@@ -4188,36 +4212,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-05-20T20:11:00+10:00",
-                "updated": "2020-05-20T20:15:00+10:00",
-                "id": "ESTA:200551596",
-                "location": "Waurn Ponds",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.30923604119712,
-                    -38.21407689734407
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Shannon Av",
+                "sourceTitle": "Doncaster Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-05-20T20:13:00+10:00",
-                "updated": "2020-05-20T20:13:00+10:00",
-                "id": "ESTA:200519599",
-                "location": "Shannon Av, Newtown (Geelong)",
+                "created": "2020-05-20T20:26:58+10:00",
+                "updated": "2020-05-20T20:26:58+10:00",
+                "id": "ESTA:200519601",
+                "location": "Doncaster Rd, Balwyn North",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -4225,8 +4227,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.33555205354963,
-                    -38.146001030474444
+                    145.097641991899,
+                    -37.790359823894406
                 ]
             }
         },
@@ -6215,6 +6217,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Tambo 35 - Tambo Complex -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "contained",
+                "created": "2019-11-22T10:04:00+11:00",
+                "updated": "2020-02-22T12:54:00+11:00",
+                "id": "ESTA:3500158",
+                "location": "Tambo 35 - Tambo Complex -, Delwp - Tambo Icc Footprint",
+                "size": "Large",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.6024623878815,
+                    -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Shannon Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-20T20:13:00+10:00",
+                "updated": "2020-05-20T20:28:00+10:00",
+                "id": "ESTA:200519599",
+                "location": "Shannon Av, Newtown (Geelong)",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.33555205354963,
+                    -38.146001030474444
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mcdonalds Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-20T20:28:00+10:00",
+                "updated": "2020-05-20T20:28:00+10:00",
+                "id": "ESTA:200519602",
+                "location": "Mcdonalds Rd, Mill Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06636816908204,
+                    -37.65160821585672
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Watery Gully Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -6232,52 +6303,6 @@
                 "coordinates": [
                     145.19803735957373,
                     -37.66930295680045
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-20T19:31:00+10:00",
-                "updated": "2020-05-20T19:51:00+10:00",
-                "id": "ESTA:200519589",
-                "location": "Merbein West",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.00865980956263,
-                    -34.17671744286906
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Christina Cr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-05-20T19:49:00+10:00",
-                "updated": "2020-05-20T19:49:00+10:00",
-                "id": "ESTA:200519596",
-                "location": "Christina Cr, Kurunjang",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.59717782552403,
-                    -37.66334659275693
                 ]
             }
         },
@@ -6307,29 +6332,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Queen St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "not yet under control",
-                "created": "2020-05-20T19:24:00+10:00",
-                "updated": "2020-05-20T19:24:00+10:00",
-                "id": "ESTA:200519587",
-                "location": "Queen St, Colac",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.59253766193802,
-                    -38.34127077991266
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Snowy 16 - Snowy Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -6353,23 +6355,66 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tambo 35 - Tambo Complex -",
-                "category": "other",
-                "subcategory": "other",
-                "status": "contained",
-                "created": "2019-11-22T10:04:00+11:00",
-                "updated": "2020-02-22T12:54:00+11:00",
-                "id": "ESTA:3500158",
-                "location": "Tambo 35 - Tambo Complex -, Delwp - Tambo Icc Footprint",
-                "size": "Large",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "responding",
+                "created": "2020-05-20T01:41:00+10:00",
+                "updated": "2020-05-20T20:30:00+10:00",
+                "id": "ESTA:200551249",
+                "location": "Mount Duneed",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.6024623878815,
-                    -37.432291905209674
+                    144.32327423508013,
+                    -38.22054304182599
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-05-20T09:50:00+10:00",
+                "updated": "2020-05-20T20:23:00+10:00",
+                "id": "ESTA:200551488",
+                "location": "Mount Duneed",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3253125706208,
+                    -38.22164373465559
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-05-20T20:11:00+10:00",
+                "updated": "2020-05-20T20:18:00+10:00",
+                "id": "ESTA:200551596",
+                "location": "Waurn Ponds",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.30923604119712,
+                    -38.21407689734407
                 ]
             }
         },
@@ -6465,28 +6510,6 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "responding",
-                "created": "2020-05-20T09:50:00+10:00",
-                "updated": "2020-05-20T15:44:00+10:00",
-                "id": "ESTA:200551488",
-                "location": "Mount Duneed",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3253125706208,
-                    -38.22164373465559
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "unknown",
@@ -6502,28 +6525,6 @@
                 "coordinates": [
                     145.1811976114647,
                     -37.66200583340318
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "responding",
-                "created": "2020-05-20T01:41:00+10:00",
-                "updated": "2020-05-20T13:47:00+10:00",
-                "id": "ESTA:200551249",
-                "location": "Mount Duneed",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.32327423508013,
-                    -38.22054304182599
                 ]
             }
         },

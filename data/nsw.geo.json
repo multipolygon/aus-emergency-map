@@ -161,10 +161,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.706317,
-                    -30.61139099999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.7072868350001,
+                            -30.610768657999984
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.70590549,
+                                            -30.6094406139999
+                                        ],
+                                        [
+                                            151.708684888,
+                                            -30.610261529
+                                        ],
+                                        [
+                                            151.707704973,
+                                            -30.612188891
+                                        ],
+                                        [
+                                            151.705068107,
+                                            -30.611260903
+                                        ],
+                                        [
+                                            151.70590549,
+                                            -30.6094584599999
+                                        ],
+                                        [
+                                            151.70590549,
+                                            -30.6094406139999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -774,6 +815,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Hwy, Boxers Creek,  2580 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 May 2020 14:33",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.4638440000001,
+                    -30.085644999999943
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kamilaroi Hwy, Walgett",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/383205",
+                "created": "2020-05-20T04:50:00+10:00",
+                "updated": "2020-05-20T14:50:00+10:00",
+                "location": "Kamilaroi Hwy, Walgett, NSW 2832",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kamilaroi Hwy, Walgett, NSW 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 May 2020 14:50",
+                "title": "incident: other"
             }
         },
         {

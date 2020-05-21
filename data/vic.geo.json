@@ -9,6 +9,68 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.26311037537613,
+                            -38.09570235985218
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.2477037667938,
+                                    -38.085976874632266
+                                ],
+                                [
+                                    145.24306890961475,
+                                    -38.10840207078806
+                                ],
+                                [
+                                    145.28074858185985,
+                                    -38.112589146057175
+                                ],
+                                [
+                                    145.28315184113754,
+                                    -38.09773069706277
+                                ],
+                                [
+                                    145.27654287811714,
+                                    -38.082058513816285
+                                ],
+                                [
+                                    145.24907705780447,
+                                    -38.07881557364719
+                                ],
+                                [
+                                    145.2477037667938,
+                                    -38.085976874632266
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2020-05-22T02:53:12+10:00",
+                "updated": "2020-05-22T02:53:11+10:00",
+                "id": "14083",
+                "location": "Cranbourne, Cranbourne West, Cranbourne North, Lyndhurst",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -4097,36 +4159,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "complete",
-                "created": "2020-05-22T01:59:00+10:00",
-                "updated": "2020-05-22T02:33:00+10:00",
-                "id": "ESTA:200551683",
-                "location": "Euroa",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.57642448668432,
-                    -36.755684668428046
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Church St",
+                "sourceTitle": "Genista Rd",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-05-22T02:44:00+10:00",
-                "updated": "2020-05-22T02:44:00+10:00",
-                "id": "ESTA:200520131",
-                "location": "Church St, Camperdown",
+                "created": "2020-05-22T02:56:00+10:00",
+                "updated": "2020-05-22T02:56:00+10:00",
+                "id": "ESTA:200520133",
+                "location": "Genista Rd, Cranbourne West",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4134,8 +4174,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.14664235684083,
-                    -38.2314403746323
+                    145.26297888564676,
+                    -38.09668270074612
                 ]
             }
         },
@@ -4481,6 +4521,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Church St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-22T02:44:00+10:00",
+                "updated": "2020-05-22T02:56:00+10:00",
+                "id": "ESTA:200520131",
+                "location": "Church St, Camperdown",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.14664235684083,
+                    -38.2314403746323
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -4498,29 +4561,6 @@
                 "coordinates": [
                     145.26301651988484,
                     -38.09557481147128
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Black Dog Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-22T01:42:00+10:00",
-                "updated": "2020-05-22T01:54:00+10:00",
-                "id": "ESTA:200520125",
-                "location": "Black Dog Dr, Brookfield",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.5521001948406,
-                    -37.69287735837174
                 ]
             }
         },

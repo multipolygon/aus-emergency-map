@@ -4098,57 +4098,13 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-21T11:16:00+10:00",
-                "updated": "2020-05-21T12:18:00+10:00",
-                "id": "ESTA:200551650",
-                "location": "Wattle Glen",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1800837986068,
-                    -37.68578997240796
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-05-21T12:11:00+10:00",
-                "updated": "2020-05-21T12:24:00+10:00",
-                "id": "ESTA:200551656",
-                "location": "Ormond",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03766167258365,
-                    -37.90390007428167
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
                 "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-05-21T12:24:00+10:00",
-                "updated": "2020-05-21T12:24:00+10:00",
-                "id": "ESTA:200519869",
-                "location": "Dandenong",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-05-21T11:26:00+10:00",
+                "updated": "2020-05-21T12:35:00+10:00",
+                "id": "ESTA:200519839",
+                "location": "Carrum Downs",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -4156,8 +4112,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20959155904737,
-                    -37.99453487866929
+                    145.188124529326,
+                    -38.08843279501012
                 ]
             }
         },
@@ -4167,9 +4123,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-05-21T12:30:00+10:00",
-                "updated": "2020-05-21T12:30:21+10:00",
+                "updated": "2020-05-21T12:40:00+10:00",
                 "id": "ESTA:200551657",
                 "location": "Montmorency",
                 "title": "incident: tree down"
@@ -4180,6 +4136,29 @@
                 "coordinates": [
                     145.13320678885697,
                     -37.71686085460314
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wantirna Rd",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-21T12:43:57+10:00",
+                "updated": "2020-05-21T12:43:57+10:00",
+                "id": "ESTA:200519874",
+                "location": "Wantirna Rd, Ringwood",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22710779909485,
+                    -37.820296344417876
                 ]
             }
         },
@@ -4230,6 +4209,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-21T12:24:00+10:00",
+                "updated": "2020-05-21T12:33:00+10:00",
+                "id": "ESTA:200519869",
+                "location": "Dandenong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20959155904737,
+                    -37.99453487866929
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Graduation Pl",
                 "category": "other",
                 "subcategory": "other",
@@ -4247,29 +4249,6 @@
                 "coordinates": [
                     146.4231774294574,
                     -38.31974733230492
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-05-21T11:26:00+10:00",
-                "updated": "2020-05-21T12:10:00+10:00",
-                "id": "ESTA:200519839",
-                "location": "Carrum Downs",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.188124529326,
-                    -38.08843279501012
                 ]
             }
         },
@@ -4345,52 +4324,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glen Huntly Rd",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-21T11:16:22+10:00",
-                "updated": "2020-05-21T11:16:22+10:00",
-                "id": "ESTA:200519823",
-                "location": "Glen Huntly Rd, Elwood",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99007600841944,
-                    -37.88320169449003
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Keys Rd",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-21T11:51:23+10:00",
-                "updated": "2020-05-21T11:51:23+10:00",
-                "id": "ESTA:200519840",
-                "location": "Keys Rd, Cheltenham",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.07327231754033,
-                    -37.94951777573599
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Kawarren St",
                 "category": "rescue",
                 "subcategory": "other",
@@ -4418,6 +4351,28 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
+                "created": "2020-05-21T11:53:00+10:00",
+                "updated": "2020-05-21T12:42:00+10:00",
+                "id": "ESTA:200551652",
+                "location": "Mount Waverley",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12427150463034,
+                    -37.89804011085463
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
                 "created": "2020-05-21T11:07:00+10:00",
                 "updated": "2020-05-21T12:18:00+10:00",
                 "id": "ESTA:200551649",
@@ -4430,50 +4385,6 @@
                 "coordinates": [
                     145.13098906179735,
                     -37.721593114560456
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2020-05-21T12:07:00+10:00",
-                "updated": "2020-05-21T12:17:00+10:00",
-                "id": "ESTA:200551655",
-                "location": "Laverton",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.772593676258,
-                    -37.86370261765755
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-21T11:53:00+10:00",
-                "updated": "2020-05-21T11:57:00+10:00",
-                "id": "ESTA:200551652",
-                "location": "Mount Waverley",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12427150463034,
-                    -37.89804011085463
                 ]
             }
         },

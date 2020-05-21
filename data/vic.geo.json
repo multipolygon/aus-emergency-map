@@ -192,9 +192,9 @@
                 "category": "advice",
                 "subcategory": "cbrne",
                 "status": "minor",
-                "created": "2020-05-21T12:51:56+10:00",
-                "updated": "2020-05-21T12:51:56+10:00",
-                "id": "14079",
+                "created": "2020-05-21T15:50:10+10:00",
+                "updated": "2020-05-21T15:50:09+10:00",
+                "id": "14080",
                 "location": "Bellarine, Clifton Springs, Drysdale",
                 "title": "warning: advice"
             }
@@ -4295,68 +4295,136 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Loch Garry Rd",
+                "sourceTitle": "Langi Kal Kal Rd",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-05-21T14:40:00+10:00",
-                "updated": "2020-05-21T15:31:00+10:00",
-                "id": "ESTA:200519923",
-                "location": "Loch Garry Rd, Bunbartha",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.323001910243,
-                    -36.21764949109825
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Colac",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-21T00:37:30+10:00",
-                "updated": "2020-05-21T15:32:39+10:00",
-                "id": "ESTA:200519646",
-                "location": "Rifle Butts Rd, Colac",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.56100216091232,
-                    -38.33322311933706
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Westmorland Cr",
-                "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-21T15:17:00+10:00",
-                "updated": "2020-05-21T15:33:00+10:00",
-                "id": "ESTA:200519944",
-                "location": "Westmorland Cr, Shepparton",
+                "status": "responding",
+                "created": "2020-05-21T15:48:00+10:00",
+                "updated": "2020-05-21T15:48:00+10:00",
+                "id": "ESTA:200519957",
+                "location": "Langi Kal Kal Rd, Langi Kal Kal",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.4115566819803,
-                    -36.40197718789937
+                    143.47694913464537,
+                    -37.42072095426739
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-21T14:51:00+10:00",
+                "updated": "2020-05-21T15:51:00+10:00",
+                "id": "ESTA:200519931",
+                "location": "Simpsons Creek",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.37281400641956,
+                    -37.748371305655915
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Batman St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-05-21T15:55:16+10:00",
+                "updated": "2020-05-21T15:55:16+10:00",
+                "id": "ESTA:200519956",
+                "location": "Batman St, West Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9515063934847,
+                    -37.81096881490154
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pitt St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-05-21T15:56:52+10:00",
+                "updated": "2020-05-21T15:56:52+10:00",
+                "id": "ESTA:200519929",
+                "location": "Pitt St, Fawkner",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96978529710265,
+                    -37.71133960291289
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-05-21T15:58:00+10:00",
+                "updated": "2020-05-21T15:59:00+10:00",
+                "id": "ESTA:200551668",
+                "location": "Torquay",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.35239347834283,
+                    -38.31160352567227
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hillside (Greater Melbourne)",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "responding",
+                "created": "2020-05-21T15:57:54+10:00",
+                "updated": "2020-05-21T16:01:04+10:00",
+                "id": "ESTA:200551669",
+                "location": "Celendine Pl, Hillside (Greater Melbourne)",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74355861942098,
+                    -37.70323652574064
                 ]
             }
         },
@@ -4429,6 +4497,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Westmorland Cr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-21T15:17:00+10:00",
+                "updated": "2020-05-21T15:33:00+10:00",
+                "id": "ESTA:200519944",
+                "location": "Westmorland Cr, Shepparton",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4115566819803,
+                    -36.40197718789937
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -4452,6 +4543,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Loch Garry Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-21T14:40:00+10:00",
+                "updated": "2020-05-21T15:31:00+10:00",
+                "id": "ESTA:200519923",
+                "location": "Loch Garry Rd, Bunbartha",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.323001910243,
+                    -36.21764949109825
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -4469,29 +4583,6 @@
                 "coordinates": [
                     145.24794133704583,
                     -37.872973480582594
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-21T14:51:00+10:00",
-                "updated": "2020-05-21T15:16:00+10:00",
-                "id": "ESTA:200519931",
-                "location": "Simpsons Creek",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.37281400641956,
-                    -37.748371305655915
                 ]
             }
         },
@@ -4561,29 +4652,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pitt St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-05-21T15:21:11+10:00",
-                "updated": "2020-05-21T15:21:11+10:00",
-                "id": "ESTA:200519929",
-                "location": "Pitt St, Fawkner",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97021644015913,
-                    -37.71095226295182
                 ]
             }
         },

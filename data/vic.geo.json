@@ -4119,37 +4119,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Heatherhill Rd",
-                "category": "fire",
+                "sourceTitle": "Undefined",
+                "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-22T23:11:00+10:00",
-                "updated": "2020-05-22T23:12:00+10:00",
-                "id": "ESTA:200520943",
-                "location": "Heatherhill Rd, Frankston",
-                "size": "Small",
-                "title": "incident: fire"
+                "status": "request for assistance",
+                "created": "2020-05-22T23:33:00+10:00",
+                "updated": "2020-05-22T23:34:00+10:00",
+                "id": "ESTA:200551723",
+                "location": "Glen Waverley",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.16096651381827,
-                    -38.16608721993214
+                    145.1709524603704,
+                    -37.88670800675835
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Coach Rd",
+                "sourceTitle": "Mcleod St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-22T22:55:00+10:00",
-                "updated": "2020-05-22T23:12:00+10:00",
-                "id": "ESTA:200520939",
-                "location": "Coach Rd, Kialla East",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-22T23:33:00+10:00",
+                "updated": "2020-05-22T23:33:00+10:00",
+                "id": "ESTA:200520947",
+                "location": "Mcleod St, Yarrawonga",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4157,8 +4156,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.49837330184346,
-                    -36.43816653993891
+                    146.00079357500914,
+                    -36.02419710780633
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "York St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-22T23:40:00+10:00",
+                "updated": "2020-05-22T23:40:00+10:00",
+                "id": "ESTA:200520948",
+                "location": "York St, Eaglehawk",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.23416696910297,
+                    -36.71717740761946
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-05-22T21:17:00+10:00",
+                "updated": "2020-05-22T23:44:00+10:00",
+                "id": "ESTA:200551721",
+                "location": "Coburg North",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.956610783155,
+                    -37.72692644154124
                 ]
             }
         },
@@ -4527,6 +4571,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Heatherhill Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-22T23:11:00+10:00",
+                "updated": "2020-05-22T23:12:00+10:00",
+                "id": "ESTA:200520943",
+                "location": "Heatherhill Rd, Frankston",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16096651381827,
+                    -38.16608721993214
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Coach Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-22T22:55:00+10:00",
+                "updated": "2020-05-22T23:12:00+10:00",
+                "id": "ESTA:200520939",
+                "location": "Coach Rd, Kialla East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.49837330184346,
+                    -36.43816653993891
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -4544,29 +4634,6 @@
                 "coordinates": [
                     145.26590691276394,
                     -38.00068695545356
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Leanne Ct",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-22T22:38:00+10:00",
-                "updated": "2020-05-22T22:44:00+10:00",
-                "id": "ESTA:200520936",
-                "location": "Leanne Ct, Cranbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.27954222037155,
-                    -38.094997925249636
                 ]
             }
         },
@@ -4682,28 +4749,6 @@
                 "coordinates": [
                     144.9446129695698,
                     -37.76428428128346
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2020-05-22T21:17:00+10:00",
-                "updated": "2020-05-22T21:42:00+10:00",
-                "id": "ESTA:200551721",
-                "location": "Pascoe Vale",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95041795890748,
-                    -37.72602584840473
                 ]
             }
         }

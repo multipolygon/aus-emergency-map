@@ -4095,6 +4095,29 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yarra St",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-24T05:14:15+10:00",
+                "updated": "2020-05-24T05:14:15+10:00",
+                "id": "ESTA:200522020",
+                "location": "Yarra St, South Yarra",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99234271985574,
+                    -37.838449867458436
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -4102,9 +4125,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-05-24T00:00:00+10:00",
+                "created": "2020-05-24T05:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/572e50dba411f9ae71438ed070bd9e1c",
+                "id": "IDV20600/31d295d06d819d63b473f4050489a4c5",
                 "location": "East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -4436,29 +4459,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Primrose St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-24T03:39:00+10:00",
-                "updated": "2020-05-24T04:11:00+10:00",
-                "id": "ESTA:200522013",
-                "location": "Primrose St, Wendouree",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.817367290869,
-                    -37.52872045902769
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Snowy 16 - Snowy Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -4505,23 +4505,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Southbank",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-24T04:21:17+10:00",
-                "updated": "2020-05-24T04:21:17+10:00",
-                "id": "ESTA:200522017",
-                "location": "Southbank, Southbank",
-                "size": "Small",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-05-24T05:10:00+10:00",
+                "updated": "2020-05-24T05:14:00+10:00",
+                "id": "ESTA:200551764",
+                "location": "South Yarra",
                 "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96183271748473,
-                    -37.82755098797552
+                    144.99234196959435,
+                    -37.838458356683915
                 ]
             }
         }

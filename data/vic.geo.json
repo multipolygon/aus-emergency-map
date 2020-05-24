@@ -3936,6 +3936,28 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Tillers Road, Eight Mile Creek",
+                "category": "other",
+                "subcategory": "other",
+                "status": "going",
+                "created": "2020-05-24T14:54:00+10:00",
+                "updated": "2020-05-24T14:54:00+10:00",
+                "id": "1368974",
+                "location": "Tillers Road, Eight Mile Creek",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.818727104096,
+                    -38.0158813022988
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Edenhope - Lake Street ",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -4120,55 +4142,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Big Rigamy Trk",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-05-24T13:43:00+10:00",
-                "updated": "2020-05-24T14:17:00+10:00",
-                "id": "ESTA:200522330",
-                "location": "Big Rigamy Trk, Neds Corner",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.43317736953702,
-                    -34.147198608751424
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-24T14:41:00+10:00",
-                "updated": "2020-05-24T14:41:00+10:00",
-                "id": "ESTA:200551784",
-                "location": "Montmorency",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1148295485528,
-                    -37.71725325680989
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Wallaby Run",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-05-24T14:40:00+10:00",
                 "updated": "2020-05-24T14:40:00+10:00",
                 "id": "ESTA:200522393",
@@ -4191,9 +4168,9 @@
                 "sourceTitle": "Grey St",
                 "category": "rescue",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-24T14:45:06+10:00",
-                "updated": "2020-05-24T14:45:06+10:00",
+                "status": "safe",
+                "created": "2020-05-24T14:55:13+10:00",
+                "updated": "2020-05-24T14:55:13+10:00",
                 "id": "ESTA:200522396",
                 "location": "Grey St, St Kilda",
                 "size": "Small",
@@ -4205,6 +4182,51 @@
                 "coordinates": [
                     144.9810323389489,
                     -37.86327089499566
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Karingal Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-24T15:00:00+10:00",
+                "updated": "2020-05-24T15:00:00+10:00",
+                "id": "ESTA:200522410",
+                "location": "Karingal Dr, Frankston",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1653804095344,
+                    -38.15119710153165
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-05-24T14:32:00+10:00",
+                "updated": "2020-05-24T15:01:00+10:00",
+                "id": "ESTA:200551783",
+                "location": "Mansfield",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.08237161190343,
+                    -37.057880487398
                 ]
             }
         },
@@ -4596,6 +4618,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Big Rigamy Trk",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-24T13:43:00+10:00",
+                "updated": "2020-05-24T14:17:00+10:00",
+                "id": "ESTA:200522330",
+                "location": "Big Rigamy Trk, Neds Corner",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.43317736953702,
+                    -34.147198608751424
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Whimbrel Cr",
                 "category": "fire",
                 "subcategory": "other",
@@ -4659,29 +4704,6 @@
                 "coordinates": [
                     145.42347787098763,
                     -36.38758605752129
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-24T13:29:00+10:00",
-                "updated": "2020-05-24T13:47:00+10:00",
-                "id": "ESTA:200522315",
-                "location": "Clyde",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.31980116581883,
-                    -38.13310572521394
                 ]
             }
         },
@@ -4758,6 +4780,28 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-05-24T14:41:00+10:00",
+                "updated": "2020-05-24T14:48:00+10:00",
+                "id": "ESTA:200551784",
+                "location": "Montmorency",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1148295485528,
+                    -37.71725325680989
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
@@ -4773,28 +4817,6 @@
                 "coordinates": [
                     144.30881219281403,
                     -38.2141122255881
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-24T14:32:00+10:00",
-                "updated": "2020-05-24T14:37:00+10:00",
-                "id": "ESTA:200551783",
-                "location": "Mansfield",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.08237161190343,
-                    -37.057880487398
                 ]
             }
         },

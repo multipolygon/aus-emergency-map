@@ -4097,22 +4097,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-05-24T09:30:00+10:00",
-                "updated": "2020-05-24T10:38:00+10:00",
-                "id": "ESTA:200551770",
-                "location": "Cheltenham",
-                "title": "incident: building damage"
+                "sourceTitle": "Aberdeen St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-24T10:54:00+10:00",
+                "updated": "2020-05-24T10:54:00+10:00",
+                "id": "ESTA:200522150",
+                "location": "Aberdeen St, Newtown",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.05779161588632,
-                    -37.96229663310971
+                    144.32637770588696,
+                    -38.14446789486259
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mccrae St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-24T10:09:00+10:00",
+                "updated": "2020-05-24T10:26:00+10:00",
+                "id": "ESTA:200522108",
+                "location": "Mccrae St, Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21713377303954,
+                    -37.98733186913988
                 ]
             }
         },
@@ -4122,64 +4146,19 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-24T10:40:00+10:00",
-                "updated": "2020-05-24T10:41:00+10:00",
-                "id": "ESTA:200551772",
-                "location": "Woodend",
+                "status": "complete",
+                "created": "2020-05-24T10:49:00+10:00",
+                "updated": "2020-05-24T10:59:00+10:00",
+                "id": "ESTA:200551774",
+                "location": "Leigh Creek",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.53645267312547,
-                    -37.36997736443141
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Allen St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-05-24T09:40:00+10:00",
-                "updated": "2020-05-24T10:42:00+10:00",
-                "id": "ESTA:200522087",
-                "location": "Allen St, Korong Vale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.70676146067672,
-                    -36.353074322868416
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Leopold",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-24T10:44:42+10:00",
-                "updated": "2020-05-24T10:45:39+10:00",
-                "id": "ESTA:200522141",
-                "location": "Leopold",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.49894933263437,
-                    -38.20353077532234
+                    143.95917908263704,
+                    -37.55820976752826
                 ]
             }
         },
@@ -4525,12 +4504,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-24T10:46:00+10:00",
+                "updated": "2020-05-24T11:01:00+10:00",
+                "id": "ESTA:200522141",
+                "location": "Wallington",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.4993805363645,
+                    -38.20354287167667
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Sebastion St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-05-24T10:31:00+10:00",
-                "updated": "2020-05-24T10:40:00+10:00",
+                "updated": "2020-05-24T10:47:00+10:00",
                 "id": "ESTA:200522130",
                 "location": "Sebastion St, Epping",
                 "size": "Small",
@@ -4548,14 +4550,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mccrae St",
+                "sourceTitle": "Allen St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-24T10:09:00+10:00",
-                "updated": "2020-05-24T10:26:00+10:00",
-                "id": "ESTA:200522108",
-                "location": "Mccrae St, Dandenong",
+                "status": "under control",
+                "created": "2020-05-24T09:40:00+10:00",
+                "updated": "2020-05-24T10:42:00+10:00",
+                "id": "ESTA:200522087",
+                "location": "Allen St, Korong Vale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4563,8 +4565,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.21713377303954,
-                    -37.98733186913988
+                    143.70676146067672,
+                    -36.353074322868416
                 ]
             }
         },
@@ -4620,19 +4622,19 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-24T08:34:00+10:00",
-                "updated": "2020-05-24T10:31:00+10:00",
-                "id": "ESTA:200551769",
-                "location": "Mount Macedon",
+                "status": "request for assistance",
+                "created": "2020-05-24T10:40:00+10:00",
+                "updated": "2020-05-24T10:45:00+10:00",
+                "id": "ESTA:200551772",
+                "location": "Woodend",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.58397433278088,
-                    -37.405247813467675
+                    144.53645267312547,
+                    -37.36997736443141
                 ]
             }
         }

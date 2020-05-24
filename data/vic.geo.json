@@ -4146,9 +4146,9 @@
                 "sourceTitle": "Tovey St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-05-24T20:07:31+10:00",
-                "updated": "2020-05-24T20:07:31+10:00",
+                "status": "safe",
+                "created": "2020-05-24T20:17:10+10:00",
+                "updated": "2020-05-24T20:17:10+10:00",
                 "id": "ESTA:200522557",
                 "location": "Tovey St, Reservoir",
                 "size": "Small",
@@ -4166,46 +4166,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fawkner",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-24T20:09:55+10:00",
-                "updated": "2020-05-24T20:09:55+10:00",
-                "id": "ESTA:200522555",
-                "location": "Fawkner, Fawkner",
+                "sourceTitle": "Riding Boundary Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-05-24T20:21:00+10:00",
+                "updated": "2020-05-24T20:21:00+10:00",
+                "id": "ESTA:200522560",
+                "location": "Riding Boundary Rd, Ravenhall",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96579487145686,
-                    -37.707121652392004
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Flinders St",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-24T20:14:20+10:00",
-                "updated": "2020-05-24T20:14:20+10:00",
-                "id": "ESTA:200522558",
-                "location": "Flinders St, Docklands",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95283976898335,
-                    -37.82174534869647
+                    144.74601951221314,
+                    -37.78077813587057
                 ]
             }
         },
@@ -4213,21 +4190,22 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Mount Waverley",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-05-24T20:13:12+10:00",
-                "updated": "2020-05-24T20:14:52+10:00",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-24T20:25:35+10:00",
+                "updated": "2020-05-24T20:25:35+10:00",
                 "id": "ESTA:200522559",
-                "location": "Mount Waverley",
-                "title": "incident: hazardous material"
+                "location": "Mount Waverley, Mount Waverley",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1497815849845,
-                    -37.86493609333741
+                    145.14977858062193,
+                    -37.864944916135485
                 ]
             }
         },
@@ -4619,29 +4597,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Riverside Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-24T19:18:00+10:00",
-                "updated": "2020-05-24T19:20:00+10:00",
-                "id": "ESTA:200522550",
-                "location": "Riverside Av, Bunyip",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.72246538978473,
-                    -38.09861259732621
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Snowy 16 - Snowy Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -4682,6 +4637,52 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Flinders St",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-24T20:14:20+10:00",
+                "updated": "2020-05-24T20:14:20+10:00",
+                "id": "ESTA:200522558",
+                "location": "Flinders St, Docklands",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95283976898335,
+                    -37.82174534869647
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fawkner",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-24T20:09:55+10:00",
+                "updated": "2020-05-24T20:09:55+10:00",
+                "id": "ESTA:200522555",
+                "location": "Fawkner, Fawkner",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96579487145686,
+                    -37.707121652392004
                 ]
             }
         },

@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            143.93418290225898,
+                            -37.56553345172996
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    143.9328096112483,
+                                    -37.560430882530646
+                                ],
+                                [
+                                    143.92731644717858,
+                                    -37.566145932274345
+                                ],
+                                [
+                                    143.93589951603136,
+                                    -37.570636020929285
+                                ],
+                                [
+                                    143.94104935733938,
+                                    -37.56396882216321
+                                ],
+                                [
+                                    143.9328096112483,
+                                    -37.560430882530646
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "cbrne",
+                "status": "unknown",
+                "created": "2020-05-25T14:51:06+10:00",
+                "updated": "2020-05-25T14:50:47+10:00",
+                "id": "14088",
+                "location": "Warrenheip",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -3775,45 +3829,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-25T13:17:00+10:00",
-                "updated": "2020-05-25T14:32:00+10:00",
-                "id": "ESTA:200551821",
-                "location": "Wheatsheaf",
-                "title": "incident: tree down"
+                "sourceTitle": "Western Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-05-25T14:07:00+10:00",
+                "updated": "2020-05-25T14:50:00+10:00",
+                "id": "ESTA:200523074",
+                "location": "Western Hwy, Warrenheip",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.27069407353758,
-                    -37.353317078311264
+                    143.933321265369,
+                    -37.5640997064772
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Springvale Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Watson Av",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-05-25T14:42:21+10:00",
-                "updated": "2020-05-25T14:42:21+10:00",
-                "id": "ESTA:200523115",
-                "location": "Springvale Rd, Nunawading",
+                "created": "2020-05-25T14:50:00+10:00",
+                "updated": "2020-05-25T14:50:00+10:00",
+                "id": "ESTA:200523124",
+                "location": "Watson Av, Eaglehawk",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.17575978871744,
-                    -37.82141868375042
+                    144.25267573556928,
+                    -36.72582518186311
                 ]
             }
         },
@@ -3859,75 +3914,6 @@
                 "coordinates": [
                     145.3521958845564,
                     -37.82853501378769
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Western Hwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "not yet under control",
-                "created": "2020-05-25T14:07:00+10:00",
-                "updated": "2020-05-25T14:07:00+10:00",
-                "id": "ESTA:200523074",
-                "location": "Western Hwy, Warrenheip",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.933321265369,
-                    -37.5640997064772
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cooper St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-25T13:52:00+10:00",
-                "updated": "2020-05-25T14:00:00+10:00",
-                "id": "ESTA:200523062",
-                "location": "Cooper St, Stawell",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.7782389230804,
-                    -37.06689279674411
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Potter St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-25T13:31:00+10:00",
-                "updated": "2020-05-25T13:54:00+10:00",
-                "id": "ESTA:200523036",
-                "location": "Potter St, Craigieburn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94479228166634,
-                    -37.60842132522672
                 ]
             }
         },

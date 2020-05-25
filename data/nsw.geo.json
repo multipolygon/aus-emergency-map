@@ -145,10 +145,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.80109800000002,
-                    -30.57042699999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.80109800000002,
+                            -30.57042699999994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.801587852,
+                                            -30.569287271
+                                        ],
+                                        [
+                                            151.801540263,
+                                            -30.569311066
+                                        ],
+                                        [
+                                            151.801825798,
+                                            -30.569358655
+                                        ],
+                                        [
+                                            151.801920977,
+                                            -30.569858342
+                                        ],
+                                        [
+                                            151.801540263,
+                                            -30.570334234
+                                        ],
+                                        [
+                                            151.800992986,
+                                            -30.570500796
+                                        ],
+                                        [
+                                            151.800778836,
+                                            -30.570167672
+                                        ],
+                                        [
+                                            151.800874014,
+                                            -30.56964419
+                                        ],
+                                        [
+                                            151.801587852,
+                                            -30.569287271
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -158,11 +211,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/383457",
-                "created": "2020-05-25T05:08:00+10:00",
-                "updated": "2020-05-25T15:08:00+10:00",
+                "created": "2020-05-25T05:35:00+10:00",
+                "updated": "2020-05-25T15:35:00+10:00",
                 "location": "914 Gara Rd, Argyle, NSW 2350",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 914 Gara Rd, Argyle, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 May 2020 15:08",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 914 Gara Rd, Argyle, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 May 2020 15:35",
                 "title": "incident: fire"
             }
         },
@@ -433,37 +486,13 @@
                 "sourceTitle": "Mount Lofty Rd, Nashdale",
                 "category": "other",
                 "subcategory": "assist other agency",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/383461",
-                "created": "2020-05-25T05:18:00+10:00",
-                "updated": "2020-05-25T15:18:00+10:00",
+                "created": "2020-05-25T05:29:00+10:00",
+                "updated": "2020-05-25T15:29:00+10:00",
                 "location": "28 Mount Lofty Rd, Nashdale, NSW 2800",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 28 Mount Lofty Rd, Nashdale, NSW 2800 <br />COUNCIL AREA: Cabonne <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 May 2020 15:18",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.3948210000001,
-                    -33.288922999999954
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old Maitland Rd, Mardi",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/383452",
-                "created": "2020-05-25T04:43:00+10:00",
-                "updated": "2020-05-25T14:43:00+10:00",
-                "location": "Old Maitland Rd, Mardi, NSW 2259",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Old Maitland Rd, Mardi, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 May 2020 14:43",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 28 Mount Lofty Rd, Nashdale, NSW 2800 <br />COUNCIL AREA: Cabonne <br />STATUS: Being controlled <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Ambulance <br />UPDATED: 25 May 2020 15:29",
                 "title": "incident: other"
             }
         },

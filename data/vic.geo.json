@@ -3798,9 +3798,31 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-05-25T12:50:00+10:00",
+                "updated": "2020-05-25T12:53:00+10:00",
+                "id": "ESTA:200551820",
+                "location": "Lake Wendouree",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.84765650636552,
+                    -37.55520577148677
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Drummond St",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "building fire",
                 "status": "under control",
                 "created": "2020-05-25T12:17:00+10:00",
                 "updated": "2020-05-25T12:34:00+10:00",
@@ -3821,82 +3843,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-05-25T11:37:00+10:00",
-                "updated": "2020-05-25T12:34:00+10:00",
-                "id": "ESTA:200551815",
-                "location": "Hastings",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.19137458382957,
-                    -38.30624649213105
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lt Bourke St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Tynon St",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-05-25T12:35:26+10:00",
-                "updated": "2020-05-25T12:35:26+10:00",
-                "id": "ESTA:200522963",
-                "location": "Lt Bourke St, Melbourne",
+                "created": "2020-05-25T12:49:00+10:00",
+                "updated": "2020-05-25T12:49:00+10:00",
+                "id": "ESTA:200522994",
+                "location": "Tynon St, Orbost",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96877994222484,
-                    -37.811380004783
+                    148.4604074153242,
+                    -37.70403992989433
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Melbourne",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Riverside Quay",
+                "category": "rescue",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-05-25T12:43:25+10:00",
-                "updated": "2020-05-25T12:43:25+10:00",
-                "id": "ESTA:200522983",
-                "location": "Melbourne, Melbourne",
+                "created": "2020-05-25T12:55:24+10:00",
+                "updated": "2020-05-25T12:55:24+10:00",
+                "id": "ESTA:200522997",
+                "location": "Riverside Quay, Southbank",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9597844274055,
-                    -37.813008146399866
+                    144.96469816983839,
+                    -37.82133496198138
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Langhorne St",
+                "sourceTitle": "East Melbourne",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-05-25T12:44:00+10:00",
-                "updated": "2020-05-25T12:44:00+10:00",
-                "id": "ESTA:200522991",
-                "location": "Langhorne St, Dandenong",
+                "created": "2020-05-25T12:55:56+10:00",
+                "updated": "2020-05-25T12:55:56+10:00",
+                "id": "ESTA:200522995",
+                "location": "East Melbourne, East Melbourne",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3904,8 +3904,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2154605315491,
-                    -37.98683787008602
+                    144.98093211749926,
+                    -37.81013015341392
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Eldridge Pl",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-25T13:00:00+10:00",
+                "updated": "2020-05-25T13:02:00+10:00",
+                "id": "ESTA:200523001",
+                "location": "Eldridge Pl, Belmont",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.34558885536933,
+                    -38.18855900150484
                 ]
             }
         },
@@ -3928,6 +3951,75 @@
                 "coordinates": [
                     149.148073197,
                     -37.1544336919999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lawrie Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-25T12:53:00+10:00",
+                "updated": "2020-05-25T12:53:00+10:00",
+                "id": "ESTA:200522996",
+                "location": "Lawrie Dr, Alfredton",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.80228392196602,
+                    -37.55858998431242
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Saloon Cct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-25T11:52:00+10:00",
+                "updated": "2020-05-25T12:14:00+10:00",
+                "id": "ESTA:200522936",
+                "location": "Saloon Cct, Clyde North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.31824162776394,
+                    -38.117042441967136
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lavers Hill-Cobden Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-25T09:09:00+10:00",
+                "updated": "2020-05-25T12:13:00+10:00",
+                "id": "ESTA:200522700",
+                "location": "Lavers Hill-Cobden Rd, Cobden",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.1007202576415,
+                    -38.3492708713686
                 ]
             }
         },
@@ -3997,75 +4089,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Saloon Cct",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-25T11:52:00+10:00",
-                "updated": "2020-05-25T12:14:00+10:00",
-                "id": "ESTA:200522936",
-                "location": "Saloon Cct, Clyde North",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.31824162776394,
-                    -38.117042441967136
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lavers Hill-Cobden Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-25T09:09:00+10:00",
-                "updated": "2020-05-25T12:13:00+10:00",
-                "id": "ESTA:200522700",
-                "location": "Lavers Hill-Cobden Rd, Cobden",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.1007202576415,
-                    -38.3492708713686
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Meadow Heights",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-25T11:32:13+10:00",
-                "updated": "2020-05-25T11:32:13+10:00",
-                "id": "ESTA:200522872",
-                "location": "Meadow Heights, Meadow Heights",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.92895171931147,
-                    -37.65405151215481
                 ]
             }
         }

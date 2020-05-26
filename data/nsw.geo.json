@@ -145,10 +145,91 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.58323478698748,
-                    -33.937234297401
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.58323478698748,
+                            -33.9372342974005
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.603293643,
+                                            -33.9325467589999
+                                        ],
+                                        [
+                                            149.603531589,
+                                            -33.9324277859999
+                                        ],
+                                        [
+                                            149.603531589,
+                                            -33.9333795699999
+                                        ],
+                                        [
+                                            149.602579805,
+                                            -33.935759032
+                                        ],
+                                        [
+                                            149.602222886,
+                                            -33.940280007
+                                        ],
+                                        [
+                                            149.599486506,
+                                            -33.942778442
+                                        ],
+                                        [
+                                            149.593061961,
+                                            -33.942421522
+                                        ],
+                                        [
+                                            149.592348123,
+                                            -33.9418266559999
+                                        ],
+                                        [
+                                            149.59032558,
+                                            -33.94194563
+                                        ],
+                                        [
+                                            149.586161524,
+                                            -33.941469738
+                                        ],
+                                        [
+                                            149.588065093,
+                                            -33.932665732
+                                        ],
+                                        [
+                                            149.590444554,
+                                            -33.932665732
+                                        ],
+                                        [
+                                            149.593537853,
+                                            -33.934450327
+                                        ],
+                                        [
+                                            149.594846557,
+                                            -33.9337364899999
+                                        ],
+                                        [
+                                            149.593537853,
+                                            -33.931476002
+                                        ],
+                                        [
+                                            149.603293643,
+                                            -33.9325467589999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -489,6 +570,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Narellan Rd, Currans Hill, NSW 2567 <br />COUNCIL AREA: Camden <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 May 2020 08:28",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.6142830000001,
+                    -31.835838999999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, Coopernook",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/383499",
+                "created": "2020-05-26T00:30:00+10:00",
+                "updated": "2020-05-26T10:30:00+10:00",
+                "location": "Pacific Hwy, Coopernook, NSW 2426",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Coopernook, NSW 2426 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 May 2020 10:30",
+                "title": "incident: other"
             }
         },
         {

@@ -3821,81 +3821,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Outlook Dr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-26T13:01:00+10:00",
-                "updated": "2020-05-26T13:08:00+10:00",
-                "id": "ESTA:200523823",
-                "location": "Outlook Dr, Dandenong North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.21808043652482,
-                    -37.945359861453284
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ford St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-26T12:48:00+10:00",
-                "updated": "2020-05-26T13:00:00+10:00",
-                "id": "ESTA:200523807",
-                "location": "Ford St, Ballarat East",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.8743311339425,
-                    -37.56515539543387
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Vista Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-05-26T13:21:00+10:00",
-                "updated": "2020-05-26T13:21:00+10:00",
-                "id": "ESTA:200523852",
-                "location": "Vista Rd, Belgrave Heights",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34334065760842,
-                    -37.93021200026123
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2020-05-26T13:04:00+10:00",
-                "updated": "2020-05-26T13:04:00+10:00",
+                "updated": "2020-05-26T13:35:00+10:00",
                 "id": "ESTA:200523832",
                 "location": "Iona",
                 "size": "Small",
@@ -3916,9 +3847,9 @@
                 "sourceTitle": "Swansea Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-05-26T13:26:00+10:00",
-                "updated": "2020-05-26T13:26:00+10:00",
+                "updated": "2020-05-26T13:36:00+10:00",
                 "id": "ESTA:200523859",
                 "location": "Swansea Rd, Lilydale",
                 "size": "Small",
@@ -3930,6 +3861,52 @@
                 "coordinates": [
                     145.35456205290376,
                     -37.76134549949184
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bunyip-Modella Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-26T13:43:00+10:00",
+                "updated": "2020-05-26T13:43:00+10:00",
+                "id": "ESTA:200523875",
+                "location": "Bunyip-Modella Rd, Iona",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.7046563024266,
+                    -38.1248232682229
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pearl Ct",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "responding",
+                "created": "2020-05-26T13:43:00+10:00",
+                "updated": "2020-05-26T13:43:00+10:00",
+                "id": "ESTA:200523874",
+                "location": "Pearl Ct, Cranbourne West",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26629725228818,
+                    -38.10295884159361
                 ]
             }
         },
@@ -4002,6 +3979,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Vista Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-26T13:21:00+10:00",
+                "updated": "2020-05-26T13:34:00+10:00",
+                "id": "ESTA:200523852",
+                "location": "Vista Rd, Belgrave Heights",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34334065760842,
+                    -37.93021200026123
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Outlook Dr",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-26T13:01:00+10:00",
+                "updated": "2020-05-26T13:08:00+10:00",
+                "id": "ESTA:200523823",
+                "location": "Outlook Dr, Dandenong North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21808043652482,
+                    -37.945359861453284
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ford St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-26T12:48:00+10:00",
+                "updated": "2020-05-26T13:00:00+10:00",
+                "id": "ESTA:200523807",
+                "location": "Ford St, Ballarat East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8743311339425,
+                    -37.56515539543387
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Millennium Park Dr",
                 "category": "other",
                 "subcategory": "other",
@@ -4065,29 +4111,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dunai Walk",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-05-26T13:04:54+10:00",
-                "updated": "2020-05-26T13:04:54+10:00",
-                "id": "ESTA:200523812",
-                "location": "Dunai Walk, Delahey",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.769143674599,
-                    -37.72378969183931
                 ]
             }
         },

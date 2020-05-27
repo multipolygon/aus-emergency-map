@@ -3778,9 +3778,9 @@
                 "sourceTitle": "Paynesville",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "unknown",
                 "created": "2020-05-27T15:48:40+10:00",
-                "updated": "2020-05-27T15:49:00+10:00",
+                "updated": "2020-05-27T16:06:42+10:00",
                 "id": "ESTA:200524835",
                 "location": "Fort King Rd, Paynesville",
                 "title": "incident: fire"
@@ -3800,9 +3800,9 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-05-27T15:50:00+10:00",
-                "updated": "2020-05-27T15:58:00+10:00",
+                "updated": "2020-05-27T16:09:00+10:00",
                 "id": "ESTA:200524837",
                 "location": "Lockwood",
                 "size": "Small",
@@ -3820,14 +3820,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hopkins Av",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-27T15:53:14+10:00",
-                "updated": "2020-05-27T15:53:14+10:00",
-                "id": "ESTA:200524827",
-                "location": "Hopkins Av, Keilor",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-05-27T16:10:00+10:00",
+                "updated": "2020-05-27T16:14:00+10:00",
+                "id": "ESTA:200524855",
+                "location": "Rippleside",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -3835,68 +3835,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.82674186692554,
-                    -37.71622795546556
+                    144.35687450140313,
+                    -38.12235326991702
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Limassol Ct",
+                "sourceTitle": "Alexander St",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-05-27T15:40:00+10:00",
-                "updated": "2020-05-27T15:54:00+10:00",
-                "id": "ESTA:200524825",
-                "location": "Limassol Ct, Donvale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.18672301467137,
-                    -37.76466771333288
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lockwood Rd",
-                "category": "other",
-                "subcategory": "other",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-05-27T15:59:00+10:00",
-                "updated": "2020-05-27T15:59:00+10:00",
-                "id": "ESTA:200524844",
-                "location": "Lockwood Rd, Lockwood",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.16555735934628,
-                    -36.81031057108302
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Huffers Lane",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-05-27T15:38:00+10:00",
-                "updated": "2020-05-27T15:52:00+10:00",
-                "id": "ESTA:200524823",
-                "location": "Huffers Lane, Rosedale",
+                "created": "2020-05-27T16:12:38+10:00",
+                "updated": "2020-05-27T16:12:38+10:00",
+                "id": "ESTA:200524856",
+                "location": "Alexander St, Box Hill",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3904,30 +3858,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.79154941727424,
-                    -38.15831355902997
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Riverina Hwy, Berrigan",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-05-27T09:03:00+10:00",
-                "updated": "2020-05-27T09:03:00+10:00",
-                "id": "2020-05-27T09:03:00.0000000:383496",
-                "location": "13727 Riverina Hwy, Berrigan, Nsw 2712",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.820042,
-                    -35.68236
+                    145.1192463265318,
+                    -37.825182248298724
                 ]
             }
         },
@@ -4000,14 +3932,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Derrimut Rd",
+                "sourceTitle": "Riverina Hwy, Berrigan",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-05-27T09:03:00+10:00",
+                "updated": "2020-05-27T09:03:00+10:00",
+                "id": "2020-05-27T09:03:00.0000000:383496",
+                "location": "13727 Riverina Hwy, Berrigan, Nsw 2712",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.820042,
+                    -35.68236
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Limassol Ct",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-27T15:47:00+10:00",
-                "updated": "2020-05-27T15:47:00+10:00",
-                "id": "ESTA:200524832",
-                "location": "Derrimut Rd, Werribee",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-27T15:40:00+10:00",
+                "updated": "2020-05-27T15:54:00+10:00",
+                "id": "ESTA:200524825",
+                "location": "Limassol Ct, Donvale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4015,8 +3969,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.68107893216848,
-                    -37.88623832010148
+                    145.18672301467137,
+                    -37.76466771333288
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Huffers Lane",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-27T15:38:00+10:00",
+                "updated": "2020-05-27T15:52:00+10:00",
+                "id": "ESTA:200524823",
+                "location": "Huffers Lane, Rosedale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.79154941727424,
+                    -38.15831355902997
                 ]
             }
         },
@@ -4115,23 +4092,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Grandview Gr",
-                "category": "fire",
-                "subcategory": "non structure fire",
+                "sourceTitle": "Hopkins Av",
+                "category": "rescue",
+                "subcategory": "other",
                 "status": "under control",
-                "created": "2020-05-27T15:30:03+10:00",
-                "updated": "2020-05-27T15:30:03+10:00",
-                "id": "ESTA:200524813",
-                "location": "Grandview Gr, Oakleigh",
+                "created": "2020-05-27T15:53:14+10:00",
+                "updated": "2020-05-27T15:53:14+10:00",
+                "id": "ESTA:200524827",
+                "location": "Hopkins Av, Keilor",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10553081512552,
-                    -37.894580120068866
+                    144.82674186692554,
+                    -37.71622795546556
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-05-27T16:10:00+10:00",
+                "updated": "2020-05-27T16:12:00+10:00",
+                "id": "ESTA:200551873",
+                "location": "Rippleside",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.35687450140313,
+                    -38.12235326991702
                 ]
             }
         }

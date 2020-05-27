@@ -3774,14 +3774,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Petrel Ct",
+                "sourceTitle": "Stratford-Maffra Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-27T18:10:00+10:00",
+                "updated": "2020-05-27T18:17:00+10:00",
+                "id": "ESTA:200524922",
+                "location": "Stratford-Maffra Rd, Maffra",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.02180442569335,
+                    -37.97577107376117
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sturt St",
                 "category": "fire",
                 "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-05-27T17:54:00+10:00",
-                "updated": "2020-05-27T18:06:00+10:00",
-                "id": "ESTA:200524919",
-                "location": "Petrel Ct, Werribee",
+                "created": "2020-05-27T16:24:00+10:00",
+                "updated": "2020-05-27T17:54:00+10:00",
+                "id": "ESTA:200524866",
+                "location": "Sturt St, Ballarat Central",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3789,8 +3812,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.66999303811164,
-                    -37.88984907703124
+                    143.85594535966285,
+                    -37.56212383993458
                 ]
             }
         },
@@ -3820,36 +3843,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Castlemaine",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-27T16:27:07+10:00",
-                "updated": "2020-05-27T18:08:44+10:00",
-                "id": "ESTA:200524872",
-                "location": "Berkeley St, Castlemaine",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.2168291224012,
-                    -37.059846816138815
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Stratford-Maffra Rd",
+                "sourceTitle": "Verdon St",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-05-27T18:10:00+10:00",
-                "updated": "2020-05-27T18:10:00+10:00",
-                "id": "ESTA:200524922",
-                "location": "Stratford-Maffra Rd, Maffra",
+                "created": "2020-05-27T18:18:00+10:00",
+                "updated": "2020-05-27T18:18:00+10:00",
+                "id": "ESTA:200524927",
+                "location": "Verdon St, Dromana",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -3857,8 +3858,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.02180442569335,
-                    -37.97577107376117
+                    144.95880426446206,
+                    -38.33622930610048
                 ]
             }
         },
@@ -3868,7 +3869,7 @@
                 "sourceTitle": "Ward St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-05-27T18:10:00+10:00",
                 "updated": "2020-05-27T18:10:00+10:00",
                 "id": "ESTA:200524923",
@@ -3888,22 +3889,115 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Northcote",
+                "sourceTitle": "Whalley St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-05-27T18:14:27+10:00",
-                "updated": "2020-05-27T18:15:12+10:00",
+                "status": "safe",
+                "created": "2020-05-27T18:25:43+10:00",
+                "updated": "2020-05-27T18:25:43+10:00",
                 "id": "ESTA:200524926",
                 "location": "Whalley St, Northcote",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.00691406718857,
-                    -37.77106983058681
+                    145.00691264951587,
+                    -37.771072554178865
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Highett",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-27T18:25:49+10:00",
+                "updated": "2020-05-27T18:25:49+10:00",
+                "id": "ESTA:200524932",
+                "location": "Highett, Highett",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05155769355284,
+                    -37.957394336014026
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hornsey Pwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-27T18:24:00+10:00",
+                "updated": "2020-05-27T18:24:00+10:00",
+                "id": "ESTA:200524930",
+                "location": "Hornsey Pwy, Mildura",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.16373035066775,
+                    -34.20173128602235
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Petrel Ct",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-27T17:54:00+10:00",
+                "updated": "2020-05-27T18:06:00+10:00",
+                "id": "ESTA:200524919",
+                "location": "Petrel Ct, Werribee",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.66999303811164,
+                    -37.88984907703124
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Carrum Woods Dr",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-05-27T18:29:00+10:00",
+                "updated": "2020-05-27T18:29:00+10:00",
+                "id": "ESTA:200524934",
+                "location": "Carrum Woods Dr, Carrum Downs",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18886495880142,
+                    -38.09030962928565
                 ]
             }
         },
@@ -4020,23 +4114,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sturt St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-27T16:24:00+10:00",
-                "updated": "2020-05-27T17:54:00+10:00",
-                "id": "ESTA:200524866",
-                "location": "Sturt St, Ballarat Central",
+                "sourceTitle": "Dianne St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-27T18:22:00+10:00",
+                "updated": "2020-05-27T18:22:00+10:00",
+                "id": "ESTA:200524929",
+                "location": "Dianne St, Bayswater",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.85594535966285,
-                    -37.56212383993458
+                    145.2673701317549,
+                    -37.85504766994894
                 ]
             }
         },
@@ -4106,75 +4200,6 @@
                 "coordinates": [
                     145.28590361381185,
                     -37.87733555614308
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Shane Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-27T17:22:00+10:00",
-                "updated": "2020-05-27T17:29:00+10:00",
-                "id": "ESTA:200524899",
-                "location": "Shane Av, Seabrook",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.75337245996826,
-                    -37.882414333161485
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-27T17:22:00+10:00",
-                "updated": "2020-05-27T17:23:00+10:00",
-                "id": "ESTA:200524901",
-                "location": "Sebastopol",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.83861277590808,
-                    -37.61150621423622
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-27T17:22:00+10:00",
-                "updated": "2020-05-27T17:23:00+10:00",
-                "id": "ESTA:200524900",
-                "location": "Mildura",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.14627382827598,
-                    -34.186195384014574
                 ]
             }
         },

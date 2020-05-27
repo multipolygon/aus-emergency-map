@@ -3732,9 +3732,9 @@
                 "sourceTitle": "Nelson - River Rd",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2020-05-27T09:02:21+10:00",
-                "updated": "2020-05-27T09:02:21+10:00",
+                "status": "patrolled",
+                "created": "2020-05-27T12:55:17+10:00",
+                "updated": "2020-05-27T12:55:17+10:00",
                 "id": 3002387,
                 "location": "4.5Km Ne Of Nelson",
                 "size": "906.11",
@@ -3756,8 +3756,8 @@
                 "category": "fire",
                 "subcategory": "planned burn",
                 "status": "in progress",
-                "created": "2020-05-27T08:14:19+10:00",
-                "updated": "2020-05-27T08:14:19+10:00",
+                "created": "2020-05-27T12:56:20+10:00",
+                "updated": "2020-05-27T12:56:20+10:00",
                 "id": 3006314,
                 "location": "1Km N Of Wairewa",
                 "size": "14.69",
@@ -3798,57 +3798,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Waterman Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-05-27T13:07:00+10:00",
-                "updated": "2020-05-27T13:07:00+10:00",
-                "id": "ESTA:200524672",
-                "location": "Waterman Dr, Clyde",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33418724089248,
-                    -38.1246232991727
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thomson (Geelong)",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-26T16:48:05+10:00",
-                "updated": "2020-05-27T13:08:29+10:00",
-                "id": "ESTA:200524056",
-                "location": "Tate St, Thomson (Geelong)",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.37716586781923,
-                    -38.16749853276141
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Cureton Av",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-05-27T13:06:00+10:00",
-                "updated": "2020-05-27T13:06:00+10:00",
+                "updated": "2020-05-27T13:20:00+10:00",
                 "id": "ESTA:200524668",
                 "location": "Cureton Av, Mildura",
                 "size": "Small",
@@ -3866,37 +3821,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Coburg",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-05-27T13:14:26+10:00",
-                "updated": "2020-05-27T13:14:26+10:00",
-                "id": "ESTA:200524666",
-                "location": "Coburg, Coburg",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94720422856923,
-                    -37.743021220831544
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old Thorpdale Rd",
+                "sourceTitle": "Waterman Dr",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-27T13:14:00+10:00",
-                "updated": "2020-05-27T13:14:00+10:00",
-                "id": "ESTA:200524680",
-                "location": "Old Thorpdale Rd, Mirboo North",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-27T13:07:00+10:00",
+                "updated": "2020-05-27T13:20:00+10:00",
+                "id": "ESTA:200524672",
+                "location": "Waterman Dr, Clyde",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3904,8 +3836,99 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    145.33418724089248,
+                    -38.1246232991727
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Thorpdale Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-27T13:25:00+10:00",
+                "updated": "2020-05-27T13:25:00+10:00",
+                "id": "ESTA:200524693",
+                "location": "Old Thorpdale Rd, Mirboo North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     146.15292638079973,
                     -38.387878767966896
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hastings",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "unknown",
+                "created": "2020-05-27T13:23:30+10:00",
+                "updated": "2020-05-27T13:25:35+10:00",
+                "id": "ESTA:200524692",
+                "location": "Cool Store Rd, Hastings",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18998006145085,
+                    -38.302907855070046
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Eleventh St",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-05-27T13:18:00+10:00",
+                "updated": "2020-05-27T13:26:00+10:00",
+                "id": "ESTA:200524687",
+                "location": "Eleventh St, Mildura",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.17152526556572,
+                    -34.20109797364516
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Collingwood",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-27T13:29:22+10:00",
+                "updated": "2020-05-27T13:29:22+10:00",
+                "id": "ESTA:200524698",
+                "location": "Collingwood, Collingwood",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99275528816514,
+                    -37.80120246589903
                 ]
             }
         },
@@ -4000,6 +4023,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Olive Gr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-27T13:26:00+10:00",
+                "updated": "2020-05-27T13:26:00+10:00",
+                "id": "ESTA:200524694",
+                "location": "Olive Gr, Frankston",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12935969895972,
+                    -38.14468114656159
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Thorpdale Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-27T13:14:00+10:00",
+                "updated": "2020-05-27T13:14:00+10:00",
+                "id": "ESTA:200524680",
+                "location": "Old Thorpdale Rd, Mirboo North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.15292638079973,
+                    -38.387878767966896
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Barragowa Dr",
                 "category": "other",
                 "subcategory": "other",
@@ -4063,6 +4132,29 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Coburg",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-05-27T13:14:26+10:00",
+                "updated": "2020-05-27T13:14:26+10:00",
+                "id": "ESTA:200524666",
+                "location": "Coburg, Coburg",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94720422856923,
+                    -37.743021220831544
                 ]
             }
         },

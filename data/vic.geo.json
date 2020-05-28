@@ -3833,12 +3833,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-28T18:11:00+10:00",
+                "updated": "2020-05-28T18:14:00+10:00",
+                "id": "ESTA:200525901",
+                "location": "Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20739882105698,
+                    -37.98684140740334
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-05-28T17:47:00+10:00",
+                "updated": "2020-05-28T17:52:00+10:00",
+                "id": "ESTA:200525887",
+                "location": "Hallam",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27857748408445,
+                    -38.008695484360025
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Ardlie St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-05-28T18:01:00+10:00",
-                "updated": "2020-05-28T18:01:00+10:00",
+                "updated": "2020-05-28T18:19:00+10:00",
                 "id": "ESTA:200525897",
                 "location": "Ardlie St, Warrnambool",
                 "size": "Small",
@@ -3850,6 +3896,52 @@
                 "coordinates": [
                     142.47735536132421,
                     -38.370995560418514
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tucker Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-05-28T18:24:49+10:00",
+                "updated": "2020-05-28T18:24:49+10:00",
+                "id": "ESTA:200525903",
+                "location": "Tucker Rd, Bentleigh",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05130418918384,
+                    -37.91930204683684
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hawthorn East",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-05-28T18:25:04+10:00",
+                "updated": "2020-05-28T18:25:04+10:00",
+                "id": "ESTA:200525906",
+                "location": "Hawthorn East, Hawthorn East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04768813566193,
+                    -37.83032265896825
                 ]
             }
         },
@@ -3879,83 +3971,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-05-28T18:13:00+10:00",
-                "updated": "2020-05-28T18:13:00+10:00",
-                "id": "ESTA:200525902",
-                "location": "Taylors Hill",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.75548404455225,
-                    -37.7122008374987
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Upper Gellibrand Rd",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-28T18:11:00+10:00",
-                "updated": "2020-05-28T18:14:00+10:00",
-                "id": "ESTA:200525901",
-                "location": "Dandenong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.20739882105698,
-                    -37.98684140740334
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tucker Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-05-28T18:15:39+10:00",
-                "updated": "2020-05-28T18:15:39+10:00",
-                "id": "ESTA:200525903",
-                "location": "Tucker Rd, Bentleigh",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05130418918384,
-                    -37.91930204683684
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Clairmont Av",
-                "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "bushfire",
                 "status": "under control",
-                "created": "2020-05-28T18:06:00+10:00",
-                "updated": "2020-05-28T18:16:00+10:00",
-                "id": "ESTA:200525900",
-                "location": "Clairmont Av, Cranbourne",
+                "created": "2020-05-28T18:00:00+10:00",
+                "updated": "2020-05-28T18:30:00+10:00",
+                "id": "ESTA:200525896",
+                "location": "Upper Gellibrand Rd, Barramunga",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3963,8 +3986,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.27467592699784,
-                    -38.09244832005541
+                    143.65750121229718,
+                    -38.56242540913746
                 ]
             }
         },
@@ -4059,14 +4082,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Upper Gellibrand Rd",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-28T18:20:00+10:00",
+                "updated": "2020-05-28T18:28:00+10:00",
+                "id": "ESTA:200525904",
+                "location": "Dandenong North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22636629727594,
+                    -37.955722627664336
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clairmont Av",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2020-05-28T18:00:00+10:00",
-                "updated": "2020-05-28T18:00:00+10:00",
-                "id": "ESTA:200525896",
-                "location": "Upper Gellibrand Rd, Barramunga",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-05-28T18:06:00+10:00",
+                "updated": "2020-05-28T18:16:00+10:00",
+                "id": "ESTA:200525900",
+                "location": "Clairmont Av, Cranbourne",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4074,8 +4120,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.65750121229718,
-                    -38.56242540913746
+                    145.27467592699784,
+                    -38.09244832005541
                 ]
             }
         },
@@ -4085,11 +4131,11 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-05-28T17:47:00+10:00",
-                "updated": "2020-05-28T17:52:00+10:00",
-                "id": "ESTA:200525887",
-                "location": "Hallam",
+                "status": "responding",
+                "created": "2020-05-28T18:13:00+10:00",
+                "updated": "2020-05-28T18:13:00+10:00",
+                "id": "ESTA:200525902",
+                "location": "Taylors Hill",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -4097,8 +4143,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.27857748408445,
-                    -38.008695484360025
+                    144.75548404455225,
+                    -37.7122008374987
                 ]
             }
         },

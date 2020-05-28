@@ -3833,14 +3833,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hawson Av",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-05-29T05:39:00+10:00",
+                "updated": "2020-05-29T06:20:00+10:00",
+                "id": "ESTA:200551909",
+                "location": "Seymour",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.15804942770492,
+                    -36.9922562495701
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cressy Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-05-29T06:16:28+10:00",
-                "updated": "2020-05-29T06:16:28+10:00",
-                "id": "ESTA:200526023",
-                "location": "Hawson Av, Glen Huntly",
+                "created": "2020-05-29T06:29:00+10:00",
+                "updated": "2020-05-29T06:29:00+10:00",
+                "id": "ESTA:200526026",
+                "location": "Cressy Rd, Winchelsea",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3848,8 +3870,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.03879147312665,
-                    -37.892773213099694
+                    143.9621448659899,
+                    -38.229818846641315
                 ]
             }
         },
@@ -4007,28 +4029,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-29T05:39:00+10:00",
-                "updated": "2020-05-29T05:55:00+10:00",
-                "id": "ESTA:200551909",
-                "location": "Seymour",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.15804942770492,
-                    -36.9922562495701
                 ]
             }
         }

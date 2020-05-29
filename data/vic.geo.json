@@ -4053,81 +4053,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hurtle St",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-29T12:25:59+10:00",
-                "updated": "2020-05-29T12:25:59+10:00",
-                "id": "ESTA:200526695",
-                "location": "Hurtle St, Lalor",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01139273816918,
-                    -37.67266087265498
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Murray Valley Hwy",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-29T12:04:00+10:00",
-                "updated": "2020-05-29T12:28:00+10:00",
-                "id": "ESTA:200526677",
-                "location": "Murray Valley Hwy, Burramine",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.84142815436763,
-                    -35.99510414790311
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ravenslea Cr",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-29T12:28:25+10:00",
-                "updated": "2020-05-29T12:28:25+10:00",
-                "id": "ESTA:200526706",
-                "location": "Ravenslea Cr, Deer Park",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7610876980476,
-                    -37.763887887327805
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Glyn Ct",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-05-29T12:29:28+10:00",
-                "updated": "2020-05-29T12:29:28+10:00",
+                "status": "under control",
+                "created": "2020-05-29T12:37:41+10:00",
+                "updated": "2020-05-29T12:37:41+10:00",
                 "id": "ESTA:200526736",
                 "location": "Glyn Ct, Cheltenham",
                 "size": "Small",
@@ -4145,22 +4076,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Riverina Hwy, Berrigan",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-05-29T11:18:00+10:00",
-                "updated": "2020-05-29T11:18:00+10:00",
-                "id": "2020-05-29T11:18:00.0000000:383496",
-                "location": "13727 Riverina Hwy, Berrigan, Nsw 2712",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-05-29T10:39:00+10:00",
+                "updated": "2020-05-29T12:42:00+10:00",
+                "id": "ESTA:200526460",
+                "location": "Wangoom",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.820042,
-                    -35.68236
+                    142.56906994539693,
+                    -38.33983126162741
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-05-29T11:09:00+10:00",
+                "updated": "2020-05-29T12:42:00+10:00",
+                "id": "ESTA:200551913",
+                "location": "Patterson Lakes",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14412646262096,
+                    -38.07073200389959
                 ]
             }
         },
@@ -4255,6 +4208,51 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Riverina Hwy, Berrigan",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-05-29T11:18:00+10:00",
+                "updated": "2020-05-29T11:18:00+10:00",
+                "id": "2020-05-29T11:18:00.0000000:383496",
+                "location": "13727 Riverina Hwy, Berrigan, Nsw 2712",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.820042,
+                    -35.68236
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murray Valley Hwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-29T12:04:00+10:00",
+                "updated": "2020-05-29T12:28:00+10:00",
+                "id": "ESTA:200526677",
+                "location": "Murray Valley Hwy, Burramine",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.84142815436763,
+                    -35.99510414790311
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Barry St",
                 "category": "other",
                 "subcategory": "other",
@@ -4272,29 +4270,6 @@
                 "coordinates": [
                     145.14814556323415,
                     -38.113393361468816
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-05-29T10:39:00+10:00",
-                "updated": "2020-05-29T11:51:00+10:00",
-                "id": "ESTA:200526460",
-                "location": "Wangoom",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.56906994539693,
-                    -38.33983126162741
                 ]
             }
         },
@@ -4347,29 +4322,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Turnbull Ct",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-29T12:08:08+10:00",
-                "updated": "2020-05-29T12:08:08+10:00",
-                "id": "ESTA:200526670",
-                "location": "Turnbull Ct, Ringwood",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.23158981193566,
-                    -37.807718731585155
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
@@ -4408,28 +4360,6 @@
                 "coordinates": [
                     142.56911375597804,
                     -38.33974055939846
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-05-29T11:09:00+10:00",
-                "updated": "2020-05-29T11:48:00+10:00",
-                "id": "ESTA:200551913",
-                "location": "Patterson Lakes",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.14412646262096,
-                    -38.07073200389959
                 ]
             }
         }

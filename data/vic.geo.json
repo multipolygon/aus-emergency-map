@@ -3856,12 +3856,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "King St",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-30T00:13:00+10:00",
+                "updated": "2020-05-30T01:53:00+10:00",
+                "id": "ESTA:200527469",
+                "location": "King St, Metung",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.85071183952869,
+                    -37.88835543318276
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Bald Hill Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-05-30T01:23:00+10:00",
-                "updated": "2020-05-30T01:41:00+10:00",
+                "updated": "2020-05-30T02:00:00+10:00",
                 "id": "ESTA:200527480",
                 "location": "Bald Hill Rd, Pakenham",
                 "size": "Small",
@@ -3873,29 +3896,6 @@
                 "coordinates": [
                     145.48974567213781,
                     -38.082675986121664
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Azalea Cr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-30T01:17:00+10:00",
-                "updated": "2020-05-30T01:42:00+10:00",
-                "id": "ESTA:200527479",
-                "location": "Azalea Cr, Emerald",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4727201610215,
-                    -37.93955101341373
                 ]
             }
         },
@@ -11359,14 +11359,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "King St",
+                "sourceTitle": "Azalea Cr",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "not yet under control",
-                "created": "2020-05-30T00:13:00+10:00",
-                "updated": "2020-05-30T00:13:00+10:00",
-                "id": "ESTA:200527469",
-                "location": "King St, Metung",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-05-30T01:17:00+10:00",
+                "updated": "2020-05-30T01:42:00+10:00",
+                "id": "ESTA:200527479",
+                "location": "Azalea Cr, Emerald",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -11374,8 +11374,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.85071183952869,
-                    -37.88835543318276
+                    145.4727201610215,
+                    -37.93955101341373
                 ]
             }
         },

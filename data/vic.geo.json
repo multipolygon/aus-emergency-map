@@ -3856,10 +3856,32 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-05-30T10:52:00+10:00",
+                "updated": "2020-05-30T10:56:00+10:00",
+                "id": "ESTA:200551931",
+                "location": "Mount Evelyn",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.37353128717965,
+                    -37.792431049554246
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Railway Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-05-30T10:37:00+10:00",
                 "updated": "2020-05-30T10:37:00+10:00",
                 "id": "ESTA:200527957",
@@ -3879,46 +3901,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Housden St",
-                "category": "rescue",
-                "subcategory": "other",
+                "sourceTitle": "Latrobe Rd",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-05-30T10:38:22+10:00",
-                "updated": "2020-05-30T10:38:22+10:00",
-                "id": "ESTA:200527931",
-                "location": "Housden St, Broadmeadows",
+                "created": "2020-05-30T08:33:00+10:00",
+                "updated": "2020-05-30T10:03:00+10:00",
+                "id": "ESTA:200527586",
+                "location": "Latrobe Rd, Princetown",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.93105981974122,
-                    -37.691257304391506
+                    143.16883060362233,
+                    -38.645265264912325
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Escarpment Dr",
-                "category": "rescue",
-                "subcategory": "rescue",
+                "sourceTitle": "Lawrie Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
                 "status": "responding",
-                "created": "2020-05-30T10:37:00+10:00",
-                "updated": "2020-05-30T10:37:00+10:00",
-                "id": "ESTA:200527955",
-                "location": "Escarpment Dr, Frankston South",
+                "created": "2020-05-30T11:01:00+10:00",
+                "updated": "2020-05-30T11:01:00+10:00",
+                "id": "ESTA:200528022",
+                "location": "Lawrie Rd, Beechworth",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.14641064771845,
-                    -38.184214746133115
+                    146.66608895223365,
+                    -36.40247415577397
                 ]
             }
         },
@@ -11404,6 +11426,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Escarpment Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-30T10:37:00+10:00",
+                "updated": "2020-05-30T10:52:00+10:00",
+                "id": "ESTA:200527955",
+                "location": "Escarpment Dr, Frankston South",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14641064771845,
+                    -38.184214746133115
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Futura Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-05-30T08:46:00+10:00",
+                "updated": "2020-05-30T10:24:00+10:00",
+                "id": "ESTA:200527617",
+                "location": "Futura Av, Golden Square",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.23358548413842,
+                    -36.77919212800031
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Olympic Ct",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -11473,46 +11541,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Futura Av",
-                "category": "other",
+                "sourceTitle": "Housden St",
+                "category": "rescue",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-30T08:46:00+10:00",
-                "updated": "2020-05-30T10:24:00+10:00",
-                "id": "ESTA:200527617",
-                "location": "Futura Av, Golden Square",
+                "created": "2020-05-30T10:38:22+10:00",
+                "updated": "2020-05-30T10:38:22+10:00",
+                "id": "ESTA:200527931",
+                "location": "Housden St, Broadmeadows",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.23358548413842,
-                    -36.77919212800031
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Latrobe Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-05-30T08:33:00+10:00",
-                "updated": "2020-05-30T10:03:00+10:00",
-                "id": "ESTA:200527586",
-                "location": "Latrobe Rd, Princetown",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.16883060362233,
-                    -38.645265264912325
+                    144.93105981974122,
+                    -37.691257304391506
                 ]
             }
         }

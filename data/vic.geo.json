@@ -3933,66 +3933,92 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-05-31T10:39:00+10:00",
-                "updated": "2020-05-31T10:47:00+10:00",
-                "id": "ESTA:200552113",
-                "location": "Waurn Ponds",
-                "title": "incident: building damage"
+                "sourceTitle": "Great Alpine Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-31T11:02:00+10:00",
+                "updated": "2020-05-31T11:02:00+10:00",
+                "id": "ESTA:200529248",
+                "location": "Great Alpine Rd, Sarsfield",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.30888583432176,
-                    -38.21366340412038
+                    147.7527465871997,
+                    -37.74814972705809
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-31T10:54:00+10:00",
-                "updated": "2020-05-31T10:59:00+10:00",
-                "id": "ESTA:200552116",
-                "location": "Boronia",
-                "title": "incident: tree down"
+                "sourceTitle": "Woods Point Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-31T11:04:00+10:00",
+                "updated": "2020-05-31T11:04:00+10:00",
+                "id": "ESTA:200529253",
+                "location": "Woods Point Rd, East Warburton",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3016821481257,
-                    -37.86259516803994
+                    145.74888802891712,
+                    -37.727987437140776
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-31T10:55:00+10:00",
-                "updated": "2020-05-31T10:59:00+10:00",
-                "id": "ESTA:200552117",
-                "location": "Black Rock",
-                "title": "incident: tree down"
+                "sourceTitle": "Owens Av",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-05-31T11:06:15+10:00",
+                "updated": "2020-05-31T11:06:15+10:00",
+                "id": "ESTA:200529259",
+                "location": "Owens Av, Glen Waverley",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02138389171168,
-                    -37.96721384096599
+                    145.15980977105448,
+                    -37.88986213415803
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brady Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-05-31T11:02:00+10:00",
+                "updated": "2020-05-31T11:11:00+10:00",
+                "id": "ESTA:200529250",
+                "location": "Brady Rd, Gisborne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.59692607249613,
+                    -37.50217092319528
                 ]
             }
         },
@@ -4002,9 +4028,9 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-05-31T10:57:00+10:00",
-                "updated": "2020-05-31T10:57:00+10:00",
+                "updated": "2020-05-31T11:12:00+10:00",
                 "id": "ESTA:200529235",
                 "location": "Bacchus Marsh",
                 "size": "Small",
@@ -4014,8 +4040,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.431223724368,
-                    -37.67393148914455
+                    144.43045915281783,
+                    -37.67341921369258
                 ]
             }
         },
@@ -4025,9 +4051,9 @@
                 "sourceTitle": "Horne St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
+                "status": "safe",
                 "created": "2020-05-31T10:51:00+10:00",
-                "updated": "2020-05-31T10:51:00+10:00",
+                "updated": "2020-05-31T11:04:00+10:00",
                 "id": "ESTA:200529221",
                 "location": "Horne St, Sunbury",
                 "size": "Small",
@@ -4045,14 +4071,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Frank St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-05-31T10:54:00+10:00",
+                "updated": "2020-05-31T11:13:00+10:00",
+                "id": "ESTA:200552116",
+                "location": "Boronia",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3016821481257,
+                    -37.86259516803994
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "bushfire",
                 "status": "responding",
-                "created": "2020-05-31T11:01:00+10:00",
-                "updated": "2020-05-31T11:01:00+10:00",
-                "id": "ESTA:200529244",
-                "location": "Frank St, Ballarat Central",
+                "created": "2020-05-31T11:13:00+10:00",
+                "updated": "2020-05-31T11:13:00+10:00",
+                "id": "ESTA:200529273",
+                "location": "Warburton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4060,52 +4108,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.85002945855723,
-                    -37.55569812191203
+                    145.6803778919884,
+                    -37.75517967393818
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sarsfield",
-                "category": "fire",
+                "sourceTitle": "Mauger Rd",
+                "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-05-31T11:00:43+10:00",
-                "updated": "2020-05-31T11:01:41+10:00",
-                "id": "ESTA:200529248",
-                "location": "Great Alpine Rd, Sarsfield",
-                "title": "incident: fire"
+                "status": "safe",
+                "created": "2020-05-31T11:08:00+10:00",
+                "updated": "2020-05-31T11:13:00+10:00",
+                "id": "ESTA:200529264",
+                "location": "Mauger Rd, Beechworth",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.75275461232124,
-                    -37.748133495597585
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-05-31T11:01:00+10:00",
-                "updated": "2020-05-31T11:00:56+10:00",
-                "id": "ESTA:200552118",
-                "location": "Wheelers Hill",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1990068365011,
-                    -37.90761584866172
+                    146.71022346664375,
+                    -36.36807871929916
                 ]
             }
         },
@@ -8279,23 +8306,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Deer Park",
-                "category": "rescue",
+                "sourceTitle": "Western Fwy",
+                "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-05-31T10:18:42+10:00",
-                "updated": "2020-05-31T10:18:42+10:00",
+                "created": "2020-05-31T10:01:00+10:00",
+                "updated": "2020-05-31T10:19:00+10:00",
                 "id": "ESTA:200529126",
-                "location": "Deer Park, Deer Park",
+                "location": "Western Fwy, Deer Park",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.79506235665752,
-                    -37.77049219397964
+                    144.7950563522662,
+                    -37.770496031868845
                 ]
             }
         },
@@ -8319,29 +8346,6 @@
                 "coordinates": [
                     144.62710491663563,
                     -37.90431986160014
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thwaites Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-31T08:04:00+10:00",
-                "updated": "2020-05-31T10:08:00+10:00",
-                "id": "ESTA:200529001",
-                "location": "Thwaites Rd, Winslow",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.42919259867048,
-                    -38.254187430840645
                 ]
             }
         },
@@ -8394,35 +8398,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mcintyre Rd",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-05-31T10:58:02+10:00",
-                "updated": "2020-05-31T10:58:02+10:00",
-                "id": "ESTA:200529237",
-                "location": "Mcintyre Rd, Sunshine North",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.82937764242197,
-                    -37.77465457952271
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-05-31T10:43:00+10:00",
-                "updated": "2020-05-31T10:46:00+10:00",
+                "updated": "2020-05-31T11:09:00+10:00",
                 "id": "ESTA:200552115",
                 "location": "Wheelers Hill",
                 "title": "incident: tree down"
@@ -8433,6 +8414,28 @@
                 "coordinates": [
                     145.19805417612451,
                     -37.907502131625975
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-05-31T10:55:00+10:00",
+                "updated": "2020-05-31T10:59:00+10:00",
+                "id": "ESTA:200552117",
+                "location": "Black Rock",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02138389171168,
+                    -37.96721384096599
                 ]
             }
         },

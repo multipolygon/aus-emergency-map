@@ -66,10 +66,10 @@
                 "sourceTitle": "DAVENPORT",
                 "category": "rescue",
                 "subcategory": "rescue",
-                "status": "on scene",
+                "status": "monitoring",
                 "id": "2037081-483836",
                 "created": "2020-06-01T14:58:05+08:00",
-                "updated": "2020-06-01T15:08:04+08:00",
+                "updated": "2020-06-01T15:57:16+08:00",
                 "location": "DAVENPORT",
                 "size": "",
                 "description": "Rescue",
@@ -457,31 +457,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.87261,
-                    -31.9605
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "EAST PERTH",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "monitoring",
-                "id": "2037109-483839",
-                "created": "2020-06-01T15:29:45+08:00",
-                "updated": "2020-06-01T15:43:09+08:00",
-                "location": "EAST PERTH",
-                "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     116.1104,
                     -31.630222
                 ]
@@ -664,16 +639,16 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "EAST ROCKINGHAM",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
+                "category": "vehicle fire",
+                "subcategory": "vehicle fire",
+                "status": "on scene",
                 "id": "2037119-483841",
                 "created": "2020-06-01T15:39:25+08:00",
-                "updated": "2020-06-01T15:42:57+08:00",
+                "updated": "2020-06-01T15:52:26+08:00",
                 "location": "EAST ROCKINGHAM",
                 "size": "",
-                "description": "Fire",
-                "title": "incident: fire"
+                "description": "Vehicle Fire",
+                "title": "incident: vehicle fire"
             }
         },
         {
@@ -798,6 +773,31 @@
                 "location": "TWO ROCKS",
                 "size": "",
                 "description": "Burn Off",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.90446,
+                    -31.89692
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MORLEY",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "on scene",
+                "id": "2037124-483842",
+                "created": "2020-06-01T15:45:10+08:00",
+                "updated": "2020-06-01T15:54:32+08:00",
+                "location": "MORLEY",
+                "size": "",
+                "description": "Fire",
                 "title": "incident: fire"
             }
         },
@@ -1171,6 +1171,31 @@
                 "created": "2020-06-01T14:10:01+08:00",
                 "updated": "2020-06-01T14:10:01+08:00",
                 "location": "PARKLANDS",
+                "size": "",
+                "description": "Burn Off",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    116.01737,
+                    -32.21171
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BYFORD",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "active",
+                "id": "2037140-483843",
+                "created": "2020-06-01T16:00:00+08:00",
+                "updated": "2020-06-01T16:00:00+08:00",
+                "location": "BYFORD",
                 "size": "",
                 "description": "Burn Off",
                 "title": "incident: fire"

@@ -4130,23 +4130,68 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Neerim Rd",
-                "category": "rescue",
+                "sourceTitle": "Merricks Cl",
+                "category": "fire",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-02T20:12:01+10:00",
-                "updated": "2020-06-02T20:12:01+10:00",
-                "id": "ESTA:200600694",
-                "location": "Neerim Rd, Carnegie",
+                "status": "safe",
+                "created": "2020-06-02T20:16:00+10:00",
+                "updated": "2020-06-02T20:17:00+10:00",
+                "id": "ESTA:200600697",
+                "location": "Merricks Cl, Ferntree Gully",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.05944648099577,
-                    -37.889341063924974
+                    145.28544524021913,
+                    -37.889747521811756
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-06-02T17:52:00+10:00",
+                "updated": "2020-06-02T20:19:00+10:00",
+                "id": "ESTA:200650279",
+                "location": "Waurn Ponds",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.30637439330596,
+                    -38.21239839471601
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Red Hill Tce",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-06-02T20:18:00+10:00",
+                "updated": "2020-06-02T20:18:00+10:00",
+                "id": "ESTA:200600698",
+                "location": "Red Hill Tce, Doncaster East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17257381189555,
+                    -37.7629981362189
                 ]
             }
         },
@@ -4155,10 +4200,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Riding Boundary Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-02T20:13:00+10:00",
-                "updated": "2020-06-02T20:13:00+10:00",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-06-02T20:29:05+10:00",
+                "updated": "2020-06-02T20:29:05+10:00",
                 "id": "ESTA:200600696",
                 "location": "Riding Boundary Rd, Ravenhall",
                 "size": "Small",
@@ -4168,53 +4213,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74601951221314,
-                    -37.78077813587057
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Redan St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-02T20:13:08+10:00",
-                "updated": "2020-06-02T20:13:08+10:00",
-                "id": "ESTA:200600691",
-                "location": "Redan St, St Kilda",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99028359580538,
-                    -37.86014557833382
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ferntree Gully",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-02T20:15:57+10:00",
-                "updated": "2020-06-02T20:16:05+10:00",
-                "id": "ESTA:200600697",
-                "location": "Merricks Cl, Ferntree Gully",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.28546443868956,
-                    -37.889737424547704
+                    144.7460265302614,
+                    -37.78077814675335
                 ]
             }
         },
@@ -6451,6 +6451,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Neerim Rd",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-02T20:12:01+10:00",
+                "updated": "2020-06-02T20:12:01+10:00",
+                "id": "ESTA:200600694",
+                "location": "Neerim Rd, Carnegie",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05944648099577,
+                    -37.889341063924974
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
@@ -6489,28 +6512,6 @@
                 "coordinates": [
                     145.2855740520338,
                     -38.10575604728959
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-06-02T17:52:00+10:00",
-                "updated": "2020-06-02T19:14:00+10:00",
-                "id": "ESTA:200650279",
-                "location": "Waurn Ponds",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.30637439330596,
-                    -38.21239839471601
                 ]
             }
         },

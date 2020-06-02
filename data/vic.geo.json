@@ -4107,28 +4107,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Grant Avenue, Mount Gambier",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "going",
-                "created": "2020-06-03T03:19:00+10:00",
-                "updated": "2020-06-03T03:19:00+10:00",
-                "id": "1370350",
-                "location": "Grant Avenue, Mount Gambier",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    140.751982190534,
-                    -37.8408141183712
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Timbarra - Northern Camp Heaps",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -4155,7 +4133,7 @@
                 "sourceTitle": "Danedite Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-03T03:14:00+10:00",
                 "updated": "2020-06-03T03:14:00+10:00",
                 "id": "ESTA:200600747",
@@ -4169,6 +4147,29 @@
                 "coordinates": [
                     143.2641256135686,
                     -38.227763157816725
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-06-03T03:10:00+10:00",
+                "updated": "2020-06-03T03:37:00+10:00",
+                "id": "ESTA:200600745",
+                "location": "Henty",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.5212694668249,
+                    -37.6757535616391
                 ]
             }
         },
@@ -6215,75 +6216,6 @@
                 "coordinates": [
                     149.243216515,
                     -37.169926506
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-06-03T03:10:00+10:00",
-                "updated": "2020-06-03T03:10:00+10:00",
-                "id": "ESTA:200600745",
-                "location": "Henty",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.5212694668249,
-                    -37.6757535616391
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Graf Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-03T02:18:00+10:00",
-                "updated": "2020-06-03T02:38:00+10:00",
-                "id": "ESTA:200600742",
-                "location": "Graf Rd, Somerville",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16821888804415,
-                    -38.22515386417958
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cunninghame St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-03T01:41:00+10:00",
-                "updated": "2020-06-03T02:38:00+10:00",
-                "id": "ESTA:200600739",
-                "location": "Cunninghame St, Sale",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.05778541847098,
-                    -38.10736432015837
                 ]
             }
         },

@@ -4130,12 +4130,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-02T23:59:00+10:00",
+                "updated": "2020-06-03T00:50:00+10:00",
+                "id": "ESTA:200650291",
+                "location": "Blackburn North",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.15756707494117,
+                    -37.80093048584762
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Benetook Av",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-06-03T00:26:00+10:00",
-                "updated": "2020-06-03T00:38:00+10:00",
+                "updated": "2020-06-03T00:55:00+10:00",
                 "id": "ESTA:200600733",
                 "location": "Benetook Av, Mildura",
                 "size": "Small",
@@ -4153,14 +4175,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Graf Rd",
+                "sourceTitle": "Metery Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-03T00:44:00+10:00",
-                "updated": "2020-06-03T00:44:00+10:00",
-                "id": "ESTA:200600734",
-                "location": "Graf Rd, Somerville",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-03T00:49:00+10:00",
+                "updated": "2020-06-03T00:58:00+10:00",
+                "id": "ESTA:200600735",
+                "location": "Metery Rd, Eltham",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4168,30 +4190,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.16821888804415,
-                    -38.22515386417958
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wedderburn",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-02T22:03:20+10:00",
-                "updated": "2020-06-03T00:45:02+10:00",
-                "id": "ESTA:200600714",
-                "location": "Calder Hwy, Wedderburn",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.60221833509874,
-                    -36.38641060578557
+                    145.14937264551605,
+                    -37.72600176670512
                 ]
             }
         },
@@ -6156,6 +6156,28 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Swamp Rd Windrow Burn",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-06-02T08:22:00+10:00",
+                "updated": "2020-06-02T08:22:00+10:00",
+                "id": "2020-06-02T08:22:00.0000000:383491",
+                "location": "Swamp Rd",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.334669113,
+                    -36.9753353839999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Bimmil St Hr",
                 "category": "fire",
                 "subcategory": "fire",
@@ -6194,28 +6216,6 @@
                 "coordinates": [
                     149.148073197,
                     -37.1544336919999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Swamp Rd Windrow Burn",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-06-02T08:22:00+10:00",
-                "updated": "2020-06-02T08:22:00+10:00",
-                "id": "2020-06-02T08:22:00.0000000:383491",
-                "location": "Swamp Rd",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.334669113,
-                    -36.9753353839999
                 ]
             }
         },
@@ -6284,28 +6284,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-02T23:59:00+10:00",
-                "updated": "2020-06-03T00:21:00+10:00",
-                "id": "ESTA:200650291",
-                "location": "Blackburn North",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1596480423728,
-                    -37.8012874559499
                 ]
             }
         },

@@ -4130,12 +4130,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-03T11:17:00+10:00",
+                "updated": "2020-06-03T11:19:00+10:00",
+                "id": "ESTA:200650317",
+                "location": "Healesville",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.5238109426761,
+                    -37.65154307153295
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Hortense St",
                 "category": "rescue",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-03T11:07:30+10:00",
-                "updated": "2020-06-03T11:07:30+10:00",
+                "status": "safe",
+                "created": "2020-06-03T11:19:56+10:00",
+                "updated": "2020-06-03T11:19:56+10:00",
                 "id": "ESTA:200600920",
                 "location": "Hortense St, Glen Iris",
                 "size": "Small",
@@ -4153,12 +4175,81 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Brunswick",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-03T11:25:53+10:00",
+                "updated": "2020-06-03T11:25:53+10:00",
+                "id": "ESTA:200600934",
+                "location": "Brunswick, Brunswick",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95554331936822,
+                    -37.76345088019787
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nelson St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-03T11:30:00+10:00",
+                "updated": "2020-06-03T11:30:00+10:00",
+                "id": "ESTA:200600935",
+                "location": "Nelson St, California Gully",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.26980354357522,
+                    -36.725850098516446
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Industrial Av",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-06-03T11:30:23+10:00",
+                "updated": "2020-06-03T11:30:23+10:00",
+                "id": "ESTA:200600936",
+                "location": "Industrial Av, Hoppers Crossing",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7293341512424,
+                    -37.86758941962009
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-06-03T11:10:00+10:00",
-                "updated": "2020-06-03T11:13:00+10:00",
+                "updated": "2020-06-03T11:30:00+10:00",
                 "id": "ESTA:200600924",
                 "location": "Pakenham",
                 "size": "Small",
@@ -4170,73 +4261,6 @@
                 "coordinates": [
                     145.48004700126035,
                     -38.049422697922424
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Caroline St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-03T11:14:40+10:00",
-                "updated": "2020-06-03T11:14:40+10:00",
-                "id": "ESTA:200600928",
-                "location": "Caroline St, Hawthorn East",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04661952040567,
-                    -37.82902564095189
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hawthorn East",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-03T11:13:58+10:00",
-                "updated": "2020-06-03T11:14:32+10:00",
-                "id": "ESTA:200600930",
-                "location": "Caroline St, Hawthorn East",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04662186599677,
-                    -37.829023951950035
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hoppers Crossing",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "responding",
-                "created": "2020-06-03T11:15:04+10:00",
-                "updated": "2020-06-03T11:15:49+10:00",
-                "id": "ESTA:200600931",
-                "location": "Redwood Dr, Hoppers Crossing",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.6947520241409,
-                    -37.859352077234725
                 ]
             }
         },
@@ -4626,6 +4650,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Redwood Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-03T11:16:00+10:00",
+                "updated": "2020-06-03T11:27:00+10:00",
+                "id": "ESTA:200600931",
+                "location": "Redwood Dr, Hoppers Crossing",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.69474258897833,
+                    -37.8593558276902
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Regency Dr",
                 "category": "rescue",
                 "subcategory": "other",
@@ -4689,52 +4736,6 @@
                 "coordinates": [
                     145.15614498780576,
                     -37.93282505542523
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-03T10:16:00+10:00",
-                "updated": "2020-06-03T10:27:00+10:00",
-                "id": "ESTA:200600873",
-                "location": "Mulgrave",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16042967493385,
-                    -37.90882142100251
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Brooklyn Park Dr",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-03T10:06:00+10:00",
-                "updated": "2020-06-03T10:19:00+10:00",
-                "id": "ESTA:200600864",
-                "location": "Brooklyn Park Dr, Brookfield",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.52574351891897,
-                    -37.69738225965194
                 ]
             }
         },
@@ -4810,58 +4811,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Holland Ct",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-03T10:44:45+10:00",
-                "updated": "2020-06-03T10:44:45+10:00",
-                "id": "ESTA:200600888",
-                "location": "Holland Ct, Flemington",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93470664371767,
-                    -37.78818331867764
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Footscray",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-03T10:51:05+10:00",
-                "updated": "2020-06-03T10:51:05+10:00",
-                "id": "ESTA:200600901",
-                "location": "Footscray, Footscray",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.89685862953658,
-                    -37.793418666230735
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-06-03T11:07:00+10:00",
-                "updated": "2020-06-03T11:11:00+10:00",
+                "updated": "2020-06-03T11:26:00+10:00",
                 "id": "ESTA:200650315",
                 "location": "Glen Iris",
                 "title": "incident: tree down"

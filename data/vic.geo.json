@@ -4130,28 +4130,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Craigieburn",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "unknown",
-                "created": "2020-06-03T15:10:12+10:00",
-                "updated": "2020-06-03T15:12:15+10:00",
-                "id": "ESTA:200601065",
-                "location": "Craigieburn Rd, Craigieburn",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9091679053233,
-                    -37.5933761716716
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Chisholm St",
                 "category": "fire",
                 "subcategory": "other",
@@ -4175,12 +4153,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Kensington",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-03T15:42:40+10:00",
+                "updated": "2020-06-03T15:42:40+10:00",
+                "id": "ESTA:200601075",
+                "location": "Kensington, Kensington",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93461545792007,
+                    -37.788597735488146
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Unnamed -",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "under control",
                 "created": "2020-06-03T15:27:00+10:00",
-                "updated": "2020-06-03T15:27:00+10:00",
+                "updated": "2020-06-03T15:45:00+10:00",
                 "id": "ESTA:200601074",
                 "location": "Unnamed -, Numurkah",
                 "size": "Small",
@@ -4192,28 +4193,6 @@
                 "coordinates": [
                     145.44753130652725,
                     -36.0930704443262
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kensington",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-03T15:29:29+10:00",
-                "updated": "2020-06-03T15:29:45+10:00",
-                "id": "ESTA:200601075",
-                "location": "Kensington",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93461795910713,
-                    -37.78859711848008
                 ]
             }
         },
@@ -4620,75 +4599,6 @@
                 "coordinates": [
                     145.3571891001143,
                     -37.93372264550702
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "safe",
-                "created": "2020-06-03T14:22:00+10:00",
-                "updated": "2020-06-03T14:45:00+10:00",
-                "id": "ESTA:200601035",
-                "location": "Rutherglen",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.45508105677695,
-                    -36.05234803903222
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-03T14:27:00+10:00",
-                "updated": "2020-06-03T14:43:00+10:00",
-                "id": "ESTA:200601043",
-                "location": "Cranbourne",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.27631754187348,
-                    -38.08227108109581
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kallista-Emerald Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-03T14:37:00+10:00",
-                "updated": "2020-06-03T14:39:00+10:00",
-                "id": "ESTA:200601046",
-                "location": "Kallista-Emerald Rd, Kallista",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.43108477340226,
-                    -37.91000190777505
                 ]
             }
         },

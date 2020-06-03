@@ -4130,46 +4130,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-03T11:56:00+10:00",
-                "updated": "2020-06-03T12:36:00+10:00",
-                "id": "ESTA:200600950",
-                "location": "Bittern",
-                "size": "Small",
-                "title": "incident: rescue"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-03T10:36:00+10:00",
+                "updated": "2020-06-03T12:48:00+10:00",
+                "id": "ESTA:200650311",
+                "location": "Gembrook",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.16705359461838,
-                    -38.33878724249841
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Williamstown",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-03T12:43:47+10:00",
-                "updated": "2020-06-03T12:43:47+10:00",
-                "id": "ESTA:200600978",
-                "location": "Williamstown, Williamstown",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.90363654622863,
-                    -37.8650447089956
+                    145.53915656082668,
+                    -37.98825874667114
                 ]
             }
         },
@@ -4179,9 +4155,9 @@
                 "sourceTitle": "Barry St",
                 "category": "rescue",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-03T12:44:13+10:00",
-                "updated": "2020-06-03T12:44:13+10:00",
+                "status": "safe",
+                "created": "2020-06-03T12:51:34+10:00",
+                "updated": "2020-06-03T12:51:34+10:00",
                 "id": "ESTA:200600976",
                 "location": "Barry St, Reservoir",
                 "size": "Small",
@@ -4199,14 +4175,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Warriparri Cr",
+                "sourceTitle": "Cecil St",
                 "category": "rescue",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-03T12:45:37+10:00",
-                "updated": "2020-06-03T12:45:37+10:00",
-                "id": "ESTA:200600981",
-                "location": "Warriparri Cr, Greensborough",
+                "status": "under control",
+                "created": "2020-06-03T12:55:05+10:00",
+                "updated": "2020-06-03T12:55:05+10:00",
+                "id": "ESTA:200600978",
+                "location": "Cecil St, Williamstown",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -4214,8 +4190,97 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10063802285984,
-                    -37.69558693291699
+                    144.90362543439497,
+                    -37.864846483324605
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "California Gully",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-06-03T11:28:39+10:00",
+                "updated": "2020-06-03T12:55:42+10:00",
+                "id": "ESTA:200600935",
+                "location": "Nelson St, California Gully",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.26982362185353,
+                    -36.72584280947371
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Westall Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-06-03T12:48:00+10:00",
+                "updated": "2020-06-03T12:48:00+10:00",
+                "id": "ESTA:200600982",
+                "location": "Westall Rd, Springvale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.141150726942,
+                    -37.93861798736243
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-03T12:59:00+10:00",
+                "updated": "2020-06-03T13:00:00+10:00",
+                "id": "ESTA:200650321",
+                "location": "Denver",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.28827282829207,
+                    -37.282929300210505
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-03T10:39:00+10:00",
+                "updated": "2020-06-03T13:01:00+10:00",
+                "id": "ESTA:200650313",
+                "location": "Croydon",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.267783716986,
+                    -37.7984935944253
                 ]
             }
         },
@@ -4605,6 +4670,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Warriparri Cr",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-03T12:50:15+10:00",
+                "updated": "2020-06-03T12:50:15+10:00",
+                "id": "ESTA:200600981",
+                "location": "Warriparri Cr, Greensborough",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10063802285984,
+                    -37.69558693291699
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-06-03T11:56:00+10:00",
+                "updated": "2020-06-03T12:36:00+10:00",
+                "id": "ESTA:200600950",
+                "location": "Bittern",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16705359461838,
+                    -38.33878724249841
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -4622,29 +4733,6 @@
                 "coordinates": [
                     146.8801248168201,
                     -38.02604001392845
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nelson St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-06-03T11:30:00+10:00",
-                "updated": "2020-06-03T11:56:00+10:00",
-                "id": "ESTA:200600935",
-                "location": "Nelson St, California Gully",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.26980354357522,
-                    -36.725850098516446
                 ]
             }
         },
@@ -4720,29 +4808,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rennie St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-03T12:30:51+10:00",
-                "updated": "2020-06-03T12:30:51+10:00",
-                "id": "ESTA:200600961",
-                "location": "Rennie St, Coburg",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9726743868362,
-                    -37.75126513610238
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Brunswick",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -4760,73 +4825,6 @@
                 "coordinates": [
                     144.95554331936822,
                     -37.76345088019787
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bundoora",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-03T12:22:49+10:00",
-                "updated": "2020-06-03T12:22:49+10:00",
-                "id": "ESTA:200600962",
-                "location": "Bundoora, Bundoora",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06759792172173,
-                    -37.68647349655381
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-06-03T10:36:00+10:00",
-                "updated": "2020-06-03T12:08:00+10:00",
-                "id": "ESTA:200650311",
-                "location": "Gembrook",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.53915656082668,
-                    -37.98825874667114
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-03T10:39:00+10:00",
-                "updated": "2020-06-03T11:36:00+10:00",
-                "id": "ESTA:200650313",
-                "location": "Croydon",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.267783716986,
-                    -37.7984935944253
                 ]
             }
         }

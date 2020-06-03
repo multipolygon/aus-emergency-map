@@ -1225,10 +1225,187 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.9796960000001,
-                    -36.51309399999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.9796960000001,
+                            -36.51309399999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.977095401,
+                                            -36.533868486
+                                        ],
+                                        [
+                                            149.977666473,
+                                            -36.534082638
+                                        ],
+                                        [
+                                            149.978487386,
+                                            -36.534475249
+                                        ],
+                                        [
+                                            149.978653948,
+                                            -36.534748887
+                                        ],
+                                        [
+                                            149.978630155,
+                                            -36.53491545
+                                        ],
+                                        [
+                                            149.978582565,
+                                            -36.535165293
+                                        ],
+                                        [
+                                            149.978618257,
+                                            -36.535641185
+                                        ],
+                                        [
+                                            149.978761024,
+                                            -36.5360218979999
+                                        ],
+                                        [
+                                            149.978951381,
+                                            -36.536366921
+                                        ],
+                                        [
+                                            149.979010868,
+                                            -36.536652456
+                                        ],
+                                        [
+                                            149.979034662,
+                                            -36.537092656
+                                        ],
+                                        [
+                                            149.97891569,
+                                            -36.5373543969999
+                                        ],
+                                        [
+                                            149.978701538,
+                                            -36.537711316
+                                        ],
+                                        [
+                                            149.978582565,
+                                            -36.5379730569999
+                                        ],
+                                        [
+                                            149.978416003,
+                                            -36.538377565
+                                        ],
+                                        [
+                                            149.978237543,
+                                            -36.53871069
+                                        ],
+                                        [
+                                            149.978047187,
+                                            -36.5389962249999
+                                        ],
+                                        [
+                                            149.977892521,
+                                            -36.539162787
+                                        ],
+                                        [
+                                            149.977678369,
+                                            -36.5393650419999
+                                        ],
+                                        [
+                                            149.977773548,
+                                            -36.539103301
+                                        ],
+                                        [
+                                            149.977785445,
+                                            -36.538615512
+                                        ],
+                                        [
+                                            149.977666473,
+                                            -36.538199106
+                                        ],
+                                        [
+                                            149.977559397,
+                                            -36.5380563379999
+                                        ],
+                                        [
+                                            149.977464219,
+                                            -36.5378897759999
+                                        ],
+                                        [
+                                            149.977273862,
+                                            -36.537639933
+                                        ],
+                                        [
+                                            149.977250067,
+                                            -36.5374733699999
+                                        ],
+                                        [
+                                            149.976905044,
+                                            -36.5369141969999
+                                        ],
+                                        [
+                                            149.976774175,
+                                            -36.536616764
+                                        ],
+                                        [
+                                            149.97670279,
+                                            -36.536402612
+                                        ],
+                                        [
+                                            149.976524331,
+                                            -36.536117077
+                                        ],
+                                        [
+                                            149.976369666,
+                                            -36.5359624119999
+                                        ],
+                                        [
+                                            149.976322077,
+                                            -36.535902925
+                                        ],
+                                        [
+                                            149.976072234,
+                                            -36.535653082
+                                        ],
+                                        [
+                                            149.975965158,
+                                            -36.5355460059999
+                                        ],
+                                        [
+                                            149.975893774,
+                                            -36.535415136
+                                        ],
+                                        [
+                                            149.975834287,
+                                            -36.5351295999999
+                                        ],
+                                        [
+                                            149.976072234,
+                                            -36.534784579
+                                        ],
+                                        [
+                                            149.976452947,
+                                            -36.534522839
+                                        ],
+                                        [
+                                            149.977119196,
+                                            -36.533892281
+                                        ],
+                                        [
+                                            149.977095401,
+                                            -36.533868486
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1774,30 +1951,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.78149900000005,
-                    -34.60091699999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jamberoo Rd, Croom",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/383964",
-                "created": "2020-06-03T02:36:00+10:00",
-                "updated": "2020-06-03T12:36:00+10:00",
-                "location": "1439 Jamberoo Rd, Croom, NSW 2527",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1439 Jamberoo Rd, Croom, NSW 2527 <br />COUNCIL AREA: Kiama <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Jun 2020 12:36",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.6804320010001,
                     -35.25341499999996
                 ]
@@ -1815,6 +1968,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kings Hwy, Manar,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Jun 2020 13:08",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.3863530000001,
+                    -35.471627000999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Termeil Beach Rd, Termeil",
+                "category": "other",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/383970",
+                "created": "2020-06-03T03:22:00+10:00",
+                "updated": "2020-06-03T13:22:00+10:00",
+                "location": "Termeil Beach Rd, Termeil, NSW 2539",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Termeil Beach Rd, Termeil, NSW 2539 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Jun 2020 13:22",
+                "title": "incident: other"
             }
         },
         {

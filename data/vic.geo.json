@@ -3786,23 +3786,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Reid St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Cooper St",
+                "category": "fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-03T23:00:00+10:00",
-                "updated": "2020-06-03T23:21:00+10:00",
-                "id": "ESTA:200601204",
-                "location": "Reid St, Brown Hill",
+                "created": "2020-06-03T23:12:00+10:00",
+                "updated": "2020-06-03T23:22:00+10:00",
+                "id": "ESTA:200601208",
+                "location": "Cooper St, Stawell",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.89591117217392,
-                    -37.55271558114787
+                    142.7660454742967,
+                    -37.06295601071819
                 ]
             }
         },
@@ -3811,10 +3811,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Cobram South Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-06-03T23:39:00+10:00",
-                "updated": "2020-06-03T23:39:00+10:00",
+                "updated": "2020-06-03T23:52:00+10:00",
                 "id": "ESTA:200601211",
                 "location": "Cobram South Rd, Cobram",
                 "size": "Small",
@@ -3920,6 +3920,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Tambo 35 - Tambo Complex -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "contained",
+                "created": "2019-11-22T10:04:00+11:00",
+                "updated": "2020-02-22T12:54:00+11:00",
+                "id": "ESTA:3500158",
+                "location": "Tambo 35 - Tambo Complex -, Delwp - Tambo Icc Footprint",
+                "size": "Large",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.6024623878815,
+                    -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Brennan St",
                 "category": "other",
                 "subcategory": "other",
@@ -3943,46 +3966,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cooper St",
-                "category": "fire",
-                "subcategory": "other",
+                "sourceTitle": "Reid St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "safe",
-                "created": "2020-06-03T23:12:00+10:00",
-                "updated": "2020-06-03T23:22:00+10:00",
-                "id": "ESTA:200601208",
-                "location": "Cooper St, Stawell",
+                "created": "2020-06-03T23:00:00+10:00",
+                "updated": "2020-06-03T23:21:00+10:00",
+                "id": "ESTA:200601204",
+                "location": "Reid St, Brown Hill",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.7660454742967,
-                    -37.06295601071819
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-03T21:33:00+10:00",
-                "updated": "2020-06-03T22:59:00+10:00",
-                "id": "ESTA:200601192",
-                "location": "Cranbourne West",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.25239021040554,
-                    -38.10938539687174
+                    143.89591117217392,
+                    -37.55271558114787
                 ]
             }
         },
@@ -4006,29 +4006,6 @@
                 "coordinates": [
                     148.99532383225448,
                     -37.53234153064883
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tambo 35 - Tambo Complex -",
-                "category": "other",
-                "subcategory": "other",
-                "status": "contained",
-                "created": "2019-11-22T10:04:00+11:00",
-                "updated": "2020-02-22T12:54:00+11:00",
-                "id": "ESTA:3500158",
-                "location": "Tambo 35 - Tambo Complex -, Delwp - Tambo Icc Footprint",
-                "size": "Large",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.6024623878815,
-                    -37.432291905209674
                 ]
             }
         }

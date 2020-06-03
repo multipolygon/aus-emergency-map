@@ -3786,45 +3786,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Brooklyn",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-03T18:03:23+10:00",
-                "updated": "2020-06-03T18:03:23+10:00",
-                "id": "ESTA:200601146",
-                "location": "Brooklyn, Brooklyn",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.82992902960663,
-                    -37.82219273262627
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
+                "sourceTitle": "Wandin North",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-03T16:06:00+10:00",
-                "updated": "2020-06-03T18:11:00+10:00",
-                "id": "ESTA:200650329",
-                "location": "Eden Park",
+                "status": "responding",
+                "created": "2020-06-02T08:34:47+10:00",
+                "updated": "2020-06-03T18:20:55+10:00",
+                "id": "ESTA:200650231",
+                "location": "Rodger Rd, Wandin North",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0667440005573,
-                    -37.48030978118418
+                    145.4213698827566,
+                    -37.760212105985744
                 ]
             }
         },
@@ -3832,36 +3809,13 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-03T17:25:00+10:00",
-                "updated": "2020-06-03T18:05:00+10:00",
-                "id": "ESTA:200601136",
-                "location": "Springvale South",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1461593227397,
-                    -37.9824493282868
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "John St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-03T17:31:00+10:00",
-                "updated": "2020-06-03T18:01:00+10:00",
-                "id": "ESTA:200601140",
-                "location": "John St, Jeparit",
+                "status": "responding",
+                "created": "2020-06-03T18:23:00+10:00",
+                "updated": "2020-06-03T18:23:00+10:00",
+                "id": "ESTA:200601152",
+                "location": "Soldiers Hill",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3869,8 +3823,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.98602654197197,
-                    -36.1419843047307
+                    143.86337288456315,
+                    -37.54592282066028
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Seven Creeks Dr",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-06-03T18:23:00+10:00",
+                "updated": "2020-06-03T18:23:00+10:00",
+                "id": "ESTA:200601154",
+                "location": "Seven Creeks Dr, Kialla",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.380632394287,
+                    -36.43003778079194
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elizabeth Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-03T18:25:00+10:00",
+                "updated": "2020-06-03T18:25:00+10:00",
+                "id": "ESTA:200601156",
+                "location": "Elizabeth Rd, Portsea",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7103862275843,
+                    -38.32936067032908
                 ]
             }
         },
@@ -4260,6 +4260,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-06-03T17:25:00+10:00",
+                "updated": "2020-06-03T18:05:00+10:00",
+                "id": "ESTA:200601136",
+                "location": "Springvale South",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1461593227397,
+                    -37.9824493282868
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Costata Ct",
                 "category": "other",
                 "subcategory": "other",
@@ -4277,6 +4300,29 @@
                 "coordinates": [
                     145.32088085899187,
                     -38.04109233829632
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "John St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-03T17:31:00+10:00",
+                "updated": "2020-06-03T18:01:00+10:00",
+                "id": "ESTA:200601140",
+                "location": "John St, Jeparit",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.98602654197197,
+                    -36.1419843047307
                 ]
             }
         },
@@ -4329,75 +4375,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Grassbird Dr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-03T17:12:00+10:00",
-                "updated": "2020-06-03T17:29:00+10:00",
-                "id": "ESTA:200601129",
-                "location": "Grassbird Dr, Point Cook",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7205861452891,
-                    -37.90405068236838
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Morisons Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-06-03T17:10:00+10:00",
-                "updated": "2020-06-03T17:24:00+10:00",
-                "id": "ESTA:200601127",
-                "location": "Morisons Rd, Mangalore",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16408856948541,
-                    -36.88675990414795
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Highett St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-03T17:08:00+10:00",
-                "updated": "2020-06-03T17:23:00+10:00",
-                "id": "ESTA:200601126",
-                "location": "Highett St, Mansfield",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.08608563078613,
-                    -37.059549712334224
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Snowy 16 - Snowy Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -4444,29 +4421,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fraser Pl",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-06-03T17:53:49+10:00",
-                "updated": "2020-06-03T17:53:49+10:00",
-                "id": "ESTA:200601143",
-                "location": "Fraser Pl, Forest Hill",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17549002617142,
-                    -37.837303709089866
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Audsley St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -4484,6 +4438,51 @@
                 "coordinates": [
                     145.12230258358827,
                     -37.930810100355004
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brooklyn",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-03T18:03:23+10:00",
+                "updated": "2020-06-03T18:03:23+10:00",
+                "id": "ESTA:200601146",
+                "location": "Brooklyn, Brooklyn",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82992902960663,
+                    -37.82219273262627
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "complete",
+                "created": "2020-06-03T13:21:00+10:00",
+                "updated": "2020-06-03T18:25:00+10:00",
+                "id": "ESTA:200601005",
+                "location": "Lorne",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.9973691623918,
+                    -38.512794443987296
                 ]
             }
         },
@@ -4550,28 +4549,6 @@
                 "coordinates": [
                     145.34072745208186,
                     -37.951804115893694
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "on scene",
-                "created": "2020-06-03T13:21:00+10:00",
-                "updated": "2020-06-03T13:48:00+10:00",
-                "id": "ESTA:200601005",
-                "location": "Lorne",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.9973691623918,
-                    -38.512794443987296
                 ]
             }
         }

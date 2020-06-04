@@ -3852,14 +3852,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kurrajong Ct",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-05T07:59:00+10:00",
+                "updated": "2020-06-05T09:17:00+10:00",
+                "id": "ESTA:200650381",
+                "location": "Frankston South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13335129913347,
+                    -38.19174865503033
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lesdon Av",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-06-05T09:14:00+10:00",
-                "updated": "2020-06-05T09:14:00+10:00",
-                "id": "ESTA:200602099",
-                "location": "Kurrajong Ct, Cranbourne North",
+                "created": "2020-06-05T09:16:00+10:00",
+                "updated": "2020-06-05T09:16:00+10:00",
+                "id": "ESTA:200602104",
+                "location": "Lesdon Av, Cranbourne",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -3867,30 +3889,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.27600550373657,
-                    -38.06837031028054
+                    145.27563927592092,
+                    -38.08736179820925
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cranbourne",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Natanya Way",
+                "category": "rescue",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-06-05T09:15:25+10:00",
-                "updated": "2020-06-05T09:15:54+10:00",
-                "id": "ESTA:200602104",
-                "location": "Lesdon Av, Cranbourne",
-                "title": "incident: hazardous material"
+                "created": "2020-06-05T09:24:28+10:00",
+                "updated": "2020-06-05T09:24:28+10:00",
+                "id": "ESTA:200602115",
+                "location": "Natanya Way, Kilsyth",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.27564201034127,
-                    -38.08734955509933
+                    145.3029194529367,
+                    -37.80778511149263
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Surf Beach Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-05T09:30:00+10:00",
+                "updated": "2020-06-05T09:30:00+10:00",
+                "id": "ESTA:200602127",
+                "location": "Surf Beach Dr, Torquay",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.31857568185333,
+                    -38.342703506475175
                 ]
             }
         },
@@ -4007,6 +4053,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Kurrajong Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-05T09:14:00+10:00",
+                "updated": "2020-06-05T09:26:00+10:00",
+                "id": "ESTA:200602099",
+                "location": "Kurrajong Ct, Cranbourne North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27600550373657,
+                    -38.06837031028054
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Struan Av",
                 "category": "fire",
                 "subcategory": "other",
@@ -4047,52 +4116,6 @@
                 "coordinates": [
                     143.8845019568387,
                     -37.64940819271003
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Oakmont Cct",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-05T04:14:00+10:00",
-                "updated": "2020-06-05T08:27:00+10:00",
-                "id": "ESTA:200601961",
-                "location": "Oakmont Cct, West Wodonga",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.83948018302226,
-                    -36.11631914680421
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-05T07:57:00+10:00",
-                "updated": "2020-06-05T08:22:00+10:00",
-                "id": "ESTA:200602010",
-                "location": "Werribee South",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.68135096599386,
-                    -37.911988758932736
                 ]
             }
         },
@@ -4184,28 +4207,6 @@
                 "coordinates": [
                     143.8845019568387,
                     -37.64940819271003
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-05T07:59:00+10:00",
-                "updated": "2020-06-05T08:24:00+10:00",
-                "id": "ESTA:200650381",
-                "location": "Frankston South",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13335129913347,
-                    -38.19174865503033
                 ]
             }
         },

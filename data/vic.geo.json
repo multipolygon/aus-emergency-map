@@ -3763,14 +3763,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Creswick St",
+                "sourceTitle": "Untitled",
                 "category": "rescue",
-                "subcategory": "other",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2020-06-06T09:10:29+10:00",
-                "updated": "2020-06-06T09:10:29+10:00",
-                "id": "ESTA:200603126",
-                "location": "Creswick St, Footscray",
+                "created": "2020-06-06T07:58:00+10:00",
+                "updated": "2020-06-06T09:22:00+10:00",
+                "id": "ESTA:200603053",
+                "location": "Kilmore",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -3778,8 +3778,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.89070980590938,
-                    -37.79771104853819
+                    145.04073549945676,
+                    -37.32062264294807
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-06T09:30:00+10:00",
+                "updated": "2020-06-06T09:30:00+10:00",
+                "id": "ESTA:200603172",
+                "location": "Red Cliffs",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.16142898273134,
+                    -34.32889571028131
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
+                "status": "complete",
+                "created": "2020-06-06T06:43:00+10:00",
+                "updated": "2020-06-06T09:31:00+10:00",
+                "id": "ESTA:200603025",
+                "location": "Ouyen",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.310432460811,
+                    -34.933785897363286
                 ]
             }
         },
@@ -3941,29 +3986,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "under control",
-                "created": "2020-06-06T07:58:00+10:00",
-                "updated": "2020-06-06T08:19:00+10:00",
-                "id": "ESTA:200603053",
-                "location": "Kilmore",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04073549945676,
-                    -37.32062264294807
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Snowy 16 - Snowy Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -4027,28 +4049,6 @@
                 "coordinates": [
                     145.09849066724337,
                     -37.87526013292581
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "on scene",
-                "created": "2020-06-06T06:43:00+10:00",
-                "updated": "2020-06-06T07:19:00+10:00",
-                "id": "ESTA:200603025",
-                "location": "Ouyen",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.310432460811,
-                    -34.933785897363286
                 ]
             }
         }

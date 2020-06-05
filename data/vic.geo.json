@@ -3786,12 +3786,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-05T19:00:00+10:00",
+                "updated": "2020-06-05T19:03:00+10:00",
+                "id": "ESTA:200602920",
+                "location": "Lake Powell",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.95997114216595,
+                    -34.718200216319595
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Altona North",
                 "category": "rescue",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-05T18:54:42+10:00",
-                "updated": "2020-06-05T18:54:42+10:00",
+                "status": "under control",
+                "created": "2020-06-05T19:04:17+10:00",
+                "updated": "2020-06-05T19:04:17+10:00",
                 "id": "ESTA:200602917",
                 "location": "Altona North, Altona North",
                 "size": "Small",
@@ -3809,37 +3832,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Commercial Dr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-05T18:57:51+10:00",
-                "updated": "2020-06-05T18:57:51+10:00",
-                "id": "ESTA:200602877",
-                "location": "Commercial Dr, Thomastown",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04253179601218,
-                    -37.69088213975978
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "St Kilda Rd",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-05T18:59:06+10:00",
-                "updated": "2020-06-05T18:59:06+10:00",
-                "id": "ESTA:200602915",
-                "location": "St Kilda Rd, St Kilda",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-06-05T19:07:00+10:00",
+                "updated": "2020-06-05T19:13:00+10:00",
+                "id": "ESTA:200602924",
+                "location": "Traralgon East",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -3847,22 +3847,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9848513453881,
-                    -37.86091986429002
+                    146.59052098314544,
+                    -38.19465516685857
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Mansell Dr",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-05T19:00:00+10:00",
-                "updated": "2020-06-05T19:00:00+10:00",
-                "id": "ESTA:200602920",
-                "location": "Lake Powell",
+                "status": "safe",
+                "created": "2020-06-05T18:20:00+10:00",
+                "updated": "2020-06-05T18:44:00+10:00",
+                "id": "ESTA:200602892",
+                "location": "Mansell Dr, Mildura",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3870,8 +3870,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.95997114216595,
-                    -34.718200216319595
+                    142.15739439839192,
+                    -34.17013818392412
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hampton",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-06-05T19:14:35+10:00",
+                "updated": "2020-06-05T19:15:54+10:00",
+                "id": "ESTA:200602926",
+                "location": "Linacre Rd, Hampton",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0220711812251,
+                    -37.94427456401169
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thirteenth St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-05T19:06:00+10:00",
+                "updated": "2020-06-05T19:06:00+10:00",
+                "id": "ESTA:200602923",
+                "location": "Thirteenth St, Mildura",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.14384220248814,
+                    -34.18452269849752
                 ]
             }
         },
@@ -3988,6 +4033,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Tambo 35 - Tambo Complex -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "contained",
+                "created": "2019-11-22T10:04:00+11:00",
+                "updated": "2020-02-22T12:54:00+11:00",
+                "id": "ESTA:3500158",
+                "location": "Tambo 35 - Tambo Complex -, Delwp - Tambo Icc Footprint",
+                "size": "Large",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.6024623878815,
+                    -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-05T19:03:00+10:00",
+                "updated": "2020-06-05T19:11:00+10:00",
+                "id": "ESTA:200602922",
+                "location": "Dandenong North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20503559236144,
+                    -37.968871772859835
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ocean Grand Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-05T18:24:00+10:00",
+                "updated": "2020-06-05T18:57:00+10:00",
+                "id": "ESTA:200602897",
+                "location": "Ocean Grand Dr, Ocean Grove",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.55918149134084,
+                    -38.254450624672344
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Pullar Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -4037,9 +4151,9 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue persons trapped",
-                "status": "on scene",
+                "status": "complete",
                 "created": "2020-06-05T17:49:00+10:00",
-                "updated": "2020-06-05T18:45:00+10:00",
+                "updated": "2020-06-05T19:04:00+10:00",
                 "id": "ESTA:200602872",
                 "location": "Glenthompson",
                 "size": "Small",
@@ -4051,29 +4165,6 @@
                 "coordinates": [
                     142.56023642495649,
                     -37.700039178301914
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mansell Dr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-05T18:20:00+10:00",
-                "updated": "2020-06-05T18:44:00+10:00",
-                "id": "ESTA:200602892",
-                "location": "Mansell Dr, Mildura",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.15739439839192,
-                    -34.17013818392412
                 ]
             }
         },
@@ -4149,60 +4240,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tambo 35 - Tambo Complex -",
-                "category": "other",
-                "subcategory": "other",
-                "status": "contained",
-                "created": "2019-11-22T10:04:00+11:00",
-                "updated": "2020-02-22T12:54:00+11:00",
-                "id": "ESTA:3500158",
-                "location": "Tambo 35 - Tambo Complex -, Delwp - Tambo Icc Footprint",
-                "size": "Large",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.6024623878815,
-                    -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ocean Grand Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-05T18:24:00+10:00",
-                "updated": "2020-06-05T18:57:00+10:00",
-                "id": "ESTA:200602897",
-                "location": "Ocean Grand Dr, Ocean Grove",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.55918149134084,
-                    -38.254450624672344
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Camberwell Rd",
+                "sourceTitle": "Commercial Dr",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-06-05T18:44:44+10:00",
-                "updated": "2020-06-05T18:44:44+10:00",
-                "id": "ESTA:200602908",
-                "location": "Camberwell Rd, Hawthorn East",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-06-05T18:57:51+10:00",
+                "updated": "2020-06-05T18:57:51+10:00",
+                "id": "ESTA:200602877",
+                "location": "Commercial Dr, Thomastown",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4210,8 +4255,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0557307677619,
-                    -37.83024711423308
+                    145.04253179601218,
+                    -37.69088213975978
                 ]
             }
         },

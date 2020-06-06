@@ -3741,14 +3741,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Lake St",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-06T09:30:00+10:00",
-                "updated": "2020-06-06T09:47:00+10:00",
-                "id": "ESTA:200603172",
-                "location": "Red Cliffs",
+                "created": "2020-06-06T10:17:00+10:00",
+                "updated": "2020-06-06T10:19:00+10:00",
+                "id": "ESTA:200603301",
+                "location": "Lake St, Wendouree",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -3756,22 +3756,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.16142898273134,
-                    -34.32889571028131
+                    143.82707674935347,
+                    -37.53356130909543
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Alban St",
+                "sourceTitle": "Buckley St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-06-06T09:52:00+10:00",
-                "updated": "2020-06-06T09:52:00+10:00",
-                "id": "ESTA:200603206",
-                "location": "Alban St, Montmorency",
+                "status": "responding",
+                "created": "2020-06-06T10:25:18+10:00",
+                "updated": "2020-06-06T10:25:18+10:00",
+                "id": "ESTA:200603322",
+                "location": "Buckley St, Essendon",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -3779,54 +3779,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.12116823289884,
-                    -37.72039167398614
+                    144.91334196095755,
+                    -37.75639080686341
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rex Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-06-06T09:59:32+10:00",
-                "updated": "2020-06-06T09:59:32+10:00",
-                "id": "ESTA:200603223",
-                "location": "Rex Rd, Campbellfield",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.96361006370856,
-                    -37.651562110156625
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sunset Strp",
-                "category": "fire",
-                "subcategory": "building fire",
+                "sourceTitle": "Ryrie St",
+                "category": "rescue",
+                "subcategory": "washaway",
                 "status": "responding",
-                "created": "2020-06-06T10:00:00+10:00",
-                "updated": "2020-06-06T10:00:00+10:00",
-                "id": "ESTA:200603260",
-                "location": "Sunset Strp, Ocean Grove",
+                "created": "2020-06-06T10:27:00+10:00",
+                "updated": "2020-06-06T10:27:00+10:00",
+                "id": "ESTA:200603329",
+                "location": "Ryrie St, Geelong",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.54498037325754,
-                    -38.26964335999561
+                    144.36183909837257,
+                    -38.150135883965305
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Essendon",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-06T10:26:41+10:00",
+                "updated": "2020-06-06T10:27:57+10:00",
+                "id": "ESTA:200603330",
+                "location": "Buckley St, Essendon",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91334830769873,
+                    -37.75638221203159
                 ]
             }
         },
@@ -3921,13 +3920,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Annandayle Rd, Woomargama",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "out of control",
+                "created": "2020-06-06T09:50:00+10:00",
+                "updated": "2020-06-06T09:50:00+10:00",
+                "id": "2020-06-06T09:50:00.0000000:384175",
+                "location": "Annandayle Rd, Woomargama, Nsw 2644",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.361850738,
+                    -35.7953992619999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Federation Way, Daysdale",
                 "category": "transport",
                 "subcategory": "motor vehicle accident",
                 "status": "out of control",
-                "created": "2020-06-06T09:07:00+10:00",
-                "updated": "2020-06-06T09:07:00+10:00",
-                "id": "2020-06-06T09:07:00.0000000:384157",
+                "created": "2020-06-06T09:54:00+10:00",
+                "updated": "2020-06-06T09:54:00+10:00",
+                "id": "2020-06-06T09:54:00.0000000:384157",
                 "location": "Federation Way, Daysdale, Nsw 2646",
                 "title": "incident: transport"
             },
@@ -3943,22 +3964,69 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Teddys Creek Firetrail, Snowy Plain",
+                "sourceTitle": "Sunset Strp",
                 "category": "fire",
-                "subcategory": "fire",
+                "subcategory": "building fire",
                 "status": "under control",
-                "created": "2020-06-05T15:11:00+10:00",
-                "updated": "2020-06-05T15:11:00+10:00",
-                "id": "2020-06-05T15:11:00.0000000:384103",
-                "location": "Teddys Creek Firetrail, Snowy Plain, Nsw 2628",
+                "created": "2020-06-06T10:00:00+10:00",
+                "updated": "2020-06-06T10:10:00+10:00",
+                "id": "ESTA:200603260",
+                "location": "Sunset Strp, Ocean Grove",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.557302,
-                    -36.212217
+                    144.54498037325754,
+                    -38.26964335999561
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rex Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-06T09:46:00+10:00",
+                "updated": "2020-06-06T09:59:00+10:00",
+                "id": "ESTA:200603223",
+                "location": "Rex Rd, Campbellfield",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96360895141433,
+                    -37.6515636908517
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Alban St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-06-06T09:52:00+10:00",
+                "updated": "2020-06-06T09:52:00+10:00",
+                "id": "ESTA:200603206",
+                "location": "Alban St, Montmorency",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12116823289884,
+                    -37.72039167398614
                 ]
             }
         },
@@ -3966,22 +4034,22 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "category": "other",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-06T07:58:00+10:00",
-                "updated": "2020-06-06T09:22:00+10:00",
-                "id": "ESTA:200603053",
-                "location": "Kilmore",
+                "created": "2020-06-06T09:30:00+10:00",
+                "updated": "2020-06-06T09:47:00+10:00",
+                "id": "ESTA:200603172",
+                "location": "Red Cliffs",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.04073549945676,
-                    -37.32062264294807
+                    142.16142898273134,
+                    -34.32889571028131
                 ]
             }
         },

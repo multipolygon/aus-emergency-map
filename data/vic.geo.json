@@ -3785,51 +3785,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-06T19:34:00+10:00",
-                "updated": "2020-06-06T20:20:00+10:00",
-                "id": "ESTA:200650435",
-                "location": "Mount Evelyn",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.39372749653313,
-                    -37.78019005826218
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Joyfields Pl",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-06T20:18:00+10:00",
-                "updated": "2020-06-06T20:18:00+10:00",
-                "id": "ESTA:200604384",
-                "location": "Joyfields Pl, Wollert",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01976194142355,
-                    -37.61395734768033
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Benarca Forest Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -3853,14 +3808,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Upper Heidelberg Rd",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "request for assistance",
+                "created": "2020-06-06T20:38:00+10:00",
+                "updated": "2020-06-06T20:43:00+10:00",
+                "id": "ESTA:200650439",
+                "location": "Budgee Budgee",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.05942567619252,
+                    -37.5234084425336
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Blackburn Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-06-06T20:27:32+10:00",
-                "updated": "2020-06-06T20:27:32+10:00",
-                "id": "ESTA:200604382",
-                "location": "Upper Heidelberg Rd, Ivanhoe",
+                "created": "2020-06-06T20:44:01+10:00",
+                "updated": "2020-06-06T20:44:01+10:00",
+                "id": "ESTA:200604387",
+                "location": "Blackburn Rd, Doncaster East",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -3868,8 +3845,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.04128248764175,
-                    -37.7702547298571
+                    145.1676672221411,
+                    -37.76272019916266
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Templeton St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-06T20:43:00+10:00",
+                "updated": "2020-06-06T20:43:00+10:00",
+                "id": "ESTA:200604392",
+                "location": "Templeton St, Wangaratta",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.31135888910782,
+                    -36.349523935687316
                 ]
             }
         },
@@ -3990,9 +3990,9 @@
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
                 "status": "out of control",
-                "created": "2020-06-06T20:10:00+10:00",
-                "updated": "2020-06-06T20:10:00+10:00",
-                "id": "2020-06-06T20:10:00.0000000:384287",
+                "created": "2020-06-06T20:24:00+10:00",
+                "updated": "2020-06-06T20:24:00+10:00",
+                "id": "2020-06-06T20:24:00.0000000:384287",
                 "location": "Old Deniliquin Rd, Moama, Nsw 2731",
                 "title": "incident: other"
             },
@@ -4002,6 +4002,29 @@
                 "coordinates": [
                     144.782000001,
                     -36.1102999999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Joyfields Pl",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-06T20:18:00+10:00",
+                "updated": "2020-06-06T20:18:00+10:00",
+                "id": "ESTA:200604384",
+                "location": "Joyfields Pl, Wollert",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01976194142355,
+                    -37.61395734768033
                 ]
             }
         },
@@ -4071,6 +4094,29 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Upper Heidelberg Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-06T20:27:32+10:00",
+                "updated": "2020-06-06T20:27:32+10:00",
+                "id": "ESTA:200604382",
+                "location": "Upper Heidelberg Rd, Ivanhoe",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04128248764175,
+                    -37.7702547298571
                 ]
             }
         }

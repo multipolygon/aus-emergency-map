@@ -3648,6 +3648,28 @@
         },
         {
             "properties": {
+                "feedType": "other",
+                "sourceTitle": "Magnitude 2.5 earthquake - Foster, VIC - 06/06/2020 05:48:29 (UTC)",
+                "category": "earthquake",
+                "subcategory": "earthquake",
+                "status": "minor",
+                "created": "2020-06-06T15:48:29+10:00",
+                "updated": "2020-06-06T15:48:29+10:00",
+                "id": "669981",
+                "location": "Foster, VIC",
+                "title": "other: earthquake"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.072,
+                    -38.571
+                ]
+            }
+        },
+        {
+            "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Coleraine - The Points",
                 "category": "fire",
@@ -3741,126 +3763,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Greenview Ct",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-06T15:32:41+10:00",
-                "updated": "2020-06-06T15:32:41+10:00",
-                "id": "ESTA:200604079",
-                "location": "Greenview Ct, Epping",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04377610318446,
-                    -37.64657676066224
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kaniva",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-06T03:25:26+10:00",
-                "updated": "2020-06-06T15:33:05+10:00",
-                "id": "ESTA:200603014",
-                "location": "Yarrock St, Kaniva",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.23214888593836,
-                    -36.37669077475459
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mont Albert",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-06T15:39:44+10:00",
-                "updated": "2020-06-06T15:39:44+10:00",
-                "id": "ESTA:200604078",
-                "location": "Mont Albert, Mont Albert",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1142984209545,
-                    -37.82071809447782
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-06-06T14:47:00+10:00",
-                "updated": "2020-06-06T15:45:00+10:00",
-                "id": "ESTA:200603978",
-                "location": "Murrindindi",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.57247859232044,
-                    -37.43586927314058
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dalwood Pl",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-06-06T15:41:00+10:00",
-                "updated": "2020-06-06T15:41:00+10:00",
-                "id": "ESTA:200604063",
-                "location": "Dalwood Pl, Avondale Heights",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.86276127623887,
-                    -37.76256966851231
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Nagle Dr",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-06-06T15:41:00+10:00",
-                "updated": "2020-06-06T15:41:00+10:00",
+                "updated": "2020-06-06T15:54:00+10:00",
                 "id": "ESTA:200604103",
                 "location": "Nagle Dr, Belmont",
                 "size": "Small",
@@ -3878,14 +3786,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "washaway",
-                "status": "safe",
-                "created": "2020-06-06T15:08:00+10:00",
-                "updated": "2020-06-06T15:27:00+10:00",
-                "id": "ESTA:200604017",
-                "location": "Nyora",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-06-06T14:47:00+10:00",
+                "updated": "2020-06-06T15:56:00+10:00",
+                "id": "ESTA:200603978",
+                "location": "Murrindindi",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -3893,8 +3801,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.61838683457717,
-                    -38.33487252904712
+                    145.57247859232044,
+                    -37.43586927314058
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Monash Fwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-06T16:01:00+10:00",
+                "updated": "2020-06-06T16:01:00+10:00",
+                "id": "ESTA:200604146",
+                "location": "Monash Fwy, Narre Warren",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.30087816984792,
+                    -38.00922718154656
                 ]
             }
         },
@@ -4011,6 +3942,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Greenview Ct",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-06-06T15:48:56+10:00",
+                "updated": "2020-06-06T15:48:56+10:00",
+                "id": "ESTA:200604079",
+                "location": "Greenview Ct, Epping",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04377610318446,
+                    -37.64657676066224
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Revell St",
                 "category": "other",
                 "subcategory": "other",
@@ -4034,23 +3988,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Belgrave-Gembrook Rd",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "washaway",
                 "status": "safe",
-                "created": "2020-06-06T14:46:00+10:00",
-                "updated": "2020-06-06T14:52:00+10:00",
-                "id": "ESTA:200603972",
-                "location": "Belgrave-Gembrook Rd, Selby",
+                "created": "2020-06-06T15:08:00+10:00",
+                "updated": "2020-06-06T15:27:00+10:00",
+                "id": "ESTA:200604017",
+                "location": "Nyora",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3680357988295,
-                    -37.913515246952265
+                    145.61838683457717,
+                    -38.33487252904712
                 ]
             }
         },
@@ -4126,6 +4080,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Dalwood Pl",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-06-06T15:41:00+10:00",
+                "updated": "2020-06-06T15:41:00+10:00",
+                "id": "ESTA:200604063",
+                "location": "Dalwood Pl, Avondale Heights",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86276127623887,
+                    -37.76256966851231
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "South Yarra",
                 "category": "rescue",
                 "subcategory": "other",
@@ -4143,6 +4120,28 @@
                 "coordinates": [
                     144.9965464361204,
                     -37.83484607910919
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-06T16:01:00+10:00",
+                "updated": "2020-06-06T16:01:23+10:00",
+                "id": "ESTA:200650420",
+                "location": "Somers",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16341700561034,
+                    -38.3930502255294
                 ]
             }
         }

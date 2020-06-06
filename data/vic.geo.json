@@ -3741,10 +3741,33 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-06-06T14:02:00+10:00",
+                "updated": "2020-06-06T14:02:00+10:00",
+                "id": "ESTA:200603864",
+                "location": "Rockbank",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.65145449715422,
+                    -37.72368159928564
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Orr St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-06T13:54:00+10:00",
                 "updated": "2020-06-06T13:54:00+10:00",
                 "id": "ESTA:200603845",
@@ -3764,69 +3787,91 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kensington St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Western Fwy",
+                "category": "fire",
+                "subcategory": "bushfire",
                 "status": "responding",
-                "created": "2020-06-06T13:57:15+10:00",
-                "updated": "2020-06-06T13:57:15+10:00",
-                "id": "ESTA:200603847",
-                "location": "Kensington St, Caroline Springs",
+                "created": "2020-06-06T14:03:00+10:00",
+                "updated": "2020-06-06T14:03:00+10:00",
+                "id": "ESTA:200603869",
+                "location": "Western Fwy, Myrniong",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74097843074844,
-                    -37.73665301978854
+                    144.2879187612496,
+                    -37.605941973071324
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lacey View",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-06T13:56:00+10:00",
-                "updated": "2020-06-06T14:00:00+10:00",
-                "id": "ESTA:200603848",
-                "location": "Lacey View, Flinders",
+                "sourceTitle": "Oakview Lane",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-06T14:10:00+10:00",
+                "updated": "2020-06-06T14:10:00+10:00",
+                "id": "ESTA:200603890",
+                "location": "Oakview Lane, Nar Nar Goon",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02491951196583,
-                    -38.475888599388114
+                    145.54407397605092,
+                    -38.07698118577403
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Layton Cr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-06T13:59:00+10:00",
-                "updated": "2020-06-06T13:59:00+10:00",
-                "id": "ESTA:200603854",
-                "location": "Layton Cr, Mount Martha",
-                "size": "Small",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-06T14:11:00+10:00",
+                "updated": "2020-06-06T14:13:00+10:00",
+                "id": "ESTA:200650413",
+                "location": "Seymour",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.04818295437042,
-                    -38.25287481769469
+                    145.14334735742804,
+                    -36.97629019962638
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Yarra",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-06-06T14:12:11+10:00",
+                "updated": "2020-06-06T14:12:11+10:00",
+                "id": "ESTA:200603877",
+                "location": "South Yarra, South Yarra",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99047877986766,
+                    -37.844351244168706
                 ]
             }
         },
@@ -3836,9 +3881,9 @@
                 "sourceTitle": "Glenmore St",
                 "category": "rescue",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-06T14:01:23+10:00",
-                "updated": "2020-06-06T14:01:23+10:00",
+                "status": "under control",
+                "created": "2020-06-06T14:14:17+10:00",
+                "updated": "2020-06-06T14:14:17+10:00",
                 "id": "ESTA:200603859",
                 "location": "Glenmore St, Box Hill",
                 "size": "Small",
@@ -3966,6 +4011,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Kensington St",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-06T14:14:06+10:00",
+                "updated": "2020-06-06T14:14:06+10:00",
+                "id": "ESTA:200603847",
+                "location": "Kensington St, Caroline Springs",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74097843074844,
+                    -37.73665301978854
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Layton Cr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-06T13:59:00+10:00",
+                "updated": "2020-06-06T14:09:00+10:00",
+                "id": "ESTA:200603854",
+                "location": "Layton Cr, Mount Martha",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04818295437042,
+                    -38.25287481769469
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lacey View",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-06T13:56:00+10:00",
+                "updated": "2020-06-06T14:00:00+10:00",
+                "id": "ESTA:200603848",
+                "location": "Lacey View, Flinders",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02491951196583,
+                    -38.475888599388114
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Snowy 16 - Snowy Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -4029,29 +4143,6 @@
                 "coordinates": [
                     145.09849066724337,
                     -37.87526013292581
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Margaret St",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-06T13:43:24+10:00",
-                "updated": "2020-06-06T13:43:24+10:00",
-                "id": "ESTA:200603792",
-                "location": "Margaret St, Oak Park",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.91904146598768,
-                    -37.7222727099845
                 ]
             }
         }

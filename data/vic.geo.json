@@ -3741,69 +3741,91 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
+                "sourceTitle": "Thompson St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-06-07T14:20:00+10:00",
+                "updated": "2020-06-07T16:05:00+10:00",
+                "id": "ESTA:200605100",
+                "location": "Thompson St, Hamilton",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.02604480666105,
+                    -37.74767360736358
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-06-07T15:26:00+10:00",
+                "updated": "2020-06-07T16:07:00+10:00",
+                "id": "ESTA:200605228",
+                "location": "North Bendigo",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.2871707181094,
+                    -36.744199265547266
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-06-07T15:24:00+10:00",
+                "updated": "2020-06-07T16:09:00+10:00",
+                "id": "ESTA:200650464",
+                "location": "Whittlesea",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.11752553649455,
+                    -37.51345754773852
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mordialloc",
+                "category": "rescue",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-07T15:22:00+10:00",
-                "updated": "2020-06-07T15:35:00+10:00",
-                "id": "ESTA:200605222",
-                "location": "Echuca",
+                "created": "2020-06-07T16:14:01+10:00",
+                "updated": "2020-06-07T16:14:01+10:00",
+                "id": "ESTA:200605290",
+                "location": "Mordialloc, Mordialloc",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.75081426784752,
-                    -36.12825553799202
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-06-07T15:19:00+10:00",
-                "updated": "2020-06-07T15:51:00+10:00",
-                "id": "ESTA:200605214",
-                "location": "Murtoa",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.4152207006504,
-                    -36.55288467110067
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ranfurlie Cr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-07T15:54:20+10:00",
-                "updated": "2020-06-07T15:54:20+10:00",
-                "id": "ESTA:200605225",
-                "location": "Ranfurlie Cr, Glen Iris",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05400336499218,
-                    -37.860998774854124
+                    145.08573808647097,
+                    -38.00586328585709
                 ]
             }
         },
@@ -3942,6 +3964,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Stirling Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-07T15:32:00+10:00",
+                "updated": "2020-06-07T16:07:00+10:00",
+                "id": "ESTA:200605240",
+                "location": "Stirling Dr, Derrimut",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.76534868412415,
+                    -37.78853591687666
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-06-07T15:19:00+10:00",
+                "updated": "2020-06-07T15:51:00+10:00",
+                "id": "ESTA:200605214",
+                "location": "Murtoa",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.4152207006504,
+                    -36.55288467110067
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Johnstone St",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -3959,29 +4027,6 @@
                 "coordinates": [
                     144.90618478451697,
                     -37.68153183329385
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Stirling Dr",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-07T15:40:35+10:00",
-                "updated": "2020-06-07T15:40:35+10:00",
-                "id": "ESTA:200605240",
-                "location": "Stirling Dr, Derrimut",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7653581549243,
-                    -37.78853023547543
                 ]
             }
         },
@@ -4011,23 +4056,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-06-07T15:26:00+10:00",
-                "updated": "2020-06-07T15:39:00+10:00",
-                "id": "ESTA:200605228",
-                "location": "North Bendigo",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-07T15:22:00+10:00",
+                "updated": "2020-06-07T15:35:00+10:00",
+                "id": "ESTA:200605222",
+                "location": "Echuca",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.2871707181094,
-                    -36.744199265547266
+                    144.75081426784752,
+                    -36.12825553799202
                 ]
             }
         },
@@ -4051,98 +4096,6 @@
                 "coordinates": [
                     145.3059768482574,
                     -38.1062863613038
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-07T14:58:00+10:00",
-                "updated": "2020-06-07T15:15:00+10:00",
-                "id": "ESTA:200605171",
-                "location": "Boronia",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2670135574768,
-                    -37.86056683318778
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Boundary Trk",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-06-07T14:02:00+10:00",
-                "updated": "2020-06-07T15:06:00+10:00",
-                "id": "ESTA:200605069",
-                "location": "Boundary Trk, Nyah",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.38180173475254,
-                    -35.150082041002456
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Boundary Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-07T14:57:00+10:00",
-                "updated": "2020-06-07T15:04:00+10:00",
-                "id": "ESTA:200605169",
-                "location": "Boundary Rd, Clonbinane",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10854436199574,
-                    -37.35309024662754
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thompson St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-06-07T14:20:00+10:00",
-                "updated": "2020-06-07T14:44:00+10:00",
-                "id": "ESTA:200605100",
-                "location": "Thompson St, Hamilton",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.02604480666105,
-                    -37.74767360736358
                 ]
             }
         },
@@ -4218,6 +4171,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Ranfurlie Cr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-06-07T15:54:20+10:00",
+                "updated": "2020-06-07T15:54:20+10:00",
+                "id": "ESTA:200605225",
+                "location": "Ranfurlie Cr, Glen Iris",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05400336499218,
+                    -37.860998774854124
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Alfrieda St",
                 "category": "rescue",
                 "subcategory": "other",
@@ -4235,28 +4211,6 @@
                 "coordinates": [
                     144.8009101302423,
                     -37.74383163825865
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-06-07T15:24:00+10:00",
-                "updated": "2020-06-07T15:36:00+10:00",
-                "id": "ESTA:200650464",
-                "location": "Whittlesea",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.11752553649455,
-                    -37.51345754773852
                 ]
             }
         }

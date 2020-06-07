@@ -3741,60 +3741,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bayvista Rise",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-06-07T19:00:00+10:00",
-                "updated": "2020-06-07T19:30:00+10:00",
-                "id": "ESTA:200605478",
-                "location": "Bayvista Rise, Somerville",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.18016002775823,
-                    -38.23326074628175
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Abbott St",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-07T19:34:01+10:00",
-                "updated": "2020-06-07T19:34:01+10:00",
-                "id": "ESTA:200605486",
-                "location": "Abbott St, Sandringham",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01636124117067,
-                    -37.95009758034348
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hawthorn Rd",
+                "sourceTitle": "New Dookie Rd",
                 "category": "fire",
-                "subcategory": "fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-06-07T19:34:25+10:00",
-                "updated": "2020-06-07T19:34:25+10:00",
-                "id": "ESTA:200605492",
-                "location": "Hawthorn Rd, Caulfield",
+                "created": "2020-06-07T19:57:00+10:00",
+                "updated": "2020-06-07T19:57:00+10:00",
+                "id": "ESTA:200605498",
+                "location": "New Dookie Rd, Pine Lodge",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3802,8 +3756,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02278039203154,
-                    -37.88169531109816
+                    145.5316617661459,
+                    -36.36478836739051
                 ]
             }
         },
@@ -3813,9 +3767,9 @@
                 "sourceTitle": "Schubert Cr",
                 "category": "rescue",
                 "subcategory": "rescue",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-07T19:31:00+10:00",
-                "updated": "2020-06-07T19:31:00+10:00",
+                "updated": "2020-06-07T19:48:00+10:00",
                 "id": "ESTA:200605490",
                 "location": "Schubert Cr, Wodonga",
                 "size": "Small",
@@ -3836,35 +3790,34 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-06-07T19:45:00+10:00",
-                "updated": "2020-06-07T19:45:24+10:00",
-                "id": "ESTA:200650473",
-                "location": "Werribee",
+                "status": "complete",
+                "created": "2020-06-07T18:20:00+10:00",
+                "updated": "2020-06-07T19:58:00+10:00",
+                "id": "ESTA:200650471",
+                "location": "Cranbourne West",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.60515110470448,
-                    -37.908668877372236
+                    145.24541045926443,
+                    -38.1069833555205
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
                 "created": "2020-06-07T19:45:00+10:00",
-                "updated": "2020-06-07T19:45:00+10:00",
-                "id": "ESTA:200605494",
+                "updated": "2020-06-07T19:59:00+10:00",
+                "id": "ESTA:200650473",
                 "location": "Werribee",
-                "size": "Small",
-                "title": "incident: other"
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
@@ -4032,6 +3985,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-07T19:45:00+10:00",
+                "updated": "2020-06-07T19:56:00+10:00",
+                "id": "ESTA:200605494",
+                "location": "Werribee",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.60515110470448,
+                    -37.908668877372236
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bayvista Rise",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-06-07T19:00:00+10:00",
+                "updated": "2020-06-07T19:30:00+10:00",
+                "id": "ESTA:200605478",
+                "location": "Bayvista Rise, Somerville",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18016002775823,
+                    -38.23326074628175
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Symonds St",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -4049,52 +4048,6 @@
                 "coordinates": [
                     144.24925683841315,
                     -36.77328359272977
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-07T18:45:00+10:00",
-                "updated": "2020-06-07T18:57:00+10:00",
-                "id": "ESTA:200605470",
-                "location": "Ballarat Central",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.86422504310465,
-                    -37.56049040546538
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Strathlea Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-07T18:20:00+10:00",
-                "updated": "2020-06-07T18:51:00+10:00",
-                "id": "ESTA:200605462",
-                "location": "Strathlea Dr, Cranbourne West",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.24541045926443,
-                    -38.1069833555205
                 ]
             }
         },
@@ -4147,22 +4100,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2020-06-07T18:20:00+10:00",
-                "updated": "2020-06-07T19:07:00+10:00",
-                "id": "ESTA:200650471",
-                "location": "Cranbourne West",
-                "title": "incident: building damage"
+                "sourceTitle": "Abbott St",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-07T19:34:01+10:00",
+                "updated": "2020-06-07T19:34:01+10:00",
+                "id": "ESTA:200605486",
+                "location": "Abbott St, Sandringham",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.24541045926443,
-                    -38.1069833555205
+                    145.01636124117067,
+                    -37.95009758034348
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "complete",
+                "created": "2020-06-07T19:46:00+10:00",
+                "updated": "2020-06-07T19:59:00+10:00",
+                "id": "ESTA:200650474",
+                "location": "Werribee",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.60515110470448,
+                    -37.908668877372236
                 ]
             }
         }

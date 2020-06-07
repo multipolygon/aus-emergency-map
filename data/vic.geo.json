@@ -3741,29 +3741,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Halletts Way",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-08T05:00:00+10:00",
-                "updated": "2020-06-08T05:00:00+10:00",
-                "id": "ESTA:200605588",
-                "location": "Halletts Way, Darley",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.42490199012008,
-                    -37.65806919563198
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Maud St",
                 "category": "fire",
                 "subcategory": "other",
@@ -3787,23 +3764,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Griffith St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-08T05:12:00+10:00",
-                "updated": "2020-06-08T05:12:00+10:00",
-                "id": "ESTA:200605591",
-                "location": "Griffith St, Maddingley",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-06-08T03:28:00+10:00",
+                "updated": "2020-06-08T05:24:00+10:00",
+                "id": "ESTA:200650480",
+                "location": "Williamstown",
+                "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.42815897602776,
-                    -37.6868406047159
+                    144.9029085974748,
+                    -37.86752067043118
                 ]
             }
         },
@@ -3813,7 +3789,7 @@
                 "sourceTitle": "Grant St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-08T05:10:00+10:00",
                 "updated": "2020-06-08T05:10:00+10:00",
                 "id": "ESTA:200605590",
@@ -3833,56 +3809,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Main St",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-08T05:13:42+10:00",
-                "updated": "2020-06-08T05:13:42+10:00",
-                "id": "ESTA:200605585",
-                "location": "Main St, Mordialloc",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0882115702803,
-                    -38.008149852092494
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Station St",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "responding",
-                "created": "2020-06-08T05:14:00+10:00",
-                "updated": "2020-06-08T05:14:00+10:00",
-                "id": "ESTA:200605592",
-                "location": "Station St, Maddingley",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.43678454028952,
-                    -37.68759621972408
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Princes Hwy",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-08T05:16:00+10:00",
                 "updated": "2020-06-08T05:16:00+10:00",
                 "id": "ESTA:200605593",
@@ -3896,6 +3826,29 @@
                 "coordinates": [
                     145.30348786646852,
                     -38.023494678800915
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Droop St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-06-08T05:28:45+10:00",
+                "updated": "2020-06-08T05:28:45+10:00",
+                "id": "ESTA:200605594",
+                "location": "Droop St, Footscray",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.89590232161436,
+                    -37.79527392537493
                 ]
             }
         },
@@ -4056,6 +4009,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Station St",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "responding",
+                "created": "2020-06-08T05:14:00+10:00",
+                "updated": "2020-06-08T05:14:00+10:00",
+                "id": "ESTA:200605592",
+                "location": "Station St, Maddingley",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.43678454028952,
+                    -37.68759621972408
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Griffith St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-08T05:12:00+10:00",
+                "updated": "2020-06-08T05:12:00+10:00",
+                "id": "ESTA:200605591",
+                "location": "Griffith St, Maddingley",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.42815897602776,
+                    -37.6868406047159
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Halletts Way",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-08T05:00:00+10:00",
+                "updated": "2020-06-08T05:00:00+10:00",
+                "id": "ESTA:200605588",
+                "location": "Halletts Way, Darley",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.42490199012008,
+                    -37.65806919563198
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Dobson St",
                 "category": "other",
                 "subcategory": "other",
@@ -4125,29 +4147,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bell St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-06-08T05:08:13+10:00",
-                "updated": "2020-06-08T05:08:13+10:00",
-                "id": "ESTA:200605584",
-                "location": "Bell St, Heidelberg Heights",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05165663514228,
-                    -37.75307719707981
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Alfrieda St",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -4171,22 +4170,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-06-08T03:28:00+10:00",
-                "updated": "2020-06-08T03:31:00+10:00",
-                "id": "ESTA:200650480",
-                "location": "Williamstown",
-                "title": "incident: flooding"
+                "sourceTitle": "Main St",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-08T05:13:42+10:00",
+                "updated": "2020-06-08T05:13:42+10:00",
+                "id": "ESTA:200605585",
+                "location": "Main St, Mordialloc",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9029085974748,
-                    -37.86752067043118
+                    145.0882115702803,
+                    -38.008149852092494
                 ]
             }
         }

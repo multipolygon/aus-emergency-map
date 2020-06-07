@@ -3742,15 +3742,15 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Banbury Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-07T18:41:54+10:00",
-                "updated": "2020-06-07T18:41:54+10:00",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-07T18:49:51+10:00",
+                "updated": "2020-06-07T18:49:51+10:00",
                 "id": "ESTA:200605469",
                 "location": "Banbury Rd, Reservoir",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
@@ -3764,12 +3764,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Esmond",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-07T17:29:44+10:00",
+                "updated": "2020-06-07T18:52:34+10:00",
+                "id": "ESTA:200605421",
+                "location": "Esmond",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.17704891847927,
+                    -36.067052668355345
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-07T18:45:00+10:00",
-                "updated": "2020-06-07T18:45:00+10:00",
+                "updated": "2020-06-07T18:57:00+10:00",
                 "id": "ESTA:200605470",
                 "location": "Ballarat Central",
                 "size": "Small",
@@ -3781,6 +3803,29 @@
                 "coordinates": [
                     143.86422504310465,
                     -37.56049040546538
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bayvista Rise",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-07T19:00:37+10:00",
+                "updated": "2020-06-07T19:00:37+10:00",
+                "id": "ESTA:200605478",
+                "location": "Bayvista Rise, Somerville",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18016128708013,
+                    -38.23325750751383
                 ]
             }
         },
@@ -3941,6 +3986,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Strathlea Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-07T18:20:00+10:00",
+                "updated": "2020-06-07T18:51:00+10:00",
+                "id": "ESTA:200605462",
+                "location": "Strathlea Dr, Cranbourne West",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24541045926443,
+                    -38.1069833555205
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -3958,29 +4026,6 @@
                 "coordinates": [
                     148.02608184540878,
                     -37.86118095996865
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Strathlea Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-07T18:20:00+10:00",
-                "updated": "2020-06-07T18:35:00+10:00",
-                "id": "ESTA:200605462",
-                "location": "Strathlea Dr, Cranbourne West",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.24541045926443,
-                    -38.1069833555205
                 ]
             }
         },
@@ -4050,52 +4095,6 @@
                 "coordinates": [
                     145.1488473104836,
                     -37.971082759544
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-07T17:30:00+10:00",
-                "updated": "2020-06-07T17:59:00+10:00",
-                "id": "ESTA:200605421",
-                "location": "Esmond",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.1770440980159,
-                    -36.067061990180086
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beluga St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-07T17:52:00+10:00",
-                "updated": "2020-06-07T17:54:00+10:00",
-                "id": "ESTA:200605445",
-                "location": "Beluga St, Mount Eliza",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0774361519564,
-                    -38.20044322822669
                 ]
             }
         },

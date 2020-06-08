@@ -3744,9 +3744,9 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-06-08T09:40:00+10:00",
-                "updated": "2020-06-08T09:40:00+10:00",
+                "updated": "2020-06-08T09:51:00+10:00",
                 "id": "ESTA:200605710",
                 "location": "Darley",
                 "size": "Small",
@@ -3767,9 +3767,9 @@
                 "sourceTitle": "Windsor St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-08T09:43:28+10:00",
-                "updated": "2020-06-08T09:43:28+10:00",
+                "status": "under control",
+                "created": "2020-06-08T09:51:50+10:00",
+                "updated": "2020-06-08T09:51:50+10:00",
                 "id": "ESTA:200605714",
                 "location": "Windsor St, Pascoe Vale",
                 "size": "Small",
@@ -3787,22 +3787,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ravenhall",
+                "sourceTitle": "Green St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-08T09:46:09+10:00",
-                "updated": "2020-06-08T09:46:12+10:00",
-                "id": "ESTA:200605721",
-                "location": "Middle Rd, Ravenhall",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-06-08T10:02:23+10:00",
+                "updated": "2020-06-08T10:02:23+10:00",
+                "id": "ESTA:200605728",
+                "location": "Green St, North Melbourne",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7466326820329,
-                    -37.79535242948249
+                    144.93897846591025,
+                    -37.79859225871563
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Middle Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-06-08T10:02:43+10:00",
+                "updated": "2020-06-08T10:02:43+10:00",
+                "id": "ESTA:200605721",
+                "location": "Middle Rd, Ravenhall",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7466247214245,
+                    -37.7953578697881
                 ]
             }
         },
@@ -3942,52 +3966,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gould St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-08T08:42:00+10:00",
-                "updated": "2020-06-08T08:59:00+10:00",
-                "id": "ESTA:200605646",
-                "location": "Gould St, Frankston",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12225563304145,
-                    -38.13380799334616
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bourke St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-06-08T08:46:00+10:00",
-                "updated": "2020-06-08T08:48:00+10:00",
-                "id": "ESTA:200605651",
-                "location": "Bourke St, Korumburra",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.8268759175027,
-                    -38.4296416151052
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Snowy 16 - Snowy Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -4028,29 +4006,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Alfrieda St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-08T01:11:08+10:00",
-                "updated": "2020-06-08T01:11:08+10:00",
-                "id": "ESTA:200605551",
-                "location": "Alfrieda St, St Albans",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.801025138799,
-                    -37.743246158313994
                 ]
             }
         }

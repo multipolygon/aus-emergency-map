@@ -3741,14 +3741,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Normanby St",
+                "sourceTitle": "Robinvale-Sea Lake Rd",
                 "category": "rescue",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-09T00:40:40+10:00",
-                "updated": "2020-06-09T00:40:40+10:00",
-                "id": "ESTA:200606554",
-                "location": "Normanby St, South Melbourne",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-06-08T23:01:00+10:00",
+                "updated": "2020-06-09T00:13:00+10:00",
+                "id": "ESTA:200606537",
+                "location": "Robinvale-Sea Lake Rd, Annuello",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -3756,8 +3756,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.95116181640424,
-                    -37.834520844681585
+                    142.84279069459149,
+                    -34.86331368982992
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Aylmer Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-06-09T00:46:00+10:00",
+                "updated": "2020-06-09T00:46:00+10:00",
+                "id": "ESTA:200606556",
+                "location": "Aylmer Rd, Lyndhurst",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24646457408454,
+                    -38.060967068062574
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sutherland Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-09T00:56:37+10:00",
+                "updated": "2020-06-09T00:56:37+10:00",
+                "id": "ESTA:200606557",
+                "location": "Sutherland Rd, Armadale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01656897852163,
+                    -37.859928591491524
                 ]
             }
         },
@@ -3896,29 +3942,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Robinvale-Sea Lake Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-08T23:01:00+10:00",
-                "updated": "2020-06-09T00:13:00+10:00",
-                "id": "ESTA:200606537",
-                "location": "Robinvale-Sea Lake Rd, Annuello",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.84279069459149,
-                    -34.86331368982992
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mt Disappointment Forest Dr",
                 "category": "other",
                 "subcategory": "other",
@@ -4005,6 +4028,29 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Normanby St",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-09T00:40:40+10:00",
+                "updated": "2020-06-09T00:40:40+10:00",
+                "id": "ESTA:200606554",
+                "location": "Normanby St, South Melbourne",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95116181640424,
+                    -37.834520844681585
                 ]
             }
         }

@@ -3764,12 +3764,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Chinamans Trk",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-08T11:14:00+10:00",
+                "updated": "2020-06-08T12:18:00+10:00",
+                "id": "ESTA:200605910",
+                "location": "Chinamans Trk, Yarrawonga",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.97323549237265,
+                    -36.00803397472927
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Parsons St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-08T12:11:18+10:00",
-                "updated": "2020-06-08T12:11:18+10:00",
+                "status": "under control",
+                "created": "2020-06-08T12:19:44+10:00",
+                "updated": "2020-06-08T12:19:44+10:00",
                 "id": "ESTA:200606014",
                 "location": "Parsons St, Sunshine",
                 "size": "Small",
@@ -3787,22 +3810,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-06-08T12:11:00+10:00",
-                "updated": "2020-06-08T12:15:00+10:00",
-                "id": "ESTA:200650485",
-                "location": "Broadmeadows",
-                "title": "incident: building damage"
+                "sourceTitle": "Toora North",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-08T10:42:50+10:00",
+                "updated": "2020-06-08T12:20:30+10:00",
+                "id": "ESTA:200605846",
+                "location": "Singletons Rd, Toora North",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9300257848983,
-                    -37.685386403694466
+                    146.33634302950765,
+                    -38.58848747998488
                 ]
             }
         },
@@ -3812,9 +3835,9 @@
                 "sourceTitle": "Smiths Gully Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-08T12:13:00+10:00",
-                "updated": "2020-06-08T12:13:00+10:00",
+                "updated": "2020-06-08T12:30:00+10:00",
                 "id": "ESTA:200606018",
                 "location": "Smiths Gully Rd, Smiths Gully",
                 "size": "Small",
@@ -3826,6 +3849,74 @@
                 "coordinates": [
                     145.28471673386812,
                     -37.6199370009667
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kunzea Cl",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-06-08T12:30:06+10:00",
+                "updated": "2020-06-08T12:30:06+10:00",
+                "id": "ESTA:200606057",
+                "location": "Kunzea Cl, Meadow Heights",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91584869732165,
+                    -37.64543787110049
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "request for assistance",
+                "created": "2020-06-08T12:31:00+10:00",
+                "updated": "2020-06-08T12:30:30+10:00",
+                "id": "ESTA:200650486",
+                "location": "Little River",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.42249851026202,
+                    -37.9536106218495
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mcpherson St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-08T11:55:00+10:00",
+                "updated": "2020-06-08T11:55:00+10:00",
+                "id": "ESTA:200605982",
+                "location": "Mcpherson St, Casterton",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.40163115482818,
+                    -37.58289679172969
                 ]
             }
         },
@@ -3942,29 +4033,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mcpherson St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-08T11:55:00+10:00",
-                "updated": "2020-06-08T11:55:00+10:00",
-                "id": "ESTA:200605982",
-                "location": "Mcpherson St, Casterton",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.40163115482818,
-                    -37.58289679172969
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Moss Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -3982,75 +4050,6 @@
                 "coordinates": [
                     146.74250432679628,
                     -36.056267112342844
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Singletons Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-08T10:43:00+10:00",
-                "updated": "2020-06-08T11:25:00+10:00",
-                "id": "ESTA:200605846",
-                "location": "Singletons Rd, Toora North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.33633029948848,
-                    -38.58849640722305
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Waterloo Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-08T11:08:00+10:00",
-                "updated": "2020-06-08T11:23:00+10:00",
-                "id": "ESTA:200605898",
-                "location": "Waterloo Rd, Moe",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.25225145678155,
-                    -38.178856636437004
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Chinamans Trk",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-08T11:14:00+10:00",
-                "updated": "2020-06-08T11:14:00+10:00",
-                "id": "ESTA:200605910",
-                "location": "Chinamans Trk, Yarrawonga",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.97323549237265,
-                    -36.00803397472927
                 ]
             }
         },
@@ -4108,7 +4107,7 @@
                 "subcategory": "other",
                 "status": "request for assistance",
                 "created": "2020-06-08T11:35:00+10:00",
-                "updated": "2020-06-08T11:37:00+10:00",
+                "updated": "2020-06-08T12:16:00+10:00",
                 "id": "ESTA:200650484",
                 "location": "Golden Point (Ballarat)",
                 "title": "incident: other"
@@ -4119,6 +4118,28 @@
                 "coordinates": [
                     143.87121438375334,
                     -37.56947530824393
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-06-08T12:11:00+10:00",
+                "updated": "2020-06-08T12:15:00+10:00",
+                "id": "ESTA:200650485",
+                "location": "Broadmeadows",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9300257848983,
+                    -37.685386403694466
                 ]
             }
         }

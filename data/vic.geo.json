@@ -3810,22 +3810,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-06-09T23:16:00+10:00",
-                "updated": "2020-06-10T00:01:00+10:00",
-                "id": "ESTA:200650555",
-                "location": "Sunset Strip",
-                "title": "incident: building damage"
+                "sourceTitle": "Bass Ct",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-10T00:03:00+10:00",
+                "updated": "2020-06-10T00:15:00+10:00",
+                "id": "ESTA:200607247",
+                "location": "Bass Ct, Shepparton",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2648908926018,
-                    -38.49717190852919
+                    145.38376784882325,
+                    -36.35622628368576
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Taskers Windrow Burn",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-06-02T08:23:00+10:00",
+                "updated": "2020-06-02T08:23:00+10:00",
+                "id": "2020-06-02T08:23:00.0000000:383432",
+                "location": "Bondi Forest Way",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.243216515,
+                    -37.169926506
                 ]
             }
         },
@@ -3870,28 +3893,6 @@
                 "coordinates": [
                     149.334669113,
                     -36.9753353839999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Taskers Windrow Burn",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-06-02T08:23:00+10:00",
-                "updated": "2020-06-02T08:23:00+10:00",
-                "id": "2020-06-02T08:23:00.0000000:383432",
-                "location": "Bondi Forest Way",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.243216515,
-                    -37.169926506
                 ]
             }
         },
@@ -4007,29 +4008,6 @@
                 "coordinates": [
                     147.6024623878815,
                     -37.432291905209674
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Parkville",
-                "category": "rescue",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-09T23:47:15+10:00",
-                "updated": "2020-06-09T23:47:15+10:00",
-                "id": "ESTA:200607245",
-                "location": "Parkville, Parkville",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95188458029148,
-                    -37.787785982325595
                 ]
             }
         }

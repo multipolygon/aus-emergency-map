@@ -28,6 +28,107 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.05017600267098,
+                            -33.7405675757265
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.05354294,
+                                            -33.740603267
+                                        ],
+                                        [
+                                            150.053840373,
+                                            -33.7409006999999
+                                        ],
+                                        [
+                                            150.054078319,
+                                            -33.741555051
+                                        ],
+                                        [
+                                            150.054851643,
+                                            -33.7421499169999
+                                        ],
+                                        [
+                                            150.055803428,
+                                            -33.741674025
+                                        ],
+                                        [
+                                            150.056993158,
+                                            -33.7422688899999
+                                        ],
+                                        [
+                                            150.05746905,
+                                            -33.7431017019999
+                                        ],
+                                        [
+                                            150.058242375,
+                                            -33.742804269
+                                        ],
+                                        [
+                                            150.060026971,
+                                            -33.7432206739999
+                                        ],
+                                        [
+                                            150.062168486,
+                                            -33.7453027029999
+                                        ],
+                                        [
+                                            150.059848512,
+                                            -33.74518373
+                                        ],
+                                        [
+                                            150.056993158,
+                                            -33.745124244
+                                        ],
+                                        [
+                                            150.055387023,
+                                            -33.744291432
+                                        ],
+                                        [
+                                            150.052472183,
+                                            -33.7431611879999
+                                        ],
+                                        [
+                                            150.05354294,
+                                            -33.740603267
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Black Range 2020 AC Establishment Burn",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/381748",
+                "created": "2020-06-09T00:13:00+10:00",
+                "updated": "2020-06-09T10:13:00+10:00",
+                "location": "Lipeys Creek, Jenolan State Forest",
+                "size": 21,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Lipeys Creek, Jenolan State Forest <br />COUNCIL AREA: Oberon <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 21 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 9 Jun 2020 10:13",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     149.14807319700003,
@@ -46,30 +147,6 @@
                 "location": "Buldah rd",
                 "size": 1,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Buldah rd <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 2 Jun 2020 08:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.5247670000001,
-                    -32.68857699999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dickenson Rd, Melville",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/384423",
-                "created": "2020-06-08T07:32:00+10:00",
-                "updated": "2020-06-08T17:32:00+10:00",
-                "location": "Dickenson Rd, Melville, NSW 2320",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Dickenson Rd, Melville, NSW 2320 <br />COUNCIL AREA: Maitland <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jun 2020 17:32",
                 "title": "incident: fire"
             }
         },
@@ -1262,13 +1339,13 @@
                 "sourceTitle": "Medowie Rd, Williamtown",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/384481",
-                "created": "2020-06-08T23:34:00+10:00",
-                "updated": "2020-06-09T09:34:00+10:00",
+                "created": "2020-06-09T00:06:00+10:00",
+                "updated": "2020-06-09T10:06:00+10:00",
                 "location": "Medowie Rd, Williamtown,  2318",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Medowie Rd, Williamtown,  2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2020 09:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Medowie Rd, Williamtown,  2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2020 10:06",
                 "title": "incident: other"
             }
         },
@@ -1294,30 +1371,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 Menangle Rd, Menangle, NSW 2568 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2020 08:16",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.29921000000002,
-                    -35.668091999999945
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Off Old Coast Rd, South Durras",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/384480",
-                "created": "2020-06-08T23:52:00+10:00",
-                "updated": "2020-06-09T09:52:00+10:00",
-                "location": "Off Old Coast Rd, South Durras, NSW 2536",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Off Old Coast Rd, South Durras, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2020 09:52",
-                "title": "incident: fire"
             }
         },
         {
@@ -1437,6 +1490,30 @@
                 "location": "Walla Walla Rd, Walla Walla, NSW 2659",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Walla Walla Rd, Walla Walla, NSW 2659 <br />COUNCIL AREA: Greater Hume <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2020 07:20",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.77870500000006,
+                    -30.421126999999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Waterfall Way, Thora",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/384482",
+                "created": "2020-06-09T00:06:00+10:00",
+                "updated": "2020-06-09T10:06:00+10:00",
+                "location": "Waterfall Way, Thora, NSW 2454",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Waterfall Way, Thora, NSW 2454 <br />COUNCIL AREA: Bellingen <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2020 10:06",
                 "title": "incident: other"
             }
         }

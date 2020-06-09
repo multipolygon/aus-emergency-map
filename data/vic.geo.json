@@ -3832,81 +3832,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dexter Dr",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
-                "created": "2020-06-09T13:47:00+10:00",
-                "updated": "2020-06-09T13:47:00+10:00",
-                "id": "ESTA:200606987",
-                "location": "Dexter Dr, Epping",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99732689770028,
-                    -37.63646922782526
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Murray Valley Hwy",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-09T13:48:00+10:00",
-                "updated": "2020-06-09T13:48:00+10:00",
-                "id": "ESTA:200606988",
-                "location": "Murray Valley Hwy, Cobram East",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.69979258500507,
-                    -35.961963869535836
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "St Kilda Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-06-09T13:57:13+10:00",
-                "updated": "2020-06-09T13:57:13+10:00",
-                "id": "ESTA:200606982",
-                "location": "St Kilda Rd, Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97598287526023,
-                    -37.83869097773118
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Nangathan Way",
                 "category": "rescue",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-09T13:57:57+10:00",
-                "updated": "2020-06-09T13:57:57+10:00",
+                "status": "under control",
+                "created": "2020-06-09T14:07:28+10:00",
+                "updated": "2020-06-09T14:07:28+10:00",
                 "id": "ESTA:200607000",
                 "location": "Nangathan Way, Croydon North",
                 "size": "Small",
@@ -3918,51 +3849,6 @@
                 "coordinates": [
                     145.27838096146488,
                     -37.77461505621569
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-06-09T13:38:00+10:00",
-                "updated": "2020-06-09T13:58:00+10:00",
-                "id": "ESTA:200650517",
-                "location": "Forest Hill",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17255944089385,
-                    -37.83409403900839
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Somerton Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-09T13:59:41+10:00",
-                "updated": "2020-06-09T13:59:41+10:00",
-                "id": "ESTA:200607002",
-                "location": "Somerton Rd, Campbellfield",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94056624091644,
-                    -37.642271934995364
                 ]
             }
         },
@@ -4057,6 +3943,98 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Murray Valley Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-09T13:48:00+10:00",
+                "updated": "2020-06-09T14:05:00+10:00",
+                "id": "ESTA:200606988",
+                "location": "Murray Valley Hwy, Cobram East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.69979258500507,
+                    -35.961963869535836
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dexter Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-09T13:47:00+10:00",
+                "updated": "2020-06-09T14:03:00+10:00",
+                "id": "ESTA:200606987",
+                "location": "Dexter Dr, Epping",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99732689770028,
+                    -37.63646922782526
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-06-09T12:43:00+10:00",
+                "updated": "2020-06-09T13:24:00+10:00",
+                "id": "ESTA:200606917",
+                "location": "Ringwood",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.23064791059022,
+                    -37.81072976537433
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mt Disappointment Forest Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-08T22:41:00+10:00",
+                "updated": "2020-06-09T00:05:00+10:00",
+                "id": "ESTA:200606535",
+                "location": "Mt Disappointment Forest Dr, Whittlesea",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12818862963564,
+                    -37.41849157801566
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Snowy 16 - Snowy Complex -",
                 "category": "other",
                 "subcategory": "other",
@@ -4103,92 +4081,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "St Kilda Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2020-06-09T12:43:00+10:00",
-                "updated": "2020-06-09T13:24:00+10:00",
-                "id": "ESTA:200606917",
-                "location": "Ringwood",
+                "created": "2020-06-09T13:57:13+10:00",
+                "updated": "2020-06-09T13:57:13+10:00",
+                "id": "ESTA:200606982",
+                "location": "St Kilda Rd, Melbourne",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.23064791059022,
-                    -37.81072976537433
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kirkland Ct",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-09T12:54:00+10:00",
-                "updated": "2020-06-09T13:11:00+10:00",
-                "id": "ESTA:200606930",
-                "location": "Kirkland Ct, Epping",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03068534205036,
-                    -37.629758202258756
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wahroonga Cr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-09T11:38:00+10:00",
-                "updated": "2020-06-09T13:03:00+10:00",
-                "id": "ESTA:200606855",
-                "location": "Wahroonga Cr, Greensborough",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1242720783903,
-                    -37.69641468405948
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mt Disappointment Forest Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-08T22:41:00+10:00",
-                "updated": "2020-06-09T00:05:00+10:00",
-                "id": "ESTA:200606535",
-                "location": "Mt Disappointment Forest Dr, Whittlesea",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12818862963564,
-                    -37.41849157801566
+                    144.97598287526023,
+                    -37.83869097773118
                 ]
             }
         },
@@ -4235,6 +4144,28 @@
                 "coordinates": [
                     145.1926661204689,
                     -37.814482027586024
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "request for assistance",
+                "created": "2020-06-09T14:12:00+10:00",
+                "updated": "2020-06-09T14:15:00+10:00",
+                "id": "ESTA:200650518",
+                "location": "Whittlesea",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12818862963564,
+                    -37.41849157801566
                 ]
             }
         }

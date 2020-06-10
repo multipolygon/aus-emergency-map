@@ -3844,6 +3844,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Villa Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-10T13:03:00+10:00",
+                "updated": "2020-06-10T13:03:00+10:00",
+                "id": "ESTA:200607656",
+                "location": "Villa Rd, Springvale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14213755110129,
+                    -37.948231166472276
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "High St",
                 "category": "fire",
                 "subcategory": "other",
@@ -3867,34 +3890,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-06-10T12:33:00+10:00",
-                "updated": "2020-06-10T12:52:00+10:00",
-                "id": "ESTA:200650569",
-                "location": "Caulfield",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02230834492804,
-                    -37.88007731925834
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Old Leongatha Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-06-10T12:32:00+10:00",
-                "updated": "2020-06-10T13:01:00+10:00",
+                "updated": "2020-06-10T13:14:00+10:00",
                 "id": "ESTA:200607631",
                 "location": "Old Leongatha Rd, Kardella South",
                 "size": "Small",
@@ -3972,52 +3973,6 @@
                 "coordinates": [
                     149.243216515,
                     -37.169926506
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-10T11:57:00+10:00",
-                "updated": "2020-06-10T12:11:00+10:00",
-                "id": "ESTA:200607587",
-                "location": "Merrigum",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10363422063907,
-                    -36.387117626385525
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mt Disappointment Forest Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-08T22:41:00+10:00",
-                "updated": "2020-06-09T00:05:00+10:00",
-                "id": "ESTA:200606535",
-                "location": "Mt Disappointment Forest Dr, Whittlesea",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12818862963564,
-                    -37.41849157801566
                 ]
             }
         },
@@ -4139,14 +4094,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glen Eira Rd",
+                "sourceTitle": "Mt Disappointment Forest Dr",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-10T12:41:27+10:00",
-                "updated": "2020-06-10T12:41:27+10:00",
-                "id": "ESTA:200607632",
-                "location": "Glen Eira Rd, Caulfield",
+                "status": "responding",
+                "created": "2020-06-08T22:41:00+10:00",
+                "updated": "2020-06-09T00:05:00+10:00",
+                "id": "ESTA:200606535",
+                "location": "Mt Disappointment Forest Dr, Whittlesea",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -4154,8 +4109,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0223138465505,
-                    -37.88007363729392
+                    145.12818862963564,
+                    -37.41849157801566
                 ]
             }
         },
@@ -4179,6 +4134,29 @@
                 "coordinates": [
                     145.02631346295502,
                     -37.810164823524204
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glen Eira Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-10T12:41:27+10:00",
+                "updated": "2020-06-10T12:41:27+10:00",
+                "id": "ESTA:200607632",
+                "location": "Glen Eira Rd, Caulfield",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0223138465505,
+                    -37.88007363729392
                 ]
             }
         },

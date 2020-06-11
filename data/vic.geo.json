@@ -3867,6 +3867,28 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "request for assistance",
+                "created": "2020-06-11T14:02:00+10:00",
+                "updated": "2020-06-11T14:06:00+10:00",
+                "id": "ESTA:200650589",
+                "location": "Sunbury",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.71808236246125,
+                    -37.58936625412227
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -3890,89 +3912,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sandringham",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-11T13:50:36+10:00",
-                "updated": "2020-06-11T13:50:36+10:00",
-                "id": "ESTA:200608379",
-                "location": "Sandringham, Sandringham",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Great Western",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-06-11T14:14:57+10:00",
+                "updated": "2020-06-11T14:16:07+10:00",
+                "id": "ESTA:200608417",
+                "location": "Great Western",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02103805238028,
-                    -37.952051914705564
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-11T13:45:00+10:00",
-                "updated": "2020-06-11T13:54:00+10:00",
-                "id": "ESTA:200650586",
-                "location": "Ventnor",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.22951547592442,
-                    -38.504247755557046
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bondi Windrow Burn",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-06-02T08:26:00+10:00",
-                "updated": "2020-06-02T08:26:00+10:00",
-                "id": "2020-06-02T08:26:00.0000000:383431",
-                "location": "Buldah Rd",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.148073197,
-                    -37.1544336919999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mt Dispersion Hr",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-06-11T13:49:00+10:00",
-                "updated": "2020-06-11T13:49:00+10:00",
-                "id": "2020-06-11T13:49:00.0000000:384502",
-                "location": "Condon Fire Trail, Mallee",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.614212036,
-                    -34.3757456009999
+                    142.82213566512257,
+                    -37.126371342348016
                 ]
             }
         },
@@ -4023,6 +3978,50 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bondi Windrow Burn",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-06-02T08:26:00+10:00",
+                "updated": "2020-06-02T08:26:00+10:00",
+                "id": "2020-06-02T08:26:00.0000000:383431",
+                "location": "Buldah Rd",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.148073197,
+                    -37.1544336919999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mt Dispersion Hr",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-06-11T13:49:00+10:00",
+                "updated": "2020-06-11T13:49:00+10:00",
+                "id": "2020-06-11T13:49:00.0000000:384502",
+                "location": "Condon Fire Trail, Mallee",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.614212036,
+                    -34.3757456009999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -4040,29 +4039,6 @@
                 "coordinates": [
                     145.1733136732884,
                     -37.96502190058773
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bournian Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-11T04:02:42+10:00",
-                "updated": "2020-06-11T04:02:42+10:00",
-                "id": "ESTA:200607981",
-                "location": "Bournian Av, Strathmore",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.92153484887808,
-                    -37.73531235476421
                 ]
             }
         }

@@ -3844,14 +3844,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mt Dandenong Rd",
+                "sourceTitle": "Thompsons Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-06-12T07:30:00+10:00",
-                "updated": "2020-06-12T07:30:00+10:00",
-                "id": "ESTA:200608729",
-                "location": "Mt Dandenong Rd, Montrose",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-12T06:47:00+10:00",
+                "updated": "2020-06-12T07:46:00+10:00",
+                "id": "ESTA:200608717",
+                "location": "Thompsons Rd, Lyndhurst",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3859,54 +3859,75 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.33196323247054,
-                    -37.81020767171935
+                    145.2614943983844,
+                    -38.08040352091759
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "request for assistance",
-                "created": "2020-06-12T07:41:00+10:00",
-                "updated": "2020-06-12T07:43:00+10:00",
-                "id": "ESTA:200608732",
-                "location": "Lindenow South",
+                "sourceTitle": "Gloucester Av",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-12T07:55:00+10:00",
+                "updated": "2020-06-12T07:55:00+10:00",
+                "id": "ESTA:200608740",
+                "location": "Gloucester Av, Berwick",
                 "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34567445584756,
+                    -38.03561321778618
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Williams Landing",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-12T07:58:12+10:00",
+                "updated": "2020-06-12T08:00:19+10:00",
+                "id": "ESTA:200608742",
+                "location": "Williams Landing",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.73453415142612,
+                    -37.86734575492383
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hoppers Crossing",
+                "category": "rescue",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-12T08:00:44+10:00",
+                "updated": "2020-06-12T08:00:54+10:00",
+                "id": "ESTA:200608743",
+                "location": "Old Geelong Rd, Hoppers Crossing",
                 "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.42270062526322,
-                    -37.88091842022764
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cheltenham Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-12T07:43:00+10:00",
-                "updated": "2020-06-12T07:43:00+10:00",
-                "id": "ESTA:200608734",
-                "location": "Cheltenham Rd, Keysborough",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.14756379642654,
-                    -37.9904378659024
+                    144.73450093852057,
+                    -37.867327136335874
                 ]
             }
         },
@@ -4286,6 +4307,52 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
+                "created": "2020-06-12T06:34:00+10:00",
+                "updated": "2020-06-12T07:52:00+10:00",
+                "id": "ESTA:200608711",
+                "location": "Barwon Heads",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.489988970209,
+                    -38.27741757490451
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
+                "status": "request for assistance",
+                "created": "2020-06-12T07:41:00+10:00",
+                "updated": "2020-06-12T07:54:00+10:00",
+                "id": "ESTA:200608732",
+                "location": "Lindenow South",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.42270062526322,
+                    -37.88091842022764
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-06-12T07:09:00+10:00",
                 "updated": "2020-06-12T07:09:00+10:00",
                 "id": "ESTA:200608721",
@@ -4299,75 +4366,6 @@
                 "coordinates": [
                     144.06849962866843,
                     -36.999129610640324
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thompsons Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-12T06:47:00+10:00",
-                "updated": "2020-06-12T07:02:00+10:00",
-                "id": "ESTA:200608717",
-                "location": "Thompsons Rd, Lyndhurst",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2614943983844,
-                    -38.08040352091759
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Benanee Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-12T06:46:00+10:00",
-                "updated": "2020-06-12T07:00:00+10:00",
-                "id": "ESTA:200608716",
-                "location": "Benanee Dr, Frankston",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.15552305149092,
-                    -38.14792466951687
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-12T06:34:00+10:00",
-                "updated": "2020-06-12T06:48:00+10:00",
-                "id": "ESTA:200608711",
-                "location": "Barwon Heads",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.489988970209,
-                    -38.27741757490451
                 ]
             }
         },

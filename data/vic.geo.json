@@ -3822,11 +3822,34 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-12T22:49:00+10:00",
+                "updated": "2020-06-12T22:49:00+10:00",
+                "id": "ESTA:200609643",
+                "location": "Werribee",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.64033412241602,
+                    -37.88750079615631
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-12T22:33:00+10:00",
-                "updated": "2020-06-12T22:33:00+10:00",
+                "updated": "2020-06-12T22:53:00+10:00",
                 "id": "ESTA:200609638",
                 "location": "Jam Jerrup",
                 "size": "Small",
@@ -3844,91 +3867,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Second St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-12T22:37:04+10:00",
-                "updated": "2020-06-12T22:37:04+10:00",
-                "id": "ESTA:200609635",
-                "location": "Second St, Black Rock",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01763064939155,
-                    -37.97778343342036
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Milthorpe Rd",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "responding",
-                "created": "2020-06-12T22:37:00+10:00",
-                "updated": "2020-06-12T22:37:00+10:00",
-                "id": "ESTA:200609639",
-                "location": "Milthorpe Rd, Diamond Creek",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16017001882375,
-                    -37.64448426392273
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Para Rd",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
-                "created": "2020-06-12T22:41:00+10:00",
-                "updated": "2020-06-12T22:41:00+10:00",
-                "id": "ESTA:200609640",
-                "location": "Para Rd, Lower Plenty",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1129448080639,
-                    -37.724018209017714
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Glen Iris",
+                "sourceTitle": "Tooronga Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-06-12T22:44:35+10:00",
-                "updated": "2020-06-12T22:45:15+10:00",
+                "created": "2020-06-12T22:56:45+10:00",
+                "updated": "2020-06-12T22:56:45+10:00",
                 "id": "ESTA:200609641",
                 "location": "Tooronga Rd, Glen Iris",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0489090830492,
-                    -37.84709037919897
+                    145.04890313199124,
+                    -37.8470986979004
                 ]
             }
         },
@@ -8864,6 +8819,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Para Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-12T22:41:00+10:00",
+                "updated": "2020-06-12T22:52:00+10:00",
+                "id": "ESTA:200609640",
+                "location": "Para Rd, Lower Plenty",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1129448080639,
+                    -37.724018209017714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Milthorpe Rd",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "responding",
+                "created": "2020-06-12T22:37:00+10:00",
+                "updated": "2020-06-12T22:37:00+10:00",
+                "id": "ESTA:200609639",
+                "location": "Milthorpe Rd, Diamond Creek",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16017001882375,
+                    -37.64448426392273
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Sydney St",
                 "category": "other",
                 "subcategory": "other",
@@ -8904,6 +8905,29 @@
                 "coordinates": [
                     145.31414898066794,
                     -37.79366437458375
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Second St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-12T22:37:04+10:00",
+                "updated": "2020-06-12T22:37:04+10:00",
+                "id": "ESTA:200609635",
+                "location": "Second St, Black Rock",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01763064939155,
+                    -37.97778343342036
                 ]
             }
         },

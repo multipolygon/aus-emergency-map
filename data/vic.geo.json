@@ -3821,12 +3821,58 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Milthorpe Rd",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2020-06-12T22:37:00+10:00",
+                "updated": "2020-06-12T23:05:00+10:00",
+                "id": "ESTA:200609639",
+                "location": "Milthorpe Rd, Diamond Creek",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16055590036166,
+                    -37.64308437125886
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wallan-Whittlesea Rd",
                 "category": "fire",
                 "subcategory": "other",
                 "status": "responding",
+                "created": "2020-06-12T23:06:00+10:00",
+                "updated": "2020-06-12T23:06:00+10:00",
+                "id": "ESTA:200609645",
+                "location": "Wallan-Whittlesea Rd, Wallan",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00504795019805,
+                    -37.41928886301601
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-06-12T22:49:00+10:00",
-                "updated": "2020-06-12T22:49:00+10:00",
+                "updated": "2020-06-12T23:03:00+10:00",
                 "id": "ESTA:200609643",
                 "location": "Werribee",
                 "size": "Small",
@@ -3838,52 +3884,6 @@
                 "coordinates": [
                     144.64033412241602,
                     -37.88750079615631
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-12T22:33:00+10:00",
-                "updated": "2020-06-12T22:53:00+10:00",
-                "id": "ESTA:200609638",
-                "location": "Jam Jerrup",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.5438866727609,
-                    -38.325454953095644
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tooronga Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-12T22:56:45+10:00",
-                "updated": "2020-06-12T22:56:45+10:00",
-                "id": "ESTA:200609641",
-                "location": "Tooronga Rd, Glen Iris",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04890313199124,
-                    -37.8470986979004
                 ]
             }
         },
@@ -8819,37 +8819,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Para Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-12T22:41:00+10:00",
-                "updated": "2020-06-12T22:52:00+10:00",
-                "id": "ESTA:200609640",
-                "location": "Para Rd, Lower Plenty",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1129448080639,
-                    -37.724018209017714
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Milthorpe Rd",
+                "sourceTitle": "Untitled",
                 "category": "rescue",
-                "subcategory": "rescue",
-                "status": "responding",
-                "created": "2020-06-12T22:37:00+10:00",
-                "updated": "2020-06-12T22:37:00+10:00",
-                "id": "ESTA:200609639",
-                "location": "Milthorpe Rd, Diamond Creek",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-06-12T22:33:00+10:00",
+                "updated": "2020-06-12T22:53:00+10:00",
+                "id": "ESTA:200609638",
+                "location": "Jam Jerrup",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -8857,8 +8834,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.16017001882375,
-                    -37.64448426392273
+                    145.5438866727609,
+                    -38.325454953095644
                 ]
             }
         },
@@ -8911,6 +8888,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Para Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-12T22:41:00+10:00",
+                "updated": "2020-06-12T23:04:00+10:00",
+                "id": "ESTA:200609640",
+                "location": "Para Rd, Lower Plenty",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1129448080639,
+                    -37.724018209017714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Second St",
                 "category": "other",
                 "subcategory": "other",
@@ -8928,52 +8928,6 @@
                 "coordinates": [
                     145.01763064939155,
                     -37.97778343342036
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dawson St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-12T20:29:21+10:00",
-                "updated": "2020-06-12T20:29:21+10:00",
-                "id": "ESTA:200609335",
-                "location": "Dawson St, Brunswick",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9512260065446,
-                    -37.7703239987705
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "George St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-12T22:16:03+10:00",
-                "updated": "2020-06-12T22:16:03+10:00",
-                "id": "ESTA:200609619",
-                "location": "George St, Ashwood",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0971222501099,
-                    -37.86298084063329
                 ]
             }
         }

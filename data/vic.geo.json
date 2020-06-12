@@ -3821,55 +3821,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Melbourne Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-13T05:57:00+10:00",
-                "updated": "2020-06-13T05:57:00+10:00",
-                "id": "ESTA:200609666",
-                "location": "Melbourne Rd, North Geelong",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.35492740977875,
-                    -38.114362233466494
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-13T06:00:00+10:00",
-                "updated": "2020-06-13T06:00:00+10:00",
-                "id": "ESTA:200650629",
-                "location": "Healesville",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.51940848687417,
-                    -37.60092664116914
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Foster St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-13T05:59:00+10:00",
                 "updated": "2020-06-13T05:59:00+10:00",
                 "id": "ESTA:200609667",
@@ -3883,6 +3838,28 @@
                 "coordinates": [
                     143.54041840005738,
                     -35.33706484719001
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-13T05:07:00+10:00",
+                "updated": "2020-06-13T06:07:00+10:00",
+                "id": "ESTA:200650628",
+                "location": "Argyle",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.72515121257445,
+                    -36.941865313635674
                 ]
             }
         },
@@ -9821,19 +9798,19 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-06-13T05:07:00+10:00",
-                "updated": "2020-06-13T05:34:00+10:00",
-                "id": "ESTA:200650628",
-                "location": "Argyle",
+                "status": "request for assistance",
+                "created": "2020-06-13T06:00:00+10:00",
+                "updated": "2020-06-13T06:04:00+10:00",
+                "id": "ESTA:200650629",
+                "location": "Healesville",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.72515121257445,
-                    -36.941865313635674
+                    145.51940848687417,
+                    -37.60092664116914
                 ]
             }
         }

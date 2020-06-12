@@ -3821,14 +3821,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Drummond St",
+                "sourceTitle": "Sth Gippsland Hwy",
                 "category": "fire",
                 "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-06-13T08:08:00+10:00",
-                "updated": "2020-06-13T08:08:00+10:00",
-                "id": "ESTA:200609696",
-                "location": "Drummond St, Lake Wendouree",
+                "created": "2020-06-13T08:25:00+10:00",
+                "updated": "2020-06-13T08:25:00+10:00",
+                "id": "ESTA:200609703",
+                "location": "Sth Gippsland Hwy, Cranbourne",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3836,8 +3836,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8477422290247,
-                    -37.557753729312395
+                    145.2784958490671,
+                    -38.08564639244064
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kew",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-13T08:27:34+10:00",
+                "updated": "2020-06-13T08:27:34+10:00",
+                "id": "ESTA:200609705",
+                "location": "Kew, Kew",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02032332314332,
+                    -37.79098349820332
                 ]
             }
         },
@@ -3847,9 +3870,9 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-06-13T08:04:00+10:00",
-                "updated": "2020-06-13T08:11:00+10:00",
+                "updated": "2020-06-13T08:25:00+10:00",
                 "id": "ESTA:200609693",
                 "location": "Ballarat Central",
                 "size": "Small",
@@ -3861,28 +3884,6 @@
                 "coordinates": [
                     143.8429632175164,
                     -37.560067605129305
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-06-13T08:09:00+10:00",
-                "updated": "2020-06-13T08:11:00+10:00",
-                "id": "ESTA:200650634",
-                "location": "Sunbury",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7078832986616,
-                    -37.56300761301177
                 ]
             }
         },
@@ -9818,45 +9819,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kew",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-13T08:00:41+10:00",
-                "updated": "2020-06-13T08:00:41+10:00",
-                "id": "ESTA:200609691",
-                "location": "Kew, Kew",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0212559479677,
-                    -37.79671377208038
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "building damage",
+                "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2020-06-13T07:46:00+10:00",
-                "updated": "2020-06-13T07:46:16+10:00",
-                "id": "ESTA:200650633",
-                "location": "Healesville",
-                "title": "incident: tree down"
+                "created": "2020-06-13T08:09:00+10:00",
+                "updated": "2020-06-13T08:30:00+10:00",
+                "id": "ESTA:200650634",
+                "location": "Sunbury",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.5170089051338,
-                    -37.623076805826145
+                    144.7078832986616,
+                    -37.56300761301177
                 ]
             }
         },
@@ -9879,28 +9857,6 @@
                 "coordinates": [
                     145.51940848687417,
                     -37.60092664116914
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-06-13T06:24:00+10:00",
-                "updated": "2020-06-13T06:53:00+10:00",
-                "id": "ESTA:200650630",
-                "location": "Healesville",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.5170089051338,
-                    -37.623076805826145
                 ]
             }
         }

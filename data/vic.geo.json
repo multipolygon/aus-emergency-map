@@ -3801,7 +3801,7 @@
                 "sourceTitle": "Lyttleton St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-13T22:21:00+10:00",
                 "updated": "2020-06-13T22:21:00+10:00",
                 "id": "ESTA:200610685",
@@ -3821,14 +3821,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murray Valley Hwy",
+                "sourceTitle": "Gloucester Av",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-13T21:53:00+10:00",
-                "updated": "2020-06-13T22:09:00+10:00",
-                "id": "ESTA:200610678",
-                "location": "Murray Valley Hwy, Nathalia",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-13T22:37:00+10:00",
+                "updated": "2020-06-13T22:37:00+10:00",
+                "id": "ESTA:200610693",
+                "location": "Gloucester Av, Berwick",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3836,54 +3836,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20454762095764,
-                    -36.057746084961614
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mica Ct",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-13T22:27:36+10:00",
-                "updated": "2020-06-13T22:27:36+10:00",
-                "id": "ESTA:200610686",
-                "location": "Mica Ct, Kings Park",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.77177887187457,
-                    -37.7301650816908
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-13T22:26:00+10:00",
-                "updated": "2020-06-13T22:26:00+10:00",
-                "id": "ESTA:200610687",
-                "location": "Corio",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.36590850532374,
-                    -38.0750441777633
+                    145.34567445584756,
+                    -38.03561321778618
                 ]
             }
         },
@@ -3891,21 +3845,90 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
                 "status": "request for assistance",
-                "created": "2020-06-13T22:26:00+10:00",
-                "updated": "2020-06-13T22:29:00+10:00",
-                "id": "ESTA:200650656",
-                "location": "Corio",
-                "title": "incident: building damage"
+                "created": "2020-06-13T22:10:00+10:00",
+                "updated": "2020-06-13T22:37:00+10:00",
+                "id": "ESTA:200610682",
+                "location": "Warburton",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.36590850532374,
-                    -38.0750441777633
+                    145.705573481507,
+                    -37.72742959163842
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Josephine Ct",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-06-13T22:32:00+10:00",
+                "updated": "2020-06-13T22:32:00+10:00",
+                "id": "ESTA:200610692",
+                "location": "Josephine Ct, Plenty",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1242681027875,
+                    -37.67496570162849
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Collingwood",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-13T22:39:38+10:00",
+                "updated": "2020-06-13T22:39:38+10:00",
+                "id": "ESTA:200610689",
+                "location": "Collingwood, Collingwood",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99264167237237,
+                    -37.80184217537334
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-13T22:05:00+10:00",
+                "updated": "2020-06-13T22:42:00+10:00",
+                "id": "ESTA:200650654",
+                "location": "Rushworth",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97320667449836,
+                    -36.580073235617455
                 ]
             }
         },
@@ -3914,10 +3937,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Scott St",
                 "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-06-13T22:28:24+10:00",
-                "updated": "2020-06-13T22:28:24+10:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-06-13T22:43:11+10:00",
+                "updated": "2020-06-13T22:43:11+10:00",
                 "id": "ESTA:200610688",
                 "location": "Scott St, Elwood",
                 "size": "Small",
@@ -3929,29 +3952,6 @@
                 "coordinates": [
                     144.98848480299813,
                     -37.88142662589619
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Abbotsford",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-13T22:28:35+10:00",
-                "updated": "2020-06-13T22:28:35+10:00",
-                "id": "ESTA:200610689",
-                "location": "Abbotsford, Abbotsford",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99298252067385,
-                    -37.79985096535143
                 ]
             }
         },
@@ -10234,37 +10234,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "request for assistance",
-                "created": "2020-06-13T22:10:00+10:00",
-                "updated": "2020-06-13T22:20:00+10:00",
-                "id": "ESTA:200610682",
-                "location": "Warburton",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.705573481507,
-                    -37.72742959163842
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Hendy St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-13T21:22:00+10:00",
-                "updated": "2020-06-13T21:40:00+10:00",
-                "id": "ESTA:200610671",
-                "location": "Chirnside Park",
+                "status": "under control",
+                "created": "2020-06-13T22:26:00+10:00",
+                "updated": "2020-06-13T22:36:00+10:00",
+                "id": "ESTA:200610687",
+                "location": "Hendy St, Corio",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -10272,8 +10249,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.31040402221836,
-                    -37.76129731222986
+                    144.36689223678235,
+                    -38.07145303055682
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murray Valley Hwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-13T21:53:00+10:00",
+                "updated": "2020-06-13T22:09:00+10:00",
+                "id": "ESTA:200610678",
+                "location": "Murray Valley Hwy, Nathalia",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20454762095764,
+                    -36.057746084961614
                 ]
             }
         },
@@ -10281,21 +10281,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "building damage",
+                "subcategory": "building damage",
                 "status": "on scene",
-                "created": "2020-06-13T22:05:00+10:00",
-                "updated": "2020-06-13T22:28:00+10:00",
-                "id": "ESTA:200650654",
-                "location": "Rushworth",
-                "title": "incident: tree down"
+                "created": "2020-06-13T22:26:00+10:00",
+                "updated": "2020-06-13T22:42:00+10:00",
+                "id": "ESTA:200650656",
+                "location": "Corio",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.97320667449836,
-                    -36.580073235617455
+                    144.36590850532374,
+                    -38.0750441777633
                 ]
             }
         }

@@ -3819,14 +3819,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Blyth St",
+                "sourceTitle": "Henty Hwy",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-06-13T14:17:35+10:00",
-                "updated": "2020-06-13T14:17:35+10:00",
-                "id": "ESTA:200610308",
-                "location": "Blyth St, Altona",
+                "created": "2020-06-13T13:45:00+10:00",
+                "updated": "2020-06-13T14:08:00+10:00",
+                "id": "ESTA:200610260",
+                "location": "Henty Hwy, Hamilton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3834,45 +3834,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8198113800085,
-                    -37.86862420671806
+                    141.976798363636,
+                    -37.76956087867141
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Maroondah Hwy",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-06-13T13:55:00+10:00",
-                "updated": "2020-06-13T14:25:00+10:00",
-                "id": "ESTA:200610276",
-                "location": "Maroondah Hwy, Buxton",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.70895731938128,
-                    -37.420359064531375
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ida St",
+                "sourceTitle": "Oriel Rd",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-13T14:12:00+10:00",
-                "updated": "2020-06-13T14:30:00+10:00",
-                "id": "ESTA:200610315",
-                "location": "Ida St, Black Hill",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-06-13T14:43:56+10:00",
+                "updated": "2020-06-13T14:43:56+10:00",
+                "id": "ESTA:200610354",
+                "location": "Oriel Rd, Ivanhoe",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3880,8 +3857,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8703700199156,
-                    -37.55102403379156
+                    145.0364996405093,
+                    -37.761552406703245
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Balloong Rd",
+                "category": "rescue",
+                "subcategory": "aircraft",
+                "status": "responding",
+                "created": "2020-06-13T14:46:00+10:00",
+                "updated": "2020-06-13T14:46:00+10:00",
+                "id": "ESTA:200610375",
+                "location": "Balloong Rd, Hunterston",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.7936295007865,
+                    -38.58062543583449
                 ]
             }
         },
@@ -9750,6 +9750,28 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Cathcart Rd, Bombala",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-06-13T14:03:00+10:00",
+                "updated": "2020-06-13T14:03:00+10:00",
+                "id": "2020-06-13T14:03:00.0000000:384693",
+                "location": "Cathcart Rd, Bombala, Nsw 2632",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.255619049,
+                    -36.90213639
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Swamp Rd Windrow Burn",
                 "category": "fire",
                 "subcategory": "fire",
@@ -9794,14 +9816,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Henty Hwy",
+                "sourceTitle": "Ida St",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-13T13:45:00+10:00",
-                "updated": "2020-06-13T14:08:00+10:00",
-                "id": "ESTA:200610260",
-                "location": "Henty Hwy, Hamilton",
+                "created": "2020-06-13T14:12:00+10:00",
+                "updated": "2020-06-13T14:30:00+10:00",
+                "id": "ESTA:200610315",
+                "location": "Ida St, Black Hill",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9809,8 +9831,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.976798363636,
-                    -37.76956087867141
+                    143.8703700199156,
+                    -37.55102403379156
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maroondah Hwy",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-06-13T13:55:00+10:00",
+                "updated": "2020-06-13T14:25:00+10:00",
+                "id": "ESTA:200610276",
+                "location": "Maroondah Hwy, Buxton",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.70895731938128,
+                    -37.420359064531375
                 ]
             }
         },
@@ -9845,7 +9890,7 @@
                 "subcategory": "flooding",
                 "status": "request for assistance",
                 "created": "2020-06-13T14:06:00+10:00",
-                "updated": "2020-06-13T14:26:00+10:00",
+                "updated": "2020-06-13T14:31:00+10:00",
                 "id": "ESTA:200650643",
                 "location": "Pimpinio",
                 "title": "incident: flooding"

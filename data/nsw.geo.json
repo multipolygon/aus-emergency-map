@@ -1496,24 +1496,81 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.29914500000007,
-                    -33.407179998999936
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.61593627900004,
+                            -33.583584816999974
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.613236781,
+                                            -33.57720905
+                                        ],
+                                        [
+                                            149.613070218,
+                                            -33.5771614619999
+                                        ],
+                                        [
+                                            149.615663831,
+                                            -33.5774945859999
+                                        ],
+                                        [
+                                            149.619185434,
+                                            -33.5799216359999
+                                        ],
+                                        [
+                                            149.62185043,
+                                            -33.5841808719999
+                                        ],
+                                        [
+                                            149.614616869,
+                                            -33.585394397
+                                        ],
+                                        [
+                                            149.610595579,
+                                            -33.58396672
+                                        ],
+                                        [
+                                            149.608810983,
+                                            -33.5812065449999
+                                        ],
+                                        [
+                                            149.608906161,
+                                            -33.576614185
+                                        ],
+                                        [
+                                            149.613236781,
+                                            -33.57720905
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pacific Mtwy (Southbound), Somersby",
+                "sourceTitle": "Lagoon Road, The Lagoon",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "burn off",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/384695",
-                "created": "2020-06-13T03:59:00+10:00",
-                "updated": "2020-06-13T13:59:00+10:00",
-                "location": "M1 Pacific Mtwy (Southbound), Somersby, NSW 2250",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 Pacific Mtwy (Southbound), Somersby, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jun 2020 13:59",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/384697",
+                "created": "2020-06-13T04:10:00+10:00",
+                "updated": "2020-06-13T14:10:00+10:00",
+                "location": "1234 Lagoon Road, The Lagoon",
+                "size": 8,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1234 Lagoon Road, The Lagoon <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jun 2020 14:10",
                 "title": "incident: fire"
             }
         },
@@ -1563,30 +1620,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 159 Rooty Hill Rd, Eastern Creek,  2766 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jun 2020 11:40",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.336755279,
-                    -33.670933386499996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "School Rd, Dareton",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/384692",
-                "created": "2020-06-13T03:49:00+10:00",
-                "updated": "2020-06-13T13:49:00+10:00",
-                "location": "School Rd, Dareton, NSW 2717",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: School Rd, Dareton, NSW 2717 <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jun 2020 13:49",
-                "title": "incident: fire"
             }
         }
     ]

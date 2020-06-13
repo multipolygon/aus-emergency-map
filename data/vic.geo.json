@@ -3798,14 +3798,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tullamarine",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-06-13T12:40:00+10:00",
+                "updated": "2020-06-13T12:42:00+10:00",
+                "id": "ESTA:200610152",
+                "location": "Inverloch",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.72506540664853,
+                    -38.63358241926985
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Poynton Av",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-13T12:25:29+10:00",
-                "updated": "2020-06-13T12:25:29+10:00",
-                "id": "ESTA:200610133",
-                "location": "Tullamarine, Tullamarine",
+                "status": "safe",
+                "created": "2020-06-13T12:44:30+10:00",
+                "updated": "2020-06-13T12:44:30+10:00",
+                "id": "ESTA:200610146",
+                "location": "Poynton Av, Ringwood",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3813,8 +3836,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.88924507878514,
-                    -37.704741645234385
+                    145.21731279197772,
+                    -37.81094401774119
                 ]
             }
         },
@@ -9767,52 +9790,6 @@
                 "coordinates": [
                     145.31414149298854,
                     -37.79366881094099
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nepean Hwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-13T11:14:00+10:00",
-                "updated": "2020-06-13T11:34:00+10:00",
-                "id": "ESTA:200609969",
-                "location": "Nepean Hwy, Mornington",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05855072433587,
-                    -38.219263438855556
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Benetook Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-13T11:19:00+10:00",
-                "updated": "2020-06-13T11:32:00+10:00",
-                "id": "ESTA:200609997",
-                "location": "Benetook Av, Mildura",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.1692295608193,
-                    -34.20383427374377
                 ]
             }
         },

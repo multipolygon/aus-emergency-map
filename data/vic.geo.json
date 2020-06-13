@@ -3798,12 +3798,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Gravel Pits Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-13T12:56:00+10:00",
+                "updated": "2020-06-13T12:57:00+10:00",
+                "id": "ESTA:200610174",
+                "location": "Gravel Pits Rd, South Geelong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.36311667878138,
+                    -38.17262745717382
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-06-13T12:40:00+10:00",
-                "updated": "2020-06-13T12:42:00+10:00",
+                "updated": "2020-06-13T12:59:00+10:00",
                 "id": "ESTA:200610152",
                 "location": "Inverloch",
                 "size": "Small",
@@ -3821,23 +3844,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Poynton Av",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-06-13T12:44:30+10:00",
-                "updated": "2020-06-13T12:44:30+10:00",
-                "id": "ESTA:200610146",
-                "location": "Poynton Av, Ringwood",
+                "sourceTitle": "Evell St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-13T12:59:44+10:00",
+                "updated": "2020-06-13T12:59:44+10:00",
+                "id": "ESTA:200610179",
+                "location": "Evell St, Glenroy",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.21731279197772,
-                    -37.81094401774119
+                    144.94207520675587,
+                    -37.69905719569196
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-06-13T08:47:00+10:00",
+                "updated": "2020-06-13T13:01:00+10:00",
+                "id": "ESTA:200650635",
+                "location": "Boronia",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29301813301316,
+                    -37.84987089847408
                 ]
             }
         },
@@ -9773,29 +9818,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hawthory Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-12T18:36:00+10:00",
-                "updated": "2020-06-13T11:55:00+10:00",
-                "id": "ESTA:200609579",
-                "location": "Hawthory Rd, Kilsyth",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.31414149298854,
-                    -37.79366881094099
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
@@ -9834,28 +9856,6 @@
                 "coordinates": [
                     145.09424374070076,
                     -37.71174023730982
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-06-13T08:47:00+10:00",
-                "updated": "2020-06-13T09:18:00+10:00",
-                "id": "ESTA:200650635",
-                "location": "Boronia",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.29301813301316,
-                    -37.84987089847408
                 ]
             }
         }

@@ -3775,14 +3775,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Padstum Av",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-06-14T14:49:00+10:00",
+                "updated": "2020-06-14T14:51:00+10:00",
+                "id": "ESTA:200650685",
+                "location": "Sunbury",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7078832986616,
+                    -37.56300761301177
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hare St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-14T14:35:07+10:00",
-                "updated": "2020-06-14T14:35:07+10:00",
-                "id": "ESTA:200610962",
-                "location": "Padstum Av, Lalor",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-14T14:08:00+10:00",
+                "updated": "2020-06-14T14:24:00+10:00",
+                "id": "ESTA:200610956",
+                "location": "Hare St, Echuca",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3790,31 +3812,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99118090400174,
-                    -37.66959750188403
+                    144.74828897043307,
+                    -36.12408884929639
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lakeside Bvd",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "responding",
-                "created": "2020-06-14T14:42:00+10:00",
-                "updated": "2020-06-14T14:42:00+10:00",
-                "id": "ESTA:200610966",
-                "location": "Lakeside Bvd, Pakenham",
+                "sourceTitle": "Bundoora",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-14T14:59:16+10:00",
+                "updated": "2020-06-14T14:59:16+10:00",
+                "id": "ESTA:200610971",
+                "location": "Bundoora, Bundoora",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.4543104690555,
-                    -38.063659475726915
+                    145.06759792172173,
+                    -37.68647349655381
                 ]
             }
         },
@@ -11547,6 +11569,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Mt Dandenong Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-14T14:48:00+10:00",
+                "updated": "2020-06-14T14:57:00+10:00",
+                "id": "ESTA:200610967",
+                "location": "Mt Dandenong Rd, Montrose",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3421351949675,
+                    -37.80997279047943
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lakeside Bvd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-14T14:42:00+10:00",
+                "updated": "2020-06-14T14:49:00+10:00",
+                "id": "ESTA:200610966",
+                "location": "Lakeside Bvd, Pakenham",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4543104690555,
+                    -38.063659475726915
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -11570,14 +11638,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hare St",
+                "sourceTitle": "Padstum Av",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-14T14:08:00+10:00",
-                "updated": "2020-06-14T14:24:00+10:00",
-                "id": "ESTA:200610956",
-                "location": "Hare St, Echuca",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-06-14T14:35:07+10:00",
+                "updated": "2020-06-14T14:35:07+10:00",
+                "id": "ESTA:200610962",
+                "location": "Padstum Av, Lalor",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -11585,8 +11653,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74828897043307,
-                    -36.12408884929639
+                    144.99118090400174,
+                    -37.66959750188403
                 ]
             }
         },
@@ -11596,12 +11664,11 @@
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
-                "status": "on scene",
+                "status": "complete",
                 "created": "2020-06-14T13:11:00+10:00",
-                "updated": "2020-06-14T13:42:00+10:00",
+                "updated": "2020-06-14T14:54:00+10:00",
                 "id": "ESTA:200610926",
                 "location": "Briagolong",
-                "size": "Small",
                 "title": "incident: other"
             },
             "type": "Feature",
@@ -11610,29 +11677,6 @@
                 "coordinates": [
                     147.110112075457,
                     -37.76741996109614
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Milleara Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-14T14:40:15+10:00",
-                "updated": "2020-06-14T14:40:15+10:00",
-                "id": "ESTA:200610965",
-                "location": "Milleara Rd, Keilor East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.86245626078792,
-                    -37.74931521709678
                 ]
             }
         },

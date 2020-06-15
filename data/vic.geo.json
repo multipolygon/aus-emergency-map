@@ -3797,55 +3797,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-15T11:20:00+10:00",
-                "updated": "2020-06-15T12:04:00+10:00",
-                "id": "ESTA:200650718",
-                "location": "Mitcham",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2043409408257,
-                    -37.82755363927277
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "West Melbourne",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-15T12:09:04+10:00",
-                "updated": "2020-06-15T12:09:04+10:00",
-                "id": "ESTA:200611265",
-                "location": "West Melbourne, West Melbourne",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.92717962262768,
-                    -37.81145207100317
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Cressy Rd",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "not yet under control",
                 "created": "2020-06-15T12:08:00+10:00",
                 "updated": "2020-06-15T12:08:00+10:00",
                 "id": "ESTA:200611264",
@@ -3866,43 +3821,137 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "West Melbourne",
-                "category": "rescue",
+                "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-15T12:11:08+10:00",
-                "updated": "2020-06-15T12:12:43+10:00",
-                "id": "ESTA:200611269",
-                "location": "West Melbourne",
-                "title": "incident: rescue"
+                "status": "safe",
+                "created": "2020-06-15T12:20:09+10:00",
+                "updated": "2020-06-15T12:20:09+10:00",
+                "id": "ESTA:200611265",
+                "location": "West Melbourne, West Melbourne",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.92545998438703,
-                    -37.8125263843735
+                    144.92717962262768,
+                    -37.81145207100317
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-15T11:32:00+10:00",
-                "updated": "2020-06-15T12:15:00+10:00",
-                "id": "ESTA:200650719",
-                "location": "Officer South",
-                "title": "incident: tree down"
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-06-15T12:21:00+10:00",
+                "updated": "2020-06-15T12:27:00+10:00",
+                "id": "ESTA:200611276",
+                "location": "Warrnambool",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.40451764141295,
-                    -38.08322580153497
+                    142.48591843957612,
+                    -38.38054777915381
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nepean Hwy",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-15T12:27:30+10:00",
+                "updated": "2020-06-15T12:27:30+10:00",
+                "id": "ESTA:200611279",
+                "location": "Nepean Hwy, Cheltenham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06449784017568,
+                    -37.973451928518195
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Northcote",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-15T12:27:35+10:00",
+                "updated": "2020-06-15T12:27:35+10:00",
+                "id": "ESTA:200611274",
+                "location": "Northcote, Northcote",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9990125011274,
+                    -37.76935180010616
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Intervale Dr",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-06-15T12:29:56+10:00",
+                "updated": "2020-06-15T12:29:56+10:00",
+                "id": "ESTA:200611280",
+                "location": "Intervale Dr, Avondale Heights",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.85748143440367,
+                    -37.75175119442807
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bowmore Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-15T12:29:00+10:00",
+                "updated": "2020-06-15T12:29:00+10:00",
+                "id": "ESTA:200611281",
+                "location": "Bowmore Rd, Noble Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1769972536669,
+                    -37.95369710273995
                 ]
             }
         },
@@ -5265,6 +5314,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Oaklands Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-15T10:45:00+10:00",
+                "updated": "2020-06-15T12:25:00+10:00",
+                "id": "ESTA:200611226",
+                "location": "Oaklands Rd, Bulla",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.83465983646767,
+                    -37.63466715965735
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -5282,29 +5354,6 @@
                 "coordinates": [
                     145.03069990998324,
                     -37.612031619918646
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Oaklands Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-15T10:45:00+10:00",
-                "updated": "2020-06-15T11:04:00+10:00",
-                "id": "ESTA:200611226",
-                "location": "Oaklands Rd, Bulla",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.83465983646767,
-                    -37.63466715965735
                 ]
             }
         },

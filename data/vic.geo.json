@@ -3797,104 +3797,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ashton Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-15T13:01:00+10:00",
-                "updated": "2020-06-15T13:02:00+10:00",
-                "id": "ESTA:200611294",
-                "location": "Ashton Rd, Ferntree Gully",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.27153138553663,
-                    -37.889534974667065
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hearn St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-15T13:23:00+10:00",
-                "updated": "2020-06-15T13:23:00+10:00",
-                "id": "ESTA:200611305",
-                "location": "Hearn St, Colac",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.58982400416264,
-                    -38.35019684635767
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Camberwell",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-15T13:23:26+10:00",
-                "updated": "2020-06-15T13:23:26+10:00",
-                "id": "ESTA:200611304",
-                "location": "Camberwell, Camberwell",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06796735187353,
-                    -37.832655483309814
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Power St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-15T13:26:57+10:00",
-                "updated": "2020-06-15T13:26:57+10:00",
-                "id": "ESTA:200611300",
-                "location": "Power St, Hawthorn",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0272807964794,
-                    -37.81574182690475
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Smith St",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-06-15T13:27:52+10:00",
-                "updated": "2020-06-15T13:27:52+10:00",
+                "created": "2020-06-15T13:33:03+10:00",
+                "updated": "2020-06-15T13:33:03+10:00",
                 "id": "ESTA:200611306",
                 "location": "Smith St, Collingwood",
                 "size": "Small",
@@ -3915,9 +3823,9 @@
                 "sourceTitle": "Okeefe Cr",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "not yet under control",
+                "status": "safe",
                 "created": "2020-06-15T13:08:00+10:00",
-                "updated": "2020-06-15T13:08:00+10:00",
+                "updated": "2020-06-15T13:36:00+10:00",
                 "id": "ESTA:200611296",
                 "location": "Okeefe Cr, Bacchus Marsh",
                 "size": "Small",
@@ -3929,6 +3837,75 @@
                 "coordinates": [
                     144.44156394787686,
                     -37.666974534927526
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hearn St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-06-15T13:23:00+10:00",
+                "updated": "2020-06-15T13:23:00+10:00",
+                "id": "ESTA:200611305",
+                "location": "Hearn St, Colac",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.58982400416264,
+                    -38.35019684635767
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Burwood Hwy",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-06-15T13:40:00+10:00",
+                "updated": "2020-06-15T13:40:00+10:00",
+                "id": "ESTA:200611310",
+                "location": "Burwood Hwy, Wantirna South",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.23829965603971,
+                    -37.869666336026306
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Raymond St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-06-15T13:37:00+10:00",
+                "updated": "2020-06-15T13:44:00+10:00",
+                "id": "ESTA:200611309",
+                "location": "Raymond St, Sale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.0657574225673,
+                    -38.10608032083667
                 ]
             }
         },
@@ -5377,6 +5354,29 @@
                 "coordinates": [
                     144.11552327731658,
                     -37.35029007445705
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ashton Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-15T13:01:00+10:00",
+                "updated": "2020-06-15T13:02:00+10:00",
+                "id": "ESTA:200611294",
+                "location": "Ashton Rd, Ferntree Gully",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27153138553663,
+                    -37.889534974667065
                 ]
             }
         },

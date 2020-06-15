@@ -3797,23 +3797,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Midland Hwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-06-15T12:58:00+10:00",
-                "updated": "2020-06-15T12:58:00+10:00",
-                "id": "ESTA:200611291",
-                "location": "Midland Hwy, Eganstown",
+                "sourceTitle": "Ashton Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-15T13:01:00+10:00",
+                "updated": "2020-06-15T13:02:00+10:00",
+                "id": "ESTA:200611294",
+                "location": "Ashton Rd, Ferntree Gully",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.11552327731658,
-                    -37.35029007445705
+                    145.27153138553663,
+                    -37.889534974667065
                 ]
             }
         },
@@ -3843,14 +3843,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ashton Rd",
+                "sourceTitle": "Okeefe Cr",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-15T13:08:00+10:00",
+                "updated": "2020-06-15T13:08:00+10:00",
+                "id": "ESTA:200611296",
+                "location": "Okeefe Cr, Bacchus Marsh",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.44156394787686,
+                    -37.666974534927526
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-06-15T13:11:00+10:00",
+                "updated": "2020-06-15T13:11:00+10:00",
+                "id": "ESTA:200611298",
+                "location": "Corio",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.38150212550062,
+                    -38.06512988991042
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "West Melbourne",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-15T13:01:00+10:00",
-                "updated": "2020-06-15T13:01:00+10:00",
-                "id": "ESTA:200611294",
-                "location": "Ashton Rd, Ferntree Gully",
+                "status": "safe",
+                "created": "2020-06-15T13:13:13+10:00",
+                "updated": "2020-06-15T13:13:13+10:00",
+                "id": "ESTA:200611265",
+                "location": "West Melbourne, West Melbourne",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -3858,31 +3904,99 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.27153138553663,
-                    -37.889534974667065
+                    144.92717962262768,
+                    -37.81145207100317
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cressy Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-15T12:08:00+10:00",
-                "updated": "2020-06-15T12:36:00+10:00",
-                "id": "ESTA:200611264",
-                "location": "Cressy Rd, Ombersley",
+                "sourceTitle": "Lathams Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-06-15T13:13:00+10:00",
+                "updated": "2020-06-15T13:13:00+10:00",
+                "id": "ESTA:200611299",
+                "location": "Lathams Rd, Carrum Downs",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.83009022636597,
-                    -38.1713885417445
+                    145.16731259970226,
+                    -38.09905010612955
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Midland Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-06-15T12:58:00+10:00",
+                "updated": "2020-06-15T13:14:00+10:00",
+                "id": "ESTA:200611291",
+                "location": "Midland Hwy, Eganstown",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.11552327731658,
+                    -37.35029007445705
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-15T13:06:00+10:00",
+                "updated": "2020-06-15T13:15:00+10:00",
+                "id": "ESTA:200650721",
+                "location": "Mount Evelyn",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.37387023604435,
+                    -37.787848463902534
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Power St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-15T13:14:50+10:00",
+                "updated": "2020-06-15T13:14:50+10:00",
+                "id": "ESTA:200611300",
+                "location": "Power St, Hawthorn",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0272807964794,
+                    -37.81574182690475
                 ]
             }
         },
@@ -5245,6 +5359,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Cressy Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-15T12:08:00+10:00",
+                "updated": "2020-06-15T13:01:00+10:00",
+                "id": "ESTA:200611264",
+                "location": "Cressy Rd, Ombersley",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.83009022636597,
+                    -38.1713885417445
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Swinbourne Av",
                 "category": "other",
                 "subcategory": "other",
@@ -5262,29 +5399,6 @@
                 "coordinates": [
                     141.99501031935284,
                     -35.903910165538115
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-06-15T12:48:00+10:00",
-                "updated": "2020-06-15T12:48:00+10:00",
-                "id": "ESTA:200611286",
-                "location": "White Hills",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.30424910883048,
-                    -36.72079603896196
                 ]
             }
         },
@@ -5354,29 +5468,6 @@
                 "coordinates": [
                     144.85748143440367,
                     -37.75175119442807
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "West Melbourne",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-15T12:20:09+10:00",
-                "updated": "2020-06-15T12:20:09+10:00",
-                "id": "ESTA:200611265",
-                "location": "West Melbourne, West Melbourne",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.92717962262768,
-                    -37.81145207100317
                 ]
             }
         }

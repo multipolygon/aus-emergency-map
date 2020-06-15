@@ -5151,15 +5151,15 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
                 "created": "2020-06-16T08:43:00+10:00",
-                "updated": "2020-06-16T08:43:00+10:00",
+                "updated": "2020-06-16T09:00:00+10:00",
                 "id": "ESTA:200611565",
                 "location": "Endeavour Hills",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
@@ -5196,52 +5196,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "South Tce",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-06-16T08:30:09+10:00",
-                "updated": "2020-06-16T08:30:09+10:00",
-                "id": "ESTA:200611557",
-                "location": "South Tce, Clifton Hill",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99062160369024,
-                    -37.79217418988895
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Melbourne",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-16T06:23:34+10:00",
-                "updated": "2020-06-16T06:23:34+10:00",
-                "id": "ESTA:200611534",
-                "location": "Melbourne, Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.96300703881633,
-                    -37.81874857656795
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Spotswood",
                 "category": "other",
                 "subcategory": "other",
@@ -5268,31 +5222,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-16T08:43:00+10:00",
-                "updated": "2020-06-16T08:43:00+10:00",
-                "id": "ESTA:200650748",
-                "location": "Tonimbuk",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.73106573181684,
-                    -38.004139896023894
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-06-16T07:51:00+10:00",
-                "updated": "2020-06-16T08:14:00+10:00",
+                "updated": "2020-06-16T08:52:00+10:00",
                 "id": "ESTA:200650746",
                 "location": "Emu",
                 "title": "incident: tree down"
@@ -5303,6 +5235,28 @@
                 "coordinates": [
                     143.46319253642295,
                     -36.7300479817272
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-16T08:43:00+10:00",
+                "updated": "2020-06-16T08:44:00+10:00",
+                "id": "ESTA:200650748",
+                "location": "Tonimbuk",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.73106573181684,
+                    -38.004139896023894
                 ]
             }
         }

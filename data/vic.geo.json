@@ -5150,12 +5150,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Coach House Bvd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-16T12:43:00+10:00",
+                "updated": "2020-06-16T12:43:00+10:00",
+                "id": "ESTA:200611686",
+                "location": "Coach House Bvd, Woodend",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.52993601309322,
+                    -37.36348815596397
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Yea Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-16T12:15:00+10:00",
-                "updated": "2020-06-16T12:15:00+10:00",
+                "updated": "2020-06-16T12:36:00+10:00",
                 "id": "ESTA:200611679",
                 "location": "Yea Rd, Humevale",
                 "size": "Small",
@@ -5165,8 +5188,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1819631257526,
-                    -37.48995334543265
+                    145.18078721592988,
+                    -37.490403887792006
                 ]
             }
         },
@@ -5242,52 +5265,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Western Fwy",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-06-16T11:30:00+10:00",
-                "updated": "2020-06-16T11:39:00+10:00",
-                "id": "ESTA:200611659",
-                "location": "Western Fwy, Grangefields",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.64463687295836,
-                    -37.71900376734551
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Falls Creek Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-16T11:18:00+10:00",
-                "updated": "2020-06-16T11:32:00+10:00",
-                "id": "ESTA:200611653",
-                "location": "Falls Creek Rd, Falls Creek",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.27587821186646,
-                    -36.86472894616424
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -5311,35 +5288,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Droop St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-16T12:15:20+10:00",
-                "updated": "2020-06-16T12:15:20+10:00",
-                "id": "ESTA:200611674",
-                "location": "Droop St, Footscray",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.89958820656088,
-                    -37.798520707367466
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Bronte Ct",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-16T12:29:22+10:00",
-                "updated": "2020-06-16T12:29:22+10:00",
+                "status": "under control",
+                "created": "2020-06-16T12:35:54+10:00",
+                "updated": "2020-06-16T12:35:54+10:00",
                 "id": "ESTA:200611681",
                 "location": "Bronte Ct, Williamstown",
                 "size": "Small",
@@ -5351,6 +5305,29 @@
                 "coordinates": [
                     144.89995778366836,
                     -37.85384242690174
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Melbourne",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-16T12:40:27+10:00",
+                "updated": "2020-06-16T12:40:27+10:00",
+                "id": "ESTA:200611684",
+                "location": "Melbourne, Melbourne",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9815120923116,
+                    -37.853324069050075
                 ]
             }
         },
@@ -5383,19 +5360,19 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-16T12:10:00+10:00",
-                "updated": "2020-06-16T12:12:00+10:00",
-                "id": "ESTA:200650764",
-                "location": "Clarinda",
+                "status": "complete",
+                "created": "2020-06-16T11:18:00+10:00",
+                "updated": "2020-06-16T12:37:00+10:00",
+                "id": "ESTA:200650760",
+                "location": "Browns Plains",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10704645216197,
-                    -37.93469467984016
+                    146.64299929760537,
+                    -36.050900126946786
                 ]
             }
         },
@@ -5405,9 +5382,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-06-16T10:39:00+10:00",
-                "updated": "2020-06-16T11:56:00+10:00",
+                "updated": "2020-06-16T12:36:00+10:00",
                 "id": "ESTA:200650758",
                 "location": "Balwyn",
                 "title": "incident: tree down"
@@ -5428,18 +5405,18 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-06-16T11:18:00+10:00",
-                "updated": "2020-06-16T11:47:00+10:00",
-                "id": "ESTA:200650760",
-                "location": "Browns Plains",
+                "created": "2020-06-16T12:10:00+10:00",
+                "updated": "2020-06-16T12:12:00+10:00",
+                "id": "ESTA:200650764",
+                "location": "Clarinda",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.64299929760537,
-                    -36.050900126946786
+                    145.10704645216197,
+                    -37.93469467984016
                 ]
             }
         }

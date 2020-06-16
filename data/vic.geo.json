@@ -3757,9 +3757,9 @@
                 "category": "met",
                 "subcategory": "gale wind",
                 "status": "warning",
-                "created": "2020-06-16T05:00:00+10:00",
+                "created": "2020-06-16T10:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/26148a9ab922044c3fece951fd53d7fa",
+                "id": "IDV20600/374e658c183f8c5cda29c261e95801ac",
                 "location": "East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -4052,9 +4052,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-06-16T05:00:00+10:00",
+                "created": "2020-06-16T10:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/dc8c084103a34a4e506dd3398f75cd20",
+                "id": "IDV20600/5eee5e554f9bb401975501c71c5c107e",
                 "location": "West Coast, Central Coast and Central Gippsland Coast",
                 "title": "incident: met"
             },
@@ -5150,6 +5150,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Oneills Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-16T10:19:00+10:00",
+                "updated": "2020-06-16T10:28:00+10:00",
+                "id": "ESTA:200611622",
+                "location": "Oneills Rd, Melton",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.57754860875306,
+                    -37.682039908973714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Oneills Rd",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "responding",
+                "created": "2020-06-16T10:21:00+10:00",
+                "updated": "2020-06-16T10:21:00+10:00",
+                "id": "ESTA:200611626",
+                "location": "Oneills Rd, Melton",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.57754860875306,
+                    -37.682039908973714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Station Rd",
                 "category": "rescue",
                 "subcategory": "washaway",
@@ -5190,29 +5236,6 @@
                 "coordinates": [
                     144.73738832560593,
                     -37.721244823752436
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "David St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-16T09:14:00+10:00",
-                "updated": "2020-06-16T09:24:00+10:00",
-                "id": "ESTA:200611581",
-                "location": "David St, Dandenong",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.21689973433115,
-                    -37.977244050685506
                 ]
             }
         },
@@ -5265,14 +5288,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sutherland Rd",
+                "sourceTitle": "Hawthorn",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-16T09:46:50+10:00",
-                "updated": "2020-06-16T09:46:50+10:00",
-                "id": "ESTA:200611601",
-                "location": "Sutherland Rd, Armadale",
+                "status": "under control",
+                "created": "2020-06-16T10:12:35+10:00",
+                "updated": "2020-06-16T10:12:35+10:00",
+                "id": "ESTA:200611613",
+                "location": "Hawthorn, Hawthorn",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -5280,8 +5303,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0172731042181,
-                    -37.857946320562036
+                    145.023509284825,
+                    -37.813138722943364
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sunshine West",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-16T10:24:09+10:00",
+                "updated": "2020-06-16T10:24:09+10:00",
+                "id": "ESTA:200611627",
+                "location": "Sunshine West, Sunshine West",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.81870464907985,
+                    -37.79470456683274
                 ]
             }
         },
@@ -5289,21 +5335,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
                 "status": "complete",
-                "created": "2020-06-16T08:43:00+10:00",
-                "updated": "2020-06-16T10:00:00+10:00",
-                "id": "ESTA:200650748",
-                "location": "Tonimbuk",
-                "title": "incident: tree down"
+                "created": "2020-06-16T10:19:00+10:00",
+                "updated": "2020-06-16T10:21:00+10:00",
+                "id": "ESTA:200650755",
+                "location": "Melton",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.73106573181684,
-                    -38.004139896023894
+                    144.57754860875306,
+                    -37.682039908973714
                 ]
             }
         }

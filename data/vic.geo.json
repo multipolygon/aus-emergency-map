@@ -9,60 +9,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            147.65643770563543,
-                            -37.81971884615662
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    147.64954979288407,
-                                    -37.817752604403545
-                                ],
-                                [
-                                    147.66371185648126,
-                                    -37.819481566924665
-                                ],
-                                [
-                                    147.6632827030449,
-                                    -37.82168508790969
-                                ],
-                                [
-                                    147.64916355478957,
-                                    -37.81988837575013
-                                ],
-                                [
-                                    147.64954979288407,
-                                    -37.817752604403545
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Advice",
-                "category": "advice",
-                "subcategory": "cbrne",
-                "status": "minor",
-                "created": "2020-06-17T15:59:13+10:00",
-                "updated": "2020-06-17T15:59:14+10:00",
-                "id": "14123",
-                "location": "Lucknow",
-                "title": "warning: advice"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -212,14 +158,68 @@
             },
             "properties": {
                 "feedType": "warning",
+                "sourceTitle": "All Clear",
+                "category": "advice",
+                "subcategory": "cbrne",
+                "status": "all clear",
+                "created": "2020-06-17T16:34:06+10:00",
+                "updated": "2020-06-17T16:34:05+10:00",
+                "id": "14124",
+                "location": "Lara",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.65643770563543,
+                            -37.81971884615662
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    147.64954979288407,
+                                    -37.817752604403545
+                                ],
+                                [
+                                    147.66371185648126,
+                                    -37.819481566924665
+                                ],
+                                [
+                                    147.6632827030449,
+                                    -37.82168508790969
+                                ],
+                                [
+                                    147.64916355478957,
+                                    -37.81988837575013
+                                ],
+                                [
+                                    147.64954979288407,
+                                    -37.817752604403545
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
                 "sourceTitle": "Advice",
                 "category": "advice",
                 "subcategory": "cbrne",
                 "status": "minor",
-                "created": "2020-06-17T14:43:32+10:00",
-                "updated": "2020-06-17T14:43:32+10:00",
-                "id": "14122",
-                "location": "Lara",
+                "created": "2020-06-17T15:59:13+10:00",
+                "updated": "2020-06-17T15:59:14+10:00",
+                "id": "14123",
+                "location": "Lucknow",
                 "title": "warning: advice"
             }
         },
@@ -3949,6 +3949,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-17T16:41:00+10:00",
+                "updated": "2020-06-17T16:41:00+10:00",
+                "id": "ESTA:200612336",
+                "location": "Kialla West",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38883439919854,
+                    -36.475733596969455
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bayfield Dr",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-17T16:33:00+10:00",
+                "updated": "2020-06-17T16:33:00+10:00",
+                "id": "ESTA:200612331",
+                "location": "Bayfield Dr, Eltham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16699421825265,
+                    -37.70341330126193
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Goulburn Valley Hwy",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -4113,9 +4159,9 @@
                 "sourceTitle": "Pascoe Vale Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-17T16:28:17+10:00",
-                "updated": "2020-06-17T16:28:17+10:00",
+                "status": "safe",
+                "created": "2020-06-17T16:36:29+10:00",
+                "updated": "2020-06-17T16:36:29+10:00",
                 "id": "ESTA:200612329",
                 "location": "Pascoe Vale Rd, Glenroy",
                 "size": "Small",

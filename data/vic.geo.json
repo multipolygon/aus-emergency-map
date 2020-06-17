@@ -3726,29 +3726,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tambo 80 - Bindi - Marble Gully",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-06-08T10:38:00+10:00",
-                "updated": "2020-06-17T10:38:00+10:00",
-                "id": 975651,
-                "location": "4 Km Ne Of Bindi",
-                "size": "0.10",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.066597,
-                    -37.163115
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Nelson - River Rd",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -3766,72 +3743,6 @@
                 "coordinates": [
                     141.0417435,
                     -38.00597
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bondi Windrow Burn",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-06-02T08:26:00+10:00",
-                "updated": "2020-06-02T08:26:00+10:00",
-                "id": "2020-06-02T08:26:00.0000000:383431",
-                "location": "Buldah Rd",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.148073197,
-                    -37.1544336919999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Swamp Rd Windrow Burn",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-06-02T08:22:00+10:00",
-                "updated": "2020-06-02T08:22:00+10:00",
-                "id": "2020-06-02T08:22:00.0000000:383491",
-                "location": "Swamp Rd",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.334669113,
-                    -36.9753353839999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Taskers Windrow Burn",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-06-02T08:23:00+10:00",
-                "updated": "2020-06-02T08:23:00+10:00",
-                "id": "2020-06-02T08:23:00.0000000:383432",
-                "location": "Bondi Forest Way",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.243216515,
-                    -37.169926506
                 ]
             }
         },
@@ -3904,10 +3815,122 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bondi Windrow Burn",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-06-02T08:26:00+10:00",
+                "updated": "2020-06-02T08:26:00+10:00",
+                "id": "2020-06-02T08:26:00.0000000:383431",
+                "location": "Buldah Rd",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.148073197,
+                    -37.1544336919999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Swamp Rd Windrow Burn",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-06-02T08:22:00+10:00",
+                "updated": "2020-06-02T08:22:00+10:00",
+                "id": "2020-06-02T08:22:00.0000000:383491",
+                "location": "Swamp Rd",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.334669113,
+                    -36.9753353839999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Taskers Windrow Burn",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-06-02T08:23:00+10:00",
+                "updated": "2020-06-02T08:23:00+10:00",
+                "id": "2020-06-02T08:23:00.0000000:383432",
+                "location": "Bondi Forest Way",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.243216515,
+                    -37.169926506
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lexia Pl",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-17T11:22:00+10:00",
+                "updated": "2020-06-17T11:39:00+10:00",
+                "id": "ESTA:200612115",
+                "location": "Lexia Pl, Waurn Ponds",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.31084286120858,
+                    -38.207347064240885
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Churchill Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-17T09:54:00+10:00",
+                "updated": "2020-06-17T11:36:00+10:00",
+                "id": "ESTA:200612015",
+                "location": "Churchill Av, Newtown (Geelong)",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3310152175082,
+                    -38.145573584152665
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-17T11:29:00+10:00",
                 "updated": "2020-06-17T11:29:00+10:00",
                 "id": "ESTA:200612125",
@@ -3950,29 +3973,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Heaths Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-17T11:27:00+10:00",
-                "updated": "2020-06-17T11:27:00+10:00",
-                "id": "ESTA:200612120",
-                "location": "Heaths Rd, Hoppers Crossing",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.68001591239218,
-                    -37.87699885753065
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Stud Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -3990,29 +3990,6 @@
                 "coordinates": [
                     145.22236222474984,
                     -37.97545228420584
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lexia Pl",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-17T11:22:00+10:00",
-                "updated": "2020-06-17T11:22:00+10:00",
-                "id": "ESTA:200612115",
-                "location": "Lexia Pl, Waurn Ponds",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.31084286120858,
-                    -38.207347064240885
                 ]
             }
         },
@@ -4157,29 +4134,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Churchill Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-17T09:54:00+10:00",
-                "updated": "2020-06-17T10:13:00+10:00",
-                "id": "ESTA:200612015",
-                "location": "Churchill Av, Newtown (Geelong)",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3310152175082,
-                    -38.145573584152665
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Princes Hwy",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -4187,7 +4141,7 @@
                 "created": "2020-06-17T08:35:00+10:00",
                 "updated": "2020-06-17T08:53:00+10:00",
                 "id": "ESTA:200611920",
-                "location": "Princes Hwy, Bairnsdale",
+                "location": "Princes Hwy, Lucknow",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -4195,8 +4149,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.6306955469546,
-                    -37.826324525367006
+                    147.65864784586472,
+                    -37.819871425424104
                 ]
             }
         },
@@ -4226,29 +4180,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Garden St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-17T11:09:48+10:00",
-                "updated": "2020-06-17T11:09:48+10:00",
-                "id": "ESTA:200612091",
-                "location": "Garden St, Hawthorn East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05197411965713,
-                    -37.835213295141166
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Brighton East",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -4272,12 +4203,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Glen Iris",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-17T11:32:40+10:00",
+                "updated": "2020-06-17T11:32:40+10:00",
+                "id": "ESTA:200612130",
+                "location": "Glen Iris, Glen Iris",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05224887160367,
+                    -37.854665607645316
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "on scene",
+                "status": "complete",
                 "created": "2020-06-17T10:34:00+10:00",
-                "updated": "2020-06-17T11:06:00+10:00",
+                "updated": "2020-06-17T11:41:00+10:00",
                 "id": "ESTA:200650794",
                 "location": "Bullarto",
                 "title": "incident: tree down"

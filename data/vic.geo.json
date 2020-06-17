@@ -3815,6 +3815,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Victoria St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-17T10:33:00+10:00",
+                "updated": "2020-06-17T10:33:00+10:00",
+                "id": "ESTA:200612064",
+                "location": "Victoria St, Hastings",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1903107606637,
+                    -38.30671669408705
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Princes Hwy",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -3910,7 +3933,7 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-17T10:17:00+10:00",
                 "updated": "2020-06-17T10:17:00+10:00",
                 "id": "ESTA:200612048",
@@ -3993,29 +4016,6 @@
                 "coordinates": [
                     147.5998355703235,
                     -37.820933695463566
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "not yet under control",
-                "created": "2020-06-17T10:01:00+10:00",
-                "updated": "2020-06-17T10:01:00+10:00",
-                "id": "ESTA:200612023",
-                "location": "Darley",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.4404391544632,
-                    -37.6541813563731
                 ]
             }
         },
@@ -4108,6 +4108,51 @@
                 "coordinates": [
                     144.86968030524932,
                     -37.81107903898808
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Holmes St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-17T10:32:36+10:00",
+                "updated": "2020-06-17T10:32:36+10:00",
+                "id": "ESTA:200612063",
+                "location": "Holmes St, Brunswick",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97461296496778,
+                    -37.756933018315266
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-17T10:34:00+10:00",
+                "updated": "2020-06-17T10:34:00+10:00",
+                "id": "ESTA:200650794",
+                "location": "Bullarto",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.21856483338743,
+                    -37.39399426351144
                 ]
             }
         },

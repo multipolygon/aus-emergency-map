@@ -75,6 +75,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            147.65643770563543,
+                            -37.81971884615662
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    147.64954979288407,
+                                    -37.817752604403545
+                                ],
+                                [
+                                    147.66371185648126,
+                                    -37.819481566924665
+                                ],
+                                [
+                                    147.6632827030449,
+                                    -37.82168508790969
+                                ],
+                                [
+                                    147.64916355478957,
+                                    -37.81988837575013
+                                ],
+                                [
+                                    147.64954979288407,
+                                    -37.817752604403545
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "cbrne",
+                "status": "minor",
+                "created": "2020-06-17T11:51:31+10:00",
+                "updated": "2020-06-17T11:51:31+10:00",
+                "id": "14118",
+                "location": "Lucknow",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -3771,50 +3825,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cathcart Hr",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-06-16T17:48:00+10:00",
-                "updated": "2020-06-16T17:48:00+10:00",
-                "id": "2020-06-16T17:48:00.0000000:384882",
-                "location": "Cathcart",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.427280425,
-                    -36.840614149
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Windomal Rd, Balranald",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-06-17T09:20:00+10:00",
-                "updated": "2020-06-17T09:20:00+10:00",
-                "id": "2020-06-17T09:20:00.0000000:384898",
-                "location": "Windomal Rd, Balranald, Nsw 2715",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.464676141,
-                    -34.718713629
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Bondi Windrow Burn",
                 "category": "fire",
                 "subcategory": "fire",
@@ -3875,6 +3885,142 @@
                 "coordinates": [
                     149.243216515,
                     -37.169926506
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cathcart Hr",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-06-16T17:48:00+10:00",
+                "updated": "2020-06-16T17:48:00+10:00",
+                "id": "2020-06-16T17:48:00.0000000:384882",
+                "location": "Cathcart",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.427280425,
+                    -36.840614149
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Windomal Rd, Balranald",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-06-17T09:20:00+10:00",
+                "updated": "2020-06-17T09:20:00+10:00",
+                "id": "2020-06-17T09:20:00.0000000:384898",
+                "location": "Windomal Rd, Balranald, Nsw 2715",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.464676141,
+                    -34.718713629
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Columbia Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-17T11:47:00+10:00",
+                "updated": "2020-06-17T11:59:00+10:00",
+                "id": "ESTA:200612142",
+                "location": "Columbia Rd, Narre Warren",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3059848845131,
+                    -38.00757058724322
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sparks Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-17T11:20:00+10:00",
+                "updated": "2020-06-17T11:52:00+10:00",
+                "id": "ESTA:200612113",
+                "location": "Sparks Rd, Norlane",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.36016716973774,
+                    -38.09173780993894
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dunsmore Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-17T11:51:00+10:00",
+                "updated": "2020-06-17T11:51:00+10:00",
+                "id": "ESTA:200612144",
+                "location": "Dunsmore Rd, Cowes",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2485921668583,
+                    -38.45853250500814
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hallam Valley Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-06-17T11:47:01+10:00",
+                "updated": "2020-06-17T11:47:01+10:00",
+                "id": "ESTA:200612100",
+                "location": "Hallam Valley Rd, Dandenong South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.23719820642395,
+                    -38.01330890270211
                 ]
             }
         },
@@ -3950,29 +4096,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sparks Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-06-17T11:20:00+10:00",
-                "updated": "2020-06-17T11:28:00+10:00",
-                "id": "ESTA:200612113",
-                "location": "Sparks Rd, Norlane",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.36016716973774,
-                    -38.09173780993894
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Stud Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -4019,29 +4142,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hallam Valley Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-06-17T11:26:29+10:00",
-                "updated": "2020-06-17T11:26:29+10:00",
-                "id": "ESTA:200612100",
-                "location": "Hallam Valley Rd, Dandenong South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.23719820642395,
-                    -38.01330890270211
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -4059,75 +4159,6 @@
                 "coordinates": [
                     145.64384334625603,
                     -37.77599861488595
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ferguson Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-17T10:39:00+10:00",
-                "updated": "2020-06-17T10:55:00+10:00",
-                "id": "ESTA:200612071",
-                "location": "Ferguson Rd, Tatura East",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.30517639953462,
-                    -36.439987464378305
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Victoria St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-17T10:33:00+10:00",
-                "updated": "2020-06-17T10:51:00+10:00",
-                "id": "ESTA:200612064",
-                "location": "Victoria St, Hastings",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1903107606637,
-                    -38.30671669408705
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Geelong Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-17T10:19:00+10:00",
-                "updated": "2020-06-17T10:47:00+10:00",
-                "id": "ESTA:200612050",
-                "location": "Geelong Rd, Torquay",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3173752476491,
-                    -38.32780037940921
                 ]
             }
         },
@@ -4197,51 +4228,6 @@
                 "coordinates": [
                     145.01811657726563,
                     -37.91589697959343
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Glen Iris",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-17T11:32:40+10:00",
-                "updated": "2020-06-17T11:32:40+10:00",
-                "id": "ESTA:200612130",
-                "location": "Glen Iris, Glen Iris",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05224887160367,
-                    -37.854665607645316
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-17T10:34:00+10:00",
-                "updated": "2020-06-17T11:41:00+10:00",
-                "id": "ESTA:200650794",
-                "location": "Bullarto",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.21856483338743,
-                    -37.39399426351144
                 ]
             }
         }

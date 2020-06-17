@@ -69,60 +69,6 @@
         },
         {
             "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            147.65643770563543,
-                            -37.81971884615662
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    147.64954979288407,
-                                    -37.817752604403545
-                                ],
-                                [
-                                    147.66371185648126,
-                                    -37.819481566924665
-                                ],
-                                [
-                                    147.6632827030449,
-                                    -37.82168508790969
-                                ],
-                                [
-                                    147.64916355478957,
-                                    -37.81988837575013
-                                ],
-                                [
-                                    147.64954979288407,
-                                    -37.817752604403545
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Advice",
-                "category": "advice",
-                "subcategory": "cbrne",
-                "status": "minor",
-                "created": "2020-06-17T15:59:13+10:00",
-                "updated": "2020-06-17T15:59:14+10:00",
-                "id": "14123",
-                "location": "Lucknow",
-                "title": "warning: advice"
-            }
-        },
-        {
-            "type": "Feature",
             "properties": {
                 "feedType": "warning",
                 "sourceTitle": "Advice",
@@ -3893,14 +3839,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mccann Dr",
+                "sourceTitle": "Blackburn Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-06-17T22:21:42+10:00",
-                "updated": "2020-06-17T22:21:42+10:00",
-                "id": "ESTA:200612409",
-                "location": "Mccann Dr, Albanvale",
+                "created": "2020-06-17T22:42:20+10:00",
+                "updated": "2020-06-17T22:42:20+10:00",
+                "id": "ESTA:200612410",
+                "location": "Blackburn Rd, Notting Hill",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3908,8 +3854,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.76466655546577,
-                    -37.74812696647313
+                    145.1420845742249,
+                    -37.9072371375637
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Blyth Ct",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-06-17T22:45:18+10:00",
+                "updated": "2020-06-17T22:45:18+10:00",
+                "id": "ESTA:200612411",
+                "location": "Blyth Ct, Gladstone Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.89271124913995,
+                    -37.69966290381401
                 ]
             }
         }

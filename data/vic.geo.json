@@ -3847,23 +3847,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-06-17T18:45:00+10:00",
-                "updated": "2020-06-17T18:45:00+10:00",
-                "id": "ESTA:200612380",
-                "location": "Noble Park",
+                "sourceTitle": "Princes Hwy",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-06-17T08:35:00+10:00",
+                "updated": "2020-06-17T08:53:00+10:00",
+                "id": "ESTA:200611920",
+                "location": "Princes Hwy, Lucknow",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.16675578845008,
-                    -37.97330985644114
+                    147.65864784586472,
+                    -37.819871425424104
                 ]
             }
         },
@@ -3873,9 +3873,9 @@
                 "sourceTitle": "Beresford Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-17T18:39:00+10:00",
-                "updated": "2020-06-17T18:39:00+10:00",
+                "updated": "2020-06-17T19:01:00+10:00",
                 "id": "ESTA:200612378",
                 "location": "Beresford Rd, Lilydale",
                 "size": "Small",
@@ -3887,6 +3887,75 @@
                 "coordinates": [
                     145.34640282888688,
                     -37.75102030257219
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-06-17T18:57:00+10:00",
+                "updated": "2020-06-17T18:57:00+10:00",
+                "id": "ESTA:200612384",
+                "location": "Princes Hwy, Tostaree",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.16107624273758,
+                    -37.743644705253885
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-06-17T18:47:00+10:00",
+                "updated": "2020-06-17T18:56:00+10:00",
+                "id": "ESTA:200612381",
+                "location": "Princes Hwy, Tostaree",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.16107624273758,
+                    -37.743644705253885
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-17T18:45:00+10:00",
+                "updated": "2020-06-17T18:54:00+10:00",
+                "id": "ESTA:200612380",
+                "location": "Noble Park",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16675578845008,
+                    -37.97330985644114
                 ]
             }
         },
@@ -3910,29 +3979,6 @@
                 "coordinates": [
                     146.01328250133676,
                     -36.01502357511741
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gibson St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-17T18:36:00+10:00",
-                "updated": "2020-06-17T18:36:00+10:00",
-                "id": "ESTA:200612376",
-                "location": "Gibson St, North Bendigo",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.26765799262282,
-                    -36.73300133532099
                 ]
             }
         },
@@ -3979,29 +4025,6 @@
                 "coordinates": [
                     145.06250333612493,
                     -38.23775693750545
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-06-17T08:35:00+10:00",
-                "updated": "2020-06-17T08:53:00+10:00",
-                "id": "ESTA:200611920",
-                "location": "Princes Hwy, Lucknow",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.65864784586472,
-                    -37.819871425424104
                 ]
             }
         },
@@ -4057,9 +4080,9 @@
                 "sourceTitle": "Arundel Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-17T18:39:19+10:00",
-                "updated": "2020-06-17T18:39:19+10:00",
+                "status": "under control",
+                "created": "2020-06-17T18:55:55+10:00",
+                "updated": "2020-06-17T18:55:55+10:00",
                 "id": "ESTA:200612379",
                 "location": "Arundel Rd, Keilor",
                 "size": "Small",
@@ -4069,8 +4092,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.82995743762842,
-                    -37.693553254232626
+                    144.8302296586063,
+                    -37.69351759833425
                 ]
             }
         }

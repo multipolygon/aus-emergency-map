@@ -2328,9 +2328,9 @@
                 "sourceTitle": "Unknown -",
                 "category": "rescue",
                 "subcategory": "aircraft",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-18T19:38:00+10:00",
-                "updated": "2020-06-18T19:38:00+10:00",
+                "updated": "2020-06-18T19:57:00+10:00",
                 "id": "ESTA:200613007",
                 "location": "Unknown -, Darley",
                 "size": "Small",
@@ -2348,23 +2348,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glenwright Av",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Carlton",
+                "category": "fire",
+                "subcategory": "non structure fire",
                 "status": "responding",
-                "created": "2020-06-18T19:43:00+10:00",
-                "updated": "2020-06-18T19:43:00+10:00",
-                "id": "ESTA:200613008",
-                "location": "Glenwright Av, Woori Yallock",
+                "created": "2020-06-18T20:00:59+10:00",
+                "updated": "2020-06-18T20:00:59+10:00",
+                "id": "ESTA:200613009",
+                "location": "Carlton, Carlton",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.5411337148094,
-                    -37.77812421150245
+                    144.96620482982803,
+                    -37.80490106988308
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brunswick East",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-18T19:59:16+10:00",
+                "updated": "2020-06-18T20:01:42+10:00",
+                "id": "ESTA:200613010",
+                "location": "Brunswick East",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97280944290196,
+                    -37.76532869948376
                 ]
             }
         },
@@ -2374,19 +2396,19 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-06-18T19:43:00+10:00",
-                "updated": "2020-06-18T19:44:00+10:00",
-                "id": "ESTA:200650829",
-                "location": "Woori Yallock",
+                "status": "complete",
+                "created": "2020-06-18T17:44:00+10:00",
+                "updated": "2020-06-18T20:01:00+10:00",
+                "id": "ESTA:200650827",
+                "location": "Hampton Park",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.5411337148094,
-                    -37.77812421150245
+                    145.2655660144313,
+                    -38.04896745418573
                 ]
             }
         },
@@ -6561,28 +6583,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Olympic Hwy, Culcairn",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2020-06-18T18:52:00+10:00",
-                "updated": "2020-06-18T18:52:00+10:00",
-                "id": "2020-06-18T18:52:00.0000000:384980",
-                "location": "Olympic Hwy, Culcairn, Nsw 2660",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.017117,
-                    -35.7612779999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Taskers Windrow Burn",
                 "category": "fire",
                 "subcategory": "fire",
@@ -6605,16 +6605,83 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Olympic Hwy, Culcairn",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2020-06-18T18:52:00+10:00",
+                "updated": "2020-06-18T18:52:00+10:00",
+                "id": "2020-06-18T18:52:00.0000000:384980",
+                "location": "Olympic Hwy, Culcairn, Nsw 2660",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.017117,
+                    -35.7612779999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ramp Lane, Lake Hume Village",
+                "category": "fire",
+                "subcategory": "other non-urgent alerts",
+                "status": "out of control",
+                "created": "2020-06-18T19:52:00+10:00",
+                "updated": "2020-06-18T19:52:00+10:00",
+                "id": "2020-06-18T19:52:00.0000000:384984",
+                "location": "Ramp Lane, Lake Hume Village, Nsw 3691",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.050251,
+                    -36.089956
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glenwright Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-18T19:43:00+10:00",
+                "updated": "2020-06-18T20:00:00+10:00",
+                "id": "ESTA:200613008",
+                "location": "Glenwright Av, Woori Yallock",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.5411337148094,
+                    -37.77812421150245
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-06-18T19:26:00+10:00",
-                "updated": "2020-06-18T19:26:00+10:00",
+                "updated": "2020-06-18T19:50:00+10:00",
                 "id": "ESTA:200613002",
                 "location": "Mickleham",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -6697,68 +6764,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Normanby St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-18T18:46:00+10:00",
-                "updated": "2020-06-18T18:56:00+10:00",
-                "id": "ESTA:200612993",
-                "location": "Normanby St, Warragul",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.94024469516097,
-                    -38.15876411325253
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Broadmeadows",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-18T19:41:46+10:00",
-                "updated": "2020-06-18T19:41:46+10:00",
-                "id": "ESTA:200613003",
-                "location": "Broadmeadows, Broadmeadows",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9062301605802,
-                    -37.68015751839271
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2020-06-18T17:44:00+10:00",
-                "updated": "2020-06-18T19:14:00+10:00",
-                "id": "ESTA:200650827",
-                "location": "Hampton Park",
+                "created": "2020-06-18T19:43:00+10:00",
+                "updated": "2020-06-18T19:44:00+10:00",
+                "id": "ESTA:200650829",
+                "location": "Woori Yallock",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2655660144313,
-                    -38.04896745418573
+                    145.5411337148094,
+                    -37.77812421150245
                 ]
             }
         },

@@ -2303,12 +2303,80 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "The Promenade -",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-19T09:17:00+10:00",
+                "updated": "2020-06-19T09:17:00+10:00",
+                "id": "ESTA:200613176",
+                "location": "The Promenade -, Somers",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1485748437577,
+                    -38.39182543279022
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-06-19T09:00:00+10:00",
+                "updated": "2020-06-19T09:18:00+10:00",
+                "id": "ESTA:200650836",
+                "location": "Tullamarine",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.87745435500042,
+                    -37.69177812719054
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hickory St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-19T09:17:00+10:00",
+                "updated": "2020-06-19T09:17:00+10:00",
+                "id": "ESTA:200613178",
+                "location": "Hickory St, Werribee",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.65108434400872,
+                    -37.88983353935674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Mclaughlins Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-06-19T08:48:00+10:00",
-                "updated": "2020-06-19T09:01:00+10:00",
+                "updated": "2020-06-19T09:21:00+10:00",
                 "id": "ESTA:200613142",
                 "location": "Mclaughlins Rd, Newmerella",
                 "size": "Small",
@@ -2320,52 +2388,6 @@
                 "coordinates": [
                     148.4336501673933,
                     -37.735344717564566
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Yuilles Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "not yet under control",
-                "created": "2020-06-19T09:05:00+10:00",
-                "updated": "2020-06-19T09:05:00+10:00",
-                "id": "ESTA:200613164",
-                "location": "Yuilles Rd, Mornington",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0496613249855,
-                    -38.22877616316312
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-19T08:53:00+10:00",
-                "updated": "2020-06-19T09:05:00+10:00",
-                "id": "ESTA:200613147",
-                "location": "Belmont",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.35369724131866,
-                    -38.17775855793262
                 ]
             }
         },
@@ -7289,6 +7311,52 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-19T08:53:00+10:00",
+                "updated": "2020-06-19T09:05:00+10:00",
+                "id": "ESTA:200613147",
+                "location": "Belmont",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.35369724131866,
+                    -38.17775855793262
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yuilles Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "not yet under control",
+                "created": "2020-06-19T09:05:00+10:00",
+                "updated": "2020-06-19T09:05:00+10:00",
+                "id": "ESTA:200613164",
+                "location": "Yuilles Rd, Mornington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0496613249855,
+                    -38.22877616316312
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
@@ -7328,74 +7396,6 @@
                 "coordinates": [
                     145.908979791865,
                     -36.420620755501915
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-19T08:15:00+10:00",
-                "updated": "2020-06-19T08:28:00+10:00",
-                "id": "ESTA:200613112",
-                "location": "North Geelong",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.35047285260842,
-                    -38.12432641456882
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Freight Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-19T09:06:45+10:00",
-                "updated": "2020-06-19T09:06:45+10:00",
-                "id": "ESTA:200613156",
-                "location": "Freight Rd, Tullamarine",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.87746023871486,
-                    -37.691773119995034
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-06-19T09:00:00+10:00",
-                "updated": "2020-06-19T09:04:00+10:00",
-                "id": "ESTA:200650836",
-                "location": "Tullamarine",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.87745435500042,
-                    -37.69177812719054
                 ]
             }
         }

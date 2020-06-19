@@ -15547,14 +15547,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Strathmore",
+                "sourceTitle": "Nelson Pl",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-06-20T06:56:33+10:00",
-                "updated": "2020-06-20T06:56:33+10:00",
-                "id": "ESTA:200613806",
-                "location": "Strathmore, Strathmore",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-20T07:09:05+10:00",
+                "updated": "2020-06-20T07:09:05+10:00",
+                "id": "ESTA:200613809",
+                "location": "Nelson Pl, Williamstown",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15562,8 +15562,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.90466388689939,
-                    -37.735525382624374
+                    144.90652509531904,
+                    -37.863551356330724
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-20T05:41:00+10:00",
+                "updated": "2020-06-20T07:11:00+10:00",
+                "id": "ESTA:200650872",
+                "location": "Gembrook",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.64238167328793,
+                    -37.919623043385286
                 ]
             }
         },
@@ -15682,22 +15704,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-20T05:41:00+10:00",
-                "updated": "2020-06-20T06:05:00+10:00",
-                "id": "ESTA:200650872",
-                "location": "Gembrook",
-                "title": "incident: tree down"
+                "sourceTitle": "Strathmore",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-06-20T06:56:33+10:00",
+                "updated": "2020-06-20T06:56:33+10:00",
+                "id": "ESTA:200613806",
+                "location": "Strathmore, Strathmore",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.64238167328793,
-                    -37.919623043385286
+                    144.90466388689939,
+                    -37.735525382624374
                 ]
             }
         },

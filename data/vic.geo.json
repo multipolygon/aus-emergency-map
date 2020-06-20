@@ -15377,14 +15377,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glenvue Rd",
+                "sourceTitle": "Howard St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-20T22:47:00+10:00",
+                "updated": "2020-06-20T22:47:00+10:00",
+                "id": "ESTA:200614574",
+                "location": "Howard St, Ascot (Bendigo)",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.32410271930056,
+                    -36.706122139228086
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hammer Ct",
                 "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-20T22:26:00+10:00",
-                "updated": "2020-06-20T22:27:00+10:00",
-                "id": "ESTA:200614571",
-                "location": "Glenvue Rd, Rye",
+                "created": "2020-06-20T21:59:00+10:00",
+                "updated": "2020-06-20T22:55:00+10:00",
+                "id": "ESTA:200614568",
+                "location": "Hammer Ct, Wendouree",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15392,52 +15415,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.80567169401596,
-                    -38.38819450061806
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-20T22:31:00+10:00",
-                "updated": "2020-06-20T22:36:00+10:00",
-                "id": "ESTA:200650910",
-                "location": "Werribee",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.60980821098474,
-                    -37.901473614299306
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kensington",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-06-20T22:44:27+10:00",
-                "updated": "2020-06-20T22:45:46+10:00",
-                "id": "ESTA:200614573",
-                "location": "Collett St, Kensington",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9332261746057,
-                    -37.79050002495469
+                    143.8460151565244,
+                    -37.529024194553166
                 ]
             }
         },
@@ -15533,14 +15512,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hammer Ct",
+                "sourceTitle": "Glenvue Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-20T21:59:00+10:00",
-                "updated": "2020-06-20T22:08:00+10:00",
-                "id": "ESTA:200614568",
-                "location": "Hammer Ct, Wendouree",
+                "status": "safe",
+                "created": "2020-06-20T22:26:00+10:00",
+                "updated": "2020-06-20T22:27:00+10:00",
+                "id": "ESTA:200614571",
+                "location": "Glenvue Rd, Rye",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15548,8 +15527,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8460151565244,
-                    -37.529024194553166
+                    144.80567169401596,
+                    -38.38819450061806
                 ]
             }
         },
@@ -15579,29 +15558,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-20T21:38:00+10:00",
-                "updated": "2020-06-20T21:48:00+10:00",
-                "id": "ESTA:200614564",
-                "location": "Princes Hwy, Dandenong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2136894401819,
-                    -37.985684495889544
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Killala Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -15619,6 +15575,29 @@
                 "coordinates": [
                     143.61163629523682,
                     -38.73611355779502
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Burwood Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-20T23:00:26+10:00",
+                "updated": "2020-06-20T23:00:26+10:00",
+                "id": "ESTA:200614575",
+                "location": "Burwood Rd, Hawthorn",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02716940906322,
+                    -37.82182361940514
                 ]
             }
         }

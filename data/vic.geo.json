@@ -15377,23 +15377,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pleasant St",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2020-06-21T03:09:00+10:00",
-                "updated": "2020-06-21T03:20:00+10:00",
-                "id": "ESTA:200614612",
-                "location": "Pleasant St, Redan",
-                "size": "Small",
-                "title": "incident: rescue"
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-06-21T01:47:00+10:00",
+                "updated": "2020-06-21T03:33:00+10:00",
+                "id": "ESTA:200650913",
+                "location": "Kensington",
+                "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.83668567603732,
-                    -37.57390598361918
+                    144.92388021794935,
+                    -37.78975218407923
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Elms Bvd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-21T03:36:00+10:00",
+                "updated": "2020-06-21T03:36:00+10:00",
+                "id": "ESTA:200614616",
+                "location": "The Elms Bvd, Kilmore",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9603888368798,
+                    -37.31684915379708
                 ]
             }
         },
@@ -15403,9 +15425,9 @@
                 "sourceTitle": "Carroll St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-06-21T02:58:00+10:00",
-                "updated": "2020-06-21T03:12:00+10:00",
+                "updated": "2020-06-21T03:27:00+10:00",
                 "id": "ESTA:200614611",
                 "location": "Carroll St, Woori Yallock",
                 "size": "Small",
@@ -15415,52 +15437,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.52821951713025,
-                    -37.77831507124465
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Brighton",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-21T03:27:38+10:00",
-                "updated": "2020-06-21T03:28:02+10:00",
-                "id": "ESTA:200614613",
-                "location": "Outer Cr, Brighton",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99498892285487,
-                    -37.90665784182305
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Apollo Bay",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-21T03:27:48+10:00",
-                "updated": "2020-06-21T03:28:33+10:00",
-                "id": "ESTA:200614614",
-                "location": "Killala Rd, Apollo Bay",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.61164399064813,
-                    -38.736097348266455
+                    145.52842403203454,
+                    -37.778308613562515
                 ]
             }
         },
@@ -15533,23 +15511,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fenton Hill Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-06-21T02:58:00+10:00",
-                "updated": "2020-06-21T02:58:00+10:00",
-                "id": "ESTA:200614610",
-                "location": "Fenton Hill Rd, Clarkefield",
+                "sourceTitle": "Killala Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-21T03:28:00+10:00",
+                "updated": "2020-06-21T03:28:00+10:00",
+                "id": "ESTA:200614614",
+                "location": "Killala Rd, Apollo Bay",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.80388920544326,
-                    -37.49259401686763
+                    143.61163629523682,
+                    -38.73611355779502
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pleasant St",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2020-06-21T03:09:00+10:00",
+                "updated": "2020-06-21T03:20:00+10:00",
+                "id": "ESTA:200614612",
+                "location": "Pleasant St, Redan",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.83668567603732,
+                    -37.57390598361918
                 ]
             }
         },
@@ -15579,14 +15580,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cormorant Pde",
+                "sourceTitle": "Outer Cr",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-21T02:13:00+10:00",
-                "updated": "2020-06-21T02:33:00+10:00",
-                "id": "ESTA:200614606",
-                "location": "Cormorant Pde, Pakenham",
+                "created": "2020-06-21T03:36:54+10:00",
+                "updated": "2020-06-21T03:36:54+10:00",
+                "id": "ESTA:200614613",
+                "location": "Outer Cr, Brighton",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -15594,30 +15595,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.45050656995076,
-                    -38.067826997384685
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "on scene",
-                "created": "2020-06-21T01:47:00+10:00",
-                "updated": "2020-06-21T02:22:00+10:00",
-                "id": "ESTA:200650913",
-                "location": "Kensington",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.92388021794935,
-                    -37.78975218407923
+                    144.99498529032894,
+                    -37.90666333512545
                 ]
             }
         }

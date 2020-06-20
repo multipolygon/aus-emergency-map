@@ -15455,14 +15455,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Holman Rd",
+                "sourceTitle": "Forster St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-20T21:12:00+10:00",
+                "updated": "2020-06-20T21:12:00+10:00",
+                "id": "ESTA:200614556",
+                "location": "Forster St, Norlane",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3584325405084,
+                    -38.09558230656776
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kingston St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-20T20:39:00+10:00",
-                "updated": "2020-06-20T20:43:00+10:00",
-                "id": "ESTA:200614547",
-                "location": "Holman Rd, Emerald",
+                "status": "responding",
+                "created": "2020-06-20T21:14:00+10:00",
+                "updated": "2020-06-20T21:14:00+10:00",
+                "id": "ESTA:200614558",
+                "location": "Kingston St, Ferntree Gully",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -15470,53 +15493,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.44373452491277,
-                    -37.89754376344015
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gisborne-Melton Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-06-20T20:17:00+10:00",
-                "updated": "2020-06-20T20:39:00+10:00",
-                "id": "ESTA:200614538",
-                "location": "Gisborne-Melton Rd, Toolern Vale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.57328781550524,
-                    -37.579925290106814
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2020-06-20T16:58:00+10:00",
-                "updated": "2020-06-20T20:59:00+10:00",
-                "id": "ESTA:200614418",
-                "location": "Lavers Hill",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.37074635064832,
-                    -38.66278096115094
+                    145.26984094212622,
+                    -37.89033924293757
                 ]
             }
         },
@@ -15589,14 +15567,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mt Ridley Rd",
-                "category": "fire",
+                "sourceTitle": "Bengworden Rd",
+                "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-06-20T20:42:00+10:00",
-                "updated": "2020-06-20T20:42:00+10:00",
-                "id": "ESTA:200614552",
-                "location": "Mt Ridley Rd, Mickleham",
+                "created": "2020-06-20T21:15:00+10:00",
+                "updated": "2020-06-20T21:15:00+10:00",
+                "id": "ESTA:200614559",
+                "location": "Bengworden Rd, Perry Bridge",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.1800274944555,
+                    -38.02300708615358
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Holman Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-20T20:39:00+10:00",
+                "updated": "2020-06-20T20:43:00+10:00",
+                "id": "ESTA:200614547",
+                "location": "Holman Rd, Emerald",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.44373452491277,
+                    -37.89754376344015
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gisborne-Melton Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-06-20T20:17:00+10:00",
+                "updated": "2020-06-20T20:39:00+10:00",
+                "id": "ESTA:200614538",
+                "location": "Gisborne-Melton Rd, Toolern Vale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15604,8 +15628,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.88835174095667,
-                    -37.55969716785493
+                    144.57328781550524,
+                    -37.579925290106814
                 ]
             }
         },
@@ -15675,29 +15699,6 @@
                 "coordinates": [
                     146.2910296648629,
                     -38.185450953994895
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ensby St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-20T20:00:00+10:00",
-                "updated": "2020-06-20T20:08:00+10:00",
-                "id": "ESTA:200614534",
-                "location": "Ensby St, East Geelong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.37806794524604,
-                    -38.16469091767363
                 ]
             }
         },

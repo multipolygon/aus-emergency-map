@@ -2303,14 +2303,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Eastlink -",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-22T01:22:00+10:00",
+                "updated": "2020-06-22T01:24:00+10:00",
+                "id": "ESTA:200650932",
+                "location": "Moorabool",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.29670883981834,
+                    -38.07193101732178
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Curr Rd",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-22T01:03:00+10:00",
-                "updated": "2020-06-22T01:03:00+10:00",
-                "id": "ESTA:200615173",
-                "location": "Eastlink -, Scoresby",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-21T21:10:00+10:00",
+                "updated": "2020-06-22T01:25:00+10:00",
+                "id": "ESTA:200615145",
+                "location": "Curr Rd, Tongala",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2318,8 +2340,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.21616647737804,
-                    -37.90825575236964
+                    144.98104009079202,
+                    -36.24800807192621
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Koonung St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-22T01:27:49+10:00",
+                "updated": "2020-06-22T01:27:49+10:00",
+                "id": "ESTA:200615175",
+                "location": "Koonung St, Balwyn North",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0995582757596,
+                    -37.78846611948105
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bruce St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-06-22T01:27:00+10:00",
+                "updated": "2020-06-22T01:30:00+10:00",
+                "id": "ESTA:200615174",
+                "location": "Bruce St, Mallacoota",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.75259532298958,
+                    -37.558011669980736
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Floriston Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-22T01:30:00+10:00",
+                "updated": "2020-06-22T01:30:00+10:00",
+                "id": "ESTA:200615177",
+                "location": "Floriston Rd, Boronia",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2884772940172,
+                    -37.86192627072003
                 ]
             }
         },
@@ -3618,6 +3709,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Eastlink -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-22T01:03:00+10:00",
+                "updated": "2020-06-22T01:23:00+10:00",
+                "id": "ESTA:200615173",
+                "location": "Eastlink -, Scoresby",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21616647737804,
+                    -37.90825575236964
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Vale St",
                 "category": "other",
                 "subcategory": "other",
@@ -3635,29 +3749,6 @@
                 "coordinates": [
                     143.81525267141092,
                     -37.55972294078899
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Curr Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-06-21T21:10:00+10:00",
-                "updated": "2020-06-21T22:14:00+10:00",
-                "id": "ESTA:200615145",
-                "location": "Curr Rd, Tongala",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98104009079202,
-                    -36.24800807192621
                 ]
             }
         }

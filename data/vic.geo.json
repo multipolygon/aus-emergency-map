@@ -2501,14 +2501,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cobham St",
+                "sourceTitle": "Carroll Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-22T07:34:00+10:00",
+                "updated": "2020-06-22T07:34:00+10:00",
+                "id": "ESTA:200615219",
+                "location": "Carroll Rd, Highton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.31634544180991,
+                    -38.153276290170425
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-06-22T06:30:00+10:00",
+                "updated": "2020-06-22T07:13:00+10:00",
+                "id": "ESTA:200615204",
+                "location": "Tarneit",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.693582688281,
+                    -37.81962019842845
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Windsor",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-06-22T07:20:55+10:00",
-                "updated": "2020-06-22T07:20:55+10:00",
-                "id": "ESTA:200615212",
-                "location": "Cobham St, St Albans",
+                "created": "2020-06-22T07:40:39+10:00",
+                "updated": "2020-06-22T07:40:39+10:00",
+                "id": "ESTA:200615222",
+                "location": "Windsor, Windsor",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -2516,8 +2562,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.79375568022067,
-                    -37.73771053817008
+                    144.99647746029527,
+                    -37.85228029295406
                 ]
             }
         },
@@ -3214,52 +3260,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-22T06:30:00+10:00",
-                "updated": "2020-06-22T07:13:00+10:00",
-                "id": "ESTA:200615204",
-                "location": "Tarneit",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.693582688281,
-                    -37.81962019842845
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Normanby St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-22T06:22:00+10:00",
-                "updated": "2020-06-22T06:37:00+10:00",
-                "id": "ESTA:200615202",
-                "location": "Normanby St, Warragul",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.9397842779233,
-                    -38.1590303260892
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ashley St",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -3277,6 +3277,29 @@
                 "coordinates": [
                     144.86479673506497,
                     -37.78577324557938
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cobham St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-22T07:33:13+10:00",
+                "updated": "2020-06-22T07:33:13+10:00",
+                "id": "ESTA:200615212",
+                "location": "Cobham St, St Albans",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.79375568022067,
+                    -37.73771053817008
                 ]
             }
         }

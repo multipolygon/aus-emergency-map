@@ -15377,10 +15377,32 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-06-21T10:32:00+10:00",
+                "updated": "2020-06-21T10:35:00+10:00",
+                "id": "ESTA:200650917",
+                "location": "Chiltern",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.65382372382695,
+                    -36.24326319969976
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Birch St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-21T10:20:00+10:00",
                 "updated": "2020-06-21T10:20:00+10:00",
                 "id": "ESTA:200614732",
@@ -15403,9 +15425,9 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-21T10:28:00+10:00",
-                "updated": "2020-06-21T10:28:00+10:00",
+                "updated": "2020-06-21T10:36:00+10:00",
                 "id": "ESTA:200614738",
                 "location": "Traralgon",
                 "size": "Small",
@@ -15415,31 +15437,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.53783592641295,
-                    -38.19535184517135
+                    146.53797869020138,
+                    -38.19625365997987
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Station St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-21T10:30:47+10:00",
-                "updated": "2020-06-21T10:30:47+10:00",
-                "id": "ESTA:200614741",
-                "location": "Station St, Carlton North",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-21T10:42:00+10:00",
+                "updated": "2020-06-21T10:44:00+10:00",
+                "id": "ESTA:200614755",
+                "location": "Bandiana",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.97522588235202,
-                    -37.791289005996155
+                    146.91963906610377,
+                    -36.13910138740183
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-21T10:45:00+10:00",
+                "updated": "2020-06-21T10:45:00+10:00",
+                "id": "ESTA:200650918",
+                "location": "Mirboo North",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.11606642031296,
+                    -38.39556424635169
                 ]
             }
         },
@@ -15462,29 +15506,6 @@
                 "coordinates": [
                     149.243216515,
                     -37.169926506
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old Yarra Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-21T10:14:00+10:00",
-                "updated": "2020-06-21T10:14:00+10:00",
-                "id": "ESTA:200614725",
-                "location": "Old Yarra Rd, Wonga Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2692092876658,
-                    -37.740782291644784
                 ]
             }
         },
@@ -15514,23 +15535,69 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Old Yarra Rd",
+                "category": "other",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-21T09:14:00+10:00",
-                "updated": "2020-06-21T09:42:00+10:00",
-                "id": "ESTA:200614668",
-                "location": "Warrnambool",
+                "created": "2020-06-21T10:14:00+10:00",
+                "updated": "2020-06-21T10:34:00+10:00",
+                "id": "ESTA:200614725",
+                "location": "Old Yarra Rd, Wonga Park",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.49512759645688,
-                    -38.38466611990904
+                    145.2692092876658,
+                    -37.740782291644784
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mt Dandenong Tourist Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-06-21T10:32:00+10:00",
+                "updated": "2020-06-21T10:32:00+10:00",
+                "id": "ESTA:200614746",
+                "location": "Mt Dandenong Tourist Rd, Montrose",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3504838706747,
+                    -37.813568750206535
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Station St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-21T10:41:15+10:00",
+                "updated": "2020-06-21T10:41:15+10:00",
+                "id": "ESTA:200614741",
+                "location": "Station St, Carlton North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97522588235202,
+                    -37.791289005996155
                 ]
             }
         }

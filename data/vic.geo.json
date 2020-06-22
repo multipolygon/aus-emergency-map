@@ -2303,14 +2303,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Foxglove Lane",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Bulleen",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-06-22T14:28:29+10:00",
-                "updated": "2020-06-22T14:28:29+10:00",
-                "id": "ESTA:200615426",
-                "location": "Foxglove Lane, Craigieburn",
+                "created": "2020-06-22T14:40:08+10:00",
+                "updated": "2020-06-22T14:40:08+10:00",
+                "id": "ESTA:200615434",
+                "location": "Bulleen, Bulleen",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0912665746355,
+                    -37.76661401132895
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bessiere Pl",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-06-22T14:40:59+10:00",
+                "updated": "2020-06-22T14:40:59+10:00",
+                "id": "ESTA:200615432",
+                "location": "Bessiere Pl, St Kilda",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2318,8 +2341,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9334402047612,
-                    -37.58903275013046
+                    144.97531528915107,
+                    -37.86514390486774
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2020-06-22T14:36:00+10:00",
+                "updated": "2020-06-22T14:43:00+10:00",
+                "id": "ESTA:200615430",
+                "location": "Elliminyt",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.58287038959023,
+                    -38.3576846471851
                 ]
             }
         },
@@ -2343,28 +2389,6 @@
                 "coordinates": [
                     145.93549048292107,
                     -38.164669219010925
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-22T14:31:00+10:00",
-                "updated": "2020-06-22T14:30:44+10:00",
-                "id": "ESTA:200650949",
-                "location": "Kawarren",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.58820912024817,
-                    -38.45988616281662
                 ]
             }
         },
@@ -3015,6 +3039,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Foxglove Lane",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-22T14:36:25+10:00",
+                "updated": "2020-06-22T14:36:25+10:00",
+                "id": "ESTA:200615426",
+                "location": "Foxglove Lane, Craigieburn",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9334402047612,
+                    -37.58903275013046
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Croydon",
                 "category": "other",
                 "subcategory": "other",
@@ -3032,6 +3079,51 @@
                 "coordinates": [
                     145.28978353482492,
                     -37.79979854491383
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Western Ring Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-22T14:45:19+10:00",
+                "updated": "2020-06-22T14:45:19+10:00",
+                "id": "ESTA:200615429",
+                "location": "Western Ring Rd, Derrimut",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.80475990892288,
+                    -37.80408924531461
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-22T14:31:00+10:00",
+                "updated": "2020-06-22T14:32:00+10:00",
+                "id": "ESTA:200650949",
+                "location": "Kawarren",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.58820912024817,
+                    -38.45988616281662
                 ]
             }
         }

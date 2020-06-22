@@ -2257,29 +2257,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Snowy 22 - Waygara - Beach Road",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-06-19T14:30:00+10:00",
-                "updated": "2020-06-22T16:06:00+10:00",
-                "id": 975742,
-                "location": "9Km South West Of Nemerella",
-                "size": "52.00",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.356294,
-                    -37.802782
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Nelson - River Rd",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -2303,10 +2280,33 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Hammond Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-22T16:11:00+10:00",
+                "updated": "2020-06-22T16:30:00+10:00",
+                "id": "ESTA:200615470",
+                "location": "Hammond Rd, Dandenong South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2060609341153,
+                    -38.01090960426161
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Ligar St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-22T16:53:00+10:00",
                 "updated": "2020-06-22T16:53:00+10:00",
                 "id": "ESTA:200615483",
@@ -2326,81 +2326,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Therry St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-22T16:54:33+10:00",
-                "updated": "2020-06-22T16:54:33+10:00",
-                "id": "ESTA:200615482",
-                "location": "Therry St, Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.96083258611193,
-                    -37.80663838091802
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-22T16:17:00+10:00",
-                "updated": "2020-06-22T16:52:00+10:00",
-                "id": "ESTA:200615472",
-                "location": "Geelong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3563780910324,
-                    -38.15127446487557
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gyton Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-22T16:58:20+10:00",
-                "updated": "2020-06-22T16:58:20+10:00",
-                "id": "ESTA:200615480",
-                "location": "Gyton Av, Glen Waverley",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.160747418965,
-                    -37.86572360158738
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-22T16:54:00+10:00",
-                "updated": "2020-06-22T16:54:00+10:00",
+                "updated": "2020-06-22T17:06:00+10:00",
                 "id": "ESTA:200615484",
                 "location": "Fyansford",
                 "size": "Small",
@@ -2412,6 +2343,28 @@
                 "coordinates": [
                     144.29506959450455,
                     -38.14140790591703
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Yarra",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-22T17:14:55+10:00",
+                "updated": "2020-06-22T17:16:11+10:00",
+                "id": "ESTA:200615489",
+                "location": "South Yarra",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9854772657698,
+                    -37.834523015381734
                 ]
             }
         },
@@ -3040,14 +2993,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hammond Rd",
+                "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-06-22T16:11:00+10:00",
-                "updated": "2020-06-22T16:30:00+10:00",
-                "id": "ESTA:200615470",
-                "location": "Hammond Rd, Dandenong South",
+                "created": "2020-06-22T16:17:00+10:00",
+                "updated": "2020-06-22T16:52:00+10:00",
+                "id": "ESTA:200615472",
+                "location": "Geelong",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3055,8 +3008,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2060609341153,
-                    -38.01090960426161
+                    144.3563780910324,
+                    -38.15127446487557
                 ]
             }
         },
@@ -3080,6 +3033,52 @@
                 "coordinates": [
                     143.8902025090929,
                     -37.41945230899497
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Muyan Cct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-22T17:14:21+10:00",
+                "updated": "2020-06-22T17:14:21+10:00",
+                "id": "ESTA:200615487",
+                "location": "Muyan Cct, Burwood",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1251462453726,
+                    -37.8485300684805
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gyton Av",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-06-22T16:58:20+10:00",
+                "updated": "2020-06-22T16:58:20+10:00",
+                "id": "ESTA:200615480",
+                "location": "Gyton Av, Glen Waverley",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.160747418965,
+                    -37.86572360158738
                 ]
             }
         },

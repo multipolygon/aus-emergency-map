@@ -2280,14 +2280,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-23T01:50:00+10:00",
+                "updated": "2020-06-23T02:50:00+10:00",
+                "id": "ESTA:200650976",
+                "location": "Lyons",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.50354789909622,
+                    -38.027140877796285
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Donaldson St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-06-23T02:25:00+10:00",
-                "updated": "2020-06-23T02:41:00+10:00",
-                "id": "ESTA:200615553",
-                "location": "Plumpton",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-23T02:50:00+10:00",
+                "updated": "2020-06-23T02:50:00+10:00",
+                "id": "ESTA:200615556",
+                "location": "Donaldson St, Colac",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2295,31 +2317,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.6659074912659,
-                    -37.657887685960624
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-23T02:43:00+10:00",
-                "updated": "2020-06-23T02:43:00+10:00",
-                "id": "ESTA:200615554",
-                "location": "Plumpton",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.6659074912659,
-                    -37.657887685960624
+                    143.57072548375166,
+                    -38.33202018949315
                 ]
             }
         },
@@ -2860,6 +2859,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-06-23T02:25:00+10:00",
+                "updated": "2020-06-23T02:41:00+10:00",
+                "id": "ESTA:200615553",
+                "location": "Plumpton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6659074912659,
+                    -37.657887685960624
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Mitchell St",
                 "category": "other",
                 "subcategory": "other",
@@ -2877,28 +2899,6 @@
                 "coordinates": [
                     144.69795523313763,
                     -36.916556647610484
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-23T01:50:00+10:00",
-                "updated": "2020-06-23T02:10:00+10:00",
-                "id": "ESTA:200650976",
-                "location": "Lyons",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.50354789909622,
-                    -38.027140877796285
                 ]
             }
         }

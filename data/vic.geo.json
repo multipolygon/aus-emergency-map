@@ -2501,51 +2501,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Main Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-06-22T11:06:00+10:00",
-                "updated": "2020-06-22T11:09:00+10:00",
-                "id": "ESTA:200615312",
-                "location": "Main Rd, Paynesville",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.7198031030649,
-                    -37.91275232269941
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gladysdale",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-22T10:23:16+10:00",
-                "updated": "2020-06-22T11:16:35+10:00",
-                "id": "ESTA:200650941",
-                "location": "Hazeldene Rd, Gladysdale",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.65066902671325,
-                    -37.8264338977248
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Brookes St",
                 "category": "other",
                 "subcategory": "other",
@@ -2569,12 +2524,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bacchus Marsh Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-22T11:32:00+10:00",
+                "updated": "2020-06-22T11:32:00+10:00",
+                "id": "ESTA:200615331",
+                "location": "Bacchus Marsh Rd, Lara",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.34744662798616,
+                    -37.98401900730807
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Thomas Mitchell Dr",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-22T11:22:00+10:00",
-                "updated": "2020-06-22T11:22:00+10:00",
+                "updated": "2020-06-22T11:32:00+10:00",
                 "id": "ESTA:200615325",
                 "location": "Thomas Mitchell Dr, Wodonga",
                 "size": "Small",
@@ -2592,14 +2570,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kirwan Av",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-22T11:26:37+10:00",
-                "updated": "2020-06-22T11:26:37+10:00",
-                "id": "ESTA:200615319",
-                "location": "Kirwan Av, Roxburgh Park",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-22T11:37:00+10:00",
+                "updated": "2020-06-22T11:37:00+10:00",
+                "id": "ESTA:200615336",
+                "location": "White Hills",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2607,8 +2585,144 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9225049822628,
-                    -37.630061156793445
+                    144.31049291319525,
+                    -36.72665098932252
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "East Melbourne",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-22T11:35:03+10:00",
+                "updated": "2020-06-22T11:40:10+10:00",
+                "id": "ESTA:200615338",
+                "location": "Albert St, East Melbourne",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97544423421724,
+                    -37.80890561768688
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-22T10:07:00+10:00",
+                "updated": "2020-06-22T11:44:00+10:00",
+                "id": "ESTA:200650940",
+                "location": "Hampton",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01504339891682,
+                    -37.93846798457085
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Youngs Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-22T11:44:00+10:00",
+                "updated": "2020-06-22T11:44:00+10:00",
+                "id": "ESTA:200615341",
+                "location": "Youngs Rd, Yarrambat",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13359239754507,
+                    -37.63496430173208
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grant Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-22T11:45:00+10:00",
+                "updated": "2020-06-22T11:45:00+10:00",
+                "id": "ESTA:200615342",
+                "location": "Grant Rd, Somerville",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17966729226185,
+                    -38.20903023672769
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ivan Cr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-22T11:43:00+10:00",
+                "updated": "2020-06-22T11:43:00+10:00",
+                "id": "ESTA:200615340",
+                "location": "Ivan Cr, Hampton Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26502480930552,
+                    -38.03810021073936
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Monash Av",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-22T11:33:00+10:00",
+                "updated": "2020-06-22T11:33:00+10:00",
+                "id": "ESTA:200615334",
+                "location": "Monash Av, Olinda",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.36438335354455,
+                    -37.85548025700975
                 ]
             }
         },
@@ -3237,6 +3351,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Kirwan Av",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-06-22T11:26:37+10:00",
+                "updated": "2020-06-22T11:26:37+10:00",
+                "id": "ESTA:200615319",
+                "location": "Kirwan Av, Roxburgh Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9225049822628,
+                    -37.630061156793445
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Main Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-06-22T11:06:00+10:00",
+                "updated": "2020-06-22T11:09:00+10:00",
+                "id": "ESTA:200615312",
+                "location": "Main Rd, Paynesville",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.7198031030649,
+                    -37.91275232269941
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Pickering Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -3283,29 +3443,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Greenwood Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-22T11:16:37+10:00",
-                "updated": "2020-06-22T11:16:37+10:00",
-                "id": "ESTA:200615310",
-                "location": "Greenwood Av, Ringwood",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2306454849884,
-                    -37.82574066911732
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mill Av",
                 "category": "other",
                 "subcategory": "other",
@@ -3329,22 +3466,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-22T10:07:00+10:00",
-                "updated": "2020-06-22T11:21:00+10:00",
-                "id": "ESTA:200650940",
-                "location": "Hampton",
-                "title": "incident: tree down"
+                "sourceTitle": "Yarra Bvd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-22T11:44:43+10:00",
+                "updated": "2020-06-22T11:44:43+10:00",
+                "id": "ESTA:200615332",
+                "location": "Yarra Bvd, Kew",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.01504339891682,
-                    -37.93846798457085
+                    145.01103749273054,
+                    -37.80185090341208
                 ]
             }
         }

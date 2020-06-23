@@ -2628,7 +2628,7 @@
                 "sourceTitle": "John St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-24T03:41:00+10:00",
                 "updated": "2020-06-24T03:41:00+10:00",
                 "id": "ESTA:200615971",
@@ -2642,6 +2642,73 @@
                 "coordinates": [
                     145.48329748542326,
                     -38.07690634590586
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-24T02:29:00+10:00",
+                "updated": "2020-06-24T03:55:00+10:00",
+                "id": "ESTA:200651016",
+                "location": "Belgrave",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3525138971592,
+                    -37.90051975000897
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Stephensons Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-24T04:00:07+10:00",
+                "updated": "2020-06-24T04:00:07+10:00",
+                "id": "ESTA:200615972",
+                "location": "Stephensons Rd, Mount Waverley",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12646257342726,
+                    -37.88819902443761
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wangaratta South",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-24T02:07:05+10:00",
+                "updated": "2020-06-24T04:01:16+10:00",
+                "id": "ESTA:200615963",
+                "location": "Warby Range Rd, Wangaratta South",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.24900643430507,
+                    -36.39080372843124
                 ]
             }
         },
@@ -2959,50 +3026,6 @@
                 "coordinates": [
                     147.048443,
                     -36.0917019999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-06-24T02:29:00+10:00",
-                "updated": "2020-06-24T03:19:00+10:00",
-                "id": "ESTA:200651016",
-                "location": "Belgrave",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3525138971592,
-                    -37.90051975000897
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-06-24T02:31:00+10:00",
-                "updated": "2020-06-24T03:19:00+10:00",
-                "id": "ESTA:200651017",
-                "location": "Belgrave",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3525138971592,
-                    -37.90051975000897
                 ]
             }
         }

@@ -2670,22 +2670,68 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bright",
+                "sourceTitle": "David St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "unknown",
-                "created": "2020-06-24T08:15:19+10:00",
-                "updated": "2020-06-24T08:17:51+10:00",
-                "id": "ESTA:200616013",
-                "location": "Ireland St, Bright",
+                "status": "safe",
+                "created": "2020-06-24T08:40:00+10:00",
+                "updated": "2020-06-24T08:49:00+10:00",
+                "id": "ESTA:200616024",
+                "location": "David St, Dandenong",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.96145963795806,
-                    -36.730079994986035
+                    145.2175090204399,
+                    -37.977000955713685
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Reservoir",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-24T08:57:13+10:00",
+                "updated": "2020-06-24T08:57:13+10:00",
+                "id": "ESTA:200616031",
+                "location": "Reservoir, Reservoir",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00429864273374,
+                    -37.71273994893222
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Recreation Lane, Lake Hume Village",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-06-23T17:33:00+10:00",
+                "updated": "2020-06-23T17:33:00+10:00",
+                "id": "2020-06-23T17:33:00.0000000:385264",
+                "location": "Recreation Lane, Lake Hume Village, Nsw 3691",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.048443,
+                    -36.0917019999999
                 ]
             }
         },
@@ -2709,95 +2755,6 @@
                 "coordinates": [
                     144.55578453404965,
                     -37.68048220018957
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "David St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-24T08:40:00+10:00",
-                "updated": "2020-06-24T08:40:00+10:00",
-                "id": "ESTA:200616024",
-                "location": "David St, Dandenong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2175090204399,
-                    -37.977000955713685
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-24T08:09:00+10:00",
-                "updated": "2020-06-24T08:21:00+10:00",
-                "id": "ESTA:200651032",
-                "location": "Blairgowrie",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7596158817917,
-                    -38.35623589097836
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Belgrave",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "responding",
-                "created": "2020-06-24T08:43:49+10:00",
-                "updated": "2020-06-24T08:45:57+10:00",
-                "id": "ESTA:200651035",
-                "location": "Peters Rd, Belgrave",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3525249835633,
-                    -37.90050919710972
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Recreation Lane, Lake Hume Village",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-06-23T17:33:00+10:00",
-                "updated": "2020-06-23T17:33:00+10:00",
-                "id": "2020-06-23T17:33:00.0000000:385264",
-                "location": "Recreation Lane, Lake Hume Village, Nsw 3691",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.048443,
-                    -36.0917019999999
                 ]
             }
         },
@@ -2844,6 +2801,28 @@
                 "coordinates": [
                     144.92093243800335,
                     -37.74721458207491
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-24T08:46:00+10:00",
+                "updated": "2020-06-24T08:48:00+10:00",
+                "id": "ESTA:200651035",
+                "location": "Belgrave",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3525138971592,
+                    -37.90051975000897
                 ]
             }
         },

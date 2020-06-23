@@ -2648,12 +2648,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Frimmell Way",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-23T21:36:00+10:00",
+                "updated": "2020-06-23T21:36:00+10:00",
+                "id": "ESTA:200615928",
+                "location": "Frimmell Way, Portsea",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.71704480181984,
+                    -38.32932834684915
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Gordon St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-23T21:24:00+10:00",
-                "updated": "2020-06-23T21:24:00+10:00",
+                "updated": "2020-06-23T21:40:00+10:00",
                 "id": "ESTA:200615927",
                 "location": "Gordon St, Traralgon",
                 "size": "Small",
@@ -2671,23 +2694,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-23T20:36:00+10:00",
-                "updated": "2020-06-23T21:12:00+10:00",
-                "id": "ESTA:200615913",
-                "location": "Truganina",
-                "size": "Small",
-                "title": "incident: rescue"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-23T21:43:00+10:00",
+                "updated": "2020-06-23T21:43:00+10:00",
+                "id": "ESTA:200651011",
+                "location": "North Warrandyte",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.72139921469824,
-                    -37.82269406552002
+                    145.23229504989504,
+                    -37.72777041575168
                 ]
             }
         },
@@ -3790,6 +3812,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-06-23T20:36:00+10:00",
+                "updated": "2020-06-23T21:12:00+10:00",
+                "id": "ESTA:200615913",
+                "location": "Truganina",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.72139921469824,
+                    -37.82269406552002
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Casy Gr",
                 "category": "other",
                 "subcategory": "other",
@@ -3830,29 +3875,6 @@
                 "coordinates": [
                     146.4158223799937,
                     -38.31397009261805
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Forster St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-23T20:22:00+10:00",
-                "updated": "2020-06-23T20:44:00+10:00",
-                "id": "ESTA:200615911",
-                "location": "Forster St, Norlane",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.36076606951846,
-                    -38.09568883942224
                 ]
             }
         }

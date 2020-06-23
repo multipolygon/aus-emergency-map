@@ -2625,22 +2625,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-23T13:54:00+10:00",
-                "updated": "2020-06-23T14:32:00+10:00",
-                "id": "ESTA:200650999",
-                "location": "Belmont",
-                "title": "incident: tree down"
+                "sourceTitle": "Brampton Cct",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2020-06-23T14:48:17+10:00",
+                "updated": "2020-06-23T14:48:17+10:00",
+                "id": "ESTA:200615793",
+                "location": "Brampton Cct, Delahey",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.34500142697877,
-                    -38.18964496877758
+                    144.7723386301816,
+                    -37.721344974035546
                 ]
             }
         },
@@ -2650,9 +2651,9 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-06-23T14:26:00+10:00",
-                "updated": "2020-06-23T14:38:00+10:00",
+                "updated": "2020-06-23T14:54:00+10:00",
                 "id": "ESTA:200615789",
                 "location": "Rubicon",
                 "size": "Small",
@@ -2670,10 +2671,33 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "St Albans",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-23T14:52:47+10:00",
+                "updated": "2020-06-23T14:52:47+10:00",
+                "id": "ESTA:200615805",
+                "location": "St Albans, St Albans",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.77958361530946,
+                    -37.74198324929635
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Harleston Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-23T14:38:00+10:00",
                 "updated": "2020-06-23T14:38:00+10:00",
                 "id": "ESTA:200615792",
@@ -2693,106 +2717,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Coburns Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-23T14:41:00+10:00",
-                "updated": "2020-06-23T14:41:00+10:00",
-                "id": "ESTA:200615795",
-                "location": "Coburns Rd, Kurunjang",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.57123938300666,
-                    -37.67037556546165
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Coburns Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-06-23T14:42:00+10:00",
-                "updated": "2020-06-23T14:42:00+10:00",
-                "id": "ESTA:200615796",
-                "location": "Coburns Rd, Kurunjang",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.57121202621423,
-                    -37.67051918320703
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Coburns Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-23T14:44:00+10:00",
-                "updated": "2020-06-23T14:44:00+10:00",
-                "id": "ESTA:200615797",
-                "location": "Coburns Rd, Kurunjang",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.57121202621423,
-                    -37.67051918320703
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jardine Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-23T14:44:00+10:00",
-                "updated": "2020-06-23T14:44:00+10:00",
-                "id": "ESTA:200615798",
-                "location": "Jardine Dr, Mount Helen",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.89181967026568,
-                    -37.62333266765316
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Brampton Cct",
+                "sourceTitle": "Booker St",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-06-23T14:45:49+10:00",
-                "updated": "2020-06-23T14:45:49+10:00",
-                "id": "ESTA:200615793",
-                "location": "Brampton Cct, Delahey",
+                "created": "2020-06-23T14:59:16+10:00",
+                "updated": "2020-06-23T14:59:16+10:00",
+                "id": "ESTA:200615807",
+                "location": "Booker St, Cheltenham",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2800,8 +2732,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7723386301816,
-                    -37.721344974035546
+                    145.0598539266356,
+                    -37.97302187771749
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cheltenham",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-23T15:00:10+10:00",
+                "updated": "2020-06-23T15:01:14+10:00",
+                "id": "ESTA:200615810",
+                "location": "Booker St, Cheltenham",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0598639621028,
+                    -37.97301671335658
                 ]
             }
         },
@@ -3496,6 +3450,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Coburns Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-23T14:41:00+10:00",
+                "updated": "2020-06-23T14:56:00+10:00",
+                "id": "ESTA:200615795",
+                "location": "Coburns Rd, Kurunjang",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.57123938300666,
+                    -37.67037556546165
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Burwood Hwy",
                 "category": "other",
                 "subcategory": "other",
@@ -3536,29 +3513,6 @@
                 "coordinates": [
                     146.8217389544198,
                     -36.24701207273483
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "The Parade -",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-23T13:16:00+10:00",
-                "updated": "2020-06-23T13:51:00+10:00",
-                "id": "ESTA:200615747",
-                "location": "The Parade -, Yea",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.42592333833431,
-                    -37.217488203677696
                 ]
             }
         }

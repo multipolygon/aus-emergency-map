@@ -2647,45 +2647,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "on scene",
-                "created": "2020-06-24T10:23:00+10:00",
-                "updated": "2020-06-24T10:42:00+10:00",
-                "id": "ESTA:200616103",
-                "location": "Woorinen South",
+                "sourceTitle": "Broadway St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-24T10:51:00+10:00",
+                "updated": "2020-06-24T10:51:00+10:00",
+                "id": "ESTA:200616127",
+                "location": "Broadway St, Cobram",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.4539012150225,
-                    -35.29055499419083
+                    145.64282621550257,
+                    -35.91667154910281
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-24T10:36:00+10:00",
-                "updated": "2020-06-24T10:40:00+10:00",
-                "id": "ESTA:200651044",
-                "location": "Rosebud",
-                "title": "incident: tree down"
+                "sourceTitle": "Hornby St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-24T10:59:56+10:00",
+                "updated": "2020-06-24T10:59:56+10:00",
+                "id": "ESTA:200616129",
+                "location": "Hornby St, Windsor",
+                "size": "Small",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.92129761444215,
-                    -38.367991733801475
+                    144.9955794642435,
+                    -37.85768619520947
                 ]
             }
         },
@@ -2695,9 +2696,9 @@
                 "sourceTitle": "Watson Av",
                 "category": "rescue",
                 "subcategory": "rescue",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-06-24T10:40:00+10:00",
-                "updated": "2020-06-24T10:40:00+10:00",
+                "updated": "2020-06-24T11:00:00+10:00",
                 "id": "ESTA:200616119",
                 "location": "Watson Av, California Gully",
                 "size": "Small",
@@ -2709,52 +2710,6 @@
                 "coordinates": [
                     144.24997845193536,
                     -36.7267451393028
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Manifold St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-06-24T10:20:00+10:00",
-                "updated": "2020-06-24T10:43:00+10:00",
-                "id": "ESTA:200616100",
-                "location": "Manifold St, Camperdown",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.15914493210633,
-                    -38.240483295086456
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Station St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-24T10:44:00+10:00",
-                "updated": "2020-06-24T10:44:00+10:00",
-                "id": "ESTA:200616121",
-                "location": "Station St, Rushworth",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02381208724077,
-                    -36.587034401179565
                 ]
             }
         },
@@ -2805,6 +2760,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Manifold St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-06-24T10:20:00+10:00",
+                "updated": "2020-06-24T10:43:00+10:00",
+                "id": "ESTA:200616100",
+                "location": "Manifold St, Camperdown",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.15914493210633,
+                    -38.240483295086456
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "on scene",
+                "created": "2020-06-24T10:23:00+10:00",
+                "updated": "2020-06-24T10:42:00+10:00",
+                "id": "ESTA:200616103",
+                "location": "Woorinen South",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.4539012150225,
+                    -35.29055499419083
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -2828,23 +2829,68 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Long St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Campbellfield",
+                "category": "other",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-24T09:31:00+10:00",
-                "updated": "2020-06-24T09:54:00+10:00",
-                "id": "ESTA:200616057",
-                "location": "Long St, Leongatha",
+                "created": "2020-06-24T10:38:42+10:00",
+                "updated": "2020-06-24T10:38:42+10:00",
+                "id": "ESTA:200616114",
+                "location": "Campbellfield, Campbellfield",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.94906428360375,
-                    -38.479104775717964
+                    144.96336209639344,
+                    -37.648759730668296
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lakeside Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-24T10:50:00+10:00",
+                "updated": "2020-06-24T10:50:00+10:00",
+                "id": "ESTA:200616066",
+                "location": "Lakeside Dr, Burwood East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16776032718874,
+                    -37.85579413344846
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-24T09:27:00+10:00",
+                "updated": "2020-06-24T09:35:00+10:00",
+                "id": "ESTA:200651039",
+                "location": "Glen Iris",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04407766492233,
+                    -37.855712775585445
                 ]
             }
         },
@@ -2889,50 +2935,6 @@
                 "coordinates": [
                     145.38578717463497,
                     -37.93406445236412
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2020-06-24T10:23:00+10:00",
-                "updated": "2020-06-24T10:42:00+10:00",
-                "id": "ESTA:200651043",
-                "location": "Woorinen South",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.4539012150225,
-                    -35.29055499419083
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-24T09:27:00+10:00",
-                "updated": "2020-06-24T09:35:00+10:00",
-                "id": "ESTA:200651039",
-                "location": "Glen Iris",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04407766492233,
-                    -37.855712775585445
                 ]
             }
         }

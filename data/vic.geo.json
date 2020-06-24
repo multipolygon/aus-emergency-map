@@ -2280,35 +2280,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kemp St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-06-25T09:09:25+10:00",
-                "updated": "2020-06-25T09:09:25+10:00",
-                "id": "ESTA:200616507",
-                "location": "Kemp St, Springvale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.15778271274274,
-                    -37.93714754614925
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Cavendish St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-25T09:11:34+10:00",
-                "updated": "2020-06-25T09:11:34+10:00",
+                "status": "safe",
+                "created": "2020-06-25T09:21:38+10:00",
+                "updated": "2020-06-25T09:21:38+10:00",
                 "id": "ESTA:200616518",
                 "location": "Cavendish St, Broadmeadows",
                 "size": "Small",
@@ -2326,12 +2303,57 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-25T09:13:00+10:00",
+                "updated": "2020-06-25T09:22:00+10:00",
+                "id": "ESTA:200651067",
+                "location": "Congupna",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4318064367679,
+                    -36.29922827808865
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-06-25T09:23:00+10:00",
+                "updated": "2020-06-25T09:23:00+10:00",
+                "id": "ESTA:200616527",
+                "location": "Morwell",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.42826435951457,
+                    -38.23273978552245
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Fifteenth St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-06-25T09:12:00+10:00",
-                "updated": "2020-06-25T09:12:00+10:00",
+                "updated": "2020-06-25T09:24:00+10:00",
                 "id": "ESTA:200616521",
                 "location": "Fifteenth St, Mildura",
                 "size": "Small",
@@ -2349,22 +2371,68 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-25T09:13:00+10:00",
-                "updated": "2020-06-25T09:13:00+10:00",
-                "id": "ESTA:200651067",
-                "location": "Congupna",
-                "title": "incident: tree down"
+                "sourceTitle": "Kemp St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-25T08:56:00+10:00",
+                "updated": "2020-06-25T09:09:00+10:00",
+                "id": "ESTA:200616507",
+                "location": "Kemp St, Springvale",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.4318064367679,
-                    -36.29922827808865
+                    145.1577778733298,
+                    -37.93714929179016
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Parkdale",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-25T09:28:14+10:00",
+                "updated": "2020-06-25T09:28:14+10:00",
+                "id": "ESTA:200616533",
+                "location": "Parkdale, Parkdale",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0806769232681,
+                    -37.98992031226301
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Broadmeadows",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-25T09:28:46+10:00",
+                "updated": "2020-06-25T09:28:58+10:00",
+                "id": "ESTA:200616535",
+                "location": "Cavendish St, Broadmeadows",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91589834218195,
+                    -37.67675610231554
                 ]
             }
         },
@@ -3315,9 +3383,9 @@
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-06-25T08:59:00+10:00",
-                "updated": "2020-06-25T09:12:00+10:00",
+                "updated": "2020-06-25T09:25:00+10:00",
                 "id": "ESTA:200616510",
                 "location": "Lilydale",
                 "size": "Small",
@@ -3338,9 +3406,9 @@
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-06-25T08:52:00+10:00",
-                "updated": "2020-06-25T09:07:00+10:00",
+                "updated": "2020-06-25T09:26:00+10:00",
                 "id": "ESTA:200616505",
                 "location": "Eastern View",
                 "size": "Small",
@@ -3363,7 +3431,7 @@
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-06-25T08:59:00+10:00",
-                "updated": "2020-06-25T09:00:00+10:00",
+                "updated": "2020-06-25T09:23:00+10:00",
                 "id": "ESTA:200651066",
                 "location": "Pakenham",
                 "title": "incident: tree down"

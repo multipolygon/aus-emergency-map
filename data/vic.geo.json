@@ -2305,9 +2305,9 @@
                 "sourceTitle": "Bates Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-06-24T16:08:00+10:00",
-                "updated": "2020-06-24T16:08:00+10:00",
+                "updated": "2020-06-24T16:17:00+10:00",
                 "id": "ESTA:200616311",
                 "location": "Bates Rd, Lara",
                 "size": "Small",
@@ -2325,10 +2325,32 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Herne Hill",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-24T15:15:43+10:00",
+                "updated": "2020-06-24T16:17:49+10:00",
+                "id": "ESTA:200616285",
+                "location": "Muxworthy Av, Herne Hill",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.32956199663704,
+                    -38.13280617862295
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Gladstone Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-24T16:08:00+10:00",
                 "updated": "2020-06-24T16:08:00+10:00",
                 "id": "ESTA:200616312",
@@ -2348,23 +2370,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Allambanan Dr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Squires Rd",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-06-24T16:13:10+10:00",
-                "updated": "2020-06-24T16:13:10+10:00",
-                "id": "ESTA:200616313",
-                "location": "Allambanan Dr, Bayswater North",
+                "created": "2020-06-24T16:20:00+10:00",
+                "updated": "2020-06-24T16:20:00+10:00",
+                "id": "ESTA:200616315",
+                "location": "Squires Rd, Teesdale",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.29440494813917,
-                    -37.83180911586083
+                    144.05144689740794,
+                    -38.01817765375698
                 ]
             }
         },
@@ -2374,9 +2396,9 @@
                 "sourceTitle": "Hamilton St",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-06-24T16:05:00+10:00",
-                "updated": "2020-06-24T16:14:00+10:00",
+                "updated": "2020-06-24T16:22:00+10:00",
                 "id": "ESTA:200616310",
                 "location": "Hamilton St, Horsham",
                 "size": "Small",
@@ -2388,6 +2410,29 @@
                 "coordinates": [
                     142.19766265564658,
                     -36.71785264054057
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wantirna South",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-06-24T16:26:37+10:00",
+                "updated": "2020-06-24T16:26:37+10:00",
+                "id": "ESTA:200616314",
+                "location": "Wantirna South, Wantirna South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24047486765144,
+                    -37.859031213678314
                 ]
             }
         },
@@ -2438,6 +2483,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-24T16:27:00+10:00",
+                "updated": "2020-06-24T16:27:00+10:00",
+                "id": "ESTA:200616318",
+                "location": "Yarrawonga",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.00447404218673,
+                    -36.01305752402906
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Allambanan Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-24T16:20:04+10:00",
+                "updated": "2020-06-24T16:20:04+10:00",
+                "id": "ESTA:200616313",
+                "location": "Allambanan Dr, Bayswater North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29440494813917,
+                    -37.83180911586083
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Forest St",
                 "category": "other",
                 "subcategory": "other",
@@ -2455,52 +2546,6 @@
                 "coordinates": [
                     143.83056537568424,
                     -37.5399383861191
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Boundary Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-06-24T15:45:00+10:00",
-                "updated": "2020-06-24T15:45:00+10:00",
-                "id": "ESTA:200616304",
-                "location": "Boundary Rd, Dingley Village",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.11034597019088,
-                    -37.98310482901815
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Muxworthy Av",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-24T15:16:00+10:00",
-                "updated": "2020-06-24T15:28:00+10:00",
-                "id": "ESTA:200616285",
-                "location": "Muxworthy Av, Herne Hill",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.32955227971465,
-                    -38.13281770485961
                 ]
             }
         },

@@ -2280,14 +2280,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Elizabeth St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-24T20:37:00+10:00",
+                "updated": "2020-06-24T21:36:00+10:00",
+                "id": "ESTA:200651058",
+                "location": "Belgrave South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.37521726947588,
+                    -37.94281388911963
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Shearer Pl",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-24T20:07:00+10:00",
-                "updated": "2020-06-24T21:10:00+10:00",
-                "id": "ESTA:200616397",
-                "location": "Elizabeth St, Horsham",
+                "status": "responding",
+                "created": "2020-06-24T21:35:00+10:00",
+                "updated": "2020-06-24T21:35:00+10:00",
+                "id": "ESTA:200616411",
+                "location": "Shearer Pl, Roxburgh Park",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -2295,31 +2317,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.18481964887735,
-                    -36.71639466518149
+                    144.92367411502397,
+                    -37.627661541139545
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "High St",
+                "sourceTitle": "Recreation Lane, Lake Hume Village",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-06-24T15:07:00+10:00",
+                "updated": "2020-06-24T15:07:00+10:00",
+                "id": "2020-06-24T15:07:00.0000000:385264",
+                "location": "Recreation Lane, Lake Hume Village, Nsw 3691",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.048443,
+                    -36.0917019999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cobb Hwy, Deniliquin",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-24T21:20:00+10:00",
-                "updated": "2020-06-24T21:20:00+10:00",
-                "id": "ESTA:200616407",
-                "location": "High St, Ararat",
-                "size": "Small",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "created": "2020-06-24T09:10:00+10:00",
+                "updated": "2020-06-24T09:10:00+10:00",
+                "id": "2020-06-24T09:10:00.0000000:385270",
+                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.94097166691637,
-                    -37.28331471962432
+                    144.928965,
+                    -35.594917
                 ]
             }
         },
@@ -2327,22 +2370,22 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "fire",
+                "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-24T21:29:00+10:00",
-                "updated": "2020-06-24T21:29:00+10:00",
-                "id": "ESTA:200616409",
-                "location": "Berwick",
+                "status": "safe",
+                "created": "2020-06-24T21:23:00+10:00",
+                "updated": "2020-06-24T21:31:00+10:00",
+                "id": "ESTA:200616408",
+                "location": "Narre Warren",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.36957259017186,
-                    -38.0616131513065
+                    145.32057694762327,
+                    -38.027957649591286
                 ]
             }
         },
@@ -2372,67 +2415,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cobb Hwy, Deniliquin",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "created": "2020-06-24T09:10:00+10:00",
-                "updated": "2020-06-24T09:10:00+10:00",
-                "id": "2020-06-24T09:10:00.0000000:385270",
-                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.928965,
-                    -35.594917
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Recreation Lane, Lake Hume Village",
+                "sourceTitle": "High St",
                 "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-06-24T15:07:00+10:00",
-                "updated": "2020-06-24T15:07:00+10:00",
-                "id": "2020-06-24T15:07:00.0000000:385264",
-                "location": "Recreation Lane, Lake Hume Village, Nsw 3691",
+                "subcategory": "other",
+                "status": "not yet under control",
+                "created": "2020-06-24T21:20:00+10:00",
+                "updated": "2020-06-24T21:20:00+10:00",
+                "id": "ESTA:200616407",
+                "location": "High St, Ararat",
+                "size": "Small",
                 "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.048443,
-                    -36.0917019999999
+                    142.94097166691637,
+                    -37.28331471962432
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-06-24T21:23:00+10:00",
-                "updated": "2020-06-24T21:23:00+10:00",
-                "id": "ESTA:200616408",
-                "location": "Narre Warren",
+                "sourceTitle": "Elizabeth St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-24T20:07:00+10:00",
+                "updated": "2020-06-24T21:10:00+10:00",
+                "id": "ESTA:200616397",
+                "location": "Elizabeth St, Horsham",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.32057694762327,
-                    -38.027957649591286
+                    142.18481964887735,
+                    -36.71639466518149
                 ]
             }
         },
@@ -2456,28 +2478,6 @@
                 "coordinates": [
                     145.1503570045779,
                     -37.962184834261386
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-24T20:37:00+10:00",
-                "updated": "2020-06-24T20:52:00+10:00",
-                "id": "ESTA:200651058",
-                "location": "Belgrave South",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.37521726947588,
-                    -37.94281388911963
                 ]
             }
         },

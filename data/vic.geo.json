@@ -2280,14 +2280,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Thornbury",
+                "sourceTitle": "Batman Av",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-26T00:26:40+10:00",
-                "updated": "2020-06-26T00:26:40+10:00",
-                "id": "ESTA:200616862",
-                "location": "Thornbury, Thornbury",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-06-26T00:33:00+10:00",
+                "updated": "2020-06-26T00:33:00+10:00",
+                "id": "ESTA:200616863",
+                "location": "Batman Av, Shepparton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2295,8 +2295,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99337211275406,
-                    -37.759764740632285
+                    145.38804283118824,
+                    -36.36184588938743
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Strathmerton",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-26T00:34:49+10:00",
+                "updated": "2020-06-26T00:44:39+10:00",
+                "id": "ESTA:200616865",
+                "location": "Numurkah Rd, Strathmerton",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.47847470345772,
+                    -35.95477623980836
                 ]
             }
         },
@@ -3052,6 +3074,29 @@
                 "coordinates": [
                     144.97208068640987,
                     -37.66887372759203
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thornbury",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-26T00:40:12+10:00",
+                "updated": "2020-06-26T00:40:12+10:00",
+                "id": "ESTA:200616862",
+                "location": "Thornbury, Thornbury",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99337211275406,
+                    -37.759764740632285
                 ]
             }
         }

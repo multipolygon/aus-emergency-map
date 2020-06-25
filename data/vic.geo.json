@@ -2280,12 +2280,57 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-06-25T12:56:00+10:00",
+                "updated": "2020-06-25T13:32:00+10:00",
+                "id": "ESTA:200651079",
+                "location": "Eltham",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14982481029477,
+                    -37.70737175741276
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Back Creek Rd",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2020-06-25T13:10:00+10:00",
+                "updated": "2020-06-25T13:34:00+10:00",
+                "id": "ESTA:200616676",
+                "location": "Back Creek Rd, High Camp",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.88804160193442,
+                    -37.20119431348333
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "washaway",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-06-25T13:24:00+10:00",
-                "updated": "2020-06-25T13:24:00+10:00",
+                "updated": "2020-06-25T13:39:00+10:00",
                 "id": "ESTA:200616687",
                 "location": "Swan Hill",
                 "size": "Small",
@@ -2297,75 +2342,6 @@
                 "coordinates": [
                     143.5622950685069,
                     -35.359597351665286
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mount St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-25T13:27:57+10:00",
-                "updated": "2020-06-25T13:27:57+10:00",
-                "id": "ESTA:200616689",
-                "location": "Mount St, Glen Waverley",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16589173179707,
-                    -37.8845561419675
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Murray Valley Hwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-06-25T12:05:00+10:00",
-                "updated": "2020-06-25T12:48:00+10:00",
-                "id": "ESTA:200616643",
-                "location": "Murray Valley Hwy, Barnawartha North",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.70963679484336,
-                    -36.059825386839115
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Obrien Pde",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-06-25T13:21:00+10:00",
-                "updated": "2020-06-25T13:21:00+10:00",
-                "id": "ESTA:200616686",
-                "location": "Obrien Pde, Pakenham",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.452072355525,
-                    -38.06060198150601
                 ]
             }
         },
@@ -3706,29 +3682,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Back Creek Rd",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "responding",
-                "created": "2020-06-25T13:10:00+10:00",
-                "updated": "2020-06-25T13:10:00+10:00",
-                "id": "ESTA:200616676",
-                "location": "Back Creek Rd, High Camp",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.88804160193442,
-                    -37.20119431348333
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -3775,23 +3728,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bondi Av",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Murray Valley Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2020-06-25T12:40:00+10:00",
-                "updated": "2020-06-25T12:42:00+10:00",
-                "id": "ESTA:200616661",
-                "location": "Bondi Av, Frankston",
+                "created": "2020-06-25T12:05:00+10:00",
+                "updated": "2020-06-25T12:48:00+10:00",
+                "id": "ESTA:200616643",
+                "location": "Murray Valley Hwy, Barnawartha North",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.13927002864827,
-                    -38.16421339219082
+                    146.70963679484336,
+                    -36.059825386839115
                 ]
             }
         },
@@ -3844,22 +3797,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-06-25T12:56:00+10:00",
-                "updated": "2020-06-25T13:17:00+10:00",
-                "id": "ESTA:200651079",
-                "location": "Eltham",
-                "title": "incident: flooding"
+                "sourceTitle": "Mount St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-25T13:27:57+10:00",
+                "updated": "2020-06-25T13:27:57+10:00",
+                "id": "ESTA:200616689",
+                "location": "Mount St, Glen Waverley",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.14982481029477,
-                    -37.70737175741276
+                    145.16589173179707,
+                    -37.8845561419675
                 ]
             }
         },

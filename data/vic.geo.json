@@ -2280,44 +2280,114 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Port Melbourne",
+                "sourceTitle": "Spotswood",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-06-26T11:45:32+10:00",
-                "updated": "2020-06-26T11:46:12+10:00",
-                "id": "ESTA:200617109",
-                "location": "West Gate Fwy, Port Melbourne",
+                "created": "2020-06-26T11:50:54+10:00",
+                "updated": "2020-06-26T11:51:05+10:00",
+                "id": "ESTA:200617114",
+                "location": "Spotswood",
                 "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.91318795467478,
-                    -37.8330763272338
+                    144.88104481569056,
+                    -37.82553820405276
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Highton",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-26T11:45:08+10:00",
-                "updated": "2020-06-26T11:46:14+10:00",
-                "id": "ESTA:200617110",
+                "sourceTitle": "Lochgoin Mews",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-06-26T11:30:00+10:00",
+                "updated": "2020-06-26T11:55:00+10:00",
+                "id": "ESTA:200617100",
                 "location": "Lochgoin Mews, Highton",
-                "title": "incident: hazardous material"
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.30866627264038,
-                    -38.15479274047416
+                    144.30865588406996,
+                    -38.154794148186255
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Linda St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-26T11:59:29+10:00",
+                "updated": "2020-06-26T11:59:29+10:00",
+                "id": "ESTA:200617121",
+                "location": "Linda St, Coburg",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9565496536796,
+                    -37.750296277289195
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-06-26T11:04:00+10:00",
+                "updated": "2020-06-26T12:00:00+10:00",
+                "id": "ESTA:200617081",
+                "location": "Ferntree Gully",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2845057521507,
+                    -37.88073978116511
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Edwards Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-26T12:00:00+10:00",
+                "updated": "2020-06-26T12:00:00+10:00",
+                "id": "ESTA:200617124",
+                "location": "Edwards Rd, Flora Hill",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.30264164199468,
+                    -36.77949047013783
                 ]
             }
         },
@@ -2663,6 +2733,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Lochgoin Mews",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-06-26T11:46:00+10:00",
+                "updated": "2020-06-26T11:46:00+10:00",
+                "id": "ESTA:200617110",
+                "location": "Lochgoin Mews, Highton",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.30865588406996,
+                    -38.154794148186255
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap fire",
@@ -2680,29 +2773,6 @@
                 "coordinates": [
                     146.04332772572818,
                     -38.22143748530142
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lochgoin Mews",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-26T11:30:00+10:00",
-                "updated": "2020-06-26T11:30:00+10:00",
-                "id": "ESTA:200617100",
-                "location": "Lochgoin Mews, Highton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.30865588406996,
-                    -38.154794148186255
                 ]
             }
         },
@@ -2755,37 +2825,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-06-26T11:04:00+10:00",
-                "updated": "2020-06-26T11:21:00+10:00",
-                "id": "ESTA:200617081",
-                "location": "Ferntree Gully",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2845057521507,
-                    -37.88073978116511
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Central Av",
+                "sourceTitle": "West Gate Fwy",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-26T10:11:00+10:00",
-                "updated": "2020-06-26T10:51:00+10:00",
-                "id": "ESTA:200617022",
-                "location": "Central Av, Torquay",
+                "status": "responding",
+                "created": "2020-06-26T11:46:17+10:00",
+                "updated": "2020-06-26T11:46:17+10:00",
+                "id": "ESTA:200617109",
+                "location": "West Gate Fwy, Port Melbourne",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -2793,8 +2840,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3213746264607,
-                    -38.325423086841205
+                    144.9131857789859,
+                    -37.83308482050305
                 ]
             }
         }

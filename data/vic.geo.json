@@ -2257,36 +2257,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-27T00:09:00+10:00",
-                "updated": "2020-06-27T00:22:00+10:00",
-                "id": "ESTA:200651123",
-                "location": "Longwarry",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.77599033058834,
-                    -38.12914807880119
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Heidelberg",
+                "sourceTitle": "Bentleigh",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-06-27T00:24:55+10:00",
-                "updated": "2020-06-27T00:24:55+10:00",
-                "id": "ESTA:200617501",
-                "location": "Heidelberg, Heidelberg",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-27T00:34:53+10:00",
+                "updated": "2020-06-27T00:34:53+10:00",
+                "id": "ESTA:200617506",
+                "location": "Bentleigh, Bentleigh",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2294,30 +2272,76 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.06961264725763,
-                    -37.75664519119262
+                    145.0435562234122,
+                    -37.934035804664184
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Blackburn South",
+                "sourceTitle": "Clifton Springs",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-27T00:30:08+10:00",
-                "updated": "2020-06-27T00:31:03+10:00",
-                "id": "ESTA:200617504",
-                "location": "Vernon St, Blackburn South",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-26T23:04:58+10:00",
+                "updated": "2020-06-27T00:36:42+10:00",
+                "id": "ESTA:200617488",
+                "location": "Dundundra Dr, Clifton Springs",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1581394466779,
-                    -37.83396635305724
+                    144.5761299416634,
+                    -38.154941516675116
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Vernon St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-27T00:40:50+10:00",
+                "updated": "2020-06-27T00:40:50+10:00",
+                "id": "ESTA:200617504",
+                "location": "Vernon St, Blackburn South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.15813510413952,
+                    -37.83396710630615
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Crosbys Lane",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-27T00:41:00+10:00",
+                "updated": "2020-06-27T00:41:00+10:00",
+                "id": "ESTA:200617507",
+                "location": "Crosbys Lane, Mansfield",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.10399022715106,
+                    -37.06730316266223
                 ]
             }
         },
@@ -2461,29 +2485,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dundundra Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-26T23:07:00+10:00",
-                "updated": "2020-06-26T23:39:00+10:00",
-                "id": "ESTA:200617488",
-                "location": "Dundundra Dr, Clifton Springs",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.57611729965632,
-                    -38.15495459446176
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "St Albans Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -2507,12 +2508,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Heidelberg",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-06-27T00:24:55+10:00",
+                "updated": "2020-06-27T00:24:55+10:00",
+                "id": "ESTA:200617501",
+                "location": "Heidelberg, Heidelberg",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06961264725763,
+                    -37.75664519119262
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Moonee Ponds",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-27T00:42:44+10:00",
+                "updated": "2020-06-27T00:42:44+10:00",
+                "id": "ESTA:200617505",
+                "location": "Moonee Ponds, Moonee Ponds",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90851600565242,
+                    -37.768073501301075
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
-                "status": "on scene",
+                "status": "complete",
                 "created": "2020-06-26T18:13:00+10:00",
-                "updated": "2020-06-26T23:31:00+10:00",
+                "updated": "2020-06-27T00:36:00+10:00",
                 "id": "ESTA:200617405",
                 "location": "Selwyn",
                 "title": "incident: other"

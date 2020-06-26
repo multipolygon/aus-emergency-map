@@ -2257,14 +2257,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Aquila St",
+                "sourceTitle": "Kew",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-27T09:32:22+10:00",
+                "updated": "2020-06-27T09:33:29+10:00",
+                "id": "ESTA:200617651",
+                "location": "Cobden St, Kew",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03562882624416,
+                    -37.80397751959813
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-06-27T09:16:39+10:00",
-                "updated": "2020-06-27T09:16:39+10:00",
-                "id": "ESTA:200617606",
-                "location": "Aquila St, Balwyn North",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-27T09:37:00+10:00",
+                "updated": "2020-06-27T09:37:00+10:00",
+                "id": "ESTA:200617660",
+                "location": "Princes Hwy, Werribee",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2272,8 +2294,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0699579968223,
-                    -37.78645074116603
+                    144.69464330762386,
+                    -37.887333912811954
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-06-27T09:43:00+10:00",
+                "updated": "2020-06-27T09:44:00+10:00",
+                "id": "ESTA:200617676",
+                "location": "Camperdown",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.14162438472684,
+                    -38.22939646008236
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "St Kilda",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-06-27T09:43:58+10:00",
+                "updated": "2020-06-27T09:43:58+10:00",
+                "id": "ESTA:200617636",
+                "location": "St Kilda, St Kilda",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98253398704276,
+                    -37.85674797893942
                 ]
             }
         },
@@ -2283,9 +2351,9 @@
                 "sourceTitle": "Hazelwood Dr",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-27T09:18:00+10:00",
-                "updated": "2020-06-27T09:18:00+10:00",
+                "updated": "2020-06-27T09:33:00+10:00",
                 "id": "ESTA:200617625",
                 "location": "Hazelwood Dr, Morwell",
                 "size": "Small",
@@ -2303,46 +2371,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Brooks Dr",
+                "sourceTitle": "Cobb Hwy, Deniliquin",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-27T09:23:00+10:00",
-                "updated": "2020-06-27T09:23:00+10:00",
-                "id": "ESTA:200617629",
-                "location": "Brooks Dr, Dandenong South",
-                "size": "Small",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-06-27T07:36:00+10:00",
+                "updated": "2020-06-27T07:36:00+10:00",
+                "id": "2020-06-27T07:36:00.0000000:385270",
+                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.19846409478478,
-                    -38.024383205641975
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "St Kilda",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-27T09:27:00+10:00",
-                "updated": "2020-06-27T09:27:00+10:00",
-                "id": "ESTA:200617636",
-                "location": "St Kilda, St Kilda",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98253398704276,
-                    -37.85674797893942
+                    144.928965,
+                    -35.594917
                 ]
             }
         },
@@ -2372,51 +2416,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cobb Hwy, Deniliquin",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-06-27T07:36:00+10:00",
-                "updated": "2020-06-27T07:36:00+10:00",
-                "id": "2020-06-27T07:36:00.0000000:385270",
-                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.928965,
-                    -35.594917
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lakewood Bvd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-27T08:39:00+10:00",
-                "updated": "2020-06-27T08:40:00+10:00",
-                "id": "ESTA:200617579",
-                "location": "Lakewood Bvd, Braeside",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.11879721327927,
-                    -38.00348968554002
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "St Albans Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -2434,6 +2433,52 @@
                 "coordinates": [
                     144.80851729696877,
                     -37.755359190771664
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Aquila St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-06-27T09:16:39+10:00",
+                "updated": "2020-06-27T09:16:39+10:00",
+                "id": "ESTA:200617606",
+                "location": "Aquila St, Balwyn North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0699579968223,
+                    -37.78645074116603
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cobden St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-27T09:39:05+10:00",
+                "updated": "2020-06-27T09:39:05+10:00",
+                "id": "ESTA:200617643",
+                "location": "Cobden St, Kew",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0356230371159,
+                    -37.8039815129963
                 ]
             }
         }

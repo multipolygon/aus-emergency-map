@@ -2257,12 +2257,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-06-28T00:32:00+10:00",
+                "updated": "2020-06-28T00:33:00+10:00",
+                "id": "ESTA:200651141",
+                "location": "Sunbury",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.71877582573316,
+                    -37.584828762719205
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Hilton St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-28T00:21:38+10:00",
-                "updated": "2020-06-28T00:21:38+10:00",
+                "status": "safe",
+                "created": "2020-06-28T00:36:10+10:00",
+                "updated": "2020-06-28T00:36:10+10:00",
                 "id": "ESTA:200618628",
                 "location": "Hilton St, Hadfield",
                 "size": "Small",
@@ -2280,60 +2302,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-28T00:24:00+10:00",
-                "updated": "2020-06-28T00:24:00+10:00",
-                "id": "ESTA:200618630",
-                "location": "Narre Warren",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.31595303746687,
-                    -38.017933326722954
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Frankston-Dandenong Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-06-28T00:12:00+10:00",
-                "updated": "2020-06-28T00:12:00+10:00",
-                "id": "ESTA:200618627",
-                "location": "Frankston-Dandenong Rd, Dandenong South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2113482878216,
-                    -38.03236615344041
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "St Kilda",
+                "sourceTitle": "Victoria St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-28T00:27:51+10:00",
-                "updated": "2020-06-28T00:27:51+10:00",
+                "status": "safe",
+                "created": "2020-06-28T00:36:45+10:00",
+                "updated": "2020-06-28T00:36:45+10:00",
                 "id": "ESTA:200618631",
-                "location": "St Kilda, St Kilda",
+                "location": "Victoria St, St Kilda",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2341,8 +2317,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.97489536676395,
-                    -37.86339590676423
+                    144.97452019768332,
+                    -37.8637922612948
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fourth Av",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-06-28T00:43:00+10:00",
+                "updated": "2020-06-28T00:43:00+10:00",
+                "id": "ESTA:200618632",
+                "location": "Fourth Av, Rosebud",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.89900840209094,
+                    -38.359844860757946
                 ]
             }
         },
@@ -2365,29 +2364,6 @@
                 "coordinates": [
                     144.928965,
                     -35.594917
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bondi Pde",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-27T23:41:00+10:00",
-                "updated": "2020-06-27T23:43:00+10:00",
-                "id": "ESTA:200618623",
-                "location": "Bondi Pde, Point Cook",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.774507956867,
-                    -37.9058400474545
                 ]
             }
         },

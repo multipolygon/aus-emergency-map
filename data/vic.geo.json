@@ -9,6 +9,140 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            144.95232297823276,
+                            -37.8201679351332
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.94680286834407,
+                                    -37.81942658560519
+                                ],
+                                [
+                                    144.9467733375893,
+                                    -37.82080482564646
+                                ],
+                                [
+                                    144.9469632163203,
+                                    -37.821479699128965
+                                ],
+                                [
+                                    144.9477289999015,
+                                    -37.82271827718761
+                                ],
+                                [
+                                    144.94894183644445,
+                                    -37.823709293514206
+                                ],
+                                [
+                                    144.94968021570705,
+                                    -37.82408042786339
+                                ],
+                                [
+                                    144.95133043715953,
+                                    -37.824528487816806
+                                ],
+                                [
+                                    144.95307517780233,
+                                    -37.824551813936395
+                                ],
+                                [
+                                    144.95392952503866,
+                                    -37.824401830035846
+                                ],
+                                [
+                                    144.9554975070165,
+                                    -37.82379693977106
+                                ],
+                                [
+                                    144.95617253283797,
+                                    -37.82335692546482
+                                ],
+                                [
+                                    144.95722195653937,
+                                    -37.82225565756621
+                                ],
+                                [
+                                    144.9575705141249,
+                                    -37.82162151798368
+                                ],
+                                [
+                                    144.9578726188762,
+                                    -37.82026391080352
+                                ],
+                                [
+                                    144.9576288484893,
+                                    -37.818898980076995
+                                ],
+                                [
+                                    144.9573076581277,
+                                    -37.81825585677132
+                                ],
+                                [
+                                    144.9563060161912,
+                                    -37.817127088514155
+                                ],
+                                [
+                                    144.95491184910256,
+                                    -37.81629806876613
+                                ],
+                                [
+                                    144.9541090597515,
+                                    -37.81602271450951
+                                ],
+                                [
+                                    144.95239041938905,
+                                    -37.81578405633001
+                                ],
+                                [
+                                    144.95066253977097,
+                                    -37.81597663130497
+                                ],
+                                [
+                                    144.94909455779307,
+                                    -37.8165815856608
+                                ],
+                                [
+                                    144.9478399584562,
+                                    -37.817539693147
+                                ],
+                                [
+                                    144.94737010827023,
+                                    -37.81812298635104
+                                ],
+                                [
+                                    144.94680286834407,
+                                    -37.81942658560519
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-06-28T08:30:49+10:00",
+                "updated": "2020-06-28T08:30:14+10:00",
+                "id": "14164",
+                "location": "Docklands, Melbourne",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -2257,14 +2391,59 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Collins St",
+                "sourceTitle": "Seaford",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-06-28T08:06:04+10:00",
-                "updated": "2020-06-28T08:06:04+10:00",
-                "id": "ESTA:200618685",
-                "location": "Collins St, Melbourne",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-28T08:19:50+10:00",
+                "updated": "2020-06-28T08:22:51+10:00",
+                "id": "ESTA:200618711",
+                "location": "Overton Rd, Seaford",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12782140402396,
+                    -38.12811357197947
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rollins Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-28T01:51:00+10:00",
+                "updated": "2020-06-28T01:51:00+10:00",
+                "id": "ESTA:200618644",
+                "location": "Rollins Rd, Bell Post Hill",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.32280043080078,
+                    -38.100001363042345
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Selwyn St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-06-28T08:30:38+10:00",
+                "updated": "2020-06-28T08:30:38+10:00",
+                "id": "ESTA:200618710",
+                "location": "Selwyn St, Albion",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2272,30 +2451,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9518293280326,
-                    -37.82102414606406
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2020-06-28T07:19:00+10:00",
-                "updated": "2020-06-28T07:50:00+10:00",
-                "id": "ESTA:200651147",
-                "location": "Officer South",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4270705274366,
-                    -38.08693640650321
+                    144.81378540161091,
+                    -37.78201974255913
                 ]
             }
         },
@@ -2369,37 +2526,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rollins Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-28T01:51:00+10:00",
-                "updated": "2020-06-28T01:51:00+10:00",
-                "id": "ESTA:200618644",
-                "location": "Rollins Rd, Bell Post Hill",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.32280043080078,
-                    -38.100001363042345
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ballarat Rd",
+                "sourceTitle": "Collins St",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-06-28T07:43:40+10:00",
-                "updated": "2020-06-28T07:43:40+10:00",
-                "id": "ESTA:200618698",
-                "location": "Ballarat Rd, Braybrook",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2020-06-28T08:06:04+10:00",
+                "updated": "2020-06-28T08:06:04+10:00",
+                "id": "ESTA:200618685",
+                "location": "Collins St, Melbourne",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2407,8 +2541,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8565873789063,
-                    -37.7803756309521
+                    144.9518293280326,
+                    -37.82102414606406
                 ]
             }
         },
@@ -2432,6 +2566,28 @@
                 "coordinates": [
                     144.90221181239932,
                     -37.85944843225976
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "on scene",
+                "created": "2020-06-28T07:19:00+10:00",
+                "updated": "2020-06-28T07:50:00+10:00",
+                "id": "ESTA:200651147",
+                "location": "Officer South",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4270705274366,
+                    -38.08693640650321
                 ]
             }
         }

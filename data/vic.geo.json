@@ -9,140 +9,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            144.73015568118066,
-                            -37.823495836295734
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    144.72647942305485,
-                                    -37.8283659221395
-                                ],
-                                [
-                                    144.72856204491032,
-                                    -37.82902343352059
-                                ],
-                                [
-                                    144.7307999781514,
-                                    -37.82914044445671
-                                ],
-                                [
-                                    144.73190873738122,
-                                    -37.828990550225186
-                                ],
-                                [
-                                    144.7339700066489,
-                                    -37.82829232190941
-                                ],
-                                [
-                                    144.73565721832773,
-                                    -37.82712514493429
-                                ],
-                                [
-                                    144.73680521638315,
-                                    -37.825603251810904
-                                ],
-                                [
-                                    144.73730162676688,
-                                    -37.82387559927152
-                                ],
-                                [
-                                    144.73709785737188,
-                                    -37.822111293752485
-                                ],
-                                [
-                                    144.7362138545663,
-                                    -37.82048304122192
-                                ],
-                                [
-                                    144.73473615070387,
-                                    -37.81915024019774
-                                ],
-                                [
-                                    144.73381794692241,
-                                    -37.81863691416866
-                                ],
-                                [
-                                    144.73173532506698,
-                                    -37.81797931024675
-                                ],
-                                [
-                                    144.7306221880549,
-                                    -37.81785122813475
-                                ],
-                                [
-                                    144.72838863259605,
-                                    -37.818012198448656
-                                ],
-                                [
-                                    144.7273232116974,
-                                    -37.818297286361314
-                                ],
-                                [
-                                    144.7254256085809,
-                                    -37.81924173411688
-                                ],
-                                [
-                                    144.72464015164954,
-                                    -37.819877834085645
-                                ],
-                                [
-                                    144.72349215359412,
-                                    -37.82139984527675
-                                ],
-                                [
-                                    144.7231578799922,
-                                    -37.82224827520727
-                                ],
-                                [
-                                    144.72300973559445,
-                                    -37.82401603545344
-                                ],
-                                [
-                                    144.7231995126054,
-                                    -37.82489183699653
-                                ],
-                                [
-                                    144.724083515411,
-                                    -37.82651999226325
-                                ],
-                                [
-                                    144.72475597412276,
-                                    -37.827232258963555
-                                ],
-                                [
-                                    144.72647942305485,
-                                    -37.8283659221395
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Community Information",
-                "category": "community update",
-                "subcategory": "fire",
-                "status": "unknown",
-                "created": "2020-06-28T21:17:35+10:00",
-                "updated": "2020-06-28T21:17:30+10:00",
-                "id": "14165",
-                "location": "Truganina",
-                "title": "warning: community update"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -2394,7 +2260,7 @@
                 "sourceTitle": "Rutherglen-Springhurst Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-29T00:31:00+10:00",
                 "updated": "2020-06-29T00:31:00+10:00",
                 "id": "ESTA:200619574",
@@ -2414,23 +2280,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "South Morang",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Waverley St",
+                "category": "fire",
+                "subcategory": "non structure fire",
                 "status": "responding",
-                "created": "2020-06-29T00:36:53+10:00",
-                "updated": "2020-06-29T00:36:53+10:00",
-                "id": "ESTA:200619575",
-                "location": "South Morang, South Morang",
+                "created": "2020-06-29T00:59:34+10:00",
+                "updated": "2020-06-29T00:59:34+10:00",
+                "id": "ESTA:200619576",
+                "location": "Waverley St, Broadmeadows",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.06613638550039,
-                    -37.6488011340522
+                    144.91666886640877,
+                    -37.693032234612595
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cobb Hwy, Deniliquin",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-06-28T07:53:00+10:00",
+                "updated": "2020-06-28T07:53:00+10:00",
+                "id": "2020-06-28T07:53:00.0000000:385270",
+                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.928965,
+                    -35.594917
                 ]
             }
         },
@@ -2460,28 +2348,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cobb Hwy, Deniliquin",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-06-28T07:53:00+10:00",
-                "updated": "2020-06-28T07:53:00+10:00",
-                "id": "2020-06-28T07:53:00.0000000:385270",
-                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.928965,
-                    -35.594917
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -2499,6 +2365,29 @@
                 "coordinates": [
                     144.7233703014171,
                     -37.80808867205781
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Morang",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-29T01:00:30+10:00",
+                "updated": "2020-06-29T01:00:30+10:00",
+                "id": "ESTA:200619575",
+                "location": "South Morang, South Morang",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06613638550039,
+                    -37.6488011340522
                 ]
             }
         }

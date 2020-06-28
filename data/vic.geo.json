@@ -2257,90 +2257,69 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Echuca",
+                "sourceTitle": "Frankston-Dandenong Rd",
                 "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-29T09:04:00+10:00",
+                "updated": "2020-06-29T09:04:00+10:00",
+                "id": "ESTA:200619700",
+                "location": "Frankston-Dandenong Rd, Dandenong South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2113482878216,
+                    -38.03236615344041
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-06-29T03:01:22+10:00",
-                "updated": "2020-06-29T08:47:08+10:00",
-                "id": "ESTA:200619585",
-                "location": "Hopwood St, Echuca",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.74826832339664,
-                    -36.139768463941316
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dena Ct",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-29T08:22:00+10:00",
-                "updated": "2020-06-29T08:37:00+10:00",
-                "id": "ESTA:200619664",
-                "location": "Dena Ct, Bell Park",
+                "created": "2020-06-29T09:02:00+10:00",
+                "updated": "2020-06-29T09:05:00+10:00",
+                "id": "ESTA:200619697",
+                "location": "Grovedale",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3374256576197,
-                    -38.10105473884542
+                    144.33506151622421,
+                    -38.202376419426635
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Jones Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-29T08:41:00+10:00",
-                "updated": "2020-06-29T08:48:00+10:00",
-                "id": "ESTA:200619678",
-                "location": "Jones Rd, Dandenong",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-06-29T09:07:00+10:00",
+                "updated": "2020-06-29T09:07:00+10:00",
+                "id": "ESTA:200619705",
+                "location": "Mount Eliza",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2014808464811,
-                    -37.980190417523275
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-29T09:00:00+10:00",
-                "updated": "2020-06-29T09:00:03+10:00",
-                "id": "ESTA:200651169",
-                "location": "Yarra Glen",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.35690335371905,
-                    -37.65334645414891
+                    145.0947835749075,
+                    -38.19075949267609
                 ]
             }
         },
@@ -2392,6 +2371,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Jones Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-29T08:41:00+10:00",
+                "updated": "2020-06-29T08:48:00+10:00",
+                "id": "ESTA:200619678",
+                "location": "Jones Rd, Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2014808464811,
+                    -37.980190417523275
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
@@ -2409,6 +2411,29 @@
                 "coordinates": [
                     144.11951144655168,
                     -36.81676391592087
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dena Ct",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-06-29T08:22:00+10:00",
+                "updated": "2020-06-29T08:37:00+10:00",
+                "id": "ESTA:200619664",
+                "location": "Dena Ct, Bell Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3374256576197,
+                    -38.10105473884542
                 ]
             }
         },
@@ -2461,46 +2486,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Morgan St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-29T07:50:00+10:00",
-                "updated": "2020-06-29T08:06:00+10:00",
-                "id": "ESTA:200619637",
-                "location": "Morgan St, Sebastopol",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-29T09:00:00+10:00",
+                "updated": "2020-06-29T09:07:00+10:00",
+                "id": "ESTA:200651169",
+                "location": "Yarra Glen",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.83926865993365,
-                    -37.60671477721588
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Henderson Ct",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-29T07:53:01+10:00",
-                "updated": "2020-06-29T07:53:01+10:00",
-                "id": "ESTA:200619632",
-                "location": "Henderson Ct, Bundoora",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0796890939386,
-                    -37.68019474527093
+                    145.35690335371905,
+                    -37.65334645414891
                 ]
             }
         },

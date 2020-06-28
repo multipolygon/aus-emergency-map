@@ -2257,14 +2257,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Calder Hwy",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-28T11:33:00+10:00",
+                "updated": "2020-06-28T12:06:00+10:00",
+                "id": "ESTA:200651148",
+                "location": "Healesville",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.53015758423507,
+                    -37.66022943458038
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Waranga Cr",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-06-28T11:04:00+10:00",
-                "updated": "2020-06-28T11:41:00+10:00",
-                "id": "ESTA:200618908",
-                "location": "Calder Hwy, Nandaly",
+                "created": "2020-06-28T12:06:08+10:00",
+                "updated": "2020-06-28T12:06:08+10:00",
+                "id": "ESTA:200619009",
+                "location": "Waranga Cr, Broadmeadows",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2272,8 +2294,145 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.72377807158315,
-                    -35.30894913088207
+                    144.93212251359924,
+                    -37.68213928298777
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Main St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-28T12:10:00+10:00",
+                "updated": "2020-06-28T12:10:00+10:00",
+                "id": "ESTA:200619024",
+                "location": "Main St, Mornington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0370253049624,
+                    -38.21692283971556
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pulford Cr",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-06-28T12:10:49+10:00",
+                "updated": "2020-06-28T12:10:49+10:00",
+                "id": "ESTA:200619011",
+                "location": "Pulford Cr, Mill Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06704950491448,
+                    -37.656162300478925
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jetty Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-28T12:11:00+10:00",
+                "updated": "2020-06-28T12:11:00+10:00",
+                "id": "ESTA:200619026",
+                "location": "Jetty Rd, Rosebud",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90897252765402,
+                    -38.36633973299028
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-06-28T12:14:00+10:00",
+                "updated": "2020-06-28T12:14:00+10:00",
+                "id": "ESTA:200619032",
+                "location": "Toorloo Arm",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.06717064280082,
+                    -37.7541762090738
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cobb Hwy, Deniliquin",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-06-28T07:53:00+10:00",
+                "updated": "2020-06-28T07:53:00+10:00",
+                "id": "2020-06-28T07:53:00.0000000:385270",
+                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.928965,
+                    -35.594917
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ethel Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-06-28T12:08:28+10:00",
+                "updated": "2020-06-28T12:08:28+10:00",
+                "id": "ESTA:200619003",
+                "location": "Ethel Ct, Springvale",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1432292427221,
+                    -37.95911296751596
                 ]
             }
         },
@@ -2303,74 +2462,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "St Helena",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-28T09:17:54+10:00",
-                "updated": "2020-06-28T11:53:48+10:00",
-                "id": "ESTA:200618746",
-                "location": "Aqueduct Rd, St Helena",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13639914700002,
-                    -37.68599330126423
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ethel Ct",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-28T11:57:29+10:00",
-                "updated": "2020-06-28T11:57:29+10:00",
-                "id": "ESTA:200619003",
-                "location": "Ethel Ct, Springvale",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1432292427221,
-                    -37.95911296751596
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Waranga Cr",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-28T12:00:32+10:00",
-                "updated": "2020-06-28T12:00:32+10:00",
-                "id": "ESTA:200619009",
-                "location": "Waranga Cr, Broadmeadows",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93212251359924,
-                    -37.68213928298777
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ferny Creek Av",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -2394,14 +2485,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pulford Cr",
+                "sourceTitle": "Calder Hwy",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-28T12:00:54+10:00",
-                "updated": "2020-06-28T12:00:54+10:00",
-                "id": "ESTA:200619011",
-                "location": "Pulford Cr, Mill Park",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-06-28T11:04:00+10:00",
+                "updated": "2020-06-28T11:41:00+10:00",
+                "id": "ESTA:200618908",
+                "location": "Calder Hwy, Nandaly",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2409,30 +2500,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.06704950491448,
-                    -37.656162300478925
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cobb Hwy, Deniliquin",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-06-28T07:53:00+10:00",
-                "updated": "2020-06-28T07:53:00+10:00",
-                "id": "2020-06-28T07:53:00.0000000:385270",
-                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.928965,
-                    -35.594917
+                    142.72377807158315,
+                    -35.30894913088207
                 ]
             }
         },
@@ -2456,97 +2525,6 @@
                 "coordinates": [
                     145.12600757767973,
                     -38.07897841616863
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Main Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-06-28T10:07:00+10:00",
-                "updated": "2020-06-28T11:08:00+10:00",
-                "id": "ESTA:200618817",
-                "location": "Main Rd, Campbells Creek",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.19976743366377,
-                    -37.09884954112915
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Stewart St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-28T10:58:00+10:00",
-                "updated": "2020-06-28T11:03:00+10:00",
-                "id": "ESTA:200618899",
-                "location": "Stewart St, Shepparton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.402007108054,
-                    -36.38040472891224
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Waterdale Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-06-28T11:32:40+10:00",
-                "updated": "2020-06-28T11:32:40+10:00",
-                "id": "ESTA:200618925",
-                "location": "Waterdale Rd, Ivanhoe",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04548470736287,
-                    -37.75548543776944
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-28T11:33:00+10:00",
-                "updated": "2020-06-28T11:52:00+10:00",
-                "id": "ESTA:200651148",
-                "location": "Healesville",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.53015758423507,
-                    -37.66022943458038
                 ]
             }
         }

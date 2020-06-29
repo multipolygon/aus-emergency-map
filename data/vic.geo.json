@@ -2280,16 +2280,60 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-06-29T12:33:00+10:00",
+                "updated": "2020-06-29T14:21:00+10:00",
+                "id": "ESTA:200651180",
+                "location": "Ascot Vale",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9155975120591,
+                    -37.77899907479377
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cobb Hwy, Deniliquin",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-06-29T07:06:00+10:00",
+                "updated": "2020-06-29T07:06:00+10:00",
+                "id": "2020-06-29T07:06:00.0000000:385270",
+                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.928965,
+                    -35.594917
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Quamby Av",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
                 "created": "2020-06-29T14:08:00+10:00",
-                "updated": "2020-06-29T14:08:00+10:00",
+                "updated": "2020-06-29T14:26:00+10:00",
                 "id": "ESTA:200620093",
                 "location": "Quamby Av, Guys Hill",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -2326,34 +2370,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cobb Hwy, Deniliquin",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-06-29T07:06:00+10:00",
-                "updated": "2020-06-29T07:06:00+10:00",
-                "id": "2020-06-29T07:06:00.0000000:385270",
-                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.928965,
-                    -35.594917
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
                 "status": "request for assistance",
                 "created": "2020-06-29T14:03:00+10:00",
-                "updated": "2020-06-29T14:13:00+10:00",
+                "updated": "2020-06-29T14:17:00+10:00",
                 "id": "ESTA:200620086",
                 "location": "Limestone",
                 "size": "Small",
@@ -2374,7 +2396,7 @@
                 "sourceTitle": "Dalry Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-29T14:02:00+10:00",
                 "updated": "2020-06-29T14:02:00+10:00",
                 "id": "ESTA:200620085",
@@ -2486,51 +2508,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gertz Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-06-29T13:59:40+10:00",
-                "updated": "2020-06-29T13:59:40+10:00",
-                "id": "ESTA:200620068",
-                "location": "Gertz Av, Reservoir",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02990368463605,
-                    -37.69922965431623
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-06-29T14:00:00+10:00",
-                "updated": "2020-06-29T14:11:00+10:00",
-                "id": "ESTA:200651184",
-                "location": "Bentleigh East",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06929808071837,
-                    -37.91059652393143
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
@@ -2547,28 +2524,6 @@
                 "coordinates": [
                     148.57261327491318,
                     -37.45573953617175
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "on scene",
-                "created": "2020-06-29T12:33:00+10:00",
-                "updated": "2020-06-29T13:01:00+10:00",
-                "id": "ESTA:200651180",
-                "location": "Ascot Vale",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9155975120591,
-                    -37.77899907479377
                 ]
             }
         }

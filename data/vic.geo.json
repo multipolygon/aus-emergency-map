@@ -2280,58 +2280,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Colbury Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-06-29T14:37:02+10:00",
-                "updated": "2020-06-29T14:37:02+10:00",
-                "id": "ESTA:200620124",
-                "location": "Colbury Rd, Bayswater North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.29672275051686,
-                    -37.829010300753296
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-29T14:40:00+10:00",
-                "updated": "2020-06-29T14:40:00+10:00",
-                "id": "ESTA:200620132",
-                "location": "Llanelly",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.85171757515897,
-                    -36.74032781441565
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Bardsley St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-06-29T14:43:34+10:00",
-                "updated": "2020-06-29T14:43:34+10:00",
+                "status": "safe",
+                "created": "2020-06-29T14:50:21+10:00",
+                "updated": "2020-06-29T14:50:21+10:00",
                 "id": "ESTA:200620137",
                 "location": "Bardsley St, Sunshine West",
                 "size": "Small",
@@ -2349,14 +2303,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sunrise Dr",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "rescue",
-                "status": "responding",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
                 "created": "2020-06-29T14:44:00+10:00",
-                "updated": "2020-06-29T14:44:00+10:00",
+                "updated": "2020-06-29T15:00:00+10:00",
                 "id": "ESTA:200620139",
-                "location": "Sunrise Dr, Leichardt",
+                "location": "Leichardt",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -2366,6 +2320,29 @@
                 "coordinates": [
                     144.1435989377652,
                     -36.70779154937765
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-29T14:59:00+10:00",
+                "updated": "2020-06-29T14:59:00+10:00",
+                "id": "ESTA:200620156",
+                "location": "Princes Hwy, Narre Warren",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.30348786646852,
+                    -38.023494678800915
                 ]
             }
         },
@@ -2388,6 +2365,52 @@
                 "coordinates": [
                     144.928965,
                     -35.594917
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "complete",
+                "created": "2020-06-29T14:03:00+10:00",
+                "updated": "2020-06-29T14:50:00+10:00",
+                "id": "ESTA:200620086",
+                "location": "Limestone",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.63292922629446,
+                    -37.32188240933273
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Colbury Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-06-29T14:48:01+10:00",
+                "updated": "2020-06-29T14:48:01+10:00",
+                "id": "ESTA:200620124",
+                "location": "Colbury Rd, Bayswater North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29672275051686,
+                    -37.829010300753296
                 ]
             }
         },
@@ -2418,6 +2441,29 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-29T14:40:00+10:00",
+                "updated": "2020-06-29T14:40:00+10:00",
+                "id": "ESTA:200620132",
+                "location": "Llanelly",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.85171757515897,
+                    -36.74032781441565
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
                 "status": "safe",
@@ -2434,29 +2480,6 @@
                 "coordinates": [
                     146.45410536489652,
                     -36.394814728996224
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "request for assistance",
-                "created": "2020-06-29T14:03:00+10:00",
-                "updated": "2020-06-29T14:17:00+10:00",
-                "id": "ESTA:200620086",
-                "location": "Limestone",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.63292922629446,
-                    -37.32188240933273
                 ]
             }
         },
@@ -2480,29 +2503,6 @@
                 "coordinates": [
                     145.57121903318176,
                     -37.74356925493986
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Barwon Park Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-06-29T13:48:00+10:00",
-                "updated": "2020-06-29T13:51:00+10:00",
-                "id": "ESTA:200620065",
-                "location": "Barwon Park Rd, Winchelsea",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.98389005769147,
-                    -38.23730419568835
                 ]
             }
         },
@@ -2558,9 +2558,9 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue persons trapped",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-06-29T14:44:00+10:00",
-                "updated": "2020-06-29T14:45:00+10:00",
+                "updated": "2020-06-29T15:01:00+10:00",
                 "id": "ESTA:200651185",
                 "location": "Leichardt",
                 "title": "incident: rescue"
@@ -2571,28 +2571,6 @@
                 "coordinates": [
                     144.1435989377652,
                     -36.70779154937765
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-06-29T09:53:00+10:00",
-                "updated": "2020-06-29T13:59:00+10:00",
-                "id": "ESTA:200619768",
-                "location": "Nurran",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.57261327491318,
-                    -37.45573953617175
                 ]
             }
         }

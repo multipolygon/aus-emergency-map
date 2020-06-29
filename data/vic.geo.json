@@ -2239,7 +2239,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-06-29T12:04:42+10:00",
-                "updated": "2020-06-29T12:08:00+10:00",
+                "updated": "2020-06-29T12:08:57+10:00",
                 "id": "ESTA:200619943",
                 "location": "Campbell Dr, Cobram",
                 "title": "incident: fire"
@@ -2256,44 +2256,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-29T12:10:00+10:00",
-                "updated": "2020-06-29T12:15:00+10:00",
-                "id": "ESTA:200651177",
-                "location": "Benalla",
-                "title": "incident: tree down"
+                "sourceTitle": "Mccrae St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-06-29T12:16:00+10:00",
+                "updated": "2020-06-29T12:16:00+10:00",
+                "id": "ESTA:200619962",
+                "location": "Mccrae St, Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.98557043514802,
-                    -36.54611493450515
+                    145.21713377303954,
+                    -37.98733186913988
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cheltenham",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-06-29T12:07:57+10:00",
-                "updated": "2020-06-29T12:14:12+10:00",
-                "id": "ESTA:200619957",
-                "location": "Wangara Rd, Cheltenham",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "on scene",
+                "created": "2020-06-29T12:19:00+10:00",
+                "updated": "2020-06-29T12:30:00+10:00",
+                "id": "ESTA:200619968",
+                "location": "Swan Hill",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.03651184182428,
-                    -37.95836228551144
+                    143.54306260748595,
+                    -35.335792329270475
                 ]
             }
         },
@@ -2303,9 +2305,9 @@
                 "sourceTitle": "Pyrenees Hwy",
                 "category": "rescue",
                 "subcategory": "rescue",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-29T12:14:00+10:00",
-                "updated": "2020-06-29T12:14:00+10:00",
+                "updated": "2020-06-29T12:24:00+10:00",
                 "id": "ESTA:200619958",
                 "location": "Pyrenees Hwy, Ararat",
                 "size": "Small",
@@ -2317,6 +2319,29 @@
                 "coordinates": [
                     142.93837404591414,
                     -37.27834628651369
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ormond Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-29T12:29:03+10:00",
+                "updated": "2020-06-29T12:29:03+10:00",
+                "id": "ESTA:200619977",
+                "location": "Ormond Rd, Elwood",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98892746472285,
+                    -37.88597660345621
                 ]
             }
         },
@@ -2430,6 +2455,50 @@
                 "coordinates": [
                     144.81642887049577,
                     -37.740648730262976
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-06-29T12:19:00+10:00",
+                "updated": "2020-06-29T12:28:00+10:00",
+                "id": "ESTA:200651178",
+                "location": "Swan Hill",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.54306260748595,
+                    -35.335792329270475
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-06-29T12:10:00+10:00",
+                "updated": "2020-06-29T12:25:00+10:00",
+                "id": "ESTA:200651177",
+                "location": "Benalla",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.98557043514802,
+                    -36.54611493450515
                 ]
             }
         },

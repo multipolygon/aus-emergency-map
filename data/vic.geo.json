@@ -2280,22 +2280,92 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "complete",
-                "created": "2020-06-29T12:33:00+10:00",
-                "updated": "2020-06-29T14:21:00+10:00",
-                "id": "ESTA:200651180",
-                "location": "Ascot Vale",
-                "title": "incident: flooding"
+                "sourceTitle": "Colbury Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-06-29T14:37:02+10:00",
+                "updated": "2020-06-29T14:37:02+10:00",
+                "id": "ESTA:200620124",
+                "location": "Colbury Rd, Bayswater North",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9155975120591,
-                    -37.77899907479377
+                    145.29672275051686,
+                    -37.829010300753296
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-06-29T14:40:00+10:00",
+                "updated": "2020-06-29T14:40:00+10:00",
+                "id": "ESTA:200620132",
+                "location": "Llanelly",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.85171757515897,
+                    -36.74032781441565
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bardsley St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-06-29T14:43:34+10:00",
+                "updated": "2020-06-29T14:43:34+10:00",
+                "id": "ESTA:200620137",
+                "location": "Bardsley St, Sunshine West",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82382347875915,
+                    -37.7906936714981
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sunrise Dr",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "responding",
+                "created": "2020-06-29T14:44:00+10:00",
+                "updated": "2020-06-29T14:44:00+10:00",
+                "id": "ESTA:200620139",
+                "location": "Sunrise Dr, Leichardt",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.1435989377652,
+                    -36.70779154937765
                 ]
             }
         },
@@ -2327,9 +2397,9 @@
                 "sourceTitle": "Quamby Av",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-06-29T14:08:00+10:00",
-                "updated": "2020-06-29T14:26:00+10:00",
+                "updated": "2020-06-29T14:40:00+10:00",
                 "id": "ESTA:200620093",
                 "location": "Quamby Av, Guys Hill",
                 "size": "Small",
@@ -2439,29 +2509,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Weller Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-29T13:30:00+10:00",
-                "updated": "2020-06-29T13:42:00+10:00",
-                "id": "ESTA:200620045",
-                "location": "Weller Rd, Lancaster",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13225830562396,
-                    -36.31130150495727
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -2502,6 +2549,28 @@
                 "coordinates": [
                     144.81642887049577,
                     -37.740648730262976
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-06-29T14:44:00+10:00",
+                "updated": "2020-06-29T14:45:00+10:00",
+                "id": "ESTA:200651185",
+                "location": "Leichardt",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.1435989377652,
+                    -36.70779154937765
                 ]
             }
         },

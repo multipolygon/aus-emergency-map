@@ -2282,9 +2282,9 @@
                 "sourceTitle": "Healesville",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "unknown",
                 "created": "2020-07-01T09:25:26+10:00",
-                "updated": "2020-07-01T09:25:44+10:00",
+                "updated": "2020-07-01T09:35:35+10:00",
                 "id": "ESTA:200700122",
                 "location": "Maroondah Hwy, Healesville",
                 "title": "incident: fire"
@@ -2295,6 +2295,51 @@
                 "coordinates": [
                     145.5135452709441,
                     -37.653988395937475
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Footscray",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-07-01T09:35:20+10:00",
+                "updated": "2020-07-01T09:44:10+10:00",
+                "id": "ESTA:200700141",
+                "location": "Eleanor St, Footscray",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.88541885528218,
+                    -37.79167878224018
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gumley Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-01T09:08:06+10:00",
+                "updated": "2020-07-01T09:08:06+10:00",
+                "id": "ESTA:200700100",
+                "location": "Gumley Rd, Mount Mercer",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.845650226664,
+                    -37.85502949099782
                 ]
             }
         },
@@ -3591,13 +3636,57 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Cobb Hwy, Deniliquin",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-07-01T08:53:00+10:00",
+                "updated": "2020-07-01T08:53:00+10:00",
+                "id": "2020-07-01T08:53:00.0000000:385270",
+                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.928965,
+                    -35.594917
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gonn Crossing",
+                "category": "fire",
+                "subcategory": "other non-urgent alerts",
+                "status": "out of control",
+                "created": "2020-07-01T09:38:00+10:00",
+                "updated": "2020-07-01T09:38:00+10:00",
+                "id": "2020-07-01T09:38:00.0000000:385726",
+                "location": "50 Hanna Lane Gonn Crossing",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.910437822,
+                    -35.5185872079999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Murray River Rd, Bellbridge",
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
                 "status": "under control",
-                "created": "2020-06-30T10:00:00+10:00",
-                "updated": "2020-06-30T10:00:00+10:00",
-                "id": "2020-06-30T10:00:00.0000000:385639",
+                "created": "2020-07-01T09:33:00+10:00",
+                "updated": "2020-07-01T09:33:00+10:00",
+                "id": "2020-07-01T09:33:00.0000000:385639",
                 "location": "Murray River Rd, Bellbridge, Nsw 3691",
                 "title": "incident: other"
             },
@@ -3629,51 +3718,6 @@
                 "coordinates": [
                     149.858072,
                     -37.147213
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cobb Hwy, Deniliquin",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-07-01T08:53:00+10:00",
-                "updated": "2020-07-01T08:53:00+10:00",
-                "id": "2020-07-01T08:53:00.0000000:385270",
-                "location": "Cobb Hwy, Deniliquin, Nsw 2710",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.928965,
-                    -35.594917
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gumley Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-01T09:08:06+10:00",
-                "updated": "2020-07-01T09:08:06+10:00",
-                "id": "ESTA:200700100",
-                "location": "Gumley Rd, Mount Mercer",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.845650226664,
-                    -37.85502949099782
                 ]
             }
         },
@@ -3720,29 +3764,6 @@
                 "coordinates": [
                     145.17623294995076,
                     -38.34002077066114
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-01T08:21:00+10:00",
-                "updated": "2020-07-01T08:31:00+10:00",
-                "id": "ESTA:200700076",
-                "location": "Berwick",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34026190187083,
-                    -38.04925304969305
                 ]
             }
         },

@@ -2303,79 +2303,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mcdonald St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-30T10:18:00+10:00",
-                "updated": "2020-06-30T10:18:00+10:00",
-                "id": "ESTA:200620552",
-                "location": "Mcdonald St, Numurkah",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.43894641541897,
-                    -36.093021994815295
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Browning St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-30T10:18:00+10:00",
-                "updated": "2020-06-30T10:18:00+10:00",
-                "id": "ESTA:200620553",
-                "location": "Browning St, Kangaroo Flat",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.242586084165,
-                    -36.78999910876569
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kooralinga Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-30T10:25:00+10:00",
-                "updated": "2020-06-30T10:25:00+10:00",
-                "id": "ESTA:200620562",
-                "location": "Kooralinga Dr, Wandong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03234743006175,
-                    -37.36270692962523
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Drummond St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-06-30T10:26:00+10:00",
                 "updated": "2020-06-30T10:26:00+10:00",
                 "id": "ESTA:200620564",
@@ -2395,14 +2326,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "King Cl",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-06-30T09:50:00+10:00",
+                "updated": "2020-06-30T10:40:00+10:00",
+                "id": "ESTA:200651205",
+                "location": "Yarck",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.59996725314082,
+                    -37.1229145304805
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kooralinga Dr",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-06-30T10:27:00+10:00",
-                "updated": "2020-06-30T10:27:00+10:00",
-                "id": "ESTA:200620567",
-                "location": "King Cl, Frankston North",
+                "status": "under control",
+                "created": "2020-06-30T10:25:00+10:00",
+                "updated": "2020-06-30T10:42:00+10:00",
+                "id": "ESTA:200620562",
+                "location": "Kooralinga Dr, Wandong",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2410,53 +2363,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1552077405693,
-                    -38.120119009890004
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Camms Rd",
-                "category": "rescue",
-                "subcategory": "rail",
-                "status": "safe",
-                "created": "2020-06-30T08:58:00+10:00",
-                "updated": "2020-06-30T10:28:00+10:00",
-                "id": "ESTA:200620470",
-                "location": "Camms Rd, Cranbourne",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2773876141111,
-                    -38.09739952903945
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Launching Place",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-06-29T14:01:25+10:00",
-                "updated": "2020-06-30T10:30:02+10:00",
-                "id": "ESTA:200620085",
-                "location": "Dalry Rd, Launching Place",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.57123086374335,
-                    -37.74355887345969
+                    145.03234743006175,
+                    -37.36270692962523
                 ]
             }
         },
@@ -2466,9 +2374,9 @@
                 "sourceTitle": "Powlett St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-06-30T10:30:00+10:00",
-                "updated": "2020-06-30T10:30:00+10:00",
+                "updated": "2020-06-30T10:44:00+10:00",
                 "id": "ESTA:200620572",
                 "location": "Powlett St, Kilmore",
                 "size": "Small",
@@ -2480,6 +2388,29 @@
                 "coordinates": [
                     144.950139986385,
                     -37.3053253603853
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hansen Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-06-30T10:45:00+10:00",
+                "updated": "2020-06-30T10:45:00+10:00",
+                "id": "ESTA:200620594",
+                "location": "Hansen Dr, Grovedale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.34047113201905,
+                    -38.20997770734622
                 ]
             }
         },
@@ -3427,28 +3358,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murray River Rd, Bellbridge",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-06-30T10:00:00+10:00",
-                "updated": "2020-06-30T10:00:00+10:00",
-                "id": "2020-06-30T10:00:00.0000000:385639",
-                "location": "Murray River Rd, Bellbridge, Nsw 3691",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.058152,
-                    -36.0899719999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Cobb Hwy, Deniliquin",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -3471,23 +3380,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Chaffey St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-06-30T10:13:00+10:00",
-                "updated": "2020-06-30T10:13:00+10:00",
-                "id": "ESTA:200620545",
-                "location": "Chaffey St, Merbein",
-                "size": "Small",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Murray River Rd, Bellbridge",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-06-30T10:00:00+10:00",
+                "updated": "2020-06-30T10:00:00+10:00",
+                "id": "2020-06-30T10:00:00.0000000:385639",
+                "location": "Murray River Rd, Bellbridge, Nsw 3691",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.067324762338,
-                    -34.16695059669339
+                    147.058152,
+                    -36.0899719999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Camms Rd",
+                "category": "rescue",
+                "subcategory": "rail",
+                "status": "safe",
+                "created": "2020-06-30T08:58:00+10:00",
+                "updated": "2020-06-30T10:28:00+10:00",
+                "id": "ESTA:200620470",
+                "location": "Camms Rd, Cranbourne",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2773876141111,
+                    -38.09739952903945
                 ]
             }
         },
@@ -3540,29 +3471,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mount Waverley",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-06-30T09:19:07+10:00",
-                "updated": "2020-06-30T09:19:07+10:00",
-                "id": "ESTA:200620477",
-                "location": "Mount Waverley, Mount Waverley",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1300324915158,
-                    -37.894925497264886
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Epping",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -3580,28 +3488,6 @@
                 "coordinates": [
                     144.9907074168224,
                     -37.648359497424934
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-06-30T09:50:00+10:00",
-                "updated": "2020-06-30T10:07:00+10:00",
-                "id": "ESTA:200651205",
-                "location": "Yarck",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.59996725314082,
-                    -37.1229145304805
                 ]
             }
         },

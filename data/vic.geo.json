@@ -2257,22 +2257,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mill Park",
-                "category": "other",
+                "sourceTitle": "Bennet St",
+                "category": "fire",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-07-01T12:56:11+10:00",
-                "updated": "2020-07-01T12:57:11+10:00",
-                "id": "ESTA:200700339",
-                "location": "Mcdonalds Rd, Mill Park",
-                "title": "incident: other"
+                "created": "2020-07-01T13:08:00+10:00",
+                "updated": "2020-07-01T13:09:00+10:00",
+                "id": "ESTA:200700349",
+                "location": "Bennet St, Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.06638346692114,
-                    -37.65160091047448
+                    145.19920077768347,
+                    -37.989626958703894
                 ]
             }
         },
@@ -2282,11 +2283,11 @@
                 "sourceTitle": "Holdsworth Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-07-01T13:00:00+10:00",
-                "updated": "2020-07-01T13:00:00+10:00",
+                "updated": "2020-07-01T13:09:00+10:00",
                 "id": "ESTA:200700344",
-                "location": "Holdsworth Rd, Long Gully",
+                "location": "Holdsworth Rd, North Bendigo",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2294,8 +2295,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.26363499170702,
-                    -36.73814474386011
+                    144.2730072233476,
+                    -36.731492957030575
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-07-01T11:53:00+10:00",
+                "updated": "2020-07-01T13:13:00+10:00",
+                "id": "ESTA:200700274",
+                "location": "Maryvale",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.4387858691762,
+                    -38.1913241843613
                 ]
             }
         },
@@ -8971,52 +8995,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ballarat Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-07-01T12:48:00+10:00",
-                "updated": "2020-07-01T12:48:00+10:00",
-                "id": "ESTA:200700334",
-                "location": "Ballarat Rd, North Geelong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.33413973842156,
-                    -38.12023537770723
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "under control",
-                "created": "2020-07-01T11:53:00+10:00",
-                "updated": "2020-07-01T12:04:00+10:00",
-                "id": "ESTA:200700274",
-                "location": "Maryvale",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.4387858691762,
-                    -38.1913241843613
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Peacock Av",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -9089,9 +9067,9 @@
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-07-01T12:39:00+10:00",
-                "updated": "2020-07-01T12:44:00+10:00",
+                "updated": "2020-07-01T13:09:00+10:00",
                 "id": "ESTA:200750020",
                 "location": "Kennington",
                 "title": "incident: other"

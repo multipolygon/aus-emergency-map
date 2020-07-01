@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.49184360112213,
+                            -37.92998060872711
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.4899338683025,
+                                    -37.92676486094497
+                                ],
+                                [
+                                    145.49641408527944,
+                                    -37.92668023215428
+                                ],
+                                [
+                                    145.4966286620066,
+                                    -37.93328098529994
+                                ],
+                                [
+                                    145.48705854023765,
+                                    -37.93299327251589
+                                ],
+                                [
+                                    145.4899338683025,
+                                    -37.92676486094497
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2020-07-02T00:18:09+10:00",
+                "updated": "2020-07-02T00:18:12+10:00",
+                "id": "14181",
+                "location": "Avonsleigh, Cockatoo",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             144.8327551087532,
                             -37.85682889075943
                         ]
@@ -48,64 +102,10 @@
                 "category": "advice",
                 "subcategory": "fire",
                 "status": "minor",
-                "created": "2020-07-01T20:49:39+10:00",
-                "updated": "2020-07-01T20:49:39+10:00",
-                "id": "14178",
+                "created": "2020-07-02T00:22:07+10:00",
+                "updated": "2020-07-02T00:22:07+10:00",
+                "id": "14182",
                 "location": "Altona, Seaholme, Altona North",
-                "title": "warning: advice"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            145.49184360112213,
-                            -37.92998060872711
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    145.4899338683025,
-                                    -37.92676486094497
-                                ],
-                                [
-                                    145.49641408527944,
-                                    -37.92668023215428
-                                ],
-                                [
-                                    145.4966286620066,
-                                    -37.93328098529994
-                                ],
-                                [
-                                    145.48705854023765,
-                                    -37.93299327251589
-                                ],
-                                [
-                                    145.4899338683025,
-                                    -37.92676486094497
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Advice",
-                "category": "advice",
-                "subcategory": "fire",
-                "status": "minor",
-                "created": "2020-07-02T00:01:55+10:00",
-                "updated": "2020-07-02T00:01:58+10:00",
-                "id": "14180",
-                "location": "Avonsleigh, Cockatoo",
                 "title": "warning: advice"
             }
         },
@@ -9659,6 +9659,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Travoyers Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-01T23:29:00+10:00",
+                "updated": "2020-07-02T00:28:00+10:00",
+                "id": "ESTA:200700669",
+                "location": "Travoyers Rd, Toongabbie",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.62967282904506,
+                    -38.026698615740095
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Woori Yallock Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -9699,29 +9722,6 @@
                 "coordinates": [
                     145.0464263538238,
                     -37.595061862488016
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Travoyers Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-07-01T23:29:00+10:00",
-                "updated": "2020-07-01T23:51:00+10:00",
-                "id": "ESTA:200700669",
-                "location": "Travoyers Rd, Toongabbie",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.62967282904506,
-                    -38.026698615740095
                 ]
             }
         },
@@ -9847,62 +9847,18 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-07-02T00:11:00+10:00",
-                "updated": "2020-07-02T00:16:00+10:00",
-                "id": "ESTA:200750070",
-                "location": "Tynong North",
+                "created": "2020-07-02T00:23:00+10:00",
+                "updated": "2020-07-02T00:25:00+10:00",
+                "id": "ESTA:200750072",
+                "location": "Yellingbo",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.65713557289905,
-                    -38.07022569695956
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2020-07-02T00:06:00+10:00",
-                "updated": "2020-07-02T00:13:00+10:00",
-                "id": "ESTA:200750069",
-                "location": "Ringwood",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.22318320204306,
-                    -37.82074697170098
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-07-01T23:03:00+10:00",
-                "updated": "2020-07-02T00:08:00+10:00",
-                "id": "ESTA:200750062",
-                "location": "Berwick",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34940427024043,
-                    -38.02782526559277
+                    145.52467170807657,
+                    -37.803127087574616
                 ]
             }
         },
@@ -9914,7 +9870,7 @@
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-07-02T00:05:00+10:00",
-                "updated": "2020-07-02T00:06:00+10:00",
+                "updated": "2020-07-02T00:23:00+10:00",
                 "id": "ESTA:200750068",
                 "location": "Woori Yallock",
                 "title": "incident: tree down"
@@ -9934,9 +9890,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-07-01T23:22:00+10:00",
-                "updated": "2020-07-01T23:54:00+10:00",
+                "updated": "2020-07-02T00:22:00+10:00",
                 "id": "ESTA:200750065",
                 "location": "Launching Place",
                 "title": "incident: tree down"
@@ -9947,6 +9903,28 @@
                 "coordinates": [
                     145.563302089427,
                     -37.78320932848242
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-07-02T00:11:00+10:00",
+                "updated": "2020-07-02T00:16:00+10:00",
+                "id": "ESTA:200750070",
+                "location": "Tynong North",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.65713557289905,
+                    -38.07022569695956
                 ]
             }
         },

@@ -9605,6 +9605,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Vineyard Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-07-02T02:47:00+10:00",
+                "updated": "2020-07-02T02:47:00+10:00",
+                "id": "ESTA:200700688",
+                "location": "Vineyard Rd, Sunbury",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.71449510154747,
+                    -37.59409102378801
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Wonga Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -9746,31 +9769,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-02T02:40:00+10:00",
-                "updated": "2020-07-02T02:44:00+10:00",
-                "id": "ESTA:200750076",
-                "location": "Millgrove",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.65589438537006,
-                    -37.74693576264178
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-07-02T02:03:00+10:00",
-                "updated": "2020-07-02T02:33:00+10:00",
+                "updated": "2020-07-02T02:59:00+10:00",
                 "id": "ESTA:200750075",
                 "location": "Elmore",
                 "title": "incident: tree down"
@@ -9781,6 +9782,28 @@
                 "coordinates": [
                     144.606954905065,
                     -36.49679747867208
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-07-02T02:40:00+10:00",
+                "updated": "2020-07-02T02:54:00+10:00",
+                "id": "ESTA:200750076",
+                "location": "Millgrove",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.65589438537006,
+                    -37.74693576264178
                 ]
             }
         }

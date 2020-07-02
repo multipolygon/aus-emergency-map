@@ -5220,14 +5220,37 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-07-03T05:00:00+10:00",
+                "updated": "2020-07-03T05:00:00+10:00",
+                "id": "ESTA:200701142",
+                "location": "Patterson Lakes",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1388035413412,
+                    -38.07430653123963
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
                 "status": "request for assistance",
                 "created": "2020-07-03T04:41:00+10:00",
-                "updated": "2020-07-03T04:42:00+10:00",
+                "updated": "2020-07-03T05:02:00+10:00",
                 "id": "ESTA:200701141",
-                "location": "Rutherglen",
+                "location": "Carlyle",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -5235,8 +5258,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.5129752957963,
-                    -36.02984137657542
+                    146.48942147182413,
+                    -35.998999486832815
                 ]
             }
         },
@@ -5246,7 +5269,7 @@
                 "sourceTitle": "Old Melbourne Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-07-03T04:28:00+10:00",
                 "updated": "2020-07-03T04:28:00+10:00",
                 "id": "ESTA:200701140",
@@ -5260,29 +5283,6 @@
                 "coordinates": [
                     144.07289004319185,
                     -37.58700554338588
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-03T03:36:00+10:00",
-                "updated": "2020-07-03T03:52:00+10:00",
-                "id": "ESTA:200701137",
-                "location": "Mornington",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04865680703972,
-                    -38.22618222597322
                 ]
             }
         },
@@ -5375,6 +5375,28 @@
                 "coordinates": [
                     144.8292508929701,
                     -37.82572369759574
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-07-03T04:46:00+10:00",
+                "updated": "2020-07-03T05:02:00+10:00",
+                "id": "ESTA:200750116",
+                "location": "Swan Hill",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.53864371597442,
+                    -35.3256994499692
                 ]
             }
         }

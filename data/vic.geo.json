@@ -2197,72 +2197,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            144.82236423100198,
-                            -37.85804720553436
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    144.81712855901029,
-                                    -37.83697191286015
-                                ],
-                                [
-                                    144.7963575323927,
-                                    -37.875667328454334
-                                ],
-                                [
-                                    144.80940379704816,
-                                    -37.87912249820857
-                                ],
-                                [
-                                    144.81910266484263,
-                                    -37.872957277987325
-                                ],
-                                [
-                                    144.82880153263704,
-                                    -37.870721411299634
-                                ],
-                                [
-                                    144.83953036869855,
-                                    -37.87119569172196
-                                ],
-                                [
-                                    144.8483709296113,
-                                    -37.86536860630986
-                                ],
-                                [
-                                    144.81712855901029,
-                                    -37.83697191286015
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Advice",
-                "category": "advice",
-                "subcategory": "fire",
-                "status": "minor",
-                "created": "2020-07-02T22:36:31+10:00",
-                "updated": "2020-07-02T22:36:32+10:00",
-                "id": "14191",
-                "location": "Altona, Seaholme, Altona Meadows, Altona North",
-                "title": "warning: advice"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -4463,6 +4397,72 @@
             }
         },
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.82236423100198,
+                            -37.85804720553436
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.81712855901029,
+                                    -37.83697191286015
+                                ],
+                                [
+                                    144.7963575323927,
+                                    -37.875667328454334
+                                ],
+                                [
+                                    144.80940379704816,
+                                    -37.87912249820857
+                                ],
+                                [
+                                    144.81910266484263,
+                                    -37.872957277987325
+                                ],
+                                [
+                                    144.82880153263704,
+                                    -37.870721411299634
+                                ],
+                                [
+                                    144.83953036869855,
+                                    -37.87119569172196
+                                ],
+                                [
+                                    144.8483709296113,
+                                    -37.86536860630986
+                                ],
+                                [
+                                    144.81712855901029,
+                                    -37.83697191286015
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-07-03T08:45:28+10:00",
+                "updated": "2020-07-03T08:45:29+10:00",
+                "id": "14192",
+                "location": "Altona, Seaholme, Altona Meadows, Altona North",
+                "title": "warning: advice"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Goulburn 2 - Shepparton Regional Park - Youngs Bend 1",
@@ -5243,15 +5243,15 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-07-03T08:22:00+10:00",
-                "updated": "2020-07-03T08:22:00+10:00",
+                "updated": "2020-07-03T08:38:00+10:00",
                 "id": "ESTA:200701184",
                 "location": "Hastings",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -5420,6 +5420,28 @@
                 "coordinates": [
                     144.8292508929701,
                     -37.82572369759574
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-07-03T08:40:00+10:00",
+                "updated": "2020-07-03T08:41:00+10:00",
+                "id": "ESTA:200750121",
+                "location": "Boronia",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.30164255419248,
+                    -37.85887258801367
                 ]
             }
         }

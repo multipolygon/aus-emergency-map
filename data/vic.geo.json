@@ -2292,8 +2292,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3619,
-                    -36.3967
+                    145.361911,
+                    -36.396736
                 ]
             }
         },
@@ -3634,6 +3634,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Fogarty Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-02T12:14:00+10:00",
+                "updated": "2020-07-02T12:14:00+10:00",
+                "id": "ESTA:200700879",
+                "location": "Fogarty Rd, Tynong North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.6080048513094,
+                    -38.06103837906482
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Nandina Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -3680,14 +3703,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
+                "sourceTitle": "Anakie Rd",
                 "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "complete",
+                "subcategory": "road accident",
+                "status": "safe",
                 "created": "2020-07-02T10:52:00+10:00",
-                "updated": "2020-07-02T11:55:00+10:00",
+                "updated": "2020-07-02T11:27:00+10:00",
                 "id": "ESTA:200700823",
-                "location": "Lovely Banks",
+                "location": "Anakie Rd, Lovely Banks",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -3796,11 +3819,33 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-07-02T12:10:00+10:00",
+                "updated": "2020-07-02T12:12:00+10:00",
+                "id": "ESTA:200750104",
+                "location": "Wedderburn",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.61038504935055,
+                    -36.4170283150513
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-07-02T12:02:00+10:00",
-                "updated": "2020-07-02T12:03:00+10:00",
+                "updated": "2020-07-02T12:04:00+10:00",
                 "id": "ESTA:200750103",
                 "location": "Warburton",
                 "title": "incident: tree down"
@@ -3811,6 +3856,28 @@
                 "coordinates": [
                     145.70847380369577,
                     -37.74467571190227
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-07-02T10:32:00+10:00",
+                "updated": "2020-07-02T12:04:00+10:00",
+                "id": "ESTA:200750099",
+                "location": "Woodside North",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.8164238845296,
+                    -38.41612007915048
                 ]
             }
         },
@@ -3855,50 +3922,6 @@
                 "coordinates": [
                     144.3379310573656,
                     -37.23450353048916
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "complete",
-                "created": "2020-07-02T09:40:00+10:00",
-                "updated": "2020-07-02T11:53:00+10:00",
-                "id": "ESTA:200700778",
-                "location": "The Heart",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.2101306196798,
-                    -38.119258656489784
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-07-02T10:32:00+10:00",
-                "updated": "2020-07-02T11:18:00+10:00",
-                "id": "ESTA:200750099",
-                "location": "Woodside North",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.8164238845296,
-                    -38.41612007915048
                 ]
             }
         }

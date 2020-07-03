@@ -4457,12 +4457,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-07-03T17:39:00+10:00",
+                "updated": "2020-07-03T18:51:00+10:00",
+                "id": "ESTA:200750156",
+                "location": "Deer Park",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.77287063045557,
+                    -37.76227462694031
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Clarkson St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-07-03T18:34:57+10:00",
-                "updated": "2020-07-03T18:34:57+10:00",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-03T18:34:00+10:00",
+                "updated": "2020-07-03T18:47:00+10:00",
                 "id": "ESTA:200701509",
                 "location": "Clarkson St, Sebastopol",
                 "size": "Small",
@@ -4472,100 +4494,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.83876797009904,
-                    -37.58437036807919
+                    143.83875883004347,
+                    -37.584371581569485
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Heidelberg Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-07-03T19:02:00+10:00",
+                "updated": "2020-07-03T19:01:34+10:00",
+                "id": "ESTA:200750160",
+                "location": "Gooram",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.61593283754965,
+                    -36.87782130261558
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gooram",
+                "category": "tree down",
+                "subcategory": "tree down",
                 "status": "responding",
-                "created": "2020-07-03T18:36:58+10:00",
-                "updated": "2020-07-03T18:36:58+10:00",
-                "id": "ESTA:200701510",
-                "location": "Heidelberg Rd, Ivanhoe",
-                "size": "Small",
-                "title": "incident: fire"
+                "created": "2020-07-03T18:58:45+10:00",
+                "updated": "2020-07-03T19:01:59+10:00",
+                "id": "ESTA:200750161",
+                "location": "Euroa-Mansfield Rd, Gooram",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.03854980571035,
-                    -37.775814930192354
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Burke Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-07-03T18:39:02+10:00",
-                "updated": "2020-07-03T18:39:02+10:00",
-                "id": "ESTA:200701508",
-                "location": "Burke Rd, Balwyn North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0649199951662,
-                    -37.78969722462755
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kincaid Ct",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-07-03T18:39:22+10:00",
-                "updated": "2020-07-03T18:39:22+10:00",
-                "id": "ESTA:200701512",
-                "location": "Kincaid Ct, Norlane",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3435124585596,
-                    -38.084213638514946
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Toorak Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-03T18:43:06+10:00",
-                "updated": "2020-07-03T18:43:06+10:00",
-                "id": "ESTA:200701513",
-                "location": "Toorak Rd, Toorak",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0062941464473,
-                    -37.84061233376109
+                    145.6538628729865,
+                    -36.92570842430808
                 ]
             }
         },
@@ -5024,14 +4998,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Point Cook",
+                "sourceTitle": "Fitzroy",
                 "category": "other",
                 "subcategory": "other",
-                "status": "not yet under control",
-                "created": "2020-07-03T18:35:02+10:00",
-                "updated": "2020-07-03T18:35:02+10:00",
-                "id": "ESTA:200701506",
-                "location": "Point Cook, Point Cook",
+                "status": "responding",
+                "created": "2020-07-03T18:52:18+10:00",
+                "updated": "2020-07-03T18:52:18+10:00",
+                "id": "ESTA:200701514",
+                "location": "Fitzroy, Fitzroy",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -5039,52 +5013,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7402062264723,
-                    -37.895336636773294
+                    144.97719708593175,
+                    -37.80575961965794
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-07-03T17:21:00+10:00",
-                "updated": "2020-07-03T18:39:00+10:00",
-                "id": "ESTA:200750155",
-                "location": "Keilor East",
-                "title": "incident: tree down"
+                "sourceTitle": "Toorak Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-03T18:43:06+10:00",
+                "updated": "2020-07-03T18:43:06+10:00",
+                "id": "ESTA:200701513",
+                "location": "Toorak Rd, Toorak",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8650258024604,
-                    -37.74154182697045
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-07-03T17:39:00+10:00",
-                "updated": "2020-07-03T17:41:00+10:00",
-                "id": "ESTA:200750156",
-                "location": "Deer Park",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.77287063045557,
-                    -37.76227462694031
+                    145.0062941464473,
+                    -37.84061233376109
                 ]
             }
         },

@@ -793,10 +793,71 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.60158858900002,
-                    -35.78168081699994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.60057592400005,
+                            -35.78214328599995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.601614859,
+                                            -35.7814197019999
+                                        ],
+                                        [
+                                            149.601359788,
+                                            -35.782771301
+                                        ],
+                                        [
+                                            149.599187043,
+                                            -35.7824919089999
+                                        ],
+                                        [
+                                            149.599235652,
+                                            -35.782327293
+                                        ],
+                                        [
+                                            149.599463798,
+                                            -35.782143499
+                                        ],
+                                        [
+                                            149.59970346,
+                                            -35.781864066
+                                        ],
+                                        [
+                                            149.599947392,
+                                            -35.7817157019999
+                                        ],
+                                        [
+                                            149.600337551,
+                                            -35.781564174
+                                        ],
+                                        [
+                                            149.600759674,
+                                            -35.7814954199999
+                                        ],
+                                        [
+                                            149.601226053,
+                                            -35.78143763
+                                        ],
+                                        [
+                                            149.601614859,
+                                            -35.7814197019999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -931,6 +992,30 @@
                 "location": "Firetrail No 6, Cataract, NSW 2560",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Firetrail No 6, Cataract, NSW 2560 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jul 2020 09:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.7935460000001,
+                    -33.57976999999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cornwallis Rd, Cornwallis",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/385853",
+                "created": "2020-07-03T00:32:00+10:00",
+                "updated": "2020-07-03T10:32:00+10:00",
+                "location": "Cornwallis Rd, Cornwallis, NSW 2756",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cornwallis Rd, Cornwallis, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 3 Jul 2020 10:32",
                 "title": "incident: fire"
             }
         },

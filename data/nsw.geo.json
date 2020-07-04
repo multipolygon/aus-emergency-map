@@ -841,10 +841,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.0947124013085,
-                    -30.0117537445845
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.09294819800004,
+                            -30.01167764799993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.09313733,
+                                            -30.011588504
+                                        ],
+                                        [
+                                            153.093732195,
+                                            -30.011136407
+                                        ],
+                                        [
+                                            153.094231882,
+                                            -30.010755693
+                                        ],
+                                        [
+                                            153.09450552,
+                                            -30.0104701569999
+                                        ],
+                                        [
+                                            153.094743467,
+                                            -30.0105177469999
+                                        ],
+                                        [
+                                            153.094910029,
+                                            -30.0108508719999
+                                        ],
+                                        [
+                                            153.094779158,
+                                            -30.0112910719999
+                                        ],
+                                        [
+                                            153.094422239,
+                                            -30.0121833699999
+                                        ],
+                                        [
+                                            153.094362753,
+                                            -30.0125521859999
+                                        ],
+                                        [
+                                            153.094148601,
+                                            -30.012932899
+                                        ],
+                                        [
+                                            153.093744093,
+                                            -30.0124926999999
+                                        ],
+                                        [
+                                            153.093470455,
+                                            -30.012147677
+                                        ],
+                                        [
+                                            153.093173022,
+                                            -30.011814553
+                                        ],
+                                        [
+                                            153.093077844,
+                                            -30.0116241969999
+                                        ],
+                                        [
+                                            153.09313733,
+                                            -30.011588504
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1105,13 +1182,13 @@
                 "sourceTitle": "Cambewarra Lookout Rd, Beaumont",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/386021",
-                "created": "2020-07-04T21:10:00+10:00",
-                "updated": "2020-07-05T07:10:00+10:00",
+                "created": "2020-07-04T21:35:00+10:00",
+                "updated": "2020-07-05T07:35:00+10:00",
                 "location": "Cambewarra Lookout Rd, Beaumont, NSW 2577",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cambewarra Lookout Rd, Beaumont, NSW 2577 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Jul 2020 07:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cambewarra Lookout Rd, Beaumont, NSW 2577 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Jul 2020 07:35",
                 "title": "incident: fire"
             }
         },

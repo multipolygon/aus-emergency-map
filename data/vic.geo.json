@@ -4399,16 +4399,15 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Quinn Cr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
                 "created": "2020-07-05T09:40:00+10:00",
-                "updated": "2020-07-05T09:43:00+10:00",
-                "id": "ESTA:200702178",
-                "location": "Quinn Cr, Mount Evelyn",
-                "size": "Small",
-                "title": "incident: other"
+                "updated": "2020-07-05T10:30:00+10:00",
+                "id": "ESTA:200750256",
+                "location": "Mount Evelyn",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
@@ -4422,14 +4421,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Telegraph Rd",
+                "sourceTitle": "Camerons Rd",
                 "category": "fire",
                 "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-07-05T09:27:00+10:00",
-                "updated": "2020-07-05T09:47:00+10:00",
-                "id": "ESTA:200702170",
-                "location": "Telegraph Rd, Seymour",
+                "created": "2020-07-05T10:20:00+10:00",
+                "updated": "2020-07-05T10:31:00+10:00",
+                "id": "ESTA:200702199",
+                "location": "Camerons Rd, Loch Sport",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4437,44 +4436,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.17812080919055,
-                    -37.053287560671855
+                    147.58911928067408,
+                    -38.04457043929992
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-07-05T08:52:00+10:00",
-                "updated": "2020-07-05T09:58:00+10:00",
-                "id": "ESTA:200750252",
-                "location": "Gembrook",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.54297268909377,
-                    -37.95132890663426
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Simpson Rd",
+                "sourceTitle": "Macleod St",
                 "category": "fire",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-07-05T10:05:00+10:00",
-                "updated": "2020-07-05T10:05:00+10:00",
-                "id": "ESTA:200702190",
-                "location": "Simpson Rd, Ferntree Gully",
+                "created": "2020-07-05T10:34:00+10:00",
+                "updated": "2020-07-05T10:34:00+10:00",
+                "id": "ESTA:200702202",
+                "location": "Macleod St, Bairnsdale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4482,30 +4459,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.28065548588714,
-                    -37.87860180717725
+                    147.6191910533562,
+                    -37.82978348135972
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-07-05T09:57:00+10:00",
-                "updated": "2020-07-05T10:05:00+10:00",
-                "id": "ESTA:200750257",
-                "location": "Eildon",
-                "title": "incident: tree down"
+                "sourceTitle": "Richards Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-05T10:37:15+10:00",
+                "updated": "2020-07-05T10:37:15+10:00",
+                "id": "ESTA:200702203",
+                "location": "Richards Rd, Nar Nar Goon",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.91216885637309,
-                    -37.27798121902406
+                    145.5620967929768,
+                    -38.082483903189356
                 ]
             }
         },
@@ -4917,14 +4895,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Highmont Dr",
+                "sourceTitle": "Simpson Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-05T10:05:00+10:00",
+                "updated": "2020-07-05T10:07:00+10:00",
+                "id": "ESTA:200702190",
+                "location": "Simpson Rd, Belgrave",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.35399550289424,
+                    -37.909570632859854
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Telegraph Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-05T09:27:00+10:00",
+                "updated": "2020-07-05T09:47:00+10:00",
+                "id": "ESTA:200702170",
+                "location": "Telegraph Rd, Seymour",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17812080919055,
+                    -37.053287560671855
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Quinn Cr",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-05T08:07:00+10:00",
-                "updated": "2020-07-05T09:33:00+10:00",
-                "id": "ESTA:200702146",
-                "location": "Highmont Dr, Belmont",
+                "created": "2020-07-05T09:40:00+10:00",
+                "updated": "2020-07-05T09:43:00+10:00",
+                "id": "ESTA:200702178",
+                "location": "Quinn Cr, Mount Evelyn",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -4932,8 +4956,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.33175604623662,
-                    -38.191272709197186
+                    145.36854296374474,
+                    -37.78687357009243
                 ]
             }
         },
@@ -4966,9 +4990,9 @@
                 "sourceTitle": "Dandenong",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-05T10:00:00+10:00",
-                "updated": "2020-07-05T10:00:00+10:00",
+                "status": "safe",
+                "created": "2020-07-05T10:09:10+10:00",
+                "updated": "2020-07-05T10:09:10+10:00",
                 "id": "ESTA:200702187",
                 "location": "Dandenong, Dandenong",
                 "size": "Small",
@@ -4986,22 +5010,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-05T09:40:00+10:00",
-                "updated": "2020-07-05T09:49:00+10:00",
-                "id": "ESTA:200750256",
-                "location": "Mount Evelyn",
-                "title": "incident: tree down"
+                "sourceTitle": "Perry St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-05T10:37:18+10:00",
+                "updated": "2020-07-05T10:37:18+10:00",
+                "id": "ESTA:200702205",
+                "location": "Perry St, Fairfield",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.36854296374474,
-                    -37.78687357009243
+                    145.02451845525056,
+                    -37.773178633630856
                 ]
             }
         }

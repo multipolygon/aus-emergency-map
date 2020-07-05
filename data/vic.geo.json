@@ -4399,14 +4399,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gaskin Av",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-07-05T12:14:00+10:00",
+                "updated": "2020-07-05T13:17:00+10:00",
+                "id": "ESTA:200750266",
+                "location": "Ringwood",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.23451944718826,
+                    -37.81033726404125
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "bushfire",
                 "status": "responding",
-                "created": "2020-07-05T13:04:00+10:00",
-                "updated": "2020-07-05T13:04:00+10:00",
-                "id": "ESTA:200702308",
-                "location": "Gaskin Av, Hastings",
+                "created": "2020-07-05T13:25:00+10:00",
+                "updated": "2020-07-05T13:25:00+10:00",
+                "id": "ESTA:200702324",
+                "location": "Ouyen",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4414,8 +4436,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.191493770984,
-                    -38.31525970301673
+                    142.12266098998404,
+                    -35.216754042554186
                 ]
             }
         },
@@ -4425,19 +4447,19 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-05T11:55:00+10:00",
-                "updated": "2020-07-05T12:14:00+10:00",
-                "id": "ESTA:200750263",
-                "location": "Olinda",
+                "status": "complete",
+                "created": "2020-07-05T13:23:00+10:00",
+                "updated": "2020-07-05T13:27:00+10:00",
+                "id": "ESTA:200750272",
+                "location": "Creek Junction",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.37643195917224,
-                    -37.861171529372314
+                    145.80329607606518,
+                    -36.82121029035755
                 ]
             }
         },
@@ -4849,29 +4871,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "York Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-05T11:28:00+10:00",
-                "updated": "2020-07-05T12:24:00+10:00",
-                "id": "ESTA:200702243",
-                "location": "York Rd, Montrose",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.36496840839055,
-                    -37.797061977301716
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Seebeck Dr",
                 "category": "other",
                 "subcategory": "other",
@@ -4965,50 +4964,6 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-07-05T12:14:00+10:00",
-                "updated": "2020-07-05T13:07:00+10:00",
-                "id": "ESTA:200750266",
-                "location": "Ringwood",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.23451944718826,
-                    -37.81033726404125
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-07-05T12:47:00+10:00",
-                "updated": "2020-07-05T12:52:00+10:00",
-                "id": "ESTA:200750270",
-                "location": "Lilydale",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3736016883835,
-                    -37.76642245395308
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
                 "category": "flooding",
                 "subcategory": "flooding",
                 "status": "request for assistance",
@@ -5046,6 +5001,28 @@
                 "coordinates": [
                     145.3738304516849,
                     -37.766344500625024
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-07-05T12:47:00+10:00",
+                "updated": "2020-07-05T12:52:00+10:00",
+                "id": "ESTA:200750270",
+                "location": "Lilydale",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3736016883835,
+                    -37.76642245395308
                 ]
             }
         }

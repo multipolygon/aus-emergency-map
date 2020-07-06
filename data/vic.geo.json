@@ -4605,23 +4605,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Anahit Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-06T21:54:38+10:00",
-                "updated": "2020-07-06T21:54:38+10:00",
-                "id": "ESTA:200703011",
-                "location": "Anahit Dr, Epping",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-07-06T21:16:00+10:00",
+                "updated": "2020-07-06T22:10:00+10:00",
+                "id": "ESTA:200750363",
+                "location": "Mount Eliza",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.993067092644,
-                    -37.620705898701615
+                    145.10042352012874,
+                    -38.20571974549941
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Washington St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-06T22:13:27+10:00",
+                "updated": "2020-07-06T22:13:27+10:00",
+                "id": "ESTA:200703013",
+                "location": "Washington St, Toorak",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01048616412533,
+                    -37.83850371337605
                 ]
             }
         },
@@ -4631,9 +4653,9 @@
                 "sourceTitle": "Albert St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-07-06T21:59:00+10:00",
-                "updated": "2020-07-06T21:59:00+10:00",
+                "updated": "2020-07-06T22:14:00+10:00",
                 "id": "ESTA:200703012",
                 "location": "Albert St, Ararat",
                 "size": "Small",
@@ -4649,6 +4671,98 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-07-06T22:14:00+10:00",
+                "updated": "2020-07-06T22:15:00+10:00",
+                "id": "ESTA:200703014",
+                "location": "Moolort",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.92723870883404,
+                    -37.078316442286365
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Anahit Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-06T22:17:50+10:00",
+                "updated": "2020-07-06T22:17:50+10:00",
+                "id": "ESTA:200703011",
+                "location": "Anahit Dr, Epping",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99314638978814,
+                    -37.620714913987726
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-07-06T22:18:00+10:00",
+                "updated": "2020-07-06T22:18:00+10:00",
+                "id": "ESTA:200703016",
+                "location": "Moolort",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.92723870883404,
+                    -37.078316442286365
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Chesterville Rd",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-07-06T22:18:21+10:00",
+                "updated": "2020-07-06T22:18:21+10:00",
+                "id": "ESTA:200703015",
+                "location": "Chesterville Rd, Cheltenham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0568843600056,
+                    -37.95918481901767
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -4656,9 +4770,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-07-06T17:00:00+10:00",
+                "created": "2020-07-06T22:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/7e9c4cba52d6982878661e940859cee3",
+                "id": "IDV20600/973769c0a641a99047ae548182a434de",
                 "location": "East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -4990,28 +5104,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Oak Lodge Road",
-                "category": "transport",
-                "subcategory": "motor vehicle accident",
-                "status": "under control",
-                "created": "2020-07-06T20:53:00+10:00",
-                "updated": "2020-07-06T20:53:00+10:00",
-                "id": "2020-07-06T20:53:00.0000000:386145",
-                "location": "146.188, -35.652",
-                "title": "incident: transport"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.187515259,
-                    -35.652135395
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Morton Cl",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -5058,29 +5150,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Broad Gully Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-07-06T19:50:00+10:00",
-                "updated": "2020-07-06T21:13:00+10:00",
-                "id": "ESTA:200702980",
-                "location": "Broad Gully Rd, Diamond Creek",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16158438166354,
-                    -37.669398123649685
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Buncle St",
                 "category": "other",
                 "subcategory": "other",
@@ -5121,50 +5190,6 @@
                 "coordinates": [
                     144.93847803041345,
                     -37.785653461129925
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "complete",
-                "created": "2020-07-06T21:45:00+10:00",
-                "updated": "2020-07-06T22:01:00+10:00",
-                "id": "ESTA:200703009",
-                "location": "Bayswater",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26890983588615,
-                    -37.85190707477508
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-06T21:16:00+10:00",
-                "updated": "2020-07-06T21:24:00+10:00",
-                "id": "ESTA:200750363",
-                "location": "Mount Eliza",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10042352012874,
-                    -38.20571974549941
                 ]
             }
         },

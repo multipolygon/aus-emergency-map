@@ -4583,23 +4583,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fitzroy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-06T09:36:43+10:00",
-                "updated": "2020-07-06T09:36:43+10:00",
-                "id": "ESTA:200702651",
-                "location": "Fitzroy, Fitzroy",
+                "sourceTitle": "Maffra-Sale Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-07-06T09:41:00+10:00",
+                "updated": "2020-07-06T09:52:00+10:00",
+                "id": "ESTA:200702655",
+                "location": "Maffra-Sale Rd, Sale",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.984011830745,
-                    -37.80044477157266
+                    147.06798079251143,
+                    -38.09283933206699
                 ]
             }
         },
@@ -4609,9 +4609,9 @@
                 "sourceTitle": "St James St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-07-06T09:37:51+10:00",
-                "updated": "2020-07-06T09:37:51+10:00",
+                "status": "under control",
+                "created": "2020-07-06T09:52:09+10:00",
+                "updated": "2020-07-06T09:52:09+10:00",
                 "id": "ESTA:200702646",
                 "location": "St James St, St Albans Park",
                 "size": "Small",
@@ -4629,37 +4629,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hastings Dandenong Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-07-06T09:27:00+10:00",
-                "updated": "2020-07-06T09:27:00+10:00",
-                "id": "ESTA:200702645",
-                "location": "Hastings Dandenong Rd, Dandenong South",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-07-06T08:35:00+10:00",
+                "updated": "2020-07-06T09:56:00+10:00",
+                "id": "ESTA:200750311",
+                "location": "Red Hill",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.24400093584572,
-                    -38.048638197385095
+                    144.9854635414391,
+                    -38.36668830927579
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Maffra-Sale Rd",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-07-06T09:41:00+10:00",
-                "updated": "2020-07-06T09:41:00+10:00",
-                "id": "ESTA:200702655",
-                "location": "Maffra-Sale Rd, Sale",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-07-06T09:58:00+10:00",
+                "updated": "2020-07-06T10:00:00+10:00",
+                "id": "ESTA:200702666",
+                "location": "Kyabram",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -4667,8 +4666,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.06798079251143,
-                    -38.09283933206699
+                    145.01382015056075,
+                    -36.369748175423915
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-07-06T10:03:00+10:00",
+                "updated": "2020-07-06T10:03:00+10:00",
+                "id": "ESTA:200702670",
+                "location": "Kyabram",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01382015056075,
+                    -36.369748175423915
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Blackburn North",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-06T10:04:43+10:00",
+                "updated": "2020-07-06T10:05:06+10:00",
+                "id": "ESTA:200702672",
+                "location": "Blackburn North",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1421666104784,
+                    -37.798411761574805
                 ]
             }
         },
@@ -4680,9 +4724,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-07-06T05:00:00+10:00",
+                "created": "2020-07-06T10:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/8e8cb7d86b99bac38e8a8388dcaa4b88",
+                "id": "IDV20600/cbe5f798aa2be895c15ba2b34bf92ff7",
                 "location": "East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -5036,6 +5080,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Hall Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-07-06T09:54:00+10:00",
+                "updated": "2020-07-06T09:54:00+10:00",
+                "id": "ESTA:200702660",
+                "location": "Hall Rd, Cranbourne West",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.251359547375,
+                    -38.10908168283314
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Deanside",
                 "category": "other",
                 "subcategory": "other",
@@ -5105,22 +5172,45 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Fitzroy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-06T09:51:38+10:00",
+                "updated": "2020-07-06T09:51:38+10:00",
+                "id": "ESTA:200702651",
+                "location": "Fitzroy, Fitzroy",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.984011830745,
+                    -37.80044477157266
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-06T08:35:00+10:00",
-                "updated": "2020-07-06T09:00:00+10:00",
-                "id": "ESTA:200750311",
-                "location": "Red Hill",
+                "status": "complete",
+                "created": "2020-07-06T10:00:00+10:00",
+                "updated": "2020-07-06T10:05:00+10:00",
+                "id": "ESTA:200750313",
+                "location": "Lower Plenty",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9854635414391,
-                    -38.36668830927579
+                    145.1233052429635,
+                    -37.736539222471265
                 ]
             }
         }

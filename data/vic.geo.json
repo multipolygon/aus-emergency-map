@@ -4608,9 +4608,9 @@
                 "sourceTitle": "Bangholme",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-06T17:03:20+10:00",
-                "updated": "2020-07-06T17:03:20+10:00",
+                "status": "under control",
+                "created": "2020-07-06T17:17:20+10:00",
+                "updated": "2020-07-06T17:17:20+10:00",
                 "id": "ESTA:200702935",
                 "location": "Bangholme, Bangholme",
                 "size": "Small",
@@ -4628,14 +4628,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Latrobe St",
+                "sourceTitle": "Eucalyptus Dr",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2020-07-06T16:55:00+10:00",
-                "updated": "2020-07-06T17:04:00+10:00",
-                "id": "ESTA:200702933",
-                "location": "Latrobe St, Warragul",
+                "created": "2020-07-06T17:18:28+10:00",
+                "updated": "2020-07-06T17:18:28+10:00",
+                "id": "ESTA:200702929",
+                "location": "Eucalyptus Dr, Maidstone",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4643,22 +4643,67 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.9226016055528,
-                    -38.158558512624104
+                    144.87286793040303,
+                    -37.77951099440389
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cameron Ct",
+                "sourceTitle": "Passfield St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-06T17:19:00+10:00",
+                "updated": "2020-07-06T17:19:00+10:00",
+                "id": "ESTA:200702944",
+                "location": "Passfield St, Brunswick West",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93917367499196,
+                    -37.76768750982267
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-07-06T14:46:00+10:00",
+                "updated": "2020-07-06T17:27:00+10:00",
+                "id": "ESTA:200750334",
+                "location": "Officer",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.42565167376577,
+                    -38.07015516249544
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Oakover Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-06T16:38:00+10:00",
-                "updated": "2020-07-06T17:10:00+10:00",
-                "id": "ESTA:200702926",
-                "location": "Cameron Ct, Maffra",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-07-06T17:27:05+10:00",
+                "updated": "2020-07-06T17:27:05+10:00",
+                "id": "ESTA:200702942",
+                "location": "Oakover Rd, Preston",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4666,52 +4711,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.99121189504584,
-                    -37.95914387338227
+                    144.99372482799987,
+                    -37.749015516250175
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Flemington",
+                "sourceTitle": "North Melbourne",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-07-06T17:14:06+10:00",
-                "updated": "2020-07-06T17:15:18+10:00",
-                "id": "ESTA:200702941",
-                "location": "Mt Alexander Rd, Flemington",
+                "created": "2020-07-06T17:27:41+10:00",
+                "updated": "2020-07-06T17:30:23+10:00",
+                "id": "ESTA:200702946",
+                "location": "Buncle St, North Melbourne",
                 "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.93848399373542,
-                    -37.78565117782305
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Preston",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-07-06T17:14:41+10:00",
-                "updated": "2020-07-06T17:16:38+10:00",
-                "id": "ESTA:200702942",
-                "location": "Oakover Rd, Preston",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99373419707234,
-                    -37.749014194701154
+                    144.94040935532314,
+                    -37.79315836079468
                 ]
             }
         },
@@ -5079,12 +5102,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Regent St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-06T17:26:23+10:00",
+                "updated": "2020-07-06T17:26:23+10:00",
+                "id": "ESTA:200702903",
+                "location": "Regent St, Mernda",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.07875044461272,
+                    -37.60619091276815
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Breakwater Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-06T17:12:37+10:00",
-                "updated": "2020-07-06T17:12:37+10:00",
+                "created": "2020-07-06T16:18:00+10:00",
+                "updated": "2020-07-06T17:12:00+10:00",
                 "id": "ESTA:200702908",
                 "location": "Breakwater Rd, South Geelong",
                 "size": "Small",
@@ -5094,8 +5140,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.36298329804518,
-                    -38.17950629852546
+                    144.3629826875326,
+                    -38.17950835896135
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cameron Ct",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-06T16:38:00+10:00",
+                "updated": "2020-07-06T17:10:00+10:00",
+                "id": "ESTA:200702926",
+                "location": "Cameron Ct, Maffra",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.99121189504584,
+                    -37.95914387338227
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Latrobe St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-06T16:55:00+10:00",
+                "updated": "2020-07-06T17:04:00+10:00",
+                "id": "ESTA:200702933",
+                "location": "Latrobe St, Warragul",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.9226016055528,
+                    -38.158558512624104
                 ]
             }
         },
@@ -5148,29 +5240,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Regent St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-07-06T16:26:21+10:00",
-                "updated": "2020-07-06T16:26:21+10:00",
-                "id": "ESTA:200702903",
-                "location": "Regent St, Mernda",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.07859186044084,
-                    -37.60617299549116
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Erica Av",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -5194,22 +5263,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-07-06T16:58:00+10:00",
-                "updated": "2020-07-06T17:11:00+10:00",
-                "id": "ESTA:200750351",
-                "location": "Mooroolbark",
-                "title": "incident: building damage"
+                "sourceTitle": "Mt Alexander Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-06T17:22:30+10:00",
+                "updated": "2020-07-06T17:22:30+10:00",
+                "id": "ESTA:200702941",
+                "location": "Mt Alexander Rd, Flemington",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3251054516858,
-                    -37.78340705976316
+                    144.93847803041345,
+                    -37.785653461129925
                 ]
             }
         },
@@ -5219,9 +5289,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-07-06T16:26:00+10:00",
-                "updated": "2020-07-06T16:55:00+10:00",
+                "updated": "2020-07-06T17:21:00+10:00",
                 "id": "ESTA:200750346",
                 "location": "Allambee",
                 "title": "incident: tree down"
@@ -5241,19 +5311,19 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2020-07-06T14:46:00+10:00",
-                "updated": "2020-07-06T16:48:00+10:00",
-                "id": "ESTA:200750334",
-                "location": "Officer",
+                "status": "request for assistance",
+                "created": "2020-07-06T16:58:00+10:00",
+                "updated": "2020-07-06T17:11:00+10:00",
+                "id": "ESTA:200750351",
+                "location": "Mooroolbark",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.42565167376577,
-                    -38.07015516249544
+                    145.3251054516858,
+                    -37.78340705976316
                 ]
             }
         },

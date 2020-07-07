@@ -817,10 +817,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.80832900000007,
-                    -30.581477999999947
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.8085907400001,
+                            -30.569818640999983
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.803729367,
+                                            -30.569227785
+                                        ],
+                                        [
+                                            151.80380075,
+                                            -30.5693229629999
+                                        ],
+                                        [
+                                            151.804633562,
+                                            -30.569132607
+                                        ],
+                                        [
+                                            151.805513963,
+                                            -30.569727471
+                                        ],
+                                        [
+                                            151.80782204,
+                                            -30.569441936
+                                        ],
+                                        [
+                                            151.809059359,
+                                            -30.569608499
+                                        ],
+                                        [
+                                            151.80839311,
+                                            -30.5706316659999
+                                        ],
+                                        [
+                                            151.807607888,
+                                            -30.5717738069999
+                                        ],
+                                        [
+                                            151.807346147,
+                                            -30.572678003
+                                        ],
+                                        [
+                                            151.806180212,
+                                            -30.573701172
+                                        ],
+                                        [
+                                            151.802753787,
+                                            -30.573558404
+                                        ],
+                                        [
+                                            151.802230307,
+                                            -30.572368673
+                                        ],
+                                        [
+                                            151.803729367,
+                                            -30.569227785
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -859,6 +928,30 @@
                 "location": "Merriwindi SCA",
                 "size": 535,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Merriwindi SCA <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 535 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 7 Jul 2020 10:37",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.52822600000002,
+                    -34.37788699999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hume Hwy (Northbound), Yerrinbool",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/386207",
+                "created": "2020-07-07T02:56:00+10:00",
+                "updated": "2020-07-07T12:56:00+10:00",
+                "location": "Hume Hwy (Northbound), Yerrinbool, NSW 2575",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Hume Hwy (Northbound), Yerrinbool, NSW 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Jul 2020 12:56",
                 "title": "incident: fire"
             }
         },

@@ -4793,12 +4793,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "High St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-08T08:56:00+10:00",
+                "updated": "2020-07-08T08:56:00+10:00",
+                "id": "ESTA:200703655",
+                "location": "High St, Melton West",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.56717526918482,
+                    -37.68476452557801
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-07-08T08:36:00+10:00",
-                "updated": "2020-07-08T08:41:00+10:00",
+                "updated": "2020-07-08T09:00:00+10:00",
                 "id": "ESTA:200750432",
                 "location": "Brighton",
                 "title": "incident: building damage"
@@ -4807,31 +4830,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99409935056315,
-                    -37.899380557363244
+                    144.9896613997346,
+                    -37.89822341334568
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dunstans Ct",
+                "sourceTitle": "River Rd, Boeill Creek",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-07-08T08:39:50+10:00",
-                "updated": "2020-07-08T08:39:50+10:00",
-                "id": "ESTA:200703627",
-                "location": "Dunstans Ct, Thomastown",
-                "size": "Small",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-07-07T15:46:00+10:00",
+                "updated": "2020-07-07T15:46:00+10:00",
+                "id": "2020-07-07T15:46:00.0000000:386178",
+                "location": "River Rd, Boeill Creek, Nsw 2739",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02117009677727,
-                    -37.692951219606144
+                    142.078456879,
+                    -34.131913014
                 ]
             }
         },
@@ -4842,9 +4864,9 @@
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "under control",
-                "created": "2020-07-07T08:55:00+10:00",
-                "updated": "2020-07-07T08:55:00+10:00",
-                "id": "2020-07-07T08:55:00.0000000:385270",
+                "created": "2020-07-08T08:52:00+10:00",
+                "updated": "2020-07-08T08:52:00+10:00",
+                "id": "2020-07-08T08:52:00.0000000:385270",
                 "location": "Cobb Hwy, Deniliquin, Nsw 2710",
                 "title": "incident: fire"
             },
@@ -4882,74 +4904,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "River Rd, Boeill Creek",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-07-07T15:46:00+10:00",
-                "updated": "2020-07-07T15:46:00+10:00",
-                "id": "2020-07-07T15:46:00.0000000:386178",
-                "location": "River Rd, Boeill Creek, Nsw 2739",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.078456879,
-                    -34.131913014
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ferris Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-08T08:25:00+10:00",
-                "updated": "2020-07-08T08:39:00+10:00",
-                "id": "ESTA:200703629",
-                "location": "Ferris Rd, Melton South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.59891031375116,
-                    -37.69926517209873
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cheltenham Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-07-08T08:32:00+10:00",
-                "updated": "2020-07-08T08:32:00+10:00",
-                "id": "ESTA:200703636",
-                "location": "Cheltenham Rd, Keysborough",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17325609207674,
-                    -37.99397594955068
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Hume Fwy",
                 "category": "rescue",
                 "subcategory": "washaway",
@@ -4967,29 +4921,6 @@
                 "coordinates": [
                     146.6267811839634,
                     -36.153711212126844
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Holder Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-08T07:21:00+10:00",
-                "updated": "2020-07-08T07:50:00+10:00",
-                "id": "ESTA:200703597",
-                "location": "Holder Rd, Bannockburn",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.14826425193547,
-                    -38.0508055922003
                 ]
             }
         },
@@ -5019,6 +4950,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Dunstans Ct",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-07-08T08:39:50+10:00",
+                "updated": "2020-07-08T08:39:50+10:00",
+                "id": "ESTA:200703627",
+                "location": "Dunstans Ct, Thomastown",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02117009677727,
+                    -37.692951219606144
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Doncaster St",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -5042,23 +4996,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rathdowne St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-07-08T08:43:12+10:00",
-                "updated": "2020-07-08T08:43:12+10:00",
-                "id": "ESTA:200703642",
-                "location": "Rathdowne St, Carlton",
+                "sourceTitle": "St Kilda St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-08T08:53:49+10:00",
+                "updated": "2020-07-08T08:53:49+10:00",
+                "id": "ESTA:200703641",
+                "location": "St Kilda St, Brighton",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.97039723441767,
-                    -37.799604245927306
+                    144.98966471437808,
+                    -37.89822090687005
                 ]
             }
         },
@@ -5105,29 +5059,6 @@
                 "coordinates": [
                     144.93847803041345,
                     -37.785653461129925
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Brighton",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-08T08:36:05+10:00",
-                "updated": "2020-07-08T08:36:05+10:00",
-                "id": "ESTA:200703641",
-                "location": "Brighton, Brighton",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9941102752354,
-                    -37.89937445045588
                 ]
             }
         },

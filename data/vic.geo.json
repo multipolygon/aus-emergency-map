@@ -4949,9 +4949,9 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-07-05T20:03:25+10:00",
-                "updated": "2020-07-06T12:21:12+10:00",
-                "id": "ESTA:200750290",
+                "created": "2020-07-05T19:59:48+10:00",
+                "updated": "2020-07-06T12:21:16+10:00",
+                "id": "ESTA:200750289",
                 "location": "Holland Ct, Flemington",
                 "title": "incident: other"
             },
@@ -4967,14 +4967,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Doncaster St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-07-07T23:20:00+10:00",
+                "updated": "2020-07-07T23:22:00+10:00",
+                "id": "ESTA:200750421",
+                "location": "Noble Park North",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19114673458014,
+                    -37.94941864282932
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lyndale Ct",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-07T23:00:49+10:00",
-                "updated": "2020-07-07T23:00:49+10:00",
-                "id": "ESTA:200703519",
-                "location": "Doncaster St, Ascot Vale",
+                "status": "responding",
+                "created": "2020-07-07T23:27:06+10:00",
+                "updated": "2020-07-07T23:27:06+10:00",
+                "id": "ESTA:200703564",
+                "location": "Lyndale Ct, Ferntree Gully",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4982,22 +5004,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.90529073146521,
-                    -37.77854084825891
+                    145.29227073516162,
+                    -37.89088326163094
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Costantinos Lane",
+                "sourceTitle": "Tyers Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-07-07T23:07:00+10:00",
-                "updated": "2020-07-07T23:07:00+10:00",
-                "id": "ESTA:200703559",
-                "location": "Costantinos Lane, Tawonga",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-07-07T23:29:06+10:00",
+                "updated": "2020-07-07T23:29:06+10:00",
+                "id": "ESTA:200703556",
+                "location": "Tyers Rd, Traralgon",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -5005,31 +5027,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.13142073022877,
-                    -36.63472035052472
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Currawong Av",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-07-07T23:11:31+10:00",
-                "updated": "2020-07-07T23:11:31+10:00",
-                "id": "ESTA:200703560",
-                "location": "Currawong Av, Lalor",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01306843617306,
-                    -37.66085685816833
+                    146.4973113397749,
+                    -38.174776380181775
                 ]
             }
         },
@@ -5102,14 +5101,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tyers Rd",
+                "sourceTitle": "Costantinos Lane",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-07-07T23:00:50+10:00",
-                "updated": "2020-07-07T23:00:50+10:00",
-                "id": "ESTA:200703556",
-                "location": "Tyers Rd, Traralgon",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-07-07T23:07:00+10:00",
+                "updated": "2020-07-07T23:07:00+10:00",
+                "id": "ESTA:200703559",
+                "location": "Costantinos Lane, Tawonga",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -5117,8 +5116,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.4973113397749,
-                    -38.174776380181775
+                    147.13142073022877,
+                    -36.63472035052472
                 ]
             }
         },
@@ -5142,6 +5141,29 @@
                 "coordinates": [
                     145.04595674460097,
                     -37.69192609110905
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Doncaster St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-07-07T23:00:49+10:00",
+                "updated": "2020-07-07T23:00:49+10:00",
+                "id": "ESTA:200703519",
+                "location": "Doncaster St, Ascot Vale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90529073146521,
+                    -37.77854084825891
                 ]
             }
         },
@@ -5211,28 +5233,6 @@
                 "coordinates": [
                     144.93847803041345,
                     -37.785653461129925
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-07-07T22:11:00+10:00",
-                "updated": "2020-07-07T23:01:00+10:00",
-                "id": "ESTA:200750414",
-                "location": "Tecoma",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34161487983056,
-                    -37.90624255502027
                 ]
             }
         },

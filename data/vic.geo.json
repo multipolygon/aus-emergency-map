@@ -4793,14 +4793,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Richards St",
+                "sourceTitle": "Maroondah Hwy",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-07-08T06:29:30+10:00",
-                "updated": "2020-07-08T06:29:30+10:00",
-                "id": "ESTA:200703589",
-                "location": "Richards St, Ballarat East",
+                "status": "under control",
+                "created": "2020-07-08T06:43:59+10:00",
+                "updated": "2020-07-08T06:43:59+10:00",
+                "id": "ESTA:200703591",
+                "location": "Maroondah Hwy, Croydon North",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4808,8 +4808,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.88999924665382,
-                    -37.567158195431055
+                    145.2916754406502,
+                    -37.77807041904963
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-07-08T06:11:00+10:00",
+                "updated": "2020-07-08T06:44:00+10:00",
+                "id": "ESTA:200750428",
+                "location": "Point Cook",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.72703175334019,
+                    -37.8974890120981
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Croydon North",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-08T06:42:46+10:00",
+                "updated": "2020-07-08T06:44:21+10:00",
+                "id": "ESTA:200703593",
+                "location": "Maroondah Hwy, Croydon North",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29168422508675,
+                    -37.77806767274093
                 ]
             }
         },
@@ -4991,28 +5035,6 @@
                 "coordinates": [
                     144.93847803041345,
                     -37.785653461129925
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-07-08T06:11:00+10:00",
-                "updated": "2020-07-08T06:17:00+10:00",
-                "id": "ESTA:200750428",
-                "location": "Point Cook",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.72703175334019,
-                    -37.8974890120981
                 ]
             }
         },

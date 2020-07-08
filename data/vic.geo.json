@@ -4628,23 +4628,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hodge St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-08T16:52:00+10:00",
-                "updated": "2020-07-08T17:02:00+10:00",
-                "id": "ESTA:200704079",
-                "location": "Hodge St, Werribee",
+                "sourceTitle": "Valentine St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-08T17:51:05+10:00",
+                "updated": "2020-07-08T17:51:05+10:00",
+                "id": "ESTA:200704111",
+                "location": "Valentine St, Ivanhoe",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.65454549807492,
-                    -37.910105664352386
+                    145.03963207199644,
+                    -37.76155141234313
                 ]
             }
         },
@@ -4654,9 +4654,9 @@
                 "sourceTitle": "Lauriston Dr",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-07-08T17:43:00+10:00",
-                "updated": "2020-07-08T17:43:00+10:00",
+                "updated": "2020-07-08T17:54:00+10:00",
                 "id": "ESTA:200704106",
                 "location": "Lauriston Dr, Coldstream",
                 "size": "Small",
@@ -4674,44 +4674,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Moorabbin",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-08T17:42:23+10:00",
-                "updated": "2020-07-08T17:45:33+10:00",
-                "id": "ESTA:200704107",
-                "location": "South Rd, Moorabbin",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-07-08T17:59:00+10:00",
+                "updated": "2020-07-08T18:01:00+10:00",
+                "id": "ESTA:200704112",
+                "location": "Carrum Downs",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.06417973261944,
-                    -37.93705877281726
+                    145.15261394916172,
+                    -38.09222335458377
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-07-08T16:23:00+10:00",
-                "updated": "2020-07-08T17:45:00+10:00",
-                "id": "ESTA:200750451",
-                "location": "Stawell",
-                "title": "incident: building damage"
+                "sourceTitle": "Glenview Av",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-08T18:01:02+10:00",
+                "updated": "2020-07-08T18:01:02+10:00",
+                "id": "ESTA:200704113",
+                "location": "Glenview Av, Malvern",
+                "size": "Small",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.78270405158244,
-                    -37.05439664475659
+                    145.03625987693954,
+                    -37.85320288856958
                 ]
             }
         },
@@ -4784,29 +4786,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Alastair Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-07-08T17:32:46+10:00",
-                "updated": "2020-07-08T17:32:46+10:00",
-                "id": "ESTA:200704095",
-                "location": "Alastair Dr, Berwick",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33634892737962,
-                    -38.01349603815318
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Doncaster East",
                 "category": "other",
                 "subcategory": "other",
@@ -4824,6 +4803,29 @@
                 "coordinates": [
                     145.16656786485956,
                     -37.7634245303583
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Alastair Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-07-08T17:32:46+10:00",
+                "updated": "2020-07-08T17:32:46+10:00",
+                "id": "ESTA:200704095",
+                "location": "Alastair Dr, Berwick",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.33634892737962,
+                    -38.01349603815318
                 ]
             }
         },
@@ -4876,29 +4878,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lichfield Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-08T17:04:58+10:00",
-                "updated": "2020-07-08T17:04:58+10:00",
-                "id": "ESTA:200704084",
-                "location": "Lichfield Av, Jacana",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.91462247787453,
-                    -37.68772361455113
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ascot Vale Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -4922,14 +4901,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lt Lonsdale St",
+                "sourceTitle": "South Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-08T17:31:51+10:00",
-                "updated": "2020-07-08T17:31:51+10:00",
-                "id": "ESTA:200701483",
-                "location": "Lt Lonsdale St, Melbourne",
+                "status": "under control",
+                "created": "2020-07-08T17:55:49+10:00",
+                "updated": "2020-07-08T17:55:49+10:00",
+                "id": "ESTA:200704107",
+                "location": "South Rd, Moorabbin",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -4937,54 +4916,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.95894447059626,
-                    -37.81214289722171
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "North Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-08T17:23:56+10:00",
-                "updated": "2020-07-08T17:23:56+10:00",
-                "id": "ESTA:200704091",
-                "location": "North Rd, Oakleigh South",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.09439770667882,
-                    -37.91078882973939
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ormond",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-08T17:37:41+10:00",
-                "updated": "2020-07-08T17:37:41+10:00",
-                "id": "ESTA:200704098",
-                "location": "Ormond, Ormond",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04392579076867,
-                    -37.90452011453897
+                    145.06417094030175,
+                    -37.93706279087702
                 ]
             }
         },

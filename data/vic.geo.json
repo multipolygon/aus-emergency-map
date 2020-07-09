@@ -2467,9 +2467,9 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-07-05T19:59:48+10:00",
-                "updated": "2020-07-06T12:21:16+10:00",
-                "id": "ESTA:200750289",
+                "created": "2020-07-05T20:03:25+10:00",
+                "updated": "2020-07-06T12:21:12+10:00",
+                "id": "ESTA:200750290",
                 "location": "Holland Ct, Flemington",
                 "title": "incident: other"
             },
@@ -2485,14 +2485,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hutton Rd",
+                "sourceTitle": "Bellbrae Ct",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-07-10T07:28:22+10:00",
-                "updated": "2020-07-10T07:28:22+10:00",
-                "id": "ESTA:200704943",
-                "location": "Hutton Rd, Grahamvale",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-07-10T07:32:11+10:00",
+                "updated": "2020-07-10T07:32:11+10:00",
+                "id": "ESTA:200704831",
+                "location": "Bellbrae Ct, Meadow Heights",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2500,8 +2500,76 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.43756711661803,
-                    -36.36182351303122
+                    144.91666335326968,
+                    -37.656863910719
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lyon St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2020-07-10T07:36:48+10:00",
+                "updated": "2020-07-10T07:36:48+10:00",
+                "id": "ESTA:200704938",
+                "location": "Lyon St, Coburg North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95591705382697,
+                    -37.72591411558639
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Frankston",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-07-10T07:38:56+10:00",
+                "updated": "2020-07-10T07:41:30+10:00",
+                "id": "ESTA:200704950",
+                "location": "Karingal Dr, Frankston",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16526216461847,
+                    -38.14670627796605
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Arnold St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-10T07:42:22+10:00",
+                "updated": "2020-07-10T07:42:22+10:00",
+                "id": "ESTA:200704949",
+                "location": "Arnold St, Box Hill",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.11979616367634,
+                    -37.81376599315002
                 ]
             }
         },
@@ -2620,14 +2688,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bellbrae Ct",
+                "sourceTitle": "Hutton Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-09T20:37:11+10:00",
-                "updated": "2020-07-09T20:37:11+10:00",
-                "id": "ESTA:200704831",
-                "location": "Bellbrae Ct, Meadow Heights",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-07-10T07:28:22+10:00",
+                "updated": "2020-07-10T07:28:22+10:00",
+                "id": "ESTA:200704943",
+                "location": "Hutton Rd, Grahamvale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2635,31 +2703,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.91666335326968,
-                    -37.656863910719
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lyon St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-07-10T07:12:04+10:00",
-                "updated": "2020-07-10T07:12:04+10:00",
-                "id": "ESTA:200704938",
-                "location": "Lyon St, Coburg North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95591705382697,
-                    -37.72591411558639
+                    145.43756711661803,
+                    -36.36182351303122
                 ]
             }
         },

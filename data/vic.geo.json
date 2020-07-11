@@ -2539,67 +2539,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-07-11T18:06:00+10:00",
-                "updated": "2020-07-11T19:18:00+10:00",
-                "id": "ESTA:200750570",
-                "location": "Cockatoo",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4868847599913,
-                    -37.93913924700493
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-07-11T18:20:00+10:00",
-                "updated": "2020-07-11T19:20:00+10:00",
-                "id": "ESTA:200750571",
-                "location": "Portland",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.61629819395796,
-                    -38.36943835740342
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Endeavour Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-07-11T19:21:00+10:00",
-                "updated": "2020-07-11T19:21:00+10:00",
-                "id": "ESTA:200706431",
-                "location": "Boorhaman North",
+                "created": "2020-07-11T19:41:11+10:00",
+                "updated": "2020-07-11T19:41:11+10:00",
+                "id": "ESTA:200706435",
+                "location": "Endeavour Dr, Maribyrnong",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.2237553788871,
-                    -36.07210678375764
+                    144.87953622204802,
+                    -37.769498537988625
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-07-11T18:45:00+10:00",
+                "updated": "2020-07-11T19:42:00+10:00",
+                "id": "ESTA:200750578",
+                "location": "Sunday Creek",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05105821508565,
+                    -37.23064907701613
                 ]
             }
         },
@@ -2609,10 +2587,10 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-07-11T19:27:00+10:00",
-                "updated": "2020-07-11T19:27:00+10:00",
-                "id": "ESTA:200706432",
+                "status": "safe",
+                "created": "2020-07-11T19:21:00+10:00",
+                "updated": "2020-07-11T19:45:00+10:00",
+                "id": "ESTA:200706431",
                 "location": "Boorhaman North",
                 "size": "Small",
                 "title": "incident: rescue"
@@ -2673,35 +2651,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Yuilles Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-07-11T19:02:07+10:00",
-                "updated": "2020-07-11T19:02:07+10:00",
-                "id": "ESTA:200706422",
-                "location": "Yuilles Rd, Mornington",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04852379745995,
-                    -38.22913933929266
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Wilson Cr",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-07-11T18:30:02+10:00",
-                "updated": "2020-07-11T18:30:02+10:00",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-11T18:23:00+10:00",
+                "updated": "2020-07-11T19:41:00+10:00",
                 "id": "ESTA:200706412",
                 "location": "Wilson Cr, Hoppers Crossing",
                 "size": "Small",
@@ -2711,8 +2666,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.6883406806018,
-                    -37.86722874137177
+                    144.68833612745422,
+                    -37.86723218420037
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yuilles Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-11T18:48:00+10:00",
+                "updated": "2020-07-11T19:02:00+10:00",
+                "id": "ESTA:200706422",
+                "location": "Yuilles Rd, Mornington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04852050981776,
+                    -38.22914468140227
                 ]
             }
         },
@@ -2722,9 +2700,9 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-07-11T18:30:00+10:00",
-                "updated": "2020-07-11T19:21:00+10:00",
+                "updated": "2020-07-11T19:30:00+10:00",
                 "id": "ESTA:200750573",
                 "location": "Portland",
                 "title": "incident: building damage"
@@ -2735,50 +2713,6 @@
                 "coordinates": [
                     141.5960293057228,
                     -38.363000278485316
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-11T19:07:00+10:00",
-                "updated": "2020-07-11T19:12:00+10:00",
-                "id": "ESTA:200750579",
-                "location": "Broadford",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06036091179902,
-                    -37.22478138298194
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-11T18:45:00+10:00",
-                "updated": "2020-07-11T19:12:00+10:00",
-                "id": "ESTA:200750578",
-                "location": "Sunday Creek",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05105821508565,
-                    -37.23064907701613
                 ]
             }
         },

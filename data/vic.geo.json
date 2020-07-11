@@ -2539,22 +2539,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
+                "sourceTitle": "Portland",
+                "category": "building damage",
+                "subcategory": "building damage",
                 "status": "complete",
-                "created": "2020-07-11T18:41:00+10:00",
-                "updated": "2020-07-11T19:51:00+10:00",
-                "id": "ESTA:200750577",
-                "location": "Ballarat East",
-                "title": "incident: flooding"
+                "created": "2020-07-11T18:27:38+10:00",
+                "updated": "2020-07-11T20:06:18+10:00",
+                "id": "ESTA:200750573",
+                "location": "Edgar St, Portland",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.87613619872053,
-                    -37.55940766843718
+                    141.59605068371914,
+                    -38.36299279000083
                 ]
             }
         },
@@ -2562,21 +2562,44 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2020-07-11T18:30:00+10:00",
-                "updated": "2020-07-11T19:30:00+10:00",
-                "id": "ESTA:200750573",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-07-11T20:13:00+10:00",
+                "updated": "2020-07-11T20:16:00+10:00",
+                "id": "ESTA:200750581",
                 "location": "Portland",
-                "title": "incident: building damage"
+                "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.5960293057228,
-                    -38.363000278485316
+                    141.58167407140022,
+                    -38.344218752224904
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Foster St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-07-11T20:14:22+10:00",
+                "updated": "2020-07-11T20:14:22+10:00",
+                "id": "ESTA:200706439",
+                "location": "Foster St, Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2097238601015,
+                    -37.98997175704417
                 ]
             }
         },
@@ -2667,29 +2690,6 @@
                 "coordinates": [
                     144.68833612745422,
                     -37.86723218420037
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Yuilles Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-11T18:48:00+10:00",
-                "updated": "2020-07-11T19:02:00+10:00",
-                "id": "ESTA:200706422",
-                "location": "Yuilles Rd, Mornington",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04852050981776,
-                    -38.22914468140227
                 ]
             }
         }

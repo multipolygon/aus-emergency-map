@@ -9,8 +9,8 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            141.23889874683687,
-                            -36.76723652858928
+                            145.22872426116783,
+                            -37.02560335092902
                         ]
                     },
                     {
@@ -18,36 +18,40 @@
                         "coordinates": [
                             [
                                 [
-                                    141.23575519787207,
-                                    -36.76365262986296
+                                    145.12057759368497,
+                                    -36.995902302422934
                                 ],
                                 [
-                                    141.24015402065305,
-                                    -36.76279312595286
+                                    145.12624241912204,
+                                    -36.9865102177337
                                 ],
                                 [
-                                    141.24356579052682,
-                                    -36.766162326149455
+                                    145.32433964812412,
+                                    -36.99137779325657
                                 ],
                                 [
-                                    141.242492906918,
-                                    -36.77049393746737
+                                    145.34064747893902,
+                                    -37.06469648412433
                                 ],
                                 [
-                                    141.23890947567685,
-                                    -36.771679931225705
+                                    145.12057759368497,
+                                    -37.05181944700578
                                 ],
                                 [
-                                    141.23599123226117,
-                                    -36.77035642975759
+                                    145.12023427093231,
+                                    -37.03510343805964
                                 ],
                                 [
-                                    141.23423170314695,
-                                    -36.76695303536076
+                                    145.11886097992164,
+                                    -37.027429283446864
                                 ],
                                 [
-                                    141.23575519787207,
-                                    -36.76365262986296
+                                    145.1168010433966,
+                                    -37.01728724697204
+                                ],
+                                [
+                                    145.12057759368497,
+                                    -36.995902302422934
                                 ]
                             ]
                         ]
@@ -56,15 +60,15 @@
             },
             "properties": {
                 "feedType": "warning",
-                "sourceTitle": "Community Information",
-                "category": "community update",
-                "subcategory": "env",
-                "status": "unknown",
-                "created": "2020-06-26T10:01:55+10:00",
-                "updated": "2020-06-26T10:01:57+10:00",
-                "id": "14162",
-                "location": "Minimay",
-                "title": "warning: community update"
+                "sourceTitle": "Warning",
+                "category": "warning",
+                "subcategory": "weather",
+                "status": "moderate",
+                "created": "2020-07-11T15:34:22+10:00",
+                "updated": "2020-07-11T15:34:23+10:00",
+                "id": "14229",
+                "location": "the Whiteheads Creek in the Seymour Area",
+                "title": "warning: warning"
             }
         },
         {
@@ -255,6 +259,72 @@
                 "id": "14219",
                 "location": "Meadow Heights, Broadmeadows, Coolaroo, Greenvale, Westmeadows",
                 "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            141.23889874683687,
+                            -36.76723652858928
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ],
+                                [
+                                    141.24015402065305,
+                                    -36.76279312595286
+                                ],
+                                [
+                                    141.24356579052682,
+                                    -36.766162326149455
+                                ],
+                                [
+                                    141.242492906918,
+                                    -36.77049393746737
+                                ],
+                                [
+                                    141.23890947567685,
+                                    -36.771679931225705
+                                ],
+                                [
+                                    141.23599123226117,
+                                    -36.77035642975759
+                                ],
+                                [
+                                    141.23423170314695,
+                                    -36.76695303536076
+                                ],
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "env",
+                "status": "unknown",
+                "created": "2020-06-26T10:01:55+10:00",
+                "updated": "2020-06-26T10:01:57+10:00",
+                "id": "14162",
+                "location": "Minimay",
+                "title": "warning: community update"
             }
         },
         {
@@ -2469,57 +2539,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-11T14:23:00+10:00",
-                "updated": "2020-07-11T14:58:00+10:00",
-                "id": "ESTA:200706271",
-                "location": "Princes Hwy, Narrawong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.7215669543487,
-                    -38.25158828288635
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-07-11T14:38:00+10:00",
-                "updated": "2020-07-11T15:29:00+10:00",
-                "id": "ESTA:200750560",
-                "location": "Kilmore East",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0059770477792,
-                    -37.31341761784022
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mckellar St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-07-11T15:29:08+10:00",
-                "updated": "2020-07-11T15:29:08+10:00",
+                "status": "safe",
+                "created": "2020-07-11T15:35:11+10:00",
+                "updated": "2020-07-11T15:35:11+10:00",
                 "id": "ESTA:200706322",
                 "location": "Mckellar St, Watsonia",
                 "size": "Small",
@@ -2531,6 +2556,96 @@
                 "coordinates": [
                     145.0833767898793,
                     -37.70359246613841
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "David Collins Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-11T15:42:16+10:00",
+                "updated": "2020-07-11T15:42:16+10:00",
+                "id": "ESTA:200706332",
+                "location": "David Collins Dr, Endeavour Hills",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2647908120676,
+                    -37.99092625013508
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-07-11T15:43:00+10:00",
+                "updated": "2020-07-11T15:45:00+10:00",
+                "id": "ESTA:200750563",
+                "location": "East Warburton",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.73689897501512,
+                    -37.72968916114457
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-07-11T15:44:00+10:00",
+                "updated": "2020-07-11T15:44:00+10:00",
+                "id": "ESTA:200750564",
+                "location": "Inverloch",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.7363940544554,
+                    -38.62830748635086
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-07-11T15:44:00+10:00",
+                "updated": "2020-07-11T15:45:00+10:00",
+                "id": "ESTA:200706334",
+                "location": "Gisborne",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.565174234631,
+                    -37.488633841647356
                 ]
             }
         },
@@ -2604,6 +2719,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-11T14:23:00+10:00",
+                "updated": "2020-07-11T14:58:00+10:00",
+                "id": "ESTA:200706271",
+                "location": "Princes Hwy, Narrawong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.7215669543487,
+                    -38.25158828288635
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Buncle St",
                 "category": "other",
                 "subcategory": "other",
@@ -2650,14 +2788,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kororoit Creek Rd",
+                "sourceTitle": "Bennett St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-11T14:37:21+10:00",
-                "updated": "2020-07-11T14:37:21+10:00",
-                "id": "ESTA:200706219",
-                "location": "Kororoit Creek Rd, Altona North",
+                "status": "responding",
+                "created": "2020-07-11T15:41:50+10:00",
+                "updated": "2020-07-11T15:41:50+10:00",
+                "id": "ESTA:200706331",
+                "location": "Bennett St, Alphington",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -2665,8 +2803,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.81861315331352,
-                    -37.84226844222819
+                    145.03204330702764,
+                    -37.770933319651945
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-07-11T15:38:00+10:00",
+                "updated": "2020-07-11T15:40:00+10:00",
+                "id": "ESTA:200750562",
+                "location": "Alphington",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0320431117043,
+                    -37.770935932287784
                 ]
             }
         },

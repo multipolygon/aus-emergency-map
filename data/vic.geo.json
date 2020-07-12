@@ -2446,29 +2446,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cadles Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-12T18:15:00+10:00",
-                "updated": "2020-07-12T18:36:00+10:00",
-                "id": "ESTA:200706863",
-                "location": "Cadles Rd, Carrum Downs",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.18775606800222,
-                    -38.0890399056391
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Murray St",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -2492,45 +2469,68 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Trudewind Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-07-12T18:55:58+10:00",
-                "updated": "2020-07-12T18:55:58+10:00",
-                "id": "ESTA:200706866",
-                "location": "Trudewind Rd, Wodonga",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.86886873676977,
-                    -36.129598245996704
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
+                "sourceTitle": "Gisborne",
                 "category": "flooding",
                 "subcategory": "flooding",
                 "status": "complete",
-                "created": "2020-07-12T18:07:00+10:00",
-                "updated": "2020-07-12T19:00:00+10:00",
+                "created": "2020-07-12T18:03:59+10:00",
+                "updated": "2020-07-12T19:01:19+10:00",
                 "id": "ESTA:200750633",
-                "location": "Gisborne",
+                "location": "Riceflower Ct, Gisborne",
                 "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.59681584126048,
-                    -37.50913463794375
+                    144.59682338304165,
+                    -37.50912563410086
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "York St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-07-12T19:13:12+10:00",
+                "updated": "2020-07-12T19:13:12+10:00",
+                "id": "ESTA:200706871",
+                "location": "York St, Rosebud",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91393155515837,
+                    -38.37467668485306
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Livingstone St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-12T19:13:18+10:00",
+                "updated": "2020-07-12T19:13:18+10:00",
+                "id": "ESTA:200706873",
+                "location": "Livingstone St, Coburg North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98412993992414,
+                    -37.72470477225976
                 ]
             }
         },
@@ -2584,9 +2584,9 @@
                 "sourceTitle": "Marne St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-07-12T18:49:00+10:00",
-                "updated": "2020-07-12T18:49:00+10:00",
+                "updated": "2020-07-12T19:14:00+10:00",
                 "id": "ESTA:200706870",
                 "location": "Marne St, Kerang",
                 "size": "Small",
@@ -2598,6 +2598,52 @@
                 "coordinates": [
                     143.92461265296694,
                     -35.73989934506967
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Trudewind Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-07-12T18:31:00+10:00",
+                "updated": "2020-07-12T18:56:00+10:00",
+                "id": "ESTA:200706866",
+                "location": "Trudewind Rd, Wodonga",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.86885967559095,
+                    -36.129599047807275
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cadles Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-12T18:15:00+10:00",
+                "updated": "2020-07-12T18:36:00+10:00",
+                "id": "ESTA:200706863",
+                "location": "Cadles Rd, Carrum Downs",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18775606800222,
+                    -38.0890399056391
                 ]
             }
         },
@@ -2621,52 +2667,6 @@
                 "coordinates": [
                     145.13988397087516,
                     -38.069907937622354
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Stradbroke Cl",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-12T17:57:00+10:00",
-                "updated": "2020-07-12T18:13:00+10:00",
-                "id": "ESTA:200706859",
-                "location": "Stradbroke Cl, Berwick",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.32186149631914,
-                    -38.01260164792678
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beauna Vista Dr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-12T18:02:00+10:00",
-                "updated": "2020-07-12T18:05:00+10:00",
-                "id": "ESTA:200706861",
-                "location": "Beauna Vista Dr, Rye",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.8352758793788,
-                    -38.380193909538896
                 ]
             }
         },

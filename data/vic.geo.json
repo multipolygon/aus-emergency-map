@@ -3864,101 +3864,11 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-07-13T19:55:00+10:00",
-                "updated": "2020-07-13T21:39:00+10:00",
-                "id": "ESTA:200707231",
-                "location": "Invergordon",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.61496932030212,
-                    -36.1306691146377
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-13T21:50:00+10:00",
-                "updated": "2020-07-13T21:52:00+10:00",
-                "id": "ESTA:200750673",
-                "location": "Mount Evelyn",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.36529253207937,
-                    -37.78080828439594
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Fitzgerald Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-07-13T21:53:57+10:00",
-                "updated": "2020-07-13T21:53:57+10:00",
-                "id": "ESTA:200707244",
-                "location": "Fitzgerald Rd, Hallam",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.28003240883876,
-                    -38.00275704484299
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-07-13T21:42:00+10:00",
-                "updated": "2020-07-13T21:56:00+10:00",
-                "id": "ESTA:200750672",
-                "location": "Long Gully",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.25660810234635,
-                    -36.74052419393569
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-07-13T22:01:00+10:00",
-                "updated": "2020-07-13T22:01:00+10:00",
+                "updated": "2020-07-13T22:03:00+10:00",
                 "id": "ESTA:200707247",
                 "location": "Upwey",
                 "size": "Small",
@@ -3974,28 +3884,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "North Melbourne",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-07-13T21:59:45+10:00",
-                "updated": "2020-07-13T22:02:37+10:00",
-                "id": "ESTA:200707248",
-                "location": "Boundary Rd, North Melbourne",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93935915958073,
-                    -37.79160358301328
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -4003,9 +3891,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-07-13T17:00:00+10:00",
+                "created": "2020-07-13T22:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/73c39235af3c122111cf4080e85db0be",
+                "id": "IDV20600/353055d89bde8417c5b1618ec555074e",
                 "location": "East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -4293,6 +4181,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Fitzgerald Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-13T21:33:00+10:00",
+                "updated": "2020-07-13T21:54:00+10:00",
+                "id": "ESTA:200707244",
+                "location": "Fitzgerald Rd, Hallam",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.28002603808565,
+                    -38.00275982012775
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-07-13T19:55:00+10:00",
+                "updated": "2020-07-13T21:39:00+10:00",
+                "id": "ESTA:200707231",
+                "location": "Invergordon",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.61496932030212,
+                    -36.1306691146377
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Citylink -",
                 "category": "other",
                 "subcategory": "other",
@@ -4340,6 +4274,50 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "on scene",
+                "created": "2020-07-13T20:32:00+10:00",
+                "updated": "2020-07-13T22:08:00+10:00",
+                "id": "ESTA:200750670",
+                "location": "Croydon Hills",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26616088819128,
+                    -37.77171251867
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-07-13T21:50:00+10:00",
+                "updated": "2020-07-13T21:52:00+10:00",
+                "id": "ESTA:200750673",
+                "location": "Mount Evelyn",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.36529253207937,
+                    -37.78080828439594
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
@@ -4355,28 +4333,6 @@
                 "coordinates": [
                     145.37640080297936,
                     -37.24649969512314
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2020-07-13T20:32:00+10:00",
-                "updated": "2020-07-13T21:41:00+10:00",
-                "id": "ESTA:200750670",
-                "location": "Croydon Hills",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26616088819128,
-                    -37.77171251867
                 ]
             }
         }

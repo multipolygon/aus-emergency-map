@@ -3863,12 +3863,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-07-13T22:42:00+10:00",
+                "updated": "2020-07-14T00:04:00+10:00",
+                "id": "ESTA:200750674",
+                "location": "Hesket",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.60845706681962,
+                    -37.36570659605604
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Queen St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-07-13T23:55:00+10:00",
-                "updated": "2020-07-13T23:55:00+10:00",
+                "updated": "2020-07-14T00:08:00+10:00",
                 "id": "ESTA:200707261",
                 "location": "Queen St, Colac",
                 "size": "Small",
@@ -3880,6 +3902,29 @@
                 "coordinates": [
                     143.59204995406634,
                     -38.34299351181495
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yandee Ct",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-14T00:11:40+10:00",
+                "updated": "2020-07-14T00:11:40+10:00",
+                "id": "ESTA:200707262",
+                "location": "Yandee Ct, Truganina",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.71571837665567,
+                    -37.83742873229645
                 ]
             }
         },
@@ -4221,28 +4266,6 @@
                 "coordinates": [
                     144.96643383049678,
                     -37.82621888367172
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-13T22:42:00+10:00",
-                "updated": "2020-07-13T23:28:00+10:00",
-                "id": "ESTA:200750674",
-                "location": "Hesket",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.60845706681962,
-                    -37.36570659605604
                 ]
             }
         }

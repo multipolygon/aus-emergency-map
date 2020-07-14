@@ -4013,61 +4013,16 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murrumbeena",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-15T09:12:56+10:00",
-                "updated": "2020-07-15T09:12:56+10:00",
-                "id": "ESTA:200707803",
-                "location": "Murrumbeena, Murrumbeena",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.064469646319,
-                    -37.90058261784038
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-07-15T09:13:00+10:00",
-                "updated": "2020-07-15T09:14:00+10:00",
-                "id": "ESTA:200750707",
-                "location": "Murrumbeena",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06446464424317,
-                    -37.90058613436257
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Shogaki Dr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-07-15T09:13:36+10:00",
-                "updated": "2020-07-15T09:13:36+10:00",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "not yet under control",
+                "created": "2020-07-15T09:17:56+10:00",
+                "updated": "2020-07-15T09:17:56+10:00",
                 "id": "ESTA:200707798",
                 "location": "Shogaki Dr, Cobblebank",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
@@ -4082,22 +4037,45 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2020-07-15T08:37:00+10:00",
-                "updated": "2020-07-15T09:15:00+10:00",
-                "id": "ESTA:200707768",
-                "location": "Warragul",
+                "created": "2020-07-15T08:18:00+10:00",
+                "updated": "2020-07-15T08:59:00+10:00",
+                "id": "ESTA:200707755",
+                "location": "Langwarrin",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.92263293431114,
-                    -38.15953212571387
+                    145.20102626787167,
+                    -38.14629662991077
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-07-15T09:29:00+10:00",
+                "updated": "2020-07-15T09:30:00+10:00",
+                "id": "ESTA:200707821",
+                "location": "Elliminyt",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.55769736189026,
+                    -38.35025371920888
                 ]
             }
         },
@@ -4443,14 +4421,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Langwarrin",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-07-15T08:37:00+10:00",
+                "updated": "2020-07-15T09:15:00+10:00",
+                "id": "ESTA:200707768",
+                "location": "Warragul",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.92263293431114,
+                    -38.15953212571387
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murrumbeena Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-15T08:59:25+10:00",
-                "updated": "2020-07-15T08:59:25+10:00",
-                "id": "ESTA:200707755",
-                "location": "Langwarrin, Langwarrin",
+                "status": "under control",
+                "created": "2020-07-15T09:27:42+10:00",
+                "updated": "2020-07-15T09:27:42+10:00",
+                "id": "ESTA:200707803",
+                "location": "Murrumbeena Rd, Murrumbeena",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -4458,54 +4459,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20103392200085,
-                    -38.146292987623056
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-07-15T08:08:00+10:00",
-                "updated": "2020-07-15T08:20:00+10:00",
-                "id": "ESTA:200707751",
-                "location": "Alfredton",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.79491832186034,
-                    -37.55745814588245
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Great Alpine Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-07-15T06:59:00+10:00",
-                "updated": "2020-07-15T08:18:00+10:00",
-                "id": "ESTA:200707730",
-                "location": "Great Alpine Rd, Ensay",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.83150647886907,
-                    -37.42607132385407
+                    145.06285804354027,
+                    -37.90416032338763
                 ]
             }
         },
@@ -4529,6 +4484,28 @@
                 "coordinates": [
                     144.94061789965497,
                     -37.793096912529606
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-07-15T09:13:00+10:00",
+                "updated": "2020-07-15T09:14:00+10:00",
+                "id": "ESTA:200750707",
+                "location": "Murrumbeena",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06446464424317,
+                    -37.90058613436257
                 ]
             }
         }

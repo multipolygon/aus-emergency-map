@@ -4060,10 +4060,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Elsworth St",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-15T20:38:58+10:00",
-                "updated": "2020-07-15T20:38:58+10:00",
+                "created": "2020-07-15T20:25:00+10:00",
+                "updated": "2020-07-15T20:39:00+10:00",
                 "id": "ESTA:200708248",
                 "location": "Elsworth St, Mount Pleasant",
                 "size": "Small",
@@ -4073,54 +4073,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.85998173377868,
-                    -37.58256486098512
+                    143.85997641052919,
+                    -37.582570469548834
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Norwood St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Kew",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-07-15T20:40:31+10:00",
-                "updated": "2020-07-15T20:40:31+10:00",
-                "id": "ESTA:200708251",
-                "location": "Norwood St, Flemington",
-                "size": "Small",
-                "title": "incident: hazardous material"
+                "created": "2020-07-15T20:52:22+10:00",
+                "updated": "2020-07-15T20:53:36+10:00",
+                "id": "ESTA:200708257",
+                "location": "Studley Park Rd, Kew",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.93000757652808,
-                    -37.786847167575885
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Heatherton",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-15T20:43:37+10:00",
-                "updated": "2020-07-15T20:43:37+10:00",
-                "id": "ESTA:200708252",
-                "location": "Heatherton, Heatherton",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.07745965709995,
-                    -37.94985751214513
+                    145.02797633775452,
+                    -37.80753865590427
                 ]
             }
         },
@@ -4130,7 +4106,7 @@
                 "sourceTitle": "Glenelg Hwy",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-07-15T20:42:00+10:00",
                 "updated": "2020-07-15T20:42:00+10:00",
                 "id": "ESTA:200708253",
@@ -4150,14 +4126,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Studley Park Rd",
+                "sourceTitle": "Albert St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-15T20:43:42+10:00",
-                "updated": "2020-07-15T20:43:42+10:00",
-                "id": "ESTA:200708249",
-                "location": "Studley Park Rd, Kew",
+                "status": "responding",
+                "created": "2020-07-15T20:55:24+10:00",
+                "updated": "2020-07-15T20:55:24+10:00",
+                "id": "ESTA:200708258",
+                "location": "Albert St, Richmond",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4165,8 +4141,76 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02797056939545,
-                    -37.80754252038647
+                    144.99812569223513,
+                    -37.82842200099578
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Warrigal Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-07-15T20:59:55+10:00",
+                "updated": "2020-07-15T20:59:55+10:00",
+                "id": "ESTA:200708252",
+                "location": "Warrigal Rd, Cheltenham",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.07705206614088,
+                    -37.95182184616034
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Preston",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-15T21:00:00+10:00",
+                "updated": "2020-07-15T21:00:00+10:00",
+                "id": "ESTA:200708260",
+                "location": "Preston, Preston",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9994100002535,
+                    -37.73996032937617
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Balaclava",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-15T21:01:49+10:00",
+                "updated": "2020-07-15T21:01:57+10:00",
+                "id": "ESTA:200708261",
+                "location": "Balaclava",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9954666909578,
+                    -37.86902018665617
                 ]
             }
         },
@@ -4190,29 +4234,6 @@
                 "coordinates": [
                     144.75266315271975,
                     -37.76198093974788
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-07-15T19:38:00+10:00",
-                "updated": "2020-07-15T19:56:00+10:00",
-                "id": "ESTA:200708235",
-                "location": "Marcus Hill",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.57259241331445,
-                    -38.24187982170648
                 ]
             }
         },
@@ -4265,6 +4286,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Studley Park Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-07-15T20:43:42+10:00",
+                "updated": "2020-07-15T20:43:42+10:00",
+                "id": "ESTA:200708249",
+                "location": "Studley Park Rd, Kew",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02797056939545,
+                    -37.80754252038647
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Norwood St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-07-15T20:58:35+10:00",
+                "updated": "2020-07-15T20:58:35+10:00",
+                "id": "ESTA:200708251",
+                "location": "Norwood St, Flemington",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93000757652808,
+                    -37.786847167575885
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Buncle St",
                 "category": "other",
                 "subcategory": "other",
@@ -4282,6 +4349,29 @@
                 "coordinates": [
                     144.94061789965497,
                     -37.793096912529606
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Reservoir",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-15T20:54:23+10:00",
+                "updated": "2020-07-15T20:54:23+10:00",
+                "id": "ESTA:200708259",
+                "location": "Reservoir, Reservoir",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98852306472472,
+                    -37.70460306325009
                 ]
             }
         }

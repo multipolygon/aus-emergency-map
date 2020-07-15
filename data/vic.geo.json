@@ -4013,14 +4013,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clifton Gr",
+                "sourceTitle": "Taylor St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-15T13:12:00+10:00",
-                "updated": "2020-07-15T14:10:00+10:00",
-                "id": "ESTA:200708014",
-                "location": "Clifton Gr, Carrum Downs",
+                "status": "responding",
+                "created": "2020-07-15T14:49:00+10:00",
+                "updated": "2020-07-15T14:49:00+10:00",
+                "id": "ESTA:200708103",
+                "location": "Taylor St, Golden Square",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4028,8 +4028,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1775178269679,
-                    -38.089458269024
+                    144.25134253385937,
+                    -36.767266883669336
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grovedale",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-15T14:54:36+10:00",
+                "updated": "2020-07-15T14:54:36+10:00",
+                "id": "ESTA:200708106",
+                "location": "Grovedale, Grovedale",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.33985669956093,
+                    -38.20857889381827
                 ]
             }
         },
@@ -4039,9 +4062,9 @@
                 "sourceTitle": "Woodglen Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
+                "status": "under control",
                 "created": "2020-07-15T14:16:00+10:00",
-                "updated": "2020-07-15T14:40:00+10:00",
+                "updated": "2020-07-15T15:00:00+10:00",
                 "id": "ESTA:200708080",
                 "location": "Woodglen Rd, Woodglen",
                 "size": "Small",
@@ -4053,29 +4076,6 @@
                 "coordinates": [
                     147.36710903687708,
                     -37.773794705647184
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eastgate Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-07-15T14:39:47+10:00",
-                "updated": "2020-07-15T14:39:47+10:00",
-                "id": "ESTA:200708092",
-                "location": "Eastgate Rd, Craigieburn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93927022930538,
-                    -37.60515616617549
                 ]
             }
         },
@@ -4098,6 +4098,29 @@
                 "coordinates": [
                     149.880530834,
                     -36.9745811139999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Eastgate Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-15T14:26:00+10:00",
+                "updated": "2020-07-15T14:33:00+10:00",
+                "id": "ESTA:200708092",
+                "location": "Eastgate Rd, Craigieburn",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93926355923028,
+                    -37.605161660143864
                 ]
             }
         },
@@ -4127,6 +4150,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Clifton Gr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-15T13:12:00+10:00",
+                "updated": "2020-07-15T14:10:00+10:00",
+                "id": "ESTA:200708014",
+                "location": "Clifton Gr, Carrum Downs",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1775178269679,
+                    -38.089458269024
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Mcclelland Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -4144,52 +4190,6 @@
                 "coordinates": [
                     145.17011144392248,
                     -38.15779956164193
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jasper Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-15T13:14:27+10:00",
-                "updated": "2020-07-15T13:14:27+10:00",
-                "id": "ESTA:200707943",
-                "location": "Jasper Rd, Bentleigh",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03934647384722,
-                    -37.932370484961346
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Frankston-Dandenong Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-07-15T14:39:42+10:00",
-                "updated": "2020-07-15T14:39:42+10:00",
-                "id": "ESTA:200708098",
-                "location": "Frankston-Dandenong Rd, Frankston North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.15445026329544,
-                    -38.11517347254747
                 ]
             }
         },
@@ -4219,23 +4219,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Jasper Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2020-07-15T13:56:44+10:00",
-                "updated": "2020-07-15T13:56:44+10:00",
-                "id": "ESTA:200708050",
-                "location": "Princes Hwy, Noble Park",
+                "created": "2020-07-15T13:14:27+10:00",
+                "updated": "2020-07-15T13:14:27+10:00",
+                "id": "ESTA:200707943",
+                "location": "Jasper Rd, Bentleigh",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1927236884468,
-                    -37.96610724874513
+                    145.03934647384722,
+                    -37.932370484961346
                 ]
             }
         },
@@ -4259,29 +4259,6 @@
                 "coordinates": [
                     144.94061789965497,
                     -37.793096912529606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-15T14:14:22+10:00",
-                "updated": "2020-07-15T14:14:22+10:00",
-                "id": "ESTA:200708059",
-                "location": "Princes Hwy, Noble Park",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1870890023093,
-                    -37.96092669450648
                 ]
             }
         },

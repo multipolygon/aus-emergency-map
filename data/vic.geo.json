@@ -4035,14 +4035,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Curie Ct",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-07-15T18:48:00+10:00",
+                "updated": "2020-07-15T18:51:00+10:00",
+                "id": "ESTA:200750719",
+                "location": "Beaconsfield",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3865951808546,
+                    -38.06398392515829
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Davies St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-15T18:17:00+10:00",
-                "updated": "2020-07-15T18:27:00+10:00",
-                "id": "ESTA:200708224",
-                "location": "Curie Ct, Seaford",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-15T19:00:36+10:00",
+                "updated": "2020-07-15T19:00:36+10:00",
+                "id": "ESTA:200708231",
+                "location": "Davies St, Hadfield",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4050,8 +4072,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.15049489659106,
-                    -38.10029145818197
+                    144.94671566219805,
+                    -37.71176406546327
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy Broadwater",
+                "category": "transport",
+                "subcategory": "motor vehicle accident",
+                "status": "out of control",
+                "created": "2020-07-15T01:12:00+10:00",
+                "updated": "2020-07-15T01:12:00+10:00",
+                "id": "2020-07-15T01:12:00.0000000:386756",
+                "location": "Prices Hwy Broadwater",
+                "title": "incident: transport"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.880530834,
+                    -36.9745811139999
                 ]
             }
         },
@@ -4081,14 +4125,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Swyer St",
+                "sourceTitle": "Curie Ct",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-15T18:44:03+10:00",
-                "updated": "2020-07-15T18:44:03+10:00",
-                "id": "ESTA:200708227",
-                "location": "Swyer St, Hampton",
+                "created": "2020-07-15T18:17:00+10:00",
+                "updated": "2020-07-15T18:27:00+10:00",
+                "id": "ESTA:200708224",
+                "location": "Curie Ct, Seaford",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4096,30 +4140,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02093394090213,
-                    -37.94589843753265
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy Broadwater",
-                "category": "transport",
-                "subcategory": "motor vehicle accident",
-                "status": "out of control",
-                "created": "2020-07-15T01:12:00+10:00",
-                "updated": "2020-07-15T01:12:00+10:00",
-                "id": "2020-07-15T01:12:00.0000000:386756",
-                "location": "Prices Hwy Broadwater",
-                "title": "incident: transport"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.880530834,
-                    -36.9745811139999
+                    145.15049489659106,
+                    -38.10029145818197
                 ]
             }
         },
@@ -4143,52 +4165,6 @@
                 "coordinates": [
                     148.72463261709706,
                     -37.69448628900765
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Chapman St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-07-15T17:34:00+10:00",
-                "updated": "2020-07-15T17:54:00+10:00",
-                "id": "ESTA:200708210",
-                "location": "Chapman St, Swan Hill",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.54751610053964,
-                    -35.3325886840078
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jardin Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-15T17:34:00+10:00",
-                "updated": "2020-07-15T17:48:00+10:00",
-                "id": "ESTA:200708211",
-                "location": "Jardin Rd, Wollert",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99666418412025,
-                    -37.59995008268212
                 ]
             }
         },

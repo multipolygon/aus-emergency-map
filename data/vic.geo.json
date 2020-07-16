@@ -2596,14 +2596,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Batesleigh Rd",
+                "sourceTitle": "St Leonards",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-16T21:23:00+10:00",
-                "updated": "2020-07-16T21:24:00+10:00",
-                "id": "ESTA:200708864",
-                "location": "Batesleigh Rd, Selby",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-16T21:56:42+10:00",
+                "updated": "2020-07-16T21:56:42+10:00",
+                "id": "ESTA:200708872",
+                "location": "St Leonards, St Leonards",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2611,53 +2611,76 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.37997324934335,
-                    -37.919006384559566
+                    144.70959966322502,
+                    -38.17878504009399
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Reserve St",
-                "category": "fire",
+                "sourceTitle": "Cheltenham",
+                "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-16T21:17:00+10:00",
-                "updated": "2020-07-16T21:32:00+10:00",
-                "id": "ESTA:200708862",
-                "location": "Reserve St, Eaglehawk",
-                "size": "Small",
-                "title": "incident: fire"
+                "status": "responding",
+                "created": "2020-07-16T21:59:50+10:00",
+                "updated": "2020-07-16T22:01:24+10:00",
+                "id": "ESTA:200708874",
+                "location": "Ambrose Av, Cheltenham",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.2608152613897,
-                    -36.72076799915009
+                    145.0402640674024,
+                    -37.96069447133726
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Norlane",
+                "sourceTitle": "Mildura",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-07-16T21:41:32+10:00",
-                "updated": "2020-07-16T21:45:06+10:00",
-                "id": "ESTA:200708869",
-                "location": "Norlane",
+                "created": "2020-07-16T21:53:06+10:00",
+                "updated": "2020-07-16T21:53:06+10:00",
+                "id": "ESTA:200708870",
+                "location": "Mildura, Mildura",
+                "size": "Small",
                 "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.35636627458456,
-                    -38.091435413093215
+                    142.16556256797233,
+                    -34.184549571171345
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Heaths Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-07-16T21:53:00+10:00",
+                "updated": "2020-07-16T21:53:00+10:00",
+                "id": "ESTA:200708871",
+                "location": "Heaths Rd, Hoppers Crossing",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.68001591239218,
+                    -37.87699885753065
                 ]
             }
         },
@@ -2667,9 +2690,9 @@
                 "sourceTitle": "Moores Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-16T21:15:50+10:00",
-                "updated": "2020-07-16T21:15:50+10:00",
+                "status": "safe",
+                "created": "2020-07-16T21:45:11+10:00",
+                "updated": "2020-07-16T21:45:11+10:00",
                 "id": "ESTA:200708858",
                 "location": "Moores Rd, Clyde",
                 "size": "Small",
@@ -2710,6 +2733,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Reserve St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-16T21:17:00+10:00",
+                "updated": "2020-07-16T21:32:00+10:00",
+                "id": "ESTA:200708862",
+                "location": "Reserve St, Eaglehawk",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.2608152613897,
+                    -36.72076799915009
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Batesleigh Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-16T21:23:00+10:00",
+                "updated": "2020-07-16T21:24:00+10:00",
+                "id": "ESTA:200708864",
+                "location": "Batesleigh Rd, Selby",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.37997324934335,
+                    -37.919006384559566
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Anderson St",
                 "category": "other",
                 "subcategory": "other",
@@ -2727,6 +2796,29 @@
                 "coordinates": [
                     146.79088543156556,
                     -37.97877779650151
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Norlane",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-07-16T21:53:38+10:00",
+                "updated": "2020-07-16T21:53:38+10:00",
+                "id": "ESTA:200708869",
+                "location": "Norlane, Norlane",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3563649732682,
+                    -38.091436242195094
                 ]
             }
         },
@@ -2756,35 +2848,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Perry St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-16T21:36:27+10:00",
-                "updated": "2020-07-16T21:36:27+10:00",
-                "id": "ESTA:200708868",
-                "location": "Perry St, Wangaratta",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.31829543888955,
-                    -36.3609503309662
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
-                "status": "on scene",
+                "status": "complete",
                 "created": "2020-07-16T20:20:00+10:00",
-                "updated": "2020-07-16T20:44:00+10:00",
+                "updated": "2020-07-16T21:57:00+10:00",
                 "id": "ESTA:200750745",
                 "location": "Darley",
                 "title": "incident: other"

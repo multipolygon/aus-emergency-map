@@ -66,10 +66,10 @@
                 "sourceTitle": "PIPPINGARRA",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "on scene",
+                "status": "monitoring",
                 "id": "2056822-488695",
                 "created": "2020-07-13T18:01:08+08:00",
-                "updated": "2020-07-16T08:33:18+08:00",
+                "updated": "2020-07-16T10:13:58+08:00",
                 "location": "PIPPINGARRA",
                 "size": "",
                 "description": "Bushfire",
@@ -182,6 +182,31 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    116.63041,
+                    -30.1055
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WUBIN",
+                "category": "road crash",
+                "subcategory": "road crash",
+                "status": "responding",
+                "id": "2057720-488928",
+                "created": "2020-07-16T10:07:18+08:00",
+                "updated": "2020-07-16T10:11:02+08:00",
+                "location": "WUBIN",
+                "size": "",
+                "description": "Road Crash",
+                "title": "incident: road crash"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     117.882835,
                     -35.021114
                 ]
@@ -241,38 +266,13 @@
                 "sourceTitle": "WEST KALGOORLIE",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2057703-488925",
                 "created": "2020-07-16T09:41:14+08:00",
-                "updated": "2020-07-16T09:49:54+08:00",
+                "updated": "2020-07-16T10:08:40+08:00",
                 "location": "WEST KALGOORLIE",
                 "size": "",
                 "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.73072,
-                    -32.51997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "MANDURAH",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "on scene",
-                "id": "2057705-488926",
-                "created": "2020-07-16T09:42:51+08:00",
-                "updated": "2020-07-16T09:54:03+08:00",
-                "location": "MANDURAH",
-                "size": "",
-                "description": "Fire",
                 "title": "incident: fire"
             }
         }

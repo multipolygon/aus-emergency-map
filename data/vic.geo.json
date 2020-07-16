@@ -2596,23 +2596,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Piper St",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "safe",
-                "created": "2020-07-16T13:25:00+10:00",
-                "updated": "2020-07-16T14:18:00+10:00",
-                "id": "ESTA:200708633",
-                "location": "Piper St, Kyneton",
+                "sourceTitle": "Wilson St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-16T14:41:35+10:00",
+                "updated": "2020-07-16T14:41:35+10:00",
+                "id": "ESTA:200708696",
+                "location": "Wilson St, Wodonga",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.44699641456253,
-                    -37.24417901378451
+                    146.8847202748631,
+                    -36.13121966265941
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thames Bvd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-07-16T14:39:00+10:00",
+                "updated": "2020-07-16T14:39:00+10:00",
+                "id": "ESTA:200708695",
+                "location": "Thames Bvd, Tarneit",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6593211058216,
+                    -37.861323984312676
                 ]
             }
         },
@@ -2642,67 +2665,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Vines Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-16T14:25:11+10:00",
-                "updated": "2020-07-16T14:25:11+10:00",
-                "id": "ESTA:200708679",
-                "location": "Vines Rd, Hamlyn Heights",
+                "sourceTitle": "Piper St",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "safe",
+                "created": "2020-07-16T13:25:00+10:00",
+                "updated": "2020-07-16T14:18:00+10:00",
+                "id": "ESTA:200708633",
+                "location": "Piper St, Kyneton",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.32747428807696,
-                    -38.12637761530769
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dandenong North",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-16T14:22:57+10:00",
-                "updated": "2020-07-16T14:25:12+10:00",
-                "id": "ESTA:200708680",
-                "location": "Brady Rd, Dandenong North",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.22347531200313,
-                    -37.95519900645022
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-07-16T13:54:00+10:00",
-                "updated": "2020-07-16T14:28:00+10:00",
-                "id": "ESTA:200750735",
-                "location": "Drumborg",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.58450347468045,
-                    -38.07607481894021
+                    144.44699641456253,
+                    -37.24417901378451
                 ]
             }
         },
@@ -2755,6 +2734,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "William St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-16T14:44:10+10:00",
+                "updated": "2020-07-16T14:44:10+10:00",
+                "id": "ESTA:200708697",
+                "location": "William St, Melbourne",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9585903142345,
+                    -37.81595402408544
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Vines Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-07-16T14:40:59+10:00",
+                "updated": "2020-07-16T14:40:59+10:00",
+                "id": "ESTA:200708679",
+                "location": "Vines Rd, Hamlyn Heights",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.32747428807696,
+                    -38.12637761530769
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Margaret St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-16T14:37:50+10:00",
+                "updated": "2020-07-16T14:37:50+10:00",
+                "id": "ESTA:200708690",
+                "location": "Margaret St, Moe",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.24757630612677,
+                    -38.191501824539436
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Buncle St",
                 "category": "other",
                 "subcategory": "other",
@@ -2772,28 +2820,6 @@
                 "coordinates": [
                     144.94061789965497,
                     -37.793096912529606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2020-07-16T13:52:00+10:00",
-                "updated": "2020-07-16T14:25:00+10:00",
-                "id": "ESTA:200750734",
-                "location": "Romsey",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.74489453361605,
-                    -37.352535927059
                 ]
             }
         }

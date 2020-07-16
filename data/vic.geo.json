@@ -2596,12 +2596,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Groves St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-16T23:44:00+10:00",
+                "updated": "2020-07-16T23:56:00+10:00",
+                "id": "ESTA:200708891",
+                "location": "Groves St, Aspendale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10118884586097,
+                    -38.027808457854775
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Duke St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-16T23:37:00+10:00",
+                "updated": "2020-07-17T00:20:00+10:00",
+                "id": "ESTA:200708890",
+                "location": "Duke St, Kangaroo Flat",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.23258611493495,
+                    -36.803536640465936
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Rennie St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-07-17T00:14:00+10:00",
-                "updated": "2020-07-17T00:14:00+10:00",
+                "updated": "2020-07-17T00:28:00+10:00",
                 "id": "ESTA:200708895",
                 "location": "Rennie St, Great Western",
                 "size": "Small",
@@ -2619,14 +2665,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Groves St",
+                "sourceTitle": "Maintongoon Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-16T23:56:21+10:00",
-                "updated": "2020-07-16T23:56:21+10:00",
-                "id": "ESTA:200708891",
-                "location": "Groves St, Aspendale",
+                "created": "2020-07-17T00:28:00+10:00",
+                "updated": "2020-07-17T00:30:00+10:00",
+                "id": "ESTA:200708896",
+                "location": "Maintongoon Rd, Alexandra",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2634,31 +2680,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10119587259717,
-                    -38.02780676521398
+                    145.71180486871953,
+                    -37.16501426370318
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Duke St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-16T23:53:55+10:00",
-                "updated": "2020-07-16T23:53:55+10:00",
-                "id": "ESTA:200708890",
-                "location": "Duke St, Kangaroo Flat",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2020-07-17T00:09:00+10:00",
+                "updated": "2020-07-17T00:21:00+10:00",
+                "id": "ESTA:200708894",
+                "location": "Craigieburn",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.2325908552382,
-                    -36.80353153911971
+                    144.94711586501253,
+                    -37.59972012840154
                 ]
             }
         },
@@ -2682,29 +2728,6 @@
                 "coordinates": [
                     144.94061789965497,
                     -37.793096912529606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "request for assistance",
-                "created": "2020-07-17T00:09:00+10:00",
-                "updated": "2020-07-17T00:11:00+10:00",
-                "id": "ESTA:200708894",
-                "location": "Craigieburn",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94583038235228,
-                    -37.60651083655794
                 ]
             }
         }

@@ -2260,9 +2260,9 @@
                 "sourceTitle": "Minimay - Bank Of Australia Traditional Burn",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2020-07-17T13:11:56+10:00",
-                "updated": "2020-07-17T13:11:56+10:00",
+                "status": "patrolled",
+                "created": "2020-07-18T08:29:33+10:00",
+                "updated": "2020-07-18T08:29:33+10:00",
                 "id": 3001111,
                 "location": "7Km Sw Of Minimay",
                 "size": "56.77",
@@ -2303,36 +2303,13 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-18T08:16:00+10:00",
-                "updated": "2020-07-18T08:19:00+10:00",
-                "id": "ESTA:200709811",
-                "location": "East Warburton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.7674196291548,
-                    -37.72311749277659
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Callop St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-18T08:22:00+10:00",
-                "updated": "2020-07-18T08:25:00+10:00",
-                "id": "ESTA:200709816",
+                "status": "responding",
+                "created": "2020-07-18T08:59:00+10:00",
+                "updated": "2020-07-18T08:59:00+10:00",
+                "id": "ESTA:200709856",
                 "location": "Callop St, East Warburton",
                 "size": "Small",
                 "title": "incident: fire"
@@ -3642,23 +3619,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Harkaway Rd",
-                "category": "other",
+                "sourceTitle": "Callop St",
+                "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-18T07:27:00+10:00",
-                "updated": "2020-07-18T07:51:00+10:00",
-                "id": "ESTA:200709790",
-                "location": "Harkaway Rd, Berwick",
+                "created": "2020-07-18T08:22:00+10:00",
+                "updated": "2020-07-18T08:25:00+10:00",
+                "id": "ESTA:200709816",
+                "location": "Callop St, East Warburton",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3478734647339,
-                    -38.02648801580185
+                    145.76522731115662,
+                    -37.721895846338306
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-18T08:16:00+10:00",
+                "updated": "2020-07-18T08:19:00+10:00",
+                "id": "ESTA:200709811",
+                "location": "East Warburton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.7674196291548,
+                    -37.72311749277659
                 ]
             }
         },
@@ -3688,14 +3688,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "West Melbourne",
+                "sourceTitle": "Husseys Lane",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-18T08:26:43+10:00",
-                "updated": "2020-07-18T08:26:43+10:00",
-                "id": "ESTA:200709814",
-                "location": "West Melbourne, West Melbourne",
+                "created": "2020-07-18T08:52:41+10:00",
+                "updated": "2020-07-18T08:52:41+10:00",
+                "id": "ESTA:200709831",
+                "location": "Husseys Lane, Warrandyte",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -3703,8 +3703,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94484345723606,
-                    -37.8061545624557
+                    145.22186911258544,
+                    -37.761442810412476
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Raleigh St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-07-18T08:53:54+10:00",
+                "updated": "2020-07-18T08:53:54+10:00",
+                "id": "ESTA:200709835",
+                "location": "Raleigh St, Windsor",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9827055181417,
+                    -37.852053851600935
                 ]
             }
         },
@@ -3728,29 +3751,6 @@
                 "coordinates": [
                     144.94061789965497,
                     -37.793096912529606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Raleigh St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-18T08:40:35+10:00",
-                "updated": "2020-07-18T08:40:35+10:00",
-                "id": "ESTA:200709835",
-                "location": "Raleigh St, Windsor",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9827055181417,
-                    -37.852053851600935
                 ]
             }
         },

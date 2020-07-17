@@ -2303,23 +2303,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mellis St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-17T23:45:00+10:00",
-                "updated": "2020-07-18T01:05:00+10:00",
-                "id": "ESTA:200709755",
-                "location": "Mellis St, Red Cliffs",
+                "sourceTitle": "High St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-18T01:38:45+10:00",
+                "updated": "2020-07-18T01:38:45+10:00",
+                "id": "ESTA:200709764",
+                "location": "High St, Golden Square",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.168553355512,
-                    -34.27588451031789
+                    144.25890767796722,
+                    -36.77215467891354
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Werribee South",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-18T01:41:44+10:00",
+                "updated": "2020-07-18T01:41:44+10:00",
+                "id": "ESTA:200709765",
+                "location": "Werribee South, Werribee South",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.68135525558662,
+                    -37.91198011004284
                 ]
             }
         },
@@ -3596,14 +3619,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Langi Kal Kal Rd",
+                "sourceTitle": "Mellis St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-07-18T00:58:00+10:00",
-                "updated": "2020-07-18T00:58:00+10:00",
-                "id": "ESTA:200709763",
-                "location": "Langi Kal Kal Rd, Langi Kal Kal",
+                "status": "safe",
+                "created": "2020-07-17T23:45:00+10:00",
+                "updated": "2020-07-18T01:05:00+10:00",
+                "id": "ESTA:200709755",
+                "location": "Mellis St, Red Cliffs",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3611,8 +3634,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.48829793921175,
-                    -37.40653259185215
+                    142.168553355512,
+                    -34.27588451031789
                 ]
             }
         },

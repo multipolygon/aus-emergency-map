@@ -2303,59 +2303,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-07-18T12:35:00+10:00",
-                "updated": "2020-07-18T12:38:00+10:00",
-                "id": "ESTA:200750782",
-                "location": "Mount Martha",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03104478862204,
-                    -38.270953339088514
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Huntly",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-07-18T12:36:44+10:00",
-                "updated": "2020-07-18T12:36:44+10:00",
-                "id": "ESTA:200710233",
-                "location": "Huntly, Huntly",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.30450331304735,
-                    -36.67232688600251
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-07-18T12:43:00+10:00",
-                "updated": "2020-07-18T12:43:00+10:00",
-                "id": "ESTA:200710266",
-                "location": "Maryborough",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-07-18T12:18:00+10:00",
+                "updated": "2020-07-18T12:37:00+10:00",
+                "id": "ESTA:200710233",
+                "location": "Huntly",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2363,8 +2318,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.74373758511675,
-                    -37.05337465039161
+                    144.30449861322487,
+                    -36.67233506863031
                 ]
             }
         },
@@ -2374,9 +2329,9 @@
                 "sourceTitle": "Poulter Cr",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-07-18T12:43:48+10:00",
-                "updated": "2020-07-18T12:43:48+10:00",
+                "status": "safe",
+                "created": "2020-07-18T12:52:28+10:00",
+                "updated": "2020-07-18T12:52:28+10:00",
                 "id": "ESTA:200710265",
                 "location": "Poulter Cr, Clarinda",
                 "size": "Small",
@@ -2388,6 +2343,52 @@
                 "coordinates": [
                     145.09920778849664,
                     -37.94521063925454
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brunswick St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-07-18T12:54:37+10:00",
+                "updated": "2020-07-18T12:54:37+10:00",
+                "id": "ESTA:200710274",
+                "location": "Brunswick St, Fitzroy",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97815223318045,
+                    -37.80147099816597
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-18T12:43:00+10:00",
+                "updated": "2020-07-18T13:02:00+10:00",
+                "id": "ESTA:200710266",
+                "location": "Maryborough",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.7439524095818,
+                    -37.052783930925
                 ]
             }
         },
@@ -6957,12 +6958,35 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-18T12:52:00+10:00",
+                "updated": "2020-07-18T12:52:00+10:00",
+                "id": "ESTA:200710280",
+                "location": "Apollo Bay",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.6739444090792,
+                    -38.76219232181962
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "request for assistance",
+                "subcategory": "road accident",
+                "status": "safe",
                 "created": "2020-07-18T11:53:00+10:00",
-                "updated": "2020-07-18T12:03:00+10:00",
+                "updated": "2020-07-18T12:30:00+10:00",
                 "id": "ESTA:200710172",
                 "location": "Bayswater",
                 "size": "Small",
@@ -7026,12 +7050,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "South Valley Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-18T12:51:47+10:00",
+                "updated": "2020-07-18T12:51:47+10:00",
+                "id": "ESTA:200710214",
+                "location": "South Valley Rd, Park Orchards",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21447748056846,
+                    -37.77632314327817
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Victoria Pde",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-18T12:33:47+10:00",
-                "updated": "2020-07-18T12:33:47+10:00",
+                "status": "safe",
+                "created": "2020-07-18T13:00:18+10:00",
+                "updated": "2020-07-18T13:00:18+10:00",
                 "id": "ESTA:200710248",
                 "location": "Victoria Pde, Fitzroy",
                 "size": "Small",
@@ -7066,6 +7113,28 @@
                 "coordinates": [
                     144.94061789965497,
                     -37.793096912529606
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-07-18T12:35:00+10:00",
+                "updated": "2020-07-18T12:38:00+10:00",
+                "id": "ESTA:200750782",
+                "location": "Mount Martha",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03104478862204,
+                    -38.270953339088514
                 ]
             }
         }

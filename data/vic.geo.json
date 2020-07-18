@@ -2257,69 +2257,91 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Marshall Rd",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-07-18T20:37:00+10:00",
+                "updated": "2020-07-18T23:33:00+10:00",
+                "id": "ESTA:200750794",
+                "location": "Hoppers Crossing",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.68491399734125,
+                    -37.88395289460348
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Farm Rd",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-07-18T23:36:28+10:00",
+                "updated": "2020-07-18T23:36:28+10:00",
+                "id": "ESTA:200710775",
+                "location": "Farm Rd, Heatherton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.08967373578244,
+                    -37.96426419064234
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Footscray",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-07-18T23:21:30+10:00",
-                "updated": "2020-07-18T23:21:30+10:00",
-                "id": "ESTA:200710770",
-                "location": "Marshall Rd, Airport West",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.88448548650263,
-                    -37.71725262860411
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-18T22:46:00+10:00",
-                "updated": "2020-07-18T22:57:00+10:00",
-                "id": "ESTA:200710765",
-                "location": "Traralgon",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.47984023129226,
-                    -38.20076908688257
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pentridge Bvd",
-                "category": "other",
-                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-07-18T23:30:27+10:00",
-                "updated": "2020-07-18T23:30:27+10:00",
-                "id": "ESTA:200710773",
-                "location": "Pentridge Bvd, Coburg",
+                "created": "2020-07-18T23:40:06+10:00",
+                "updated": "2020-07-18T23:40:06+10:00",
+                "id": "ESTA:200710776",
+                "location": "Footscray, Footscray",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96760797359244,
-                    -37.73709067285526
+                    144.89107167928714,
+                    -37.790863684345666
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kathryn Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-07-18T23:44:41+10:00",
+                "updated": "2020-07-18T23:44:41+10:00",
+                "id": "ESTA:200710777",
+                "location": "Kathryn Rd, Knoxfield",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.25106854330068,
+                    -37.88365148118194
                 ]
             }
         },
@@ -6911,12 +6933,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Pericoe Rd, Towamba",
+                "category": "transport",
+                "subcategory": "motor vehicle accident",
+                "status": "out of control",
+                "created": "2020-07-18T23:32:00+10:00",
+                "updated": "2020-07-18T23:32:00+10:00",
+                "id": "2020-07-18T23:32:00.0000000:387041",
+                "location": "Pericoe Rd, Towamba, Nsw 2550",
+                "title": "incident: transport"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.685095,
+                    -37.0832809999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Claremont Cr",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-07-18T22:29:50+10:00",
-                "updated": "2020-07-18T22:29:50+10:00",
+                "status": "safe",
+                "created": "2020-07-18T20:35:00+10:00",
+                "updated": "2020-07-18T23:38:00+10:00",
                 "id": "ESTA:200710742",
                 "location": "Claremont Cr, Hoppers Crossing",
                 "size": "Small",
@@ -6926,22 +6970,45 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.6849180889745,
-                    -37.88395111159003
+                    144.68491399734125,
+                    -37.88395289460348
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Collingwood",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-18T22:46:00+10:00",
+                "updated": "2020-07-18T22:57:00+10:00",
+                "id": "ESTA:200710765",
+                "location": "Traralgon",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.47984023129226,
+                    -38.20076908688257
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Torquay Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-07-18T23:18:20+10:00",
-                "updated": "2020-07-18T23:18:20+10:00",
-                "id": "ESTA:200710771",
-                "location": "Collingwood, Collingwood",
+                "status": "safe",
+                "created": "2020-07-18T23:42:24+10:00",
+                "updated": "2020-07-18T23:42:24+10:00",
+                "id": "ESTA:200710768",
+                "location": "Torquay Rd, Belmont",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -6949,8 +7016,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.98510318763616,
-                    -37.79408377726627
+                    144.3444510897349,
+                    -38.185803152250315
                 ]
             }
         },
@@ -6974,29 +7041,6 @@
                 "coordinates": [
                     144.94061789965497,
                     -37.793096912529606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Torquay Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-18T23:13:47+10:00",
-                "updated": "2020-07-18T23:13:47+10:00",
-                "id": "ESTA:200710768",
-                "location": "Torquay Rd, Belmont",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3444510897349,
-                    -38.185803152250315
                 ]
             }
         },
@@ -7041,28 +7085,6 @@
                 "coordinates": [
                     145.0431210854967,
                     -37.867385186252655
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-07-18T20:37:00+10:00",
-                "updated": "2020-07-18T21:06:00+10:00",
-                "id": "ESTA:200750794",
-                "location": "Hoppers Crossing",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.68491399734125,
-                    -37.88395289460348
                 ]
             }
         }

@@ -2257,12 +2257,56 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-07-19T03:16:00+10:00",
+                "updated": "2020-07-19T03:23:00+10:00",
+                "id": "ESTA:200750800",
+                "location": "Kew",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02054493219012,
+                    -37.80871930001628
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Port Melbourne",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-07-19T03:22:22+10:00",
+                "updated": "2020-07-19T03:23:42+10:00",
+                "id": "ESTA:200710794",
+                "location": "Dunstan Pde, Port Melbourne",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.92285076923093,
+                    -37.836962175259
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Moonda Gr",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2020-07-19T03:07:28+10:00",
-                "updated": "2020-07-19T03:07:28+10:00",
+                "created": "2020-07-19T03:26:34+10:00",
+                "updated": "2020-07-19T03:26:34+10:00",
                 "id": "ESTA:200710789",
                 "location": "Moonda Gr, Cheltenham",
                 "size": "Small",
@@ -2274,6 +2318,29 @@
                 "coordinates": [
                     145.0667689991957,
                     -37.96769366839435
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fitzroy St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-19T03:27:40+10:00",
+                "updated": "2020-07-19T03:27:40+10:00",
+                "id": "ESTA:200710795",
+                "location": "Fitzroy St, St Kilda",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9794652159449,
+                    -37.8588467944075
                 ]
             }
         },
@@ -7531,28 +7598,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pericoe Rd, Towamba",
-                "category": "transport",
-                "subcategory": "motor vehicle accident",
-                "status": "under control",
-                "created": "2020-07-18T23:51:00+10:00",
-                "updated": "2020-07-18T23:51:00+10:00",
-                "id": "2020-07-18T23:51:00.0000000:387041",
-                "location": "Pericoe Rd, Towamba, Nsw 2550",
-                "title": "incident: transport"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.685095,
-                    -37.0832809999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Bull Plain Rd, Rennie",
                 "category": "fire",
                 "subcategory": "grass fire",
@@ -7575,23 +7620,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Power St",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Pericoe Rd, Towamba",
+                "category": "transport",
+                "subcategory": "motor vehicle accident",
                 "status": "under control",
-                "created": "2020-07-19T02:03:27+10:00",
-                "updated": "2020-07-19T02:03:27+10:00",
-                "id": "ESTA:200710785",
-                "location": "Power St, St Albans",
-                "size": "Small",
-                "title": "incident: fire"
+                "created": "2020-07-18T23:51:00+10:00",
+                "updated": "2020-07-18T23:51:00+10:00",
+                "id": "2020-07-18T23:51:00.0000000:387041",
+                "location": "Pericoe Rd, Towamba, Nsw 2550",
+                "title": "incident: transport"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7958080395119,
-                    -37.729766916685435
+                    149.685095,
+                    -37.0832809999999
                 ]
             }
         },
@@ -7615,29 +7659,6 @@
                 "coordinates": [
                     144.94061789965497,
                     -37.793096912529606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dunstan Pde",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-19T02:55:10+10:00",
-                "updated": "2020-07-19T02:55:10+10:00",
-                "id": "ESTA:200710792",
-                "location": "Dunstan Pde, Port Melbourne",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.92284929837408,
-                    -37.83696570627387
                 ]
             }
         },

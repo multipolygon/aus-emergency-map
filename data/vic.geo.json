@@ -2257,14 +2257,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pearson St",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2020-07-18T20:49:00+10:00",
+                "updated": "2020-07-18T21:26:00+10:00",
+                "id": "ESTA:200710746",
+                "location": "Katunga",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4317928426963,
+                    -35.98447106117655
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Napier St",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-07-18T21:01:56+10:00",
-                "updated": "2020-07-18T21:01:56+10:00",
-                "id": "ESTA:200710750",
-                "location": "Pearson St, Brunswick West",
+                "created": "2020-07-18T20:49:00+10:00",
+                "updated": "2020-07-18T21:06:00+10:00",
+                "id": "ESTA:200710747",
+                "location": "Napier St, Black Hill",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2272,8 +2295,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94932161362564,
-                    -37.766556940079944
+                    143.87074457394718,
+                    -37.55223135881869
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-07-18T20:21:00+10:00",
+                "updated": "2020-07-18T21:14:00+10:00",
+                "id": "ESTA:200710732",
+                "location": "Buninyong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.89217636919759,
+                    -37.66289806377842
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bonnington St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-18T21:16:00+10:00",
+                "updated": "2020-07-18T21:18:00+10:00",
+                "id": "ESTA:200710754",
+                "location": "Bonnington St, Jackass Flat",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.2808169874808,
+                    -36.71196266888024
                 ]
             }
         },
@@ -2283,9 +2352,9 @@
                 "sourceTitle": "Mellis St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-18T21:00:44+10:00",
-                "updated": "2020-07-18T21:00:44+10:00",
+                "status": "safe",
+                "created": "2020-07-18T21:23:30+10:00",
+                "updated": "2020-07-18T21:23:30+10:00",
                 "id": "ESTA:200710745",
                 "location": "Mellis St, Red Cliffs",
                 "size": "Small",
@@ -2297,97 +2366,6 @@
                 "coordinates": [
                     142.1685595439867,
                     -34.27587645182485
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Napier St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-07-18T21:06:03+10:00",
-                "updated": "2020-07-18T21:06:03+10:00",
-                "id": "ESTA:200710747",
-                "location": "Napier St, Black Hill",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.87074955390653,
-                    -37.55222608132495
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Norman St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-07-18T21:10:02+10:00",
-                "updated": "2020-07-18T21:10:02+10:00",
-                "id": "ESTA:200710753",
-                "location": "Norman St, Wendouree",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.81977323812097,
-                    -37.53234970033161
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Buninyong",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-07-18T21:14:20+10:00",
-                "updated": "2020-07-18T21:14:20+10:00",
-                "id": "ESTA:200710732",
-                "location": "Buninyong, Buninyong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.89217698918608,
-                    -37.66289690891795
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jackass Flat",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-18T21:15:24+10:00",
-                "updated": "2020-07-18T21:15:51+10:00",
-                "id": "ESTA:200710754",
-                "location": "Bonnington St, Jackass Flat",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.28083252212267,
-                    -36.71195380920529
                 ]
             }
         },
@@ -6979,23 +6957,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-07-18T20:49:00+10:00",
-                "updated": "2020-07-18T21:07:00+10:00",
-                "id": "ESTA:200710746",
-                "location": "Katunga",
+                "sourceTitle": "Norman St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-18T21:10:02+10:00",
+                "updated": "2020-07-18T21:10:02+10:00",
+                "id": "ESTA:200710753",
+                "location": "Norman St, Wendouree",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.4317928426963,
-                    -35.98447106117655
+                    143.81977323812097,
+                    -37.53234970033161
                 ]
             }
         },
@@ -7117,29 +7095,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rennie St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-07-18T20:19:00+10:00",
-                "updated": "2020-07-18T20:19:00+10:00",
-                "id": "ESTA:200710728",
-                "location": "Rennie St, Coburg",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97612410909653,
-                    -37.75133795488207
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Centre Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -7157,6 +7112,29 @@
                 "coordinates": [
                     145.04024924872155,
                     -37.91881973770016
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Broadmeadows",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-07-18T21:27:07+10:00",
+                "updated": "2020-07-18T21:27:07+10:00",
+                "id": "ESTA:200710755",
+                "location": "Broadmeadows, Broadmeadows",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.92216444611677,
+                    -37.66375170514464
                 ]
             }
         },

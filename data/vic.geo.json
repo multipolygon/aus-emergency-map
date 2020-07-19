@@ -2257,55 +2257,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Trethowan St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-19T09:37:17+10:00",
-                "updated": "2020-07-19T09:37:17+10:00",
-                "id": "ESTA:200710886",
-                "location": "Trethowan St, Mount Pleasant",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.8586054447722,
-                    -37.57771256333024
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-07-19T09:42:00+10:00",
-                "updated": "2020-07-19T09:43:00+10:00",
-                "id": "ESTA:200750810",
-                "location": "Maffra",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.97108384065504,
-                    -37.96406172358233
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Barwon Heads Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-07-19T09:43:00+10:00",
                 "updated": "2020-07-19T09:43:00+10:00",
                 "id": "ESTA:200710890",
@@ -2325,14 +2280,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Manorwoods Dr",
+                "sourceTitle": "Bruce Dr",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-07-19T09:42:17+10:00",
-                "updated": "2020-07-19T09:42:17+10:00",
-                "id": "ESTA:200710873",
-                "location": "Manorwoods Dr, Frankston",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-07-19T09:58:43+10:00",
+                "updated": "2020-07-19T09:58:43+10:00",
+                "id": "ESTA:200710904",
+                "location": "Bruce Dr, Sebastopol",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2340,8 +2295,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1720287283245,
-                    -38.14307673315492
+                    143.83853277913968,
+                    -37.591586291262466
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-07-19T08:55:00+10:00",
+                "updated": "2020-07-19T09:58:00+10:00",
+                "id": "ESTA:200750808",
+                "location": "Warragul South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.91317188616094,
+                    -38.21861019446857
                 ]
             }
         },
@@ -2353,9 +2330,9 @@
                 "category": "met",
                 "subcategory": "gale wind",
                 "status": "warning",
-                "created": "2020-07-19T05:00:00+10:00",
+                "created": "2020-07-19T10:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/e14aa07c7fcda7e01b2e4e0c0555ef66",
+                "id": "IDV20600/759fccf776e8a9d6645dc4996eb5da26",
                 "location": "West Coast, Central Coast, Central Gippsland Coast and East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -3643,9 +3620,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-07-19T05:00:00+10:00",
+                "created": "2020-07-19T10:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/309a9e5fc095e29f4a89d6305897f174",
+                "id": "IDV20600/9f2c873cbdd804c43346ebfeaab5f1b5",
                 "location": "Port Phillip and Western Port",
                 "title": "incident: met"
             },
@@ -7621,12 +7598,58 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Stephens St",
+                "sourceTitle": "Trethowan St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-19T09:37:00+10:00",
+                "updated": "2020-07-19T09:49:00+10:00",
+                "id": "ESTA:200710886",
+                "location": "Trethowan St, Mount Pleasant",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8586019590133,
+                    -37.577720019296315
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Manorwoods Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-07-19T09:46:25+10:00",
+                "updated": "2020-07-19T09:46:25+10:00",
+                "id": "ESTA:200710873",
+                "location": "Manorwoods Dr, Frankston",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1720287283245,
+                    -38.14307673315492
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Stephens St",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-07-19T09:29:55+10:00",
-                "updated": "2020-07-19T09:29:55+10:00",
+                "created": "2020-07-19T09:12:00+10:00",
+                "updated": "2020-07-19T09:30:00+10:00",
                 "id": "ESTA:200710859",
                 "location": "Stephens St, Warrnambool",
                 "size": "Small",
@@ -7636,77 +7659,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.47106853083505,
-                    -38.391436241897345
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Spray St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-19T08:48:00+10:00",
-                "updated": "2020-07-19T09:05:00+10:00",
-                "id": "ESTA:200710846",
-                "location": "Spray St, Frankston",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13473597938594,
-                    -38.13475485098804
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Paulson St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-19T08:42:00+10:00",
-                "updated": "2020-07-19T08:56:00+10:00",
-                "id": "ESTA:200710842",
-                "location": "Paulson St, Corio",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3422935946066,
-                    -38.07559342873207
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bonang Ct",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-19T08:37:00+10:00",
-                "updated": "2020-07-19T08:55:00+10:00",
-                "id": "ESTA:200710840",
-                "location": "Bonang Ct, Corio",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.35040897914735,
-                    -38.0756055929995
+                    142.47106157224763,
+                    -38.391440990247155
                 ]
             }
         },
@@ -7736,14 +7690,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tandarook Cr",
+                "sourceTitle": "Melton Hwy",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-19T09:31:37+10:00",
-                "updated": "2020-07-19T09:31:37+10:00",
-                "id": "ESTA:200710778",
-                "location": "Tandarook Cr, Donvale",
+                "created": "2020-07-19T09:53:48+10:00",
+                "updated": "2020-07-19T09:53:48+10:00",
+                "id": "ESTA:200710893",
+                "location": "Melton Hwy, Fraser Rise",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -7751,8 +7705,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20470920512102,
-                    -37.79929810501898
+                    144.72381159659045,
+                    -37.69028298680614
                 ]
             }
         },
@@ -7806,21 +7760,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "building damage",
+                "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2020-07-19T08:55:00+10:00",
-                "updated": "2020-07-19T09:28:00+10:00",
-                "id": "ESTA:200750808",
-                "location": "Warragul South",
-                "title": "incident: tree down"
+                "created": "2020-07-19T09:42:00+10:00",
+                "updated": "2020-07-19T09:48:00+10:00",
+                "id": "ESTA:200750810",
+                "location": "Maffra",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.91317188616094,
-                    -38.21861019446857
+                    146.97108384065504,
+                    -37.96406172358233
                 ]
             }
         }

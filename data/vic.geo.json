@@ -2232,52 +2232,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lugano Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-20T03:04:00+10:00",
-                "updated": "2020-07-20T03:04:00+10:00",
-                "id": "ESTA:200711334",
-                "location": "Lugano Av, Dromana",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98147971248616,
-                    -38.33622545727386
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "High St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-20T03:15:45+10:00",
-                "updated": "2020-07-20T03:15:45+10:00",
-                "id": "ESTA:200711335",
-                "location": "High St, Melton West",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.56351171968478,
-                    -37.685003529132075
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -4320,12 +4274,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Lugano Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-20T03:04:00+10:00",
+                "updated": "2020-07-20T03:22:00+10:00",
+                "id": "ESTA:200711334",
+                "location": "Lugano Av, Dromana",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98147971248616,
+                    -38.33622545727386
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Long Tree Dr",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-20T02:37:10+10:00",
-                "updated": "2020-07-20T02:37:10+10:00",
+                "created": "2020-07-20T02:20:00+10:00",
+                "updated": "2020-07-20T02:37:00+10:00",
                 "id": "ESTA:200711330",
                 "location": "Long Tree Dr, Harkness",
                 "size": "Small",
@@ -4335,8 +4312,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.54005874650403,
-                    -37.66919221218893
+                    144.54005711877403,
+                    -37.66919729208275
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "High St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-20T03:23:43+10:00",
+                "updated": "2020-07-20T03:23:43+10:00",
+                "id": "ESTA:200711335",
+                "location": "High St, Melton West",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.56351171968478,
+                    -37.685003529132075
                 ]
             }
         },

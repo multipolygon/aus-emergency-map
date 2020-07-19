@@ -2257,22 +2257,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Epping",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "unknown",
-                "created": "2020-07-19T14:19:33+10:00",
-                "updated": "2020-07-19T15:42:55+10:00",
-                "id": "ESTA:200711147",
-                "location": "Epping",
-                "title": "incident: rescue"
+                "sourceTitle": "Maintongoon Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-19T16:02:00+10:00",
+                "updated": "2020-07-19T16:02:00+10:00",
+                "id": "ESTA:200711195",
+                "location": "Maintongoon Rd, Bonnie Doon",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99914988605832,
-                    -37.649011453188315
+                    145.85813902979754,
+                    -37.058701162035824
                 ]
             }
         },
@@ -2280,21 +2281,44 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
+                "category": "building damage",
+                "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2020-07-19T15:50:00+10:00",
-                "updated": "2020-07-19T15:54:00+10:00",
-                "id": "ESTA:200750832",
-                "location": "Seaford",
-                "title": "incident: flooding"
+                "created": "2020-07-19T16:11:00+10:00",
+                "updated": "2020-07-19T16:16:00+10:00",
+                "id": "ESTA:200750834",
+                "location": "Skipton",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.12939133656192,
-                    -38.107689224103495
+                    143.3586241288822,
+                    -37.68267659493172
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Turnbridge Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-19T16:15:06+10:00",
+                "updated": "2020-07-19T16:15:06+10:00",
+                "id": "ESTA:200711197",
+                "location": "Turnbridge Rd, Officer",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.43250221739714,
+                    -38.07258651230128
                 ]
             }
         },
@@ -2305,32 +2329,32 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "complete",
-                "created": "2020-07-19T14:55:00+10:00",
-                "updated": "2020-07-19T15:50:00+10:00",
-                "id": "ESTA:200750829",
-                "location": "Ocean Grove",
+                "created": "2020-07-19T15:40:00+10:00",
+                "updated": "2020-07-19T16:15:00+10:00",
+                "id": "ESTA:200750831",
+                "location": "Cowleys Creek",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.55129311645328,
-                    -38.25830490632277
+                    143.03184303922444,
+                    -38.50278800930344
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Beaulieu Rd",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-19T15:34:00+10:00",
-                "updated": "2020-07-19T15:48:00+10:00",
-                "id": "ESTA:200711182",
-                "location": "Beaulieu Rd, Red Hill",
+                "created": "2020-07-19T16:13:00+10:00",
+                "updated": "2020-07-19T16:17:00+10:00",
+                "id": "ESTA:200711196",
+                "location": "Harkaway",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2338,31 +2362,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0110143361013,
-                    -38.3824074838719
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Richmond",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-19T15:59:14+10:00",
-                "updated": "2020-07-19T15:59:14+10:00",
-                "id": "ESTA:200711193",
-                "location": "Richmond, Richmond",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.00063597836572,
-                    -37.81057315952046
+                    145.38167960662338,
+                    -37.98488120550346
                 ]
             }
         },
@@ -7642,6 +7643,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Beaulieu Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-07-19T15:34:00+10:00",
+                "updated": "2020-07-19T15:48:00+10:00",
+                "id": "ESTA:200711182",
+                "location": "Beaulieu Rd, Red Hill",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0110143361013,
+                    -38.3824074838719
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Epping",
                 "category": "other",
                 "subcategory": "other",
@@ -7682,52 +7706,6 @@
                 "coordinates": [
                     144.2740839503814,
                     -36.725425587009106
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sassafras Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-19T14:58:00+10:00",
-                "updated": "2020-07-19T15:13:00+10:00",
-                "id": "ESTA:200711166",
-                "location": "Sassafras Dr, Frankston",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17180442930297,
-                    -38.146205761467655
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-07-19T14:47:00+10:00",
-                "updated": "2020-07-19T15:11:00+10:00",
-                "id": "ESTA:200711160",
-                "location": "Lake Gardens",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.82187853906316,
-                    -37.54093940523279
                 ]
             }
         },
@@ -7804,21 +7782,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "flooding",
+                "subcategory": "flooding",
                 "status": "request for assistance",
-                "created": "2020-07-19T15:40:00+10:00",
-                "updated": "2020-07-19T15:52:00+10:00",
-                "id": "ESTA:200750831",
-                "location": "Cowleys Creek",
-                "title": "incident: tree down"
+                "created": "2020-07-19T15:50:00+10:00",
+                "updated": "2020-07-19T16:17:00+10:00",
+                "id": "ESTA:200750832",
+                "location": "Seaford",
+                "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.03184303922444,
-                    -38.50278800930344
+                    145.12939133656192,
+                    -38.107689224103495
                 ]
             }
         },

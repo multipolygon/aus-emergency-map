@@ -2237,9 +2237,9 @@
                 "sourceTitle": "Scotch Pde",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-07-21T23:39:52+10:00",
-                "updated": "2020-07-21T23:39:52+10:00",
+                "status": "not yet under control",
+                "created": "2020-07-21T23:52:55+10:00",
+                "updated": "2020-07-21T23:52:55+10:00",
                 "id": "ESTA:200712173",
                 "location": "Scotch Pde, Bonbeach",
                 "size": "Small",
@@ -2257,23 +2257,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Elmo Rd",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Bonbeach",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-07-21T23:42:44+10:00",
-                "updated": "2020-07-21T23:42:44+10:00",
-                "id": "ESTA:200712174",
-                "location": "Elmo Rd, Montmorency",
-                "size": "Small",
-                "title": "incident: other"
+                "created": "2020-07-22T00:00:39+10:00",
+                "updated": "2020-07-22T00:01:37+10:00",
+                "id": "ESTA:200712175",
+                "location": "Scotch Pde, Bonbeach",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.13213220491053,
-                    -37.711081346247695
+                    145.12958110305888,
+                    -38.05541415380476
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maryborough",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-07-22T00:01:39+10:00",
+                "updated": "2020-07-22T00:02:17+10:00",
+                "id": "ESTA:200712176",
+                "location": "Maryborough-St Arnaud Rd, Maryborough",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.70430309616876,
+                    -37.042543837373834
                 ]
             }
         },
@@ -2283,9 +2304,9 @@
                 "sourceTitle": "Saunders Cr",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-07-21T23:36:08+10:00",
-                "updated": "2020-07-21T23:36:08+10:00",
+                "status": "under control",
+                "created": "2020-07-21T23:46:12+10:00",
+                "updated": "2020-07-21T23:46:12+10:00",
                 "id": "ESTA:200712172",
                 "location": "Saunders Cr, Traralgon",
                 "size": "Small",
@@ -2366,6 +2387,29 @@
                 "coordinates": [
                     145.1225538492198,
                     -38.05740888996409
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elmo Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-07-21T23:55:46+10:00",
+                "updated": "2020-07-21T23:55:46+10:00",
+                "id": "ESTA:200712174",
+                "location": "Elmo Rd, Montmorency",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13213220491053,
+                    -37.711081346247695
                 ]
             }
         },

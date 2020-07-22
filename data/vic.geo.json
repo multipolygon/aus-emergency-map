@@ -2390,14 +2390,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Werribee",
+                "sourceTitle": "Castletown Bvd",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-07-22T23:18:45+10:00",
-                "updated": "2020-07-22T23:18:45+10:00",
-                "id": "ESTA:200712677",
-                "location": "Werribee, Werribee",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-22T23:37:51+10:00",
+                "updated": "2020-07-22T23:37:51+10:00",
+                "id": "ESTA:200712690",
+                "location": "Castletown Bvd, Weir Views",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2405,8 +2405,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.63130977895682,
-                    -37.92529747197542
+                    144.57366015062587,
+                    -37.73111985928358
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wollert",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-22T19:08:42+10:00",
+                "updated": "2020-07-22T23:38:33+10:00",
+                "id": "ESTA:200712651",
+                "location": "Mombassa Dr, Wollert",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01709077147876,
+                    -37.609469383916014
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Collins St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-07-22T23:38:47+10:00",
+                "updated": "2020-07-22T23:38:47+10:00",
+                "id": "ESTA:200712688",
+                "location": "Collins St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9549883821722,
+                    -37.81861068650572
                 ]
             }
         },
@@ -2436,6 +2481,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Werribee",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-07-22T23:18:45+10:00",
+                "updated": "2020-07-22T23:18:45+10:00",
+                "id": "ESTA:200712677",
+                "location": "Werribee, Werribee",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.63130977895682,
+                    -37.92529747197542
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
@@ -2453,52 +2521,6 @@
                 "coordinates": [
                     145.37728062243116,
                     -38.053230599237814
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mombassa Dr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-07-22T22:45:18+10:00",
-                "updated": "2020-07-22T22:45:18+10:00",
-                "id": "ESTA:200712651",
-                "location": "Mombassa Dr, Wollert",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01708051359861,
-                    -37.60947750213592
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wentworth Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-22T22:15:00+10:00",
-                "updated": "2020-07-22T22:41:00+10:00",
-                "id": "ESTA:200712678",
-                "location": "Wentworth Rd, North Wonthaggi",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.6005179000525,
-                    -38.59625745820693
                 ]
             }
         }

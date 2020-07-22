@@ -9,6 +9,140 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.09739927592614,
+                            -37.700226612064625
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.09209923091265,
+                                    -37.69963250658124
+                                ],
+                                [
+                                    145.09212655609258,
+                                    -37.700957453730105
+                                ],
+                                [
+                                    145.09233594596583,
+                                    -37.70160107508489
+                                ],
+                                [
+                                    145.09312052786575,
+                                    -37.70277176638419
+                                ],
+                                [
+                                    145.09432394343762,
+                                    -37.70369332115938
+                                ],
+                                [
+                                    145.09504721088538,
+                                    -37.704031271081824
+                                ],
+                                [
+                                    145.09664825740265,
+                                    -37.70442011957778
+                                ],
+                                [
+                                    145.09832281884562,
+                                    -37.70439850053841
+                                ],
+                                [
+                                    145.09913628360624,
+                                    -37.70423283598847
+                                ],
+                                [
+                                    145.100615923405,
+                                    -37.70361208917375
+                                ],
+                                [
+                                    145.10178069533686,
+                                    -37.70265995873467
+                                ],
+                                [
+                                    145.102207840786,
+                                    -37.702087710834796
+                                ],
+                                [
+                                    145.10269932093962,
+                                    -37.70082095000536
+                                ],
+                                [
+                                    145.10267199575972,
+                                    -37.699496000416744
+                                ],
+                                [
+                                    145.10246260588644,
+                                    -37.69885236078503
+                                ],
+                                [
+                                    145.10167802398655,
+                                    -37.69768160758797
+                                ],
+                                [
+                                    145.1004746084147,
+                                    -37.69675997807552
+                                ],
+                                [
+                                    145.0997513409669,
+                                    -37.69642199500307
+                                ],
+                                [
+                                    145.09815029444965,
+                                    -37.69603310455146
+                                ],
+                                [
+                                    145.09647573300666,
+                                    -37.69605472603056
+                                ],
+                                [
+                                    145.09566226824603,
+                                    -37.69622040885745
+                                ],
+                                [
+                                    145.09418262844727,
+                                    -37.696841217569926
+                                ],
+                                [
+                                    145.09301785651542,
+                                    -37.69779342274624
+                                ],
+                                [
+                                    145.09259071106626,
+                                    -37.69836570379614
+                                ],
+                                [
+                                    145.09209923091265,
+                                    -37.69963250658124
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-07-23T02:58:50+10:00",
+                "updated": "2020-07-23T02:57:37+10:00",
+                "id": "14248",
+                "location": "Greensborough",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             144.63080639976715,
                             -37.92503427862934
                         ]
@@ -2336,12 +2470,81 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "School Rd",
+                "sourceTitle": "Glamis St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-07-23T02:51:50+10:00",
+                "updated": "2020-07-23T02:51:50+10:00",
+                "id": "ESTA:200712710",
+                "location": "Glamis St, Greensborough",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.09757093729965,
+                    -37.700175797367095
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
                 "category": "fire",
                 "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-07-23T02:53:00+10:00",
+                "updated": "2020-07-23T02:53:00+10:00",
+                "id": "ESTA:200712713",
+                "location": "Princes Hwy, Werribee",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.69306535725795,
+                    -37.88760316138147
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Collins St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-07-23T02:56:01+10:00",
+                "updated": "2020-07-23T02:56:01+10:00",
+                "id": "ESTA:200712714",
+                "location": "Collins St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9549883821722,
+                    -37.81861068650572
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "School Rd",
+                "category": "fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-23T02:32:25+10:00",
-                "updated": "2020-07-23T02:32:25+10:00",
+                "created": "2020-07-23T02:06:00+10:00",
+                "updated": "2020-07-23T02:32:00+10:00",
                 "id": "ESTA:200712708",
                 "location": "School Rd, Corio",
                 "size": "Small",
@@ -2351,8 +2554,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.38037135278537,
-                    -38.069381639162785
+                    144.38037015492284,
+                    -38.06938464625845
                 ]
             }
         },
@@ -2376,29 +2579,6 @@
                 "coordinates": [
                     144.67587933540352,
                     -37.886900301812595
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Glamis St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-23T02:41:52+10:00",
-                "updated": "2020-07-23T02:41:52+10:00",
-                "id": "ESTA:200712710",
-                "location": "Glamis St, Greensborough",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.09757093729965,
-                    -37.700175797367095
                 ]
             }
         },

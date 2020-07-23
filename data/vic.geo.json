@@ -2279,23 +2279,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Linsell Bvd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Alfred Rd",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-07-23T21:32:29+10:00",
-                "updated": "2020-07-23T21:32:29+10:00",
-                "id": "ESTA:200713228",
-                "location": "Linsell Bvd, Cranbourne East",
+                "created": "2020-07-23T21:45:00+10:00",
+                "updated": "2020-07-23T21:45:00+10:00",
+                "id": "ESTA:200713232",
+                "location": "Alfred Rd, Lilydale",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30799700370886,
-                    -38.100491673561585
+                    145.35977581188249,
+                    -37.763256713426614
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Barnby Gr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-23T21:58:41+10:00",
+                "updated": "2020-07-23T21:58:41+10:00",
+                "id": "ESTA:200713228",
+                "location": "Barnby Gr, Cranbourne East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.30496385992356,
+                    -38.10034623853119
                 ]
             }
         },
@@ -2304,10 +2327,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Swallow Cr",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-23T20:40:12+10:00",
-                "updated": "2020-07-23T20:40:12+10:00",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-23T20:33:00+10:00",
+                "updated": "2020-07-23T21:46:00+10:00",
                 "id": "ESTA:200713219",
                 "location": "Swallow Cr, Norlane",
                 "size": "Small",
@@ -2317,30 +2340,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.35289224727708,
-                    -38.0883094944142
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lilydale",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-07-23T21:45:29+10:00",
-                "updated": "2020-07-23T21:45:38+10:00",
-                "id": "ESTA:200713232",
-                "location": "Alfred Rd, Lilydale",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.35979088633582,
-                    -37.76324938989661
+                    144.35289143974475,
+                    -38.0883122471859
                 ]
             }
         },
@@ -2396,9 +2397,9 @@
                 "sourceTitle": "Nepean Hwy",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-23T21:31:40+10:00",
-                "updated": "2020-07-23T21:31:40+10:00",
+                "status": "under control",
+                "created": "2020-07-23T21:58:25+10:00",
+                "updated": "2020-07-23T21:58:25+10:00",
                 "id": "ESTA:200713230",
                 "location": "Nepean Hwy, Moorabbin",
                 "size": "Small",

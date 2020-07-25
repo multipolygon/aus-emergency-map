@@ -2280,14 +2280,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Laverton",
+                "sourceTitle": "Greenvale",
                 "category": "fire",
                 "subcategory": "fire",
                 "status": "responding",
-                "created": "2020-07-25T16:12:12+10:00",
-                "updated": "2020-07-25T16:12:12+10:00",
-                "id": "ESTA:200715124",
-                "location": "Laverton, Laverton",
+                "created": "2020-07-25T16:29:19+10:00",
+                "updated": "2020-07-25T16:29:19+10:00",
+                "id": "ESTA:200715147",
+                "location": "Greenvale, Greenvale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2295,8 +2295,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7760452284004,
-                    -37.856306132544816
+                    144.83479625646362,
+                    -37.63782055070465
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "complete",
+                "created": "2020-07-25T15:50:00+10:00",
+                "updated": "2020-07-25T16:23:00+10:00",
+                "id": "ESTA:200715092",
+                "location": "Peterborough",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.82397769637967,
+                    -38.58223710625079
                 ]
             }
         },
@@ -2326,35 +2349,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gray St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-07-25T16:04:00+10:00",
-                "updated": "2020-07-25T16:04:00+10:00",
-                "id": "ESTA:200715111",
-                "location": "Gray St, Hamilton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.02440738004412,
-                    -37.743343621050315
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Dohertys Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-25T15:55:36+10:00",
-                "updated": "2020-07-25T15:55:36+10:00",
+                "created": "2020-07-25T15:53:00+10:00",
+                "updated": "2020-07-25T15:55:00+10:00",
                 "id": "ESTA:200715097",
                 "location": "Dohertys Rd, Mount Cottrell",
                 "size": "Small",
@@ -2364,8 +2364,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.64532105505052,
-                    -37.814400866784794
+                    144.64531059385004,
+                    -37.81440226072094
                 ]
             }
         },
@@ -2396,15 +2396,15 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "request for assistance",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "on scene",
                 "created": "2020-07-25T15:50:00+10:00",
-                "updated": "2020-07-25T16:16:00+10:00",
-                "id": "ESTA:200715092",
+                "updated": "2020-07-25T16:30:00+10:00",
+                "id": "ESTA:200751109",
                 "location": "Peterborough",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
@@ -2418,14 +2418,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ringwood",
+                "sourceTitle": "Talbot St",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "non structure fire",
                 "status": "responding",
-                "created": "2020-07-25T16:15:12+10:00",
-                "updated": "2020-07-25T16:15:12+10:00",
-                "id": "ESTA:200715128",
-                "location": "Ringwood, Ringwood",
+                "created": "2020-07-25T16:26:06+10:00",
+                "updated": "2020-07-25T16:26:06+10:00",
+                "id": "ESTA:200715141",
+                "location": "Talbot St, Mitcham",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2433,8 +2433,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.22046071223178,
-                    -37.82332710190799
+                    145.2072269332346,
+                    -37.81886368300393
                 ]
             }
         },
@@ -2458,28 +2458,6 @@
                 "coordinates": [
                     144.89164048572744,
                     -37.78216940334921
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "request for assistance",
-                "created": "2020-07-25T15:50:00+10:00",
-                "updated": "2020-07-25T15:59:00+10:00",
-                "id": "ESTA:200751109",
-                "location": "Peterborough",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.82397769637967,
-                    -38.58223710625079
                 ]
             }
         },

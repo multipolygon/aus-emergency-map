@@ -6,30 +6,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.97333240600005,
-                    -30.317728905999957
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "FCNSW HRB Orara West SF Windrows",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/387056",
-                "created": "2020-07-26T07:34:00+10:00",
-                "updated": "2020-07-26T17:34:00+10:00",
-                "location": "Dingo Creek Road, 15km West of Coffs Harbour",
-                "size": 50,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Dingo Creek Road, 15km West of Coffs Harbour <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 50 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 26 Jul 2020 17:34",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.79647827100007,
                     -30.20315218999997
                 ]
@@ -94,6 +70,30 @@
                 "location": "General San Martin Dr, Ku-Ring-Gai Chase, NSW 2101",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: General San Martin Dr, Ku-Ring-Gai Chase, NSW 2101 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jul 2020 06:06",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.20270499900005,
+                    -35.82638999999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "George Bass Dr, Tomakin",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/387662",
+                "created": "2020-07-26T20:00:00+10:00",
+                "updated": "2020-07-27T06:00:00+10:00",
+                "location": "1939 George Bass Dr, Tomakin, NSW 2537",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1939 George Bass Dr, Tomakin, NSW 2537 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jul 2020 06:00",
                 "title": "incident: other"
             }
         },
@@ -174,6 +174,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.6761600000001,
+                    -35.18803399999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mates Gully Rd, Borambola",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/387665",
+                "created": "2020-07-26T20:58:00+10:00",
+                "updated": "2020-07-27T06:58:00+10:00",
+                "location": "Mates Gully Rd, Borambola, NSW 2650",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mates Gully Rd, Borambola, NSW 2650 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jul 2020 06:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     147.03645586900006,
                     -34.799770181999975
                 ]
@@ -198,30 +222,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.88175106000006,
-                    -30.78883398399995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pacific Hwy, Eungai Creek",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/387656",
-                "created": "2020-07-26T20:24:00+10:00",
-                "updated": "2020-07-27T06:24:00+10:00",
-                "location": "Pacific Hwy, Eungai Creek, NSW 2441",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Eungai Creek, NSW 2441 <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 27 Jul 2020 06:24",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.83811200000002,
                     -33.55356299999994
                 ]
@@ -231,13 +231,13 @@
                 "sourceTitle": "Putty Rd, Wilberforce",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/387664",
-                "created": "2020-07-26T20:10:00+10:00",
-                "updated": "2020-07-27T06:10:00+10:00",
+                "created": "2020-07-26T20:44:00+10:00",
+                "updated": "2020-07-27T06:44:00+10:00",
                 "location": "Putty Rd, Wilberforce, NSW 2756",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Putty Rd, Wilberforce, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jul 2020 06:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Putty Rd, Wilberforce, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jul 2020 06:44",
                 "title": "incident: fire"
             }
         },

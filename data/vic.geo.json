@@ -39230,23 +39230,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Burnell St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-27T23:10:15+10:00",
-                "updated": "2020-07-27T23:10:15+10:00",
-                "id": "ESTA:200716653",
-                "location": "Burnell St, Mount Eliza",
+                "sourceTitle": "Dairy Lane",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-27T22:12:00+10:00",
+                "updated": "2020-07-27T22:33:00+10:00",
+                "id": "ESTA:200716644",
+                "location": "Dairy Lane, Ferntree Gully",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.08362439874645,
-                    -38.194203836327056
+                    145.2622523156123,
+                    -37.894850606445665
                 ]
             }
         },
@@ -39256,7 +39256,7 @@
                 "sourceTitle": "Sloane St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-07-27T23:13:00+10:00",
                 "updated": "2020-07-27T23:13:00+10:00",
                 "id": "ESTA:200716654",
@@ -39270,6 +39270,52 @@
                 "coordinates": [
                     142.7808966179722,
                     -37.058858264732066
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Campbell St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-07-27T23:30:18+10:00",
+                "updated": "2020-07-27T23:30:18+10:00",
+                "id": "ESTA:200716634",
+                "location": "Campbell St, Castlemaine",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.22459522612178,
+                    -37.06289745771069
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mcmahon St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-07-27T23:28:00+10:00",
+                "updated": "2020-07-27T23:28:00+10:00",
+                "id": "ESTA:200716655",
+                "location": "Mcmahon St, St Arnaud",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.25802754974094,
+                    -36.61807841627711
                 ]
             }
         },
@@ -43015,6 +43061,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Burnell St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-27T23:10:15+10:00",
+                "updated": "2020-07-27T23:10:15+10:00",
+                "id": "ESTA:200716653",
+                "location": "Burnell St, Mount Eliza",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.08362439874645,
+                    -38.194203836327056
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -43032,52 +43101,6 @@
                 "coordinates": [
                     145.32057694762327,
                     -38.027957649591286
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dairy Lane",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-07-27T22:33:06+10:00",
-                "updated": "2020-07-27T22:33:06+10:00",
-                "id": "ESTA:200716644",
-                "location": "Dairy Lane, Ferntree Gully",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26225925790575,
-                    -37.89484475258473
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Campbell St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-07-27T21:54:15+10:00",
-                "updated": "2020-07-27T21:54:15+10:00",
-                "id": "ESTA:200716634",
-                "location": "Campbell St, Castlemaine",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.22459522612178,
-                    -37.06289745771069
                 ]
             }
         },
@@ -43110,31 +43133,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-07-27T23:06:00+10:00",
-                "updated": "2020-07-27T23:09:00+10:00",
-                "id": "ESTA:200751172",
-                "location": "Emerald",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4776415090904,
-                    -37.96024371473687
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-07-27T23:00:00+10:00",
-                "updated": "2020-07-27T23:02:00+10:00",
+                "updated": "2020-07-27T23:28:00+10:00",
                 "id": "ESTA:200751171",
                 "location": "Nilma North",
                 "title": "incident: tree down"
@@ -43145,6 +43146,28 @@
                 "coordinates": [
                     146.02553508574036,
                     -38.11897416539877
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-07-27T23:06:00+10:00",
+                "updated": "2020-07-27T23:20:00+10:00",
+                "id": "ESTA:200751172",
+                "location": "Emerald",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4776415090904,
+                    -37.96024371473687
                 ]
             }
         }

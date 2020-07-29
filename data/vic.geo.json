@@ -9313,12 +9313,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Melton Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-07-30T06:52:01+10:00",
+                "updated": "2020-07-30T06:52:01+10:00",
+                "id": "ESTA:200717751",
+                "location": "Melton Hwy, Plumpton",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.65138540085545,
+                    -37.68164221036512
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Dunolly-Moliagul Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-07-30T06:33:00+10:00",
-                "updated": "2020-07-30T06:33:00+10:00",
+                "updated": "2020-07-30T06:58:00+10:00",
                 "id": "ESTA:200717747",
                 "location": "Dunolly-Moliagul Rd, Inkerman",
                 "size": "Small",
@@ -9339,9 +9362,9 @@
                 "sourceTitle": "Morang Cr",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
+                "status": "safe",
                 "created": "2020-07-30T06:25:00+10:00",
-                "updated": "2020-07-30T06:25:00+10:00",
+                "updated": "2020-07-30T07:01:00+10:00",
                 "id": "ESTA:200717745",
                 "location": "Morang Cr, Mitchell Park",
                 "size": "Small",
@@ -9359,69 +9382,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Melton Hwy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-30T06:41:34+10:00",
-                "updated": "2020-07-30T06:41:34+10:00",
-                "id": "ESTA:200717751",
-                "location": "Melton Hwy, Plumpton",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.65138540085545,
-                    -37.68164221036512
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Western Fwy",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-07-30T06:44:00+10:00",
-                "updated": "2020-07-30T06:44:00+10:00",
-                "id": "ESTA:200717752",
-                "location": "Western Fwy, Grangefields",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.63668718864463,
-                    -37.71334262345419
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sunshine North",
+                "sourceTitle": "Monbulk",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-07-30T06:45:27+10:00",
-                "updated": "2020-07-30T06:45:27+10:00",
-                "id": "ESTA:200717749",
-                "location": "Sunshine North, Sunshine North",
-                "size": "Small",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-07-30T07:01:25+10:00",
+                "updated": "2020-07-30T07:01:30+10:00",
+                "id": "ESTA:200717755",
+                "location": "Main Rd, Monbulk",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8287253675307,
-                    -37.77696927109149
+                    145.40916409443,
+                    -37.87643453637351
                 ]
             }
         },
@@ -9745,14 +9721,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wollert",
+                "sourceTitle": "George St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-07-30T06:58:00+10:00",
+                "updated": "2020-07-30T06:58:00+10:00",
+                "id": "ESTA:200717754",
+                "location": "George St, Moe",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.2592753434974,
+                    -38.176386681717325
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Western Fwy",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-07-30T06:44:00+10:00",
+                "updated": "2020-07-30T06:44:00+10:00",
+                "id": "ESTA:200717752",
+                "location": "Western Fwy, Grangefields",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.63668718864463,
+                    -37.71334262345419
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-30T06:21:21+10:00",
-                "updated": "2020-07-30T06:21:21+10:00",
+                "created": "2020-07-30T05:54:00+10:00",
+                "updated": "2020-07-30T06:21:00+10:00",
                 "id": "ESTA:200717740",
-                "location": "Wollert, Wollert",
+                "location": "Wollert",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -9760,8 +9782,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.03070744723362,
-                    -37.61202482391258
+                    145.03069990998324,
+                    -37.612031619918646
                 ]
             }
         },
@@ -9785,6 +9807,29 @@
                 "coordinates": [
                     144.6144078000031,
                     -37.88123786816807
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sunshine North",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-07-30T06:45:27+10:00",
+                "updated": "2020-07-30T06:45:27+10:00",
+                "id": "ESTA:200717749",
+                "location": "Sunshine North, Sunshine North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8287253675307,
+                    -37.77696927109149
                 ]
             }
         },
@@ -9819,7 +9864,7 @@
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-07-30T06:23:00+10:00",
-                "updated": "2020-07-30T06:24:00+10:00",
+                "updated": "2020-07-30T06:51:00+10:00",
                 "id": "ESTA:200751236",
                 "location": "Nar Nar Goon North",
                 "title": "incident: tree down"

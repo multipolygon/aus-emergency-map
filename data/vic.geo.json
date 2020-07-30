@@ -2809,14 +2809,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Catamaran Dr",
+                "sourceTitle": "Main Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-07-30T17:31:00+10:00",
-                "updated": "2020-07-30T17:31:00+10:00",
-                "id": "ESTA:200718304",
-                "location": "Catamaran Dr, Werribee South",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-07-30T17:49:23+10:00",
+                "updated": "2020-07-30T17:49:23+10:00",
+                "id": "ESTA:200718310",
+                "location": "Main Rd, St Albans",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2824,8 +2824,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.70572202548055,
-                    -37.96587607748901
+                    144.8081235713733,
+                    -37.74505078275421
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cheltenham Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-07-30T17:55:58+10:00",
+                "updated": "2020-07-30T17:55:58+10:00",
+                "id": "ESTA:200718313",
+                "location": "Cheltenham Rd, Keysborough",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1471722541363,
+                    -37.99123576580663
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Normanby Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-07-30T17:54:35+10:00",
+                "updated": "2020-07-30T17:54:35+10:00",
+                "id": "ESTA:200718307",
+                "location": "Normanby Rd, Clayton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13918554159525,
+                    -37.90759190863119
                 ]
             }
         },
@@ -2833,21 +2879,90 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
                 "status": "complete",
-                "created": "2020-07-30T17:07:00+10:00",
-                "updated": "2020-07-30T17:36:00+10:00",
-                "id": "ESTA:200751245",
-                "location": "Benalla",
-                "title": "incident: flooding"
+                "created": "2020-07-30T17:17:00+10:00",
+                "updated": "2020-07-30T17:56:00+10:00",
+                "id": "ESTA:200718293",
+                "location": "Beveridge",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.99198072575425,
-                    -36.542878928828635
+                    144.96984135948125,
+                    -37.48232480427024
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Opal Ct",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-07-30T17:58:51+10:00",
+                "updated": "2020-07-30T17:58:51+10:00",
+                "id": "ESTA:200718315",
+                "location": "Opal Ct, Bayswater",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2647696751406,
+                    -37.848852943964154
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wyndham St, Burragate (Pile Burn)",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-07-27T09:20:00+10:00",
+                "updated": "2020-07-27T09:20:00+10:00",
+                "id": "2020-07-27T09:20:00.0000000:387630",
+                "location": "Wyndham St, Burragate, Nsw 2550",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.621158,
+                    -37.003751
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cooper St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-30T17:51:02+10:00",
+                "updated": "2020-07-30T17:51:02+10:00",
+                "id": "ESTA:200718311",
+                "location": "Cooper St, Epping",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0149370574542,
+                    -37.65307148106725
                 ]
             }
         },
@@ -2877,57 +2992,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clifton Hill",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-30T17:44:17+10:00",
-                "updated": "2020-07-30T17:44:17+10:00",
-                "id": "ESTA:200718309",
-                "location": "Clifton Hill, Clifton Hill",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99868288665155,
-                    -37.795066797548536
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wyndham St, Burragate (Pile Burn)",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-07-27T09:20:00+10:00",
-                "updated": "2020-07-27T09:20:00+10:00",
-                "id": "2020-07-27T09:20:00.0000000:387630",
-                "location": "Wyndham St, Burragate, Nsw 2550",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.621158,
-                    -37.003751
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Carnarvon Av",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-07-30T17:37:11+10:00",
-                "updated": "2020-07-30T17:37:11+10:00",
+                "created": "2020-07-30T17:28:00+10:00",
+                "updated": "2020-07-30T17:37:00+10:00",
                 "id": "ESTA:200718302",
                 "location": "Carnarvon Av, The Basin",
                 "size": "Small",
@@ -2937,31 +3007,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30848257462998,
-                    -37.86024526158025
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "request for assistance",
-                "created": "2020-07-30T17:17:00+10:00",
-                "updated": "2020-07-30T17:32:00+10:00",
-                "id": "ESTA:200718293",
-                "location": "Beveridge",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.96984135948125,
-                    -37.48232480427024
+                    145.30847664481954,
+                    -37.86025071175587
                 ]
             }
         },
@@ -2991,29 +3038,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Yarrah Pl",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2020-07-30T16:44:00+10:00",
-                "updated": "2020-07-30T16:49:00+10:00",
-                "id": "ESTA:200718267",
-                "location": "Yarrah Pl, Myrtleford",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.72317094566228,
-                    -36.55807800315246
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ardeer",
                 "category": "other",
                 "subcategory": "other",
@@ -3031,29 +3055,6 @@
                 "coordinates": [
                     144.795539695792,
                     -37.77026775307724
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Main Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-07-30T17:44:51+10:00",
-                "updated": "2020-07-30T17:44:51+10:00",
-                "id": "ESTA:200718310",
-                "location": "Main Rd, St Albans",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.8081235713733,
-                    -37.74505078275421
                 ]
             }
         },

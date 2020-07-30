@@ -2787,14 +2787,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hall Rd",
+                "sourceTitle": "Leopold",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-31T03:18:30+10:00",
+                "updated": "2020-07-31T04:38:48+10:00",
+                "id": "ESTA:200718401",
+                "location": "Bawtree Rd, Leopold",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.4944615066051,
+                    -38.180054268447165
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maribyrnong Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-07-31T04:23:00+10:00",
-                "updated": "2020-07-31T04:23:00+10:00",
-                "id": "ESTA:200718404",
-                "location": "Hall Rd, Carrum Downs",
+                "created": "2020-07-31T04:44:20+10:00",
+                "updated": "2020-07-31T04:44:20+10:00",
+                "id": "ESTA:200718405",
+                "location": "Maribyrnong Rd, Ascot Vale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2802,8 +2824,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.18459317208197,
-                    -38.101201875536
+                    144.9151404505516,
+                    -37.7717905782312
                 ]
             }
         },
@@ -2826,52 +2848,6 @@
                 "coordinates": [
                     149.621158,
                     -37.003751
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bawtree Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-07-31T03:40:48+10:00",
-                "updated": "2020-07-31T03:40:48+10:00",
-                "id": "ESTA:200718401",
-                "location": "Bawtree Rd, Leopold",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.49445406087304,
-                    -38.18005698285102
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dohertys Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-07-31T03:31:53+10:00",
-                "updated": "2020-07-31T03:31:53+10:00",
-                "id": "ESTA:200718398",
-                "location": "Dohertys Rd, Laverton North",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.77666590451713,
-                    -37.82704292993399
                 ]
             }
         }

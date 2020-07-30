@@ -2786,84 +2786,16 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bridge Inn Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-30T11:30:00+10:00",
-                "updated": "2020-07-30T11:45:00+10:00",
-                "id": "ESTA:200717996",
-                "location": "Bridge Inn Rd, Doreen",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13554271716382,
-                    -37.604984336910654
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Castlemaine",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-07-30T10:31:55+10:00",
-                "updated": "2020-07-30T11:59:30+10:00",
-                "id": "ESTA:200717934",
-                "location": "Treasure St, Castlemaine",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.2355273653668,
-                    -37.072086102831086
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-07-30T10:44:00+10:00",
-                "updated": "2020-07-30T11:36:00+10:00",
-                "id": "ESTA:200717942",
-                "location": "Darlington",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.06580047892163,
-                    -37.9989309120634
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Pt Nepean Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-07-30T12:00:54+10:00",
-                "updated": "2020-07-30T12:00:54+10:00",
+                "created": "2020-07-30T12:03:40+10:00",
+                "updated": "2020-07-30T12:03:40+10:00",
                 "id": "ESTA:200718029",
                 "location": "Pt Nepean Rd, Capel Sound",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -2877,14 +2809,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mill St",
+                "sourceTitle": "Kenny St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-30T11:17:00+10:00",
-                "updated": "2020-07-30T11:32:00+10:00",
-                "id": "ESTA:200717983",
-                "location": "Mill St, Koroit",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-07-30T12:14:09+10:00",
+                "updated": "2020-07-30T12:14:09+10:00",
+                "id": "ESTA:200718037",
+                "location": "Kenny St, Westmeadows",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2892,8 +2824,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.3721412017231,
-                    -38.29671960740853
+                    144.88863173995574,
+                    -37.67456492600186
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Broadway -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-07-30T12:16:52+10:00",
+                "updated": "2020-07-30T12:16:52+10:00",
+                "id": "ESTA:200718043",
+                "location": "Broadway -, Reservoir",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00977743684078,
+                    -37.71719977635497
                 ]
             }
         },
@@ -3217,6 +3172,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bridge Inn Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-07-30T11:30:00+10:00",
+                "updated": "2020-07-30T11:45:00+10:00",
+                "id": "ESTA:200717996",
+                "location": "Bridge Inn Rd, Doreen",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13554271716382,
+                    -37.604984336910654
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mill St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-07-30T11:17:00+10:00",
+                "updated": "2020-07-30T11:32:00+10:00",
+                "id": "ESTA:200717983",
+                "location": "Mill St, Koroit",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.3721412017231,
+                    -38.29671960740853
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Trove Way",
                 "category": "other",
                 "subcategory": "other",
@@ -3263,23 +3264,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dorset Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-07-30T10:52:00+10:00",
-                "updated": "2020-07-30T11:05:00+10:00",
-                "id": "ESTA:200717954",
-                "location": "Dorset Rd, Boronia",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2020-07-30T10:44:00+10:00",
+                "updated": "2020-07-30T11:36:00+10:00",
+                "id": "ESTA:200717942",
+                "location": "Darlington",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2858077920544,
-                    -37.853506160870005
+                    143.06580047892163,
+                    -37.9989309120634
                 ]
             }
         },

@@ -2394,29 +2394,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-02T05:00:00+10:00",
-                "updated": "2020-08-02T05:00:00+10:00",
-                "id": "ESTA:200801607",
-                "location": "Drouin East",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.8982537614145,
-                    -38.1192192843473
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Miller St",
                 "category": "fire",
                 "subcategory": "other",
@@ -2440,23 +2417,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clifton Hill",
-                "category": "other",
+                "sourceTitle": "Untitled",
+                "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-02T05:14:53+10:00",
-                "updated": "2020-08-02T05:14:53+10:00",
-                "id": "ESTA:200801608",
-                "location": "Clifton Hill, Clifton Hill",
+                "status": "under control",
+                "created": "2020-08-02T05:00:00+10:00",
+                "updated": "2020-08-02T05:20:00+10:00",
+                "id": "ESTA:200801607",
+                "location": "Drouin East",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.98517138404424,
-                    -37.79372338097916
+                    145.8982537614145,
+                    -38.1192192843473
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cranbourne Av",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-08-02T05:31:03+10:00",
+                "updated": "2020-08-02T05:31:03+10:00",
+                "id": "ESTA:200801609",
+                "location": "Cranbourne Av, Sunshine North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82712108251002,
+                    -37.76865955514468
                 ]
             }
         },
@@ -2509,69 +2509,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Paull Ct",
-                "category": "fire",
+                "sourceTitle": "Clifton Hill",
+                "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-08-02T04:14:00+10:00",
-                "updated": "2020-08-02T04:25:00+10:00",
-                "id": "ESTA:200801603",
-                "location": "Paull Ct, Moe",
+                "created": "2020-08-02T05:24:06+10:00",
+                "updated": "2020-08-02T05:24:06+10:00",
+                "id": "ESTA:200801608",
+                "location": "Clifton Hill, Clifton Hill",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.2597749122091,
-                    -38.171018409621
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gourlay St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-02T04:00:00+10:00",
-                "updated": "2020-08-02T04:22:00+10:00",
-                "id": "ESTA:200801601",
-                "location": "Gourlay St, Shepparton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3924480578616,
-                    -36.399071250171446
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Leeds Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-08-02T04:36:30+10:00",
-                "updated": "2020-08-02T04:36:30+10:00",
-                "id": "ESTA:200801604",
-                "location": "Leeds Rd, Mount Waverley",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13751735196172,
-                    -37.86579749989127
+                    144.98517138404424,
+                    -37.79372338097916
                 ]
             }
         }

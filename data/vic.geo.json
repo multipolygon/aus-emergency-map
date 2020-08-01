@@ -2394,14 +2394,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ancona St",
+                "sourceTitle": "Farley Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-01T21:57:47+10:00",
-                "updated": "2020-08-01T21:57:47+10:00",
-                "id": "ESTA:200801555",
-                "location": "Ancona St, Mentone",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-01T20:11:00+10:00",
+                "updated": "2020-08-01T21:27:00+10:00",
+                "id": "ESTA:200801518",
+                "location": "Farley Rd, Heathcote",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2409,31 +2409,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0598262557397,
-                    -37.981175393119074
+                    144.68989125594086,
+                    -36.89179586116179
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glenroy",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-08-01T21:58:09+10:00",
-                "updated": "2020-08-01T21:58:09+10:00",
-                "id": "ESTA:200801556",
-                "location": "Glenroy, Glenroy",
+                "sourceTitle": "Milners Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-01T22:14:00+10:00",
+                "updated": "2020-08-01T22:16:00+10:00",
+                "id": "ESTA:200801560",
+                "location": "Milners Rd, Yarra Junction",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.91528391128725,
-                    -37.694445908544495
+                    145.62052033227292,
+                    -37.7925272760409
                 ]
             }
         },
@@ -2442,10 +2442,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Murrindal St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-01T22:02:10+10:00",
-                "updated": "2020-08-01T22:02:10+10:00",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-01T21:52:00+10:00",
+                "updated": "2020-08-01T22:04:00+10:00",
                 "id": "ESTA:200801553",
                 "location": "Murrindal St, Werribee",
                 "size": "Small",
@@ -2455,8 +2455,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.64674259191813,
-                    -37.91598275914133
+                    144.646737708498,
+                    -37.91598720099516
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hornby St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-08-01T22:20:02+10:00",
+                "updated": "2020-08-01T22:20:02+10:00",
+                "id": "ESTA:200801562",
+                "location": "Hornby St, Windsor",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99586365171479,
+                    -37.856019377656615
                 ]
             }
         },
@@ -2468,9 +2491,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-08-01T17:00:00+10:00",
+                "created": "2020-08-01T22:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/f9f7d9fe2050b5ec1e3f60b76985a956",
+                "id": "IDV20600/ee10c64adef35b8114ffd17c8c372090",
                 "location": "Port Phillip",
                 "title": "incident: met"
             },
@@ -2802,12 +2825,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Stud Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-01T22:15:00+10:00",
+                "updated": "2020-08-01T22:15:00+10:00",
+                "id": "ESTA:200801561",
+                "location": "Stud Rd, Rowville",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.23490665611467,
+                    -37.92035306986971
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Argyle St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-01T22:06:00+10:00",
+                "updated": "2020-08-01T22:06:00+10:00",
+                "id": "ESTA:200801559",
+                "location": "Argyle St, Traralgon",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.5532593403211,
+                    -38.19246444388555
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Hearne Pde",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-08-01T22:02:05+10:00",
-                "updated": "2020-08-01T22:02:05+10:00",
+                "created": "2020-08-01T21:52:00+10:00",
+                "updated": "2020-08-01T22:02:00+10:00",
                 "id": "ESTA:200801552",
                 "location": "Hearne Pde, East Geelong",
                 "size": "Small",
@@ -2817,8 +2886,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3845790811173,
-                    -38.14292576687039
+                    144.3845748127232,
+                    -38.14293177272103
                 ]
             }
         },
@@ -2871,14 +2940,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Farley Rd",
+                "sourceTitle": "Ancona St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-01T20:11:00+10:00",
-                "updated": "2020-08-01T21:27:00+10:00",
-                "id": "ESTA:200801518",
-                "location": "Farley Rd, Heathcote",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-01T21:57:47+10:00",
+                "updated": "2020-08-01T21:57:47+10:00",
+                "id": "ESTA:200801555",
+                "location": "Ancona St, Mentone",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2886,54 +2955,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.68989125594086,
-                    -36.89179586116179
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Park Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-01T20:57:00+10:00",
-                "updated": "2020-08-01T21:17:00+10:00",
-                "id": "ESTA:200801532",
-                "location": "Park Rd, Maryborough",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.74979253976835,
-                    -37.02364058858457
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "East Esplanade -",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-01T21:50:57+10:00",
-                "updated": "2020-08-01T21:50:57+10:00",
-                "id": "ESTA:200801544",
-                "location": "East Esplanade -, St Albans",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7967416566198,
-                    -37.73695876939154
+                    145.0598262557397,
+                    -37.981175393119074
                 ]
             }
         },
@@ -2957,6 +2980,29 @@
                 "coordinates": [
                     145.0776262152723,
                     -37.967966442429
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glenroy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-08-01T22:07:42+10:00",
+                "updated": "2020-08-01T22:07:42+10:00",
+                "id": "ESTA:200801556",
+                "location": "Glenroy, Glenroy",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91528391128725,
+                    -37.694445908544495
                 ]
             }
         }

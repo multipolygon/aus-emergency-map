@@ -2394,23 +2394,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dyer St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-02T00:23:29+10:00",
-                "updated": "2020-08-02T00:23:29+10:00",
-                "id": "ESTA:200801579",
-                "location": "Dyer St, Richmond",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-08-02T00:13:00+10:00",
+                "updated": "2020-08-02T00:33:00+10:00",
+                "id": "ESTA:200850015",
+                "location": "Mitcham",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0035890197798,
-                    -37.8165647873402
+                    145.1941301061868,
+                    -37.82461275465469
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-08-02T00:45:00+10:00",
+                "updated": "2020-08-02T00:45:00+10:00",
+                "id": "ESTA:200850016",
+                "location": "Richmond",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00324658259834,
+                    -37.81542942969973
                 ]
             }
         },
@@ -2819,28 +2840,6 @@
                 "coordinates": [
                     145.19413453225076,
                     -37.824606947117616
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-08-02T00:13:00+10:00",
-                "updated": "2020-08-02T00:25:00+10:00",
-                "id": "ESTA:200850015",
-                "location": "Mitcham",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1941301061868,
-                    -37.82461275465469
                 ]
             }
         }

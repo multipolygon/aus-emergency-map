@@ -2417,14 +2417,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ballarat Rd",
+                "sourceTitle": "Warrandyte",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-03T07:48:02+10:00",
+                "updated": "2020-08-03T09:08:30+10:00",
+                "id": "ESTA:200802686",
+                "location": "Ringwood-Warrandyte Rd, Warrandyte",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.229990441633,
+                    -37.74114402336241
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Plenty Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-08-03T08:50:54+10:00",
-                "updated": "2020-08-03T08:50:54+10:00",
-                "id": "ESTA:200802722",
-                "location": "Ballarat Rd, Footscray",
+                "status": "responding",
+                "created": "2020-08-03T09:09:02+10:00",
+                "updated": "2020-08-03T09:09:02+10:00",
+                "id": "ESTA:200802779",
+                "location": "Plenty Rd, Preston",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -2432,8 +2454,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8924434863677,
-                    -37.792270502826035
+                    145.01186787515553,
+                    -37.73870730937141
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Unknown -",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-08-03T09:07:00+10:00",
+                "updated": "2020-08-03T09:09:00+10:00",
+                "id": "ESTA:200802775",
+                "location": "Unknown -, Perry Bridge",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.25934655768495,
+                    -38.00308468099035
                 ]
             }
         },
@@ -2443,9 +2488,9 @@
                 "sourceTitle": "Thomas Murrell Cr",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-03T08:52:38+10:00",
-                "updated": "2020-08-03T08:52:38+10:00",
+                "status": "not yet under control",
+                "created": "2020-08-03T09:13:04+10:00",
+                "updated": "2020-08-03T09:13:04+10:00",
                 "id": "ESTA:200802752",
                 "location": "Thomas Murrell Cr, Dandenong South",
                 "size": "Small",
@@ -2457,97 +2502,6 @@
                 "coordinates": [
                     145.19334395782607,
                     -38.02157675646694
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "High St",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-08-03T08:11:00+10:00",
-                "updated": "2020-08-03T08:53:00+10:00",
-                "id": "ESTA:200802706",
-                "location": "High St, Ararat",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.9293246169373,
-                    -37.28260393455977
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lyndarum Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-03T08:55:54+10:00",
-                "updated": "2020-08-03T08:55:54+10:00",
-                "id": "ESTA:200802760",
-                "location": "Lyndarum Dr, Epping",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02634094283184,
-                    -37.62844339805194
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-08-03T08:43:00+10:00",
-                "updated": "2020-08-03T08:58:00+10:00",
-                "id": "ESTA:200850048",
-                "location": "Malvern East",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.09063929908834,
-                    -37.87440185132539
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "The Esplanade -",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-03T09:00:20+10:00",
-                "updated": "2020-08-03T09:00:20+10:00",
-                "id": "ESTA:200802761",
-                "location": "The Esplanade -, Caroline Springs",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.74564926770722,
-                    -37.73434735833898
                 ]
             }
         },
@@ -3176,6 +3130,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Lyndarum Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-08-03T09:06:18+10:00",
+                "updated": "2020-08-03T09:06:18+10:00",
+                "id": "ESTA:200802760",
+                "location": "Lyndarum Dr, Epping",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02634094283184,
+                    -37.62844339805194
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Esplanade -",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-03T09:00:20+10:00",
+                "updated": "2020-08-03T09:00:20+10:00",
+                "id": "ESTA:200802761",
+                "location": "The Esplanade -, Caroline Springs",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74564926770722,
+                    -37.73434735833898
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "High St",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-08-03T08:11:00+10:00",
+                "updated": "2020-08-03T08:53:00+10:00",
+                "id": "ESTA:200802706",
+                "location": "High St, Ararat",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.9293246169373,
+                    -37.28260393455977
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
@@ -3239,6 +3262,29 @@
                 "coordinates": [
                     145.09064675259586,
                     -37.87440136721996
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ballarat Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-08-03T08:50:54+10:00",
+                "updated": "2020-08-03T08:50:54+10:00",
+                "id": "ESTA:200802722",
+                "location": "Ballarat Rd, Footscray",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8924434863677,
+                    -37.792270502826035
                 ]
             }
         }

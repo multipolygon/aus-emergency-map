@@ -2395,12 +2395,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-08-02T10:20:00+10:00",
+                "updated": "2020-08-02T11:00:00+10:00",
+                "id": "ESTA:200850027",
+                "location": "Rushworth",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03513802594586,
+                    -36.59878603146409
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "San Domino Av",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-08-02T10:40:57+10:00",
-                "updated": "2020-08-02T10:40:57+10:00",
+                "created": "2020-08-02T10:32:00+10:00",
+                "updated": "2020-08-02T10:41:00+10:00",
                 "id": "ESTA:200801844",
                 "location": "San Domino Av, Point Cook",
                 "size": "Small",
@@ -2410,31 +2432,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74142809717173,
-                    -37.89046498690428
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-02T10:44:00+10:00",
-                "updated": "2020-08-02T10:44:00+10:00",
-                "id": "ESTA:200801867",
-                "location": "Churchill",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.41475293436127,
-                    -38.30755700756657
+                    144.74142711060543,
+                    -37.8904670710912
                 ]
             }
         },
@@ -2458,51 +2457,6 @@
                 "coordinates": [
                     145.4387470792712,
                     -38.07404281907089
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-08-02T09:34:00+10:00",
-                "updated": "2020-08-02T09:50:00+10:00",
-                "id": "ESTA:200801733",
-                "location": "Horsham",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.20235645930194,
-                    -36.72087017261798
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-08-02T10:20:00+10:00",
-                "updated": "2020-08-02T10:45:00+10:00",
-                "id": "ESTA:200850027",
-                "location": "Rushworth",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03513802594586,
-                    -36.59878603146409
                 ]
             }
         }

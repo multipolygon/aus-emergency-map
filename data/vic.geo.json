@@ -2417,14 +2417,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-03T02:00:00+10:00",
+                "updated": "2020-08-03T02:02:00+10:00",
+                "id": "ESTA:200802631",
+                "location": "Badger Creek",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.54134223828524,
+                    -37.68595523005951
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ford Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-03T01:49:16+10:00",
-                "updated": "2020-08-03T01:49:16+10:00",
-                "id": "ESTA:200802627",
-                "location": "Princes Hwy, Hallam",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-08-03T02:04:10+10:00",
+                "updated": "2020-08-03T02:04:10+10:00",
+                "id": "ESTA:200802622",
+                "location": "Ford Rd, Grahamvale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2432,8 +2455,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.26832857450782,
-                    -38.00616220884104
+                    145.42873002648733,
+                    -36.34771512369399
                 ]
             }
         },
@@ -2443,7 +2466,7 @@
                 "sourceTitle": "Lavers Hill-Cobden Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-08-03T01:52:00+10:00",
                 "updated": "2020-08-03T01:52:00+10:00",
                 "id": "ESTA:200802628",
@@ -2457,75 +2480,6 @@
                 "coordinates": [
                     143.1072388891656,
                     -38.36098522257339
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lavers Hill-Cobden Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-03T01:56:00+10:00",
-                "updated": "2020-08-03T01:56:00+10:00",
-                "id": "ESTA:200802629",
-                "location": "Lavers Hill-Cobden Rd, Jancourt",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.1072388891656,
-                    -38.36098522257339
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lavers Hill-Cobden Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-03T01:57:00+10:00",
-                "updated": "2020-08-03T01:57:00+10:00",
-                "id": "ESTA:200802630",
-                "location": "Lavers Hill-Cobden Rd, Jancourt",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.1072388891656,
-                    -38.36098522257339
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-03T02:00:00+10:00",
-                "updated": "2020-08-03T02:00:00+10:00",
-                "id": "ESTA:200802631",
-                "location": "Badger Creek",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.54134223828524,
-                    -37.68595523005951
                 ]
             }
         },
@@ -3154,14 +3108,83 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ford Rd",
+                "sourceTitle": "Church St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-03T02:03:00+10:00",
+                "updated": "2020-08-03T02:03:00+10:00",
+                "id": "ESTA:200802632",
+                "location": "Church St, Colac",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.5988055262888,
+                    -38.33450943802952
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lavers Hill-Cobden Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-03T01:57:00+10:00",
+                "updated": "2020-08-03T01:57:00+10:00",
+                "id": "ESTA:200802630",
+                "location": "Lavers Hill-Cobden Rd, Jancourt",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.1072388891656,
+                    -38.36098522257339
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lavers Hill-Cobden Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-03T01:56:00+10:00",
+                "updated": "2020-08-03T01:56:00+10:00",
+                "id": "ESTA:200802629",
+                "location": "Lavers Hill-Cobden Rd, Jancourt",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.1072388891656,
+                    -38.36098522257339
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2020-08-03T00:59:00+10:00",
-                "updated": "2020-08-03T00:59:00+10:00",
-                "id": "ESTA:200802622",
-                "location": "Ford Rd, Grahamvale",
+                "created": "2020-08-03T01:49:16+10:00",
+                "updated": "2020-08-03T01:49:16+10:00",
+                "id": "ESTA:200802627",
+                "location": "Princes Hwy, Hallam",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3169,8 +3192,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.42873002648733,
-                    -36.34771512369399
+                    145.26832857450782,
+                    -38.00616220884104
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thompson Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-03T02:15:26+10:00",
+                "updated": "2020-08-03T02:15:26+10:00",
+                "id": "ESTA:200802633",
+                "location": "Thompson Rd, Patterson Lakes",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14350539471582,
+                    -38.06829567721419
                 ]
             }
         }

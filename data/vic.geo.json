@@ -2326,6 +2326,28 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Barmera",
+                "category": "fire",
+                "subcategory": "planned burn",
+                "status": "controlled",
+                "created": "2020-08-03T20:16:00+10:00",
+                "updated": "2020-08-03T20:16:00+10:00",
+                "id": "1377409",
+                "location": "Barmera",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.474557350379,
+                    -34.2452635286066
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Nangeela - Hurdle Swamp Heath ",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -2349,14 +2371,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Roberts Av",
+                "sourceTitle": "Cranbourne Rd",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-08-03T20:09:00+10:00",
-                "updated": "2020-08-03T20:09:00+10:00",
-                "id": "ESTA:200803502",
-                "location": "Roberts Av, Horsham",
+                "created": "2020-08-03T20:23:38+10:00",
+                "updated": "2020-08-03T20:23:38+10:00",
+                "id": "ESTA:200803506",
+                "location": "Cranbourne Rd, Frankston",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2364,22 +2386,44 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.1983213320963,
-                    -36.71412310724273
+                    145.1424938907777,
+                    -38.14797092771964
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bronsdon St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-08-03T19:26:00+10:00",
+                "updated": "2020-08-03T20:26:00+10:00",
+                "id": "ESTA:200850061",
+                "location": "Indigo Valley",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.75386654438833,
+                    -36.16194660094625
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "bushfire",
                 "status": "responding",
-                "created": "2020-08-03T20:12:00+10:00",
-                "updated": "2020-08-03T20:12:00+10:00",
-                "id": "ESTA:200803504",
-                "location": "Bronsdon St, Lakes Entrance",
+                "created": "2020-08-03T20:27:00+10:00",
+                "updated": "2020-08-03T20:27:00+10:00",
+                "id": "ESTA:200803507",
+                "location": "Castle Donnington",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2387,8 +2431,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.98861394936173,
-                    -37.86552123049439
+                    143.57130752431135,
+                    -35.392901334170325
                 ]
             }
         },
@@ -3020,10 +3064,10 @@
                 "sourceTitle": "Barry Way, Jindabyne",
                 "category": "transport",
                 "subcategory": "motor vehicle accident",
-                "status": "out of control",
-                "created": "2020-08-03T19:56:00+10:00",
-                "updated": "2020-08-03T19:56:00+10:00",
-                "id": "2020-08-03T19:56:00.0000000:388311",
+                "status": "under control",
+                "created": "2020-08-03T20:23:00+10:00",
+                "updated": "2020-08-03T20:23:00+10:00",
+                "id": "2020-08-03T20:23:00.0000000:388311",
                 "location": "415 Barry Way, Jindabyne, Nsw 2627",
                 "title": "incident: transport"
             },
@@ -3033,6 +3077,29 @@
                 "coordinates": [
                     148.61003,
                     -36.448206
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bronsdon St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-03T20:12:00+10:00",
+                "updated": "2020-08-03T20:12:00+10:00",
+                "id": "ESTA:200803504",
+                "location": "Bronsdon St, Lakes Entrance",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.98861394936173,
+                    -37.86552123049439
                 ]
             }
         },
@@ -3085,29 +3152,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Great Alpine Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-03T19:21:00+10:00",
-                "updated": "2020-08-03T19:23:00+10:00",
-                "id": "ESTA:200803493",
-                "location": "Great Alpine Rd, Everton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.57830266013218,
-                    -36.4635720570357
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Rea Rd",
                 "category": "fire",
                 "subcategory": "other",
@@ -3154,14 +3198,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Jacka St",
+                "sourceTitle": "Roberts Av",
                 "category": "other",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2020-08-03T19:05:40+10:00",
-                "updated": "2020-08-03T19:05:40+10:00",
-                "id": "ESTA:200803479",
-                "location": "Jacka St, Preston",
+                "created": "2020-08-03T20:09:00+10:00",
+                "updated": "2020-08-03T20:19:00+10:00",
+                "id": "ESTA:200803502",
+                "location": "Roberts Av, Horsham",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -3169,53 +3213,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.98467294759124,
-                    -37.73209333433429
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Parramatta Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-03T19:55:33+10:00",
-                "updated": "2020-08-03T19:55:33+10:00",
-                "id": "ESTA:200803496",
-                "location": "Parramatta Rd, Werribee",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.66148807681614,
-                    -37.88667140150086
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-08-03T19:26:00+10:00",
-                "updated": "2020-08-03T19:58:00+10:00",
-                "id": "ESTA:200850061",
-                "location": "Indigo Valley",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.75386654438833,
-                    -36.16194660094625
+                    142.1983213320963,
+                    -36.71412310724273
                 ]
             }
         }

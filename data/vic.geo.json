@@ -2348,14 +2348,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Malvern Rd",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-03T21:31:00+10:00",
+                "updated": "2020-08-03T21:33:00+10:00",
+                "id": "ESTA:200850062",
+                "location": "Yarragon",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.050404252724,
+                    -38.222801727263224
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mollison St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-03T21:24:11+10:00",
-                "updated": "2020-08-03T21:24:11+10:00",
-                "id": "ESTA:200803510",
-                "location": "Malvern Rd, South Yarra",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-03T21:37:00+10:00",
+                "updated": "2020-08-03T21:37:00+10:00",
+                "id": "ESTA:200803514",
+                "location": "Mollison St, Malmsbury",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2363,8 +2385,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99764803527395,
-                    -37.8464148712204
+                    144.3925196016178,
+                    -37.189840934064605
                 ]
             }
         },
@@ -2996,7 +3018,7 @@
                 "sourceTitle": "Shogaki Dr",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-08-03T21:25:00+10:00",
                 "updated": "2020-08-03T21:25:00+10:00",
                 "id": "ESTA:200803512",
@@ -3033,52 +3055,6 @@
                 "coordinates": [
                     144.31828795880818,
                     -38.32228005585643
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-08-03T20:27:00+10:00",
-                "updated": "2020-08-03T20:46:00+10:00",
-                "id": "ESTA:200803507",
-                "location": "Castle Donnington",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.57130752431135,
-                    -35.392901334170325
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bronsdon St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-03T20:12:00+10:00",
-                "updated": "2020-08-03T20:36:00+10:00",
-                "id": "ESTA:200803504",
-                "location": "Bronsdon St, Lakes Entrance",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.98861394936173,
-                    -37.86552123049439
                 ]
             }
         },
@@ -3125,6 +3101,29 @@
                 "coordinates": [
                     142.6064817715698,
                     -36.96561756577179
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Malvern Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-08-03T21:24:11+10:00",
+                "updated": "2020-08-03T21:24:11+10:00",
+                "id": "ESTA:200803510",
+                "location": "Malvern Rd, South Yarra",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99764803527395,
+                    -37.8464148712204
                 ]
             }
         },

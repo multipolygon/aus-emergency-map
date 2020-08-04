@@ -2348,52 +2348,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mollison St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-08-04T22:10:00+10:00",
-                "updated": "2020-08-04T22:10:00+10:00",
-                "id": "ESTA:200803884",
-                "location": "Mollison St, Malmsbury",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3925196016178,
-                    -37.189840934064605
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nepean Hwy",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-04T22:15:54+10:00",
-                "updated": "2020-08-04T22:15:54+10:00",
-                "id": "ESTA:200803885",
-                "location": "Nepean Hwy, Cheltenham",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05250273007945,
-                    -37.95824081766714
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Watsonia",
                 "category": "landslide",
                 "subcategory": "landslide",
@@ -2416,14 +2370,59 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Oxley Flats Rd",
+                "sourceTitle": "Nepean Hwy",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-08-04T22:27:53+10:00",
+                "updated": "2020-08-04T22:27:53+10:00",
+                "id": "ESTA:200803885",
+                "location": "Nepean Hwy, Cheltenham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05250273007945,
+                    -37.95824081766714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-04T22:28:00+10:00",
+                "updated": "2020-08-04T22:30:00+10:00",
+                "id": "ESTA:200850117",
+                "location": "Mount Dandenong",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.35555443731872,
+                    -37.82925788320822
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-04T22:21:00+10:00",
-                "updated": "2020-08-04T22:21:00+10:00",
-                "id": "ESTA:200803886",
-                "location": "Oxley Flats Rd, Milawa",
+                "status": "safe",
+                "created": "2020-08-04T22:28:00+10:00",
+                "updated": "2020-08-04T22:30:00+10:00",
+                "id": "ESTA:200803888",
+                "location": "Mount Dandenong",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -2431,8 +2430,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.43901186203206,
-                    -36.43753988335593
+                    145.35555443731872,
+                    -37.82925788320822
                 ]
             }
         },
@@ -7439,6 +7438,29 @@
                         ],
                         "name": "East Gippsland"
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Oxley Flats Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-04T22:21:00+10:00",
+                "updated": "2020-08-04T22:21:00+10:00",
+                "id": "ESTA:200803886",
+                "location": "Oxley Flats Rd, Milawa",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.43945995495181,
+                    -36.43884017035478
                 ]
             }
         },

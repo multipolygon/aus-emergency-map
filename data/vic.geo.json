@@ -2348,35 +2348,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tate Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-05T13:35:00+10:00",
-                "updated": "2020-08-05T13:38:00+10:00",
-                "id": "ESTA:200804133",
-                "location": "Tate Dr, Kerang",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.924771847192,
-                    -35.747871597571056
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Griffiths St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-08-05T13:50:51+10:00",
-                "updated": "2020-08-05T13:50:51+10:00",
+                "status": "not yet under control",
+                "created": "2020-08-05T14:05:54+10:00",
+                "updated": "2020-08-05T14:05:54+10:00",
                 "id": "ESTA:200804136",
                 "location": "Griffiths St, Port Fairy",
                 "size": "Small",
@@ -2394,14 +2371,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Newborough",
+                "sourceTitle": "South Park Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-05T14:01:13+10:00",
-                "updated": "2020-08-05T14:01:13+10:00",
-                "id": "ESTA:200804146",
-                "location": "Newborough, Newborough",
+                "status": "safe",
+                "created": "2020-08-05T14:09:39+10:00",
+                "updated": "2020-08-05T14:09:39+10:00",
+                "id": "ESTA:200804118",
+                "location": "South Park Dr, Dandenong South",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2409,8 +2386,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.288353929962,
-                    -38.183631503937
+                    145.20142651731763,
+                    -38.01606786670466
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-08-05T14:13:00+10:00",
+                "updated": "2020-08-05T14:17:00+10:00",
+                "id": "ESTA:200804153",
+                "location": "Koo Wee Rup",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.46988180673011,
+                    -38.2116767352567
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Burwood East",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-05T14:17:33+10:00",
+                "updated": "2020-08-05T14:18:17+10:00",
+                "id": "ESTA:200804157",
+                "location": "Mudgee St, Burwood East",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.141937856378,
+                    -37.85573711989653
                 ]
             }
         },
@@ -4935,6 +4957,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-05T14:07:00+10:00",
+                "updated": "2020-08-05T14:07:00+10:00",
+                "id": "ESTA:200804147",
+                "location": "Broadford",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03719694701755,
+                    -37.21446766709343
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Royal Pde",
                 "category": "other",
                 "subcategory": "other",
@@ -4958,14 +5003,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "South Park Dr",
+                "sourceTitle": "Tate Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-05T13:35:00+10:00",
+                "updated": "2020-08-05T13:38:00+10:00",
+                "id": "ESTA:200804133",
+                "location": "Tate Dr, Kerang",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.924771847192,
+                    -35.747871597571056
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Toledo Cr",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-05T13:20:06+10:00",
-                "updated": "2020-08-05T13:20:06+10:00",
-                "id": "ESTA:200804118",
-                "location": "South Park Dr, Dandenong South",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-05T13:11:00+10:00",
+                "updated": "2020-08-05T13:31:00+10:00",
+                "id": "ESTA:200804120",
+                "location": "Toledo Cr, Point Cook",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4973,8 +5041,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20142651731763,
-                    -38.01606786670466
+                    144.74701399191483,
+                    -37.89891868147148
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Langford Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-05T14:09:39+10:00",
+                "updated": "2020-08-05T14:09:39+10:00",
+                "id": "ESTA:200804151",
+                "location": "Langford Av, Mitcham",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20113248304636,
+                    -37.829199541027215
                 ]
             }
         },
@@ -4984,9 +5075,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-08-05T13:35:00+10:00",
-                "updated": "2020-08-05T13:53:00+10:00",
+                "updated": "2020-08-05T14:11:00+10:00",
                 "id": "ESTA:200850147",
                 "location": "Bindi",
                 "title": "incident: tree down"

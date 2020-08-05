@@ -3207,14 +3207,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cloverdale Dr",
+                "sourceTitle": "Eames Av",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-08-06T02:41:56+10:00",
-                "updated": "2020-08-06T02:41:56+10:00",
-                "id": "ESTA:200804328",
-                "location": "Cloverdale Dr, Corio",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-08-06T02:51:54+10:00",
+                "updated": "2020-08-06T02:51:54+10:00",
+                "id": "ESTA:200804325",
+                "location": "Eames Av, Brooklyn",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3222,8 +3222,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.34840660949544,
-                    -38.066609259012544
+                    144.8480947342709,
+                    -37.820487175098926
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Heidelberg Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-06T02:54:49+10:00",
+                "updated": "2020-08-06T02:54:49+10:00",
+                "id": "ESTA:200804330",
+                "location": "Heidelberg Rd, Ivanhoe",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03886738442986,
+                    -37.77530124706119
                 ]
             }
         },
@@ -3547,6 +3570,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Cloverdale Dr",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-08-06T02:41:56+10:00",
+                "updated": "2020-08-06T02:41:56+10:00",
+                "id": "ESTA:200804328",
+                "location": "Cloverdale Dr, Corio",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.34840660949544,
+                    -38.066609259012544
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Princes Hwy",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -3564,29 +3610,6 @@
                 "coordinates": [
                     147.73907684632957,
                     -37.81624868151869
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eames Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-08-06T01:51:19+10:00",
-                "updated": "2020-08-06T01:51:19+10:00",
-                "id": "ESTA:200804325",
-                "location": "Eames Av, Brooklyn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.8480947342709,
-                    -37.820487175098926
                 ]
             }
         },

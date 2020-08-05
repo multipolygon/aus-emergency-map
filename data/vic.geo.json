@@ -3207,23 +3207,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
-                "created": "2020-08-06T04:51:00+10:00",
-                "updated": "2020-08-06T04:51:00+10:00",
-                "id": "ESTA:200804338",
-                "location": "Stawell",
+                "sourceTitle": "Warren St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-08-06T04:16:00+10:00",
+                "updated": "2020-08-06T04:35:00+10:00",
+                "id": "ESTA:200804335",
+                "location": "Warren St, Stawell",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.7725213825219,
-                    -37.05657722880445
+                    142.77865742359728,
+                    -37.066030272917054
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Geelong Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-06T05:10:39+10:00",
+                "updated": "2020-08-06T05:10:39+10:00",
+                "id": "ESTA:200804339",
+                "location": "Old Geelong Rd, Hoppers Crossing",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7015921826572,
+                    -37.881723218045956
                 ]
             }
         },
@@ -3231,13 +3254,13 @@
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gale Warning",
+                "sourceTitle": "Strong Wind Warning",
                 "category": "met",
-                "subcategory": "gale wind",
+                "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-08-06T00:00:00+10:00",
+                "created": "2020-08-06T05:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/ab770d0e0cf3200043e306474870a55f",
+                "id": "IDV20600/1a77858160a99ede04ffe0d113461a1a",
                 "location": "East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -3547,23 +3570,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Warren St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-08-06T04:16:00+10:00",
-                "updated": "2020-08-06T04:35:00+10:00",
-                "id": "ESTA:200804335",
-                "location": "Warren St, Stawell",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-08-06T04:51:00+10:00",
+                "updated": "2020-08-06T04:51:00+10:00",
+                "id": "ESTA:200804338",
+                "location": "Stawell",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.77865742359728,
-                    -37.066030272917054
+                    142.7725213825219,
+                    -37.05657722880445
                 ]
             }
         },

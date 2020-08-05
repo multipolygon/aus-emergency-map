@@ -3207,12 +3207,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-08-05T20:20:00+10:00",
+                "updated": "2020-08-05T20:43:00+10:00",
+                "id": "ESTA:200804297",
+                "location": "Eganstown",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.07744892509473,
+                    -37.35443684921228
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cardigan Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-08-05T21:12:40+10:00",
+                "updated": "2020-08-05T21:12:40+10:00",
+                "id": "ESTA:200804305",
+                "location": "Cardigan Rd, Mooroolbark",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.32498319781402,
+                    -37.788905169808885
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Henty St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-05T20:53:13+10:00",
-                "updated": "2020-08-05T20:53:13+10:00",
+                "status": "safe",
+                "created": "2020-08-05T21:14:37+10:00",
+                "updated": "2020-08-05T21:14:37+10:00",
                 "id": "ESTA:200804302",
                 "location": "Henty St, Torquay",
                 "size": "Small",
@@ -3230,57 +3276,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Venus Bay",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-05T19:23:02+10:00",
-                "updated": "2020-08-05T20:53:53+10:00",
-                "id": "ESTA:200804283",
-                "location": "Mcindoe Av, Venus Bay",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.78945696798922,
-                    -38.67124236638943
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Williamstown Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-08-05T20:54:27+10:00",
-                "updated": "2020-08-05T20:54:27+10:00",
-                "id": "ESTA:200804304",
-                "location": "Williamstown Rd, Port Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9250436532133,
-                    -37.835219163908015
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-08-05T21:02:00+10:00",
-                "updated": "2020-08-05T21:02:00+10:00",
+                "updated": "2020-08-05T21:15:00+10:00",
                 "id": "ESTA:200804306",
                 "location": "Myall (Kerang)",
                 "size": "Small",
@@ -3292,29 +3293,6 @@
                 "coordinates": [
                     143.99175074874083,
                     -35.57524722737166
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cardigan Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-08-05T20:56:12+10:00",
-                "updated": "2020-08-05T20:56:12+10:00",
-                "id": "ESTA:200804305",
-                "location": "Cardigan Rd, Mooroolbark",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.32498319781402,
-                    -37.788905169808885
                 ]
             }
         },
@@ -4780,29 +4758,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-08-05T20:20:00+10:00",
-                "updated": "2020-08-05T20:43:00+10:00",
-                "id": "ESTA:200804297",
-                "location": "Eganstown",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.07744892509473,
-                    -37.35443684921228
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Garnett Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -4829,9 +4784,9 @@
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-08-05T20:07:00+10:00",
-                "updated": "2020-08-05T20:43:00+10:00",
+                "updated": "2020-08-05T21:09:00+10:00",
                 "id": "ESTA:200850158",
                 "location": "Sunbury",
                 "title": "incident: other"

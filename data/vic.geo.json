@@ -3207,14 +3207,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bedford Rd",
+                "sourceTitle": "Docklands Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-06T11:48:30+10:00",
-                "updated": "2020-08-06T11:48:30+10:00",
-                "id": "ESTA:200804571",
-                "location": "Bedford Rd, Heathmont",
+                "status": "safe",
+                "created": "2020-08-06T12:11:07+10:00",
+                "updated": "2020-08-06T12:11:07+10:00",
+                "id": "ESTA:200804541",
+                "location": "Docklands Rd, Docklands",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3222,8 +3222,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.24901332212318,
-                    -37.822361242217774
+                    144.9397379019778,
+                    -37.8145134414415
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-06T12:09:00+10:00",
+                "updated": "2020-08-06T12:10:00+10:00",
+                "id": "ESTA:200850169",
+                "location": "Ringwood North",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2342332368882,
+                    -37.78276484543117
                 ]
             }
         },
@@ -3232,10 +3254,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Guinea Ct",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-06T11:55:26+10:00",
-                "updated": "2020-08-06T11:55:26+10:00",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-06T11:52:00+10:00",
+                "updated": "2020-08-06T12:03:00+10:00",
                 "id": "ESTA:200804588",
                 "location": "Guinea Ct, Epping",
                 "size": "Small",
@@ -3245,8 +3267,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0534982344066,
-                    -37.64536538573168
+                    145.05349611421929,
+                    -37.64536734700459
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gillies St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-06T12:17:50+10:00",
+                "updated": "2020-08-06T12:17:50+10:00",
+                "id": "ESTA:200804608",
+                "location": "Gillies St, Wendouree",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.82273238857323,
+                    -37.5378129200889
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Fwy",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-08-06T12:19:00+10:00",
+                "updated": "2020-08-06T12:19:00+10:00",
+                "id": "ESTA:200804610",
+                "location": "Princes Fwy, Officer",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38018288401847,
+                    -38.068401674326026
                 ]
             }
         },
@@ -7524,52 +7592,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Surrey Ct",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-06T11:03:00+10:00",
-                "updated": "2020-08-06T11:14:00+10:00",
-                "id": "ESTA:200804518",
-                "location": "Surrey Ct, Bayswater",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26603275608045,
-                    -37.854883784940206
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Harley St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-06T10:59:00+10:00",
-                "updated": "2020-08-06T11:04:00+10:00",
-                "id": "ESTA:200804511",
-                "location": "Harley St, Knoxfield",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.24543308468952,
-                    -37.89626825771645
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Eames Av",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -7597,8 +7619,8 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-08-06T11:57:27+10:00",
-                "updated": "2020-08-06T11:57:27+10:00",
+                "created": "2020-08-06T12:09:38+10:00",
+                "updated": "2020-08-06T12:09:38+10:00",
                 "id": "ESTA:200804585",
                 "location": "Walker Rd, Mount Waverley",
                 "size": "Small",

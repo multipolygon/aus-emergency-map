@@ -3230,12 +3230,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Shelley St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-06T14:10:44+10:00",
+                "updated": "2020-08-06T14:10:44+10:00",
+                "id": "ESTA:200804701",
+                "location": "Shelley St, Elwood",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9797776005407,
+                    -37.880524497019245
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Echuca Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-08-06T14:12:58+10:00",
+                "updated": "2020-08-06T14:12:58+10:00",
+                "id": "ESTA:200804693",
+                "location": "Echuca Rd, Mooroopna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.35405262487413,
+                    -36.38438365975643
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-08-06T13:58:00+10:00",
-                "updated": "2020-08-06T14:00:00+10:00",
+                "updated": "2020-08-06T14:11:00+10:00",
                 "id": "ESTA:200804685",
                 "location": "Killarney",
                 "size": "Small",
@@ -3247,75 +3293,6 @@
                 "coordinates": [
                     142.31307104688958,
                     -38.343914952363356
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Victoria St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-08-06T13:59:09+10:00",
-                "updated": "2020-08-06T13:59:09+10:00",
-                "id": "ESTA:200804674",
-                "location": "Victoria St, North Geelong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.34978858727433,
-                    -38.12296856472853
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-08-06T13:59:00+10:00",
-                "updated": "2020-08-06T13:59:00+10:00",
-                "id": "ESTA:200804688",
-                "location": "Princes Hwy, Tower Hill",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.3457764510883,
-                    -38.336596025272094
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Echuca Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2020-08-06T14:02:00+10:00",
-                "updated": "2020-08-06T14:02:00+10:00",
-                "id": "ESTA:200804693",
-                "location": "Echuca Rd, Mooroopna",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.35404323281233,
-                    -36.3843866494809
                 ]
             }
         },
@@ -7524,6 +7501,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-08-06T13:59:00+10:00",
+                "updated": "2020-08-06T13:59:00+10:00",
+                "id": "ESTA:200804688",
+                "location": "Princes Hwy, Tower Hill",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.3457764510883,
+                    -38.336596025272094
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -7573,9 +7573,9 @@
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-08-06T12:56:00+10:00",
-                "updated": "2020-08-06T12:59:00+10:00",
+                "updated": "2020-08-06T14:10:00+10:00",
                 "id": "ESTA:200850170",
                 "location": "Marysville",
                 "title": "incident: other"

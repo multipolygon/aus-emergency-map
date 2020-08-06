@@ -3121,7 +3121,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:05+10:00",
+                "updated": "2020-08-06T17:32:31+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -3138,12 +3138,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-07T03:05:00+10:00",
+                "updated": "2020-08-07T03:09:00+10:00",
+                "id": "ESTA:200850179",
+                "location": "Wallan",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97984923787936,
+                    -37.40670316123783
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Hansen Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-07T02:58:18+10:00",
-                "updated": "2020-08-07T02:58:18+10:00",
+                "status": "under control",
+                "created": "2020-08-07T03:07:41+10:00",
+                "updated": "2020-08-07T03:07:41+10:00",
                 "id": "ESTA:200804936",
                 "location": "Hansen Rd, Boronia",
                 "size": "Small",
@@ -3164,9 +3186,9 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-08-07T03:01:00+10:00",
-                "updated": "2020-08-07T03:01:12+10:00",
+                "updated": "2020-08-07T03:12:00+10:00",
                 "id": "ESTA:200850178",
                 "location": "Truganina",
                 "title": "incident: building damage"
@@ -3183,16 +3205,15 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Woods Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-07T03:01:00+10:00",
-                "updated": "2020-08-07T03:01:00+10:00",
-                "id": "ESTA:200804937",
-                "location": "Woods Rd, Truganina",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-08-07T03:13:00+10:00",
+                "updated": "2020-08-07T03:14:00+10:00",
+                "id": "ESTA:200850180",
+                "location": "Truganina",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
@@ -3200,6 +3221,28 @@
                 "coordinates": [
                     144.72233682529082,
                     -37.813998189280724
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Truganina",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-07T03:09:33+10:00",
+                "updated": "2020-08-07T03:13:36+10:00",
+                "id": "ESTA:200804938",
+                "location": "Woods Rd, Truganina",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.72234251987607,
+                    -37.81398533342095
                 ]
             }
         },
@@ -9432,6 +9475,29 @@
                         ],
                         "name": "West and South Gippsland"
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Woods Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-07T03:13:00+10:00",
+                "updated": "2020-08-07T03:13:00+10:00",
+                "id": "ESTA:200804937",
+                "location": "Woods Rd, Truganina",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7223370574206,
+                    -37.813991097761544
                 ]
             }
         }

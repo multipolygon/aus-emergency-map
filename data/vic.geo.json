@@ -3230,23 +3230,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-08-06T13:22:00+10:00",
-                "updated": "2020-08-06T13:24:00+10:00",
-                "id": "ESTA:200804646",
-                "location": "Trafalgar",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-08-06T13:58:00+10:00",
+                "updated": "2020-08-06T14:00:00+10:00",
+                "id": "ESTA:200804685",
+                "location": "Killarney",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.16176317894076,
-                    -38.20423723094412
+                    142.31307104688958,
+                    -38.343914952363356
                 ]
             }
         },
@@ -3256,9 +3256,9 @@
                 "sourceTitle": "Victoria St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-08-06T13:45:35+10:00",
-                "updated": "2020-08-06T13:45:35+10:00",
+                "status": "safe",
+                "created": "2020-08-06T13:59:09+10:00",
+                "updated": "2020-08-06T13:59:09+10:00",
                 "id": "ESTA:200804674",
                 "location": "Victoria St, North Geelong",
                 "size": "Small",
@@ -3270,6 +3270,52 @@
                 "coordinates": [
                     144.34978858727433,
                     -38.12296856472853
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-08-06T13:59:00+10:00",
+                "updated": "2020-08-06T13:59:00+10:00",
+                "id": "ESTA:200804688",
+                "location": "Princes Hwy, Tower Hill",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.3457764510883,
+                    -38.336596025272094
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Echuca Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-08-06T14:02:00+10:00",
+                "updated": "2020-08-06T14:02:00+10:00",
+                "id": "ESTA:200804693",
+                "location": "Echuca Rd, Mooroopna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.35404323281233,
+                    -36.3843866494809
                 ]
             }
         },
@@ -7478,69 +7524,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Graham St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-08-06T13:31:00+10:00",
-                "updated": "2020-08-06T13:31:00+10:00",
-                "id": "ESTA:200804655",
-                "location": "Graham St, Wonthaggi",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.58114755897367,
-                    -38.60728837159811
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Oshea Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-06T12:46:00+10:00",
-                "updated": "2020-08-06T13:01:00+10:00",
-                "id": "ESTA:200804629",
-                "location": "Oshea Rd, Berwick",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33945100726737,
-                    -38.060425360547754
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "safe",
-                "created": "2020-08-06T11:11:00+10:00",
-                "updated": "2020-08-06T12:59:00+10:00",
-                "id": "ESTA:200804535",
-                "location": "Koo Wee Rup",
+                "created": "2020-08-06T13:22:00+10:00",
+                "updated": "2020-08-06T13:24:00+10:00",
+                "id": "ESTA:200804646",
+                "location": "Trafalgar",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.4822669358063,
-                    -38.168580638229734
+                    146.16176317894076,
+                    -38.20423723094412
                 ]
             }
         },
@@ -7564,28 +7564,6 @@
                 "coordinates": [
                     144.8480947342709,
                     -37.820487175098926
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-08-06T10:52:00+10:00",
-                "updated": "2020-08-06T13:32:00+10:00",
-                "id": "ESTA:200850164",
-                "location": "East Warburton",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.76332109174254,
-                    -37.72257886085339
                 ]
             }
         },

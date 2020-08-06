@@ -3138,12 +3138,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-07T03:48:00+10:00",
+                "updated": "2020-08-07T03:49:00+10:00",
+                "id": "ESTA:200850181",
+                "location": "Nulla Vale",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.79162447770815,
+                    -37.20807817473797
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Albert St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-08-07T03:32:51+10:00",
-                "updated": "2020-08-07T03:32:51+10:00",
+                "status": "under control",
+                "created": "2020-08-07T04:01:01+10:00",
+                "updated": "2020-08-07T04:01:01+10:00",
                 "id": "ESTA:200804940",
                 "location": "Albert St, Reservoir",
                 "size": "Small",
@@ -3155,73 +3177,6 @@
                 "coordinates": [
                     145.02551359624536,
                     -37.72842438691931
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Reservoir",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-07T03:30:38+10:00",
-                "updated": "2020-08-07T03:34:32+10:00",
-                "id": "ESTA:200804942",
-                "location": "Reservoir",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02575854209172,
-                    -37.72800153987565
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Reservoir",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-07T03:31:48+10:00",
-                "updated": "2020-08-07T03:36:40+10:00",
-                "id": "ESTA:200804943",
-                "location": "Albert St, Reservoir",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02552029546445,
-                    -37.72842327307898
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Flemington Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-07T03:40:18+10:00",
-                "updated": "2020-08-07T03:40:18+10:00",
-                "id": "ESTA:200804944",
-                "location": "Flemington Rd, North Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94933619600832,
-                    -37.795596713857464
                 ]
             }
         },

@@ -292,10 +292,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.56680870000002,
-                    -28.327615570999967
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.56680870000002,
+                            -28.327615570999967
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.563544526,
+                                            -28.326646846
+                                        ],
+                                        [
+                                            153.568123168,
+                                            -28.3274059999999
+                                        ],
+                                        [
+                                            153.567314152,
+                                            -28.327536871
+                                        ],
+                                        [
+                                            153.566719286,
+                                            -28.3275249719999
+                                        ],
+                                        [
+                                            153.565660426,
+                                            -28.327334616
+                                        ],
+                                        [
+                                            153.565053664,
+                                            -28.327287027
+                                        ],
+                                        [
+                                            153.565303507,
+                                            -28.3275249719999
+                                        ],
+                                        [
+                                            153.565470069,
+                                            -28.327620152
+                                        ],
+                                        [
+                                            153.565565247,
+                                            -28.3278818919999
+                                        ],
+                                        [
+                                            153.565255918,
+                                            -28.327834303
+                                        ],
+                                        [
+                                            153.564827615,
+                                            -28.327774817
+                                        ],
+                                        [
+                                            153.564399312,
+                                            -28.3277153299999
+                                        ],
+                                        [
+                                            153.563544526,
+                                            -28.326646846
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -305,11 +374,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/388407",
-                "created": "2020-08-06T03:01:00+10:00",
-                "updated": "2020-08-06T13:01:00+10:00",
+                "created": "2020-08-06T05:34:00+10:00",
+                "updated": "2020-08-06T15:34:00+10:00",
                 "location": "In Cudgen Nature Reserve immediately north of Bogangar on the Tweed Coast",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: In Cudgen Nature Reserve immediately north of Bogangar on the Tweed Coast <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 6 Aug 2020 13:01",
+                "size": 2,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: In Cudgen Nature Reserve immediately north of Bogangar on the Tweed Coast <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 6 Aug 2020 15:34",
                 "title": "incident: fire"
             }
         },
@@ -375,13 +444,13 @@
                 "sourceTitle": "Canning Cl, Tingira Heights",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/388566",
-                "created": "2020-08-06T05:30:00+10:00",
-                "updated": "2020-08-06T15:30:00+10:00",
+                "created": "2020-08-06T05:36:00+10:00",
+                "updated": "2020-08-06T15:36:00+10:00",
                 "location": "Canning Cl, Tingira Heights, NSW 2290",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Canning Cl, Tingira Heights, NSW 2290 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Aug 2020 15:30",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Canning Cl, Tingira Heights, NSW 2290 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Aug 2020 15:36",
                 "title": "incident: fire"
             }
         },

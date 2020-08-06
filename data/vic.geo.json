@@ -3121,7 +3121,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:31+10:00",
+                "updated": "2020-08-06T17:32:05+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -3138,12 +3138,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Rowville",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-08-06T22:41:08+10:00",
+                "updated": "2020-08-06T22:41:08+10:00",
+                "id": "ESTA:200804917",
+                "location": "Rowville, Rowville",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24148465429022,
+                    -37.91890819669766
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hutchesson St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-06T22:40:00+10:00",
+                "updated": "2020-08-06T22:42:00+10:00",
+                "id": "ESTA:200804916",
+                "location": "Hutchesson St, Horsham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.20528153014592,
+                    -36.70239734134515
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Caithwill Ct",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-06T22:27:15+10:00",
-                "updated": "2020-08-06T22:27:15+10:00",
+                "status": "safe",
+                "created": "2020-08-06T22:43:56+10:00",
+                "updated": "2020-08-06T22:43:56+10:00",
                 "id": "ESTA:200804915",
                 "location": "Caithwill Ct, Narre Warren North",
                 "size": "Small",
@@ -7063,29 +7109,6 @@
                 "coordinates": [
                     145.25712789303756,
                     -38.02898956309275
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Arthur St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-06T21:18:00+10:00",
-                "updated": "2020-08-06T21:45:00+10:00",
-                "id": "ESTA:200804905",
-                "location": "Arthur St, Dromana",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.96333355375617,
-                    -38.336272039929995
                 ]
             }
         }

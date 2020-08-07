@@ -82001,23 +82001,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Darnum Park Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-08-08T07:37:00+10:00",
-                "updated": "2020-08-08T07:37:00+10:00",
-                "id": "ESTA:200805454",
-                "location": "Darnum Park Rd, Darnum",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-08-08T07:47:00+10:00",
+                "updated": "2020-08-08T08:01:00+10:00",
+                "id": "ESTA:200850261",
+                "location": "Churchill",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.00679535872416,
-                    -38.17342306140561
+                    146.42624127799664,
+                    -38.32289864067959
                 ]
             }
         },
@@ -82027,9 +82026,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-08-08T07:38:00+10:00",
-                "updated": "2020-08-08T07:39:00+10:00",
+                "updated": "2020-08-08T07:51:00+10:00",
                 "id": "ESTA:200850260",
                 "location": "Montrose",
                 "title": "incident: tree down"
@@ -82046,22 +82045,67 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Breakwater",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "safe",
-                "created": "2020-08-08T07:43:06+10:00",
-                "updated": "2020-08-08T07:45:50+10:00",
-                "id": "ESTA:200805455",
-                "location": "Leather St, Breakwater",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-08-08T06:53:00+10:00",
+                "updated": "2020-08-08T07:51:00+10:00",
+                "id": "ESTA:200850256",
+                "location": "Endeavour Hills",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3742727690784,
-                    -38.18597887886094
+                    145.24171901127627,
+                    -37.9758153964768
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ballarat East",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-08T07:52:53+10:00",
+                "updated": "2020-08-08T07:52:53+10:00",
+                "id": "ESTA:200805458",
+                "location": "Ballarat East, Ballarat East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8729311781397,
+                    -37.56155559747592
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-08T07:59:00+10:00",
+                "updated": "2020-08-08T07:59:00+10:00",
+                "id": "ESTA:200850262",
+                "location": "The Basin",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.31039330259253,
+                    -37.85994478854749
                 ]
             }
         },
@@ -84026,6 +84070,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Darnum Park Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-08-08T07:37:00+10:00",
+                "updated": "2020-08-08T07:55:00+10:00",
+                "id": "ESTA:200805454",
+                "location": "Darnum Park Rd, Darnum",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.00679535872416,
+                    -38.17342306140561
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Leather St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-08T07:44:00+10:00",
+                "updated": "2020-08-08T07:52:00+10:00",
+                "id": "ESTA:200805455",
+                "location": "Leather St, Breakwater",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3668170913522,
+                    -38.18587468188698
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mclachlan St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-08T07:48:00+10:00",
+                "updated": "2020-08-08T07:48:00+10:00",
+                "id": "ESTA:200805457",
+                "location": "Mclachlan St, Bacchus Marsh",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.42583096948027,
+                    -37.675138464074344
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Western Fwy",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -84098,9 +84211,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-08-08T07:07:00+10:00",
-                "updated": "2020-08-08T07:30:00+10:00",
+                "updated": "2020-08-08T07:51:00+10:00",
                 "id": "ESTA:200850257",
                 "location": "Garfield North",
                 "title": "incident: tree down"
@@ -84111,28 +84224,6 @@
                 "coordinates": [
                     145.67649036963252,
                     -38.042516371397575
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-08T06:53:00+10:00",
-                "updated": "2020-08-08T07:21:00+10:00",
-                "id": "ESTA:200850256",
-                "location": "Endeavour Hills",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.24171901127627,
-                    -37.9758153964768
                 ]
             }
         },

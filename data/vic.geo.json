@@ -82007,7 +82007,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:31+10:00",
+                "updated": "2020-08-06T17:32:05+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -82024,37 +82024,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sutton St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-07T12:12:00+10:00",
-                "updated": "2020-08-07T12:32:00+10:00",
-                "id": "ESTA:200805189",
-                "location": "Sutton St, Echuca",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.75992715082108,
-                    -36.1324825201323
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hopetoun Park",
+                "sourceTitle": "Western Out-Hopetoun Park Ramp",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-08-07T12:35:30+10:00",
-                "updated": "2020-08-07T12:35:30+10:00",
+                "status": "under control",
+                "created": "2020-08-07T12:47:56+10:00",
+                "updated": "2020-08-07T12:47:56+10:00",
                 "id": "ESTA:200805207",
-                "location": "Hopetoun Park, Hopetoun Park",
+                "location": "Western Out-Hopetoun Park Ramp, Hopetoun Park",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -82062,31 +82039,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.50247806723127,
-                    -37.68687407186929
+                    144.5043520936467,
+                    -37.688116295286974
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-08-07T12:37:00+10:00",
-                "updated": "2020-08-07T12:37:00+10:00",
-                "id": "ESTA:200805208",
-                "location": "Hopetoun Park",
-                "size": "Small",
-                "title": "incident: rescue"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-08-07T12:57:00+10:00",
+                "updated": "2020-08-07T13:01:00+10:00",
+                "id": "ESTA:200850191",
+                "location": "Broadmeadows",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.50247333479726,
-                    -37.68687995447175
+                    144.91761773887615,
+                    -37.68020232794239
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pearcedale Pde",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-07T12:56:54+10:00",
+                "updated": "2020-08-07T12:56:54+10:00",
+                "id": "ESTA:200805216",
+                "location": "Pearcedale Pde, Broadmeadows",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91762398403205,
+                    -37.68020193809644
                 ]
             }
         },
@@ -87664,10 +87663,10 @@
                 "sourceTitle": "Snowy Mountains Hwy, Kosciuszko National Park",
                 "category": "transport",
                 "subcategory": "motor vehicle accident",
-                "status": "out of control",
-                "created": "2020-08-07T11:58:00+10:00",
-                "updated": "2020-08-07T11:58:00+10:00",
-                "id": "2020-08-07T11:58:00.0000000:388630",
+                "status": "under control",
+                "created": "2020-08-07T12:52:00+10:00",
+                "updated": "2020-08-07T12:52:00+10:00",
+                "id": "2020-08-07T12:52:00.0000000:388630",
                 "location": "Snowy Mountains Hwy, Kosciuszko National Park, Nsw 2627",
                 "title": "incident: transport"
             },
@@ -87677,6 +87676,29 @@
                 "coordinates": [
                     148.497224999,
                     -35.866620999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sutton St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-07T12:12:00+10:00",
+                "updated": "2020-08-07T12:32:00+10:00",
+                "id": "ESTA:200805189",
+                "location": "Sutton St, Echuca",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.75992715082108,
+                    -36.1324825201323
                 ]
             }
         },
@@ -87729,46 +87751,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lonsdale St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-08-07T12:13:17+10:00",
-                "updated": "2020-08-07T12:13:17+10:00",
-                "id": "ESTA:200805178",
-                "location": "Lonsdale St, Melbourne",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
+                "created": "2020-08-07T12:23:00+10:00",
+                "updated": "2020-08-07T13:01:00+10:00",
+                "id": "ESTA:200850190",
+                "location": "Gorae West",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96369171913474,
-                    -37.81209036721594
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Balwyn North",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-08-07T12:16:42+10:00",
-                "updated": "2020-08-07T12:16:42+10:00",
-                "id": "ESTA:200805126",
-                "location": "Balwyn North, Balwyn North",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.07853472306417,
-                    -37.78044466606814
+                    141.4894345251,
+                    -38.251497225227176
                 ]
             }
         },
@@ -87791,28 +87789,6 @@
                 "coordinates": [
                     142.06668167956806,
                     -34.16930089169322
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-07T12:23:00+10:00",
-                "updated": "2020-08-07T12:24:00+10:00",
-                "id": "ESTA:200850190",
-                "location": "Gorae West",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.4894345251,
-                    -38.251497225227176
                 ]
             }
         },

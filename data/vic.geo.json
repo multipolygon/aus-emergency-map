@@ -97800,7 +97800,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:31+10:00",
+                "updated": "2020-08-06T17:32:05+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -97817,10 +97817,54 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-08-08T13:31:00+10:00",
+                "updated": "2020-08-08T13:40:00+10:00",
+                "id": "ESTA:200850293",
+                "location": "Truganina",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7185333288981,
+                    -37.83422719223304
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Newborough",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-08-08T11:35:03+10:00",
+                "updated": "2020-08-08T13:33:24+10:00",
+                "id": "ESTA:200805586",
+                "location": "Newborough",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.28469447322556,
+                    -38.18713581638547
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-08-08T13:24:00+10:00",
                 "updated": "2020-08-08T13:24:00+10:00",
                 "id": "ESTA:200805651",
@@ -97834,29 +97878,6 @@
                 "coordinates": [
                     145.99673335035655,
                     -37.89306639700587
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Power St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-08-08T13:25:17+10:00",
-                "updated": "2020-08-08T13:25:17+10:00",
-                "id": "ESTA:200805652",
-                "location": "Power St, St Albans",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.80362205526964,
-                    -37.730708041412115
                 ]
             }
         },
@@ -99145,52 +99166,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Melfin Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-08T11:12:00+10:00",
-                "updated": "2020-08-08T12:34:00+10:00",
-                "id": "ESTA:200805570",
-                "location": "Melfin Dr, Hillside (Greater Melbourne)",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.74560142378357,
-                    -37.687951259828715
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jacaranda St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-08T12:16:00+10:00",
-                "updated": "2020-08-08T12:32:00+10:00",
-                "id": "ESTA:200805611",
-                "location": "Jacaranda St, Red Cliffs",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.1869406976086,
-                    -34.305746006913665
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Laurens St",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -99231,51 +99206,6 @@
                 "coordinates": [
                     144.86503906753282,
                     -37.84077990195461
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jacka Bvd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-08-08T12:59:25+10:00",
-                "updated": "2020-08-08T12:59:25+10:00",
-                "id": "ESTA:200805630",
-                "location": "Jacka Bvd, St Kilda",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97273544151258,
-                    -37.86514334684035
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "complete",
-                "created": "2020-08-08T12:34:00+10:00",
-                "updated": "2020-08-08T13:21:00+10:00",
-                "id": "ESTA:200850290",
-                "location": "Ringwood North",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2314308775419,
-                    -37.79790826346985
                 ]
             }
         },

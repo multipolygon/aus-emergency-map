@@ -51858,7 +51858,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:31+10:00",
+                "updated": "2020-08-06T17:32:05+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -51875,12 +51875,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Halley Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-08T17:48:00+10:00",
+                "updated": "2020-08-08T17:58:00+10:00",
+                "id": "ESTA:200805817",
+                "location": "Halley Rd, Ferntree Gully",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29362936020348,
+                    -37.87560934963332
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Station St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-08-08T17:43:00+10:00",
-                "updated": "2020-08-08T17:43:00+10:00",
+                "updated": "2020-08-08T18:10:00+10:00",
                 "id": "ESTA:200805813",
                 "location": "Station St, Wallan",
                 "size": "Small",
@@ -51892,74 +51915,6 @@
                 "coordinates": [
                     145.00540324283477,
                     -37.41185966884974
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Halley Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-08-08T17:57:42+10:00",
-                "updated": "2020-08-08T17:57:42+10:00",
-                "id": "ESTA:200805817",
-                "location": "Halley Rd, Ferntree Gully",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2936323977149,
-                    -37.87560829823911
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Noojee",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-08T13:23:52+10:00",
-                "updated": "2020-08-08T17:59:28+10:00",
-                "id": "ESTA:200805651",
-                "location": "Noojee",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.9967506325792,
-                    -37.893051585115515
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Newport",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-08-08T18:01:16+10:00",
-                "updated": "2020-08-08T18:01:16+10:00",
-                "id": "ESTA:200805816",
-                "location": "Newport, Newport",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.87225102020264,
-                    -37.8489598033174
                 ]
             }
         },
@@ -52611,14 +52566,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hanover Ct",
+                "sourceTitle": "Newport",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-08-08T16:54:00+10:00",
-                "updated": "2020-08-08T17:11:00+10:00",
-                "id": "ESTA:200805793",
-                "location": "Hanover Ct, Kilmore",
+                "created": "2020-08-08T18:01:16+10:00",
+                "updated": "2020-08-08T18:01:16+10:00",
+                "id": "ESTA:200805816",
+                "location": "Newport, Newport",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -52626,31 +52581,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96180146733235,
-                    -37.28542909211092
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thomson (Geelong)",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-08T17:17:57+10:00",
-                "updated": "2020-08-08T17:17:57+10:00",
-                "id": "ESTA:200805795",
-                "location": "Thomson (Geelong), Thomson (Geelong)",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3733601144556,
-                    -38.16413774430589
+                    144.87225102020264,
+                    -37.8489598033174
                 ]
             }
         },
@@ -52660,9 +52592,9 @@
                 "sourceTitle": "Wilkinson St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-08T17:34:10+10:00",
-                "updated": "2020-08-08T17:34:10+10:00",
+                "status": "under control",
+                "created": "2020-08-08T18:18:29+10:00",
+                "updated": "2020-08-08T18:18:29+10:00",
                 "id": "ESTA:200805808",
                 "location": "Wilkinson St, Hoppers Crossing",
                 "size": "Small",

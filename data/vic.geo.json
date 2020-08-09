@@ -3164,7 +3164,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:05+10:00",
+                "updated": "2020-08-06T17:32:31+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -3204,12 +3204,57 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Ballarto Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-10T07:08:00+10:00",
+                "updated": "2020-08-10T07:37:00+10:00",
+                "id": "ESTA:200806450",
+                "location": "Ballarto Rd, Clyde",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.31221377756984,
+                    -38.132122788095515
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-08-10T08:04:00+10:00",
+                "updated": "2020-08-10T08:04:00+10:00",
+                "id": "ESTA:200850355",
+                "location": "Brunswick",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96316852040312,
+                    -37.762123112061154
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Elwood",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-08-10T07:57:11+10:00",
-                "updated": "2020-08-10T07:57:11+10:00",
+                "status": "safe",
+                "created": "2020-08-10T08:09:23+10:00",
+                "updated": "2020-08-10T08:09:23+10:00",
                 "id": "ESTA:200806464",
                 "location": "Elwood, Elwood",
                 "size": "Small",
@@ -3221,6 +3266,29 @@
                 "coordinates": [
                     144.9917126259443,
                     -37.88620207201848
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Whitehorse Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-10T08:15:32+10:00",
+                "updated": "2020-08-10T08:15:32+10:00",
+                "id": "ESTA:200806470",
+                "location": "Whitehorse Rd, Mount Clear",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8621633952426,
+                    -37.60392474739864
                 ]
             }
         },
@@ -3249,29 +3317,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ballarto Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-10T07:08:00+10:00",
-                "updated": "2020-08-10T07:37:00+10:00",
-                "id": "ESTA:200806450",
-                "location": "Ballarto Rd, Clyde",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.31221377756984,
-                    -38.132122788095515
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Sydney Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -3289,6 +3334,52 @@
                 "coordinates": [
                     144.95160971869748,
                     -37.64969266284205
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
+                "status": "request for assistance",
+                "created": "2020-08-10T08:15:00+10:00",
+                "updated": "2020-08-10T08:17:00+10:00",
+                "id": "ESTA:200806475",
+                "location": "Mildura",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.15720173019216,
+                    -34.189402389038385
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dandenong South",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-08-10T08:15:32+10:00",
+                "updated": "2020-08-10T08:15:32+10:00",
+                "id": "ESTA:200806476",
+                "location": "Dandenong South, Dandenong South",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20640744481662,
+                    -38.034321089414824
                 ]
             }
         },

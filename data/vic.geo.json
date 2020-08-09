@@ -15403,14 +15403,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mclachlan St",
+                "sourceTitle": "Nottingham Av",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-08-09T19:15:00+10:00",
-                "updated": "2020-08-09T19:24:00+10:00",
-                "id": "ESTA:200806371",
-                "location": "Mclachlan St, Apollo Bay",
+                "status": "responding",
+                "created": "2020-08-09T19:41:00+10:00",
+                "updated": "2020-08-09T19:41:00+10:00",
+                "id": "ESTA:200806375",
+                "location": "Nottingham Av, Somerville",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15418,8 +15418,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.66432840454286,
-                    -38.75488004166362
+                    145.1657270025409,
+                    -38.227944536558134
                 ]
             }
         },
@@ -15429,9 +15429,9 @@
                 "sourceTitle": "Lockwood Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-08-09T19:26:00+10:00",
-                "updated": "2020-08-09T19:26:00+10:00",
+                "updated": "2020-08-09T19:45:00+10:00",
                 "id": "ESTA:200806373",
                 "location": "Lockwood Rd, Kangaroo Flat",
                 "size": "Small",
@@ -15443,6 +15443,51 @@
                 "coordinates": [
                     144.23490461371892,
                     -36.79703005765201
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clarinda",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-08-09T19:44:28+10:00",
+                "updated": "2020-08-09T19:45:55+10:00",
+                "id": "ESTA:200806376",
+                "location": "Welwood Ct, Clarinda",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10609740323142,
+                    -37.93559788463582
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pearsons Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-08-09T19:06:00+10:00",
+                "updated": "2020-08-09T19:42:00+10:00",
+                "id": "ESTA:200806370",
+                "location": "Pearsons Rd, Hedley",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.56105306432147,
+                    -38.65152971422961
                 ]
             }
         },
@@ -15472,37 +15517,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pearsons Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-09T19:06:00+10:00",
-                "updated": "2020-08-09T19:06:00+10:00",
-                "id": "ESTA:200806370",
-                "location": "Pearsons Rd, Hedley",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.56105306432147,
-                    -38.65152971422961
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Alma Cr",
+                "sourceTitle": "Mclachlan St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-09T18:38:00+10:00",
-                "updated": "2020-08-09T18:41:00+10:00",
-                "id": "ESTA:200806363",
-                "location": "Alma Cr, Adams Estate",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-08-09T19:15:00+10:00",
+                "updated": "2020-08-09T19:24:00+10:00",
+                "id": "ESTA:200806371",
+                "location": "Mclachlan St, Apollo Bay",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15510,31 +15532,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.531523375642,
-                    -38.425528203318585
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Oakden St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-09T18:00:00+10:00",
-                "updated": "2020-08-09T18:33:00+10:00",
-                "id": "ESTA:200806351",
-                "location": "Oakden St, Pearcedale",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.23662450406303,
-                    -38.20143798939062
+                    143.66432840454286,
+                    -38.75488004166362
                 ]
             }
         },
@@ -15565,33 +15564,11 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "on scene",
-                "created": "2020-08-09T08:27:00+10:00",
-                "updated": "2020-08-09T09:24:00+10:00",
-                "id": "ESTA:200850319",
-                "location": "Campbellfield",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95329918423928,
-                    -37.65510713602496
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-08-09T19:06:00+10:00",
-                "updated": "2020-08-09T19:24:00+10:00",
+                "updated": "2020-08-09T19:41:00+10:00",
                 "id": "ESTA:200850352",
                 "location": "Hedley",
                 "title": "incident: building damage"
@@ -15624,6 +15601,28 @@
                 "coordinates": [
                     145.2839449085723,
                     -37.36496774585755
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "on scene",
+                "created": "2020-08-09T08:27:00+10:00",
+                "updated": "2020-08-09T09:24:00+10:00",
+                "id": "ESTA:200850319",
+                "location": "Campbellfield",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95329918423928,
+                    -37.65510713602496
                 ]
             }
         }

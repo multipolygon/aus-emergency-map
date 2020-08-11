@@ -4885,7 +4885,7 @@
                 "sourceTitle": "Weston St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-08-12T02:58:00+10:00",
                 "updated": "2020-08-12T02:58:00+10:00",
                 "id": "ESTA:200807916",
@@ -4899,52 +4899,6 @@
                 "coordinates": [
                     143.63720526906363,
                     -38.19642555743293
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Maiden Gully",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "not yet under control",
-                "created": "2020-08-12T03:00:21+10:00",
-                "updated": "2020-08-12T03:00:21+10:00",
-                "id": "ESTA:200807913",
-                "location": "Maiden Gully, Maiden Gully",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.19939758057413,
-                    -36.742060840910476
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Egan St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-08-12T03:01:00+10:00",
-                "updated": "2020-08-12T03:01:00+10:00",
-                "id": "ESTA:200807918",
-                "location": "Egan St, Dartmoor",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.27224262100106,
-                    -37.923516413887896
                 ]
             }
         },
@@ -5204,6 +5158,52 @@
                         ],
                         "name": "West Coast"
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maiden Gully",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-08-12T03:04:12+10:00",
+                "updated": "2020-08-12T03:04:12+10:00",
+                "id": "ESTA:200807913",
+                "location": "Maiden Gully, Maiden Gully",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.19939758057413,
+                    -36.742060840910476
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Egan St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-12T03:01:00+10:00",
+                "updated": "2020-08-12T03:01:00+10:00",
+                "id": "ESTA:200807918",
+                "location": "Egan St, Dartmoor",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.27224262100106,
+                    -37.923516413887896
                 ]
             }
         },

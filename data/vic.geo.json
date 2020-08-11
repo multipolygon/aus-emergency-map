@@ -4882,23 +4882,69 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Citylink -",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-11T20:14:42+10:00",
-                "updated": "2020-08-11T20:14:42+10:00",
-                "id": "ESTA:200807874",
-                "location": "Citylink -, Docklands",
+                "sourceTitle": "Church St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-11T19:50:00+10:00",
+                "updated": "2020-08-11T20:01:00+10:00",
+                "id": "ESTA:200807870",
+                "location": "Church St, Stawell",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9322039536152,
-                    -37.81899641905016
+                    142.77933308351635,
+                    -37.05210384961353
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Isabelle Av",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-11T20:23:37+10:00",
+                "updated": "2020-08-11T20:23:37+10:00",
+                "id": "ESTA:200807878",
+                "location": "Isabelle Av, Keysborough",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1570201491796,
+                    -38.00251199299819
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Greenpatch Dr",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-08-11T20:26:42+10:00",
+                "updated": "2020-08-11T20:26:42+10:00",
+                "id": "ESTA:200807877",
+                "location": "Greenpatch Dr, Bangholme",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16538551482907,
+                    -38.042573755793576
                 ]
             }
         },
@@ -4908,7 +4954,7 @@
                 "sourceTitle": "Emerald-Monbulk Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-08-11T20:16:00+10:00",
                 "updated": "2020-08-11T20:16:00+10:00",
                 "id": "ESTA:200807876",
@@ -4922,29 +4968,6 @@
                 "coordinates": [
                     145.4426133850291,
                     -37.92590838781876
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Homestead Rd",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-08-11T20:16:54+10:00",
-                "updated": "2020-08-11T20:16:54+10:00",
-                "id": "ESTA:200807877",
-                "location": "Homestead Rd, Bangholme",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16234654449357,
-                    -38.04379412392717
                 ]
             }
         },
@@ -5210,29 +5233,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Church St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-11T19:50:00+10:00",
-                "updated": "2020-08-11T20:01:00+10:00",
-                "id": "ESTA:200807870",
-                "location": "Church St, Stawell",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.77933308351635,
-                    -37.05210384961353
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
@@ -5296,6 +5296,29 @@
                 "coordinates": [
                     144.95160971869748,
                     -37.64969266284205
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Citylink -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-11T20:14:42+10:00",
+                "updated": "2020-08-11T20:14:42+10:00",
+                "id": "ESTA:200807874",
+                "location": "Citylink -, Docklands",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9322039536152,
+                    -37.81899641905016
                 ]
             }
         },

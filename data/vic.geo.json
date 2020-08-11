@@ -4882,58 +4882,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "St Albans",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-08-11T21:31:17+10:00",
-                "updated": "2020-08-11T21:31:17+10:00",
-                "id": "ESTA:200807890",
-                "location": "St Albans, St Albans",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.79366909947797,
-                    -37.72786206470041
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Island Dr",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-08-11T21:37:32+10:00",
-                "updated": "2020-08-11T21:37:32+10:00",
-                "id": "ESTA:200807892",
-                "location": "Island Dr, Torquay",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3419751089249,
-                    -38.31473518569806
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Canny Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-08-11T21:43:31+10:00",
-                "updated": "2020-08-11T21:43:31+10:00",
+                "created": "2020-08-11T21:25:00+10:00",
+                "updated": "2020-08-11T21:43:00+10:00",
                 "id": "ESTA:200807891",
                 "location": "Canny Rd, Eppalock",
                 "size": "Small",
@@ -4943,31 +4897,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.49395447947654,
-                    -36.82691888475176
+                    144.493950814675,
+                    -36.82692728397059
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Skye Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Park St",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-08-11T21:43:37+10:00",
-                "updated": "2020-08-11T21:43:37+10:00",
-                "id": "ESTA:200807893",
-                "location": "Skye Rd, Frankston",
+                "created": "2020-08-11T22:01:43+10:00",
+                "updated": "2020-08-11T22:01:43+10:00",
+                "id": "ESTA:200807894",
+                "location": "Park St, St Kilda West",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.15400338620108,
-                    -38.136389641806026
+                    144.97427128780427,
+                    -37.86052162939405
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Longwarry-Drouin Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-11T22:02:00+10:00",
+                "updated": "2020-08-11T22:02:00+10:00",
+                "id": "ESTA:200807895",
+                "location": "Longwarry-Drouin Rd, Longwarry",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.77109065974733,
+                    -38.11175741386562
                 ]
             }
         },
@@ -5233,6 +5210,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Skye Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-11T22:00:13+10:00",
+                "updated": "2020-08-11T22:00:13+10:00",
+                "id": "ESTA:200807893",
+                "location": "Skye Rd, Frankston",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.15400338620108,
+                    -38.136389641806026
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Island Dr",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-08-11T21:46:41+10:00",
+                "updated": "2020-08-11T21:46:41+10:00",
+                "id": "ESTA:200807892",
+                "location": "Island Dr, Torquay",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3419751089249,
+                    -38.31473518569806
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Heatherton Rd",
                 "category": "fire",
                 "subcategory": "other",
@@ -5250,29 +5273,6 @@
                 "coordinates": [
                     145.14210310398994,
                     -37.9613427982343
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Prices Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-08-11T20:33:00+10:00",
-                "updated": "2020-08-11T21:01:00+10:00",
-                "id": "ESTA:200807880",
-                "location": "Prices Rd, Millgrove",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.65564069074713,
-                    -37.75468375234117
                 ]
             }
         },
@@ -5302,23 +5302,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Blyth St",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "St Albans",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "under control",
-                "created": "2020-08-11T21:12:42+10:00",
-                "updated": "2020-08-11T21:12:42+10:00",
-                "id": "ESTA:200807883",
-                "location": "Blyth St, Brunswick East",
+                "created": "2020-08-11T21:31:17+10:00",
+                "updated": "2020-08-11T21:31:17+10:00",
+                "id": "ESTA:200807890",
+                "location": "St Albans, St Albans",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.97779891306774,
-                    -37.76726839013636
+                    144.79366909947797,
+                    -37.72786206470041
                 ]
             }
         },

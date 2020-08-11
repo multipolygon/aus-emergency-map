@@ -4887,7 +4887,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:05+10:00",
+                "updated": "2020-08-06T17:32:31+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -4898,29 +4898,6 @@
                 "coordinates": [
                     142.55769688119105,
                     -36.04745977646625
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Socrates Way",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-11T17:07:57+10:00",
-                "updated": "2020-08-11T17:07:57+10:00",
-                "id": "ESTA:200807819",
-                "location": "Socrates Way, Rockbank",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.6649710062679,
-                    -37.73466261014647
                 ]
             }
         },
@@ -4950,14 +4927,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Corangamite Dr",
+                "sourceTitle": "Dundas St",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-08-11T17:17:32+10:00",
-                "updated": "2020-08-11T17:17:32+10:00",
-                "id": "ESTA:200807830",
-                "location": "Corangamite Dr, Corio",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-08-11T17:20:41+10:00",
+                "updated": "2020-08-11T17:20:41+10:00",
+                "id": "ESTA:200807772",
+                "location": "Dundas St, Thornbury",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4965,8 +4942,76 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.34315613895973,
-                    -38.06496808246473
+                    145.00602583998264,
+                    -37.75294400891118
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Keilor Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-11T17:29:15+10:00",
+                "updated": "2020-08-11T17:29:15+10:00",
+                "id": "ESTA:200807836",
+                "location": "Keilor Rd, Essendon North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.89706901566282,
+                    -37.739006099109886
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Broadmeadows",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-08-11T17:30:07+10:00",
+                "updated": "2020-08-11T17:30:31+10:00",
+                "id": "ESTA:200807839",
+                "location": "Dacelo Av, Broadmeadows",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.92187512816304,
+                    -37.687285562842305
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glen Tower Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-11T17:20:29+10:00",
+                "updated": "2020-08-11T17:20:29+10:00",
+                "id": "ESTA:200807832",
+                "location": "Glen Tower Dr, Glen Waverley",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18449979030217,
+                    -37.87941143604377
                 ]
             }
         },
@@ -5232,6 +5277,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Corangamite Dr",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-11T17:07:00+10:00",
+                "updated": "2020-08-11T17:17:00+10:00",
+                "id": "ESTA:200807830",
+                "location": "Corangamite Dr, Corio",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.34314543854762,
+                    -38.06497136021606
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Socrates Way",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-11T17:07:57+10:00",
+                "updated": "2020-08-11T17:07:57+10:00",
+                "id": "ESTA:200807819",
+                "location": "Socrates Way, Rockbank",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6649710062679,
+                    -37.73466261014647
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Carmichael St",
                 "category": "fire",
                 "subcategory": "other",
@@ -5249,29 +5340,6 @@
                 "coordinates": [
                     141.39128228545215,
                     -37.59213431130714
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Clyde Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-11T15:56:00+10:00",
-                "updated": "2020-08-11T16:25:00+10:00",
-                "id": "ESTA:200807795",
-                "location": "Clyde Rd, Berwick",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34064375859052,
-                    -38.04849242966832
                 ]
             }
         },
@@ -5324,37 +5392,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dundas St",
+                "sourceTitle": "Swift St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-11T15:43:17+10:00",
-                "updated": "2020-08-11T15:43:17+10:00",
-                "id": "ESTA:200807772",
-                "location": "Dundas St, Thornbury",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.00602583998264,
-                    -37.75294400891118
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Christmas St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-11T17:03:11+10:00",
-                "updated": "2020-08-11T17:03:11+10:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-08-11T17:20:40+10:00",
+                "updated": "2020-08-11T17:20:40+10:00",
                 "id": "ESTA:200807827",
-                "location": "Christmas St, Northcote",
+                "location": "Swift St, Northcote",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -5362,8 +5407,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.01716150900606,
-                    -37.76697188004984
+                    145.01691177427068,
+                    -37.76683676226451
                 ]
             }
         },
@@ -5394,11 +5439,55 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "request for assistance",
+                "created": "2020-08-11T16:52:00+10:00",
+                "updated": "2020-08-11T17:28:00+10:00",
+                "id": "ESTA:200850401",
+                "location": "Seabrook",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.75777957072964,
+                    -37.877307846587954
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-08-11T16:57:00+10:00",
+                "updated": "2020-08-11T17:28:00+10:00",
+                "id": "ESTA:200850402",
+                "location": "Seabrook",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7586939042899,
+                    -37.87752351577002
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-08-11T17:06:00+10:00",
-                "updated": "2020-08-11T17:08:00+10:00",
+                "updated": "2020-08-11T17:19:00+10:00",
                 "id": "ESTA:200850404",
                 "location": "Blackburn North",
                 "title": "incident: tree down"
@@ -5409,6 +5498,28 @@
                 "coordinates": [
                     145.1580909009224,
                     -37.81093302032377
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "on scene",
+                "created": "2020-08-11T16:50:00+10:00",
+                "updated": "2020-08-11T17:19:00+10:00",
+                "id": "ESTA:200850400",
+                "location": "Rockbank",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.66496174230988,
+                    -37.734664632167906
                 ]
             }
         },
@@ -5431,72 +5542,6 @@
                 "coordinates": [
                     144.27383476522493,
                     -36.72107613050118
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "request for assistance",
-                "created": "2020-08-11T16:50:00+10:00",
-                "updated": "2020-08-11T17:05:00+10:00",
-                "id": "ESTA:200850400",
-                "location": "Rockbank",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.66496174230988,
-                    -37.734664632167906
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-08-11T16:57:00+10:00",
-                "updated": "2020-08-11T17:03:00+10:00",
-                "id": "ESTA:200850402",
-                "location": "Seabrook",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7586939042899,
-                    -37.87752351577002
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "request for assistance",
-                "created": "2020-08-11T16:52:00+10:00",
-                "updated": "2020-08-11T16:53:00+10:00",
-                "id": "ESTA:200850401",
-                "location": "Seabrook",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.75777957072964,
-                    -37.877307846587954
                 ]
             }
         },

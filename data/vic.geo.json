@@ -4987,7 +4987,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:05+10:00",
+                "updated": "2020-08-06T17:32:31+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -5004,12 +5004,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-11T11:35:00+10:00",
+                "updated": "2020-08-11T11:37:00+10:00",
+                "id": "ESTA:200850386",
+                "location": "Carapook",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.52229834198153,
+                    -37.56679521522681
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Cairn Ct",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-08-11T11:29:15+10:00",
-                "updated": "2020-08-11T11:29:15+10:00",
+                "status": "under control",
+                "created": "2020-08-11T11:38:30+10:00",
+                "updated": "2020-08-11T11:38:30+10:00",
                 "id": "ESTA:200807549",
                 "location": "Cairn Ct, Wyndham Vale",
                 "size": "Small",
@@ -5021,51 +5043,6 @@
                 "coordinates": [
                     144.619246330099,
                     -37.895122278036084
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cairn Ct",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-11T11:28:00+10:00",
-                "updated": "2020-08-11T11:28:00+10:00",
-                "id": "ESTA:200807550",
-                "location": "Cairn Ct, Wyndham Vale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.61903964640007,
-                    -37.89485741371729
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eltham",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-08-11T11:30:43+10:00",
-                "updated": "2020-08-11T11:31:06+10:00",
-                "id": "ESTA:200807553",
-                "location": "Dudley St, Eltham",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.14961170490344,
-                    -37.71596102700584
                 ]
             }
         },
@@ -5423,14 +5400,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mccrae St",
+                "sourceTitle": "Dudley St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-11T11:25:53+10:00",
-                "updated": "2020-08-11T11:25:53+10:00",
-                "id": "ESTA:200807518",
-                "location": "Mccrae St, Dandenong",
+                "status": "under control",
+                "created": "2020-08-11T11:33:00+10:00",
+                "updated": "2020-08-11T11:33:00+10:00",
+                "id": "ESTA:200807553",
+                "location": "Dudley St, Eltham",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -5438,8 +5415,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.21693494287993,
-                    -37.98779672072139
+                    145.1496082770456,
+                    -37.71596246979096
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Blazey St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-11T11:36:24+10:00",
+                "updated": "2020-08-11T11:36:24+10:00",
+                "id": "ESTA:200807557",
+                "location": "Blazey St, Richmond",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00986991269468,
+                    -37.817393358075535
                 ]
             }
         },

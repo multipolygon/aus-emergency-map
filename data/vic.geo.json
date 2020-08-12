@@ -12487,7 +12487,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:05+10:00",
+                "updated": "2020-08-06T17:32:31+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -12504,45 +12504,68 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "St Arnaud East",
-                "category": "other",
-                "subcategory": "other",
-                "status": "unknown",
-                "created": "2020-08-12T12:01:20+10:00",
-                "updated": "2020-08-12T13:07:10+10:00",
-                "id": "ESTA:200808081",
-                "location": "Wedderburn Rd, St Arnaud East",
-                "title": "incident: other"
+                "sourceTitle": "Yendon Dunnstown Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-12T13:36:00+10:00",
+                "updated": "2020-08-12T13:36:00+10:00",
+                "id": "ESTA:200808161",
+                "location": "Yendon Dunnstown Rd, Dunnstown",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.32087800637848,
-                    -36.613705177959524
+                    143.97124321402814,
+                    -37.60542743302937
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princess St",
+                "sourceTitle": "Clayton",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-08-12T13:23:43+10:00",
-                "updated": "2020-08-12T13:23:43+10:00",
-                "id": "ESTA:200808146",
-                "location": "Princess St, Kew",
-                "size": "Small",
+                "status": "responding",
+                "created": "2020-08-12T13:35:33+10:00",
+                "updated": "2020-08-12T13:41:13+10:00",
+                "id": "ESTA:200808162",
+                "location": "Florence Av, Clayton",
                 "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0290029721045,
-                    -37.80488430379589
+                    145.12674928333686,
+                    -37.90629946045102
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Watsons Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-12T13:41:40+10:00",
+                "updated": "2020-08-12T13:41:40+10:00",
+                "id": "ESTA:200808165",
+                "location": "Watsons Rd, Glen Waverley",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16981773227388,
+                    -37.891416101479756
                 ]
             }
         },
@@ -12618,35 +12641,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "View St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-12T13:07:41+10:00",
-                "updated": "2020-08-12T13:07:41+10:00",
-                "id": "ESTA:200808127",
-                "location": "View St, Mentone",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05438732271804,
-                    -37.98379069310722
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Somerton Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-12T13:13:16+10:00",
-                "updated": "2020-08-12T13:13:16+10:00",
+                "status": "under control",
+                "created": "2020-08-12T13:31:25+10:00",
+                "updated": "2020-08-12T13:31:25+10:00",
                 "id": "ESTA:200808145",
                 "location": "Somerton Rd, Greenvale",
                 "size": "Small",
@@ -12664,12 +12664,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Princess St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-08-12T13:23:43+10:00",
+                "updated": "2020-08-12T13:23:43+10:00",
+                "id": "ESTA:200808146",
+                "location": "Princess St, Kew",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0290029721045,
+                    -37.80488430379589
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-08-12T13:01:00+10:00",
-                "updated": "2020-08-12T13:04:00+10:00",
+                "updated": "2020-08-12T13:39:00+10:00",
                 "id": "ESTA:200850415",
                 "location": "Healesville",
                 "title": "incident: tree down"
@@ -12680,6 +12703,28 @@
                 "coordinates": [
                     145.5835117854089,
                     -37.635006770507324
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-08-12T13:36:00+10:00",
+                "updated": "2020-08-12T13:36:00+10:00",
+                "id": "ESTA:200850416",
+                "location": "Caulfield South",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02060731765627,
+                    -37.895197452927
                 ]
             }
         },

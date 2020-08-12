@@ -4857,7 +4857,7 @@
                 "subcategory": "building fire",
                 "status": "unknown",
                 "created": "2020-08-06T17:31:05+10:00",
-                "updated": "2020-08-06T17:32:31+10:00",
+                "updated": "2020-08-06T17:32:05+10:00",
                 "id": "ESTA:200804842",
                 "location": "Appledores Rd, Brim",
                 "title": "incident: fire"
@@ -4874,14 +4874,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bosworth Rd",
+                "sourceTitle": "Clubhouse Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-12T10:13:00+10:00",
-                "updated": "2020-08-12T10:25:00+10:00",
-                "id": "ESTA:200808017",
-                "location": "Bosworth Rd, Bairnsdale",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-12T11:27:41+10:00",
+                "updated": "2020-08-12T11:27:41+10:00",
+                "id": "ESTA:200808057",
+                "location": "Clubhouse Rd, Jan Juc",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4889,31 +4889,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.61207586320748,
-                    -37.83921224587873
+                    144.3099903399921,
+                    -38.34517484901158
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Weston St",
+                "sourceTitle": "Ormond",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-12T10:22:15+10:00",
-                "updated": "2020-08-12T10:22:15+10:00",
-                "id": "ESTA:200807916",
-                "location": "Weston St, Beeac",
-                "size": "Small",
+                "status": "responding",
+                "created": "2020-08-12T11:29:35+10:00",
+                "updated": "2020-08-12T11:30:12+10:00",
+                "id": "ESTA:200808061",
+                "location": "North Rd, Ormond",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.63721018407534,
-                    -38.196417497260995
+                    145.04321586142362,
+                    -37.904116835058446
                 ]
             }
         },
@@ -4923,9 +4922,9 @@
                 "sourceTitle": "Truganina",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-08-12T10:04:28+10:00",
-                "updated": "2020-08-12T10:04:28+10:00",
+                "status": "safe",
+                "created": "2020-08-12T11:29:19+10:00",
+                "updated": "2020-08-12T11:29:19+10:00",
                 "id": "ESTA:200808004",
                 "location": "Truganina, Truganina",
                 "size": "Small",
@@ -4937,29 +4936,6 @@
                 "coordinates": [
                     144.7005977708196,
                     -37.745578329871066
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sydney Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-09T11:58:29+10:00",
-                "updated": "2020-08-09T11:58:29+10:00",
-                "id": "ESTA:200805910",
-                "location": "Sydney Rd, Campbellfield",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95160971869748,
-                    -37.64969266284205
                 ]
             }
         },
@@ -5006,6 +4982,52 @@
                 "coordinates": [
                     142.46737139113137,
                     -38.36351513623658
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Weston St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-08-12T10:22:15+10:00",
+                "updated": "2020-08-12T10:22:15+10:00",
+                "id": "ESTA:200807916",
+                "location": "Weston St, Beeac",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.63721018407534,
+                    -38.196417497260995
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sydney Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-08-09T11:58:29+10:00",
+                "updated": "2020-08-09T11:58:29+10:00",
+                "id": "ESTA:200805910",
+                "location": "Sydney Rd, Campbellfield",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95160971869748,
+                    -37.64969266284205
                 ]
             }
         },

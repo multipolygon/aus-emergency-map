@@ -15127,23 +15127,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Endeavour Hills",
-                "category": "other",
+                "sourceTitle": "Settlement Rd",
+                "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-15T00:24:28+10:00",
-                "updated": "2020-08-15T00:24:28+10:00",
-                "id": "ESTA:200809666",
-                "location": "Endeavour Hills, Endeavour Hills",
+                "status": "under control",
+                "created": "2020-08-15T00:00:00+10:00",
+                "updated": "2020-08-15T00:35:00+10:00",
+                "id": "ESTA:200809662",
+                "location": "Settlement Rd, Elaine",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2440786829092,
-                    -37.96488779323636
+                    144.02752962025713,
+                    -37.7741141714188
                 ]
             }
         },
@@ -15153,9 +15153,9 @@
                 "sourceTitle": "Miller St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-08-15T00:30:00+10:00",
-                "updated": "2020-08-15T00:30:00+10:00",
+                "updated": "2020-08-15T00:43:00+10:00",
                 "id": "ESTA:200809667",
                 "location": "Miller St, Colac",
                 "size": "Small",
@@ -15167,6 +15167,29 @@
                 "coordinates": [
                     143.58133110319596,
                     -38.341734403961546
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lilac Av",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-08-14T23:53:00+10:00",
+                "updated": "2020-08-15T00:09:00+10:00",
+                "id": "ESTA:200809658",
+                "location": "Lilac Av, Kerang",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.92482022194346,
+                    -35.72684407486523
                 ]
             }
         },
@@ -15471,10 +15494,10 @@
                 "sourceTitle": "Redlands Rd, Redlands",
                 "category": "transport",
                 "subcategory": "motor vehicle accident",
-                "status": "out of control",
-                "created": "2020-08-14T23:44:00+10:00",
-                "updated": "2020-08-14T23:44:00+10:00",
-                "id": "2020-08-14T23:44:00.0000000:389134",
+                "status": "being controlled",
+                "created": "2020-08-15T00:13:00+10:00",
+                "updated": "2020-08-15T00:13:00+10:00",
+                "id": "2020-08-15T00:13:00.0000000:389134",
                 "location": "Redlands Rd, Redlands, Nsw 2646",
                 "title": "incident: transport"
             },
@@ -15482,31 +15505,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.29324,
-                    -35.9506259999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lilac Av",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-08-14T23:53:00+10:00",
-                "updated": "2020-08-15T00:09:00+10:00",
-                "id": "ESTA:200809658",
-                "location": "Lilac Av, Kerang",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.92482022194346,
-                    -35.72684407486523
+                    146.275749207,
+                    -35.9529973959999
                 ]
             }
         },
@@ -15536,29 +15536,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Settlement Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-15T00:00:00+10:00",
-                "updated": "2020-08-15T00:00:00+10:00",
-                "id": "ESTA:200809662",
-                "location": "Settlement Rd, Elaine",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.02752962025713,
-                    -37.7741141714188
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Red Rock Reserve Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -15576,6 +15553,29 @@
                 "coordinates": [
                     143.50623457289143,
                     -38.24903428512476
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Endeavour Hills",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-15T00:24:28+10:00",
+                "updated": "2020-08-15T00:24:28+10:00",
+                "id": "ESTA:200809666",
+                "location": "Endeavour Hills, Endeavour Hills",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2440786829092,
+                    -37.96488779323636
                 ]
             }
         }

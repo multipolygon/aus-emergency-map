@@ -15130,7 +15130,7 @@
                 "sourceTitle": "Cranbourne Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-08-15T04:52:00+10:00",
                 "updated": "2020-08-15T04:52:00+10:00",
                 "id": "ESTA:200809692",
@@ -15150,14 +15150,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Scoresby St",
+                "sourceTitle": "Wellington St",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-08-15T04:57:00+10:00",
-                "updated": "2020-08-15T05:01:00+10:00",
-                "id": "ESTA:200809693",
-                "location": "Scoresby St, Kerang",
+                "created": "2020-08-15T03:56:00+10:00",
+                "updated": "2020-08-15T05:09:00+10:00",
+                "id": "ESTA:200809690",
+                "location": "Wellington St, Kerang",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15165,8 +15165,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.92092067104585,
-                    -35.73295027849239
+                    143.92250823961933,
+                    -35.735254968749295
                 ]
             }
         },
@@ -15178,9 +15178,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-08-15T02:00:00+10:00",
+                "created": "2020-08-15T05:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/dd25c8db3776b2b8bcd8a2e6156fdcae",
+                "id": "IDV20600/ba8954baee328f157dca7ce0a2f2c979",
                 "location": "East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -15468,6 +15468,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Scoresby St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-15T04:57:00+10:00",
+                "updated": "2020-08-15T05:01:00+10:00",
+                "id": "ESTA:200809693",
+                "location": "Scoresby St, Kerang",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.92092067104585,
+                    -35.73295027849239
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Wellington St",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -15485,29 +15508,6 @@
                 "coordinates": [
                     143.92265214234422,
                     -35.735260482939225
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wellington St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-08-15T03:56:00+10:00",
-                "updated": "2020-08-15T04:28:00+10:00",
-                "id": "ESTA:200809690",
-                "location": "Wellington St, Kerang",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.92250823961933,
-                    -35.735254968749295
                 ]
             }
         }

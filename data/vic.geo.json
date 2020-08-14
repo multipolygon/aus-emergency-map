@@ -9933,22 +9933,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-14T12:36:00+10:00",
-                "updated": "2020-08-14T12:43:00+10:00",
-                "id": "ESTA:200850454",
-                "location": "Frankston South",
-                "title": "incident: tree down"
+                "sourceTitle": "Belmont",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-14T12:54:43+10:00",
+                "updated": "2020-08-14T12:54:43+10:00",
+                "id": "ESTA:200809341",
+                "location": "Belmont, Belmont",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1082866066434,
-                    -38.1582662941996
+                    144.32690400326143,
+                    -38.17352673476565
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bedford Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-08-14T12:59:22+10:00",
+                "updated": "2020-08-14T12:59:22+10:00",
+                "id": "ESTA:200809338",
+                "location": "Bedford Rd, Heathmont",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24989114589093,
+                    -37.82333250205222
                 ]
             }
         },
@@ -9956,15 +9980,15 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Canadian",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-08-14T12:37:53+10:00",
-                "updated": "2020-08-14T12:37:53+10:00",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-08-14T12:47:35+10:00",
+                "updated": "2020-08-14T12:47:35+10:00",
                 "id": "ESTA:200809322",
                 "location": "Canadian, Canadian",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -9978,46 +10002,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lincoln St",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Officer",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-08-14T12:43:49+10:00",
-                "updated": "2020-08-14T12:43:49+10:00",
-                "id": "ESTA:200809327",
-                "location": "Lincoln St, Sunshine North",
+                "created": "2020-08-14T12:46:41+10:00",
+                "updated": "2020-08-14T12:46:41+10:00",
+                "id": "ESTA:200809332",
+                "location": "Officer, Officer",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.84719999905735,
-                    -37.774309191303274
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Summit Av",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-08-14T12:41:00+10:00",
-                "updated": "2020-08-14T12:41:00+10:00",
-                "id": "ESTA:200809325",
-                "location": "Summit Av, Belmont",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3334760836659,
-                    -38.1826168796151
+                    145.43208918622378,
+                    -38.03240714581327
                 ]
             }
         },
@@ -10047,6 +10048,51 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Lincoln St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-14T12:53:37+10:00",
+                "updated": "2020-08-14T12:53:37+10:00",
+                "id": "ESTA:200809327",
+                "location": "Lincoln St, Sunshine North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.84719999905735,
+                    -37.774309191303274
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-14T12:36:00+10:00",
+                "updated": "2020-08-14T12:59:00+10:00",
+                "id": "ESTA:200850454",
+                "location": "Frankston South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1082866066434,
+                    -38.1582662941996
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
@@ -10055,7 +10101,6 @@
                 "updated": "2020-08-14T12:03:00+10:00",
                 "id": "ESTA:200809124",
                 "location": "Callignee North",
-                "size": "Small",
                 "title": "incident: rescue"
             },
             "type": "Feature",

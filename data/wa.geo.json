@@ -216,10 +216,10 @@
                 "sourceTitle": "EAST PERTH",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2067377-491770",
                 "created": "2020-08-16T00:13:58+08:00",
-                "updated": "2020-08-16T00:14:53+08:00",
+                "updated": "2020-08-16T00:19:34+08:00",
                 "location": "EAST PERTH",
                 "size": "",
                 "description": "Active Alarm",
@@ -341,14 +341,39 @@
                 "sourceTitle": "SOUTH FREMANTLE",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "on scene",
+                "status": "monitoring",
                 "id": "2067376-491769",
                 "created": "2020-08-16T00:06:04+08:00",
-                "updated": "2020-08-16T00:14:31+08:00",
+                "updated": "2020-08-16T00:21:33+08:00",
                 "location": "SOUTH FREMANTLE",
                 "size": "",
                 "description": "Active Alarm",
                 "title": "incident: active alarm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.86432,
+                    -32.17016
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "AUBIN GROVE",
+                "category": "incident",
+                "subcategory": "incident",
+                "status": "responding",
+                "id": "2067378-491771",
+                "created": "2020-08-16T00:23:34+08:00",
+                "updated": "2020-08-16T00:25:46+08:00",
+                "location": "AUBIN GROVE",
+                "size": "",
+                "description": "Incident",
+                "title": "incident: incident"
             }
         }
     ]

@@ -15092,9 +15092,9 @@
                 "sourceTitle": "Ddw - Lake Boort",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2020-08-14T11:09:03+10:00",
-                "updated": "2020-08-14T11:09:03+10:00",
+                "status": "patrolled",
+                "created": "2020-08-15T10:57:46+10:00",
+                "updated": "2020-08-15T10:57:46+10:00",
                 "id": 950100,
                 "location": "Boort",
                 "size": "27.73",
@@ -15230,9 +15230,9 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue persons trapped",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-08-15T08:27:00+10:00",
-                "updated": "2020-08-15T08:36:00+10:00",
+                "updated": "2020-08-15T11:20:00+10:00",
                 "id": "ESTA:200809738",
                 "location": "Ferntree Gully",
                 "title": "incident: rescue"
@@ -15249,22 +15249,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bell Park",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-15T11:19:56+10:00",
-                "updated": "2020-08-15T11:20:06+10:00",
-                "id": "ESTA:200810099",
-                "location": "Yaraan St, Bell Park",
-                "title": "incident: other"
+                "sourceTitle": "Bridge Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-08-15T11:22:27+10:00",
+                "updated": "2020-08-15T11:22:27+10:00",
+                "id": "ESTA:200809904",
+                "location": "Bridge Rd, Keysborough",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.33298375825834,
-                    -38.11236564701714
+                    145.1915657098677,
+                    -37.98959662385037
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Knoxfield",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-08-15T11:26:49+10:00",
+                "updated": "2020-08-15T11:26:49+10:00",
+                "id": "ESTA:200810113",
+                "location": "Knoxfield, Knoxfield",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2563322356358,
+                    -37.880423860126974
                 ]
             }
         },
@@ -15605,52 +15629,6 @@
                 "coordinates": [
                     146.71368850713435,
                     -38.30596804883621
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Keysborough",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-08-15T10:12:43+10:00",
-                "updated": "2020-08-15T10:12:43+10:00",
-                "id": "ESTA:200809904",
-                "location": "Keysborough, Keysborough",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1917825279469,
-                    -37.98980349358032
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Stuart St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-08-15T10:36:21+10:00",
-                "updated": "2020-08-15T10:36:21+10:00",
-                "id": "ESTA:200809970",
-                "location": "Stuart St, Moonee Ponds",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93106801763506,
-                    -37.76936803467455
                 ]
             }
         },

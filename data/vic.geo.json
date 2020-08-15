@@ -15166,14 +15166,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Buckingham Cr",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-08-15T18:35:00+10:00",
+                "updated": "2020-08-15T19:07:00+10:00",
+                "id": "ESTA:200850509",
+                "location": "Colac",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.60555026790388,
+                    -38.33151245265724
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sixth St",
                 "category": "fire",
-                "subcategory": "fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-08-15T19:00:40+10:00",
-                "updated": "2020-08-15T19:00:40+10:00",
-                "id": "ESTA:200810786",
-                "location": "Buckingham Cr, Sunshine West",
+                "created": "2020-08-15T19:11:13+10:00",
+                "updated": "2020-08-15T19:11:13+10:00",
+                "id": "ESTA:200810791",
+                "location": "Sixth St, Merbein South",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15181,8 +15203,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.82581021991626,
-                    -37.80061672243214
+                    142.05115720543753,
+                    -34.19283318458648
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Reve St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-08-15T19:11:18+10:00",
+                "updated": "2020-08-15T19:11:18+10:00",
+                "id": "ESTA:200810787",
+                "location": "Reve St, Boronia",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.28672660502602,
+                    -37.86797561073553
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elliott St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-08-15T19:18:01+10:00",
+                "updated": "2020-08-15T19:18:01+10:00",
+                "id": "ESTA:200810789",
+                "location": "Elliott St, Ashwood",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.09481724321617,
+                    -37.87363231266239
                 ]
             }
         },
@@ -15206,97 +15274,6 @@
                 "coordinates": [
                     143.89357836644524,
                     -37.59418066753199
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Reve St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-15T19:00:41+10:00",
-                "updated": "2020-08-15T19:00:41+10:00",
-                "id": "ESTA:200810787",
-                "location": "Reve St, Boronia",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.28672660502602,
-                    -37.86797561073553
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Collins St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-15T19:01:10+10:00",
-                "updated": "2020-08-15T19:01:10+10:00",
-                "id": "ESTA:200810777",
-                "location": "Collins St, Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95442038609366,
-                    -37.81877265260068
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-08-15T18:26:00+10:00",
-                "updated": "2020-08-15T18:26:00+10:00",
-                "id": "ESTA:200810771",
-                "location": "Yapeen",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.2204230719404,
-                    -37.13481355906725
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ashwood",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-08-15T19:01:23+10:00",
-                "updated": "2020-08-15T19:02:05+10:00",
-                "id": "ESTA:200810789",
-                "location": "Elliott St, Ashwood",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0948185145226,
-                    -37.87362953264849
                 ]
             }
         },
@@ -15598,6 +15575,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-08-15T18:26:00+10:00",
+                "updated": "2020-08-15T19:01:00+10:00",
+                "id": "ESTA:200810771",
+                "location": "Yapeen",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.2204230719404,
+                    -37.13481355906725
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Silver Parrot Rd",
                 "category": "fire",
                 "subcategory": "other",
@@ -15667,29 +15667,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-15T18:08:00+10:00",
-                "updated": "2020-08-15T18:10:00+10:00",
-                "id": "ESTA:200810749",
-                "location": "Noble Park",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17397455648333,
-                    -37.95028879320793
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Clauscen St",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -15736,22 +15713,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-08-15T18:35:00+10:00",
-                "updated": "2020-08-15T18:47:00+10:00",
-                "id": "ESTA:200850509",
-                "location": "Colac",
-                "title": "incident: flooding"
+                "sourceTitle": "Collins St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-08-15T19:01:10+10:00",
+                "updated": "2020-08-15T19:01:10+10:00",
+                "id": "ESTA:200810777",
+                "location": "Collins St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.60555026790388,
-                    -38.33151245265724
+                    144.95442038609366,
+                    -37.81877265260068
                 ]
             }
         },

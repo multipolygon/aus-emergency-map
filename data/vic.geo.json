@@ -16423,23 +16423,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bolton View",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-18T00:00:03+10:00",
-                "updated": "2020-08-18T00:00:03+10:00",
-                "id": "ESTA:200811862",
-                "location": "Bolton View, Derrimut",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-18T00:17:00+10:00",
+                "updated": "2020-08-18T00:20:00+10:00",
+                "id": "ESTA:200850597",
+                "location": "Ararat",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.75748652954218,
-                    -37.79320887288812
+                    142.92625116610267,
+                    -37.28548397190856
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cowper St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-18T00:17:19+10:00",
+                "updated": "2020-08-18T00:17:19+10:00",
+                "id": "ESTA:200811863",
+                "location": "Cowper St, Footscray",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90354443046928,
+                    -37.80373178875966
                 ]
             }
         },
@@ -16462,52 +16484,6 @@
                 "coordinates": [
                     141.919951001,
                     -34.107846001
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-17T23:09:00+10:00",
-                "updated": "2020-08-17T23:19:00+10:00",
-                "id": "ESTA:200811854",
-                "location": "Wendouree",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.82197171222987,
-                    -37.529907991408166
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Malcolm Cr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-08-17T23:46:50+10:00",
-                "updated": "2020-08-17T23:46:50+10:00",
-                "id": "ESTA:200811859",
-                "location": "Malcolm Cr, Shepparton",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.40045182914622,
-                    -36.36018014099445
                 ]
             }
         },

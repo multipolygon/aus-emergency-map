@@ -4,34 +4,235 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.95294300000012,
-                    -32.560589999999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Parkes St, Wellington",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389257",
-                "created": "2020-08-16T20:17:00+10:00",
-                "updated": "2020-08-17T06:17:00+10:00",
-                "location": "8 Parkes St, Wellington, NSW 2820",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 8 Parkes St, Wellington, NSW 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 17 Aug 2020 06:17",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.72701200000006,
-                    -30.51821999999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.72701200000006,
+                            -30.51821999999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.726728896,
+                                            -30.5228439269999
+                                        ],
+                                        [
+                                            152.727169402,
+                                            -30.5231122559999
+                                        ],
+                                        [
+                                            152.72803027,
+                                            -30.5229612529999
+                                        ],
+                                        [
+                                            152.72871469,
+                                            -30.522790775
+                                        ],
+                                        [
+                                            152.72915605,
+                                            -30.5227534919999
+                                        ],
+                                        [
+                                            152.729752587,
+                                            -30.522449122
+                                        ],
+                                        [
+                                            152.730480968,
+                                            -30.5223360269999
+                                        ],
+                                        [
+                                            152.731320342,
+                                            -30.521974852
+                                        ],
+                                        [
+                                            152.731828565,
+                                            -30.5216893899999
+                                        ],
+                                        [
+                                            152.732025972,
+                                            -30.522110009
+                                        ],
+                                        [
+                                            152.731428815,
+                                            -30.5226435929999
+                                        ],
+                                        [
+                                            152.730876198,
+                                            -30.523024463
+                                        ],
+                                        [
+                                            152.731073552,
+                                            -30.523464181
+                                        ],
+                                        [
+                                            152.730764253,
+                                            -30.523616347
+                                        ],
+                                        [
+                                            152.729728305,
+                                            -30.5232512929999
+                                        ],
+                                        [
+                                            152.729219961,
+                                            -30.5235749459999
+                                        ],
+                                        [
+                                            152.729063507,
+                                            -30.5243004399999
+                                        ],
+                                        [
+                                            152.728600451,
+                                            -30.5242039729999
+                                        ],
+                                        [
+                                            152.727719105,
+                                            -30.5237819239999
+                                        ],
+                                        [
+                                            152.727166681,
+                                            -30.5240863769999
+                                        ],
+                                        [
+                                            152.726636102,
+                                            -30.5244672749999
+                                        ],
+                                        [
+                                            152.725995149,
+                                            -30.524867038
+                                        ],
+                                        [
+                                            152.725466817,
+                                            -30.524445715
+                                        ],
+                                        [
+                                            152.724739868,
+                                            -30.5240430709999
+                                        ],
+                                        [
+                                            152.72414363,
+                                            -30.5242328159999
+                                        ],
+                                        [
+                                            152.72394393,
+                                            -30.524633503
+                                        ],
+                                        [
+                                            152.722906913,
+                                            -30.524650402
+                                        ],
+                                        [
+                                            152.721848051,
+                                            -30.524590845
+                                        ],
+                                        [
+                                            152.721295822,
+                                            -30.524818871
+                                        ],
+                                        [
+                                            152.720942048,
+                                            -30.5250855199999
+                                        ],
+                                        [
+                                            152.720080547,
+                                            -30.525446582
+                                        ],
+                                        [
+                                            152.719771662,
+                                            -30.5254459179999
+                                        ],
+                                        [
+                                            152.719749598,
+                                            -30.5254458699999
+                                        ],
+                                        [
+                                            152.719574518,
+                                            -30.5249488819999
+                                        ],
+                                        [
+                                            152.720325703,
+                                            -30.5245875869999
+                                        ],
+                                        [
+                                            152.721497058,
+                                            -30.5238833779999
+                                        ],
+                                        [
+                                            152.723064497,
+                                            -30.523542909
+                                        ],
+                                        [
+                                            152.72383853,
+                                            -30.5228951349999
+                                        ],
+                                        [
+                                            152.724459787,
+                                            -30.521654918
+                                        ],
+                                        [
+                                            152.724727818,
+                                            -30.5204903539999
+                                        ],
+                                        [
+                                            152.725039054,
+                                            -30.5196505879999
+                                        ],
+                                        [
+                                            152.725989162,
+                                            -30.5191368759999
+                                        ],
+                                        [
+                                            152.72676234,
+                                            -30.518775589
+                                        ],
+                                        [
+                                            152.727073605,
+                                            -30.517916718
+                                        ],
+                                        [
+                                            152.727381027,
+                                            -30.518433076
+                                        ],
+                                        [
+                                            152.727379855,
+                                            -30.518853285
+                                        ],
+                                        [
+                                            152.72680438,
+                                            -30.5195205969999
+                                        ],
+                                        [
+                                            152.726648237,
+                                            -30.520131487
+                                        ],
+                                        [
+                                            152.726667786,
+                                            -30.521029251
+                                        ],
+                                        [
+                                            152.726864691,
+                                            -30.52162178
+                                        ],
+                                        [
+                                            152.726597804,
+                                            -30.522385239
+                                        ],
+                                        [
+                                            152.726728896,
+                                            -30.5228439269999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -118,6 +319,30 @@
                 "location": "41 Hideaway Lane, Parkes, NSW 2870",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 41 Hideaway Lane, Parkes, NSW 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2020 08:53",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.22417200000007,
+                    -33.71703599999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hilversum Cr, Belrose",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389271",
+                "created": "2020-08-17T01:48:00+10:00",
+                "updated": "2020-08-17T11:48:00+10:00",
+                "location": "Hilversum Cr, Belrose, NSW 2085",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hilversum Cr, Belrose, NSW 2085 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2020 11:48",
                 "title": "incident: fire"
             }
         },

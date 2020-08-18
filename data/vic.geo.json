@@ -9909,14 +9909,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Harvest Home Rd",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-08-18T21:10:00+10:00",
+                "updated": "2020-08-18T21:27:00+10:00",
+                "id": "ESTA:200850625",
+                "location": "Kialla",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.36886905601375,
+                    -36.43938759586396
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lawrence St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-08-18T21:05:00+10:00",
-                "updated": "2020-08-18T21:05:00+10:00",
-                "id": "ESTA:200812252",
-                "location": "Harvest Home Rd, Epping",
+                "status": "safe",
+                "created": "2020-08-18T20:48:00+10:00",
+                "updated": "2020-08-18T21:19:00+10:00",
+                "id": "ESTA:200812249",
+                "location": "Lawrence St, Leopold",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9924,8 +9946,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0064108729429,
-                    -37.620951145326806
+                    144.469035253627,
+                    -38.193476223202616
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bobuck Lane, Thredbo",
+                "category": "fire",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-08-18T21:10:00+10:00",
+                "updated": "2020-08-18T21:10:00+10:00",
+                "id": "2020-08-18T21:10:00.0000000:389359",
+                "location": "26 Bobuck Lane, Thredbo, Nsw 2627",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.308125,
+                    -36.503319
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mountain Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-18T21:24:00+10:00",
+                "updated": "2020-08-18T21:24:00+10:00",
+                "id": "ESTA:200812254",
+                "location": "Mountain Hwy, Wantirna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22768982174534,
+                    -37.848914540339976
                 ]
             }
         },
@@ -9949,95 +10016,6 @@
                 "coordinates": [
                     145.08034326742947,
                     -37.602270166783065
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-18T21:10:00+10:00",
-                "updated": "2020-08-18T21:13:00+10:00",
-                "id": "ESTA:200850625",
-                "location": "Kialla",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.36886905601375,
-                    -36.43938759586396
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-18T21:10:00+10:00",
-                "updated": "2020-08-18T21:12:00+10:00",
-                "id": "ESTA:200850624",
-                "location": "Thomastown",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.001348351491,
-                    -37.675838884109
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bobuck Lane, Thredbo",
-                "category": "fire",
-                "subcategory": "other non-urgent alerts",
-                "status": "out of control",
-                "created": "2020-08-18T20:26:00+10:00",
-                "updated": "2020-08-18T20:26:00+10:00",
-                "id": "2020-08-18T20:26:00.0000000:389359",
-                "location": "26 Bobuck Lane, Thredbo, Nsw 2627",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.308125,
-                    -36.503319
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lawrence St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-08-18T21:02:52+10:00",
-                "updated": "2020-08-18T21:02:52+10:00",
-                "id": "ESTA:200812249",
-                "location": "Lawrence St, Leopold",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.46904578702382,
-                    -38.19346969070428
                 ]
             }
         },
@@ -10084,6 +10062,28 @@
                 "coordinates": [
                     146.6218459353274,
                     -36.3014965115957
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-18T21:10:00+10:00",
+                "updated": "2020-08-18T21:31:00+10:00",
+                "id": "ESTA:200850624",
+                "location": "Thomastown",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.001348351491,
+                    -37.675838884109
                 ]
             }
         }

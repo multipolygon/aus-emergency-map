@@ -9910,46 +9910,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bogong High Plains Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-08-19T17:50:00+10:00",
-                "updated": "2020-08-19T17:50:00+10:00",
-                "id": "ESTA:200812487",
-                "location": "Bogong High Plains Rd, Bogong",
-                "size": "Small",
-                "title": "incident: rescue"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-08-19T16:42:00+10:00",
+                "updated": "2020-08-19T18:10:00+10:00",
+                "id": "ESTA:200850657",
+                "location": "Mordialloc",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.2160881156579,
-                    -36.79969467344582
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Queen St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-19T17:53:51+10:00",
-                "updated": "2020-08-19T17:53:51+10:00",
-                "id": "ESTA:200812486",
-                "location": "Queen St, Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95878586604996,
-                    -37.811422038661924
+                    145.09488172506184,
+                    -37.99200216131469
                 ]
             }
         },
@@ -9959,7 +9935,7 @@
                 "sourceTitle": "Hall Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-08-19T17:57:00+10:00",
                 "updated": "2020-08-19T17:57:00+10:00",
                 "id": "ESTA:200812490",
@@ -9982,9 +9958,9 @@
                 "sourceTitle": "Kensington Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-08-19T17:58:09+10:00",
-                "updated": "2020-08-19T17:58:09+10:00",
+                "status": "under control",
+                "created": "2020-08-19T18:14:22+10:00",
+                "updated": "2020-08-19T18:14:22+10:00",
                 "id": "ESTA:200812489",
                 "location": "Kensington Rd, Leopold",
                 "size": "Small",
@@ -9996,6 +9972,29 @@
                 "coordinates": [
                     144.46652181857465,
                     -38.177576403138204
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bogong High Plains Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-08-19T17:50:00+10:00",
+                "updated": "2020-08-19T18:15:00+10:00",
+                "id": "ESTA:200812487",
+                "location": "Bogong High Plains Rd, Bogong",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.2160881156579,
+                    -36.79969467344582
                 ]
             }
         },
@@ -13250,22 +13249,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-19T16:42:00+10:00",
-                "updated": "2020-08-19T17:35:00+10:00",
-                "id": "ESTA:200850657",
-                "location": "Mordialloc",
-                "title": "incident: tree down"
+                "sourceTitle": "Queen St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-08-19T17:53:51+10:00",
+                "updated": "2020-08-19T17:53:51+10:00",
+                "id": "ESTA:200812486",
+                "location": "Queen St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.09488172506184,
-                    -37.99200216131469
+                    144.95878586604996,
+                    -37.811422038661924
                 ]
             }
         }

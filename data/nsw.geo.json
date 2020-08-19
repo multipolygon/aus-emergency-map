@@ -117,6 +117,61 @@
                                 "coordinates": [
                                     [
                                         [
+                                            153.535168639,
+                                            -28.329131173
+                                        ],
+                                        [
+                                            153.537131694,
+                                            -28.3300829569999
+                                        ],
+                                        [
+                                            153.538142965,
+                                            -28.3310347409999
+                                        ],
+                                        [
+                                            153.535763504,
+                                            -28.3305588489999
+                                        ],
+                                        [
+                                            153.530826123,
+                                            -28.3331762559999
+                                        ],
+                                        [
+                                            153.529041526,
+                                            -28.3336521479999
+                                        ],
+                                        [
+                                            153.524639524,
+                                            -28.331153715
+                                        ],
+                                        [
+                                            153.525412849,
+                                            -28.330439876
+                                        ],
+                                        [
+                                            153.528327689,
+                                            -28.330261417
+                                        ],
+                                        [
+                                            153.530647663,
+                                            -28.330261417
+                                        ],
+                                        [
+                                            153.533562503,
+                                            -28.330439876
+                                        ],
+                                        [
+                                            153.535168639,
+                                            -28.329131173
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             153.524282604,
                                             -28.326454279
                                         ],
@@ -175,61 +230,6 @@
                                         [
                                             153.524282604,
                                             -28.326454279
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            153.535168639,
-                                            -28.329131173
-                                        ],
-                                        [
-                                            153.537131694,
-                                            -28.3300829569999
-                                        ],
-                                        [
-                                            153.538142965,
-                                            -28.3310347409999
-                                        ],
-                                        [
-                                            153.535763504,
-                                            -28.3305588489999
-                                        ],
-                                        [
-                                            153.530826123,
-                                            -28.3331762559999
-                                        ],
-                                        [
-                                            153.529041526,
-                                            -28.3336521479999
-                                        ],
-                                        [
-                                            153.524639524,
-                                            -28.331153715
-                                        ],
-                                        [
-                                            153.525412849,
-                                            -28.330439876
-                                        ],
-                                        [
-                                            153.528327689,
-                                            -28.330261417
-                                        ],
-                                        [
-                                            153.530647663,
-                                            -28.330261417
-                                        ],
-                                        [
-                                            153.533562503,
-                                            -28.330439876
-                                        ],
-                                        [
-                                            153.535168639,
-                                            -28.329131173
                                         ]
                                     ]
                                 ]
@@ -388,11 +388,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389381",
-                "created": "2020-08-19T01:17:00+10:00",
-                "updated": "2020-08-19T11:17:00+10:00",
+                "created": "2020-08-19T04:27:00+10:00",
+                "updated": "2020-08-19T14:27:00+10:00",
                 "location": "Pacific Hwy, Duranbah, NSW 2487",
                 "size": 20,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Pacific Hwy, Duranbah, NSW 2487 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2020 11:17",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Pacific Hwy, Duranbah, NSW 2487 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2020 14:27",
                 "title": "incident: fire"
             }
         },
@@ -746,6 +746,30 @@
                 "location": "Sugarloaf Rd, Bendolba, NSW 2420",
                 "size": 1,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Sugarloaf Rd, Bendolba, NSW 2420 <br />COUNCIL AREA: Dungog <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2020 11:49",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.89569600000004,
+                    -28.46956899999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Summerland Way, Rukenvale",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389409",
+                "created": "2020-08-19T04:06:00+10:00",
+                "updated": "2020-08-19T14:06:00+10:00",
+                "location": "2457 Summerland Way, Rukenvale, NSW 2474",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2457 Summerland Way, Rukenvale, NSW 2474 <br />COUNCIL AREA: Kyogle <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2020 14:06",
                 "title": "incident: fire"
             }
         },
@@ -1311,30 +1335,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.03943200000003,
-                    -31.06400599999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Yarrol Rd, Kootingal",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389389",
-                "created": "2020-08-19T01:18:00+10:00",
-                "updated": "2020-08-19T11:18:00+10:00",
-                "location": "Yarrol Rd, Kootingal, NSW 2352",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Yarrol Rd, Kootingal, NSW 2352 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2020 11:18",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.91594300000008,
                     -33.80553599999996
                 ]
@@ -1376,30 +1376,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Gundong Rd, Tomingley, NSW 2869 <br />COUNCIL AREA: Narromine <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2020 11:00",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.00811900000008,
-                    -30.59034799999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hibiscus Dr, Valla Beach",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389403",
-                "created": "2020-08-19T03:44:00+10:00",
-                "updated": "2020-08-19T13:44:00+10:00",
-                "location": "32 Hibiscus Dr, Valla Beach, NSW 2448",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 32 Hibiscus Dr, Valla Beach, NSW 2448 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2020 13:44",
-                "title": "incident: fire"
             }
         },
         {

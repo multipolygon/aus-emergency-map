@@ -124,6 +124,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.6222150000001,
+                    -32.90272200099997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Newcastle Link Rd, Cameron Park",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389431",
+                "created": "2020-08-19T07:42:00+10:00",
+                "updated": "2020-08-19T17:42:00+10:00",
+                "location": "Newcastle Link Rd, Cameron Park, NSW 2285",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Newcastle Link Rd, Cameron Park, NSW 2285 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2020 17:42",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -1426,30 +1450,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.72146800000007,
-                    -31.708366999999953
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "(Pacific Hwy), Middle Brother",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389419",
-                "created": "2020-08-19T06:53:00+10:00",
-                "updated": "2020-08-19T16:53:00+10:00",
-                "location": "A1 (Pacific Hwy), Middle Brother, NSW 2443",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: A1 (Pacific Hwy), Middle Brother, NSW 2443 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2020 16:53",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.91594300000008,
                     -33.80553599999996
                 ]
@@ -1570,54 +1570,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.2742176050001,
-                    -35.78434660499994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hume Hwy, Holbrook",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389426",
-                "created": "2020-08-19T07:22:00+10:00",
-                "updated": "2020-08-19T17:22:00+10:00",
-                "location": "Hume Hwy, Holbrook, NSW 2644",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Hwy, Holbrook, NSW 2644 <br />COUNCIL AREA: Greater Hume <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 19 Aug 2020 17:22",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.2325340000001,
-                    -30.809726999999953
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "New England Hwy, Bendemeer",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389417",
-                "created": "2020-08-19T06:52:00+10:00",
-                "updated": "2020-08-19T16:52:00+10:00",
-                "location": "New England Hwy, Bendemeer, NSW 2355",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Hwy, Bendemeer, NSW 2355 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2020 16:52",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.8661340000001,
                     -32.65275699999995
                 ]
@@ -1651,13 +1603,37 @@
                 "sourceTitle": "Page St, Taree",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389429",
-                "created": "2020-08-19T07:26:00+10:00",
-                "updated": "2020-08-19T17:26:00+10:00",
+                "created": "2020-08-19T07:39:00+10:00",
+                "updated": "2020-08-19T17:39:00+10:00",
                 "location": "Page St, Taree, NSW 2430",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Page St, Taree, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Aug 2020 17:26",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Page St, Taree, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Aug 2020 17:39",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.5925810000001,
+                    -28.86574399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Shelly Beach Rd, East Ballina",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389432",
+                "created": "2020-08-19T07:44:00+10:00",
+                "updated": "2020-08-19T17:44:00+10:00",
+                "location": "Shelly Beach Rd, East Ballina, NSW 2478",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Shelly Beach Rd, East Ballina, NSW 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Aug 2020 17:44",
                 "title": "incident: fire"
             }
         },

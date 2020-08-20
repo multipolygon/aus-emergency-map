@@ -11098,22 +11098,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-21T09:07:00+10:00",
-                "updated": "2020-08-21T09:18:00+10:00",
-                "id": "ESTA:200850725",
-                "location": "Apollo Bay",
-                "title": "incident: tree down"
+                "sourceTitle": "Norman St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-08-21T09:20:15+10:00",
+                "updated": "2020-08-21T09:20:15+10:00",
+                "id": "ESTA:200812928",
+                "location": "Norman St, Wendouree",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.62240145706843,
-                    -38.742350376632395
+                    143.823907958405,
+                    -37.53206603191825
                 ]
             }
         },
@@ -11125,7 +11126,7 @@
                 "subcategory": "building damage",
                 "status": "request for assistance",
                 "created": "2020-08-21T09:20:00+10:00",
-                "updated": "2020-08-21T09:19:47+10:00",
+                "updated": "2020-08-21T09:25:00+10:00",
                 "id": "ESTA:200850726",
                 "location": "Wendouree",
                 "title": "incident: building damage"
@@ -11142,22 +11143,67 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wendouree",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Watton St",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-08-21T09:16:48+10:00",
-                "updated": "2020-08-21T09:19:52+10:00",
-                "id": "ESTA:200812928",
-                "location": "Norman St, Wendouree",
-                "title": "incident: other"
+                "created": "2020-08-21T09:24:00+10:00",
+                "updated": "2020-08-21T09:24:00+10:00",
+                "id": "ESTA:200812932",
+                "location": "Watton St, Werribee",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.82391599010654,
-                    -37.53205784933214
+                    144.6578182123542,
+                    -37.90302500632521
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-08-21T08:54:00+10:00",
+                "updated": "2020-08-21T09:27:00+10:00",
+                "id": "ESTA:200850722",
+                "location": "West Wodonga",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.8356075458412,
+                    -36.113753419765
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Berwick",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-21T09:30:05+10:00",
+                "updated": "2020-08-21T09:30:12+10:00",
+                "id": "ESTA:200812938",
+                "location": "Kangan Dr, Berwick",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34581503381494,
+                    -38.0452553339389
                 ]
             }
         },
@@ -16438,52 +16484,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Echuca West School Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-08-21T08:01:00+10:00",
-                "updated": "2020-08-21T08:26:00+10:00",
-                "id": "ESTA:200812904",
-                "location": "Echuca West School Rd, Echuca",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.72188681839685,
-                    -36.16496155998041
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hume Fwy",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-21T08:12:00+10:00",
-                "updated": "2020-08-21T08:24:00+10:00",
-                "id": "ESTA:200812909",
-                "location": "Hume Fwy, Winton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.1022949952482,
-                    -36.50017374428375
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Burt Cr",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -16530,23 +16530,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ligar St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-21T09:12:15+10:00",
-                "updated": "2020-08-21T09:12:15+10:00",
-                "id": "ESTA:200812919",
-                "location": "Ligar St, Ballarat North",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-08-21T08:57:00+10:00",
+                "updated": "2020-08-21T09:27:00+10:00",
+                "id": "ESTA:200850723",
+                "location": "Ballarat North",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8648239415119,
-                    -37.539770018722436
+                    143.86482376120048,
+                    -37.539778360946265
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-21T09:07:00+10:00",
+                "updated": "2020-08-21T09:18:00+10:00",
+                "id": "ESTA:200850725",
+                "location": "Apollo Bay",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.62240145706843,
+                    -38.742350376632395
                 ]
             }
         },
@@ -16569,50 +16590,6 @@
                 "coordinates": [
                     144.67672348847663,
                     -37.57775406798294
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-21T08:54:00+10:00",
-                "updated": "2020-08-21T09:10:00+10:00",
-                "id": "ESTA:200850722",
-                "location": "West Wodonga",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.8356075458412,
-                    -36.113753419765
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-08-21T08:57:00+10:00",
-                "updated": "2020-08-21T09:00:00+10:00",
-                "id": "ESTA:200850723",
-                "location": "Ballarat North",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.86482376120048,
-                    -37.539778360946265
                 ]
             }
         },

@@ -14,7 +14,10 @@ export default {
             },
         ],
         script: [{ src: '/utils.js' }],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+        link: [
+            { rel: 'icon', type: 'image/png', href: '/icons/transparent/icon128.png' },
+            { rel: 'shortcut icon', type: 'image/png', href: '/icons/transparent/icon128.png' },
+        ],
     },
     /*
      ** Customize the progress-bar color

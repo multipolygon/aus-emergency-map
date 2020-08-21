@@ -4,13 +4,13 @@ export default {
      ** Headers of the page
      */
     head: {
-        title: process.env.npm_package_name || '',
+        title: 'Aus Emergency Map',
         meta: [
             { charset: 'utf-8' },
             {
                 hid: 'description',
                 name: 'description',
-                content: process.env.npm_package_description || '',
+                content: 'Australian Emergency Services Incident Map',
             },
         ],
         script: [{ src: '/utils.js' }],
@@ -75,10 +75,19 @@ export default {
     pwa: {
         workbox: {},
         meta: {
-            viewport: 'width=device-width, initial-scale=1, user-scalable=0',
+            mobileApp: true,
+            mobileAppIOS: true,
+            theme_color: '#FFF',
+            ogSiteName: 'Aus Emergency Map',
+            ogTitle: 'Aus Emergency Map',
+            nativeUI: true,
         },
         icon: {},
-        manifest: {},
+        manifest: {
+            name: 'Aus Emergency Map',
+            short_name: 'Emergency Map',
+            theme_color: '#FFF',
+        },
     },
     build: {
         /*

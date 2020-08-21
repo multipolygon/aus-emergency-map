@@ -57,8 +57,8 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            152.77484893700012,
-                            -29.42659062599995
+                            152.76454925500002,
+                            -29.433318561999954
                         ]
                     },
                     {
@@ -177,10 +177,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.00128100000006,
-                    -28.941133999999977
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.00128100000006,
+                            -28.941133999999977
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.000693262,
+                                            -28.9416621939999
+                                        ],
+                                        [
+                                            153.001190109,
+                                            -28.9414255999999
+                                        ],
+                                        [
+                                            153.00264442,
+                                            -28.9415194269999
+                                        ],
+                                        [
+                                            153.00295375,
+                                            -28.9419953189999
+                                        ],
+                                        [
+                                            153.00295375,
+                                            -28.942447417
+                                        ],
+                                        [
+                                            153.003310669,
+                                            -28.942947104
+                                        ],
+                                        [
+                                            153.004857318,
+                                            -28.943803709
+                                        ],
+                                        [
+                                            153.00254924,
+                                            -28.945017234
+                                        ],
+                                        [
+                                            153.001502279,
+                                            -28.9448982599999
+                                        ],
+                                        [
+                                            152.999765271,
+                                            -28.94282813
+                                        ],
+                                        [
+                                            153.000050807,
+                                            -28.941567016
+                                        ],
+                                        [
+                                            153.000693262,
+                                            -28.9416621939999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1109,30 +1174,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.32909000000006,
-                    -33.288640999999984
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Red Hill Rd, Ourimbah",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389562",
-                "created": "2020-08-21T04:19:00+10:00",
-                "updated": "2020-08-21T14:19:00+10:00",
-                "location": "Red Hill Rd, Ourimbah, NSW 2258",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Red Hill Rd, Ourimbah, NSW 2258 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Aug 2020 14:19",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.34035400000005,
                     -33.29394499999995
                 ]
@@ -2029,6 +2070,30 @@
                 "location": "4 Kinka Rd, Terrey Hills, NSW 2084",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 Kinka Rd, Terrey Hills, NSW 2084 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Aug 2020 10:49",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.71626400000002,
+                    -36.36175599999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kosciuszko Rd, Avonside",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389565",
+                "created": "2020-08-21T04:24:00+10:00",
+                "updated": "2020-08-21T14:24:00+10:00",
+                "location": "Kosciuszko Rd, Avonside, NSW 2628",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kosciuszko Rd, Avonside, NSW 2628 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Aug 2020 14:24",
                 "title": "incident: fire"
             }
         },

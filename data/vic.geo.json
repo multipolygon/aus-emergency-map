@@ -11098,6 +11098,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Blanche Pde",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-22T08:52:00+10:00",
+                "updated": "2020-08-22T09:07:00+10:00",
+                "id": "ESTA:200813228",
+                "location": "Blanche Pde, Mount Macedon",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.57523884784507,
+                    -37.40254561446492
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Innisbrook Av",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -11121,14 +11144,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Blanche Pde",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-22T09:18:00+10:00",
+                "updated": "2020-08-22T09:20:00+10:00",
+                "id": "ESTA:200850789",
+                "location": "Glen Park",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.9029408012108,
+                    -37.51862688932752
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Allen St",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2020-08-22T08:52:00+10:00",
-                "updated": "2020-08-22T09:07:00+10:00",
-                "id": "ESTA:200813228",
-                "location": "Blanche Pde, Mount Macedon",
+                "created": "2020-08-22T09:18:08+10:00",
+                "updated": "2020-08-22T09:18:08+10:00",
+                "id": "ESTA:200813218",
+                "location": "Allen St, Epsom",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -11136,8 +11181,118 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.57523884784507,
-                    -37.40254561446492
+                    144.32309586264572,
+                    -36.68910845302782
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-08-22T08:39:00+10:00",
+                "updated": "2020-08-22T09:22:00+10:00",
+                "id": "ESTA:200850788",
+                "location": "Mount Evelyn",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38581620320844,
+                    -37.78161401655522
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-08-22T09:24:00+10:00",
+                "updated": "2020-08-22T09:26:00+10:00",
+                "id": "ESTA:200850790",
+                "location": "Wantirna South",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2200490989422,
+                    -37.87551091636468
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-08-22T08:35:00+10:00",
+                "updated": "2020-08-22T09:28:00+10:00",
+                "id": "ESTA:200850787",
+                "location": "Alexandra",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.6828270785241,
+                    -37.17405170979834
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Warrnambool",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "responding",
+                "created": "2020-08-22T09:27:46+10:00",
+                "updated": "2020-08-22T09:30:14+10:00",
+                "id": "ESTA:200850791",
+                "location": "George Av, Warrnambool",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.51630345406426,
+                    -38.38477410044118
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dixons Creek",
+                "category": "landslide",
+                "subcategory": "landslide",
+                "status": "complete",
+                "created": "2020-08-22T08:27:05+10:00",
+                "updated": "2020-08-22T09:30:17+10:00",
+                "id": "ESTA:200850786",
+                "location": "Melba Hwy, Dixons Creek",
+                "title": "incident: landslide"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.41454693033685,
+                    -37.533675903083065
                 ]
             }
         },
@@ -15766,29 +15921,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Allen St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-22T08:47:35+10:00",
-                "updated": "2020-08-22T08:47:35+10:00",
-                "id": "ESTA:200813218",
-                "location": "Allen St, Epsom",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.32309586264572,
-                    -36.68910845302782
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Harwood St",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -15828,72 +15960,6 @@
                 "coordinates": [
                     145.3522677871815,
                     -37.906455294842615
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-22T09:18:00+10:00",
-                "updated": "2020-08-22T09:17:34+10:00",
-                "id": "ESTA:200850789",
-                "location": "Glen Park",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.9029408012108,
-                    -37.51862688932752
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-22T08:35:00+10:00",
-                "updated": "2020-08-22T08:52:00+10:00",
-                "id": "ESTA:200850787",
-                "location": "Alexandra",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.6828270785241,
-                    -37.17405170979834
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-08-22T08:39:00+10:00",
-                "updated": "2020-08-22T08:43:00+10:00",
-                "id": "ESTA:200850788",
-                "location": "Mount Evelyn",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.38581620320844,
-                    -37.78161401655522
                 ]
             }
         },

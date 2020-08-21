@@ -5,6 +5,9 @@ do
     convert icon512.png -resize ${size}x${size} icon${size}.png
 done
 
-convert transparent/icon512.png -resize 32x32 favicon.ico
+convert transparent/icon512.png -resize 32x32 transparent/favicon.ico
 convert transparent/icon512.png -resize 128x128 transparent/icon128.png
+
+cp icon512.png ../icon.png
+cp transparent/favicon.ico ../favicon.ico
 

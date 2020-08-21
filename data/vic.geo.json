@@ -11098,52 +11098,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Francis St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-21T10:41:00+10:00",
-                "updated": "2020-08-21T11:32:00+10:00",
-                "id": "ESTA:200812965",
-                "location": "Francis St, Bairnsdale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.62435277097725,
-                    -37.82470893388133
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Slate Way",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-08-21T11:34:21+10:00",
-                "updated": "2020-08-21T11:34:21+10:00",
-                "id": "ESTA:200812975",
-                "location": "Slate Way, Cobblebank",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.59162155687946,
-                    -37.70967441684961
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -11167,23 +11121,67 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tynong Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-08-21T11:45:00+10:00",
-                "updated": "2020-08-21T11:45:00+10:00",
-                "id": "ESTA:200812996",
-                "location": "Tynong Rd, Tynong",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-21T11:56:00+10:00",
+                "updated": "2020-08-21T11:57:00+10:00",
+                "id": "ESTA:200813003",
+                "location": "Bittern",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.62399723010924,
-                    -38.081711354814544
+                    145.18707140973405,
+                    -38.33759361780828
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-21T11:58:00+10:00",
+                "updated": "2020-08-21T11:58:00+10:00",
+                "id": "ESTA:200850736",
+                "location": "Pound Creek",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.816326927139,
+                    -38.5836082714935
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-08-21T11:59:00+10:00",
+                "updated": "2020-08-21T11:59:00+10:00",
+                "id": "ESTA:200850737",
+                "location": "Paradise",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.10641134322293,
+                    -36.85028444271576
                 ]
             }
         },
@@ -16441,6 +16439,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Slate Way",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-08-21T11:56:21+10:00",
+                "updated": "2020-08-21T11:56:21+10:00",
+                "id": "ESTA:200812975",
+                "location": "Slate Way, Cobblebank",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.59162155687946,
+                    -37.70967441684961
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tynong Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "not yet under control",
+                "created": "2020-08-21T11:54:14+10:00",
+                "updated": "2020-08-21T11:54:14+10:00",
+                "id": "ESTA:200812996",
+                "location": "Tynong Rd, Tynong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.62400439051217,
+                    -38.08171059855529
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Francis St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-21T10:41:00+10:00",
+                "updated": "2020-08-21T11:32:00+10:00",
+                "id": "ESTA:200812965",
+                "location": "Francis St, Bairnsdale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.62435277097725,
+                    -37.82470893388133
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
@@ -16481,6 +16548,28 @@
                 "coordinates": [
                     144.99745471896242,
                     -37.851154080242644
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-08-21T11:48:00+10:00",
+                "updated": "2020-08-21T11:52:00+10:00",
+                "id": "ESTA:200850734",
+                "location": "Seaholme",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.85378062870288,
+                    -37.869005040564346
                 ]
             }
         },

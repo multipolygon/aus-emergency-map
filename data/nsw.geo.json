@@ -164,13 +164,13 @@
                 "sourceTitle": "Kellys Gully Rd, Warialda Rail",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389675",
-                "created": "2020-08-22T06:15:00+10:00",
-                "updated": "2020-08-22T16:15:00+10:00",
+                "created": "2020-08-22T07:43:00+10:00",
+                "updated": "2020-08-22T17:43:00+10:00",
                 "location": "Kellys Gully Rd, Warialda Rail, NSW 2402",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Kellys Gully Rd, Warialda Rail, NSW 2402 <br />COUNCIL AREA: Gwydir <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Aug 2020 16:15",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Kellys Gully Rd, Warialda Rail, NSW 2402 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Aug 2020 17:43",
                 "title": "incident: fire"
             }
         },
@@ -353,10 +353,103 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.12400817800005,
-                    -29.748580557999958
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.1276493790001,
+                            -29.741159618999973
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.137090533,
+                                            -29.74205756
+                                        ],
+                                        [
+                                            153.136517023,
+                                            -29.742870024
+                                        ],
+                                        [
+                                            153.135806563,
+                                            -29.7435871119999
+                                        ],
+                                        [
+                                            153.133397503,
+                                            -29.7427299349999
+                                        ],
+                                        [
+                                            153.132166411,
+                                            -29.7428983199999
+                                        ],
+                                        [
+                                            153.131702588,
+                                            -29.74392556
+                                        ],
+                                        [
+                                            153.130499829,
+                                            -29.744858015
+                                        ],
+                                        [
+                                            153.128967312,
+                                            -29.7447162459999
+                                        ],
+                                        [
+                                            153.12773431,
+                                            -29.743404121
+                                        ],
+                                        [
+                                            153.126418744,
+                                            -29.741686127
+                                        ],
+                                        [
+                                            153.126116624,
+                                            -29.7407790299999
+                                        ],
+                                        [
+                                            153.127018606,
+                                            -29.740014053
+                                        ],
+                                        [
+                                            153.127126668,
+                                            -29.7389155349999
+                                        ],
+                                        [
+                                            153.127563545,
+                                            -29.738198758
+                                        ],
+                                        [
+                                            153.129204397,
+                                            -29.737552444
+                                        ],
+                                        [
+                                            153.130545493,
+                                            -29.7378615489999
+                                        ],
+                                        [
+                                            153.132982435,
+                                            -29.7392202029999
+                                        ],
+                                        [
+                                            153.135337549,
+                                            -29.740722166
+                                        ],
+                                        [
+                                            153.137090533,
+                                            -29.74205756
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1404,30 +1497,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.87806034100004,
-                    -30.22491199899997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Timmsvale Rd Burn",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/388869",
-                "created": "2020-08-22T01:16:00+10:00",
-                "updated": "2020-08-22T11:16:00+10:00",
-                "location": "113 Timmsvale Rd Ulong",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 113 Timmsvale Rd Ulong <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Aug 2020 11:16",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -1839,6 +1908,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.6948940000001,
+                    -32.69173399999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brandy Hill Dr, Brandy Hill",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389689",
+                "created": "2020-08-22T07:38:00+10:00",
+                "updated": "2020-08-22T17:38:00+10:00",
+                "location": "52 Brandy Hill Dr, Brandy Hill, NSW 2324",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 52 Brandy Hill Dr, Brandy Hill, NSW 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Aug 2020 17:38",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.06193113400002,
                     -30.145442628999945
                 ]
@@ -1951,30 +2044,6 @@
                 "location": "Henderson St, Turrella, NSW 2205",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Henderson St, Turrella, NSW 2205 <br />COUNCIL AREA: Bayside <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Aug 2020 17:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.47408100000007,
-                    -28.441536000999974
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hunter St, Burringbar",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389682",
-                "created": "2020-08-22T07:20:00+10:00",
-                "updated": "2020-08-22T17:20:00+10:00",
-                "location": "Hunter St, Burringbar, NSW 2483",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hunter St, Burringbar, NSW 2483 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Aug 2020 17:20",
                 "title": "incident: fire"
             }
         },
@@ -2160,13 +2229,13 @@
                 "sourceTitle": "Richmond Av, Dee Why",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389688",
-                "created": "2020-08-22T07:30:00+10:00",
-                "updated": "2020-08-22T17:30:00+10:00",
+                "created": "2020-08-22T07:34:00+10:00",
+                "updated": "2020-08-22T17:34:00+10:00",
                 "location": "Richmond Av, Dee Why, NSW 2099",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Richmond Av, Dee Why, NSW 2099 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Aug 2020 17:30",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Richmond Av, Dee Why, NSW 2099 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Aug 2020 17:34",
                 "title": "incident: fire"
             }
         },

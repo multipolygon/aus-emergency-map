@@ -1723,6 +1723,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.910434,
+                    -36.98761099999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy, Eden",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389900",
+                "created": "2020-08-24T20:15:00+10:00",
+                "updated": "2020-08-25T06:15:00+10:00",
+                "location": "Princes Hwy, Eden, NSW 2551",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Princes Hwy, Eden, NSW 2551 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Aug 2020 06:15",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2895,30 +2919,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.58196700000008,
-                    -31.96213799999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Banyula Dr, Old Bar",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389889",
-                "created": "2020-08-24T12:18:00+10:00",
-                "updated": "2020-08-24T22:18:00+10:00",
-                "location": "19 Banyula Dr, Old Bar, NSW 2430",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 19 Banyula Dr, Old Bar, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Aug 2020 22:18",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.42337900000007,
                     -35.24939799999993
                 ]
@@ -3120,14 +3120,38 @@
                 "sourceTitle": "Shadforth St, Molong",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389868",
-                "created": "2020-08-24T06:18:00+10:00",
-                "updated": "2020-08-24T16:18:00+10:00",
+                "created": "2020-08-24T20:00:00+10:00",
+                "updated": "2020-08-25T06:00:00+10:00",
                 "location": "Shadforth St, Molong, NSW 2866",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Shadforth St, Molong, NSW 2866 <br />COUNCIL AREA: Cabonne <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 24 Aug 2020 16:18",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Shadforth St, Molong, NSW 2866 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Aug 2020 06:00",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.5864140000001,
+                    -34.18829199999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thirlmere Wy, Thirlmere",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389898",
+                "created": "2020-08-24T19:58:00+10:00",
+                "updated": "2020-08-25T05:58:00+10:00",
+                "location": "615 Thirlmere Wy, Thirlmere,  2572",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 615 Thirlmere Wy, Thirlmere,  2572 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Aug 2020 05:58",
+                "title": "incident: other"
             }
         },
         {

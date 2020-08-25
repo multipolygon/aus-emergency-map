@@ -16254,14 +16254,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Graham Rd",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "not yet under control",
-                "created": "2020-08-25T12:14:00+10:00",
-                "updated": "2020-08-25T12:14:00+10:00",
-                "id": "ESTA:200814294",
-                "location": "Graham Rd, Kangaroo Ground",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-25T12:34:00+10:00",
+                "updated": "2020-08-25T12:34:00+10:00",
+                "id": "ESTA:200814312",
+                "location": "Koondrook",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -16269,8 +16269,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20510847256773,
-                    -37.688273476977976
+                    144.1293785036888,
+                    -35.63945561299123
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mowbray Cr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-25T12:43:51+10:00",
+                "updated": "2020-08-25T12:43:51+10:00",
+                "id": "ESTA:200814316",
+                "location": "Mowbray Cr, Kurunjang",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.58706142389065,
+                    -37.67034565820232
                 ]
             }
         },
@@ -16594,6 +16617,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Aqueduct Lane",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-25T12:37:25+10:00",
+                "updated": "2020-08-25T12:37:25+10:00",
+                "id": "ESTA:200814266",
+                "location": "Aqueduct Lane, Diamond Creek",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1377237834,
+                    -37.67997087668563
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Graham Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-25T12:14:00+10:00",
+                "updated": "2020-08-25T12:33:00+10:00",
+                "id": "ESTA:200814294",
+                "location": "Graham Rd, Kangaroo Ground",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20492708943365,
+                    -37.688270715285896
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Temple St",
                 "category": "rescue",
                 "subcategory": "aircraft",
@@ -16611,29 +16680,6 @@
                 "coordinates": [
                     146.78491006253142,
                     -37.98179536137759
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Aqueduct Lane",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-08-25T11:44:04+10:00",
-                "updated": "2020-08-25T11:44:04+10:00",
-                "id": "ESTA:200814266",
-                "location": "Aqueduct Lane, Diamond Creek",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1377237834,
-                    -37.67997087668563
                 ]
             }
         },

@@ -16257,9 +16257,9 @@
                 "sourceTitle": "High St",
                 "category": "rescue",
                 "subcategory": "rescue",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-08-25T17:21:00+10:00",
-                "updated": "2020-08-25T17:21:00+10:00",
+                "updated": "2020-08-25T17:32:00+10:00",
                 "id": "ESTA:200814478",
                 "location": "High St, Wallan",
                 "size": "Small",
@@ -16277,9 +16277,55 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-08-25T16:34:00+10:00",
+                "updated": "2020-08-25T17:38:00+10:00",
+                "id": "ESTA:200814448",
+                "location": "Carrum Downs",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19150565357913,
+                    -38.11686261410265
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Newbury Bvd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-08-25T17:41:12+10:00",
+                "updated": "2020-08-25T17:41:12+10:00",
+                "id": "ESTA:200814481",
+                "location": "Newbury Bvd, Craigieburn",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90506447054082,
+                    -37.57913771728638
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "other",
                 "status": "safe",
                 "created": "2020-08-25T17:20:00+10:00",
                 "updated": "2020-08-25T17:29:00+10:00",
@@ -16294,74 +16340,6 @@
                 "coordinates": [
                     145.59316096235568,
                     -38.60254928412146
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Endeavour Hills",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-08-25T17:28:43+10:00",
-                "updated": "2020-08-25T17:30:13+10:00",
-                "id": "ESTA:200814479",
-                "location": "Sorbus Cl, Endeavour Hills",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2413980158718,
-                    -37.97205020712535
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sydney Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-08-25T17:30:20+10:00",
-                "updated": "2020-08-25T17:30:20+10:00",
-                "id": "ESTA:200814480",
-                "location": "Sydney Rd, Fawkner",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95937074905567,
-                    -37.69529793475278
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-08-25T16:34:00+10:00",
-                "updated": "2020-08-25T16:56:00+10:00",
-                "id": "ESTA:200814448",
-                "location": "Carrum Downs",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.19150565357913,
-                    -38.11686261410265
                 ]
             }
         },
@@ -16408,6 +16386,29 @@
                 "coordinates": [
                     145.29138689503682,
                     -37.77978306137832
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sydney Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-08-25T17:39:25+10:00",
+                "updated": "2020-08-25T17:39:25+10:00",
+                "id": "ESTA:200814480",
+                "location": "Sydney Rd, Fawkner",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95937074905567,
+                    -37.69529793475278
                 ]
             }
         }

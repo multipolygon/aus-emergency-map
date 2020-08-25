@@ -16276,14 +16276,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Harvest Home Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-08-25T19:09:00+10:00",
+                "updated": "2020-08-25T19:09:00+10:00",
+                "id": "ESTA:200814506",
+                "location": "Harvest Home Rd, Epping",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0064108729429,
+                    -37.620951145326806
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Conquest Way",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-08-25T18:31:00+10:00",
-                "updated": "2020-08-25T18:35:00+10:00",
-                "id": "ESTA:200814496",
-                "location": "Mernda",
+                "status": "under control",
+                "created": "2020-08-25T19:14:12+10:00",
+                "updated": "2020-08-25T19:14:12+10:00",
+                "id": "ESTA:200814436",
+                "location": "Conquest Way, Hallam",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -16291,31 +16314,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.08160587571496,
-                    -37.59063733550885
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-08-25T18:51:00+10:00",
-                "updated": "2020-08-25T18:51:00+10:00",
-                "id": "ESTA:200814500",
-                "location": "Hastings",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17637509874456,
-                    -38.29646214155171
+                    145.25338155880883,
+                    -38.01049204677376
                 ]
             }
         },
@@ -16325,7 +16325,7 @@
                 "sourceTitle": "Tarcombe St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-08-25T18:56:00+10:00",
                 "updated": "2020-08-25T18:56:00+10:00",
                 "id": "ESTA:200814503",
@@ -16368,23 +16368,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Essex St",
-                "category": "fire",
-                "subcategory": "non structure fire",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "responding",
-                "created": "2020-08-25T19:00:13+10:00",
-                "updated": "2020-08-25T19:00:13+10:00",
-                "id": "ESTA:200814505",
-                "location": "Essex St, Prahran",
+                "created": "2020-08-25T18:51:00+10:00",
+                "updated": "2020-08-25T18:51:00+10:00",
+                "id": "ESTA:200814500",
+                "location": "Hastings",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99664807099964,
-                    -37.84855920737648
+                    145.17637509874456,
+                    -38.29646214155171
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-08-25T18:31:00+10:00",
+                "updated": "2020-08-25T18:35:00+10:00",
+                "id": "ESTA:200814496",
+                "location": "Mernda",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.08160587571496,
+                    -37.59063733550885
                 ]
             }
         },
@@ -16414,29 +16437,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Conquest Way",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "not yet under control",
-                "created": "2020-08-25T18:27:05+10:00",
-                "updated": "2020-08-25T18:27:05+10:00",
-                "id": "ESTA:200814436",
-                "location": "Conquest Way, Hallam",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.25338155880883,
-                    -38.01049204677376
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Susan Ct",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -16454,29 +16454,6 @@
                 "coordinates": [
                     144.96917642271424,
                     -37.67471185233871
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gwenda Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-08-25T18:42:08+10:00",
-                "updated": "2020-08-25T18:42:08+10:00",
-                "id": "ESTA:200814495",
-                "location": "Gwenda Av, Moorabbin",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04155583008787,
-                    -37.93706372707276
                 ]
             }
         },

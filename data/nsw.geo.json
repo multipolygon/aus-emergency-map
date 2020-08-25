@@ -52,10 +52,151 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.85112500000002,
-                    -31.023969999999963
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.85112500000002,
+                            -31.023969999999963
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.847835814,
+                                            -31.020278162
+                                        ],
+                                        [
+                                            152.847486936,
+                                            -31.020462344
+                                        ],
+                                        [
+                                            152.84709488,
+                                            -31.0204095459999
+                                        ],
+                                        [
+                                            152.846664746,
+                                            -31.020308703
+                                        ],
+                                        [
+                                            152.846478351,
+                                            -31.0203197619999
+                                        ],
+                                        [
+                                            152.846360497,
+                                            -31.0202373719999
+                                        ],
+                                        [
+                                            152.846249226,
+                                            -31.020211285
+                                        ],
+                                        [
+                                            152.846051311,
+                                            -31.020013642
+                                        ],
+                                        [
+                                            152.84598313,
+                                            -31.0199611529999
+                                        ],
+                                        [
+                                            152.845501862,
+                                            -31.0198170259999
+                                        ],
+                                        [
+                                            152.845386527,
+                                            -31.0197508709999
+                                        ],
+                                        [
+                                            152.845420169,
+                                            -31.019414559
+                                        ],
+                                        [
+                                            152.845572248,
+                                            -31.019192066
+                                        ],
+                                        [
+                                            152.845997938,
+                                            -31.018908558
+                                        ],
+                                        [
+                                            152.846065449,
+                                            -31.0186662369999
+                                        ],
+                                        [
+                                            152.846465014,
+                                            -31.0184078939999
+                                        ],
+                                        [
+                                            152.846929222,
+                                            -31.0182898699999
+                                        ],
+                                        [
+                                            152.847350489,
+                                            -31.018365166
+                                        ],
+                                        [
+                                            152.847708902,
+                                            -31.018754278
+                                        ],
+                                        [
+                                            152.847710369,
+                                            -31.018756988
+                                        ],
+                                        [
+                                            152.847931822,
+                                            -31.018767426
+                                        ],
+                                        [
+                                            152.848027241,
+                                            -31.0189540709999
+                                        ],
+                                        [
+                                            152.848224284,
+                                            -31.0194226899999
+                                        ],
+                                        [
+                                            152.848402719,
+                                            -31.0196053289999
+                                        ],
+                                        [
+                                            152.848639599,
+                                            -31.01983296
+                                        ],
+                                        [
+                                            152.848601314,
+                                            -31.020097778
+                                        ],
+                                        [
+                                            152.848591958,
+                                            -31.0201090959999
+                                        ],
+                                        [
+                                            152.84863519,
+                                            -31.020191768
+                                        ],
+                                        [
+                                            152.84851785,
+                                            -31.020198733
+                                        ],
+                                        [
+                                            152.848498383,
+                                            -31.0202222789999
+                                        ],
+                                        [
+                                            152.847835814,
+                                            -31.020278162
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1491,30 +1632,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.910434,
-                    -36.98761099999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy, Eden",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389900",
-                "created": "2020-08-24T20:15:00+10:00",
-                "updated": "2020-08-25T06:15:00+10:00",
-                "location": "Princes Hwy, Eden, NSW 2551",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Princes Hwy, Eden, NSW 2551 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Aug 2020 06:15",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2786,6 +2903,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.30893499900003,
+                    -32.23210699999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Curreeki Creek Rd, Coolongolook",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389951",
+                "created": "2020-08-25T06:34:00+10:00",
+                "updated": "2020-08-25T16:34:00+10:00",
+                "location": "126 Curreeki Creek Rd, Coolongolook, NSW 2423",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 126 Curreeki Creek Rd, Coolongolook, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Aug 2020 16:34",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.965009,
                     -32.037811999999974
                 ]
@@ -2971,6 +3112,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 123 Tywong St, Ladysmith, NSW 2652 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Aug 2020 16:27",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.8706390000001,
+                    -33.65647999999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Woodland St, Riverstone",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389952",
+                "created": "2020-08-25T06:42:00+10:00",
+                "updated": "2020-08-25T16:42:00+10:00",
+                "location": "Woodland St, Riverstone, NSW 2765",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Woodland St, Riverstone, NSW 2765 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Aug 2020 16:42",
+                "title": "incident: other"
             }
         }
     ]

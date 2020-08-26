@@ -897,10 +897,71 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.9662084580001,
-                    -29.957342095999934
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.954366885,
+                            -29.96447190599997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.954840985,
+                                            -29.966340416
+                                        ],
+                                        [
+                                            152.954060115,
+                                            -29.96781849
+                                        ],
+                                        [
+                                            152.953809121,
+                                            -29.9683483659999
+                                        ],
+                                        [
+                                            152.948845022,
+                                            -29.9654479939999
+                                        ],
+                                        [
+                                            152.948956575,
+                                            -29.965169112
+                                        ],
+                                        [
+                                            152.950406761,
+                                            -29.965336441
+                                        ],
+                                        [
+                                            152.951550178,
+                                            -29.9661173109999
+                                        ],
+                                        [
+                                            152.953195582,
+                                            -29.966340416
+                                        ],
+                                        [
+                                            152.954115891,
+                                            -29.9653364399999
+                                        ],
+                                        [
+                                            152.955036202,
+                                            -29.964834453
+                                        ],
+                                        [
+                                            152.954840985,
+                                            -29.966340416
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -910,11 +971,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389990",
-                "created": "2020-08-25T21:29:00+10:00",
-                "updated": "2020-08-26T07:29:00+10:00",
+                "created": "2020-08-26T01:54:00+10:00",
+                "updated": "2020-08-26T11:54:00+10:00",
                 "location": "Stoney Ridge Road Kremnos",
                 "size": 104,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Stoney Ridge Road Kremnos <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 104 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2020 07:29",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Stoney Ridge Road Kremnos <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 104 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2020 11:54",
                 "title": "incident: fire"
             }
         },
@@ -1151,11 +1212,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389571",
-                "created": "2020-08-25T06:56:00+10:00",
-                "updated": "2020-08-25T16:56:00+10:00",
+                "created": "2020-08-26T02:02:00+10:00",
+                "updated": "2020-08-26T12:02:00+10:00",
                 "location": "Wooli Rd, Pillar Valley, NSW 2462",
                 "size": 58,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Wooli Rd, Pillar Valley, NSW 2462 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 58 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Aug 2020 16:56",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Wooli Rd, Pillar Valley, NSW 2462 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 58 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2020 12:02",
                 "title": "incident: fire"
             }
         },
@@ -2986,6 +3047,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.56224300000008,
+                    -33.13783799999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Anembo Av, Summerland Point",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390012",
+                "created": "2020-08-26T01:52:00+10:00",
+                "updated": "2020-08-26T11:52:00+10:00",
+                "location": "Anembo Av, Summerland Point, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Anembo Av, Summerland Point, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2020 11:52",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.04317300000002,
                     -30.895352999999943
                 ]
@@ -3074,30 +3159,6 @@
                 "location": "Gundy, Scone,",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Gundy, Scone,   <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Aug 2020 12:06",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.82883000000004,
-                    -36.368214999999964
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Myack St, Berridale",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389965",
-                "created": "2020-08-26T01:41:00+10:00",
-                "updated": "2020-08-26T11:41:00+10:00",
-                "location": "24 Myack St, Berridale, NSW 2628",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 24 Myack St, Berridale, NSW 2628 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2020 11:41",
                 "title": "incident: fire"
             }
         },
@@ -3219,30 +3280,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: The Boulevard, Tallwoods Village, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2020 08:39",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.26736900100002,
-                    -29.85281599999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Williams Cr, Wooli",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389953",
-                "created": "2020-08-25T07:00:00+10:00",
-                "updated": "2020-08-25T17:00:00+10:00",
-                "location": "43 Williams Cr, Wooli, NSW 2462",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 43 Williams Cr, Wooli, NSW 2462 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Aug 2020 17:00",
-                "title": "incident: other"
             }
         }
     ]

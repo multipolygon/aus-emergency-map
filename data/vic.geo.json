@@ -15510,74 +15510,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Laidlaw St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-08-26T21:34:00+10:00",
-                "updated": "2020-08-26T21:34:00+10:00",
-                "id": "ESTA:200815142",
-                "location": "Laidlaw St, Apsley",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.08358593847043,
-                    -36.970715342422004
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "High St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-08-26T21:18:00+10:00",
-                "updated": "2020-08-26T21:33:00+10:00",
-                "id": "ESTA:200815138",
-                "location": "High St, Kangaroo Flat",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.2404920047577,
-                    -36.807757745287645
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-08-26T19:50:00+10:00",
-                "updated": "2020-08-26T21:38:00+10:00",
-                "id": "ESTA:200851226",
-                "location": "Thomastown",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01378201360876,
-                    -37.67941049396848
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Cassons Cr",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -15601,14 +15533,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hazeldean Rd",
+                "sourceTitle": "Victoria St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-08-26T20:04:00+10:00",
-                "updated": "2020-08-26T20:58:00+10:00",
-                "id": "ESTA:200815130",
-                "location": "Hazeldean Rd, Yarragon",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2020-08-26T21:56:43+10:00",
+                "updated": "2020-08-26T21:56:43+10:00",
+                "id": "ESTA:200815144",
+                "location": "Victoria St, Altona Meadows",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15616,8 +15548,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.02681197298975,
-                    -38.23319787305321
+                    144.78702216914527,
+                    -37.868516472890846
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "St Kilda East",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-08-26T22:00:53+10:00",
+                "updated": "2020-08-26T22:03:04+10:00",
+                "id": "ESTA:200815146",
+                "location": "Wilgah St, St Kilda East",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00457087919028,
+                    -37.86411736162559
                 ]
             }
         },
@@ -20218,6 +20172,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Laidlaw St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-08-26T21:34:00+10:00",
+                "updated": "2020-08-26T22:03:00+10:00",
+                "id": "ESTA:200815142",
+                "location": "Laidlaw St, Apsley",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.08358593847043,
+                    -36.970715342422004
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-26T21:59:00+10:00",
+                "updated": "2020-08-26T22:01:00+10:00",
+                "id": "ESTA:200815145",
+                "location": "Princes Hwy, Werribee",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6911511791615,
+                    -37.88847294586059
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "George St",
                 "category": "fire",
                 "subcategory": "other",
@@ -20235,6 +20235,29 @@
                 "coordinates": [
                     146.25982432931383,
                     -38.176291006522064
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "High St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-08-26T21:18:00+10:00",
+                "updated": "2020-08-26T21:33:00+10:00",
+                "id": "ESTA:200815138",
+                "location": "High St, Kangaroo Flat",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.2404920047577,
+                    -36.807757745287645
                 ]
             }
         },

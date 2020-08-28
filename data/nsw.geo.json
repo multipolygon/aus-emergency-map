@@ -4,6 +4,123 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.02270126300004,
+                            -34.04193849999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.018228093,
+                                            -34.0414689849999
+                                        ],
+                                        [
+                                            151.018952144,
+                                            -34.0413784789999
+                                        ],
+                                        [
+                                            151.020070491,
+                                            -34.0411643269999
+                                        ],
+                                        [
+                                            151.020391718,
+                                            -34.04115243
+                                        ],
+                                        [
+                                            151.020927097,
+                                            -34.041140533
+                                        ],
+                                        [
+                                            151.021748011,
+                                            -34.041140533
+                                        ],
+                                        [
+                                            151.022652206,
+                                            -34.0412833
+                                        ],
+                                        [
+                                            151.023116201,
+                                            -34.0415212459999
+                                        ],
+                                        [
+                                            151.023080509,
+                                            -34.041652117
+                                        ],
+                                        [
+                                            151.023199482,
+                                            -34.0421042139999
+                                        ],
+                                        [
+                                            151.023389839,
+                                            -34.042425442
+                                        ],
+                                        [
+                                            151.023401737,
+                                            -34.0426633879999
+                                        ],
+                                        [
+                                            151.023092406,
+                                            -34.0429370259999
+                                        ],
+                                        [
+                                            151.022830666,
+                                            -34.0434961989999
+                                        ],
+                                        [
+                                            151.022533233,
+                                            -34.04375794
+                                        ],
+                                        [
+                                            151.021438681,
+                                            -34.043365329
+                                        ],
+                                        [
+                                            151.02210493,
+                                            -34.043127383
+                                        ],
+                                        [
+                                            151.0222358,
+                                            -34.042056626
+                                        ],
+                                        [
+                                            151.018228093,
+                                            -34.0414689849999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Albion HR",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390168",
+                "created": "2020-08-28T01:47:00+10:00",
+                "updated": "2020-08-28T11:47:00+10:00",
+                "location": "Albion Place, Engadine",
+                "size": 5,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Albion Place, Engadine  <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2020 11:47",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     150.63837289800006,
@@ -46,6 +163,30 @@
                 "location": "815 Gumma Rd Gumma",
                 "size": 7,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 815 Gumma Rd Gumma <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 7 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2020 08:27",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.78624299900002,
+                    -29.579537999999957
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clarence Way, Copmanhurst",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390245",
+                "created": "2020-08-28T01:32:00+10:00",
+                "updated": "2020-08-28T11:32:00+10:00",
+                "location": "Clarence Way, Copmanhurst, NSW 2460",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Clarence Way, Copmanhurst, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2020 11:32",
                 "title": "incident: fire"
             }
         },
@@ -930,11 +1071,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/389713",
-                "created": "2020-08-27T05:46:00+10:00",
-                "updated": "2020-08-27T15:46:00+10:00",
+                "created": "2020-08-27T23:57:00+10:00",
+                "updated": "2020-08-28T09:57:00+10:00",
                 "location": "Forest Way, Stokers Siding, NSW 2484",
                 "size": 33,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Forest Way, Stokers Siding, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 33 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Aug 2020 15:46",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Forest Way, Stokers Siding, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 33 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2020 09:57",
                 "title": "incident: fire"
             }
         },
@@ -2747,6 +2888,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.97344800100007,
+                    -30.62077299899994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Red Ash Rd, Valla",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390225",
+                "created": "2020-08-28T01:55:00+10:00",
+                "updated": "2020-08-28T11:55:00+10:00",
+                "location": "Red Ash Rd, Valla, NSW 2448",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Red Ash Rd, Valla, NSW 2448 <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2020 11:55",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.0229077340001,
                     -29.065735350999944
                 ]
@@ -3476,22 +3641,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.1947050000001,
-                    -28.366141999999968
+                    151.02154699900007,
+                    -34.042921999999976
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Yellowood Rd, Tyalgum",
+                "sourceTitle": "Albion Pl, Engadine",
                 "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390229",
-                "created": "2020-08-28T00:50:00+10:00",
-                "updated": "2020-08-28T10:50:00+10:00",
-                "location": "Yellowood Rd, Tyalgum, NSW 2484",
+                "subcategory": "hazard reduction",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390228",
+                "created": "2020-08-28T01:59:00+10:00",
+                "updated": "2020-08-28T11:59:00+10:00",
+                "location": "Albion Pl, Engadine, NSW 2233",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Yellowood Rd, Tyalgum, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2020 10:50",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Albion Pl, Engadine, NSW 2233 <br />COUNCIL AREA: Sutherland <br />STATUS: Out of control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Aug 2020 11:59",
                 "title": "incident: fire"
             }
         },
@@ -3669,8 +3834,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.10890300100004,
-                    -33.43065699999994
+                    150.10198371800004,
+                    -33.424909809999974
                 ]
             },
             "properties": {
@@ -3678,13 +3843,13 @@
                 "sourceTitle": "Castlereagh Hwy, Marrangaroo",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390239",
-                "created": "2020-08-28T01:10:00+10:00",
-                "updated": "2020-08-28T11:10:00+10:00",
+                "created": "2020-08-28T01:47:00+10:00",
+                "updated": "2020-08-28T11:47:00+10:00",
                 "location": "Castlereagh Hwy, Marrangaroo, NSW 2790",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Castlereagh Hwy, Marrangaroo, NSW 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2020 11:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Castlereagh Hwy, Marrangaroo, NSW 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2020 11:47",
                 "title": "incident: fire"
             }
         },

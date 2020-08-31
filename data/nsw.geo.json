@@ -494,11 +494,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390874",
-                "created": "2020-08-31T14:14:00+10:00",
-                "updated": "2020-09-01T00:14:00+10:00",
+                "created": "2020-08-31T20:49:00+10:00",
+                "updated": "2020-09-01T06:49:00+10:00",
                 "location": "6502 Castlereagh Hwy, Ilford, NSW 2850",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 6502 Castlereagh Hwy, Ilford, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Sep 2020 00:14",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 6502 Castlereagh Hwy, Ilford, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Sep 2020 06:49",
                 "title": "incident: fire"
             }
         },
@@ -541,6 +541,73 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.784038217,
+                                            -29.792463665
+                                        ],
+                                        [
+                                            152.783100053,
+                                            -29.793788133
+                                        ],
+                                        [
+                                            152.782658564,
+                                            -29.7936225719999
+                                        ],
+                                        [
+                                            152.782106703,
+                                            -29.791856617
+                                        ],
+                                        [
+                                            152.78271375,
+                                            -29.7905873359999
+                                        ],
+                                        [
+                                            152.785141939,
+                                            -29.7884350759999
+                                        ],
+                                        [
+                                            152.786356035,
+                                            -29.787276167
+                                        ],
+                                        [
+                                            152.787735688,
+                                            -29.786503562
+                                        ],
+                                        [
+                                            152.788673853,
+                                            -29.787055423
+                                        ],
+                                        [
+                                            152.789391272,
+                                            -29.788324705
+                                        ],
+                                        [
+                                            152.788397922,
+                                            -29.788821378
+                                        ],
+                                        [
+                                            152.787183827,
+                                            -29.7890421239999
+                                        ],
+                                        [
+                                            152.785417871,
+                                            -29.790090661
+                                        ],
+                                        [
+                                            152.784645265,
+                                            -29.7915255
+                                        ],
+                                        [
+                                            152.784038217,
+                                            -29.792463665
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -724,73 +791,6 @@
                                         [
                                             152.777029578,
                                             -29.801569376
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.784038217,
-                                            -29.792463665
-                                        ],
-                                        [
-                                            152.783100053,
-                                            -29.793788133
-                                        ],
-                                        [
-                                            152.782658564,
-                                            -29.7936225719999
-                                        ],
-                                        [
-                                            152.782106703,
-                                            -29.791856617
-                                        ],
-                                        [
-                                            152.78271375,
-                                            -29.7905873359999
-                                        ],
-                                        [
-                                            152.785141939,
-                                            -29.7884350759999
-                                        ],
-                                        [
-                                            152.786356035,
-                                            -29.787276167
-                                        ],
-                                        [
-                                            152.787735688,
-                                            -29.786503562
-                                        ],
-                                        [
-                                            152.788673853,
-                                            -29.787055423
-                                        ],
-                                        [
-                                            152.789391272,
-                                            -29.788324705
-                                        ],
-                                        [
-                                            152.788397922,
-                                            -29.788821378
-                                        ],
-                                        [
-                                            152.787183827,
-                                            -29.7890421239999
-                                        ],
-                                        [
-                                            152.785417871,
-                                            -29.790090661
-                                        ],
-                                        [
-                                            152.784645265,
-                                            -29.7915255
-                                        ],
-                                        [
-                                            152.784038217,
-                                            -29.792463665
                                         ]
                                     ]
                                 ]
@@ -5737,30 +5737,6 @@
                 "location": "Yuruga Av, San Remo, NSW 2262",
                 "size": 3,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Yuruga Av, San Remo, NSW 2262 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2020 20:36",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.03903300000002,
-                    -33.62835099999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Arcadia Rd, Arcadia",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390879",
-                "created": "2020-08-31T19:58:00+10:00",
-                "updated": "2020-09-01T05:58:00+10:00",
-                "location": "Arcadia Rd, Arcadia, NSW 2159",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Arcadia Rd, Arcadia, NSW 2159 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Sep 2020 05:58",
                 "title": "incident: fire"
             }
         },

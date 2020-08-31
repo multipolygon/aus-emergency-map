@@ -1886,11 +1886,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390825",
-                "created": "2020-08-31T07:43:00+10:00",
-                "updated": "2020-08-31T17:43:00+10:00",
+                "created": "2020-08-31T10:07:00+10:00",
+                "updated": "2020-08-31T20:07:00+10:00",
                 "location": "Kb Timms Dr, Eden, NSW 2551",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Kb Timms Dr, Eden, NSW 2551 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 31 Aug 2020 17:43",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Kb Timms Dr, Eden, NSW 2551 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 31 Aug 2020 20:07",
                 "title": "incident: fire"
             }
         },
@@ -3352,10 +3352,103 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.896519,
-                    -30.17989499999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.896519,
+                            -30.17989499999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.901842174,
+                                            -30.174625185
+                                        ],
+                                        [
+                                            152.901628022,
+                                            -30.174767952
+                                        ],
+                                        [
+                                            152.901509049,
+                                            -30.174767952
+                                        ],
+                                        [
+                                            152.900676238,
+                                            -30.175576969
+                                        ],
+                                        [
+                                            152.899724452,
+                                            -30.175243844
+                                        ],
+                                        [
+                                            152.899581685,
+                                            -30.175291434
+                                        ],
+                                        [
+                                            152.89898682,
+                                            -30.175053487
+                                        ],
+                                        [
+                                            152.89924856,
+                                            -30.1745538
+                                        ],
+                                        [
+                                            152.899629274,
+                                            -30.173911346
+                                        ],
+                                        [
+                                            152.899843426,
+                                            -30.1738637559999
+                                        ],
+                                        [
+                                            152.900937978,
+                                            -30.173506838
+                                        ],
+                                        [
+                                            152.901294897,
+                                            -30.1727454099999
+                                        ],
+                                        [
+                                            152.902222887,
+                                            -30.1728881779999
+                                        ],
+                                        [
+                                            152.903055698,
+                                            -30.1725788479999
+                                        ],
+                                        [
+                                            152.90326985,
+                                            -30.172911972
+                                        ],
+                                        [
+                                            152.903293645,
+                                            -30.173839963
+                                        ],
+                                        [
+                                            152.902579806,
+                                            -30.174125498
+                                        ],
+                                        [
+                                            152.901794584,
+                                            -30.174434828
+                                        ],
+                                        [
+                                            152.901842174,
+                                            -30.174625185
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -5724,6 +5817,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.82913000000008,
+                    -31.413358999999957
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hastings River Dr, Fernbank Creek",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390864",
+                "created": "2020-08-31T10:00:00+10:00",
+                "updated": "2020-08-31T20:00:00+10:00",
+                "location": "Hastings River Dr, Fernbank Creek, NSW 2444",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hastings River Dr, Fernbank Creek, NSW 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2020 20:00",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.59476700000005,
                     -33.18132099999997
                 ]
@@ -5988,30 +6105,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.57374300000004,
-                    -34.29920899999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tylers Rd, Bargo",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390862",
-                "created": "2020-08-31T09:24:00+10:00",
-                "updated": "2020-08-31T19:24:00+10:00",
-                "location": "Tylers Rd, Bargo, NSW 2574",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Tylers Rd, Bargo, NSW 2574 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2020 19:24",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.73861900000009,
                     -30.72709599999996
                 ]
@@ -6021,13 +6114,13 @@
                 "sourceTitle": "Whip Mountain Rd, Yarranbella",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/390857",
-                "created": "2020-08-31T08:52:00+10:00",
-                "updated": "2020-08-31T18:52:00+10:00",
+                "created": "2020-08-31T10:05:00+10:00",
+                "updated": "2020-08-31T20:05:00+10:00",
                 "location": "354 Whip Mountain Rd, Yarranbella, NSW 2447",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 354 Whip Mountain Rd, Yarranbella, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2020 18:52",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 354 Whip Mountain Rd, Yarranbella, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2020 20:05",
                 "title": "incident: fire"
             }
         }

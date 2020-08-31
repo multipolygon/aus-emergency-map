@@ -10682,23 +10682,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Alexander Av",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-09-01T03:34:26+10:00",
-                "updated": "2020-09-01T03:34:26+10:00",
-                "id": "ESTA:200900012",
-                "location": "Alexander Av, Thomastown",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-09-01T02:35:00+10:00",
+                "updated": "2020-09-01T03:49:00+10:00",
+                "id": "ESTA:200900011",
+                "location": "Boorcan",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.01847978986063,
-                    -37.68091363776541
+                    143.01288159471548,
+                    -38.19552267932423
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ferguson Ct",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-09-01T03:55:36+10:00",
+                "updated": "2020-09-01T03:55:36+10:00",
+                "id": "ESTA:200900016",
+                "location": "Ferguson Ct, Eumemmerring",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.25086555682506,
+                    -38.00038888086468
                 ]
             }
         },
@@ -10708,7 +10731,7 @@
                 "sourceTitle": "Learmonth Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-09-01T03:44:00+10:00",
                 "updated": "2020-09-01T03:44:00+10:00",
                 "id": "ESTA:200900015",
@@ -10728,14 +10751,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ferguson Ct",
+                "sourceTitle": "Hodgson St",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-09-01T03:44:29+10:00",
-                "updated": "2020-09-01T03:44:29+10:00",
-                "id": "ESTA:200900016",
-                "location": "Ferguson Ct, Eumemmerring",
+                "created": "2020-09-01T03:58:04+10:00",
+                "updated": "2020-09-01T03:58:04+10:00",
+                "id": "ESTA:200900018",
+                "location": "Hodgson St, Brunswick",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10743,8 +10766,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.25086555682506,
-                    -38.00038888086468
+                    144.95301657242217,
+                    -37.77490189404434
                 ]
             }
         },
@@ -10767,29 +10790,6 @@
                 "coordinates": [
                     149.914565,
                     -37.0411319999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "request for assistance",
-                "created": "2020-09-01T02:35:00+10:00",
-                "updated": "2020-09-01T02:59:00+10:00",
-                "id": "ESTA:200900011",
-                "location": "Boorcan",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.01288159471548,
-                    -38.19552267932423
                 ]
             }
         }

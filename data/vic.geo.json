@@ -9932,14 +9932,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ferndale Rd",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-02T06:24:00+10:00",
+                "updated": "2020-09-02T06:25:00+10:00",
+                "id": "ESTA:200950062",
+                "location": "Gisborne South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6039185746112,
+                    -37.53958494920435
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grovedale Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-09-02T06:09:24+10:00",
-                "updated": "2020-09-02T06:09:24+10:00",
-                "id": "ESTA:200900868",
-                "location": "Ferndale Rd, Sunshine North",
+                "status": "responding",
+                "created": "2020-09-02T06:24:27+10:00",
+                "updated": "2020-09-02T06:24:27+10:00",
+                "id": "ESTA:200900879",
+                "location": "Grovedale Rd, Surrey Hills",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9947,31 +9969,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.83532091117024,
-                    -37.76646358922732
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Epsom",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-09-02T06:13:56+10:00",
-                "updated": "2020-09-02T06:13:56+10:00",
-                "id": "ESTA:200900878",
-                "location": "Epsom, Epsom",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.296054890798,
-                    -36.70292030471923
+                    145.09444920115192,
+                    -37.81568973948644
                 ]
             }
         },
@@ -16894,6 +16893,52 @@
                 "coordinates": [
                     149.825636,
                     -37.0188840009999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ferndale Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-09-02T06:09:24+10:00",
+                "updated": "2020-09-02T06:09:24+10:00",
+                "id": "ESTA:200900868",
+                "location": "Ferndale Rd, Sunshine North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.83532091117024,
+                    -37.76646358922732
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Epsom",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-02T06:13:56+10:00",
+                "updated": "2020-09-02T06:13:56+10:00",
+                "id": "ESTA:200900878",
+                "location": "Epsom, Epsom",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.296054890798,
+                    -36.70292030471923
                 ]
             }
         },

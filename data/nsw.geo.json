@@ -414,6 +414,73 @@
                                 "coordinates": [
                                     [
                                         [
+                                            152.784038217,
+                                            -29.792463665
+                                        ],
+                                        [
+                                            152.783100053,
+                                            -29.793788133
+                                        ],
+                                        [
+                                            152.782658564,
+                                            -29.7936225719999
+                                        ],
+                                        [
+                                            152.782106703,
+                                            -29.791856617
+                                        ],
+                                        [
+                                            152.78271375,
+                                            -29.7905873359999
+                                        ],
+                                        [
+                                            152.785141939,
+                                            -29.7884350759999
+                                        ],
+                                        [
+                                            152.786356035,
+                                            -29.787276167
+                                        ],
+                                        [
+                                            152.787735688,
+                                            -29.786503562
+                                        ],
+                                        [
+                                            152.788673853,
+                                            -29.787055423
+                                        ],
+                                        [
+                                            152.789391272,
+                                            -29.788324705
+                                        ],
+                                        [
+                                            152.788397922,
+                                            -29.788821378
+                                        ],
+                                        [
+                                            152.787183827,
+                                            -29.7890421239999
+                                        ],
+                                        [
+                                            152.785417871,
+                                            -29.790090661
+                                        ],
+                                        [
+                                            152.784645265,
+                                            -29.7915255
+                                        ],
+                                        [
+                                            152.784038217,
+                                            -29.792463665
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             152.777029578,
                                             -29.801569376
                                         ],
@@ -771,73 +838,6 @@
                                         [
                                             152.776692171,
                                             -29.8229519179999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.784038217,
-                                            -29.792463665
-                                        ],
-                                        [
-                                            152.783100053,
-                                            -29.793788133
-                                        ],
-                                        [
-                                            152.782658564,
-                                            -29.7936225719999
-                                        ],
-                                        [
-                                            152.782106703,
-                                            -29.791856617
-                                        ],
-                                        [
-                                            152.78271375,
-                                            -29.7905873359999
-                                        ],
-                                        [
-                                            152.785141939,
-                                            -29.7884350759999
-                                        ],
-                                        [
-                                            152.786356035,
-                                            -29.787276167
-                                        ],
-                                        [
-                                            152.787735688,
-                                            -29.786503562
-                                        ],
-                                        [
-                                            152.788673853,
-                                            -29.787055423
-                                        ],
-                                        [
-                                            152.789391272,
-                                            -29.788324705
-                                        ],
-                                        [
-                                            152.788397922,
-                                            -29.788821378
-                                        ],
-                                        [
-                                            152.787183827,
-                                            -29.7890421239999
-                                        ],
-                                        [
-                                            152.785417871,
-                                            -29.790090661
-                                        ],
-                                        [
-                                            152.784645265,
-                                            -29.7915255
-                                        ],
-                                        [
-                                            152.784038217,
-                                            -29.792463665
                                         ]
                                     ]
                                 ]
@@ -1837,30 +1837,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.5304920000001,
-                    -30.107339999999965
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Guyra Rd, Wandsworth",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391096",
-                "created": "2020-09-03T03:04:00+10:00",
-                "updated": "2020-09-03T13:04:00+10:00",
-                "location": "Guyra Rd, Wandsworth, NSW 2365",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Guyra Rd, Wandsworth, NSW 2365 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2020 13:04",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2166,6 +2142,30 @@
                 "location": "Georges River National Park",
                 "size": 34,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Georges River National Park <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 34 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 1 Sep 2020 14:11",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.16355800000008,
+                    -30.89274199999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kamilaroi Hwy, Gunnedah",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391099",
+                "created": "2020-09-03T02:48:00+10:00",
+                "updated": "2020-09-03T12:48:00+10:00",
+                "location": "Kamilaroi Hwy, Gunnedah, NSW 2380",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Kamilaroi Hwy, Gunnedah, NSW 2380 <br />COUNCIL AREA: Gunnedah <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2020 12:48",
                 "title": "incident: fire"
             }
         },
@@ -2748,6 +2748,30 @@
                 "location": "Marieba Road, Kenthurst",
                 "size": 24,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Marieba Road, Kenthurst <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 24 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2020 12:56",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.01277500000003,
+                    -32.02383099999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mograni Creek Rd, Mograni",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391092",
+                "created": "2020-09-03T03:15:00+10:00",
+                "updated": "2020-09-03T13:15:00+10:00",
+                "location": "392 Mograni Creek Rd, Mograni, NSW 2422",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 392 Mograni Creek Rd, Mograni, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2020 13:15",
                 "title": "incident: fire"
             }
         },
@@ -4591,6 +4615,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.52641300000005,
+                    -28.896026999999947
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gudingbo Av, Tabulam",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391102",
+                "created": "2020-09-03T03:20:00+10:00",
+                "updated": "2020-09-03T13:20:00+10:00",
+                "location": "39 Gudingbo Av, Tabulam, NSW 2469",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 39 Gudingbo Av, Tabulam, NSW 2469 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2020 13:20",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     145.9766800000001,
                     -34.25031999999993
                 ]
@@ -4600,13 +4648,13 @@
                 "sourceTitle": "Kidman Wy, Tharbogang",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391098",
-                "created": "2020-09-03T02:40:00+10:00",
-                "updated": "2020-09-03T12:40:00+10:00",
+                "created": "2020-09-03T03:24:00+10:00",
+                "updated": "2020-09-03T13:24:00+10:00",
                 "location": "1749 Kidman Wy, Tharbogang,  2680",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1749 Kidman Wy, Tharbogang,  2680 <br />COUNCIL AREA: Griffith <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2020 12:40",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1749 Kidman Wy, Tharbogang,  2680 <br />COUNCIL AREA: Griffith <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2020 13:24",
                 "title": "incident: other"
             }
         },

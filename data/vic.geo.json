@@ -9970,35 +9970,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Haughton Rd",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-09-05T11:36:54+10:00",
-                "updated": "2020-09-05T11:36:54+10:00",
-                "id": "ESTA:200904110",
-                "location": "Haughton Rd, Clayton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.11458647128836,
-                    -37.92072693921803
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Lowen Dr",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-09-05T11:43:00+10:00",
-                "updated": "2020-09-05T11:43:00+10:00",
+                "updated": "2020-09-05T12:17:00+10:00",
                 "id": "ESTA:200904157",
                 "location": "Lowen Dr, Bright",
                 "size": "Small",
@@ -10008,8 +9985,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.9420410964306,
-                    -36.71706693514731
+                    146.9425000375732,
+                    -36.717283514318964
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brookwater Pde",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-09-05T12:26:38+10:00",
+                "updated": "2020-09-05T12:26:38+10:00",
+                "id": "ESTA:200904383",
+                "location": "Brookwater Pde, Lyndhurst",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.25702849023156,
+                    -38.07146724550974
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Reservoir",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-09-05T12:26:37+10:00",
+                "updated": "2020-09-05T12:27:57+10:00",
+                "id": "ESTA:200904394",
+                "location": "Northernhay St, Reservoir",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00883026093598,
+                    -37.72458493884873
                 ]
             }
         },
@@ -10704,13 +10726,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Maninya St, Moama",
+                "category": "fire",
+                "subcategory": "other non-urgent alerts",
+                "status": "being controlled",
+                "created": "2020-09-05T12:00:00+10:00",
+                "updated": "2020-09-05T12:00:00+10:00",
+                "id": "2020-09-05T12:00:00.0000000:391315",
+                "location": "Maninya St, Moama, Nsw ",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.751116,
+                    -36.0911819999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Wakool Rd, Deniliquin",
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
                 "status": "under control",
-                "created": "2020-09-04T15:39:00+10:00",
-                "updated": "2020-09-04T15:39:00+10:00",
-                "id": "2020-09-04T15:39:00.0000000:391171",
+                "created": "2020-09-05T11:45:00+10:00",
+                "updated": "2020-09-05T11:45:00+10:00",
+                "id": "2020-09-05T11:45:00.0000000:391171",
                 "location": "1587 Wakool Rd, Deniliquin, Nsw 2710",
                 "title": "incident: other"
             },
@@ -10720,6 +10764,73 @@
                 "coordinates": [
                     144.808535,
                     -35.5019179999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Haughton Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-09-05T11:48:28+10:00",
+                "updated": "2020-09-05T11:48:28+10:00",
+                "id": "ESTA:200904110",
+                "location": "Haughton Rd, Clayton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.11449536149334,
+                    -37.92064593936475
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-09-05T11:54:00+10:00",
+                "updated": "2020-09-05T12:17:00+10:00",
+                "id": "ESTA:200950628",
+                "location": "Lalor",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03869767180777,
+                    -37.671509511423366
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-05T11:48:00+10:00",
+                "updated": "2020-09-05T11:55:00+10:00",
+                "id": "ESTA:200950627",
+                "location": "Lorne",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.97648787062636,
+                    -38.5469954063372
                 ]
             }
         },

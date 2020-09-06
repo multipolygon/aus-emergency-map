@@ -9973,10 +9973,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Gossamer St",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-09-06T22:53:34+10:00",
-                "updated": "2020-09-06T22:53:34+10:00",
+                "created": "2020-09-06T22:42:00+10:00",
+                "updated": "2020-09-06T22:53:00+10:00",
                 "id": "ESTA:200906879",
                 "location": "Gossamer St, Werribee",
                 "size": "Small",
@@ -9986,31 +9986,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.65265180685844,
-                    -37.892286316594976
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Olinda St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-09-06T22:54:13+10:00",
-                "updated": "2020-09-06T22:54:13+10:00",
-                "id": "ESTA:200906880",
-                "location": "Olinda St, Caulfield South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03005077649772,
-                    -37.89820858336718
+                    144.6526437039459,
+                    -37.892288672020946
                 ]
             }
         },
@@ -10020,9 +9997,9 @@
                 "sourceTitle": "Church St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-09-06T23:00:18+10:00",
-                "updated": "2020-09-06T23:00:18+10:00",
+                "status": "safe",
+                "created": "2020-09-06T23:08:05+10:00",
+                "updated": "2020-09-06T23:08:05+10:00",
                 "id": "ESTA:200906881",
                 "location": "Church St, Morwell",
                 "size": "Small",
@@ -10032,8 +10009,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.3972758821436,
-                    -38.230654657441114
+                    146.39711551264517,
+                    -38.23062948650506
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
+                "created": "2020-09-06T22:01:00+10:00",
+                "updated": "2020-09-06T23:03:00+10:00",
+                "id": "ESTA:200950676",
+                "location": "Mooralla",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.16014969361754,
+                    -37.37813680478499
                 ]
             }
         },
@@ -15375,52 +15374,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "on scene",
-                "created": "2020-09-06T17:25:00+10:00",
-                "updated": "2020-09-06T18:36:00+10:00",
-                "id": "ESTA:200906767",
-                "location": "Stanley",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.8026256022177,
-                    -36.45125302663834
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nicholson St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-06T22:29:24+10:00",
-                "updated": "2020-09-06T22:29:24+10:00",
-                "id": "ESTA:200906873",
-                "location": "Nicholson St, Coburg",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9756576428151,
-                    -37.75507712197549
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Windsor Av",
                 "category": "other",
                 "subcategory": "other",
@@ -15467,21 +15420,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-06T22:01:00+10:00",
-                "updated": "2020-09-06T22:02:00+10:00",
-                "id": "ESTA:200950676",
-                "location": "Mooralla",
-                "title": "incident: tree down"
+                "category": "other",
+                "subcategory": "other",
+                "status": "on scene",
+                "created": "2020-09-06T17:25:00+10:00",
+                "updated": "2020-09-06T18:36:00+10:00",
+                "id": "ESTA:200906767",
+                "location": "Stanley",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.16014969361754,
-                    -37.37813680478499
+                    146.8026256022177,
+                    -36.45125302663834
                 ]
             }
         }

@@ -9,6 +9,80 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            143.90017817993183,
+                            -37.76758036986425
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    143.86447261352356,
+                                    -37.73854593219378
+                                ],
+                                [
+                                    143.9194042541489,
+                                    -37.7276849862035
+                                ],
+                                [
+                                    143.9358837463401,
+                                    -37.779802995683575
+                                ],
+                                [
+                                    143.93184970397374,
+                                    -37.79472586843958
+                                ],
+                                [
+                                    143.92601321716032,
+                                    -37.80245744438816
+                                ],
+                                [
+                                    143.9138252593955,
+                                    -37.80625511511886
+                                ],
+                                [
+                                    143.89768908995697,
+                                    -37.80693325005658
+                                ],
+                                [
+                                    143.87065242309862,
+                                    -37.80747575352499
+                                ],
+                                [
+                                    143.87065242309862,
+                                    -37.77111921036652
+                                ],
+                                [
+                                    143.86447261352356,
+                                    -37.73854593219378
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-09-07T22:55:12+10:00",
+                "updated": "2020-09-07T22:55:13+10:00",
+                "id": "14510",
+                "location": "Grenville, Cargerie, Elaine, Enfield, Mount Mercer",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             144.94136109700403,
                             -38.41353255258573
                         ]
@@ -52,72 +126,6 @@
                 "updated": "2020-09-07T19:04:32+10:00",
                 "id": "14509",
                 "location": "Boneo, Main Ridge",
-                "title": "warning: community update"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            141.23889874683687,
-                            -36.76723652858928
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    141.23575519787207,
-                                    -36.76365262986296
-                                ],
-                                [
-                                    141.24015402065305,
-                                    -36.76279312595286
-                                ],
-                                [
-                                    141.24356579052682,
-                                    -36.766162326149455
-                                ],
-                                [
-                                    141.242492906918,
-                                    -36.77049393746737
-                                ],
-                                [
-                                    141.23890947567685,
-                                    -36.771679931225705
-                                ],
-                                [
-                                    141.23599123226117,
-                                    -36.77035642975759
-                                ],
-                                [
-                                    141.23423170314695,
-                                    -36.76695303536076
-                                ],
-                                [
-                                    141.23575519787207,
-                                    -36.76365262986296
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Community Information",
-                "category": "community update",
-                "subcategory": "env",
-                "status": "unknown",
-                "created": "2020-07-24T15:59:01+10:00",
-                "updated": "2020-07-24T15:59:02+10:00",
-                "id": "14250",
-                "location": "Minimay",
                 "title": "warning: community update"
             }
         },
@@ -205,6 +213,72 @@
                 "id": "14507",
                 "location": "Canadian, Mount Clear, Mount Helen, Navigators, Warrenheip",
                 "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            141.23889874683687,
+                            -36.76723652858928
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ],
+                                [
+                                    141.24015402065305,
+                                    -36.76279312595286
+                                ],
+                                [
+                                    141.24356579052682,
+                                    -36.766162326149455
+                                ],
+                                [
+                                    141.242492906918,
+                                    -36.77049393746737
+                                ],
+                                [
+                                    141.23890947567685,
+                                    -36.771679931225705
+                                ],
+                                [
+                                    141.23599123226117,
+                                    -36.77035642975759
+                                ],
+                                [
+                                    141.23423170314695,
+                                    -36.76695303536076
+                                ],
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "env",
+                "status": "unknown",
+                "created": "2020-07-24T15:59:01+10:00",
+                "updated": "2020-07-24T15:59:02+10:00",
+                "id": "14250",
+                "location": "Minimay",
+                "title": "warning: community update"
             }
         },
         {
@@ -10122,18 +10196,197 @@
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2020-09-07T22:31:00+10:00",
-                "updated": "2020-09-07T22:39:00+10:00",
-                "id": "ESTA:200950829",
-                "location": "Doreen",
+                "created": "2020-09-07T22:45:00+10:00",
+                "updated": "2020-09-07T22:50:00+10:00",
+                "id": "ESTA:200950835",
+                "location": "Tullamarine",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.13306933363287,
-                    -37.6105778909435
+                    144.87182980761375,
+                    -37.70643800604176
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dealbata Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-07T22:45:00+10:00",
+                "updated": "2020-09-07T22:47:00+10:00",
+                "id": "ESTA:200907602",
+                "location": "Dealbata Rd, Upwey",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3355436916474,
+                    -37.89451318620037
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Allambee South Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-09-07T22:46:00+10:00",
+                "updated": "2020-09-07T22:46:00+10:00",
+                "id": "ESTA:200907603",
+                "location": "Allambee South Rd, Thorpdale South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.1246095347652,
+                    -38.32995720618476
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
+                "created": "2020-09-07T22:53:00+10:00",
+                "updated": "2020-09-07T22:53:00+10:00",
+                "id": "ESTA:200950837",
+                "location": "Castella",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.43295958255507,
+                    -37.52993481299491
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-07T22:54:00+10:00",
+                "updated": "2020-09-07T22:57:00+10:00",
+                "id": "ESTA:200950838",
+                "location": "Taylors Lakes",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.80649583854148,
+                    -37.70527617571847
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Stoney Creek Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-09-07T22:57:11+10:00",
+                "updated": "2020-09-07T22:57:11+10:00",
+                "id": "ESTA:200907605",
+                "location": "Stoney Creek Rd, Beaconsfield Upper",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4133319799028,
+                    -37.991390484481606
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-09-07T23:00:00+10:00",
+                "updated": "2020-09-07T23:01:00+10:00",
+                "id": "ESTA:200950839",
+                "location": "Reservoir",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01834731214515,
+                    -37.72684529900189
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-09-07T20:55:00+10:00",
+                "updated": "2020-09-07T23:01:00+10:00",
+                "id": "ESTA:200950805",
+                "location": "Sunbury",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.70822941923427,
+                    -37.58864357126567
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-09-07T21:38:00+10:00",
+                "updated": "2020-09-07T23:01:00+10:00",
+                "id": "ESTA:200950821",
+                "location": "Warburton",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.67587023099742,
+                    -37.746963626106
                 ]
             }
         },
@@ -10143,9 +10396,9 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-09-07T22:32:00+10:00",
-                "updated": "2020-09-07T22:32:00+10:00",
+                "updated": "2020-09-07T23:01:00+10:00",
                 "id": "ESTA:200907601",
                 "location": "Neerim",
                 "size": "Small",
@@ -10163,110 +10416,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Notting Hill",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-09-07T22:27:49+10:00",
-                "updated": "2020-09-07T22:40:55+10:00",
-                "id": "ESTA:200907598",
-                "location": "Blackburn Rd, Notting Hill",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.14250225733358,
-                    -37.90528980934805
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2020-09-07T22:44:00+10:00",
-                "updated": "2020-09-07T22:45:00+10:00",
-                "id": "ESTA:200950832",
-                "location": "Harkness",
+                "created": "2020-09-07T23:02:00+10:00",
+                "updated": "2020-09-07T23:02:25+10:00",
+                "id": "ESTA:200950840",
+                "location": "Murtoa",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.5371502710655,
-                    -37.66522569704446
+                    142.468042248351,
+                    -36.61819377605015
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-07T22:45:00+10:00",
-                "updated": "2020-09-07T22:44:53+10:00",
-                "id": "ESTA:200950833",
-                "location": "Upwey",
-                "title": "incident: tree down"
+                "sourceTitle": "Mount Burnett",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-09-07T23:01:09+10:00",
+                "updated": "2020-09-07T23:02:44+10:00",
+                "id": "ESTA:200907607",
+                "location": "Mt Burnett Rd, Mount Burnett",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3355436916474,
-                    -37.89451318620037
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-07T22:45:00+10:00",
-                "updated": "2020-09-07T22:45:23+10:00",
-                "id": "ESTA:200950834",
-                "location": "Upwey",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3355436916474,
-                    -37.89451318620037
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-07T22:41:00+10:00",
-                "updated": "2020-09-07T22:43:00+10:00",
-                "id": "ESTA:200950830",
-                "location": "Cockatoo",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.50380613072778,
-                    -37.907136847478895
+                    145.521401412355,
+                    -37.97531022563497
                 ]
             }
         },
@@ -11843,9 +12030,9 @@
                 "category": "met",
                 "subcategory": "weather",
                 "status": "warning",
-                "created": "2020-09-07T16:35:39+10:00",
+                "created": "2020-09-07T22:41:34+10:00",
                 "updated": "Invalid date",
-                "id": "IDV21037/9bc6430da9a14eb2cd1a9a2367dcf59d",
+                "id": "IDV21037/d46d902bf60cd4dcc94c889b0099dd95",
                 "location": "Central, East Gippsland, South West, North Central, North East and West and South Gippsland",
                 "title": "incident: met"
             },
@@ -17262,98 +17449,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rhinds Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-07T21:20:00+10:00",
-                "updated": "2020-09-07T22:01:00+10:00",
-                "id": "ESTA:200907585",
-                "location": "Rhinds Rd, Wallington",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.52015931561544,
-                    -38.226185927625245
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Patricia St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-07T21:50:00+10:00",
-                "updated": "2020-09-07T21:51:00+10:00",
-                "id": "ESTA:200907594",
-                "location": "Patricia St, Millgrove",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.66147238117472,
-                    -37.74539499601159
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Patricia St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-07T21:45:00+10:00",
-                "updated": "2020-09-07T21:46:00+10:00",
-                "id": "ESTA:200907592",
-                "location": "Patricia St, Millgrove",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.66147238117472,
-                    -37.74539499601159
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Carlisle St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-07T22:23:07+10:00",
-                "updated": "2020-09-07T22:23:07+10:00",
-                "id": "ESTA:200907595",
-                "location": "Carlisle St, Balaclava",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99668125212588,
-                    -37.86917379421926
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Albert Cr",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -17378,21 +17473,65 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
+                "category": "tree down",
+                "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-09-07T22:45:00+10:00",
-                "updated": "2020-09-07T22:45:28+10:00",
-                "id": "ESTA:200950835",
-                "location": "Tullamarine",
-                "title": "incident: building damage"
+                "created": "2020-09-07T22:41:00+10:00",
+                "updated": "2020-09-07T22:49:00+10:00",
+                "id": "ESTA:200950830",
+                "location": "Cockatoo",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.87182980761375,
-                    -37.70643800604176
+                    145.50380613072778,
+                    -37.907136847478895
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-07T22:45:00+10:00",
+                "updated": "2020-09-07T22:49:00+10:00",
+                "id": "ESTA:200950833",
+                "location": "Upwey",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3355436916474,
+                    -37.89451318620037
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-07T22:45:00+10:00",
+                "updated": "2020-09-07T22:49:00+10:00",
+                "id": "ESTA:200950834",
+                "location": "Upwey",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3355436916474,
+                    -37.89451318620037
                 ]
             }
         },
@@ -17404,7 +17543,7 @@
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-09-07T22:42:00+10:00",
-                "updated": "2020-09-07T22:44:00+10:00",
+                "updated": "2020-09-07T22:48:00+10:00",
                 "id": "ESTA:200950831",
                 "location": "Wendouree",
                 "title": "incident: tree down"
@@ -17422,21 +17561,43 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-09-07T21:57:00+10:00",
-                "updated": "2020-09-07T22:43:00+10:00",
-                "id": "ESTA:200950824",
-                "location": "Apollo Bay",
-                "title": "incident: tree down"
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-09-07T22:44:00+10:00",
+                "updated": "2020-09-07T22:47:00+10:00",
+                "id": "ESTA:200950832",
+                "location": "Harkness",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.61994973798298,
-                    -38.77879545627735
+                    144.5371502710655,
+                    -37.66522569704446
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-09-07T22:31:00+10:00",
+                "updated": "2020-09-07T22:39:00+10:00",
+                "id": "ESTA:200950829",
+                "location": "Doreen",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13306933363287,
+                    -37.6105778909435
                 ]
             }
         },
@@ -17535,28 +17696,6 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-09-07T21:38:00+10:00",
-                "updated": "2020-09-07T22:00:00+10:00",
-                "id": "ESTA:200950821",
-                "location": "Warburton",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.67587023099742,
-                    -37.746963626106
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
                 "created": "2020-09-07T21:36:00+10:00",
                 "updated": "2020-09-07T21:53:00+10:00",
                 "id": "ESTA:200950819",
@@ -17569,28 +17708,6 @@
                 "coordinates": [
                     145.39457031237524,
                     -37.54060381655295
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-07T20:55:00+10:00",
-                "updated": "2020-09-07T21:09:00+10:00",
-                "id": "ESTA:200950805",
-                "location": "Sunbury",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.70822941923427,
-                    -37.58864357126567
                 ]
             }
         },

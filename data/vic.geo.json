@@ -10015,22 +10015,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glen Iris",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "sourceTitle": "Belmore Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-09-04T14:22:44+10:00",
-                "updated": "2020-09-04T15:27:03+10:00",
-                "id": "ESTA:200950585",
-                "location": "Warrigal Rd, Glen Iris",
-                "title": "incident: tree down"
+                "created": "2020-09-07T09:59:09+10:00",
+                "updated": "2020-09-07T09:59:09+10:00",
+                "id": "ESTA:200907106",
+                "location": "Belmore Rd, Balwyn",
+                "size": "Small",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.09430050212612,
-                    -37.85668787588269
+                    145.07905796841857,
+                    -37.80314083767853
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Balwyn North",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-09-07T10:00:24+10:00",
+                "updated": "2020-09-07T10:00:37+10:00",
+                "id": "ESTA:200907109",
+                "location": "Balwyn North",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0799475920006,
+                    -37.803072340982226
                 ]
             }
         },
@@ -10040,9 +10063,9 @@
                 "sourceTitle": "Hellenic Ct",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-09-07T09:35:03+10:00",
-                "updated": "2020-09-07T09:35:03+10:00",
+                "status": "under control",
+                "created": "2020-09-07T10:01:11+10:00",
+                "updated": "2020-09-07T10:01:11+10:00",
                 "id": "ESTA:200907062",
                 "location": "Hellenic Ct, Carrum Downs",
                 "size": "Small",
@@ -10060,23 +10083,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sandy Creek Rd",
+                "sourceTitle": "Balwyn North",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-07T08:52:00+10:00",
-                "updated": "2020-09-07T09:35:00+10:00",
-                "id": "ESTA:200907018",
-                "location": "Sandy Creek Rd, Walwa",
-                "size": "Small",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-09-07T10:01:59+10:00",
+                "updated": "2020-09-07T10:02:22+10:00",
+                "id": "ESTA:200907113",
+                "location": "Belmore Rd, Balwyn North",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.80966321895522,
-                    -36.04857141299801
+                    145.07997541118294,
+                    -37.80291535079904
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-09-07T09:59:00+10:00",
+                "updated": "2020-09-07T10:06:00+10:00",
+                "id": "ESTA:200950690",
+                "location": "The Basin",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3215282635184,
+                    -37.86215885464868
                 ]
             }
         },
@@ -10088,9 +10132,9 @@
                 "category": "met",
                 "subcategory": "gale wind",
                 "status": "warning",
-                "created": "2020-09-07T05:00:00+10:00",
+                "created": "2020-09-07T10:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/efe6639c478339c231e5bba91d0e47e7",
+                "id": "IDV20600/6ade3346797b82dae123e14b4880d2ca",
                 "location": "Port Phillip",
                 "title": "incident: met"
             },
@@ -10427,9 +10471,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-09-07T05:00:00+10:00",
+                "created": "2020-09-07T10:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/16c457fa76c0a76b70a749876c2069d7",
+                "id": "IDV20600/a7303fb192c21402c5a06db4137c2b51",
                 "location": "Western Port, West Coast, Central Coast and East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -16983,37 +17027,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hunter Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-07T08:39:00+10:00",
-                "updated": "2020-09-07T08:52:00+10:00",
-                "id": "ESTA:200906991",
-                "location": "Hunter Rd, Mount Evelyn",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4120933365352,
-                    -37.80383510829615
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Sandy Creek Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-07T08:39:00+10:00",
-                "updated": "2020-09-07T08:47:00+10:00",
-                "id": "ESTA:200906993",
-                "location": "Sunbury",
+                "status": "under control",
+                "created": "2020-09-07T08:52:00+10:00",
+                "updated": "2020-09-07T09:35:00+10:00",
+                "id": "ESTA:200907018",
+                "location": "Sandy Creek Rd, Walwa",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -17021,8 +17042,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.71776450660474,
-                    -37.5801231230763
+                    147.80966321895522,
+                    -36.04857141299801
                 ]
             }
         },
@@ -17052,14 +17073,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Western Fwy",
+                "sourceTitle": "Burwood East",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-09-07T09:44:29+10:00",
-                "updated": "2020-09-07T09:44:29+10:00",
-                "id": "ESTA:200907064",
-                "location": "Western Fwy, Brookfield",
+                "created": "2020-09-07T09:59:14+10:00",
+                "updated": "2020-09-07T09:59:14+10:00",
+                "id": "ESTA:200907099",
+                "location": "Burwood East, Burwood East",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -17067,8 +17088,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.56206669726862,
-                    -37.68980090103732
+                    145.15958076823088,
+                    -37.84609259505925
                 ]
             }
         },
@@ -17078,9 +17099,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-09-07T08:40:00+10:00",
-                "updated": "2020-09-07T09:40:00+10:00",
+                "updated": "2020-09-07T09:56:00+10:00",
                 "id": "ESTA:200950686",
                 "location": "Mount Eliza",
                 "title": "incident: tree down"

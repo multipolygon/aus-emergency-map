@@ -10117,74 +10117,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Toorourrong Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-07T19:19:00+10:00",
-                "updated": "2020-09-07T19:21:00+10:00",
-                "id": "ESTA:200907546",
-                "location": "Toorourrong Rd, Upwey",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34091453674313,
-                    -37.8933633782612
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sackville St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-07T19:27:00+10:00",
-                "updated": "2020-09-07T19:30:00+10:00",
-                "id": "ESTA:200907548",
-                "location": "Sackville St, Mernda",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.07092663714675,
-                    -37.60376522641013
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-09-07T18:46:00+10:00",
-                "updated": "2020-09-07T19:32:00+10:00",
-                "id": "ESTA:200950786",
-                "location": "Kensington",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9304154157097,
-                    -37.798500453451474
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Prospect Av",
                 "category": "other",
                 "subcategory": "other",
@@ -10208,36 +10140,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-09-07T19:31:00+10:00",
-                "updated": "2020-09-07T19:34:00+10:00",
-                "id": "ESTA:200950790",
-                "location": "Warburton",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.70097258973118,
-                    -37.75824750149122
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hoffmans Rd",
+                "sourceTitle": "Caramut-Glenthompson Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-09-07T19:37:56+10:00",
-                "updated": "2020-09-07T19:37:56+10:00",
-                "id": "ESTA:200907550",
-                "location": "Hoffmans Rd, Niddrie",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-09-07T19:46:00+10:00",
+                "updated": "2020-09-07T19:46:00+10:00",
+                "id": "ESTA:200907558",
+                "location": "Caramut-Glenthompson Rd, Glenthompson",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10245,8 +10155,75 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.89200843006526,
-                    -37.73919086390921
+                    142.5505428012999,
+                    -37.69970743489723
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-09-07T19:49:00+10:00",
+                "updated": "2020-09-07T19:51:00+10:00",
+                "id": "ESTA:200950792",
+                "location": "Buninyong",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.88794149956672,
+                    -37.655406061855444
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-07T19:52:00+10:00",
+                "updated": "2020-09-07T19:55:00+10:00",
+                "id": "ESTA:200950793",
+                "location": "Boronia",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.30164255419248,
+                    -37.85887258801367
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Raydon Ct",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-09-07T19:55:24+10:00",
+                "updated": "2020-09-07T19:55:24+10:00",
+                "id": "ESTA:200907561",
+                "location": "Raydon Ct, Deer Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.75811695918875,
+                    -37.76298090605448
                 ]
             }
         },
@@ -10256,9 +10233,9 @@
                 "sourceTitle": "Kenilworth Av",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-09-07T19:38:00+10:00",
-                "updated": "2020-09-07T19:38:00+10:00",
+                "updated": "2020-09-07T19:50:00+10:00",
                 "id": "ESTA:200907555",
                 "location": "Kenilworth Av, Beaconsfield",
                 "size": "Small",
@@ -10276,14 +10253,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Buninyong-Mt Mercer Rd",
+                "sourceTitle": "Amelia Pl",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-07T18:35:00+10:00",
-                "updated": "2020-09-07T19:45:00+10:00",
-                "id": "ESTA:200907531",
-                "location": "Buninyong-Mt Mercer Rd, Grenville",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-09-07T19:59:47+10:00",
+                "updated": "2020-09-07T19:59:47+10:00",
+                "id": "ESTA:200907563",
+                "location": "Amelia Pl, Harkness",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10291,8 +10268,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.89035733118743,
-                    -37.73863042316643
+                    144.53574161303297,
+                    -37.66705804734759
                 ]
             }
         },
@@ -17287,6 +17264,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Buninyong-Mt Mercer Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-09-07T18:35:00+10:00",
+                "updated": "2020-09-07T19:45:00+10:00",
+                "id": "ESTA:200907531",
+                "location": "Buninyong-Mt Mercer Rd, Grenville",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.89035733118743,
+                    -37.73863042316643
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sackville St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-07T19:27:00+10:00",
+                "updated": "2020-09-07T19:30:00+10:00",
+                "id": "ESTA:200907548",
+                "location": "Sackville St, Mernda",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.07092663714675,
+                    -37.60376522641013
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Toorourrong Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-07T19:19:00+10:00",
+                "updated": "2020-09-07T19:21:00+10:00",
+                "id": "ESTA:200907546",
+                "location": "Toorourrong Rd, Upwey",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34091453674313,
+                    -37.8933633782612
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Toorourrong Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -17333,60 +17379,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Santa Rosa Bvd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-07T18:16:00+10:00",
-                "updated": "2020-09-07T19:00:00+10:00",
-                "id": "ESTA:200907518",
-                "location": "Santa Rosa Bvd, Doncaster East",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17987175528188,
-                    -37.765832770563556
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-07T18:27:00+10:00",
-                "updated": "2020-09-07T18:54:00+10:00",
-                "id": "ESTA:200907524",
-                "location": "Lauriston",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.35690723171572,
-                    -37.257817998840856
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Limestone Rd",
+                "sourceTitle": "Hoffmans Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-09-07T18:52:03+10:00",
-                "updated": "2020-09-07T18:52:03+10:00",
-                "id": "ESTA:200907349",
-                "location": "Limestone Rd, Main Ridge",
+                "created": "2020-09-07T19:37:56+10:00",
+                "updated": "2020-09-07T19:37:56+10:00",
+                "id": "ESTA:200907550",
+                "location": "Hoffmans Rd, Niddrie",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -17394,53 +17394,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9377562080769,
-                    -38.41368429683729
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Autumn St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-07T18:38:00+10:00",
-                "updated": "2020-09-07T18:48:00+10:00",
-                "id": "ESTA:200907533",
-                "location": "Autumn St, Geelong West",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.33749053829447,
-                    -38.1419543185739
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-07T19:18:00+10:00",
-                "updated": "2020-09-07T19:20:00+10:00",
-                "id": "ESTA:200950789",
-                "location": "Pheasant Creek",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.27881676822145,
-                    -37.481517690361265
+                    144.89200843006526,
+                    -37.73919086390921
                 ]
             }
         },
@@ -17507,6 +17462,50 @@
                 "coordinates": [
                     144.5535870918596,
                     -37.421204006315136
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-09-07T19:18:00+10:00",
+                "updated": "2020-09-07T20:03:00+10:00",
+                "id": "ESTA:200950789",
+                "location": "Pheasant Creek",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27881676822145,
+                    -37.481517690361265
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-09-07T19:48:00+10:00",
+                "updated": "2020-09-07T19:56:00+10:00",
+                "id": "ESTA:200950791",
+                "location": "Point Cook",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7304431965627,
+                    -37.8760178158637
                 ]
             }
         }

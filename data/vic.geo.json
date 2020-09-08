@@ -10006,14 +10006,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dumenils Way",
+                "sourceTitle": "Congram St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-08T21:41:02+10:00",
+                "updated": "2020-09-08T21:41:02+10:00",
+                "id": "ESTA:200908260",
+                "location": "Congram St, Broadmeadows",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93465612380788,
+                    -37.68906977082
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Frankston-Dandenong Rd",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-08T21:10:00+10:00",
-                "updated": "2020-09-08T21:12:00+10:00",
-                "id": "ESTA:200908258",
-                "location": "Dumenils Way, Delacombe",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2020-09-08T21:40:57+10:00",
+                "updated": "2020-09-08T21:40:57+10:00",
+                "id": "ESTA:200908259",
+                "location": "Frankston-Dandenong Rd, Carrum Downs",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10021,30 +10044,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8128351651073,
-                    -37.59383220328181
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tongio",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-08T18:19:09+10:00",
-                "updated": "2020-09-08T21:16:25+10:00",
-                "id": "ESTA:200908214",
-                "location": "Stockyard Trk, Tongio",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.6305752409623,
-                    -37.21523855176433
+                    145.17865068728324,
+                    -38.09275302903459
                 ]
             }
         },
@@ -10090,6 +10091,29 @@
                 "coordinates": [
                     145.2522170896469,
                     -37.98583992833194
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dumenils Way",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-08T21:10:00+10:00",
+                "updated": "2020-09-08T21:12:00+10:00",
+                "id": "ESTA:200908258",
+                "location": "Dumenils Way, Delacombe",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8128351651073,
+                    -37.59383220328181
                 ]
             }
         },

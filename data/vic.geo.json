@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.17941243463906,
+                            -38.09304009553073
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.17772800737757,
+                                    -38.09133446794134
+                                ],
+                                [
+                                    145.17691261583775,
+                                    -38.09273614156609
+                                ],
+                                [
+                                    145.18049604708784,
+                                    -38.09474572312013
+                                ],
+                                [
+                                    145.1819122534404,
+                                    -38.09285435377501
+                                ],
+                                [
+                                    145.17772800737757,
+                                    -38.09133446794134
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2020-09-08T22:07:08+10:00",
+                "updated": "2020-09-08T22:07:09+10:00",
+                "id": "14513",
+                "location": "Carrum Downs",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -65,80 +119,6 @@
                 "id": "14250",
                 "location": "Minimay",
                 "title": "warning: community update"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            143.90017817993183,
-                            -37.76758036986425
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    143.86447261352356,
-                                    -37.73854593219378
-                                ],
-                                [
-                                    143.9194042541489,
-                                    -37.7276849862035
-                                ],
-                                [
-                                    143.9358837463401,
-                                    -37.779802995683575
-                                ],
-                                [
-                                    143.93184970397374,
-                                    -37.79472586843958
-                                ],
-                                [
-                                    143.92601321716032,
-                                    -37.80245744438816
-                                ],
-                                [
-                                    143.9138252593955,
-                                    -37.80625511511886
-                                ],
-                                [
-                                    143.897689089957,
-                                    -37.80693325005658
-                                ],
-                                [
-                                    143.87065242309862,
-                                    -37.80747575352499
-                                ],
-                                [
-                                    143.87065242309862,
-                                    -37.77111921036652
-                                ],
-                                [
-                                    143.86447261352356,
-                                    -37.73854593219378
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Advice",
-                "category": "advice",
-                "subcategory": "fire",
-                "status": "minor",
-                "created": "2020-09-08T11:40:39+10:00",
-                "updated": "2020-09-08T11:40:39+10:00",
-                "id": "14512",
-                "location": "Grenville, Cargerie, Elaine, Enfield, Mount Mercer",
-                "title": "warning: advice"
             }
         },
         {
@@ -2280,6 +2260,80 @@
                         ]
                     }
                 ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            143.90017817993183,
+                            -37.76758036986425
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    143.86447261352356,
+                                    -37.73854593219378
+                                ],
+                                [
+                                    143.9194042541489,
+                                    -37.7276849862035
+                                ],
+                                [
+                                    143.9358837463401,
+                                    -37.779802995683575
+                                ],
+                                [
+                                    143.93184970397374,
+                                    -37.79472586843958
+                                ],
+                                [
+                                    143.92601321716032,
+                                    -37.80245744438816
+                                ],
+                                [
+                                    143.9138252593955,
+                                    -37.80625511511886
+                                ],
+                                [
+                                    143.897689089957,
+                                    -37.80693325005658
+                                ],
+                                [
+                                    143.87065242309862,
+                                    -37.80747575352499
+                                ],
+                                [
+                                    143.87065242309862,
+                                    -37.77111921036652
+                                ],
+                                [
+                                    143.86447261352356,
+                                    -37.73854593219378
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-09-08T11:40:39+10:00",
+                "updated": "2020-09-08T11:40:39+10:00",
+                "id": "14512",
+                "location": "Grenville, Cargerie, Elaine, Enfield, Mount Mercer",
+                "title": "warning: advice"
             }
         },
         {
@@ -10006,22 +10060,67 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glen Iris",
+                "sourceTitle": "Morwell",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-09-08T22:04:28+10:00",
+                "updated": "2020-09-08T22:17:44+10:00",
+                "id": "ESTA:200951268",
+                "location": "Savige St, Morwell",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.41960121962796,
+                    -38.225211319215134
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "responding",
-                "created": "2020-09-04T14:22:44+10:00",
-                "updated": "2020-09-04T15:27:03+10:00",
-                "id": "ESTA:200950585",
-                "location": "Warrigal Rd, Glen Iris",
+                "status": "complete",
+                "created": "2020-09-08T16:27:00+10:00",
+                "updated": "2020-09-08T22:30:00+10:00",
+                "id": "ESTA:200951239",
+                "location": "Warburton",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.09430050212612,
-                    -37.85668787588269
+                    145.7049046020999,
+                    -37.7417254370886
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Paloma Pl",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-09-08T22:24:35+10:00",
+                "updated": "2020-09-08T22:24:35+10:00",
+                "id": "ESTA:200908264",
+                "location": "Paloma Pl, Melton West",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.5685169698391,
+                    -37.67415485902786
                 ]
             }
         },
@@ -10044,6 +10143,29 @@
                 "coordinates": [
                     148.014463,
                     -35.7644099999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Madeline St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-09-08T22:00:00+10:00",
+                "updated": "2020-09-08T22:13:00+10:00",
+                "id": "ESTA:200908261",
+                "location": "Madeline St, Numurkah",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4430805301176,
+                    -36.097411896828824
                 ]
             }
         },
@@ -10073,104 +10195,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "James Cook Dr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-08T21:02:00+10:00",
-                "updated": "2020-09-08T21:18:00+10:00",
-                "id": "ESTA:200908257",
-                "location": "James Cook Dr, Endeavour Hills",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2522170896469,
-                    -37.98583992833194
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dumenils Way",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-08T21:10:00+10:00",
-                "updated": "2020-09-08T21:12:00+10:00",
-                "id": "ESTA:200908258",
-                "location": "Dumenils Way, Delacombe",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.8128351651073,
-                    -37.59383220328181
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Madeline St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-09-08T22:00:46+10:00",
-                "updated": "2020-09-08T22:00:46+10:00",
-                "id": "ESTA:200908261",
-                "location": "Madeline St, Numurkah",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.44308800669768,
-                    -36.09740819583718
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Congram St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-08T21:46:54+10:00",
-                "updated": "2020-09-08T21:46:54+10:00",
-                "id": "ESTA:200908260",
-                "location": "Congram St, Broadmeadows",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93465612380788,
-                    -37.68906977082
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-09-08T21:46:00+10:00",
-                "updated": "2020-09-08T21:49:00+10:00",
+                "updated": "2020-09-08T22:29:00+10:00",
                 "id": "ESTA:200951267",
                 "location": "Millgrove",
                 "title": "incident: tree down"
@@ -10203,28 +10233,6 @@
                 "coordinates": [
                     145.68460091402738,
                     -37.750035586714695
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-08T16:27:00+10:00",
-                "updated": "2020-09-08T16:31:00+10:00",
-                "id": "ESTA:200951239",
-                "location": "Warburton",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.7049046020999,
-                    -37.7417254370886
                 ]
             }
         }

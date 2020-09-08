@@ -3499,10 +3499,103 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.92410326000004,
-                    -33.568646634999936
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.92410326000004,
+                            -33.568646634999936
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.929225596,
+                                            -33.569402856
+                                        ],
+                                        [
+                                            150.927464794,
+                                            -33.5694980339999
+                                        ],
+                                        [
+                                            150.922753461,
+                                            -33.570307052
+                                        ],
+                                        [
+                                            150.921159223,
+                                            -33.569450446
+                                        ],
+                                        [
+                                            150.920730919,
+                                            -33.5685700449999
+                                        ],
+                                        [
+                                            150.920778509,
+                                            -33.5680703579999
+                                        ],
+                                        [
+                                            150.920611946,
+                                            -33.567427903
+                                        ],
+                                        [
+                                            150.920421589,
+                                            -33.5671185739999
+                                        ],
+                                        [
+                                            150.920350206,
+                                            -33.5668806269999
+                                        ],
+                                        [
+                                            150.921468553,
+                                            -33.565714692
+                                        ],
+                                        [
+                                            150.922325159,
+                                            -33.565857459
+                                        ],
+                                        [
+                                            150.923562478,
+                                            -33.566642681
+                                        ],
+                                        [
+                                            150.924657031,
+                                            -33.566999601
+                                        ],
+                                        [
+                                            150.925703993,
+                                            -33.567642055
+                                        ],
+                                        [
+                                            150.926822339,
+                                            -33.5675468759999
+                                        ],
+                                        [
+                                            150.9283214,
+                                            -33.567475493
+                                        ],
+                                        [
+                                            150.929582514,
+                                            -33.567308931
+                                        ],
+                                        [
+                                            150.929653898,
+                                            -33.567308931
+                                        ],
+                                        [
+                                            150.929225596,
+                                            -33.569402856
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3541,30 +3634,6 @@
                 "location": "Wilcannia Golf Club",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Wilcannia Golf Club <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2020 08:21",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.52646900000002,
-                    -30.75277099999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thunderbolts Way, Salisbury Plains",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391583",
-                "created": "2020-09-08T00:17:00+10:00",
-                "updated": "2020-09-08T10:17:00+10:00",
-                "location": "3019 Thunderbolts Way, Salisbury Plains, NSW 2358",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 3019 Thunderbolts Way, Salisbury Plains, NSW 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2020 10:17",
                 "title": "incident: fire"
             }
         },
@@ -3621,30 +3690,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.49718500000006,
-                    -36.61861799999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Buckleys Rd, Bemboka",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391438",
-                "created": "2020-09-06T05:25:00+10:00",
-                "updated": "2020-09-06T15:25:00+10:00",
-                "location": "103 Buckleys Rd, Bemboka, NSW 2550",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 103 Buckleys Rd, Bemboka, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Sep 2020 15:25",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.9026550000001,
                     -30.36450599999995
                 ]
@@ -3662,30 +3707,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cypress Way, Pilliga, NSW 2388 <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2020 10:28",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.1603030000001,
-                    -35.74612999999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Deep Creek Dam Rd, Mogo",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391308",
-                "created": "2020-09-06T02:04:00+10:00",
-                "updated": "2020-09-06T12:04:00+10:00",
-                "location": "Deep Creek Dam Rd, Mogo, NSW 2536",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Deep Creek Dam Rd, Mogo, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Sep 2020 12:04",
-                "title": "incident: fire"
             }
         },
         {
@@ -3854,6 +3875,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 771 Old Winton Rd, Winton, NSW 2344 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2020 10:48",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.3244790000001,
+                    -34.318082999999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Telegraph Rd, Young",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391597",
+                "created": "2020-09-08T02:10:00+10:00",
+                "updated": "2020-09-08T12:10:00+10:00",
+                "location": "90 Telegraph Rd, Young,  2594",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 90 Telegraph Rd, Young,  2594 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2020 12:10",
+                "title": "incident: other"
             }
         }
     ]

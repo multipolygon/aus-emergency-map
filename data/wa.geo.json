@@ -116,10 +116,10 @@
                 "sourceTitle": "BENTLEY",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2073343-494122",
                 "created": "2020-09-10T00:13:54+08:00",
-                "updated": "2020-09-10T00:14:15+08:00",
+                "updated": "2020-09-10T00:24:46+08:00",
                 "location": "BENTLEY",
                 "size": "",
                 "description": "Active Alarm",
@@ -307,6 +307,31 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    115.99711,
+                    -32.00816
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WATTLE GROVE",
+                "category": "road crash",
+                "subcategory": "road crash",
+                "status": "responding",
+                "id": "2073345-494124",
+                "created": "2020-09-10T00:28:31+08:00",
+                "updated": "2020-09-10T00:28:53+08:00",
+                "location": "WATTLE GROVE",
+                "size": "",
+                "description": "Road Crash",
+                "title": "incident: road crash"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     119.1488,
                     -22.79754
                 ]
@@ -457,31 +482,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.81124,
-                    -32.24848
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "CALISTA",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "on scene",
-                "id": "2073342-494121",
-                "created": "2020-09-10T00:02:11+08:00",
-                "updated": "2020-09-10T00:13:27+08:00",
-                "location": "CALISTA",
-                "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     115.712296,
                     -33.291386
                 ]
@@ -582,31 +582,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.895935,
-                    -31.864403
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "MALAGA",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "on scene",
-                "id": "2073341-494120",
-                "created": "2020-09-09T23:38:23+08:00",
-                "updated": "2020-09-09T23:43:26+08:00",
-                "location": "MALAGA",
-                "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     116.30359,
                     -31.7046
                 ]
@@ -649,6 +624,31 @@
                 "size": "",
                 "description": "Structure Fire",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.72681,
+                    -32.52011
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MANDURAH",
+                "category": "incident",
+                "subcategory": "incident",
+                "status": "responding",
+                "id": "2073344-494123",
+                "created": "2020-09-10T00:27:06+08:00",
+                "updated": "2020-09-10T00:27:28+08:00",
+                "location": "MANDURAH",
+                "size": "",
+                "description": "Incident",
+                "title": "incident: incident"
             }
         }
     ]

@@ -10028,14 +10028,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Central Av",
+                "sourceTitle": "Discovery Dr",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-09-10T06:26:34+10:00",
-                "updated": "2020-09-10T06:26:34+10:00",
-                "id": "ESTA:200909249",
-                "location": "Central Av, Black Rock",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-09-10T06:37:34+10:00",
+                "updated": "2020-09-10T06:37:34+10:00",
+                "id": "ESTA:200909258",
+                "location": "Discovery Dr, Diamond Creek",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10043,31 +10043,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02114788598524,
-                    -37.978539654987785
+                    145.17077533164266,
+                    -37.661519722907535
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Broadmeadows",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-09-10T06:16:36+10:00",
-                "updated": "2020-09-10T06:16:36+10:00",
-                "id": "ESTA:200909248",
-                "location": "Broadmeadows, Broadmeadows",
+                "sourceTitle": "Rome Beauty Av",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "safe",
+                "created": "2020-09-10T06:37:00+10:00",
+                "updated": "2020-09-10T06:39:00+10:00",
+                "id": "ESTA:200909259",
+                "location": "Rome Beauty Av, The Basin",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.92795243663298,
-                    -37.691823136534296
+                    145.30428717445758,
+                    -37.853584540456154
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Station St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-10T06:42:52+10:00",
+                "updated": "2020-09-10T06:42:52+10:00",
+                "id": "ESTA:200909260",
+                "location": "Station St, Nunawading",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1783584715331,
+                    -37.820405726135526
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Derrimut",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-10T06:43:04+10:00",
+                "updated": "2020-09-10T06:43:04+10:00",
+                "id": "ESTA:200909263",
+                "location": "Derrimut, Derrimut",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.79037449025438,
+                    -37.799136443832424
                 ]
             }
         },
@@ -10097,23 +10143,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Calotis St",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Central Av",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2020-09-10T05:10:00+10:00",
-                "updated": "2020-09-10T05:31:00+10:00",
-                "id": "ESTA:200909239",
-                "location": "Calotis St, Red Cliffs",
+                "created": "2020-09-10T06:26:34+10:00",
+                "updated": "2020-09-10T06:26:34+10:00",
+                "id": "ESTA:200909249",
+                "location": "Central Av, Black Rock",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.18763520520721,
-                    -34.31493738129059
+                    145.02114788598524,
+                    -37.978539654987785
                 ]
             }
         },
@@ -10160,6 +10206,29 @@
                 "coordinates": [
                     144.9754784116103,
                     -37.71287267328957
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Broadmeadows",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-09-10T06:29:55+10:00",
+                "updated": "2020-09-10T06:29:55+10:00",
+                "id": "ESTA:200909248",
+                "location": "Broadmeadows, Broadmeadows",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.92795243663298,
+                    -37.691823136534296
                 ]
             }
         }

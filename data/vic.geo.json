@@ -10029,75 +10029,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Western Fwy",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-10T14:15:00+10:00",
-                "updated": "2020-09-10T14:54:00+10:00",
-                "id": "ESTA:200910317",
-                "location": "Western Fwy, Ballan",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.24294912938572,
-                    -37.591040547068076
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eltham",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-09-10T15:02:35+10:00",
-                "updated": "2020-09-10T15:02:35+10:00",
-                "id": "ESTA:200910380",
-                "location": "Eltham, Eltham",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1532465343172,
-                    -37.73141969064672
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-10T14:06:00+10:00",
-                "updated": "2020-09-10T14:27:00+10:00",
-                "id": "ESTA:200910296",
-                "location": "Blampied",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.03826404387868,
-                    -37.36921206811966
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -10121,22 +10052,183 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2020-09-10T14:55:00+10:00",
-                "updated": "2020-09-10T14:59:00+10:00",
-                "id": "ESTA:200951360",
-                "location": "Mount Dandenong",
-                "title": "incident: building damage"
+                "sourceTitle": "Western Fwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-10T14:15:00+10:00",
+                "updated": "2020-09-10T14:54:00+10:00",
+                "id": "ESTA:200910317",
+                "location": "Western Fwy, Ballan",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.36094536734592,
-                    -37.82337595417988
+                    144.24294912938572,
+                    -37.591040547068076
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mt Cottrell Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-10T15:12:36+10:00",
+                "updated": "2020-09-10T15:12:36+10:00",
+                "id": "ESTA:200910403",
+                "location": "Mt Cottrell Rd, Mount Cottrell",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.60834865810597,
+                    -37.77574931051794
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mount Cottrell",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-10T15:16:44+10:00",
+                "updated": "2020-09-10T15:16:44+10:00",
+                "id": "ESTA:200910406",
+                "location": "Mount Cottrell, Mount Cottrell",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.61225222209123,
+                    -37.751686462669326
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-09-10T14:13:00+10:00",
+                "updated": "2020-09-10T15:15:00+10:00",
+                "id": "ESTA:200951359",
+                "location": "Eltham",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.162009825899,
+                    -37.72381131665943
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Trounces Lane",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-09-10T15:19:00+10:00",
+                "updated": "2020-09-10T15:19:00+10:00",
+                "id": "ESTA:200910414",
+                "location": "Trounces Lane, Mount Egerton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.09670271517405,
+                    -37.62949309461689
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-10T14:52:00+10:00",
+                "updated": "2020-09-10T15:14:00+10:00",
+                "id": "ESTA:200910380",
+                "location": "Eltham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.15324317321705,
+                    -37.73142470054055
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Townsend Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-09-10T15:07:00+10:00",
+                "updated": "2020-09-10T15:07:00+10:00",
+                "id": "ESTA:200910398",
+                "location": "Townsend Rd, St Albans Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.38314961867454,
+                    -38.18055450768157
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kilburn Gr",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-10T15:05:00+10:00",
+                "updated": "2020-09-10T15:05:00+10:00",
+                "id": "ESTA:200910397",
+                "location": "Kilburn Gr, Mount Martha",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01086159146,
+                    -38.27461376862195
                 ]
             }
         },
@@ -10160,6 +10252,29 @@
                 "coordinates": [
                     143.57955555445196,
                     -37.61164558353351
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-09-10T14:06:00+10:00",
+                "updated": "2020-09-10T14:27:00+10:00",
+                "id": "ESTA:200910296",
+                "location": "Blampied",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.03826404387868,
+                    -37.36921206811966
                 ]
             }
         },
@@ -10212,14 +10327,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Keilor East",
+                "sourceTitle": "Ringwood",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-10T14:56:16+10:00",
-                "updated": "2020-09-10T14:56:16+10:00",
-                "id": "ESTA:200910381",
-                "location": "Keilor East, Keilor East",
+                "status": "under control",
+                "created": "2020-09-10T15:10:05+10:00",
+                "updated": "2020-09-10T15:10:05+10:00",
+                "id": "ESTA:200910396",
+                "location": "Ringwood, Ringwood",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -10227,30 +10342,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8510958001137,
-                    -37.738579375889124
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-10T14:13:00+10:00",
-                "updated": "2020-09-10T14:46:00+10:00",
-                "id": "ESTA:200951359",
-                "location": "Eltham",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.162009825899,
-                    -37.72381131665943
+                    145.23050051507983,
+                    -37.80801816211765
                 ]
             }
         },

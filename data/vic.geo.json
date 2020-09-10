@@ -10058,52 +10058,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Quarry Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-10T18:11:00+10:00",
-                "updated": "2020-09-10T18:13:00+10:00",
-                "id": "ESTA:200910612",
-                "location": "Quarry Rd, Lilydale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.36263162713317,
-                    -37.73927851961692
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hill St",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-09-10T18:17:05+10:00",
-                "updated": "2020-09-10T18:17:05+10:00",
-                "id": "ESTA:200910616",
-                "location": "Hill St, Hawthorn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0196037726947,
-                    -37.81832019572491
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Two Bays Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -10121,29 +10075,6 @@
                 "coordinates": [
                     145.11096951090929,
                     -38.206532279616724
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elmore St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-09-10T18:10:00+10:00",
-                "updated": "2020-09-10T18:10:00+10:00",
-                "id": "ESTA:200910610",
-                "location": "Elmore St, Hamilton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.02082243629172,
-                    -37.72941367857931
                 ]
             }
         },
@@ -10173,23 +10104,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lynch St",
+                "sourceTitle": "Hawthorn",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-09-10T18:22:12+10:00",
-                "updated": "2020-09-10T18:22:12+10:00",
+                "status": "safe",
+                "created": "2020-09-10T18:08:19+10:00",
+                "updated": "2020-09-10T18:22:53+10:00",
                 "id": "ESTA:200910607",
                 "location": "Lynch St, Hawthorn",
-                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02913422241883,
-                    -37.8213095876571
+                    145.02913442990217,
+                    -37.82130857168025
                 ]
             }
         },
@@ -10219,22 +10149,90 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Timboon",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "responding",
-                "created": "2020-09-10T18:20:47+10:00",
-                "updated": "2020-09-10T18:22:59+10:00",
-                "id": "ESTA:200951368",
-                "location": "Timboon-Nullawarre Rd, Timboon",
+                "status": "request for assistance",
+                "created": "2020-09-10T18:24:00+10:00",
+                "updated": "2020-09-10T18:26:00+10:00",
+                "id": "ESTA:200951369",
+                "location": "Belgrave",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.95361005643898,
-                    -38.47792650197541
+                    145.34577634916744,
+                    -37.91646678807696
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elmore St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-09-10T18:10:00+10:00",
+                "updated": "2020-09-10T18:26:00+10:00",
+                "id": "ESTA:200910610",
+                "location": "Elmore St, Hamilton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.02082243629172,
+                    -37.72941367857931
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-09-10T18:23:00+10:00",
+                "updated": "2020-09-10T18:29:00+10:00",
+                "id": "ESTA:200951368",
+                "location": "Timboon",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.95359732947458,
+                    -38.47794304438776
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Quarry Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-10T18:11:00+10:00",
+                "updated": "2020-09-10T18:13:00+10:00",
+                "id": "ESTA:200910612",
+                "location": "Quarry Rd, Lilydale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.36263162713317,
+                    -37.73927851961692
                 ]
             }
         },
@@ -10379,52 +10377,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-10T16:15:00+10:00",
-                "updated": "2020-09-10T17:26:00+10:00",
-                "id": "ESTA:200910487",
-                "location": "Princes Hwy, Nowa Nowa",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.08191116927267,
-                    -37.73588985311801
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rachelle Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-10T18:14:59+10:00",
-                "updated": "2020-09-10T18:14:59+10:00",
-                "id": "ESTA:200910604",
-                "location": "Rachelle Rd, Keilor East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.87092890589147,
-                    -37.75164929108647
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Emily St",
                 "category": "other",
                 "subcategory": "other",
@@ -10465,6 +10417,29 @@
                 "coordinates": [
                     145.0339375252272,
                     -37.6667907330516
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rachelle Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-10T18:14:59+10:00",
+                "updated": "2020-09-10T18:14:59+10:00",
+                "id": "ESTA:200910604",
+                "location": "Rachelle Rd, Keilor East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.87092890589147,
+                    -37.75164929108647
                 ]
             }
         },

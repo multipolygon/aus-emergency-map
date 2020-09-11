@@ -9,6 +9,94 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            149.28328871700012,
+                            -35.29530241699996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.274421812,
+                                            -35.335072269
+                                        ],
+                                        [
+                                            149.274389771,
+                                            -35.335076385
+                                        ],
+                                        [
+                                            149.274365463,
+                                            -35.3350504919999
+                                        ],
+                                        [
+                                            149.27440812,
+                                            -35.335042662
+                                        ],
+                                        [
+                                            149.274421812,
+                                            -35.335072269
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.28373071,
+                                            -35.295127121
+                                        ],
+                                        [
+                                            149.283439687,
+                                            -35.295230031
+                                        ],
+                                        [
+                                            149.283361949,
+                                            -35.295134086
+                                        ],
+                                        [
+                                            149.28365951,
+                                            -35.295041307
+                                        ],
+                                        [
+                                            149.28373071,
+                                            -35.295127121
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "AFB001 - Kowen Forest",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391746",
+                "created": "2020-09-10T23:30:00+10:00",
+                "updated": "2020-09-11T09:30:00+10:00",
+                "location": "Seven Mile Road, Kowen Forest",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Seven Mile Road, Kowen Forest <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: ACT Parks And Conservation Service <br />UPDATED: 11 Sep 2020 09:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             151.0813236240001,
                             -33.59803292999993
                         ]
@@ -563,30 +651,6 @@
                 "location": "540 Pialligo Ave Majura",
                 "size": 20,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 540 Pialligo Ave Majura <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: ACT Parks And Conservation Service <br />UPDATED: 11 Sep 2020 09:30",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.98539161700012,
-                    -30.534227731999977
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "FCNSW HRB Newry SF Windrows",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/391488",
-                "created": "2020-09-10T03:25:00+10:00",
-                "updated": "2020-09-10T13:25:00+10:00",
-                "location": "Ainsworths Rd, 5km SSW of Urunga",
-                "size": 176,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Ainsworths Rd, 5km SSW of Urunga <br />COUNCIL AREA: Bellingen <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 176 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 10 Sep 2020 13:25",
                 "title": "incident: fire"
             }
         },

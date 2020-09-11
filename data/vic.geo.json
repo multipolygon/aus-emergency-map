@@ -10083,35 +10083,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Arnups Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-11T13:35:00+10:00",
-                "updated": "2020-09-11T13:54:00+10:00",
-                "id": "ESTA:200911357",
-                "location": "Arnups Rd, Foster North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.12948686184785,
-                    -38.65651280964302
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-09-11T13:47:00+10:00",
-                "updated": "2020-09-11T13:59:00+10:00",
+                "updated": "2020-09-11T14:14:00+10:00",
                 "id": "ESTA:200911382",
                 "location": "Willow Grove",
                 "size": "Small",
@@ -10129,22 +10106,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wood Wood",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Arnups Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-09-11T12:09:46+10:00",
-                "updated": "2020-09-11T14:00:23+10:00",
-                "id": "ESTA:200911245",
-                "location": "Wood Wood",
-                "title": "incident: rescue"
+                "created": "2020-09-11T13:35:00+10:00",
+                "updated": "2020-09-11T13:54:00+10:00",
+                "id": "ESTA:200911357",
+                "location": "Arnups Rd, Foster North",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.33370291678816,
-                    -35.09523175626413
+                    146.12948686184785,
+                    -38.65651280964302
                 ]
             }
         },
@@ -10879,7 +10857,7 @@
                 "sourceTitle": "Gheringhap St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-09-11T13:55:00+10:00",
                 "updated": "2020-09-11T13:55:00+10:00",
                 "id": "ESTA:200911396",
@@ -10922,46 +10900,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Romney Cr",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-09-11T13:55:58+10:00",
-                "updated": "2020-09-11T13:55:58+10:00",
-                "id": "ESTA:200911361",
-                "location": "Romney Cr, Shepparton",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-09-11T13:45:00+10:00",
+                "updated": "2020-09-11T14:04:00+10:00",
+                "id": "ESTA:200951385",
+                "location": "Geelong West",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.41483437608275,
-                    -36.353424891654264
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Manningham Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-11T12:51:40+10:00",
-                "updated": "2020-09-11T12:51:40+10:00",
-                "id": "ESTA:200911243",
-                "location": "Manningham Rd, Templestowe Lower",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.11305763475292,
-                    -37.77337112745082
+                    144.33743583161225,
+                    -38.13843903883406
                 ]
             }
         },
@@ -10984,50 +10938,6 @@
                 "coordinates": [
                     145.30138009215636,
                     -37.46698243488464
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-09-11T13:45:00+10:00",
-                "updated": "2020-09-11T13:46:00+10:00",
-                "id": "ESTA:200951385",
-                "location": "Geelong West",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.33743583161225,
-                    -38.13843903883406
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "on scene",
-                "created": "2020-09-11T12:30:00+10:00",
-                "updated": "2020-09-11T12:50:00+10:00",
-                "id": "ESTA:200911277",
-                "location": "Frankston South",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12807717035972,
-                    -38.16360290849469
                 ]
             }
         }

@@ -10014,35 +10014,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Crofton St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-12T17:24:00+10:00",
-                "updated": "2020-09-12T17:38:00+10:00",
-                "id": "ESTA:200912995",
-                "location": "Crofton St, Echuca",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7434905167387,
-                    -36.11240700288507
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Kallay St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-09-12T17:57:34+10:00",
-                "updated": "2020-09-12T17:57:34+10:00",
+                "status": "under control",
+                "created": "2020-09-12T18:07:38+10:00",
+                "updated": "2020-09-12T18:07:38+10:00",
                 "id": "ESTA:200913028",
                 "location": "Kallay St, Clayton South",
                 "size": "Small",
@@ -10060,37 +10037,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Coach Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-12T17:56:43+10:00",
-                "updated": "2020-09-12T17:56:43+10:00",
-                "id": "ESTA:200912998",
-                "location": "Coach Rd, Kialla East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4983793316112,
-                    -36.4381628934154
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Canterbury Av",
+                "sourceTitle": "Fitzgerald Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-09-12T17:57:10+10:00",
-                "updated": "2020-09-12T17:57:10+10:00",
-                "id": "ESTA:200913027",
-                "location": "Canterbury Av, Sunbury",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-09-12T18:14:51+10:00",
+                "updated": "2020-09-12T18:14:51+10:00",
+                "id": "ESTA:200913033",
+                "location": "Fitzgerald Rd, Essendon",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10098,8 +10052,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7143720893824,
-                    -37.55063014440553
+                    144.92675491152752,
+                    -37.757544052897
                 ]
             }
         },
@@ -10109,9 +10063,9 @@
                 "sourceTitle": "Mcnaughtons Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-09-12T17:26:00+10:00",
-                "updated": "2020-09-12T17:57:00+10:00",
+                "updated": "2020-09-12T18:18:00+10:00",
                 "id": "ESTA:200912997",
                 "location": "Mcnaughtons Rd, Arawata",
                 "size": "Small",
@@ -10123,6 +10077,74 @@
                 "coordinates": [
                     145.91346379793384,
                     -38.39755610202817
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lyndhurst",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-12T18:20:44+10:00",
+                "updated": "2020-09-12T18:20:44+10:00",
+                "id": "ESTA:200913036",
+                "location": "Lyndhurst, Lyndhurst",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2489855189803,
+                    -38.05851112341495
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-09-12T18:20:00+10:00",
+                "updated": "2020-09-12T18:20:00+10:00",
+                "id": "ESTA:200913045",
+                "location": "Nathalia",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20362231815957,
+                    -36.048636597603796
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Possum Point Rd, Tooma",
+                "category": "fire",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-09-12T17:47:00+10:00",
+                "updated": "2020-09-12T17:47:00+10:00",
+                "id": "2020-09-12T17:47:00.0000000:391883",
+                "location": "19 Possum Point Rd, Tooma, Nsw 2642",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.058253,
+                    -35.9678089989999
                 ]
             }
         },
@@ -10152,89 +10174,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fitzgerald Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-09-12T18:01:35+10:00",
-                "updated": "2020-09-12T18:01:35+10:00",
-                "id": "ESTA:200913033",
-                "location": "Fitzgerald Rd, Essendon",
+                "sourceTitle": "Coach Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-12T17:56:43+10:00",
+                "updated": "2020-09-12T17:56:43+10:00",
+                "id": "ESTA:200912998",
+                "location": "Coach Rd, Kialla East",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.92675491152752,
-                    -37.757544052897
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-09-12T18:02:00+10:00",
-                "updated": "2020-09-12T18:02:00+10:00",
-                "id": "ESTA:200951466",
-                "location": "Winter Valley",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.80584515354053,
-                    -37.58591607711631
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Swan Bay",
-                "category": "landslide",
-                "subcategory": "landslide",
-                "status": "responding",
-                "created": "2020-09-12T18:02:43+10:00",
-                "updated": "2020-09-12T18:03:02+10:00",
-                "id": "ESTA:200951467",
-                "location": "Swan Bay",
-                "title": "incident: landslide"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.6380890762364,
-                    -38.21067309989756
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Possum Point Rd, Tooma",
-                "category": "fire",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-09-12T17:47:00+10:00",
-                "updated": "2020-09-12T17:47:00+10:00",
-                "id": "2020-09-12T17:47:00.0000000:391883",
-                "location": "19 Possum Point Rd, Tooma, Nsw 2642",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.058253,
-                    -35.9678089989999
+                    145.4983793316112,
+                    -36.4381628934154
                 ]
             }
         },
@@ -10264,37 +10220,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pine Lodge South Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-09-12T17:30:00+10:00",
-                "updated": "2020-09-12T17:30:00+10:00",
-                "id": "ESTA:200913001",
-                "location": "Pine Lodge South Rd, Shepparton East",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.52818014231622,
-                    -36.4140907163081
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pine Lodge South Rd",
+                "sourceTitle": "Crofton St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-09-12T17:29:00+10:00",
-                "updated": "2020-09-12T17:29:00+10:00",
-                "id": "ESTA:200913000",
-                "location": "Pine Lodge South Rd, Shepparton East",
+                "status": "safe",
+                "created": "2020-09-12T17:24:00+10:00",
+                "updated": "2020-09-12T17:38:00+10:00",
+                "id": "ESTA:200912995",
+                "location": "Crofton St, Echuca",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10302,54 +10235,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.52818014231622,
-                    -36.4140907163081
+                    144.7434905167387,
+                    -36.11240700288507
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bald Hills Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-12T16:46:00+10:00",
-                "updated": "2020-09-12T17:18:00+10:00",
-                "id": "ESTA:200912945",
-                "location": "Bald Hills Rd, Creswick",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-09-12T18:02:00+10:00",
+                "updated": "2020-09-12T18:04:00+10:00",
+                "id": "ESTA:200951466",
+                "location": "Winter Valley",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.88285610020304,
-                    -37.425263570810046
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elizabeth St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-12T17:23:15+10:00",
-                "updated": "2020-09-12T17:23:15+10:00",
-                "id": "ESTA:200912983",
-                "location": "Elizabeth St, Coburg North",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9828343549495,
-                    -37.73521066168517
+                    143.80584515354053,
+                    -37.58591607711631
                 ]
             }
         },

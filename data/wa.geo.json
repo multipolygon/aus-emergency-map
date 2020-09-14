@@ -241,10 +241,10 @@
                 "sourceTitle": "SINCLAIR",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "responding",
+                "status": "monitoring",
                 "id": "2074501-494657",
                 "created": "2020-09-14T18:28:08+08:00",
-                "updated": "2020-09-14T18:28:40+08:00",
+                "updated": "2020-09-14T18:44:19+08:00",
                 "location": "SINCLAIR",
                 "size": "",
                 "description": "Active Alarm",
@@ -332,6 +332,56 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    117.95938,
+                    -34.70697
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PORONGURUP",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "active",
+                "id": "2074504-494659",
+                "created": "2020-09-14T18:46:04+08:00",
+                "updated": "2020-09-14T18:47:48+08:00",
+                "location": "PORONGURUP",
+                "size": "",
+                "description": "Burn Off",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    121.337494,
+                    -28.894344
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "LEONORA",
+                "category": "active alarm",
+                "subcategory": "active alarm",
+                "status": "responding",
+                "id": "2074505-494660",
+                "created": "2020-09-14T18:49:55+08:00",
+                "updated": "2020-09-14T18:50:15+08:00",
+                "location": "LEONORA",
+                "size": "",
+                "description": "Active Alarm",
+                "title": "incident: active alarm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     122.91358,
                     -16.5426
                 ]
@@ -407,22 +457,22 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.71703,
-                    -31.62412
+                    115.71688,
+                    -31.62417
                 ]
             },
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "CARABOODA",
                 "category": "fire",
-                "subcategory": "fire",
+                "subcategory": "bushfire",
                 "status": "on scene",
                 "id": "2074499-494655",
                 "created": "2020-09-14T18:15:42+08:00",
-                "updated": "2020-09-14T18:39:55+08:00",
+                "updated": "2020-09-14T18:56:55+08:00",
                 "location": "CARABOODA",
                 "size": "",
-                "description": "Fire",
+                "description": "Bushfire",
                 "title": "incident: fire"
             }
         },
@@ -874,56 +924,6 @@
                 "size": "",
                 "description": "Incident",
                 "title": "incident: incident"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    122.21396,
-                    -17.95911
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "CABLE BEACH",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "id": "2074502-494658",
-                "created": "2020-09-14T18:30:20+08:00",
-                "updated": "2020-09-14T18:32:07+08:00",
-                "location": "CABLE BEACH",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.82395,
-                    -31.95242
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "SUBIACO",
-                "category": "road crash",
-                "subcategory": "road crash",
-                "status": "on scene",
-                "id": "2074498-494654",
-                "created": "2020-09-14T18:21:21+08:00",
-                "updated": "2020-09-14T18:26:54+08:00",
-                "location": "SUBIACO",
-                "size": "",
-                "description": "Road Crash",
-                "title": "incident: road crash"
             }
         },
         {

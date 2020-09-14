@@ -9980,10 +9980,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Gordons Rd",
                 "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-09-14T16:24:18+10:00",
-                "updated": "2020-09-14T16:24:18+10:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-09-14T16:29:43+10:00",
+                "updated": "2020-09-14T16:29:43+10:00",
                 "id": "ESTA:200914706",
                 "location": "Gordons Rd, South Morang",
                 "size": "Small",
@@ -9993,8 +9993,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.09055514420726,
-                    -37.63702625652392
+                    145.09095141619636,
+                    -37.63677365733825
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-09-14T16:31:00+10:00",
+                "updated": "2020-09-14T16:31:26+10:00",
+                "id": "ESTA:200951611",
+                "location": "Plenty",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12531262184373,
+                    -37.67716325856718
                 ]
             }
         },
@@ -11074,12 +11096,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Diamond Creek Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-14T16:31:00+10:00",
+                "updated": "2020-09-14T16:31:00+10:00",
+                "id": "ESTA:200914720",
+                "location": "Diamond Creek Rd, Plenty",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12531262184373,
+                    -37.67716325856718
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Roslyn Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-14T16:24:24+10:00",
-                "updated": "2020-09-14T16:24:24+10:00",
+                "status": "safe",
+                "created": "2020-09-14T16:30:22+10:00",
+                "updated": "2020-09-14T16:30:22+10:00",
                 "id": "ESTA:200914702",
                 "location": "Roslyn Rd, Belmont",
                 "size": "Small",
@@ -11114,29 +11159,6 @@
                 "coordinates": [
                     149.10499243566784,
                     -37.14629698470062
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Buckland Way",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-14T15:16:00+10:00",
-                "updated": "2020-09-14T15:29:00+10:00",
-                "id": "ESTA:200914659",
-                "location": "Buckland Way, Sunbury",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.72385170988701,
-                    -37.60629350834137
                 ]
             }
         },

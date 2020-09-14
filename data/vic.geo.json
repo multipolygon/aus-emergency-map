@@ -9932,14 +9932,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hume Hwy",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-09-14T22:53:00+10:00",
+                "updated": "2020-09-15T01:09:00+10:00",
+                "id": "ESTA:200951618",
+                "location": "The Basin",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.32084755605823,
+                    -37.86510513041445
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tobin Cr",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-09-15T00:51:09+10:00",
-                "updated": "2020-09-15T00:51:09+10:00",
-                "id": "ESTA:200914873",
-                "location": "Hume Hwy, Craigieburn",
+                "created": "2020-09-15T01:07:00+10:00",
+                "updated": "2020-09-15T01:09:00+10:00",
+                "id": "ESTA:200914875",
+                "location": "Tobin Cr, Epsom",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9947,8 +9969,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.943138967885,
-                    -37.59638156307384
+                    144.31953110997114,
+                    -36.70208095973621
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Preston",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-15T01:13:35+10:00",
+                "updated": "2020-09-15T01:13:35+10:00",
+                "id": "ESTA:200914876",
+                "location": "Preston, Preston",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01694129033112,
+                    -37.74660873707954
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Badger Creek Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-15T01:21:00+10:00",
+                "updated": "2020-09-15T01:21:00+10:00",
+                "id": "ESTA:200914878",
+                "location": "Badger Creek Rd, Healesville",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.52291690108896,
+                    -37.65375800664905
                 ]
             }
         },
@@ -10272,14 +10340,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gum Rd",
+                "sourceTitle": "Hume Hwy",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-09-14T18:09:55+10:00",
-                "updated": "2020-09-14T18:09:55+10:00",
-                "id": "ESTA:200914771",
-                "location": "Gum Rd, Kings Park",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-09-15T00:51:09+10:00",
+                "updated": "2020-09-15T00:51:09+10:00",
+                "id": "ESTA:200914873",
+                "location": "Hume Hwy, Craigieburn",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10287,8 +10355,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.77650508795926,
-                    -37.73553515405454
+                    144.943138967885,
+                    -37.59638156307384
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brick Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-15T00:22:00+10:00",
+                "updated": "2020-09-15T00:24:00+10:00",
+                "id": "ESTA:200914872",
+                "location": "Brick Ct, Pearcedale",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.23964961657182,
+                    -38.1981671376014
                 ]
             }
         },
@@ -10312,6 +10403,29 @@
                 "coordinates": [
                     145.28221030709304,
                     -37.86076938741069
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gum Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-09-14T18:09:55+10:00",
+                "updated": "2020-09-14T18:09:55+10:00",
+                "id": "ESTA:200914771",
+                "location": "Gum Rd, Kings Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.77650508795926,
+                    -37.73553515405454
                 ]
             }
         }

@@ -21,33 +21,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.28373071,
-                                            -35.295127121
-                                        ],
-                                        [
-                                            149.283439687,
-                                            -35.295230031
-                                        ],
-                                        [
-                                            149.283361949,
-                                            -35.295134086
-                                        ],
-                                        [
-                                            149.28365951,
-                                            -35.295041307
-                                        ],
-                                        [
-                                            149.28373071,
-                                            -35.295127121
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             149.274421812,
                                             -35.335072269
                                         ],
@@ -69,6 +42,33 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.28373071,
+                                            -35.295127121
+                                        ],
+                                        [
+                                            149.283439687,
+                                            -35.295230031
+                                        ],
+                                        [
+                                            149.283361949,
+                                            -35.295134086
+                                        ],
+                                        [
+                                            149.28365951,
+                                            -35.295041307
+                                        ],
+                                        [
+                                            149.28373071,
+                                            -35.295127121
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -86,6 +86,30 @@
                 "location": "Seven Mile Road, Kowen Forest",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Seven Mile Road, Kowen Forest <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: ACT Parks And Conservation Service <br />UPDATED: 11 Sep 2020 17:19",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.5886180010001,
+                    -34.87974799999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Depot Rd, West Nowra",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392142",
+                "created": "2020-09-15T06:47:00+10:00",
+                "updated": "2020-09-15T16:47:00+10:00",
+                "location": "5 Depot Rd, West Nowra, NSW 2541",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 5 Depot Rd, West Nowra, NSW 2541 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Sep 2020 16:47",
                 "title": "incident: fire"
             }
         },
@@ -548,6 +572,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.25822500100003,
+                    -35.18202199999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Federal Hwy, Sutton",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392146",
+                "created": "2020-09-15T07:30:00+10:00",
+                "updated": "2020-09-15T17:30:00+10:00",
+                "location": "Federal Hwy, Sutton, NSW 2620",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Federal Hwy, Sutton, NSW 2620 <br />COUNCIL AREA: Yass Valley <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Sep 2020 17:30",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.56291700000008,
                     -29.545747999999946
                 ]
@@ -709,30 +757,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Yarrabandai Rd, Trundle, NSW 2875 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Sep 2020 11:03",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.66220900100006,
-                    -32.40473999999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Yarrawa Rd, Denman",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392144",
-                "created": "2020-09-15T06:58:00+10:00",
-                "updated": "2020-09-15T16:58:00+10:00",
-                "location": "Yarrawa Rd, Denman, NSW 2328",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Yarrawa Rd, Denman, NSW 2328 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Sep 2020 16:58",
-                "title": "incident: other"
             }
         }
     ]

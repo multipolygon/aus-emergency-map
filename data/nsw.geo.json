@@ -109,41 +109,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.215858955,
-                                            -35.331490629
-                                        ],
-                                        [
-                                            149.214499089,
-                                            -35.332108143
-                                        ],
-                                        [
-                                            149.213182605,
-                                            -35.3317675929999
-                                        ],
-                                        [
-                                            149.21332757,
-                                            -35.330454413
-                                        ],
-                                        [
-                                            149.213499777,
-                                            -35.3275908919999
-                                        ],
-                                        [
-                                            149.214829728,
-                                            -35.327753545
-                                        ],
-                                        [
-                                            149.215858955,
-                                            -35.331490629
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             149.228045009,
                                             -35.328098511
                                         ],
@@ -182,6 +147,41 @@
                                         [
                                             149.228045009,
                                             -35.328098511
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.215858955,
+                                            -35.331490629
+                                        ],
+                                        [
+                                            149.214499089,
+                                            -35.332108143
+                                        ],
+                                        [
+                                            149.213182605,
+                                            -35.3317675929999
+                                        ],
+                                        [
+                                            149.21332757,
+                                            -35.330454413
+                                        ],
+                                        [
+                                            149.213499777,
+                                            -35.3275908919999
+                                        ],
+                                        [
+                                            149.214829728,
+                                            -35.327753545
+                                        ],
+                                        [
+                                            149.215858955,
+                                            -35.331490629
                                         ]
                                     ]
                                 ]
@@ -870,30 +870,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.3397500000001,
-                    -32.755041999999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Palmers Lane, Pokolbin",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392216",
-                "created": "2020-09-16T09:40:00+10:00",
-                "updated": "2020-09-16T19:40:00+10:00",
-                "location": "Palmers Lane, Pokolbin, NSW 2320",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Palmers Lane, Pokolbin, NSW 2320 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 19:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.80952200000002,
                     -36.83527799999996
                 ]
@@ -927,14 +903,38 @@
                 "sourceTitle": "Waverley Rd, Mannering Park",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392218",
-                "created": "2020-09-16T10:16:00+10:00",
-                "updated": "2020-09-16T20:16:00+10:00",
+                "created": "2020-09-16T10:24:00+10:00",
+                "updated": "2020-09-16T20:24:00+10:00",
                 "location": "Waverley Rd, Mannering Park, NSW 2259",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Waverley Rd, Mannering Park, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 20:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Waverley Rd, Mannering Park, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 20:24",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.64124400000003,
+                    -34.00430199999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Werombi Rd, Theresa Park",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392217",
+                "created": "2020-09-16T10:12:00+10:00",
+                "updated": "2020-09-16T20:12:00+10:00",
+                "location": "780 Werombi Rd, Theresa Park, NSW 2570",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 780 Werombi Rd, Theresa Park, NSW 2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 20:12",
+                "title": "incident: other"
             }
         }
     ]

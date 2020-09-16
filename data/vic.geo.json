@@ -10024,33 +10024,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "High St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-09-16T17:51:20+10:00",
-                "updated": "2020-09-16T17:51:20+10:00",
-                "id": "ESTA:200916824",
-                "location": "High St, Thornbury",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0000907967321,
-                    -37.762891476223686
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Forbes Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-09-16T17:55:00+10:00",
                 "updated": "2020-09-16T17:55:00+10:00",
                 "id": "ESTA:200916838",
@@ -10070,14 +10047,58 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Fwy",
-                "category": "fire",
-                "subcategory": "non structure fire",
+                "sourceTitle": "Endeavour Hills",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-09-16T17:55:56+10:00",
-                "updated": "2020-09-16T17:55:56+10:00",
-                "id": "ESTA:200916837",
-                "location": "Princes Fwy, Cocoroc",
+                "created": "2020-09-16T18:22:28+10:00",
+                "updated": "2020-09-16T18:23:44+10:00",
+                "id": "ESTA:200916858",
+                "location": "Amalfi Dr, Endeavour Hills",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24320882967285,
+                    -37.976321819756684
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pitman Av, Gol Gol",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-09-16T17:49:00+10:00",
+                "updated": "2020-09-16T17:49:00+10:00",
+                "id": "2020-09-16T17:49:00.0000000:392203",
+                "location": "Pitman Av, Gol Gol, Nsw 2738",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.214199,
+                    -34.1676689999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Back Creek Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-09-16T17:18:00+10:00",
+                "updated": "2020-09-16T17:31:00+10:00",
+                "id": "ESTA:200916814",
+                "location": "Back Creek Rd, Yackandandah",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10085,8 +10106,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.5824737939498,
-                    -37.95529297362974
+                    146.84244410613422,
+                    -36.339666291114796
                 ]
             }
         },
@@ -10110,6 +10131,29 @@
                 "coordinates": [
                     145.41311426867287,
                     -37.5900276656082
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Fwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-16T18:20:08+10:00",
+                "updated": "2020-09-16T18:20:08+10:00",
+                "id": "ESTA:200916837",
+                "location": "Princes Fwy, Cocoroc",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.57988491070276,
+                    -37.95635609417915
                 ]
             }
         },
@@ -10143,8 +10187,8 @@
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "responding",
-                "created": "2020-09-16T18:02:20+10:00",
-                "updated": "2020-09-16T18:02:20+10:00",
+                "created": "2020-09-16T18:03:13+10:00",
+                "updated": "2020-09-16T18:03:13+10:00",
                 "id": "ESTA:200916845",
                 "location": "Gypsum Rd, Iraak",
                 "size": "Small",
@@ -10156,50 +10200,6 @@
                 "coordinates": [
                     142.23039300093185,
                     -34.39014274607635
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pitman Av, Gol Gol",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-09-16T17:49:00+10:00",
-                "updated": "2020-09-16T17:49:00+10:00",
-                "id": "2020-09-16T17:49:00.0000000:392203",
-                "location": "Pitman Av, Gol Gol, Nsw 2738",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.214199,
-                    -34.1676689999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Barry Way, Jindabyne",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "created": "2020-09-16T17:32:00+10:00",
-                "updated": "2020-09-16T17:32:00+10:00",
-                "id": "2020-09-16T17:32:00.0000000:392206",
-                "location": "Barry Way, Jindabyne, Nsw 2627",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.609379,
-                    -36.42393
                 ]
             }
         },
@@ -10229,14 +10229,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Back Creek Rd",
+                "sourceTitle": "High St",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-16T17:18:00+10:00",
-                "updated": "2020-09-16T17:31:00+10:00",
-                "id": "ESTA:200916814",
-                "location": "Back Creek Rd, Yackandandah",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-09-16T17:51:20+10:00",
+                "updated": "2020-09-16T17:51:20+10:00",
+                "id": "ESTA:200916824",
+                "location": "High St, Thornbury",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10244,31 +10244,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.84244410613422,
-                    -36.339666291114796
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Keilor Park",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-16T17:22:36+10:00",
-                "updated": "2020-09-16T17:22:36+10:00",
-                "id": "ESTA:200916813",
-                "location": "Keilor Park, Keilor Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.86012525595265,
-                    -37.72735434668411
+                    145.0000907967321,
+                    -37.762891476223686
                 ]
             }
         }

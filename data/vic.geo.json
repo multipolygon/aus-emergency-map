@@ -10001,14 +10001,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glyndon Av",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-09-17T01:06:00+10:00",
+                "updated": "2020-09-17T01:19:00+10:00",
+                "id": "ESTA:200916933",
+                "location": "Sale",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.07825369411108,
+                    -38.12272817374531
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Moe",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-09-17T00:53:58+10:00",
-                "updated": "2020-09-17T00:53:58+10:00",
-                "id": "ESTA:200916932",
-                "location": "Glyndon Av, St Albans",
+                "status": "responding",
+                "created": "2020-09-17T01:19:03+10:00",
+                "updated": "2020-09-17T01:19:03+10:00",
+                "id": "ESTA:200916934",
+                "location": "Moe, Moe",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10016,8 +10039,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.81634846190966,
-                    -37.74105407186307
+                    146.2526693420006,
+                    -38.17928657374646
                 ]
             }
         },
@@ -10694,10 +10717,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Waterloo Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-09-17T00:36:17+10:00",
-                "updated": "2020-09-17T00:36:17+10:00",
+                "created": "2020-09-17T00:29:00+10:00",
+                "updated": "2020-09-17T00:35:00+10:00",
                 "id": "ESTA:200916931",
                 "location": "Waterloo Rd, Moe",
                 "size": "Small",
@@ -10707,31 +10730,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.25381798263828,
-                    -38.17835569201845
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tiffany Cr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-16T23:58:00+10:00",
-                "updated": "2020-09-17T00:12:00+10:00",
-                "id": "ESTA:200916926",
-                "location": "Tiffany Cr, Roxburgh Park",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.92781169407704,
-                    -37.619028752675305
+                    146.25380927252635,
+                    -38.17836184946872
                 ]
             }
         },
@@ -10755,6 +10755,29 @@
                 "coordinates": [
                     142.23039081964998,
                     -34.39014625145793
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glyndon Av",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-09-17T00:53:58+10:00",
+                "updated": "2020-09-17T00:53:58+10:00",
+                "id": "ESTA:200916932",
+                "location": "Glyndon Av, St Albans",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.81634846190966,
+                    -37.74105407186307
                 ]
             }
         }

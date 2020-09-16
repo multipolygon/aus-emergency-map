@@ -42,6 +42,33 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.28373071,
+                                            -35.295127121
+                                        ],
+                                        [
+                                            149.283439687,
+                                            -35.295230031
+                                        ],
+                                        [
+                                            149.283361949,
+                                            -35.295134086
+                                        ],
+                                        [
+                                            149.28365951,
+                                            -35.295041307
+                                        ],
+                                        [
+                                            149.28373071,
+                                            -35.295127121
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -77,41 +104,6 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.215858955,
-                                            -35.331490629
-                                        ],
-                                        [
-                                            149.214499089,
-                                            -35.332108143
-                                        ],
-                                        [
-                                            149.213182605,
-                                            -35.3317675929999
-                                        ],
-                                        [
-                                            149.21332757,
-                                            -35.330454413
-                                        ],
-                                        [
-                                            149.213499777,
-                                            -35.3275908919999
-                                        ],
-                                        [
-                                            149.214829728,
-                                            -35.327753545
-                                        ],
-                                        [
-                                            149.215858955,
-                                            -35.331490629
-                                        ]
-                                    ]
-                                ]
-                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -155,6 +147,41 @@
                                         [
                                             149.228045009,
                                             -35.328098511
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.215858955,
+                                            -35.331490629
+                                        ],
+                                        [
+                                            149.214499089,
+                                            -35.332108143
+                                        ],
+                                        [
+                                            149.213182605,
+                                            -35.3317675929999
+                                        ],
+                                        [
+                                            149.21332757,
+                                            -35.330454413
+                                        ],
+                                        [
+                                            149.213499777,
+                                            -35.3275908919999
+                                        ],
+                                        [
+                                            149.214829728,
+                                            -35.327753545
+                                        ],
+                                        [
+                                            149.215858955,
+                                            -35.331490629
                                         ]
                                     ]
                                 ]
@@ -534,6 +561,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.43439200000012,
+                    -31.027376999999944
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Redbank Rd, Carroll",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392202",
+                "created": "2020-09-16T06:50:00+10:00",
+                "updated": "2020-09-16T16:50:00+10:00",
+                "location": "Redbank Rd, Carroll, NSW 2340",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Redbank Rd, Carroll, NSW 2340 <br />COUNCIL AREA: Gunnedah <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 16:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.7288036340001,
                     -35.45706949099997
                 ]
@@ -686,11 +737,11 @@
                 "subcategory": "vehicle/equipment fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392198",
-                "created": "2020-09-16T06:39:00+10:00",
-                "updated": "2020-09-16T16:39:00+10:00",
+                "created": "2020-09-16T06:53:00+10:00",
+                "updated": "2020-09-16T16:53:00+10:00",
                 "location": "Boorga Rd, Lake Wyangan, NSW 2680",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Boorga Rd, Lake Wyangan, NSW 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 16:39",
+                "size": 5,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Boorga Rd, Lake Wyangan, NSW 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 16:53",
                 "title": "incident: fire"
             }
         },
@@ -732,13 +783,13 @@
                 "sourceTitle": "Burnt Bridge Rd, Burnt Bridge",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392196",
-                "created": "2020-09-16T05:48:00+10:00",
-                "updated": "2020-09-16T15:48:00+10:00",
+                "created": "2020-09-16T06:54:00+10:00",
+                "updated": "2020-09-16T16:54:00+10:00",
                 "location": "6 Burnt Bridge Rd, Burnt Bridge, NSW 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6 Burnt Bridge Rd, Burnt Bridge, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Sep 2020 15:48",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6 Burnt Bridge Rd, Burnt Bridge, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Sep 2020 16:54",
                 "title": "incident: fire"
             }
         },
@@ -843,54 +894,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.9633920000001,
-                    -30.60131599999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Henriendi St HR, Baan Baa",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392111",
-                "created": "2020-09-15T01:13:00+10:00",
-                "updated": "2020-09-15T11:13:00+10:00",
-                "location": "Henriendi St, Baan Baa, NSW 2390",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Henriendi St, Baan Baa, NSW 2390 <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Sep 2020 11:13",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.5399850010001,
-                    -29.57829899999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hill St, Warialda Rail",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392165",
-                "created": "2020-09-15T23:14:00+10:00",
-                "updated": "2020-09-16T09:14:00+10:00",
-                "location": "Hill St, Warialda Rail, NSW 2402",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hill St, Warialda Rail, NSW 2402 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 09:14",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.2946021560001,
                     -33.38039019499996
                 ]
@@ -932,6 +935,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 24 Philip St, Wolumla, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 09:48",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.28199100000006,
+                    -32.78561399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thompsons Rd, Pokolbin",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392199",
+                "created": "2020-09-16T06:42:00+10:00",
+                "updated": "2020-09-16T16:42:00+10:00",
+                "location": "165 Thompsons Rd, Pokolbin,  2320",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 165 Thompsons Rd, Pokolbin,  2320 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 16:42",
+                "title": "incident: other"
             }
         }
     ]

@@ -414,6 +414,127 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.9907722470001,
+                            -33.46431310699995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.990802382,
+                                            -33.464932221
+                                        ],
+                                        [
+                                            150.990797173,
+                                            -33.464941288
+                                        ],
+                                        [
+                                            150.990793524,
+                                            -33.464940235
+                                        ],
+                                        [
+                                            150.990773727,
+                                            -33.4649581469999
+                                        ],
+                                        [
+                                            150.990641418,
+                                            -33.4651584449999
+                                        ],
+                                        [
+                                            150.99028947,
+                                            -33.4655527159999
+                                        ],
+                                        [
+                                            150.989568516,
+                                            -33.465370628
+                                        ],
+                                        [
+                                            150.988998591,
+                                            -33.46527945
+                                        ],
+                                        [
+                                            150.98927425,
+                                            -33.465001613
+                                        ],
+                                        [
+                                            150.989693218,
+                                            -33.464764779
+                                        ],
+                                        [
+                                            150.989897383,
+                                            -33.464681722
+                                        ],
+                                        [
+                                            150.990175008,
+                                            -33.464424787
+                                        ],
+                                        [
+                                            150.990429711,
+                                            -33.4641484119999
+                                        ],
+                                        [
+                                            150.990744321,
+                                            -33.4636997229999
+                                        ],
+                                        [
+                                            150.990356247,
+                                            -33.463693222
+                                        ],
+                                        [
+                                            150.990421759,
+                                            -33.4631483809999
+                                        ],
+                                        [
+                                            150.991738909,
+                                            -33.4633018219999
+                                        ],
+                                        [
+                                            150.990804728,
+                                            -33.4649281379999
+                                        ],
+                                        [
+                                            150.990805073,
+                                            -33.464929785
+                                        ],
+                                        [
+                                            150.990802382,
+                                            -33.464932221
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maroota Station HR",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392147",
+                "created": "2020-09-16T04:23:00+10:00",
+                "updated": "2020-09-16T14:23:00+10:00",
+                "location": "Wisemans Ferry Road, Maroota",
+                "size": 2,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Wisemans Ferry Road, Maroota <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 14:23",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     150.9898281090001,

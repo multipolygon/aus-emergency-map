@@ -42,6 +42,33 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.28373071,
+                                            -35.295127121
+                                        ],
+                                        [
+                                            149.283439687,
+                                            -35.295230031
+                                        ],
+                                        [
+                                            149.283361949,
+                                            -35.295134086
+                                        ],
+                                        [
+                                            149.28365951,
+                                            -35.295041307
+                                        ],
+                                        [
+                                            149.28373071,
+                                            -35.295127121
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -532,79 +559,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            151.52487913800007,
-                            -30.64359157299998
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            151.523373024,
-                                            -30.6420675169999
-                                        ],
-                                        [
-                                            151.523384921,
-                                            -30.6420556209999
-                                        ],
-                                        [
-                                            151.52440809,
-                                            -30.64223408
-                                        ],
-                                        [
-                                            151.524943468,
-                                            -30.6436141679999
-                                        ],
-                                        [
-                                            151.522492623,
-                                            -30.643721243
-                                        ],
-                                        [
-                                            151.522230883,
-                                            -30.643126378
-                                        ],
-                                        [
-                                            151.522706775,
-                                            -30.6422459779999
-                                        ],
-                                        [
-                                            151.523373024,
-                                            -30.6420675169999
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rock Abbey Rd, Uralla",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392120",
-                "created": "2020-09-15T02:41:00+10:00",
-                "updated": "2020-09-15T12:41:00+10:00",
-                "location": "Rock Abbey Rd, Uralla, NSW 2358",
-                "size": 3,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Rock Abbey Rd, Uralla, NSW 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Sep 2020 12:41",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     149.7288036340001,
@@ -772,6 +726,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.81114300000002,
+                    -33.973937999999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Camden Valley Way, Leppington",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392193",
+                "created": "2020-09-16T05:10:00+10:00",
+                "updated": "2020-09-16T15:10:00+10:00",
+                "location": "Camden Valley Way, Leppington, NSW 2179",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Camden Valley Way, Leppington, NSW 2179 <br />COUNCIL AREA: Camden <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 15:10",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.02250552200007,
                     -35.232299627999964
                 ]
@@ -837,6 +815,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Federation Way, Urana, NSW 2645 <br />COUNCIL AREA: Federation <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 13:46",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.45364700100004,
+                    -33.076202998999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Freemans Dr, Cooranbong",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392195",
+                "created": "2020-09-16T05:26:00+10:00",
+                "updated": "2020-09-16T15:26:00+10:00",
+                "location": "Unit 10/563 Freemans Dr, Cooranbong, NSW 2265",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit 10/563 Freemans Dr, Cooranbong, NSW 2265 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2020 15:26",
+                "title": "incident: other"
             }
         },
         {

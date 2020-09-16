@@ -9,6 +9,68 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            141.69725896462086,
+                            -37.60064006915387
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    141.69599296196924,
+                                    -37.59925453554154
+                                ],
+                                [
+                                    141.6955638085239,
+                                    -37.60221262667531
+                                ],
+                                [
+                                    141.69837476357603,
+                                    -37.60251862939006
+                                ],
+                                [
+                                    141.6989541207178,
+                                    -37.599050524921104
+                                ],
+                                [
+                                    141.69620753868742,
+                                    -37.59876150891767
+                                ],
+                                [
+                                    141.6960358773111,
+                                    -37.59877850988987
+                                ],
+                                [
+                                    141.69599296196924,
+                                    -37.59925453554154
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-09-16T11:26:53+10:00",
+                "updated": "2020-09-16T11:26:53+10:00",
+                "id": "14526",
+                "location": "Coleraine",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -9844,9 +9906,9 @@
                 "sourceTitle": "Won Wron - Gravel 1",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "patrolled",
-                "created": "2020-09-11T16:25:54+10:00",
-                "updated": "2020-09-11T16:25:54+10:00",
+                "status": "in progress",
+                "created": "2020-09-16T11:12:52+10:00",
+                "updated": "2020-09-16T11:12:52+10:00",
                 "id": 661305,
                 "location": "7Km Sw Of Won Wron",
                 "size": "17.23",
@@ -9977,29 +10039,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Napier St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-09-16T10:45:00+10:00",
-                "updated": "2020-09-16T10:58:00+10:00",
-                "id": "ESTA:200916384",
-                "location": "Napier St, St Arnaud",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.25749214307447,
-                    -36.61543875108047
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tarwin Meadows Rd",
                 "category": "fire",
                 "subcategory": "other",
@@ -10028,7 +10067,7 @@
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-09-16T11:20:00+10:00",
-                "updated": "2020-09-16T11:20:00+10:00",
+                "updated": "2020-09-16T11:28:00+10:00",
                 "id": "ESTA:200951662",
                 "location": "Greensborough",
                 "title": "incident: tree down"
@@ -10039,6 +10078,74 @@
                 "coordinates": [
                     145.11148267767632,
                     -37.706087756944875
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thomastown",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-16T11:25:12+10:00",
+                "updated": "2020-09-16T11:25:12+10:00",
+                "id": "ESTA:200916435",
+                "location": "Thomastown, Thomastown",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.033102486115,
+                    -37.67539604522302
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mcleod St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2020-09-16T11:26:35+10:00",
+                "updated": "2020-09-16T11:26:35+10:00",
+                "id": "ESTA:200916388",
+                "location": "Mcleod St, Coleraine",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.69702521420814,
+                    -37.60004553650113
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Taylors Hill",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-09-16T11:28:53+10:00",
+                "updated": "2020-09-16T11:30:19+10:00",
+                "id": "ESTA:200916443",
+                "location": "Beaufort Pde, Taylors Hill",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74219442259252,
+                    -37.717778857369744
                 ]
             }
         },
@@ -10090,6 +10197,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Napier St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-09-16T10:45:00+10:00",
+                "updated": "2020-09-16T10:58:00+10:00",
+                "id": "ESTA:200916384",
+                "location": "Napier St, St Arnaud",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.25749214307447,
+                    -36.61543875108047
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Wright Rd",
                 "category": "rescue",
                 "subcategory": "rescue",
@@ -10107,52 +10237,6 @@
                 "coordinates": [
                     145.46942897644698,
                     -37.92650362046232
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mcleod St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-09-16T10:48:00+10:00",
-                "updated": "2020-09-16T10:48:00+10:00",
-                "id": "ESTA:200916388",
-                "location": "Mcleod St, Coleraine",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.69702293023218,
-                    -37.60005357175103
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ormond Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-09-16T10:27:54+10:00",
-                "updated": "2020-09-16T10:27:54+10:00",
-                "id": "ESTA:200916338",
-                "location": "Ormond Rd, Elwood",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9875633558725,
-                    -37.8855890500334
                 ]
             }
         },

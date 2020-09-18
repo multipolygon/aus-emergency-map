@@ -9909,14 +9909,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "South Yarra",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-09-19T08:33:00+10:00",
+                "updated": "2020-09-19T08:44:00+10:00",
+                "id": "ESTA:200919645",
+                "location": "Bairnsdale",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.6263467801554,
+                    -37.82670825328332
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hilda St",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-09-19T08:29:05+10:00",
-                "updated": "2020-09-19T08:29:05+10:00",
-                "id": "ESTA:200919618",
-                "location": "South Yarra, South Yarra",
+                "created": "2020-09-19T08:44:54+10:00",
+                "updated": "2020-09-19T08:44:54+10:00",
+                "id": "ESTA:200919692",
+                "location": "Hilda St, Malvern East",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -9924,8 +9947,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99672766610152,
-                    -37.8472257422963
+                    145.06109375683297,
+                    -37.873852418347695
                 ]
             }
         },
@@ -14856,7 +14879,7 @@
                 "sourceTitle": "Timor St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-09-19T08:25:00+10:00",
                 "updated": "2020-09-19T08:25:00+10:00",
                 "id": "ESTA:200919614",
@@ -14893,6 +14916,29 @@
                 "coordinates": [
                     144.36368117168902,
                     -38.08765525342066
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Yarra",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-09-19T08:37:26+10:00",
+                "updated": "2020-09-19T08:37:26+10:00",
+                "id": "ESTA:200919618",
+                "location": "South Yarra, South Yarra",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99672766610152,
+                    -37.8472257422963
                 ]
             }
         }

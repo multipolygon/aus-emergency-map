@@ -9909,23 +9909,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ashenden St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-09-19T09:01:51+10:00",
-                "updated": "2020-09-19T09:01:51+10:00",
-                "id": "ESTA:200919708",
-                "location": "Ashenden St, Shepparton",
+                "sourceTitle": "Paisley St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-19T09:12:24+10:00",
+                "updated": "2020-09-19T09:12:24+10:00",
+                "id": "ESTA:200919790",
+                "location": "Paisley St, Coolaroo",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.40859897830575,
-                    -36.38569408992977
+                    144.9280514832944,
+                    -37.6592140505875
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-09-19T08:33:00+10:00",
+                "updated": "2020-09-19T09:15:00+10:00",
+                "id": "ESTA:200919645",
+                "location": "Bairnsdale",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.6263467801554,
+                    -37.82670825328332
                 ]
             }
         },
@@ -14853,6 +14876,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Ashenden St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-09-19T08:51:00+10:00",
+                "updated": "2020-09-19T09:02:00+10:00",
+                "id": "ESTA:200919708",
+                "location": "Ashenden St, Shepparton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4085878541633,
+                    -36.385702880710596
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Wisteria Gr",
                 "category": "other",
                 "subcategory": "other",
@@ -14870,75 +14916,6 @@
                 "coordinates": [
                     144.3636379508567,
                     -38.08779711454526
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "request for assistance",
-                "created": "2020-09-19T08:33:00+10:00",
-                "updated": "2020-09-19T08:44:00+10:00",
-                "id": "ESTA:200919645",
-                "location": "Bairnsdale",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.6263467801554,
-                    -37.82670825328332
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South Yarra",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-19T08:37:26+10:00",
-                "updated": "2020-09-19T08:37:26+10:00",
-                "id": "ESTA:200919618",
-                "location": "South Yarra, South Yarra",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99672766610152,
-                    -37.8472257422963
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hilda St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-19T08:55:38+10:00",
-                "updated": "2020-09-19T08:55:38+10:00",
-                "id": "ESTA:200919692",
-                "location": "Hilda St, Malvern East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06109375683297,
-                    -37.873852418347695
                 ]
             }
         }

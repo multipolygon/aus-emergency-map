@@ -9909,14 +9909,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Nolan Cl",
+                "sourceTitle": "Willandra Cct",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-09-19T09:57:06+10:00",
-                "updated": "2020-09-19T09:57:06+10:00",
-                "id": "ESTA:200919975",
-                "location": "Nolan Cl, Vermont South",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-09-19T10:29:00+10:00",
+                "updated": "2020-09-19T10:41:00+10:00",
+                "id": "ESTA:200920134",
+                "location": "Willandra Cct, Warragul",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9924,8 +9924,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.18763922556565,
-                    -37.84825945343723
+                    145.9053622264497,
+                    -38.14280785049546
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cairnlea",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-09-19T10:53:13+10:00",
+                "updated": "2020-09-19T10:53:13+10:00",
+                "id": "ESTA:200920210",
+                "location": "Cairnlea, Cairnlea",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7818435074314,
+                    -37.75310610663872
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lucerne Cr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-09-19T10:58:13+10:00",
+                "updated": "2020-09-19T10:58:13+10:00",
+                "id": "ESTA:200920258",
+                "location": "Lucerne Cr, Frankston",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17000751731268,
+                    -38.147160523083805
                 ]
             }
         },
@@ -10232,9 +10278,9 @@
                 "category": "met",
                 "subcategory": "weather",
                 "status": "warning",
-                "created": "2020-09-19T04:06:20+10:00",
+                "created": "2020-09-19T10:38:28+10:00",
                 "updated": "Invalid date",
-                "id": "IDV21037/094c1c3c22abba44f0fe12dd9af4b195",
+                "id": "IDV21037/7493e6d39d91114b474dc014b69d1cfe",
                 "location": "Central, South West, North Central, North East and West and South Gippsland",
                 "title": "incident: met"
             },
@@ -14853,23 +14899,68 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Main St",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-09-19T08:33:00+10:00",
-                "updated": "2020-09-19T09:13:00+10:00",
-                "id": "ESTA:200919645",
-                "location": "Main St, Bairnsdale",
+                "sourceTitle": "Haig St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-19T10:54:53+10:00",
+                "updated": "2020-09-19T10:54:53+10:00",
+                "id": "ESTA:200920240",
+                "location": "Haig St, Southbank",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.6263467801554,
-                    -37.82670825328332
+                    144.95756187561014,
+                    -37.82709004418473
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lambeck Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-19T10:47:40+10:00",
+                "updated": "2020-09-19T10:47:40+10:00",
+                "id": "ESTA:200920209",
+                "location": "Lambeck Dr, Tullamarine",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.85322951405107,
+                    -37.70900993330298
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-19T10:32:00+10:00",
+                "updated": "2020-09-19T10:55:00+10:00",
+                "id": "ESTA:200951747",
+                "location": "Paaratte",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.97157880884683,
+                    -38.54042965801266
                 ]
             }
         }

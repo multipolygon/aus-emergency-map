@@ -9909,79 +9909,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-19T22:36:00+10:00",
-                "updated": "2020-09-19T22:43:00+10:00",
-                "id": "ESTA:200921374",
-                "location": "Marshall",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3555953353155,
-                    -38.187766778529024
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Belfast Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-19T22:55:00+10:00",
-                "updated": "2020-09-19T22:55:00+10:00",
-                "id": "ESTA:200921380",
-                "location": "Belfast Rd, Mooroolbark",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34507439742703,
-                    -37.799415716198936
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elizabeth St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-09-19T23:25:51+10:00",
-                "updated": "2020-09-19T23:25:51+10:00",
-                "id": "ESTA:200921388",
-                "location": "Elizabeth St, Richmond",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99977286012754,
-                    -37.81214992028703
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "King St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-09-19T23:24:00+10:00",
                 "updated": "2020-09-19T23:24:00+10:00",
                 "id": "ESTA:200921387",
@@ -10001,14 +9932,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Preston",
+                "sourceTitle": "St Kilda Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-09-19T23:24:42+10:00",
-                "updated": "2020-09-19T23:24:42+10:00",
-                "id": "ESTA:200921386",
-                "location": "Preston, Preston",
+                "created": "2020-09-19T23:35:06+10:00",
+                "updated": "2020-09-19T23:35:06+10:00",
+                "id": "ESTA:200921389",
+                "location": "St Kilda Rd, Melbourne",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10016,8 +9947,99 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0027230877605,
-                    -37.74029368150769
+                    144.9773450634434,
+                    -37.84245739847957
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gymkhana Ct",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-09-19T23:35:33+10:00",
+                "updated": "2020-09-19T23:35:33+10:00",
+                "id": "ESTA:200921390",
+                "location": "Gymkhana Ct, Endeavour Hills",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27512831445344,
+                    -37.96309994891792
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ackland Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-19T23:36:00+10:00",
+                "updated": "2020-09-19T23:36:00+10:00",
+                "id": "ESTA:200921391",
+                "location": "Ackland Rd, Lethbridge",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.13242478839007,
+                    -37.96817544691438
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Port Melbourne",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-09-19T23:38:24+10:00",
+                "updated": "2020-09-19T23:38:24+10:00",
+                "id": "ESTA:200921392",
+                "location": "Port Melbourne, Port Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93336687142187,
+                    -37.83975608075962
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Richmond",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-19T23:38:44+10:00",
+                "updated": "2020-09-19T23:40:08+10:00",
+                "id": "ESTA:200921394",
+                "location": "Elizabeth St, Richmond",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99977597716338,
+                    -37.81214516315037
                 ]
             }
         },
@@ -14945,6 +14967,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Nepean Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-09-19T23:37:00+10:00",
+                "updated": "2020-09-19T23:37:00+10:00",
+                "id": "ESTA:200921393",
+                "location": "Nepean Hwy, Mornington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0499978285069,
+                    -38.225159206861036
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Bell View Ct",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -14991,14 +15036,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Napier Ct",
+                "sourceTitle": "Belfast Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-09-19T22:55:05+10:00",
-                "updated": "2020-09-19T22:55:05+10:00",
-                "id": "ESTA:200921377",
-                "location": "Napier Ct, Sunshine West",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-09-19T22:55:00+10:00",
+                "updated": "2020-09-19T22:55:00+10:00",
+                "id": "ESTA:200921380",
+                "location": "Belfast Rd, Mooroolbark",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15006,8 +15051,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.81586285535224,
-                    -37.800673948982535
+                    145.34507439742703,
+                    -37.799415716198936
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elizabeth St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-09-19T23:25:51+10:00",
+                "updated": "2020-09-19T23:25:51+10:00",
+                "id": "ESTA:200921388",
+                "location": "Elizabeth St, Richmond",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99977286012754,
+                    -37.81214992028703
                 ]
             }
         },

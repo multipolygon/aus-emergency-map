@@ -525,13 +525,13 @@
                 "sourceTitle": "Mastons Rd - Red Hill Link Trl, Karangi",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392550",
-                "created": "2020-09-19T11:56:00+10:00",
-                "updated": "2020-09-19T21:56:00+10:00",
+                "created": "2020-09-19T12:37:00+10:00",
+                "updated": "2020-09-19T22:37:00+10:00",
                 "location": "Mastons Rd - Red Hill Link Trl, Karangi, NSW 2450",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Mastons Rd - Red Hill Link Trl, Karangi, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2020 21:56",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Mastons Rd - Red Hill Link Trl, Karangi, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2020 22:37",
                 "title": "incident: fire"
             }
         },
@@ -1248,10 +1248,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.92770004300007,
-                    -32.624014804999945
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.92770004300007,
+                            -32.624014804999945
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.928428352,
+                                            -32.624184859
+                                        ],
+                                        [
+                                            151.928583016,
+                                            -32.623459123
+                                        ],
+                                        [
+                                            151.929784644,
+                                            -32.6221147279999
+                                        ],
+                                        [
+                                            151.930010693,
+                                            -32.622150419
+                                        ],
+                                        [
+                                            151.930462791,
+                                            -32.6224716469999
+                                        ],
+                                        [
+                                            151.930474688,
+                                            -32.623233074
+                                        ],
+                                        [
+                                            151.929475314,
+                                            -32.6242800379999
+                                        ],
+                                        [
+                                            151.92927306,
+                                            -32.624387113
+                                        ],
+                                        [
+                                            151.928452146,
+                                            -32.6242324479999
+                                        ],
+                                        [
+                                            151.928428352,
+                                            -32.624184859
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1290,30 +1347,6 @@
                 "location": "Fourth Street, Seahampton",
                 "size": 22,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Fourth Street, Seahampton <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 22 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2020 18:37",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.66417400000012,
-                    -34.22621799999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sky Diving Centre - Wilton",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392542",
-                "created": "2020-09-19T11:59:00+10:00",
-                "updated": "2020-09-19T21:59:00+10:00",
-                "location": "Picton Rd, Wilton, NSW 2571",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Picton Rd, Wilton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2020 21:59",
                 "title": "incident: fire"
             }
         },

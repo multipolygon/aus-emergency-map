@@ -9864,28 +9864,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tunkin Road, Barmera",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "going",
-                "created": "2020-09-20T16:46:00+10:00",
-                "updated": "2020-09-20T16:46:00+10:00",
-                "id": "1383247",
-                "location": "Tunkin Road, Barmera",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    140.509631096016,
-                    -34.2568121879522
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Nangeela - Casterton-Penola Rd North",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -9909,59 +9887,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clay Pit Rd",
-                "category": "fire",
+                "sourceTitle": "Whittlesea-Yea Rd",
+                "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-20T17:23:00+10:00",
-                "updated": "2020-09-20T17:25:00+10:00",
-                "id": "ESTA:200921944",
-                "location": "Clay Pit Rd, Huntly",
+                "status": "responding",
+                "created": "2020-09-20T17:53:00+10:00",
+                "updated": "2020-09-20T17:53:00+10:00",
+                "id": "ESTA:200921977",
+                "location": "Whittlesea-Yea Rd, Kinglake West",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.35884329520954,
-                    -36.68425100204352
+                    145.2637391829065,
+                    -37.424409167793954
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-09-20T17:23:00+10:00",
-                "updated": "2020-09-20T17:33:00+10:00",
-                "id": "ESTA:200951826",
-                "location": "Sassafras",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3549772313492,
-                    -37.86137835091457
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mossop Rd",
+                "sourceTitle": "Anderson Av",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-09-20T17:34:37+10:00",
-                "updated": "2020-09-20T17:34:37+10:00",
-                "id": "ESTA:200921943",
-                "location": "Mossop Rd, Tarneit",
+                "created": "2020-09-20T17:54:00+10:00",
+                "updated": "2020-09-20T18:02:00+10:00",
+                "id": "ESTA:200921978",
+                "location": "Anderson Av, Yallourn North",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9969,8 +9925,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.6784537825197,
-                    -37.82432421180816
+                    146.3586063853018,
+                    -38.159162538848
                 ]
             }
         },
@@ -9994,28 +9950,6 @@
                 "coordinates": [
                     141.21879292434159,
                     -37.32179907999358
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-20T17:45:00+10:00",
-                "updated": "2020-09-20T17:45:17+10:00",
-                "id": "ESTA:200951828",
-                "location": "Eskdale",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.27959743593308,
-                    -36.467225996048505
                 ]
             }
         },
@@ -15196,6 +15130,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Mossop Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-09-20T17:34:37+10:00",
+                "updated": "2020-09-20T17:34:37+10:00",
+                "id": "ESTA:200921943",
+                "location": "Mossop Rd, Tarneit",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6784537825197,
+                    -37.82432421180816
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clay Pit Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-20T17:23:00+10:00",
+                "updated": "2020-09-20T17:25:00+10:00",
+                "id": "ESTA:200921944",
+                "location": "Clay Pit Rd, Huntly",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.35884329520954,
+                    -36.68425100204352
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dandenong",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-20T17:59:42+10:00",
+                "updated": "2020-09-20T17:59:42+10:00",
+                "id": "ESTA:200921974",
+                "location": "Dandenong, Dandenong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21729436607225,
+                    -37.97032683092912
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Collendina Cr",
                 "category": "other",
                 "subcategory": "other",
@@ -15219,23 +15222,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Barkly St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-20T17:12:29+10:00",
-                "updated": "2020-09-20T17:12:29+10:00",
-                "id": "ESTA:200921928",
-                "location": "Barkly St, St Kilda",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-20T17:45:00+10:00",
+                "updated": "2020-09-20T17:54:00+10:00",
+                "id": "ESTA:200951828",
+                "location": "Eskdale",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.98264677895068,
-                    -37.86042402337625
+                    147.27959743593308,
+                    -36.467225996048505
                 ]
             }
         },

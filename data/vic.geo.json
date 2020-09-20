@@ -9887,14 +9887,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Azzam St",
+                "sourceTitle": "Sutil Dr",
                 "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-09-21T03:51:18+10:00",
-                "updated": "2020-09-21T03:51:18+10:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-09-21T04:10:42+10:00",
+                "updated": "2020-09-21T04:10:42+10:00",
                 "id": "ESTA:200922076",
-                "location": "Azzam St, Clyde North",
+                "location": "Sutil Dr, Clyde North",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9902,30 +9902,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3456939499114,
-                    -38.109371264595154
+                    145.3451654575692,
+                    -38.10849891922525
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-21T03:55:00+10:00",
-                "updated": "2020-09-21T04:01:00+10:00",
-                "id": "ESTA:200951837",
-                "location": "Bowmans Forest",
-                "title": "incident: tree down"
+                "sourceTitle": "Araluen Ct",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-09-21T04:16:00+10:00",
+                "updated": "2020-09-21T04:16:00+10:00",
+                "id": "ESTA:200922078",
+                "location": "Araluen Ct, Paynesville",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.6585046821682,
-                    -36.48412165431153
+                    147.70542568279495,
+                    -37.91654366449003
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Belmont Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-21T04:22:00+10:00",
+                "updated": "2020-09-21T04:24:00+10:00",
+                "id": "ESTA:200922079",
+                "location": "Belmont Av, Upwey",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.32006422806853,
+                    -37.9040893776871
                 ]
             }
         },
@@ -15536,9 +15560,9 @@
                 "sourceTitle": "Flaxen Hills Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-09-21T03:48:00+10:00",
-                "updated": "2020-09-21T03:48:00+10:00",
+                "updated": "2020-09-21T04:24:00+10:00",
                 "id": "ESTA:200922075",
                 "location": "Flaxen Hills Rd, Doreen",
                 "size": "Small",
@@ -15573,6 +15597,50 @@
                 "coordinates": [
                     145.09035667583993,
                     -37.68908955815107
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-21T03:55:00+10:00",
+                "updated": "2020-09-21T04:23:00+10:00",
+                "id": "ESTA:200951837",
+                "location": "Bowmans Forest",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.6585046821682,
+                    -36.48412165431153
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-21T04:21:00+10:00",
+                "updated": "2020-09-21T04:22:00+10:00",
+                "id": "ESTA:200951839",
+                "location": "Upwey",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.32006422806853,
+                    -37.9040893776871
                 ]
             }
         }

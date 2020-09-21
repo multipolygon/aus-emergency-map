@@ -10085,75 +10085,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bulla",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "not yet under control",
-                "created": "2020-09-22T08:09:22+10:00",
-                "updated": "2020-09-22T08:09:22+10:00",
-                "id": "ESTA:200922707",
-                "location": "Bulla, Bulla",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.794312413708,
-                    -37.62899042781186
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wright Ct",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-09-22T08:13:45+10:00",
-                "updated": "2020-09-22T08:13:45+10:00",
-                "id": "ESTA:200922733",
-                "location": "Wright Ct, West Wodonga",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.86416192356197,
-                    -36.1330083736607
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hillside (Greater Melbourne)",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-09-22T08:13:56+10:00",
-                "updated": "2020-09-22T08:13:56+10:00",
-                "id": "ESTA:200922735",
-                "location": "Hillside (Greater Melbourne), Hillside (Greater Melbourne)",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7303876299606,
-                    -37.69040609327552
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Araluen Ct",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -10171,6 +10102,28 @@
                 "coordinates": [
                     147.70542568279495,
                     -37.91654366449003
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-09-22T07:17:00+10:00",
+                "updated": "2020-09-22T08:24:00+10:00",
+                "id": "ESTA:200951888",
+                "location": "Mill Park",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0653930902539,
+                    -37.65161925955486
                 ]
             }
         },
@@ -18350,14 +18303,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Boundary Rd",
+                "sourceTitle": "Wright Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-22T08:29:51+10:00",
+                "updated": "2020-09-22T08:29:51+10:00",
+                "id": "ESTA:200922733",
+                "location": "Wright Ct, West Wodonga",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.86416192356197,
+                    -36.1330083736607
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bulla",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-09-22T08:12:00+10:00",
-                "updated": "2020-09-22T08:12:00+10:00",
-                "id": "ESTA:200922731",
-                "location": "Boundary Rd, Thomson",
+                "subcategory": "non structure fire",
+                "status": "not yet under control",
+                "created": "2020-09-22T08:09:22+10:00",
+                "updated": "2020-09-22T08:09:22+10:00",
+                "id": "ESTA:200922707",
+                "location": "Bulla, Bulla",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -18365,8 +18341,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.38290219810756,
-                    -38.17471025771347
+                    144.794312413708,
+                    -37.62899042781186
                 ]
             }
         },
@@ -18442,6 +18418,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Hillside (Greater Melbourne)",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-09-22T08:29:07+10:00",
+                "updated": "2020-09-22T08:29:07+10:00",
+                "id": "ESTA:200922735",
+                "location": "Hillside (Greater Melbourne), Hillside (Greater Melbourne)",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7303876299606,
+                    -37.69040609327552
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
@@ -18458,28 +18457,6 @@
                 "coordinates": [
                     145.119799383702,
                     -37.69837115734292
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-09-22T07:17:00+10:00",
-                "updated": "2020-09-22T07:47:00+10:00",
-                "id": "ESTA:200951888",
-                "location": "Mill Park",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0653930902539,
-                    -37.65161925955486
                 ]
             }
         },

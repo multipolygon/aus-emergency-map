@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.6326792526101,
+                            -38.04183258277702
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.6278512763838,
+                                    -38.03849498553751
+                                ],
+                                [
+                                    145.6366060066039,
+                                    -38.03866398531016
+                                ],
+                                [
+                                    145.63750722883643,
+                                    -38.04517018001652
+                                ],
+                                [
+                                    145.62813022611473,
+                                    -38.044342150978125
+                                ],
+                                [
+                                    145.6278512763838,
+                                    -38.03849498553751
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2020-09-23T21:43:36+10:00",
+                "updated": "2020-09-23T21:43:36+10:00",
+                "id": "14540",
+                "location": "Tynong North",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             143.86349418999998,
                             -37.852252289999996
                         ]
@@ -9864,14 +9918,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "North Gtwy",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-09-23T21:24:00+10:00",
-                "updated": "2020-09-23T21:24:00+10:00",
+                "updated": "2020-09-23T21:35:00+10:00",
                 "id": "ESTA:200923542",
-                "location": "North Gtwy, Coldstream",
+                "location": "Coldstream",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9879,31 +9933,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.38035955248952,
-                    -37.72932147268893
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dandenong",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-09-23T21:25:35+10:00",
-                "updated": "2020-09-23T21:25:35+10:00",
-                "id": "ESTA:200923543",
-                "location": "Dandenong, Dandenong",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.21729436607225,
-                    -37.97032683092912
+                    145.38146149720984,
+                    -37.72874179248868
                 ]
             }
         },
@@ -9914,8 +9945,8 @@
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "not yet under control",
-                "created": "2020-09-23T21:27:39+10:00",
-                "updated": "2020-09-23T21:27:39+10:00",
+                "created": "2020-09-23T21:40:03+10:00",
+                "updated": "2020-09-23T21:40:03+10:00",
                 "id": "ESTA:200923539",
                 "location": "Mintern Rd, Tynong North",
                 "size": "Small",
@@ -9933,23 +9964,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Jellbarts Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-09-23T20:19:00+10:00",
-                "updated": "2020-09-23T21:10:00+10:00",
-                "id": "ESTA:200923536",
-                "location": "Jellbarts Rd, Waaia",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-23T21:41:00+10:00",
+                "updated": "2020-09-23T21:43:00+10:00",
+                "id": "ESTA:200952149",
+                "location": "Ivanhoe",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30033590561786,
-                    -36.0489112601358
+                    145.04033004747637,
+                    -37.773543352150185
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-09-23T21:44:00+10:00",
+                "updated": "2020-09-23T21:45:00+10:00",
+                "id": "ESTA:200952150",
+                "location": "Kensington",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.928204479766,
+                    -37.78820622072779
                 ]
             }
         },
@@ -11007,23 +11059,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mintern Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-09-23T21:14:00+10:00",
-                "updated": "2020-09-23T21:14:00+10:00",
-                "id": "ESTA:200923540",
-                "location": "Mintern Rd, Tynong North",
+                "sourceTitle": "Jellbarts Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-09-23T20:19:00+10:00",
+                "updated": "2020-09-23T21:10:00+10:00",
+                "id": "ESTA:200923536",
+                "location": "Jellbarts Rd, Waaia",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.63420274733122,
-                    -38.04180730999494
+                    145.30033590561786,
+                    -36.0489112601358
                 ]
             }
         },
@@ -11053,12 +11105,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Dandenong",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-23T21:38:23+10:00",
+                "updated": "2020-09-23T21:38:23+10:00",
+                "id": "ESTA:200923543",
+                "location": "Dandenong, Dandenong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21729436607225,
+                    -37.97032683092912
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-09-23T20:52:00+10:00",
-                "updated": "2020-09-23T21:02:00+10:00",
+                "updated": "2020-09-23T21:32:00+10:00",
                 "id": "ESTA:200952148",
                 "location": "Narbethong",
                 "title": "incident: tree down"

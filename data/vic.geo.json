@@ -9865,21 +9865,113 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-23T20:52:00+10:00",
-                "updated": "2020-09-23T21:02:00+10:00",
-                "id": "ESTA:200952148",
-                "location": "Narbethong",
-                "title": "incident: tree down"
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-09-23T19:52:00+10:00",
+                "updated": "2020-09-23T21:07:00+10:00",
+                "id": "ESTA:200952145",
+                "location": "South Melbourne",
+                "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.63897957740403,
-                    -37.572011018470896
+                    144.94924280000035,
+                    -37.830199685244466
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-09-23T19:41:00+10:00",
+                "updated": "2020-09-23T20:21:00+10:00",
+                "id": "ESTA:200923530",
+                "location": "Koyuga",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.92267969724125,
+                    -36.20317436629109
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jellbarts Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-09-23T21:10:37+10:00",
+                "updated": "2020-09-23T21:10:37+10:00",
+                "id": "ESTA:200923536",
+                "location": "Jellbarts Rd, Waaia",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.300344464772,
+                    -36.048904823129014
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mintern Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-09-23T21:11:59+10:00",
+                "updated": "2020-09-23T21:11:59+10:00",
+                "id": "ESTA:200923539",
+                "location": "Mintern Rd, Tynong North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.6342110946757,
+                    -38.041800473061265
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mintern Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-23T21:14:00+10:00",
+                "updated": "2020-09-23T21:14:00+10:00",
+                "id": "ESTA:200923540",
+                "location": "Mintern Rd, Tynong North",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.63420274733122,
+                    -38.04180730999494
                 ]
             }
         },
@@ -10937,52 +11029,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Jellbarts Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-09-23T20:45:52+10:00",
-                "updated": "2020-09-23T20:45:52+10:00",
-                "id": "ESTA:200923536",
-                "location": "Jellbarts Rd, Waaia",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.300344464772,
-                    -36.048904823129014
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-09-23T19:41:00+10:00",
-                "updated": "2020-09-23T20:21:00+10:00",
-                "id": "ESTA:200923530",
-                "location": "Koyuga",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.92267969724125,
-                    -36.20317436629109
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Osborne Av",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -11000,6 +11046,29 @@
                 "coordinates": [
                     145.13239448171632,
                     -37.94512461425659
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Melbourne",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-09-23T21:02:42+10:00",
+                "updated": "2020-09-23T21:02:42+10:00",
+                "id": "ESTA:200923538",
+                "location": "Melbourne, Melbourne",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95934202835423,
+                    -37.8120259019159
                 ]
             }
         },
@@ -11029,45 +11098,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Melbourne",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-09-23T20:55:27+10:00",
-                "updated": "2020-09-23T20:55:27+10:00",
-                "id": "ESTA:200923538",
-                "location": "Melbourne, Melbourne",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95934202835423,
-                    -37.8120259019159
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
+                "category": "tree down",
+                "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-09-23T19:52:00+10:00",
-                "updated": "2020-09-23T20:44:00+10:00",
-                "id": "ESTA:200952145",
-                "location": "South Melbourne",
-                "title": "incident: flooding"
+                "created": "2020-09-23T20:52:00+10:00",
+                "updated": "2020-09-23T21:02:00+10:00",
+                "id": "ESTA:200952148",
+                "location": "Narbethong",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94924280000035,
-                    -37.830199685244466
+                    145.63897957740403,
+                    -37.572011018470896
                 ]
             }
         },

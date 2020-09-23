@@ -9864,34 +9864,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Healesville",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-09-24T06:00:39+10:00",
-                "updated": "2020-09-24T06:48:31+10:00",
-                "id": "ESTA:200952154",
-                "location": "Healesville",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.51702229813566,
-                    -37.623072649884506
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Campbell Dr",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-09-24T06:49:00+10:00",
-                "updated": "2020-09-24T06:49:00+10:00",
+                "updated": "2020-09-24T07:10:00+10:00",
                 "id": "ESTA:200923596",
                 "location": "Campbell Dr, Cobram",
                 "size": "Small",
@@ -9910,21 +9888,22 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
                 "status": "request for assistance",
-                "created": "2020-09-24T06:50:00+10:00",
-                "updated": "2020-09-24T06:52:00+10:00",
-                "id": "ESTA:200952155",
-                "location": "Ross Creek",
-                "title": "incident: tree down"
+                "created": "2020-09-24T07:09:00+10:00",
+                "updated": "2020-09-24T07:20:00+10:00",
+                "id": "ESTA:200923600",
+                "location": "Wahring",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.72477934939627,
-                    -37.6311049602081
+                    145.2397646087365,
+                    -36.679926835076195
                 ]
             }
         },
@@ -10226,23 +10205,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gellibrand St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-24T06:16:00+10:00",
-                "updated": "2020-09-24T06:19:00+10:00",
-                "id": "ESTA:200923592",
-                "location": "Gellibrand St, Colac",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-09-24T07:17:00+10:00",
+                "updated": "2020-09-24T07:17:00+10:00",
+                "id": "ESTA:200923601",
+                "location": "Wahring",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.5866780023224,
-                    -38.3328495395862
+                    145.24030005469118,
+                    -36.67558113846917
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-24T06:50:00+10:00",
+                "updated": "2020-09-24T07:10:00+10:00",
+                "id": "ESTA:200952155",
+                "location": "Ross Creek",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.72477934939627,
+                    -37.6311049602081
                 ]
             }
         },

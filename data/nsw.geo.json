@@ -30,30 +30,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.97473300000001,
-                    -33.69426599999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bannerman Rd, Glenhaven",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392887",
-                "created": "2020-09-24T02:38:00+10:00",
-                "updated": "2020-09-24T12:38:00+10:00",
-                "location": "Bannerman Rd, Glenhaven, NSW 2156",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Bannerman Rd, Glenhaven, NSW 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Sep 2020 12:38",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.8032107350001,
                     -34.34763488599998
                 ]
@@ -552,8 +528,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.8661340000001,
-                    -32.65275699999995
+                    151.85337066600005,
+                    -32.65960999699996
                 ]
             },
             "properties": {
@@ -561,13 +537,13 @@
                 "sourceTitle": "Pacific Hwy, Twelve Mile Creek",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392884",
-                "created": "2020-09-24T02:14:00+10:00",
-                "updated": "2020-09-24T12:14:00+10:00",
+                "created": "2020-09-24T02:58:00+10:00",
+                "updated": "2020-09-24T12:58:00+10:00",
                 "location": "Pacific Hwy, Twelve Mile Creek, NSW 2324",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Pacific Hwy, Twelve Mile Creek, NSW 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Sep 2020 12:14",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Pacific Hwy, Twelve Mile Creek, NSW 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Sep 2020 12:58",
                 "title": "incident: fire"
             }
         },
@@ -622,10 +598,91 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.5186443330001,
-                    -28.28624260999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.5186443330001,
+                            -28.28624260999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.51801147,
+                                            -28.286871919
+                                        ],
+                                        [
+                                            152.518177301,
+                                            -28.286161217
+                                        ],
+                                        [
+                                            152.523579409,
+                                            -28.286895714
+                                        ],
+                                        [
+                                            152.523079722,
+                                            -28.287228839
+                                        ],
+                                        [
+                                            152.522675214,
+                                            -28.287680936
+                                        ],
+                                        [
+                                            152.522365884,
+                                            -28.288180623
+                                        ],
+                                        [
+                                            152.522056554,
+                                            -28.2884423629999
+                                        ],
+                                        [
+                                            152.521747225,
+                                            -28.288561337
+                                        ],
+                                        [
+                                            152.521485483,
+                                            -28.2886327209999
+                                        ],
+                                        [
+                                            152.521271332,
+                                            -28.28868031
+                                        ],
+                                        [
+                                            152.520962002,
+                                            -28.288823077
+                                        ],
+                                        [
+                                            152.52079544,
+                                            -28.288894461
+                                        ],
+                                        [
+                                            152.519058433,
+                                            -28.287252633
+                                        ],
+                                        [
+                                            152.518772898,
+                                            -28.287086071
+                                        ],
+                                        [
+                                            152.518415979,
+                                            -28.2869908929999
+                                        ],
+                                        [
+                                            152.51801147,
+                                            -28.286871919
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -809,30 +866,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 54 Iluka Rd, Woombah, NSW 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Sep 2020 10:48",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.24059867900007,
-                    -35.92417537199998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jerangle Rd, Bredbo",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392668",
-                "created": "2020-09-24T02:41:00+10:00",
-                "updated": "2020-09-24T12:41:00+10:00",
-                "location": "Jerangle Rd, Bredbo, NSW 2626",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Jerangle Rd, Bredbo, NSW 2626 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Sep 2020 12:41",
-                "title": "incident: fire"
             }
         },
         {

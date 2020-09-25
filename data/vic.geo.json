@@ -75,76 +75,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            145.15313243814825,
-                            -37.69587142594817
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    145.15420532175708,
-                                    -37.6957695581746
-                                ],
-                                [
-                                    145.15380004423074,
-                                    -37.69519910313895
-                                ],
-                                [
-                                    145.15300369211556,
-                                    -37.69502248791446
-                                ],
-                                [
-                                    145.15228275768024,
-                                    -37.69534317386669
-                                ],
-                                [
-                                    145.15205955453942,
-                                    -37.69597330330211
-                                ],
-                                [
-                                    145.1524648320658,
-                                    -37.69654375238114
-                                ],
-                                [
-                                    145.15326118418093,
-                                    -37.69672036398189
-                                ],
-                                [
-                                    145.15398211861626,
-                                    -37.696399683986286
-                                ],
-                                [
-                                    145.15420532175708,
-                                    -37.6957695581746
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Advice",
-                "category": "advice",
-                "subcategory": "fire",
-                "status": "minor",
-                "created": "2020-09-25T14:21:48+10:00",
-                "updated": "2020-09-25T14:21:37+10:00",
-                "id": "14543",
-                "location": "Eltham",
-                "title": "warning: advice"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             143.86349418999998,
                             -37.852252289999996
                         ]
@@ -7769,6 +7699,76 @@
         },
         {
             "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.15313243814825,
+                            -37.69587142594817
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.15420532175705,
+                                    -37.6957695581746
+                                ],
+                                [
+                                    145.15380004423074,
+                                    -37.69519910313895
+                                ],
+                                [
+                                    145.15300369211556,
+                                    -37.69502248791446
+                                ],
+                                [
+                                    145.15228275768027,
+                                    -37.69534317386669
+                                ],
+                                [
+                                    145.15205955453942,
+                                    -37.69597330330211
+                                ],
+                                [
+                                    145.1524648320658,
+                                    -37.69654375238114
+                                ],
+                                [
+                                    145.15326118418093,
+                                    -37.69672036398189
+                                ],
+                                [
+                                    145.15398211861626,
+                                    -37.696399683986286
+                                ],
+                                [
+                                    145.15420532175705,
+                                    -37.6957695581746
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "All Clear",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "all clear",
+                "created": "2020-09-25T16:21:05+10:00",
+                "updated": "2020-09-25T16:20:54+10:00",
+                "id": "14545",
+                "location": "Eltham",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
             "properties": {
                 "feedType": "warning",
                 "sourceTitle": "Advice",
@@ -9957,23 +9957,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lalors Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-09-25T16:03:00+10:00",
-                "updated": "2020-09-25T16:03:00+10:00",
-                "id": "ESTA:200924733",
-                "location": "Lalors Rd, Healesville",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-09-25T14:59:00+10:00",
+                "updated": "2020-09-25T16:17:00+10:00",
+                "id": "ESTA:200952238",
+                "location": "Montmorency",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.51597493760556,
-                    -37.66195348781696
+                    145.12387542089078,
+                    -37.70944891915155
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-09-25T14:47:00+10:00",
+                "updated": "2020-09-25T16:18:00+10:00",
+                "id": "ESTA:200952237",
+                "location": "Mount Martha",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02132813605027,
+                    -38.27603435476038
                 ]
             }
         },
@@ -11960,23 +11981,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bethany Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-09-25T15:47:00+10:00",
-                "updated": "2020-09-25T15:47:00+10:00",
-                "id": "ESTA:200924728",
-                "location": "Bethany Rd, Hoppers Crossing",
+                "sourceTitle": "Lalors Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-25T16:03:00+10:00",
+                "updated": "2020-09-25T16:20:00+10:00",
+                "id": "ESTA:200924733",
+                "location": "Lalors Rd, Healesville",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.67112784736793,
-                    -37.85346610809089
+                    145.51597493760556,
+                    -37.66195348781696
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Marysville-Woods Point Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-25T15:43:00+10:00",
+                "updated": "2020-09-25T16:10:00+10:00",
+                "id": "ESTA:200924727",
+                "location": "Marysville-Woods Point Rd, Marysville",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.8223714326994,
+                    -37.53066627231122
                 ]
             }
         },
@@ -12000,29 +12044,6 @@
                 "coordinates": [
                     144.93097980224468,
                     -37.62982305476919
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "request for assistance",
-                "created": "2020-09-25T15:43:00+10:00",
-                "updated": "2020-09-25T16:00:00+10:00",
-                "id": "ESTA:200924727",
-                "location": "Marysville",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.8223714326994,
-                    -37.53066627231122
                 ]
             }
         },
@@ -12075,75 +12096,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dunn St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-25T15:01:00+10:00",
-                "updated": "2020-09-25T15:17:00+10:00",
-                "id": "ESTA:200924712",
-                "location": "Dunn St, Wonthaggi",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.58953042445086,
-                    -38.61319303940029
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-25T14:30:00+10:00",
-                "updated": "2020-09-25T15:17:00+10:00",
-                "id": "ESTA:200924696",
-                "location": "Emerald",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.46472523726084,
-                    -37.946972125945315
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hilltop Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-25T15:15:00+10:00",
-                "updated": "2020-09-25T15:17:00+10:00",
-                "id": "ESTA:200924713",
-                "location": "Hilltop Rd, Upper Ferntree Gully",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.30547910708884,
-                    -37.89086680356542
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Dandallo Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -12190,12 +12142,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Aughtie Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-25T16:23:59+10:00",
+                "updated": "2020-09-25T16:23:59+10:00",
+                "id": "ESTA:200924741",
+                "location": "Aughtie Dr, Albert Park",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96679938358685,
+                    -37.84736535484337
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "flooding",
                 "subcategory": "flooding",
                 "status": "request for assistance",
                 "created": "2020-09-25T15:47:00+10:00",
-                "updated": "2020-09-25T15:52:00+10:00",
+                "updated": "2020-09-25T16:16:00+10:00",
                 "id": "ESTA:200952242",
                 "location": "Capel Sound",
                 "title": "incident: flooding"
@@ -12217,7 +12192,7 @@
                 "subcategory": "building damage",
                 "status": "request for assistance",
                 "created": "2020-09-25T15:46:00+10:00",
-                "updated": "2020-09-25T15:51:00+10:00",
+                "updated": "2020-09-25T16:08:00+10:00",
                 "id": "ESTA:200952241",
                 "location": "Skye",
                 "title": "incident: building damage"
@@ -12228,50 +12203,6 @@
                 "coordinates": [
                     145.20035085486583,
                     -38.09155853506145
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-25T14:59:00+10:00",
-                "updated": "2020-09-25T15:26:00+10:00",
-                "id": "ESTA:200952238",
-                "location": "Montmorency",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12387542089078,
-                    -37.70944891915155
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-09-25T14:47:00+10:00",
-                "updated": "2020-09-25T15:23:00+10:00",
-                "id": "ESTA:200952237",
-                "location": "Mount Martha",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02132813605027,
-                    -38.27603435476038
                 ]
             }
         },

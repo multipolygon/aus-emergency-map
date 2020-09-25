@@ -269,13 +269,13 @@
                 "sourceTitle": "Deep Creek",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392994",
-                "created": "2020-09-25T04:07:00+10:00",
-                "updated": "2020-09-25T14:07:00+10:00",
+                "created": "2020-09-25T05:15:00+10:00",
+                "updated": "2020-09-25T15:15:00+10:00",
                 "location": "Deep Creek Road, Mallanganee",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Deep Creek Road, Mallanganee <br />COUNCIL AREA: Kyogle <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 25 Sep 2020 14:07",
+                "size": 18,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Deep Creek Road, Mallanganee <br />COUNCIL AREA: Kyogle <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 18 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 25 Sep 2020 15:15",
                 "title": "incident: fire"
             }
         },
@@ -356,6 +356,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.51501500000006,
+                    -31.402641999999958
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gulargambone Rd, Gulargambone",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393056",
+                "created": "2020-09-25T08:21:00+10:00",
+                "updated": "2020-09-25T18:21:00+10:00",
+                "location": "Gulargambone Rd, Gulargambone, NSW 2828",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Gulargambone Rd, Gulargambone, NSW 2828 <br />COUNCIL AREA: Coonamble <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 18:21",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.1563262940001,
                     -35.908517778999965
                 ]
@@ -396,30 +420,6 @@
                 "location": "278 hermitage road, kurrajong hills",
                 "size": 404,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 278 hermitage road, kurrajong hills <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 404 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 14:57",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.04072800000006,
-                    -33.69168799999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Odette Rd, Dural",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393039",
-                "created": "2020-09-25T06:56:00+10:00",
-                "updated": "2020-09-25T16:56:00+10:00",
-                "location": "Odette Rd, Dural, NSW 2158",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Odette Rd, Dural, NSW 2158 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 16:56",
                 "title": "incident: fire"
             }
         },
@@ -604,11 +604,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392891",
-                "created": "2020-09-25T01:40:00+10:00",
-                "updated": "2020-09-25T11:40:00+10:00",
+                "created": "2020-09-25T08:05:00+10:00",
+                "updated": "2020-09-25T18:05:00+10:00",
                 "location": "408 Shannondale Rd, Shannondale, NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 408 Shannondale Rd, Shannondale, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 11:40",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 408 Shannondale Rd, Shannondale, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 18:05",
                 "title": "incident: fire"
             }
         },
@@ -705,6 +705,69 @@
                                         [
                                             153.044948316,
                                             -30.0433667629999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.048628871,
+                                            -30.03827288
+                                        ],
+                                        [
+                                            153.045472913,
+                                            -30.0399677189999
+                                        ],
+                                        [
+                                            153.045144081,
+                                            -30.0399678319999
+                                        ],
+                                        [
+                                            153.045301556,
+                                            -30.0391667
+                                        ],
+                                        [
+                                            153.045248528,
+                                            -30.0382511989999
+                                        ],
+                                        [
+                                            153.045734791,
+                                            -30.037381287
+                                        ],
+                                        [
+                                            153.046247378,
+                                            -30.0365685859999
+                                        ],
+                                        [
+                                            153.04664177,
+                                            -30.036156462
+                                        ],
+                                        [
+                                            153.047220285,
+                                            -30.0357213839999
+                                        ],
+                                        [
+                                            153.047956754,
+                                            -30.0355494569999
+                                        ],
+                                        [
+                                            153.048996002,
+                                            -30.0359267269999
+                                        ],
+                                        [
+                                            153.049456637,
+                                            -30.036510198
+                                        ],
+                                        [
+                                            153.049259697,
+                                            -30.037219799
+                                        ],
+                                        [
+                                            153.048628871,
+                                            -30.03827288
                                         ]
                                     ]
                                 ]
@@ -820,69 +883,6 @@
                                         [
                                             153.083292567,
                                             -30.030482225
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            153.048628871,
-                                            -30.03827288
-                                        ],
-                                        [
-                                            153.045472913,
-                                            -30.0399677189999
-                                        ],
-                                        [
-                                            153.045144081,
-                                            -30.0399678319999
-                                        ],
-                                        [
-                                            153.045301556,
-                                            -30.0391667
-                                        ],
-                                        [
-                                            153.045248528,
-                                            -30.0382511989999
-                                        ],
-                                        [
-                                            153.045734791,
-                                            -30.037381287
-                                        ],
-                                        [
-                                            153.046247378,
-                                            -30.0365685859999
-                                        ],
-                                        [
-                                            153.04664177,
-                                            -30.036156462
-                                        ],
-                                        [
-                                            153.047220285,
-                                            -30.0357213839999
-                                        ],
-                                        [
-                                            153.047956754,
-                                            -30.0355494569999
-                                        ],
-                                        [
-                                            153.048996002,
-                                            -30.0359267269999
-                                        ],
-                                        [
-                                            153.049456637,
-                                            -30.036510198
-                                        ],
-                                        [
-                                            153.049259697,
-                                            -30.037219799
-                                        ],
-                                        [
-                                            153.048628871,
-                                            -30.03827288
                                         ]
                                     ]
                                 ]
@@ -1033,11 +1033,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392961",
-                "created": "2020-09-25T04:21:00+10:00",
-                "updated": "2020-09-25T14:21:00+10:00",
+                "created": "2020-09-25T08:06:00+10:00",
+                "updated": "2020-09-25T18:06:00+10:00",
                 "location": "1828 Sherwood Creek Rd, Sherwood, NSW 2450",
                 "size": 164,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1828 Sherwood Creek Rd, Sherwood, NSW 2450 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 164 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 14:21",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1828 Sherwood Creek Rd, Sherwood, NSW 2450 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 164 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 18:06",
                 "title": "incident: fire"
             }
         },
@@ -1607,13 +1607,13 @@
                 "sourceTitle": "Bobs Range Rd, Orangeville",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393043",
-                "created": "2020-09-25T07:35:00+10:00",
-                "updated": "2020-09-25T17:35:00+10:00",
+                "created": "2020-09-25T07:54:00+10:00",
+                "updated": "2020-09-25T17:54:00+10:00",
                 "location": "120 Bobs Range Rd, Orangeville, NSW 2570",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 120 Bobs Range Rd, Orangeville, NSW 2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 17:35",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 120 Bobs Range Rd, Orangeville, NSW 2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 17:54",
                 "title": "incident: other"
             }
         },
@@ -1711,30 +1711,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 147 Gambleys Rd, Haystack, NSW 2469 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 15:32",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.8733820010001,
-                    -34.05366499999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Georges River Rd, Kentlyn",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393020",
-                "created": "2020-09-25T05:56:00+10:00",
-                "updated": "2020-09-25T15:56:00+10:00",
-                "location": "Georges River Rd, Kentlyn, NSW 2560",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Georges River Rd, Kentlyn, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 15:56",
-                "title": "incident: other"
             }
         },
         {
@@ -1846,14 +1822,38 @@
                 "feedType": "incident",
                 "sourceTitle": "Mcauleys Lane, Myocum",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "burn off",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393053",
-                "created": "2020-09-25T07:48:00+10:00",
-                "updated": "2020-09-25T17:48:00+10:00",
+                "created": "2020-09-25T08:21:00+10:00",
+                "updated": "2020-09-25T18:21:00+10:00",
                 "location": "Mcauleys Lane, Myocum, NSW 2481",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mcauleys Lane, Myocum, NSW 2481 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 17:48",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mcauleys Lane, Myocum, NSW 2481 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 18:21",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.55524400000002,
+                    -33.11053999999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mirrabooka Rd, Mirrabooka",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393057",
+                "created": "2020-09-25T08:12:00+10:00",
+                "updated": "2020-09-25T18:12:00+10:00",
+                "location": "6 Mirrabooka Rd, Mirrabooka, NSW 2264",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6 Mirrabooka Rd, Mirrabooka, NSW 2264 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 18:12",
                 "title": "incident: fire"
             }
         },
@@ -1944,12 +1944,12 @@
                 "category": "other",
                 "subcategory": "fire alarm",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393031",
-                "created": "2020-09-25T06:34:00+10:00",
-                "updated": "2020-09-25T16:34:00+10:00",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393044",
+                "created": "2020-09-25T07:04:00+10:00",
+                "updated": "2020-09-25T17:04:00+10:00",
                 "location": "159 Rooty Hill Rd, Eastern Creek,  2766",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 159 Rooty Hill Rd, Eastern Creek,  2766 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 16:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 159 Rooty Hill Rd, Eastern Creek,  2766 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 17:04",
                 "title": "incident: other"
             }
         },
@@ -1968,12 +1968,12 @@
                 "category": "other",
                 "subcategory": "fire alarm",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393044",
-                "created": "2020-09-25T07:04:00+10:00",
-                "updated": "2020-09-25T17:04:00+10:00",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393031",
+                "created": "2020-09-25T06:34:00+10:00",
+                "updated": "2020-09-25T16:34:00+10:00",
                 "location": "159 Rooty Hill Rd, Eastern Creek,  2766",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 159 Rooty Hill Rd, Eastern Creek,  2766 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 17:04",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 159 Rooty Hill Rd, Eastern Creek,  2766 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 16:34",
                 "title": "incident: other"
             }
         },
@@ -2030,30 +2030,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.88169200000004,
-                    -33.850288999999975
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Toohey Rd, Wetherill Park",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393036",
-                "created": "2020-09-25T06:54:00+10:00",
-                "updated": "2020-09-25T16:54:00+10:00",
-                "location": "15 Toohey Rd, Wetherill Park, NSW 2164",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 15 Toohey Rd, Wetherill Park, NSW 2164 <br />COUNCIL AREA: Fairfield <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Sep 2020 16:54",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.82145800000012,
                     -33.93278099999998
                 ]
@@ -2070,6 +2046,30 @@
                 "location": "Twenty Ninth Av, Austral, NSW 2179",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Twenty Ninth Av, Austral, NSW 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 16:38",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.77651000000003,
+                    -33.785109999999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Western Mtwy, St Clair",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393060",
+                "created": "2020-09-25T08:24:00+10:00",
+                "updated": "2020-09-25T18:24:00+10:00",
+                "location": "Western Mtwy, St Clair, NSW 2759",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Western Mtwy, St Clair, NSW 2759 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Sep 2020 18:24",
                 "title": "incident: other"
             }
         },

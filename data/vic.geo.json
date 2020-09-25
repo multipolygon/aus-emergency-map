@@ -9864,12 +9864,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Strathallan Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-09-25T23:07:00+10:00",
+                "updated": "2020-09-25T23:31:00+10:00",
+                "id": "ESTA:200924835",
+                "location": "Strathallan Rd, Strathallan",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74161956943306,
+                    -36.25812946043842
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Appenzeller Dr",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-09-25T23:24:52+10:00",
-                "updated": "2020-09-25T23:24:52+10:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-09-25T23:39:37+10:00",
+                "updated": "2020-09-25T23:39:37+10:00",
                 "id": "ESTA:200924838",
                 "location": "Appenzeller Dr, Clyde North",
                 "size": "Small",
@@ -9881,6 +9904,29 @@
                 "coordinates": [
                     145.33477762370768,
                     -38.10063644446495
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glen Waverley",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-09-25T23:42:13+10:00",
+                "updated": "2020-09-25T23:42:13+10:00",
+                "id": "ESTA:200924839",
+                "location": "Glen Waverley, Glen Waverley",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1641391387273,
+                    -37.88889225167712
                 ]
             }
         },
@@ -11177,39 +11223,16 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Strathallan Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-09-25T23:07:00+10:00",
-                "updated": "2020-09-25T23:07:00+10:00",
-                "id": "ESTA:200924835",
-                "location": "Strathallan Rd, Strathallan",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.74161956943306,
-                    -36.25812946043842
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Poorneet Station Rd",
-                "category": "fire",
+                "category": "other",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-09-25T22:52:00+10:00",
-                "updated": "2020-09-25T22:52:00+10:00",
+                "updated": "2020-09-25T23:34:00+10:00",
                 "id": "ESTA:200924834",
                 "location": "Poorneet Station Rd, Barunah Plains",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -11270,15 +11293,15 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Brunswick Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-09-25T23:21:09+10:00",
-                "updated": "2020-09-25T23:21:09+10:00",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-09-25T23:30:19+10:00",
+                "updated": "2020-09-25T23:30:19+10:00",
                 "id": "ESTA:200924836",
                 "location": "Brunswick Rd, Mitcham",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {

@@ -293,13 +293,13 @@
                 "sourceTitle": "Donald Rd, Armidale",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392999",
-                "created": "2020-09-25T04:36:00+10:00",
-                "updated": "2020-09-25T14:36:00+10:00",
+                "created": "2020-09-25T04:57:00+10:00",
+                "updated": "2020-09-25T14:57:00+10:00",
                 "location": "Donald Rd, Armidale, NSW 2350",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Donald Rd, Armidale, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 14:36",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Donald Rd, Armidale, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 14:57",
                 "title": "incident: fire"
             }
         },
@@ -627,6 +627,45 @@
                                 "coordinates": [
                                     [
                                         [
+                                            153.044948316,
+                                            -30.0433667629999
+                                        ],
+                                        [
+                                            153.044790497,
+                                            -30.043424036
+                                        ],
+                                        [
+                                            153.044461563,
+                                            -30.043218157
+                                        ],
+                                        [
+                                            153.04425082,
+                                            -30.042577364
+                                        ],
+                                        [
+                                            153.044842555,
+                                            -30.042188069
+                                        ],
+                                        [
+                                            153.045329228,
+                                            -30.042165014
+                                        ],
+                                        [
+                                            153.045421626,
+                                            -30.0428745089999
+                                        ],
+                                        [
+                                            153.044948316,
+                                            -30.0433667629999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             153.048628871,
                                             -30.03827288
                                         ],
@@ -681,45 +720,6 @@
                                         [
                                             153.048628871,
                                             -30.03827288
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            153.044948316,
-                                            -30.0433667629999
-                                        ],
-                                        [
-                                            153.044790497,
-                                            -30.043424036
-                                        ],
-                                        [
-                                            153.044461563,
-                                            -30.043218157
-                                        ],
-                                        [
-                                            153.04425082,
-                                            -30.042577364
-                                        ],
-                                        [
-                                            153.044842555,
-                                            -30.042188069
-                                        ],
-                                        [
-                                            153.045329228,
-                                            -30.042165014
-                                        ],
-                                        [
-                                            153.045421626,
-                                            -30.0428745089999
-                                        ],
-                                        [
-                                            153.044948316,
-                                            -30.0433667629999
                                         ]
                                     ]
                                 ]
@@ -1190,10 +1190,167 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.54777500000012,
-                    -28.62512399999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.55565391300001,
+                            -28.621717003999947
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.553707669,
+                                            -28.622746998
+                                        ],
+                                        [
+                                            152.553597,
+                                            -28.6227939999999
+                                        ],
+                                        [
+                                            152.553584529,
+                                            -28.622610322
+                                        ],
+                                        [
+                                            152.553642956,
+                                            -28.6224584989999
+                                        ],
+                                        [
+                                            152.553748557,
+                                            -28.62230446
+                                        ],
+                                        [
+                                            152.553883267,
+                                            -28.6221848339999
+                                        ],
+                                        [
+                                            152.553959832,
+                                            -28.6221096799999
+                                        ],
+                                        [
+                                            152.554177847,
+                                            -28.621914585
+                                        ],
+                                        [
+                                            152.554355499,
+                                            -28.621834684
+                                        ],
+                                        [
+                                            152.554589218,
+                                            -28.6217879289999
+                                        ],
+                                        [
+                                            152.554909829,
+                                            -28.621725167
+                                        ],
+                                        [
+                                            152.555399557,
+                                            -28.6215530859999
+                                        ],
+                                        [
+                                            152.555802392,
+                                            -28.6213970119999
+                                        ],
+                                        [
+                                            152.55616551,
+                                            -28.6212547279999
+                                        ],
+                                        [
+                                            152.556457724,
+                                            -28.6211694429999
+                                        ],
+                                        [
+                                            152.55677897,
+                                            -28.6210052719999
+                                        ],
+                                        [
+                                            152.557040639,
+                                            -28.620861787
+                                        ],
+                                        [
+                                            152.557343461,
+                                            -28.6207282949999
+                                        ],
+                                        [
+                                            152.557613301,
+                                            -28.620608279
+                                        ],
+                                        [
+                                            152.557818624,
+                                            -28.620538999
+                                        ],
+                                        [
+                                            152.557926449,
+                                            -28.6205339329999
+                                        ],
+                                        [
+                                            152.558008001,
+                                            -28.6205820009999
+                                        ],
+                                        [
+                                            152.55785017,
+                                            -28.620695193
+                                        ],
+                                        [
+                                            152.55781,
+                                            -28.6207240009999
+                                        ],
+                                        [
+                                            152.557341999,
+                                            -28.621135001
+                                        ],
+                                        [
+                                            152.556802,
+                                            -28.6215460019999
+                                        ],
+                                        [
+                                            152.556503288,
+                                            -28.621692429
+                                        ],
+                                        [
+                                            152.55619,
+                                            -28.6218459999999
+                                        ],
+                                        [
+                                            152.555961464,
+                                            -28.621927327
+                                        ],
+                                        [
+                                            152.555524,
+                                            -28.622083001
+                                        ],
+                                        [
+                                            152.555069402,
+                                            -28.6222380419999
+                                        ],
+                                        [
+                                            152.554876,
+                                            -28.6223039999999
+                                        ],
+                                        [
+                                            152.554650422,
+                                            -28.6223812819999
+                                        ],
+                                        [
+                                            152.554228,
+                                            -28.622526001
+                                        ],
+                                        [
+                                            152.553707669,
+                                            -28.622746998
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1264,8 +1421,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.37230300900012,
-                    -30.77355146399998
+                    152.35805511400008,
+                    -30.758948766999936
                 ]
             },
             "properties": {
@@ -1277,9 +1434,9 @@
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393005",
                 "created": "2020-09-25T04:56:00+10:00",
                 "updated": "2020-09-25T14:56:00+10:00",
-                "location": "Armidale Rd, Bellbrook,  2440",
+                "location": "Armidale Rd, Comara",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Armidale Rd, Bellbrook,  2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 14:56",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Armidale Rd, Comara <br />COUNCIL AREA: Armidale <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 14:56",
                 "title": "incident: fire"
             }
         },
@@ -1521,30 +1678,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: St Marys Rd, Berkshire Park, NSW 2765 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 14:36",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.21450000000004,
-                    -36.72686999999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "The Snowy River Way, Jincumbilly",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/392995",
-                "created": "2020-09-25T04:10:00+10:00",
-                "updated": "2020-09-25T14:10:00+10:00",
-                "location": "400 The Snowy River Way, Jincumbilly,  2631",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 400 The Snowy River Way, Jincumbilly,  2631 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Sep 2020 14:10",
-                "title": "incident: other"
             }
         }
     ]

@@ -9864,80 +9864,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "complete",
-                "created": "2020-09-26T15:24:00+10:00",
-                "updated": "2020-09-26T16:13:00+10:00",
-                "id": "ESTA:200925246",
-                "location": "Inglewood",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.87151340346898,
-                    -36.582345456582644
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-09-26T16:01:00+10:00",
-                "updated": "2020-09-26T16:15:00+10:00",
-                "id": "ESTA:200952352",
-                "location": "Keilor",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.82201595801797,
-                    -37.72026207534331
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Esplanade -",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-09-26T16:25:32+10:00",
-                "updated": "2020-09-26T16:25:32+10:00",
-                "id": "ESTA:200925288",
-                "location": "Esplanade -, Altona",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.83006979789502,
-                    -37.87068439525182
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Taylors Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-09-26T16:24:42+10:00",
-                "updated": "2020-09-26T16:24:42+10:00",
+                "status": "safe",
+                "created": "2020-09-26T16:29:47+10:00",
+                "updated": "2020-09-26T16:29:47+10:00",
                 "id": "ESTA:200925287",
                 "location": "Taylors Rd, Keilor Downs",
                 "size": "Small",
@@ -9949,6 +9881,74 @@
                 "coordinates": [
                     144.80738264927447,
                     -37.72856066525647
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bourke St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-09-26T16:30:03+10:00",
+                "updated": "2020-09-26T16:30:03+10:00",
+                "id": "ESTA:200925291",
+                "location": "Bourke St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9699948703737,
+                    -37.8120290384902
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-26T16:33:00+10:00",
+                "updated": "2020-09-26T16:32:34+10:00",
+                "id": "ESTA:200952357",
+                "location": "Leongatha South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.83415006457594,
+                    -38.521498811137484
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Richardson Dr",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-09-26T16:33:02+10:00",
+                "updated": "2020-09-26T16:33:02+10:00",
+                "id": "ESTA:200925292",
+                "location": "Richardson Dr, Mornington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0515386471219,
+                    -38.22907503179302
                 ]
             }
         },
@@ -12325,6 +12325,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-09-26T15:24:00+10:00",
+                "updated": "2020-09-26T16:03:00+10:00",
+                "id": "ESTA:200925246",
+                "location": "Inglewood",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.87151340346898,
+                    -36.582345456582644
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Clayton Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -12348,23 +12371,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dennis St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-09-26T16:11:01+10:00",
-                "updated": "2020-09-26T16:11:01+10:00",
-                "id": "ESTA:200925271",
-                "location": "Dennis St, Croydon",
+                "sourceTitle": "Esplanade -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-26T16:25:32+10:00",
+                "updated": "2020-09-26T16:25:32+10:00",
+                "id": "ESTA:200925288",
+                "location": "Esplanade -, Altona",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30277991862687,
-                    -37.78147579331473
+                    144.83006979789502,
+                    -37.87068439525182
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-26T16:01:00+10:00",
+                "updated": "2020-09-26T16:29:00+10:00",
+                "id": "ESTA:200952353",
+                "location": "Brighton",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98955799495405,
+                    -37.92416622869691
                 ]
             }
         },
@@ -12497,28 +12542,6 @@
                 "coordinates": [
                     145.18558695329224,
                     -37.826905658208624
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-09-26T16:01:00+10:00",
-                "updated": "2020-09-26T16:04:00+10:00",
-                "id": "ESTA:200952353",
-                "location": "Brighton",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98955799495405,
-                    -37.92416622869691
                 ]
             }
         },

@@ -10700,23 +10700,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "complete",
-                "created": "2020-09-28T01:32:00+10:00",
-                "updated": "2020-09-28T02:39:00+10:00",
-                "id": "ESTA:200926390",
-                "location": "Woodvale",
+                "sourceTitle": "Elizabeth St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-09-28T03:00:37+10:00",
+                "updated": "2020-09-28T03:00:37+10:00",
+                "id": "ESTA:200926393",
+                "location": "Elizabeth St, Melbourne",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.2046864518228,
-                    -36.69050724299908
+                    144.96104711258823,
+                    -37.80904413866435
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murray Valley Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-28T02:57:00+10:00",
+                "updated": "2020-09-28T03:00:00+10:00",
+                "id": "ESTA:200926395",
+                "location": "Murray Valley Hwy, Patho",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.4050891236514,
+                    -35.991564203445265
                 ]
             }
         },
@@ -10739,29 +10762,6 @@
                 "coordinates": [
                     145.709173001,
                     -35.9142189999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elizabeth St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-09-28T02:41:00+10:00",
-                "updated": "2020-09-28T02:41:00+10:00",
-                "id": "ESTA:200926393",
-                "location": "Elizabeth St, Melbourne",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.96104711258823,
-                    -37.80904413866435
                 ]
             }
         },

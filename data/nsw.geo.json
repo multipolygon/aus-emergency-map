@@ -516,6 +516,33 @@
                                 "coordinates": [
                                     [
                                         [
+                                            152.705824255,
+                                            -28.9610597399999
+                                        ],
+                                        [
+                                            152.705824255,
+                                            -28.9610359449999
+                                        ],
+                                        [
+                                            152.710773534,
+                                            -28.9612857889999
+                                        ],
+                                        [
+                                            152.711927573,
+                                            -28.961773579
+                                        ],
+                                        [
+                                            152.705824255,
+                                            -28.9610597399999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             152.705610104,
                                             -28.958240079
                                         ],
@@ -570,33 +597,6 @@
                                         [
                                             152.705610104,
                                             -28.958240079
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.705824255,
-                                            -28.9610597399999
-                                        ],
-                                        [
-                                            152.705824255,
-                                            -28.9610359449999
-                                        ],
-                                        [
-                                            152.710773534,
-                                            -28.9612857889999
-                                        ],
-                                        [
-                                            152.711927573,
-                                            -28.961773579
-                                        ],
-                                        [
-                                            152.705824255,
-                                            -28.9610597399999
                                         ]
                                     ]
                                 ]
@@ -1191,6 +1191,54 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.77512788800004,
+                    -31.38379382399995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PENNEY'S RD PEMBROOKE",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393350",
+                "created": "2020-09-27T09:24:00+10:00",
+                "updated": "2020-09-27T19:24:00+10:00",
+                "location": "PENNEYS RD, PEMBROOKE, NSW 2446",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: PENNEYS RD, PEMBROOKE, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Sep 2020 19:24",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.33906507500012,
+                    -28.872318091999944
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Red Rock Rd, Boorook",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393343",
+                "created": "2020-09-27T08:06:00+10:00",
+                "updated": "2020-09-27T18:06:00+10:00",
+                "location": "554 Red Rock Rd, Boorook, NSW 2372",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 554 Red Rock Rd, Boorook, NSW 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Sep 2020 18:06",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -1484,30 +1532,6 @@
                 "location": "614 Red Rock Rd, Boorook, NSW 2372",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 614 Red Rock Rd, Boorook, NSW 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Sep 2020 15:18",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.33906507500012,
-                    -28.872318091999944
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Red Rock Rd, Boorook",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393343",
-                "created": "2020-09-27T08:06:00+10:00",
-                "updated": "2020-09-27T18:06:00+10:00",
-                "location": "554 Red Rock Rd, Boorook, NSW 2372",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 554 Red Rock Rd, Boorook, NSW 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Sep 2020 18:06",
                 "title": "incident: fire"
             }
         },
@@ -2411,30 +2435,6 @@
                 "location": "Baffle Rd, Dalmorton, NSW 2460",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Baffle Rd, Dalmorton, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 27 Sep 2020 17:02",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.8336779990001,
-                    -29.477454999999964
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Barwon Av, Moree",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393347",
-                "created": "2020-09-27T09:18:00+10:00",
-                "updated": "2020-09-27T19:18:00+10:00",
-                "location": "11 Barwon Av, Moree, NSW 2400",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 11 Barwon Av, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 27 Sep 2020 19:18",
                 "title": "incident: fire"
             }
         },

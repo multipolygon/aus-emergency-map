@@ -493,8 +493,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.64647579200005,
-                    -29.591520509999953
+                    151.64849281300008,
+                    -29.594504164999933
                 ]
             },
             "properties": {
@@ -504,11 +504,35 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393391",
-                "created": "2020-09-28T00:36:00+10:00",
-                "updated": "2020-09-28T10:36:00+10:00",
+                "created": "2020-09-28T06:11:00+10:00",
+                "updated": "2020-09-28T16:11:00+10:00",
                 "location": "Reedy Creek Road Reddestone",
                 "size": 9,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Reedy Creek Road Reddestone <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 9 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 10:36",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Reedy Creek Road Reddestone <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 9 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 16:11",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.65450700000008,
+                    -33.57914699999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grose Vale Rd, Grose Vale",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393427",
+                "created": "2020-09-28T06:01:00+10:00",
+                "updated": "2020-09-28T16:01:00+10:00",
+                "location": "549 Grose Vale Rd, Grose Vale, NSW 2753",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 549 Grose Vale Rd, Grose Vale, NSW 2753 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 16:01",
                 "title": "incident: fire"
             }
         },
@@ -533,30 +557,6 @@
                 "location": "Otford Road Otford",
                 "size": 10,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Otford Road Otford <br />COUNCIL AREA: Wollongong <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 09:35",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.3349280000001,
-                    -32.34074799999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hubbards Rd N, Topi Topi",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393144",
-                "created": "2020-09-28T05:56:00+10:00",
-                "updated": "2020-09-28T15:56:00+10:00",
-                "location": "322/Hubbards Rd N, Topi Topi, NSW 2423",
-                "size": 8,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 322/Hubbards Rd N, Topi Topi, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 15:56",
                 "title": "incident: fire"
             }
         },
@@ -844,10 +844,83 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.3428630830001,
-                    -28.868503562999933
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.3570637061665,
+                            -28.8772647865815
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.333524888,
+                                            -28.8794003529999
+                                        ],
+                                        [
+                                            152.333524888,
+                                            -28.8793765579999
+                                        ],
+                                        [
+                                            152.333643861,
+                                            -28.8791505099999
+                                        ],
+                                        [
+                                            152.33400078,
+                                            -28.879352764
+                                        ],
+                                        [
+                                            152.334167343,
+                                            -28.879781066
+                                        ],
+                                        [
+                                            152.334429083,
+                                            -28.880911311
+                                        ],
+                                        [
+                                            152.334595645,
+                                            -28.8817441219999
+                                        ],
+                                        [
+                                            152.334322008,
+                                            -28.882838674
+                                        ],
+                                        [
+                                            152.334226829,
+                                            -28.8838261509999
+                                        ],
+                                        [
+                                            152.334440981,
+                                            -28.8844923999999
+                                        ],
+                                        [
+                                            152.334333905,
+                                            -28.8846351669999
+                                        ],
+                                        [
+                                            152.333715245,
+                                            -28.8836833829999
+                                        ],
+                                        [
+                                            152.334060267,
+                                            -28.881470484
+                                        ],
+                                        [
+                                            152.333524888,
+                                            -28.8794003529999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1174,69 +1247,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.048628871,
-                                            -30.03827288
-                                        ],
-                                        [
-                                            153.045472913,
-                                            -30.0399677189999
-                                        ],
-                                        [
-                                            153.045144081,
-                                            -30.0399678319999
-                                        ],
-                                        [
-                                            153.045301556,
-                                            -30.0391667
-                                        ],
-                                        [
-                                            153.045248528,
-                                            -30.0382511989999
-                                        ],
-                                        [
-                                            153.045734791,
-                                            -30.037381287
-                                        ],
-                                        [
-                                            153.046247378,
-                                            -30.0365685859999
-                                        ],
-                                        [
-                                            153.04664177,
-                                            -30.036156462
-                                        ],
-                                        [
-                                            153.047220285,
-                                            -30.0357213839999
-                                        ],
-                                        [
-                                            153.047956754,
-                                            -30.0355494569999
-                                        ],
-                                        [
-                                            153.048996002,
-                                            -30.0359267269999
-                                        ],
-                                        [
-                                            153.049456637,
-                                            -30.036510198
-                                        ],
-                                        [
-                                            153.049259697,
-                                            -30.037219799
-                                        ],
-                                        [
-                                            153.048628871,
-                                            -30.03827288
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.083292567,
                                             -30.030482225
                                         ],
@@ -1343,6 +1353,69 @@
                                         [
                                             153.083292567,
                                             -30.030482225
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.048628871,
+                                            -30.03827288
+                                        ],
+                                        [
+                                            153.045472913,
+                                            -30.0399677189999
+                                        ],
+                                        [
+                                            153.045144081,
+                                            -30.0399678319999
+                                        ],
+                                        [
+                                            153.045301556,
+                                            -30.0391667
+                                        ],
+                                        [
+                                            153.045248528,
+                                            -30.0382511989999
+                                        ],
+                                        [
+                                            153.045734791,
+                                            -30.037381287
+                                        ],
+                                        [
+                                            153.046247378,
+                                            -30.0365685859999
+                                        ],
+                                        [
+                                            153.04664177,
+                                            -30.036156462
+                                        ],
+                                        [
+                                            153.047220285,
+                                            -30.0357213839999
+                                        ],
+                                        [
+                                            153.047956754,
+                                            -30.0355494569999
+                                        ],
+                                        [
+                                            153.048996002,
+                                            -30.0359267269999
+                                        ],
+                                        [
+                                            153.049456637,
+                                            -30.036510198
+                                        ],
+                                        [
+                                            153.049259697,
+                                            -30.037219799
+                                        ],
+                                        [
+                                            153.048628871,
+                                            -30.03827288
                                         ]
                                     ]
                                 ]
@@ -1559,11 +1632,35 @@
                 "subcategory": "structure fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393408",
-                "created": "2020-09-28T06:01:00+10:00",
-                "updated": "2020-09-28T16:01:00+10:00",
+                "created": "2020-09-28T06:20:00+10:00",
+                "updated": "2020-09-28T16:20:00+10:00",
                 "location": "13 Coates Rd, Hill Top, NSW 2575",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 Coates Rd, Hill Top, NSW 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 16:01",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 Coates Rd, Hill Top, NSW 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 16:20",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.85022200000003,
+                    -30.647412998999982
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Coronation St, South Arm",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393431",
+                "created": "2020-09-28T06:24:00+10:00",
+                "updated": "2020-09-28T16:24:00+10:00",
+                "location": "Coronation St, South Arm, NSW 2449",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Coronation St, South Arm, NSW 2449 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Sep 2020 16:24",
                 "title": "incident: fire"
             }
         },
@@ -1668,6 +1765,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.72020400000008,
+                    -33.79046299999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Homestead Rd, Orchard Hills",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393423",
+                "created": "2020-09-28T05:50:00+10:00",
+                "updated": "2020-09-28T15:50:00+10:00",
+                "location": "Homestead Rd, Orchard Hills, NSW 2748",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Homestead Rd, Orchard Hills, NSW 2748 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 15:50",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.5838060000001,
                     -35.07938599999994
                 ]
@@ -1725,38 +1846,14 @@
                 "sourceTitle": "Pacific St, Kingscliff",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393428",
-                "created": "2020-09-28T06:02:00+10:00",
-                "updated": "2020-09-28T16:02:00+10:00",
+                "created": "2020-09-28T06:13:00+10:00",
+                "updated": "2020-09-28T16:13:00+10:00",
                 "location": "Pacific St, Kingscliff, NSW 2487",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific St, Kingscliff, NSW 2487 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Sep 2020 16:02",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific St, Kingscliff, NSW 2487 <br />COUNCIL AREA: Tweed <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Sep 2020 16:13",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.49429300000008,
-                    -32.174278999999956
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South St, Tuncurry",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393406",
-                "created": "2020-09-28T02:14:00+10:00",
-                "updated": "2020-09-28T12:14:00+10:00",
-                "location": "Unit 1/27 South St, Tuncurry, NSW 2428",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit 1/27 South St, Tuncurry, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Sep 2020 12:14",
-                "title": "incident: other"
             }
         },
         {

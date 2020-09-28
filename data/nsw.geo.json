@@ -136,13 +136,13 @@
                 "sourceTitle": "Bobs Creek Rd, Herons Creek",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393402",
-                "created": "2020-09-28T02:02:00+10:00",
-                "updated": "2020-09-28T12:02:00+10:00",
+                "created": "2020-09-28T03:09:00+10:00",
+                "updated": "2020-09-28T13:09:00+10:00",
                 "location": "Bobs Creek Rd, Herons Creek, NSW 2443",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Bobs Creek Rd, Herons Creek, NSW 2443 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 12:02",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Bobs Creek Rd, Herons Creek, NSW 2443 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 13:09",
                 "title": "incident: fire"
             }
         },
@@ -406,6 +406,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.32342500100003,
+                    -32.99187699999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Congewai Rd, Congewai",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393411",
+                "created": "2020-09-28T03:07:00+10:00",
+                "updated": "2020-09-28T13:07:00+10:00",
+                "location": "1529 Congewai Rd, Congewai, NSW 2325",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1529 Congewai Rd, Congewai, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 13:07",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -494,6 +518,33 @@
                                 "coordinates": [
                                     [
                                         [
+                                            152.705824255,
+                                            -28.9610597399999
+                                        ],
+                                        [
+                                            152.705824255,
+                                            -28.9610359449999
+                                        ],
+                                        [
+                                            152.710773534,
+                                            -28.9612857889999
+                                        ],
+                                        [
+                                            152.711927573,
+                                            -28.961773579
+                                        ],
+                                        [
+                                            152.705824255,
+                                            -28.9610597399999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             152.705610104,
                                             -28.958240079
                                         ],
@@ -548,33 +599,6 @@
                                         [
                                             152.705610104,
                                             -28.958240079
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.705824255,
-                                            -28.9610597399999
-                                        ],
-                                        [
-                                            152.705824255,
-                                            -28.9610359449999
-                                        ],
-                                        [
-                                            152.710773534,
-                                            -28.9612857889999
-                                        ],
-                                        [
-                                            152.711927573,
-                                            -28.961773579
-                                        ],
-                                        [
-                                            152.705824255,
-                                            -28.9610597399999
                                         ]
                                     ]
                                 ]
@@ -1183,11 +1207,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393332",
-                "created": "2020-09-27T06:51:00+10:00",
-                "updated": "2020-09-27T16:51:00+10:00",
+                "created": "2020-09-28T02:49:00+10:00",
+                "updated": "2020-09-28T12:49:00+10:00",
                 "location": "Seery Rd, Kippenduff, NSW 2469",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Seery Rd, Kippenduff, NSW 2469 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 27 Sep 2020 16:51",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Seery Rd, Kippenduff, NSW 2469 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 28 Sep 2020 12:49",
                 "title": "incident: fire"
             }
         },
@@ -1284,141 +1308,6 @@
                                         [
                                             153.044948316,
                                             -30.0433667629999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            153.038189264,
-                                            -30.0169579989999
-                                        ],
-                                        [
-                                            153.03849048,
-                                            -30.0169579989999
-                                        ],
-                                        [
-                                            153.038848173,
-                                            -30.0169203459999
-                                        ],
-                                        [
-                                            153.039074084,
-                                            -30.0170144759999
-                                        ],
-                                        [
-                                            153.039205867,
-                                            -30.0172592129999
-                                        ],
-                                        [
-                                            153.039544735,
-                                            -30.017503951
-                                        ],
-                                        [
-                                            153.039695343,
-                                            -30.0173721689999
-                                        ],
-                                        [
-                                            153.04012834,
-                                            -30.017070954
-                                        ],
-                                        [
-                                            153.040297775,
-                                            -30.017108606
-                                        ],
-                                        [
-                                            153.040486033,
-                                            -30.0174098209999
-                                        ],
-                                        [
-                                            153.040768423,
-                                            -30.0174098209999
-                                        ],
-                                        [
-                                            153.041031988,
-                                            -30.017598081
-                                        ],
-                                        [
-                                            153.041577941,
-                                            -30.017880471
-                                        ],
-                                        [
-                                            153.041973287,
-                                            -30.017918123
-                                        ],
-                                        [
-                                            153.042500414,
-                                            -30.017786342
-                                        ],
-                                        [
-                                            153.043027542,
-                                            -30.0179745999999
-                                        ],
-                                        [
-                                            153.043742928,
-                                            -30.018351121
-                                        ],
-                                        [
-                                            153.043931188,
-                                            -30.01863351
-                                        ],
-                                        [
-                                            153.044646576,
-                                            -30.018953552
-                                        ],
-                                        [
-                                            153.045173704,
-                                            -30.0193300719999
-                                        ],
-                                        [
-                                            153.045587876,
-                                            -30.0197818949999
-                                        ],
-                                        [
-                                            153.045682005,
-                                            -30.0201772409999
-                                        ],
-                                        [
-                                            153.045399615,
-                                            -30.020873802
-                                        ],
-                                        [
-                                            153.043837059,
-                                            -30.0207420209999
-                                        ],
-                                        [
-                                            153.043309931,
-                                            -30.020403152
-                                        ],
-                                        [
-                                            153.041031988,
-                                            -30.019913677
-                                        ],
-                                        [
-                                            153.039525908,
-                                            -30.019311245
-                                        ],
-                                        [
-                                            153.038565784,
-                                            -30.0187841179999
-                                        ],
-                                        [
-                                            153.038452827,
-                                            -30.018068731
-                                        ],
-                                        [
-                                            153.037586832,
-                                            -30.017353344
-                                        ],
-                                        [
-                                            153.037699787,
-                                            -30.016939172
-                                        ],
-                                        [
-                                            153.038189264,
-                                            -30.0169579989999
                                         ]
                                     ]
                                 ]
@@ -1597,6 +1486,141 @@
                                         [
                                             153.048628871,
                                             -30.03827288
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.038189264,
+                                            -30.0169579989999
+                                        ],
+                                        [
+                                            153.03849048,
+                                            -30.0169579989999
+                                        ],
+                                        [
+                                            153.038848173,
+                                            -30.0169203459999
+                                        ],
+                                        [
+                                            153.039074084,
+                                            -30.0170144759999
+                                        ],
+                                        [
+                                            153.039205867,
+                                            -30.0172592129999
+                                        ],
+                                        [
+                                            153.039544735,
+                                            -30.017503951
+                                        ],
+                                        [
+                                            153.039695343,
+                                            -30.0173721689999
+                                        ],
+                                        [
+                                            153.04012834,
+                                            -30.017070954
+                                        ],
+                                        [
+                                            153.040297775,
+                                            -30.017108606
+                                        ],
+                                        [
+                                            153.040486033,
+                                            -30.0174098209999
+                                        ],
+                                        [
+                                            153.040768423,
+                                            -30.0174098209999
+                                        ],
+                                        [
+                                            153.041031988,
+                                            -30.017598081
+                                        ],
+                                        [
+                                            153.041577941,
+                                            -30.017880471
+                                        ],
+                                        [
+                                            153.041973287,
+                                            -30.017918123
+                                        ],
+                                        [
+                                            153.042500414,
+                                            -30.017786342
+                                        ],
+                                        [
+                                            153.043027542,
+                                            -30.0179745999999
+                                        ],
+                                        [
+                                            153.043742928,
+                                            -30.018351121
+                                        ],
+                                        [
+                                            153.043931188,
+                                            -30.01863351
+                                        ],
+                                        [
+                                            153.044646576,
+                                            -30.018953552
+                                        ],
+                                        [
+                                            153.045173704,
+                                            -30.0193300719999
+                                        ],
+                                        [
+                                            153.045587876,
+                                            -30.0197818949999
+                                        ],
+                                        [
+                                            153.045682005,
+                                            -30.0201772409999
+                                        ],
+                                        [
+                                            153.045399615,
+                                            -30.020873802
+                                        ],
+                                        [
+                                            153.043837059,
+                                            -30.0207420209999
+                                        ],
+                                        [
+                                            153.043309931,
+                                            -30.020403152
+                                        ],
+                                        [
+                                            153.041031988,
+                                            -30.019913677
+                                        ],
+                                        [
+                                            153.039525908,
+                                            -30.019311245
+                                        ],
+                                        [
+                                            153.038565784,
+                                            -30.0187841179999
+                                        ],
+                                        [
+                                            153.038452827,
+                                            -30.018068731
+                                        ],
+                                        [
+                                            153.037586832,
+                                            -30.017353344
+                                        ],
+                                        [
+                                            153.037699787,
+                                            -30.016939172
+                                        ],
+                                        [
+                                            153.038189264,
+                                            -30.0169579989999
                                         ]
                                     ]
                                 ]
@@ -1882,14 +1906,14 @@
                 "feedType": "incident",
                 "sourceTitle": "Coates Rd, Hill Top",
                 "category": "fire",
-                "subcategory": "vehicle/equipment fire",
+                "subcategory": "structure fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393408",
-                "created": "2020-09-28T02:22:00+10:00",
-                "updated": "2020-09-28T12:22:00+10:00",
+                "created": "2020-09-28T03:01:00+10:00",
+                "updated": "2020-09-28T13:01:00+10:00",
                 "location": "13 Coates Rd, Hill Top, NSW 2575",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 Coates Rd, Hill Top, NSW 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 12:22",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 Coates Rd, Hill Top, NSW 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 13:01",
                 "title": "incident: fire"
             }
         },
@@ -2058,6 +2082,30 @@
                 "location": "Murrays Lane, Beechwood, NSW 2446",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Murrays Lane, Beechwood, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Sep 2020 09:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.17420800000002,
+                    -33.81630999999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Phoenix St, Lane Cove",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393413",
+                "created": "2020-09-28T03:24:00+10:00",
+                "updated": "2020-09-28T13:24:00+10:00",
+                "location": "62 Phoenix St, Lane Cove, NSW 2066",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 62 Phoenix St, Lane Cove, NSW 2066 <br />COUNCIL AREA: Lane Cove <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Sep 2020 13:24",
                 "title": "incident: fire"
             }
         },

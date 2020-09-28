@@ -9899,14 +9899,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hughes Rd",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-09-29T04:24:00+10:00",
+                "updated": "2020-09-29T04:25:00+10:00",
+                "id": "ESTA:200952442",
+                "location": "Boneo",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93271471394448,
+                    -38.39793884470849
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Auburn Av",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "fire",
                 "status": "responding",
-                "created": "2020-09-29T04:16:00+10:00",
-                "updated": "2020-09-29T04:16:00+10:00",
-                "id": "ESTA:200927691",
-                "location": "Hughes Rd, Chirnside Park",
+                "created": "2020-09-29T04:26:19+10:00",
+                "updated": "2020-09-29T04:26:19+10:00",
+                "id": "ESTA:200927692",
+                "location": "Auburn Av, Sunshine North",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9914,8 +9936,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.29840515713036,
-                    -37.71866771712142
+                    144.84106351946983,
+                    -37.750541197230234
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Anakie",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-09-29T04:27:09+10:00",
+                "updated": "2020-09-29T04:27:09+10:00",
+                "id": "ESTA:200927693",
+                "location": "Anakie, Anakie",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.2831686362965,
+                    -38.00654233578517
                 ]
             }
         },
@@ -10211,6 +10256,29 @@
                         ],
                         "name": "East Gippsland Coast"
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hughes Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-09-29T04:16:00+10:00",
+                "updated": "2020-09-29T04:16:00+10:00",
+                "id": "ESTA:200927691",
+                "location": "Hughes Rd, Chirnside Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29840515713036,
+                    -37.71866771712142
                 ]
             }
         },

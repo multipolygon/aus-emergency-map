@@ -9,6 +9,64 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.17940110090956,
+                            -38.20937152772099
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.1796907794804,
+                                    -38.20737356982567
+                                ],
+                                [
+                                    145.17642921332106,
+                                    -38.207036350011045
+                                ],
+                                [
+                                    145.17569965246489,
+                                    -38.20993638936694
+                                ],
+                                [
+                                    145.18228715780538,
+                                    -38.211706705430935
+                                ],
+                                [
+                                    145.1831025493542,
+                                    -38.207980561556695
+                                ],
+                                [
+                                    145.1796907794804,
+                                    -38.20737356982567
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "cbrne",
+                "status": "minor",
+                "created": "2020-09-29T03:01:04+10:00",
+                "updated": "2020-09-29T03:01:04+10:00",
+                "id": "14556",
+                "location": "Somerville",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -9839,29 +9897,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Timbertop Bvd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-29T02:07:00+10:00",
-                "updated": "2020-09-29T02:31:00+10:00",
-                "id": "ESTA:200927687",
-                "location": "Timbertop Bvd, Officer",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.40131682820333,
-                    -38.05323559590429
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -10176,6 +10211,29 @@
                 "coordinates": [
                     145.17966932180556,
                     -38.20902592433718
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Timbertop Bvd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-09-29T02:07:00+10:00",
+                "updated": "2020-09-29T02:31:00+10:00",
+                "id": "ESTA:200927687",
+                "location": "Timbertop Bvd, Officer",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.40131682820333,
+                    -38.05323559590429
                 ]
             }
         },

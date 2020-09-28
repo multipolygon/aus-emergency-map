@@ -75,9 +75,9 @@
                 "category": "advice",
                 "subcategory": "health",
                 "status": "minor",
-                "created": "2020-09-28T13:23:47+10:00",
-                "updated": "2020-09-28T13:23:53+10:00",
-                "id": "14554",
+                "created": "2020-09-28T15:54:39+10:00",
+                "updated": "2020-09-28T15:54:45+10:00",
+                "id": "14555",
                 "location": "Victoria",
                 "title": "warning: advice"
             },
@@ -9844,9 +9844,9 @@
                 "sourceTitle": "Arundel St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-09-28T15:37:00+10:00",
-                "updated": "2020-09-28T15:37:00+10:00",
+                "updated": "2020-09-28T15:52:00+10:00",
                 "id": "ESTA:200927417",
                 "location": "Arundel St, Benalla",
                 "size": "Small",
@@ -9864,12 +9864,102 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Lake Lonsdale Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-09-28T14:46:00+10:00",
+                "updated": "2020-09-28T15:05:00+10:00",
+                "id": "ESTA:200927329",
+                "location": "Lake Lonsdale Rd, Lake Lonsdale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.63163099777387,
+                    -37.05967184617876
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "request for assistance",
+                "created": "2020-09-28T15:58:00+10:00",
+                "updated": "2020-09-28T16:02:00+10:00",
+                "id": "ESTA:200927448",
+                "location": "Warburton",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.68002761735332,
+                    -37.77105605761063
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
+                "created": "2020-09-28T15:58:00+10:00",
+                "updated": "2020-09-28T16:03:00+10:00",
+                "id": "ESTA:200952433",
+                "location": "Brunswick East",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97924044657154,
+                    -37.76427436746197
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Spencer St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-09-28T15:59:54+10:00",
+                "updated": "2020-09-28T15:59:54+10:00",
+                "id": "ESTA:200927442",
+                "location": "Spencer St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9530707619331,
+                    -37.815591591018645
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
                 "created": "2020-09-28T15:43:00+10:00",
-                "updated": "2020-09-28T15:43:00+10:00",
+                "updated": "2020-09-28T16:03:00+10:00",
                 "id": "ESTA:200952431",
                 "location": "Gunbower",
                 "title": "incident: tree down"
@@ -9880,29 +9970,6 @@
                 "coordinates": [
                     144.36594813759723,
                     -35.95761486226287
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-09-28T15:44:00+10:00",
-                "updated": "2020-09-28T15:44:00+10:00",
-                "id": "ESTA:200927425",
-                "location": "Benalla",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.97587037515825,
-                    -36.553072489124595
                 ]
             }
         },
@@ -9955,37 +10022,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lake Lonsdale Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-09-28T14:46:00+10:00",
-                "updated": "2020-09-28T15:05:00+10:00",
-                "id": "ESTA:200927329",
-                "location": "Lake Lonsdale Rd, Lake Lonsdale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.63163099777387,
-                    -37.05967184617876
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bungower Rd",
+                "sourceTitle": "Mccrae St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-09-28T14:38:00+10:00",
-                "updated": "2020-09-28T15:00:00+10:00",
-                "id": "ESTA:200927313",
-                "location": "Bungower Rd, Mornington",
+                "status": "responding",
+                "created": "2020-09-28T15:55:25+10:00",
+                "updated": "2020-09-28T15:55:25+10:00",
+                "id": "ESTA:200927437",
+                "location": "Mccrae St, Bendigo",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -9993,8 +10037,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0730571726024,
-                    -38.22359370312781
+                    144.2876217935899,
+                    -36.7528184723081
                 ]
             }
         },

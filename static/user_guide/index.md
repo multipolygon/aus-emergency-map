@@ -4,10 +4,6 @@
 
 <img src="./controls.jpg" style="width: 100%;"/>
 
-## Demo Video
-
-https://youtu.be/GPqtbzj_EWg
-
 ## Features
 
 <img src="./category-status-filter.jpg" style="width: 100%;"/>
@@ -30,7 +26,7 @@ This map is in no way officially affiliated with any emergency services, state g
 
 Do not use this app as a warning or alert service. Use it only as an analysis tool for the raw data and for seeing a big-picture overview.
 
-This is a non-commercial, volunteer project. <a href="https://github.com/reillybeacom/aus-emergency-map">Source code</a> is available and feedback or contributions welcome.
+This is a non-commercial, volunteer project. <a href="https://github.com/multipolygon/aus-emergency-map">Source code</a> is available and feedback or contributions welcome.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

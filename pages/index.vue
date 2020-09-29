@@ -369,7 +369,7 @@
                 </p>
                 <p>
                     This is a non-commercial, volunteer project.
-                    <a href="https://github.com/reillybeacom/aus-emergency-map">Source code</a> is
+                    <a href="https://github.com/multipolygon/aus-emergency-map">Source code</a> is
                     available and feedback or contributions welcome.
                 </p>
                 <p>
@@ -395,10 +395,6 @@
                         <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
                     </li>
                 </ul>
-                <p class="noselect">
-                    Contact:<br />
-                    aem<span class="mdi mdi-at"></span>reillybeacom.net
-                </p>
                 <p style="font-size: 70%; color: grey;">
                     Map data &copy;
                     <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors,

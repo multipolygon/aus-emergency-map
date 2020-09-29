@@ -9918,14 +9918,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Greigs Rd",
+                "sourceTitle": "Victoria St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-09-29T20:38:58+10:00",
+                "updated": "2020-09-29T20:38:58+10:00",
+                "id": "ESTA:200928599",
+                "location": "Victoria St, Fitzroy",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97559808010902,
+                    -37.798965699441425
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ardoch Av",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-09-29T20:30:01+10:00",
-                "updated": "2020-09-29T20:30:01+10:00",
-                "id": "ESTA:200928592",
-                "location": "Greigs Rd, Mount Cottrell",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-09-29T20:42:44+10:00",
+                "updated": "2020-09-29T20:42:44+10:00",
+                "id": "ESTA:200928598",
+                "location": "Ardoch Av, St Kilda East",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9933,8 +9956,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.59210877935638,
-                    -37.74971844144799
+                    144.9987499548015,
+                    -37.859028741225075
                 ]
             }
         },
@@ -10236,14 +10259,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bromfield St",
+                "sourceTitle": "Graham St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-09-29T20:16:00+10:00",
-                "updated": "2020-09-29T20:16:00+10:00",
-                "id": "ESTA:200928594",
-                "location": "Bromfield St, Colac",
+                "status": "not yet under control",
+                "created": "2020-09-29T20:31:00+10:00",
+                "updated": "2020-09-29T20:31:00+10:00",
+                "id": "ESTA:200928596",
+                "location": "Graham St, Shepparton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10251,8 +10274,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.58901764633893,
-                    -38.34105125990012
+                    145.40463287121491,
+                    -36.36264553179634
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Greigs Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-09-29T20:30:01+10:00",
+                "updated": "2020-09-29T20:30:01+10:00",
+                "id": "ESTA:200928592",
+                "location": "Greigs Rd, Mount Cottrell",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.59210877935638,
+                    -37.74971844144799
                 ]
             }
         },

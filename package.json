@@ -9,6 +9,7 @@
         "build": "nuxt build",
         "start": "nuxt start",
         "generate": "nuxt generate",
+        "serve": "serve -l 3040 dist",
         "lint": "eslint --fix --ext .js,.mjs,.vue --ignore-path .gitignore .",
         "fetch": "node --experimental-modules scripts/fetch.mjs",
         "markdown": "markdown"
@@ -38,8 +39,9 @@
         "eslint-plugin-prettier": "^3.1.2",
         "leaflet": "^1.6.0",
         "normalize.css": "^8.0.1",
-        "nuxt": "^2.0.0",
+        "nuxt": "^2.14.6",
         "prettier": "^1.19.1",
+        "serve": "^11.3.2",
         "stylelint": "^10.1.0"
     }
 }

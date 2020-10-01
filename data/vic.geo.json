@@ -9918,35 +9918,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cust St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-10-01T19:39:00+10:00",
-                "updated": "2020-10-01T19:39:00+10:00",
-                "id": "ESTA:201000829",
-                "location": "Cust St, Rainbow",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.9934396786109,
-                    -35.895277144415246
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "High St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-10-01T19:29:00+10:00",
-                "updated": "2020-10-01T19:40:00+10:00",
+                "updated": "2020-10-01T19:58:00+10:00",
                 "id": "ESTA:201000827",
                 "location": "High St, Wallan",
                 "size": "Small",
@@ -9958,6 +9935,29 @@
                 "coordinates": [
                     144.9788997816936,
                     -37.413446170033616
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cust St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-10-01T19:39:00+10:00",
+                "updated": "2020-10-01T20:01:00+10:00",
+                "id": "ESTA:201000829",
+                "location": "Cust St, Rainbow",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.9934396786109,
+                    -35.895277144415246
                 ]
             }
         },
@@ -10292,22 +10292,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2020-10-01T19:42:00+10:00",
-                "updated": "2020-10-01T19:45:00+10:00",
-                "id": "ESTA:201050032",
-                "location": "Norlane",
-                "title": "incident: rescue"
+                "sourceTitle": "Abercarn Av",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-10-01T19:57:06+10:00",
+                "updated": "2020-10-01T19:57:06+10:00",
+                "id": "ESTA:201000833",
+                "location": "Abercarn Av, Craigieburn",
+                "size": "Small",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3566330399423,
-                    -38.088567726024905
+                    144.9367265767384,
+                    -37.61310233690056
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Whitehorse Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-10-01T19:56:19+10:00",
+                "updated": "2020-10-01T19:56:19+10:00",
+                "id": "ESTA:201000834",
+                "location": "Whitehorse Rd, Box Hill",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13259385908657,
+                    -37.81914054036026
                 ]
             }
         }

@@ -691,10 +691,10 @@
                 "sourceTitle": "FITZROY CROSSING",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "responding",
+                "status": "monitoring",
                 "id": "2079317-496951",
                 "created": "2020-10-01T16:10:46+08:00",
-                "updated": "2020-10-01T16:11:11+08:00",
+                "updated": "2020-10-01T16:30:32+08:00",
                 "location": "FITZROY CROSSING",
                 "size": "",
                 "description": "Active Alarm",
@@ -707,23 +707,23 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.819405,
-                    -32.04283
+                    116.0155,
+                    -32.1159
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "MYAREE",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "on scene",
-                "id": "2079320-496952",
-                "created": "2020-10-01T16:12:15+08:00",
-                "updated": "2020-10-01T16:20:24+08:00",
-                "location": "MYAREE",
+                "sourceTitle": "KELMSCOTT",
+                "category": "hazardous materials",
+                "subcategory": "hazardous materials",
+                "status": "responding",
+                "id": "2079329-496956",
+                "created": "2020-10-01T16:32:37+08:00",
+                "updated": "2020-10-01T16:42:26+08:00",
+                "location": "KELMSCOTT",
                 "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
+                "description": "Hazardous Materials",
+                "title": "incident: hazardous materials"
             }
         },
         {
@@ -857,6 +857,56 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    116.65411,
+                    -31.66332
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NORTHAM",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "on scene",
+                "id": "2079327-496954",
+                "created": "2020-10-01T16:29:45+08:00",
+                "updated": "2020-10-01T16:42:18+08:00",
+                "location": "NORTHAM",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    116.08198,
+                    -31.387995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BINDOON",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "active",
+                "id": "2079328-496955",
+                "created": "2020-10-01T16:39:07+08:00",
+                "updated": "2020-10-01T16:39:07+08:00",
+                "location": "BINDOON",
+                "size": "",
+                "description": "Burn Off",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     121.8593,
                     -33.860622
                 ]
@@ -907,23 +957,23 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.80232,
-                    -31.90079
+                    114.66624,
+                    -28.73107
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "INNALOO",
-                "category": "road crash",
-                "subcategory": "road crash",
-                "status": "on scene",
-                "id": "2079323-496953",
-                "created": "2020-10-01T16:15:14+08:00",
-                "updated": "2020-10-01T16:21:37+08:00",
-                "location": "INNALOO",
+                "sourceTitle": "MORESBY",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "active",
+                "id": "2079330-496957",
+                "created": "2020-10-01T16:42:52+08:00",
+                "updated": "2020-10-01T16:42:52+08:00",
+                "location": "MORESBY",
                 "size": "",
-                "description": "Road Crash",
-                "title": "incident: road crash"
+                "description": "Burn Off",
+                "title": "incident: fire"
             }
         }
     ]

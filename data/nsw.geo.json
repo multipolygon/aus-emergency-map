@@ -923,29 +923,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            152.976225975,
-                                            -29.9726991649999
-                                        ],
-                                        [
-                                            152.976156143,
-                                            -29.972709285
-                                        ],
-                                        [
-                                            152.976161964,
-                                            -29.9726991539999
-                                        ],
-                                        [
-                                            152.976225975,
-                                            -29.9726991649999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             152.976783435,
                                             -29.9735519179999
                                         ],
@@ -1044,6 +1021,29 @@
                                         [
                                             152.976783435,
                                             -29.9735519179999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.976225975,
+                                            -29.9726991649999
+                                        ],
+                                        [
+                                            152.976156143,
+                                            -29.972709285
+                                        ],
+                                        [
+                                            152.976161964,
+                                            -29.9726991539999
+                                        ],
+                                        [
+                                            152.976225975,
+                                            -29.9726991649999
                                         ]
                                     ]
                                 ]
@@ -2180,24 +2180,77 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.8321356770001,
-                    -35.01716000099998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.83225062600002,
+                            -35.01684281699994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.832170949,
+                                            -35.016724709
+                                        ],
+                                        [
+                                            150.832098213,
+                                            -35.016766619
+                                        ],
+                                        [
+                                            150.831966412,
+                                            -35.016763378
+                                        ],
+                                        [
+                                            150.831881734,
+                                            -35.01663596
+                                        ],
+                                        [
+                                            150.831921862,
+                                            -35.0165517089999
+                                        ],
+                                        [
+                                            150.832013574,
+                                            -35.016541719
+                                        ],
+                                        [
+                                            150.832133677,
+                                            -35.016577807
+                                        ],
+                                        [
+                                            150.832194028,
+                                            -35.0166518039999
+                                        ],
+                                        [
+                                            150.832170949,
+                                            -35.016724709
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kiama Ave HR Preparation Burn",
+                "sourceTitle": "Kiama Ave",
                 "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393684",
-                "created": "2020-10-01T02:56:00+10:00",
-                "updated": "2020-10-01T12:56:00+10:00",
-                "location": "Kiama Ave, Currarong",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Kiama Ave, Currarong <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Oct 2020 12:56",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393700",
+                "created": "2020-10-01T03:34:00+10:00",
+                "updated": "2020-10-01T13:34:00+10:00",
+                "location": "Crookhaven St, Currarong",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Crookhaven St, Currarong  <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Oct 2020 13:34",
                 "title": "incident: fire"
             }
         },
@@ -2228,10 +2281,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.61804437600006,
-                    -32.73687682099995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.61804437600006,
+                            -32.73687682099995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.618846089,
+                                            -32.7380662479999
+                                        ],
+                                        [
+                                            151.618822294,
+                                            -32.7381257339999
+                                        ],
+                                        [
+                                            151.618382094,
+                                            -32.7380662479999
+                                        ],
+                                        [
+                                            151.618370197,
+                                            -32.737863994
+                                        ],
+                                        [
+                                            151.618393992,
+                                            -32.7376022519999
+                                        ],
+                                        [
+                                            151.618453478,
+                                            -32.7373167169999
+                                        ],
+                                        [
+                                            151.618691424,
+                                            -32.736947901
+                                        ],
+                                        [
+                                            151.619357673,
+                                            -32.7373762039999
+                                        ],
+                                        [
+                                            151.618846089,
+                                            -32.7380662479999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {

@@ -10116,37 +10116,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ashwood",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-02T06:44:15+10:00",
-                "updated": "2020-10-02T06:44:15+10:00",
-                "id": "ESTA:201000917",
-                "location": "Ashwood, Ashwood",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-10-02T05:43:00+10:00",
+                "updated": "2020-10-02T06:52:00+10:00",
+                "id": "ESTA:201050037",
+                "location": "Macedon",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1014231918506,
-                    -37.866779443035256
+                    144.56576427054372,
+                    -37.42792588087542
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Armadale",
+                "sourceTitle": "High St",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2020-10-02T06:44:15+10:00",
-                "updated": "2020-10-02T06:44:15+10:00",
+                "created": "2020-10-02T06:54:42+10:00",
+                "updated": "2020-10-02T06:54:42+10:00",
                 "id": "ESTA:201000906",
-                "location": "Armadale, Armadale",
+                "location": "High St, Armadale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10154,8 +10153,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.020670241818,
-                    -37.85552212608713
+                    145.02465895764882,
+                    -37.85589077841225
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bourke St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-02T07:00:45+10:00",
+                "updated": "2020-10-02T07:00:45+10:00",
+                "id": "ESTA:201000922",
+                "location": "Bourke St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95548927432512,
+                    -37.816673716782695
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Deniliquin (Nsw)",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "unknown",
+                "created": "2020-10-02T05:55:55+10:00",
+                "updated": "2020-10-02T07:02:23+10:00",
+                "id": "ESTA:201000902",
+                "location": "Macauley St, Deniliquin (Nsw)",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96242469278744,
+                    -35.52304328630107
                 ]
             }
         },
@@ -15102,14 +15146,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kilsyth South",
+                "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-02T06:39:14+10:00",
-                "updated": "2020-10-02T06:39:14+10:00",
+                "status": "safe",
+                "created": "2020-10-02T06:30:00+10:00",
+                "updated": "2020-10-02T06:55:00+10:00",
                 "id": "ESTA:201000911",
-                "location": "Kilsyth South, Kilsyth South",
+                "location": "Kilsyth South",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -15117,8 +15161,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30135649076215,
-                    -37.83730599039943
+                    145.30135307362863,
+                    -37.83731135999683
                 ]
             }
         },
@@ -15197,9 +15241,9 @@
                 "sourceTitle": "Hanmer St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-02T06:40:00+10:00",
-                "updated": "2020-10-02T06:40:00+10:00",
+                "status": "under control",
+                "created": "2020-10-02T06:54:26+10:00",
+                "updated": "2020-10-02T06:54:26+10:00",
                 "id": "ESTA:201000915",
                 "location": "Hanmer St, Williamstown",
                 "size": "Small",
@@ -15217,12 +15261,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Ashwood",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-10-02T06:54:06+10:00",
+                "updated": "2020-10-02T06:54:06+10:00",
+                "id": "ESTA:201000917",
+                "location": "Ashwood, Ashwood",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1014231918506,
+                    -37.866779443035256
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Bald Hill Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-02T06:44:58+10:00",
-                "updated": "2020-10-02T06:44:58+10:00",
+                "status": "under control",
+                "created": "2020-10-02T06:54:41+10:00",
+                "updated": "2020-10-02T06:54:41+10:00",
                 "id": "ESTA:201000918",
                 "location": "Bald Hill Rd, Pakenham",
                 "size": "Small",
@@ -15243,9 +15310,9 @@
                 "sourceTitle": "Epping",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-02T06:39:41+10:00",
-                "updated": "2020-10-02T06:39:41+10:00",
+                "status": "under control",
+                "created": "2020-10-02T06:49:25+10:00",
+                "updated": "2020-10-02T06:49:25+10:00",
                 "id": "ESTA:201000916",
                 "location": "Epping, Epping",
                 "size": "Small",
@@ -15263,22 +15330,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-10-02T05:43:00+10:00",
-                "updated": "2020-10-02T06:13:00+10:00",
-                "id": "ESTA:201050037",
-                "location": "Macedon",
-                "title": "incident: tree down"
+                "sourceTitle": "Mount Waverley",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-10-02T06:59:39+10:00",
+                "updated": "2020-10-02T06:59:39+10:00",
+                "id": "ESTA:201000920",
+                "location": "Mount Waverley, Mount Waverley",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.56576427054372,
-                    -37.42792588087542
+                    145.12735479386427,
+                    -37.884711300347625
                 ]
             }
         }

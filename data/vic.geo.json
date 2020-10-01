@@ -9918,33 +9918,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ellen St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-01T22:35:12+10:00",
-                "updated": "2020-10-01T22:35:12+10:00",
-                "id": "ESTA:201000870",
-                "location": "Ellen St, Springvale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.14285929458694,
-                    -37.95004084443964
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Goldmans Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-10-01T22:40:00+10:00",
                 "updated": "2020-10-01T22:40:00+10:00",
                 "id": "ESTA:201000871",
@@ -9958,6 +9935,28 @@
                 "coordinates": [
                     145.24200565692263,
                     -37.61062028183722
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Springvale",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-10-01T22:59:43+10:00",
+                "updated": "2020-10-01T23:01:03+10:00",
+                "id": "ESTA:201000873",
+                "location": "Ellen St, Springvale",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1428644293553,
+                    -37.95003409106113
                 ]
             }
         },
@@ -14132,6 +14131,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Ellen St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-10-01T22:47:33+10:00",
+                "updated": "2020-10-01T22:47:33+10:00",
+                "id": "ESTA:201000870",
+                "location": "Ellen St, Springvale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14285929458694,
+                    -37.95004084443964
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Cust St",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -14172,29 +14194,6 @@
                 "coordinates": [
                     141.3261676425871,
                     -37.90651599966244
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Refinery Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-01T22:39:20+10:00",
-                "updated": "2020-10-01T22:39:20+10:00",
-                "id": "ESTA:201000864",
-                "location": "Refinery Rd, Corio",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.37249375656236,
-                    -38.07656620204528
                 ]
             }
         }

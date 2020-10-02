@@ -785,7 +785,7 @@ export default {
         }, 5 * 60 * 1000);
 
         // Tiles must be added last to avoid blocking entire page:
-        L.tileLayer('https://osm.emergencymap.app/{z}/{x}/{y}.png', {
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             subdomains: 'abc',
             attribution:
                 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',

@@ -3,19 +3,20 @@
     "version": "1.0.0",
     "description": "Australia-wide emergency map with advanced data filtering tools.",
     "author": "multipolygon",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "dev": "nuxt dev --spa -H 0.0.0.0 -p 3000",
         "build": "nuxt build",
-        "start": "nuxt start",
         "generate": "nuxt generate",
-        "serve": "serve -l 3040 dist",
+        "serve": "serve -l 3000 dist",
         "lint": "eslint --fix --ext .js,.mjs,.vue --ignore-path .gitignore .",
         "fetch": "node --experimental-modules scripts/fetch.mjs",
         "markdown": "markdown"
     },
     "dependencies": {
         "@mapbox/togeojson": "^0.16.0",
+        "js-green-licenses": "^2.0.1",
         "jsdom": "^16.2.2",
         "jsonschema": "^1.2.6",
         "mkdirp": "^1.0.4",

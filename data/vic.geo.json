@@ -10444,14 +10444,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Water St",
+                "sourceTitle": "Ernest St",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-10-02T17:26:22+10:00",
-                "updated": "2020-10-02T17:26:22+10:00",
-                "id": "ESTA:201001516",
-                "location": "Water St, Creswick",
+                "created": "2020-10-02T17:36:00+10:00",
+                "updated": "2020-10-02T17:38:00+10:00",
+                "id": "ESTA:201001533",
+                "location": "Ernest St, Bayswater",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10459,8 +10459,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.90034838961347,
-                    -37.42271511787986
+                    145.25191440037756,
+                    -37.844842795322606
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Chelsworth Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-10-02T17:42:00+10:00",
+                "updated": "2020-10-02T17:42:00+10:00",
+                "id": "ESTA:201001537",
+                "location": "Chelsworth Dr, Echuca",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74449808343658,
+                    -36.1556011137003
                 ]
             }
         },
@@ -10468,21 +10491,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-10-02T16:47:00+10:00",
-                "updated": "2020-10-02T17:26:00+10:00",
-                "id": "ESTA:201050093",
-                "location": "Heidelberg",
-                "title": "incident: tree down"
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2020-10-02T15:44:00+10:00",
+                "updated": "2020-10-02T16:08:00+10:00",
+                "id": "ESTA:201001424",
+                "location": "Beechworth",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.05846659565,
-                    -37.753810101811396
+                    146.68976413672615,
+                    -36.33816843405304
                 ]
             }
         },
@@ -16877,22 +16900,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pemberton St, West Albury",
+                "sourceTitle": "Sharyn St",
                 "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "created": "2020-10-02T17:22:00+10:00",
-                "updated": "2020-10-02T17:22:00+10:00",
-                "id": "2020-10-02T17:22:00.0000000:393824",
-                "location": "Pemberton St, West Albury, Nsw 2640",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-10-02T17:38:35+10:00",
+                "updated": "2020-10-02T17:38:35+10:00",
+                "id": "ESTA:201001535",
+                "location": "Sharyn St, Cranbourne West",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.881555,
-                    -36.0755399999999
+                    145.26166608201171,
+                    -38.097502153641265
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Water St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-10-02T17:26:22+10:00",
+                "updated": "2020-10-02T17:26:22+10:00",
+                "id": "ESTA:201001516",
+                "location": "Water St, Creswick",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.90034838961347,
+                    -37.42271511787986
                 ]
             }
         },
@@ -16922,52 +16969,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Plenty Lane",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-02T17:29:13+10:00",
-                "updated": "2020-10-02T17:29:13+10:00",
-                "id": "ESTA:201001526",
-                "location": "Plenty Lane, Greensborough",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10358978104878,
-                    -37.71469556420955
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Doncaster East",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-10-02T16:59:44+10:00",
-                "updated": "2020-10-02T16:59:44+10:00",
-                "id": "ESTA:201001485",
-                "location": "Doncaster East, Doncaster East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16317012087563,
-                    -37.782512823346906
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Robbs Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -16991,14 +16992,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dandenong Rd",
+                "sourceTitle": "Sandy Point Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-10-02T16:51:07+10:00",
-                "updated": "2020-10-02T16:51:07+10:00",
-                "id": "ESTA:201001463",
-                "location": "Dandenong Rd, Caulfield North",
+                "status": "safe",
+                "created": "2020-10-02T17:41:04+10:00",
+                "updated": "2020-10-02T17:41:04+10:00",
+                "id": "ESTA:201001529",
+                "location": "Sandy Point Rd, Point Cook",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -17006,8 +17007,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02658304760158,
-                    -37.866242700760246
+                    144.75886224139722,
+                    -37.89933982180199
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Plenty Lane",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-02T17:42:54+10:00",
+                "updated": "2020-10-02T17:42:54+10:00",
+                "id": "ESTA:201001526",
+                "location": "Plenty Lane, Greensborough",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10358978104878,
+                    -37.71469556420955
                 ]
             }
         },
@@ -17052,28 +17076,6 @@
                 "coordinates": [
                     145.655564550695,
                     -38.0713522823876
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-10-02T15:44:00+10:00",
-                "updated": "2020-10-02T16:08:00+10:00",
-                "id": "ESTA:201001424",
-                "location": "Beechworth",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.68976413672615,
-                    -36.33816843405304
                 ]
             }
         }

@@ -22,28 +22,6 @@ const ausBounds = L.latLngBounds(
     },
 );
 
-const lmap = L.map('map', {
-    center: ausBounds.getCenter(),
-    zoom: 5,
-    scrollWheelZoom: true,
-    maxBounds: ausBounds,
-});
-
-let userZoom = false;
-let autoZoom = false;
-
-lmap.on('zoomend', function() {
-    if (autoZoom) {
-        autoZoom = false;
-    } else {
-        userZoom = true;
-    }
-});
-
-const lgeo = L.layerGroup().addTo(lmap);
-
-const lTargetMarker = L.layerGroup().addTo(lmap);
-
 const timeFormat = 'h:mma DD MMM YYYY z';
 
 const defaultFilterTree = {
@@ -52,7 +30,10 @@ const defaultFilterTree = {
     other: { _show: true, _color: '#2981CA', _icon: 'information', category: {}, status: {} },
 };
 
+let fetchTimer;
+
 export default {
+    layout: 'split-page-map',
     components: {
         CheckboxToggles,
         FilterCounts,
@@ -538,8 +519,8 @@ export default {
         _updateMap() {
             const vm = this;
             vm.mapDelay = 500;
-            lmap.invalidateSize(true);
-            lgeo.clearLayers();
+            window.lmap.invalidateSize(true);
+            window.lgeo.clearLayers();
             vm.lightningAgeFiltered.forEach(function(i) {
                 const icon = L.divIcon({
                     className:
@@ -552,7 +533,7 @@ export default {
                     .bindPopup(
                         'Lightning strike at ' + vm.$moment.unix(i.unixTime).format(timeFormat),
                     )
-                    .addTo(lgeo);
+                    .addTo(window.lgeo);
             });
             if (vm.mapBounds.watchZone !== null) {
                 L.rectangle(vm.mapBounds.watchZone, {
@@ -560,7 +541,7 @@ export default {
                     color: '#00EE00',
                     opacity: 0.7,
                     fillColor: 'transparent',
-                }).addTo(lgeo);
+                }).addTo(window.lgeo);
             }
             if (vm.featuresFiltered.length > 0) {
                 // https://leafletjs.com/examples/geojson/
@@ -637,18 +618,18 @@ export default {
                             }
                         },
                     },
-                ).addTo(lgeo);
+                ).addTo(window.lgeo);
                 vm.mapBounds.features = Object.freeze(geo.getBounds());
-                if (!userZoom) {
-                    autoZoom = true;
-                    lmap.stop();
+                if (!window.lmapUserZoom) {
+                    window.lmapAutoZoom = true;
+                    window.lmap.stop();
                     vm.zoomMap();
                 }
             }
         },
         zoomMap() {
             if (this.mapBounds.features !== null) {
-                lmap.fitBounds(this.mapBounds.features, {
+                window.lmap.fitBounds(this.mapBounds.features, {
                     padding: [20, 20],
                     maxZoom: 10,
                     animate: true,
@@ -657,16 +638,16 @@ export default {
             }
         },
         resetZoom() {
-            userZoom = false;
+            window.lmapUserZoom = false;
             this.zoomMap();
         },
         zoomToUserLocation() {
-            userZoom = true;
-            lmap.locate({ setView: true, maxZoom: 10, duration: 1 });
+            window.lmapUserZoom = true;
+            window.lmap.locate({ setView: true, maxZoom: 10, duration: 1 });
         },
         updateWatchZone() {
             if (this.mapBounds.watchZone === null) {
-                this.mapBounds.watchZone = Object.freeze(lmap.getBounds());
+                this.mapBounds.watchZone = Object.freeze(window.lmap.getBounds());
             } else if (confirm('Remove active watch zone?')) {
                 this.mapBounds.watchZone = null;
             }
@@ -677,20 +658,20 @@ export default {
             const geo = L.geoJSON(feature);
             const bounds = geo.getBounds();
             if (zoom) {
-                lmap.flyToBounds(bounds, {
+                window.lmap.flyToBounds(bounds, {
                     maxZoom: 8,
                     padding: [20, 20],
                     animate: true,
                     duration: 1,
                 });
             }
-            lTargetMarker.clearLayers();
+            window.lTargetMarker.clearLayers();
             L.circleMarker(bounds.getCenter(), {
                 radius: 30,
                 opacity: 0.4,
                 color: '#FFFF00',
                 fillColor: 'transparent',
-            }).addTo(lTargetMarker);
+            }).addTo(window.lTargetMarker);
             if (scroll && this.showPanel) {
                 this.scrollTo('featureListItem' + fid);
             }
@@ -751,15 +732,31 @@ export default {
                         .join(', '),
             );
         },
+        locationFound(e) {
+            this.userLocation = true;
+            window.llocation.clearLayers();
+            const icon = L.divIcon({
+                className: 'map-icon feature-current-location mdi mdi-home',
+                iconSize: [20, 20],
+                iconAnchor: [10, 10],
+            });
+            L.marker(e.latlng, { icon }).addTo(window.llocation);
+        },
+        locationError(e) {
+            this.userLocation = false;
+            window.llocation.clearLayers();
+        },
     },
     created() {
         const vm = this;
+
         try {
             window.applicationCache.addEventListener('updateready', vm.reloadApp);
             if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
                 vm.reloadApp();
             }
         } catch (e) {}
+
         try {
             vm.showPanel =
                 (window.innerWidth ||
@@ -767,46 +764,69 @@ export default {
                     document.body.clientWidth ||
                     600) >= 600;
         } catch (e) {}
+
         const watchZone = localGet('watchZone', null);
+
         if (watchZone !== null) {
             vm.mapBounds.watchZone = Object.freeze(
                 L.latLngBounds(watchZone._northEast, watchZone._southWest),
             );
         }
+
         vm.maxAge = localGet('maxAge', 24);
         vm.fadeWithAge = localGet('fadeWithAge', true);
         vm.showResources = localGet('showResources', false);
         vm.sortBy = localGet('sortBy', '_age');
         vm.loadFilterTree();
         vm.feedsSelected = localGet('feedsSelected', Object.keys(vm.feeds));
+    },
+    mounted() {
+        const vm = this;
 
-        window.setInterval(function() {
+        if (document.getElementById('map').children.length > 0) {
+            // console.log('Map already initialised!');
+        } else {
+            window.lmap = L.map('map', {
+                center: ausBounds.getCenter(),
+                zoom: 5,
+                scrollWheelZoom: true,
+                maxBounds: ausBounds,
+            });
+
+            window.lmapUserZoom = false;
+            window.lmapAutoZoom = false;
+
+            window.lmap.on('zoomend', function() {
+                if (window.lmapAutoZoom) {
+                    window.lmapAutoZoom = false;
+                } else {
+                    window.lmapUserZoom = true;
+                }
+            });
+
+            window.lgeo = L.layerGroup().addTo(window.lmap);
+            window.lTargetMarker = L.layerGroup().addTo(window.lmap);
+            window.llocation = L.layerGroup().addTo(window.lmap);
+
+            // Tiles must be added last to avoid blocking entire page:
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                subdomains: 'abc',
+                attribution:
+                    'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+            }).addTo(window.lmap);
+        }
+
+        window.lmap.on('locationfound', vm.locationFound);
+        window.lmap.on('locationerror', vm.locationError);
+
+        fetchTimer = window.setInterval(function() {
             vm.fetchFeed();
         }, 5 * 60 * 1000);
-
-        // Tiles must be added last to avoid blocking entire page:
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            subdomains: 'abc',
-            attribution:
-                'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-        }).addTo(lmap);
-
-        const llocation = L.layerGroup().addTo(lmap);
-
-        lmap.on('locationfound', function(e) {
-            vm.userLocation = true;
-            llocation.clearLayers();
-            const icon = L.divIcon({
-                className: 'map-icon feature-current-location mdi mdi-home',
-                iconSize: [20, 20],
-                iconAnchor: [10, 10],
-            });
-            L.marker(e.latlng, { icon }).addTo(llocation);
-        });
-
-        lmap.on('locationerror', function() {
-            vm.userLocation = false;
-            llocation.clearLayers();
-        });
+    },
+    unmounted() {
+        const vm = this;
+        window.lmap.off('locationfound', vm.locationFound);
+        window.lmap.off('locationerror', vm.locationError);
+        clearInterval(fetchTimer);
     },
 };

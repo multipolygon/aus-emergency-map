@@ -1,19 +1,23 @@
+const title = 'Australia Wide Emergency Map';
+const description = 'Australian live emergency incident map covering all states and territories.';
+const host = 'https://australia.emergencymap.app';
+
 export default {
     mode: 'spa',
     /*
      ** Headers of the page
      */
     head: {
-        title: 'Aus Emergency Map',
+        title,
         meta: [
             { charset: 'utf-8' },
             {
                 hid: 'description',
                 name: 'description',
-                content: 'Australian Emergency Services Incident Map',
+                content: description,
             },
         ],
-        script: [{ src: '/utils.js' }],
+        script: [],
         link: [
             { rel: 'icon', type: 'image/png', href: '/icons/transparent/icon128.png' },
             { rel: 'shortcut icon', type: 'image/png', href: '/icons/transparent/icon128.png' },
@@ -75,19 +79,20 @@ export default {
     pwa: {
         workbox: {},
         meta: {
-            mobileApp: true,
+            ogHost: host,
             mobileAppIOS: true,
+            name: title,
+            author: '-',
+            description,
             theme_color: '#FFF',
-            ogSiteName: 'Australian Emergency Map',
-            ogTitle: 'Australian Emergency Map',
-            ogDescription: 'Australian emergency map covering all states and territories.',
-            description: 'Australian emergency map covering all states and territories.',
             nativeUI: true,
         },
         icon: {},
         manifest: {
-            name: 'Australia-Wide Emergency Map',
+            name: title,
             short_name: 'Emergency Map',
+            description,
+            start_url: '../map/',
             theme_color: '#FFF',
         },
     },

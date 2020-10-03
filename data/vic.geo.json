@@ -10162,23 +10162,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-10-03T17:03:00+10:00",
-                "updated": "2020-10-03T17:14:00+10:00",
-                "id": "ESTA:201002363",
-                "location": "Mansfield",
-                "size": "Small",
-                "title": "incident: rescue"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-03T14:14:00+10:00",
+                "updated": "2020-10-03T14:17:00+10:00",
+                "id": "ESTA:201050279",
+                "location": "Heyfield",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.08835746287906,
-                    -37.0520404796117
+                    146.7224095826462,
+                    -37.984043873559635
                 ]
             }
         },
@@ -10189,18 +10188,63 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-10-03T17:19:00+10:00",
-                "updated": "2020-10-03T17:21:00+10:00",
-                "id": "ESTA:201050327",
-                "location": "Hampton",
+                "created": "2020-10-03T11:06:00+10:00",
+                "updated": "2020-10-03T11:09:00+10:00",
+                "id": "ESTA:201050219",
+                "location": "Hastings",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02091415074472,
-                    -37.93425031951347
+                    145.17924653569753,
+                    -38.30235513897617
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-03T17:34:00+10:00",
+                "updated": "2020-10-03T17:33:38+10:00",
+                "id": "ESTA:201050329",
+                "location": "Beaumaris",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03892380607013,
+                    -37.976681515042735
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Inglewood St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-10-03T17:36:55+10:00",
+                "updated": "2020-10-03T17:36:55+10:00",
+                "id": "ESTA:201002376",
+                "location": "Inglewood St, Golden Square",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.2472089856642,
+                    -36.76216680887723
                 ]
             }
         },
@@ -10229,14 +10273,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Inglewood St",
+                "sourceTitle": "Dumbalk",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-10-03T15:51:06+10:00",
+                "updated": "2020-10-03T17:39:30+10:00",
+                "id": "ESTA:201002278",
+                "location": "Dumbalk",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.08207497405184,
+                    -38.52229979639049
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kavanagh St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-10-03T17:24:45+10:00",
-                "updated": "2020-10-03T17:24:45+10:00",
-                "id": "ESTA:201002376",
-                "location": "Inglewood St, Golden Square",
+                "status": "responding",
+                "created": "2020-10-03T17:42:08+10:00",
+                "updated": "2020-10-03T17:42:08+10:00",
+                "id": "ESTA:201002396",
+                "location": "Kavanagh St, Southbank",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10244,8 +10310,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.2472089856642,
-                    -36.76216680887723
+                    144.9628673627791,
+                    -37.82562317332851
                 ]
             }
         },
@@ -10275,90 +10341,111 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Port Albert",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-03T17:29:35+10:00",
+                "updated": "2020-10-03T17:43:59+10:00",
+                "id": "ESTA:201002400",
+                "location": "Bay St, Port Albert",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.69514782280922,
+                    -38.66959396843983
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "West Gate Fwy",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-10-03T17:44:29+10:00",
+                "updated": "2020-10-03T17:44:29+10:00",
+                "id": "ESTA:201002410",
+                "location": "West Gate Fwy, Spotswood",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.87956065377045,
+                    -37.825388287209655
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-10-03T09:48:00+10:00",
-                "updated": "2020-10-03T17:27:00+10:00",
-                "id": "ESTA:201050194",
-                "location": "Flinders",
+                "status": "request for assistance",
+                "created": "2020-10-03T15:24:00+10:00",
+                "updated": "2020-10-03T16:44:00+10:00",
+                "id": "ESTA:201050302",
+                "location": "Donvale",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9841630233411,
-                    -38.419299242498205
+                    145.17438768184306,
+                    -37.78663794174572
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ferguson St",
+                "sourceTitle": "Spotswood",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "fire",
                 "status": "responding",
-                "created": "2020-10-03T17:28:58+10:00",
-                "updated": "2020-10-03T17:28:58+10:00",
-                "id": "ESTA:201002384",
-                "location": "Ferguson St, Williamstown",
-                "size": "Small",
+                "created": "2020-10-03T17:43:25+10:00",
+                "updated": "2020-10-03T17:44:40+10:00",
+                "id": "ESTA:201002413",
+                "location": "Spotswood",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.89056591904983,
-                    -37.85784363473638
+                    144.88104481569056,
+                    -37.82553820405276
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kavanagh St",
+                "sourceTitle": "Berringa",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-03T17:31:24+10:00",
-                "updated": "2020-10-03T17:31:24+10:00",
-                "id": "ESTA:201002396",
-                "location": "Kavanagh St, Southbank",
-                "size": "Small",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-10-03T17:42:28+10:00",
+                "updated": "2020-10-03T17:45:40+10:00",
+                "id": "ESTA:201002411",
+                "location": "Donald Mcleans Rd, Berringa",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9628673627791,
-                    -37.82562317332851
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beaumaris",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "responding",
-                "created": "2020-10-03T17:31:10+10:00",
-                "updated": "2020-10-03T17:33:43+10:00",
-                "id": "ESTA:201050329",
-                "location": "Morey Rd, Beaumaris",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03893367199612,
-                    -37.97667088324501
+                    143.6728815394426,
+                    -37.749741476094165
                 ]
             }
         },
@@ -16040,6 +16127,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-10-03T17:03:00+10:00",
+                "updated": "2020-10-03T17:14:00+10:00",
+                "id": "ESTA:201002363",
+                "location": "Mansfield",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.08835746287906,
+                    -37.0520404796117
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Ambition Dr",
                 "category": "fire",
                 "subcategory": "other",
@@ -16178,6 +16288,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Lyle St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-03T17:38:37+10:00",
+                "updated": "2020-10-03T17:38:37+10:00",
+                "id": "ESTA:201002399",
+                "location": "Lyle St, Brunswick",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9584820188444,
+                    -37.76502872352846
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
@@ -16194,6 +16327,28 @@
                 "coordinates": [
                     145.10011405142507,
                     -37.70264267934097
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-03T17:19:00+10:00",
+                "updated": "2020-10-03T17:21:00+10:00",
+                "id": "ESTA:201050327",
+                "location": "Hampton",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02091415074472,
+                    -37.93425031951347
                 ]
             }
         },
@@ -16289,28 +16444,6 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-10-03T15:24:00+10:00",
-                "updated": "2020-10-03T16:44:00+10:00",
-                "id": "ESTA:201050302",
-                "location": "Donvale",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17438768184306,
-                    -37.78663794174572
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
@@ -16333,28 +16466,6 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-10-03T14:14:00+10:00",
-                "updated": "2020-10-03T14:17:00+10:00",
-                "id": "ESTA:201050279",
-                "location": "Heyfield",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.7224095826462,
-                    -37.984043873559635
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
                 "status": "unknown",
@@ -16370,28 +16481,6 @@
                 "coordinates": [
                     145.94763794680273,
                     -37.975166307875405
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-10-03T11:06:00+10:00",
-                "updated": "2020-10-03T11:09:00+10:00",
-                "id": "ESTA:201050219",
-                "location": "Hastings",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17924653569753,
-                    -38.30235513897617
                 ]
             }
         },

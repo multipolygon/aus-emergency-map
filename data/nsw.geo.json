@@ -601,10 +601,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.31088791100012,
-                    -29.51820559199996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.31088791100012,
+                            -29.51820559199996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.310721349,
+                                            -29.5181580029999
+                                        ],
+                                        [
+                                            152.310733247,
+                                            -29.518110414
+                                        ],
+                                        [
+                                            152.311030679,
+                                            -29.518003338
+                                        ],
+                                        [
+                                            152.312505944,
+                                            -29.5183840519999
+                                        ],
+                                        [
+                                            152.311875388,
+                                            -29.5188242519999
+                                        ],
+                                        [
+                                            152.311221036,
+                                            -29.5189908139999
+                                        ],
+                                        [
+                                            152.310828425,
+                                            -29.51883615
+                                        ],
+                                        [
+                                            152.310721349,
+                                            -29.5181580029999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -614,11 +663,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393937",
-                "created": "2020-10-03T08:24:00+10:00",
-                "updated": "2020-10-03T18:24:00+10:00",
+                "created": "2020-10-03T10:06:00+10:00",
+                "updated": "2020-10-03T20:06:00+10:00",
                 "location": "Gurrs Rd, Glen Elgin,  2370",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Gurrs Rd, Glen Elgin,  2370 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 3 Oct 2020 18:24",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Gurrs Rd, Glen Elgin,  2370 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 3 Oct 2020 20:06",
                 "title": "incident: fire"
             }
         },
@@ -1839,6 +1888,30 @@
                 "location": "New England Highway, Bluff River",
                 "size": 5,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: New England Highway, Bluff River <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Oct 2020 13:12",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.88429900000006,
+                    -31.323981999999944
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "New England Hwy, Gowrie",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393976",
+                "created": "2020-10-03T09:40:00+10:00",
+                "updated": "2020-10-03T19:40:00+10:00",
+                "location": "New England Hwy, Gowrie, NSW 2340",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: New England Hwy, Gowrie, NSW 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Oct 2020 19:40",
                 "title": "incident: fire"
             }
         },
@@ -4415,6 +4488,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.54379900000004,
+                    -32.333699999999965
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Boomerang Dr, Elizabeth Beach",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393980",
+                "created": "2020-10-03T10:16:00+10:00",
+                "updated": "2020-10-03T20:16:00+10:00",
+                "location": "Boomerang Dr, Elizabeth Beach, NSW 2428",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Boomerang Dr, Elizabeth Beach, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Oct 2020 20:16",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.09450600000002,
                     -36.073477999999966
                 ]
@@ -4487,30 +4584,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.65514900000005,
-                    -30.50435099999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Donnelly St, Armidale",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393977",
-                "created": "2020-10-03T10:02:00+10:00",
-                "updated": "2020-10-03T20:02:00+10:00",
-                "location": "Donnelly St, Armidale, NSW 2350",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Donnelly St, Armidale, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 3 Oct 2020 20:02",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.04711200000008,
                     -28.889156999999955
                 ]
@@ -4528,6 +4601,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ellangowan Rd, Casino, NSW 2470 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 3 Oct 2020 15:57",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.6220710010001,
+                    -31.82302199999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "George Gibson Dr, Coopernook",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393974",
+                "created": "2020-10-03T09:20:00+10:00",
+                "updated": "2020-10-03T19:20:00+10:00",
+                "location": "George Gibson Dr, Coopernook, NSW 2426",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: George Gibson Dr, Coopernook, NSW 2426 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Oct 2020 19:20",
+                "title": "incident: fire"
             }
         },
         {

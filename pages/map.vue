@@ -118,8 +118,8 @@
         </div>
         <div id="panel">
             <span id="panelTop"></span>
-            <h1 style="font-size: 120%;" @click.prevent="debug()">Australian Emergency Map</h1>
-            <p>An Australia-wide emergency map covering all states and territories.</p>
+            <h1 style="font-size: 120%;" @click.prevent="debug()">Australia Wide<br />Emergency Map</h1>
+            <p>Australian live emergency incident map covering all states and territories.</p>
             <h2 id="panelFilters">Data Filters</h2>
             <p>
                 Max age:

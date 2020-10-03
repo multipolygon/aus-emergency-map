@@ -3,10 +3,11 @@ const description = 'Australian live emergency incident map covering all states 
 const host = 'https://australia.emergencymap.app';
 
 export default {
-    mode: 'spa',
     /*
      ** Headers of the page
      */
+    ssr: false,
+    target: 'static',
     env: {
         TF_API_KEY: process.env.TF_API_KEY,
     },

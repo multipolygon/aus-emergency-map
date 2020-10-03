@@ -4414,10 +4414,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.10786438000002,
-                    -34.58276840899998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.11836247300005,
+                            -34.62603017599997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.118207808,
+                                            -34.625887408
+                                        ],
+                                        [
+                                            146.118195911,
+                                            -34.625887408
+                                        ],
+                                        [
+                                            146.118481447,
+                                            -34.62583982
+                                        ],
+                                        [
+                                            146.118445754,
+                                            -34.626220533
+                                        ],
+                                        [
+                                            146.118231603,
+                                            -34.626220533
+                                        ],
+                                        [
+                                            146.118207808,
+                                            -34.625887408
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4432,30 +4473,6 @@
                 "location": "Whitton Darlington Point Rd, Darlington Point, NSW 2706",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Whitton Darlington Point Rd, Darlington Point, NSW 2706 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 3 Oct 2020 20:53",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.05642461800005,
-                    -32.737219729999936
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Albert Street, Taylors Beach",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393988",
-                "created": "2020-10-03T11:30:00+10:00",
-                "updated": "2020-10-03T21:30:00+10:00",
-                "location": "Albert Street, taylors beach",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Albert Street, taylors beach <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Oct 2020 21:30",
                 "title": "incident: fire"
             }
         },

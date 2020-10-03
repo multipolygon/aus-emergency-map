@@ -13,7 +13,7 @@
                 <strong
                     >Australian live emergency incident map covering all states and
                     territories.</strong
-                                    >
+                >
             </p>
             <p>
                 <a href="/map" class="button">
@@ -50,8 +50,8 @@
             <p style="color: #CC3333">
                 <strong>
                     Do not use this app as a warning or alert service. Do not use this app for
-                    safety of life decisions. Use it only as a data analysis tool and for seeing
-                    a big-picture overview.
+                    safety of life decisions. Use it only as a data analysis tool and for seeing a
+                    big-picture overview.
                 </strong>
             </p>
             <br />
@@ -60,8 +60,7 @@
                 government or data source.
             </p>
             <p>
-                For local updates and alerts, please refer to your state emergency or fire
-                service.
+                For local updates and alerts, please refer to your state emergency or fire service.
             </p>
             <p>
                 This is a non-commercial, volunteer-time project.
@@ -69,8 +68,8 @@
                 available and feedback or contributions are welcome.
             </p>
             <p>
-                The layout works best on desktop, but it is also great on tablet or mobile where
-                it can be added to the home screen.
+                The layout works best on desktop, but it is also great on tablet or mobile where it
+                can be added to the home screen.
             </p>
             <p>
                 For an overview of features please see the
@@ -91,12 +90,12 @@
                 <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>
             </p>
             <p style="font-size: 70%; color: grey;">
-                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-                IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-                FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-                COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-                IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-                CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+                INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+                PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+                HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+                CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+                OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             </p>
         </div>
     </div>

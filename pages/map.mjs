@@ -13,12 +13,12 @@ import FilterCounts from '~/components/filter-counts.vue';
 
 const ausBounds = L.latLngBounds(
     {
-        lat: -8.671039380459929,
-        lng: 156.18524544032667,
+        lat: -8,
+        lng: 156,
     },
     {
-        lat: -45.27710831357647,
-        lng: 110.48212044032667,
+        lat: -45,
+        lng: 110,
     },
 );
 
@@ -30,7 +30,19 @@ const defaultFilterTree = {
     other: { _show: true, _color: '#2981CA', _icon: 'information', category: {}, status: {} },
 };
 
-let fetchTimer;
+const lightningImageUrl =
+    'https://images.lightningmaps.org/blitzortung/oceania/index.php?map=australia_big&period=24&transparent';
+
+const lightningImageBounds = L.latLngBounds(
+    {
+        lat: -8,
+        lng: 159,
+    },
+    {
+        lat: -45,
+        lng: 109,
+    },
+);
 
 export default {
     layout: 'split-page-map',
@@ -122,6 +134,7 @@ export default {
             maxAge: 24, // hours
             fadeWithAge: true,
             showResources: false,
+            showLightning: false,
             sortBy: null,
             loadDefault: true,
             filterTree: {},
@@ -133,7 +146,6 @@ export default {
             userLocation: null,
             shareableUrl: null,
             mapDelay: 2000,
-            lightning: [],
         };
     },
     computed: {
@@ -165,18 +177,6 @@ export default {
         },
         maxAge_ms(vm) {
             return vm.maxAge * 60 * 60 * 1000;
-        },
-        lightningAgeFiltered(vm) {
-            if (vm.feedsSelected.includes('lightning')) {
-                const now = new Date();
-                return vm.lightning.filter(function(i) {
-                    const age = now - vm.$moment.unix(i.unixTime);
-                    i._opacity = age > 0 ? 1 - age / vm.maxAge_ms / 1.1 : 1;
-                    return age < vm.maxAge_ms;
-                });
-            } else {
-                return [];
-            }
         },
         featuresAgeFiltered(vm) {
             return Object.keys(vm.feeds).reduce(function(features, src) {
@@ -287,12 +287,6 @@ export default {
                 this.updateFilterTreeCounts();
             },
         },
-        lightningAgeFiltered: {
-            deep: false,
-            handler() {
-                this.updateMap();
-            },
-        },
         fadeWithAge(val) {
             this.updateMap();
             localSet('fadeWithAge', val);
@@ -300,6 +294,17 @@ export default {
         showResources(val) {
             this.updateMap();
             localSet('showResources', val);
+        },
+        showLightning(val) {
+            if (window.lmap && window.lightningLayer) {
+                if (val) {
+                    window.lightningLayer.addTo(window.lmap);
+                    window.lightningLayer.setUrl(lightningImageUrl);
+                } else {
+                    window.lightningLayer.remove();
+                }
+            }
+            localSet('showLightning', val);
         },
         maxAge(val) {
             localSet('maxAge', val);
@@ -363,25 +368,19 @@ export default {
                     })
                     .then(function(response) {
                         const now = new Date();
-                        if (src === 'lightning') {
-                            vm.lightning = Object.values(response.data).filter((i) =>
-                                ausBounds.contains(L.latLng([i.lat, i.long])),
-                            );
-                        } else {
-                            vm.feeds[src].features = response.data.features.map(
-                                ({ properties, ...feature }) => ({
-                                    ...feature,
-                                    properties: {
-                                        _feed_src: src,
-                                        ...vm.timestamps(
-                                            now,
-                                            vm.$moment(properties.updated, vm.$moment.ISO_8601),
-                                        ),
-                                        ...properties,
-                                    },
-                                }),
-                            );
-                        }
+                        vm.feeds[src].features = response.data.features.map(
+                            ({ properties, ...feature }) => ({
+                                ...feature,
+                                properties: {
+                                    _feed_src: src,
+                                    ...vm.timestamps(
+                                        now,
+                                        vm.$moment(properties.updated, vm.$moment.ISO_8601),
+                                    ),
+                                    ...properties,
+                                },
+                            }),
+                        );
                         vm.feeds[src].error = false;
                         vm.feedLoaded(src);
                     })
@@ -521,20 +520,6 @@ export default {
             vm.mapDelay = 500;
             window.lmap.invalidateSize(true);
             window.lgeo.clearLayers();
-            vm.lightningAgeFiltered.forEach(function(i) {
-                const icon = L.divIcon({
-                    className:
-                        'map-icon feature-lightning mdi mdi-flash op' +
-                        Math.round(10 * (vm.fadeWithAge ? i._opacity : 1)),
-                    iconSize: [20, 20],
-                    iconAnchor: [10, 10],
-                });
-                L.marker(L.latLng([i.lat, i.long]), { icon })
-                    .bindPopup(
-                        'Lightning strike at ' + vm.$moment.unix(i.unixTime).format(timeFormat),
-                    )
-                    .addTo(window.lgeo);
-            });
             if (vm.mapBounds.watchZone !== null) {
                 L.rectangle(vm.mapBounds.watchZone, {
                     weight: 4,
@@ -776,6 +761,7 @@ export default {
         vm.maxAge = localGet('maxAge', 24);
         vm.fadeWithAge = localGet('fadeWithAge', true);
         vm.showResources = localGet('showResources', false);
+        vm.showLightning = localGet('showLightning', false);
         vm.sortBy = localGet('sortBy', '_age');
         vm.loadFilterTree();
         vm.feedsSelected = localGet('feedsSelected', Object.keys(vm.feeds));
@@ -790,7 +776,7 @@ export default {
                 center: ausBounds.getCenter(),
                 zoom: 5,
                 scrollWheelZoom: true,
-                maxBounds: ausBounds,
+                // maxBounds: ausBounds,
             });
 
             window.lmapUserZoom = false;
@@ -808,18 +794,45 @@ export default {
             window.lTargetMarker = L.layerGroup().addTo(window.lmap);
             window.llocation = L.layerGroup().addTo(window.lmap);
 
-            // Tiles must be added last to avoid blocking entire page:
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            const osmBaseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 subdomains: 'abc',
                 attribution:
                     'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
             }).addTo(window.lmap);
+
+            const thuderforestBaseLayer = window.L.tileLayer(
+                `https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=${process.env.TF_API_KEY}`,
+                {
+                    attribution:
+                        '<a href="https://www.thunderforest.com/maps/landscape/">thunderforest.com</a>',
+                },
+            );
+
+            window.lightningLayer = L.imageOverlay(lightningImageUrl, lightningImageBounds, {
+                opacity: 0.6,
+            });
+
+            L.control
+                .layers(
+                    {
+                        Streetmap: osmBaseLayer,
+                        Landscape: thuderforestBaseLayer,
+                    },
+                    {
+                        Lightning: window.lightningLayer,
+                    },
+                    {
+                        autoZIndex: false,
+                        hideSingleBase: true,
+                    },
+                )
+                .addTo(window.lmap);
         }
 
         window.lmap.on('locationfound', vm.locationFound);
         window.lmap.on('locationerror', vm.locationError);
 
-        fetchTimer = window.setInterval(function() {
+        window.fetchTimer = window.setInterval(function() {
             vm.fetchFeed();
         }, 5 * 60 * 1000);
     },
@@ -827,6 +840,6 @@ export default {
         const vm = this;
         window.lmap.off('locationfound', vm.locationFound);
         window.lmap.off('locationerror', vm.locationError);
-        clearInterval(fetchTimer);
+        clearInterval(window.fetchTimer);
     },
 };

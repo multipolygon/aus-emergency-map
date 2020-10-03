@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v2
-        
+
       - name: NPM Install
         run: npm ci
 
@@ -22,8 +22,10 @@ jobs:
       - name: Remove temp files
         run: |
           rm ./static/data/orig/*
-        
+
       - name: Generate
+        env:
+          TF_API_KEY: ${{ secrets.TF_API_KEY }}
         run: npm run generate
 
       - name: Git Deploy

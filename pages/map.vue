@@ -160,6 +160,23 @@
                         filterTree._resources
                     }}</small>
                 </li>
+                <li>
+                    <label
+                        title="LightningMaps.org CC BY-SA 4.0 / Lightning data by Blitzortung.org and contributors"
+                    >
+                        <input v-model="showLightning" type="checkbox" />
+                        Show lightning
+                    </label>
+                    <small>
+                        <a
+                            href="http://www.lightningmaps.org/blitzortung/oceania/index.php?bo_page=map&bo_period=24&bo_showmap=australia_big"
+                            target="_blank"
+                            title="LightningMaps.org CC BY-SA 4.0 / Lightning data by Blitzortung.org and contributors"
+                        >
+                            <span class="mdi mdi-link-variant"></span>
+                        </a>
+                    </small>
+                </li>
             </ol>
             <p>
                 <button
@@ -381,25 +398,21 @@
                     For an overview of features please see the
                     <a href="./user_guide/index.html" target="_blank">User Guide</a>.
                 </p>
-                <p>Built with free, open-source, community-driven software:</p>
-                <ul>
-                    <li>
-                        <a href="http://leafletjs.com/">Leaflet</a>
-                    </li>
-                    <li>
-                        <a href="https://www.openstreetmap.org/about">OpenStreetMap</a>
-                    </li>
-                    <li>
-                        <a href="https://vuejs.org/">Vue.js</a>
-                    </li>
-                    <li>
-                        <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
-                    </li>
-                </ul>
-                <p style="font-size: 70%; color: grey;">
+                <p>
+                    Built with free, open-source, community-driven software:
+                    <a href="http://leafletjs.com/">Leaflet</a>,
+                    <a href="https://www.openstreetmap.org/about">OpenStreetMap</a>,
+                    <a href="https://vuejs.org/">Vue.js</a> and
+                    <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
+                </p>
+                <p style="color: grey;">
                     Map data &copy;
                     <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors,
                     <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>
+                </p>
+                <p style="color: grey;">
+                    LightningMaps.org CC BY-SA 4.0 / Lightning data by Blitzortung.org and
+                    contributors.
                 </p>
                 <p style="font-size: 70%; color: grey;">
                     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR

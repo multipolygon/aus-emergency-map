@@ -7,6 +7,9 @@ export default {
     /*
      ** Headers of the page
      */
+    env: {
+        TF_API_KEY: process.env.TF_API_KEY,
+    },
     head: {
         title,
         meta: [

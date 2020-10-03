@@ -30,8 +30,10 @@ const defaultFilterTree = {
     other: { _show: true, _color: '#2981CA', _icon: 'information', category: {}, status: {} },
 };
 
-const lightningImageUrl =
+const _lightningImageUrl =
     'https://images.lightningmaps.org/blitzortung/oceania/index.php?map=australia_big&period=24&transparent';
+
+const lightningImageUrl = () => _lightningImageUrl + '&t' + new Date().getTime();
 
 const lightningImageBounds = L.latLngBounds(
     {
@@ -299,7 +301,7 @@ export default {
             if (window.lmap && window.lightningLayer) {
                 if (val) {
                     window.lightningLayer.addTo(window.lmap);
-                    window.lightningLayer.setUrl(lightningImageUrl);
+                    window.lightningLayer.setUrl(lightningImageUrl());
                 } else {
                     window.lightningLayer.remove();
                 }
@@ -357,6 +359,9 @@ export default {
             const vm = this;
             vm.mapDelay = 2000;
             if (src === undefined) {
+                if (vm.showLightning && window.lightningLayer) {
+                    window.lightningLayer.setUrl(lightningImageUrl());
+                }
                 for (src of vm.feedsSelected) {
                     vm.fetchFeed(src);
                 }
@@ -808,7 +813,7 @@ export default {
                 },
             );
 
-            window.lightningLayer = L.imageOverlay(lightningImageUrl, lightningImageBounds, {
+            window.lightningLayer = L.imageOverlay(lightningImageUrl(), lightningImageBounds, {
                 opacity: 0.6,
             });
 

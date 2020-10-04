@@ -9965,23 +9965,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Stagecoach Trk",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-10-04T15:46:00+11:00",
-                "updated": "2020-10-04T17:27:00+11:00",
-                "id": "ESTA:201003367",
-                "location": "Stagecoach Trk, Mount Best",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-04T17:36:00+11:00",
+                "updated": "2020-10-04T17:40:00+11:00",
+                "id": "ESTA:201050408",
+                "location": "Richmond",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.30302755965295,
-                    -38.60205487803859
+                    144.9924886640871,
+                    -37.8104071705613
                 ]
             }
         },
@@ -9991,7 +9990,7 @@
                 "sourceTitle": "Innisfallen Av",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-10-04T17:32:00+11:00",
                 "updated": "2020-10-04T17:32:00+11:00",
                 "id": "ESTA:201003480",
@@ -10011,22 +10010,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Richmond",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "complete",
-                "created": "2020-10-04T17:33:00+11:00",
-                "updated": "2020-10-04T17:36:21+11:00",
-                "id": "ESTA:201050408",
-                "location": "Regent St, Richmond",
+                "created": "2020-10-04T16:55:00+11:00",
+                "updated": "2020-10-04T17:42:00+11:00",
+                "id": "ESTA:201050407",
+                "location": "Woori Yallock",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.992499975075,
-                    -37.81039604931895
+                    145.52960228778426,
+                    -37.77729590121286
                 ]
             }
         },
@@ -10040,7 +10039,7 @@
                 "status": "warning",
                 "created": "2020-10-04T17:00:00+11:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/b7fd246e3c6cc2838dac5330d4ea756b",
+                "id": "IDV20600/554a966b74a95a558c70576db87c69f0",
                 "location": "Port Phillip, Western Port, West Coast, Central Coast and East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -14220,22 +14219,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Berrigan Rd, Barooga",
+                "sourceTitle": "Katy Ryans Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-10-04T16:59:05+11:00",
+                "updated": "2020-10-04T16:59:05+11:00",
+                "id": "ESTA:201003347",
+                "location": "Katy Ryans Rd, Mount Clear",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.89438553788554,
+                    -37.60405560797064
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "out of control",
-                "created": "2020-10-04T17:10:00+11:00",
-                "updated": "2020-10-04T17:10:00+11:00",
-                "id": "2020-10-04T17:10:00.0000000:394081",
-                "location": "Berrigan Rd, Barooga, Nsw 3644",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-10-04T16:28:00+11:00",
+                "updated": "2020-10-04T16:43:00+11:00",
+                "id": "ESTA:201003410",
+                "location": "Loch Sport",
+                "size": "Small",
                 "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.707559,
-                    -35.8693729999999
+                    147.57177841414344,
+                    -38.05544427936282
                 ]
             }
         },
@@ -14245,9 +14268,9 @@
                 "sourceTitle": "Aqueduct Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-04T17:28:14+11:00",
-                "updated": "2020-10-04T17:28:14+11:00",
+                "status": "under control",
+                "created": "2020-10-04T17:36:07+11:00",
+                "updated": "2020-10-04T17:36:07+11:00",
                 "id": "ESTA:201003475",
                 "location": "Aqueduct Rd, St Helena",
                 "size": "Small",
@@ -14259,6 +14282,29 @@
                 "coordinates": [
                     145.13659960191302,
                     -37.6852523305234
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Stagecoach Trk",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-10-04T15:46:00+11:00",
+                "updated": "2020-10-04T17:27:00+11:00",
+                "id": "ESTA:201003367",
+                "location": "Stagecoach Trk, Mount Best",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.30302755965295,
+                    -38.60205487803859
                 ]
             }
         },
@@ -14305,52 +14351,6 @@
                 "coordinates": [
                     143.90087249814377,
                     -37.594231528048944
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Katy Ryans Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-10-04T16:59:05+11:00",
-                "updated": "2020-10-04T16:59:05+11:00",
-                "id": "ESTA:201003347",
-                "location": "Katy Ryans Rd, Mount Clear",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.89438553788554,
-                    -37.60405560797064
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-10-04T16:28:00+11:00",
-                "updated": "2020-10-04T16:43:00+11:00",
-                "id": "ESTA:201003410",
-                "location": "Loch Sport",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.57177841414344,
-                    -38.05544427936282
                 ]
             }
         },
@@ -14420,28 +14420,6 @@
                 "coordinates": [
                     145.39728080019532,
                     -36.41292409469034
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-10-04T16:55:00+11:00",
-                "updated": "2020-10-04T17:21:00+11:00",
-                "id": "ESTA:201050407",
-                "location": "Woori Yallock",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.52960228778426,
-                    -37.77729590121286
                 ]
             }
         },

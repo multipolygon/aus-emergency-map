@@ -223,6 +223,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    145.57365417500012,
+                    -34.65185005099994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dow Creek, Carrathool",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394202",
+                "created": "2020-10-05T04:09:00+11:00",
+                "updated": "2020-10-05T15:09:00+11:00",
+                "location": "Dow Creek, Carrathool, NSW 2711",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Dow Creek, Carrathool, NSW 2711 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:09",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.8139395710001,
                     -34.43788513599998
                 ]
@@ -1748,11 +1772,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/393906",
-                "created": "2020-10-04T03:54:00+11:00",
-                "updated": "2020-10-04T14:54:00+11:00",
+                "created": "2020-10-05T04:18:00+11:00",
+                "updated": "2020-10-05T15:18:00+11:00",
                 "location": "New England Highway, Bluff River",
                 "size": 5,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: New England Highway, Bluff River <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Oct 2020 14:54",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: New England Highway, Bluff River <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:18",
                 "title": "incident: fire"
             }
         },
@@ -1777,30 +1801,6 @@
                 "location": "169 otford road otford",
                 "size": 10,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 169 otford road otford <br />COUNCIL AREA: Wollongong <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 12:05",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.95891000000006,
-                    -29.899400999999955
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pinkett Rd, Pinkett",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394195",
-                "created": "2020-10-05T03:33:00+11:00",
-                "updated": "2020-10-05T14:33:00+11:00",
-                "location": "Pinkett Rd, Pinkett,  2370",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Pinkett Rd, Pinkett,  2370 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 14:33",
                 "title": "incident: fire"
             }
         },
@@ -3491,10 +3491,106 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.96786880500008,
-                    -29.42330125099994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.96786880500008,
+                            -29.42330125099994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.956605314,
+                                            -29.427755106
+                                        ],
+                                        [
+                                            151.956926541,
+                                            -29.427279214
+                                        ],
+                                        [
+                                            151.957105,
+                                            -29.427195932
+                                        ],
+                                        [
+                                            151.957557099,
+                                            -29.427279214
+                                        ],
+                                        [
+                                            151.957676072,
+                                            -29.427719414
+                                        ],
+                                        [
+                                            151.95746192,
+                                            -29.428100128
+                                        ],
+                                        [
+                                            151.956962233,
+                                            -29.42808823
+                                        ],
+                                        [
+                                            151.956605314,
+                                            -29.4277907979999
+                                        ],
+                                        [
+                                            151.956605314,
+                                            -29.427755106
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.956831362,
+                                            -29.4274814679999
+                                        ],
+                                        [
+                                            151.957128795,
+                                            -29.4272078299999
+                                        ],
+                                        [
+                                            151.957557099,
+                                            -29.4273149049999
+                                        ],
+                                        [
+                                            151.957616585,
+                                            -29.4277789
+                                        ],
+                                        [
+                                            151.957366742,
+                                            -29.42808823
+                                        ],
+                                        [
+                                            151.956986028,
+                                            -29.428016847
+                                        ],
+                                        [
+                                            151.95671239,
+                                            -29.427802695
+                                        ],
+                                        [
+                                            151.956819465,
+                                            -29.427469571
+                                        ],
+                                        [
+                                            151.956831362,
+                                            -29.4274814679999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4377,6 +4473,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.37411500000007,
+                    -31.94595899999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bootawa Rd, Bootawa",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394201",
+                "created": "2020-10-05T04:02:00+11:00",
+                "updated": "2020-10-05T15:02:00+11:00",
+                "location": "125 Bootawa Rd, Bootawa, NSW 2430",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 125 Bootawa Rd, Bootawa, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.01390600000002,
                     -36.046205999999984
                 ]
@@ -4425,23 +4545,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.917544001,
-                    -29.799639999999954
+                    149.466899,
+                    -34.452188999999976
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Copeton Dam Rd, Gum Flat",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394162",
-                "created": "2020-10-05T00:54:00+11:00",
-                "updated": "2020-10-05T11:54:00+11:00",
-                "location": "1584 Copeton Dam Rd, Gum Flat, NSW 2360",
+                "sourceTitle": "Crown St, Crookwell",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394210",
+                "created": "2020-10-05T04:26:00+11:00",
+                "updated": "2020-10-05T15:26:00+11:00",
+                "location": "Crown St, Crookwell, NSW 2583",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1584 Copeton Dam Rd, Gum Flat, NSW 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 11:54",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Crown St, Crookwell, NSW 2583 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 5 Oct 2020 15:26",
+                "title": "incident: fire"
             }
         },
         {
@@ -4465,6 +4585,30 @@
                 "location": "Delaware Rd, Horsley Park, NSW 2175",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Delaware Rd, Horsley Park, NSW 2175 <br />COUNCIL AREA: Fairfield <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Oct 2020 23:57",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.40821900000003,
+                    -34.60814899999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Euroley Rd, Yanco",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394204",
+                "created": "2020-10-05T04:04:00+11:00",
+                "updated": "2020-10-05T15:04:00+11:00",
+                "location": "Euroley Rd, Yanco, NSW 2703",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Euroley Rd, Yanco, NSW 2703 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:04",
                 "title": "incident: fire"
             }
         },
@@ -4586,6 +4730,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.60556200000008,
+                    -35.00571599999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jervis Bay Rd, Falls Creek",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394208",
+                "created": "2020-10-05T04:16:00+11:00",
+                "updated": "2020-10-05T15:16:00+11:00",
+                "location": "Jervis Bay Rd, Falls Creek, NSW 2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Jervis Bay Rd, Falls Creek, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:16",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.2193869990001,
                     -29.98425999999995
                 ]
@@ -4610,6 +4778,102 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    146.7475780000001,
+                    -33.307748999999944
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lake Cargelligo Rd, Tullibigeal",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394199",
+                "created": "2020-10-05T04:02:00+11:00",
+                "updated": "2020-10-05T15:02:00+11:00",
+                "location": "Lake Cargelligo Rd, Tullibigeal, NSW 2669",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lake Cargelligo Rd, Tullibigeal, NSW 2669 <br />COUNCIL AREA: Lachlan <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.48029422800005,
+                    -35.26853735399993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lake Conjola Boat Fire",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394205",
+                "created": "2020-10-05T04:08:00+11:00",
+                "updated": "2020-10-05T15:08:00+11:00",
+                "location": "lake conjola",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: lake conjola <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:08",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.48362400000008,
+                    -35.269300999999984
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Norman St, Lake Conjola",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394207",
+                "created": "2020-10-05T04:14:00+11:00",
+                "updated": "2020-10-05T15:14:00+11:00",
+                "location": "1 Norman St, Lake Conjola, NSW 2539",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1 Norman St, Lake Conjola, NSW 2539 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:14",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.08820000000003,
+                    -32.611024999999984
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, Tea Gardens",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394211",
+                "created": "2020-10-05T04:18:00+11:00",
+                "updated": "2020-10-05T15:18:00+11:00",
+                "location": "Pacific Hwy, Tea Gardens, NSW 2324",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Tea Gardens, NSW 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:18",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     146.1100560000001,
                     -34.14254700099997
                 ]
@@ -4627,30 +4891,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Rankins Springs Rd, Myall Park, NSW 2681 <br />COUNCIL AREA: Griffith <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Oct 2020 12:54",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.30701900000008,
-                    -33.582360999999935
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Resolute Trk, Ku-Ring-Gai Chase",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394191",
-                "created": "2020-10-05T01:46:00+11:00",
-                "updated": "2020-10-05T12:46:00+11:00",
-                "location": "Resolute Trk, Ku-Ring-Gai Chase, NSW 2101",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Resolute Trk, Ku-Ring-Gai Chase, NSW 2101 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 12:46",
-                "title": "incident: other"
             }
         },
         {
@@ -4727,6 +4967,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.7801809990001,
+                    -33.726057999999966
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Semaphore St, Ropes Crossing",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394206",
+                "created": "2020-10-05T04:24:00+11:00",
+                "updated": "2020-10-05T15:24:00+11:00",
+                "location": "Semaphore St, Ropes Crossing, NSW 2760",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Semaphore St, Ropes Crossing, NSW 2760 <br />COUNCIL AREA: Blacktown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 5 Oct 2020 15:24",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.46417400000007,
                     -34.34407699999997
                 ]
@@ -4743,6 +5007,54 @@
                 "location": "5 Starlight Pl, Hill Top, NSW 2575",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 Starlight Pl, Hill Top, NSW 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 08:17",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.44188500000007,
+                    -34.72151599999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sturt Hwy, Gillenbah",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394200",
+                "created": "2020-10-05T04:21:00+11:00",
+                "updated": "2020-10-05T15:21:00+11:00",
+                "location": "Sturt Hwy, Gillenbah, NSW 2700",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sturt Hwy, Gillenbah, NSW 2700 <br />COUNCIL AREA: Narrandera <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:21",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.60362700000007,
+                    -32.93754099999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Weir Rd, Teralba",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394213",
+                "created": "2020-10-05T04:22:00+11:00",
+                "updated": "2020-10-05T15:22:00+11:00",
+                "location": "The Weir Rd, Teralba, NSW 2284",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: The Weir Rd, Teralba, NSW 2284 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2020 15:22",
                 "title": "incident: fire"
             }
         },

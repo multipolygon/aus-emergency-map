@@ -765,8 +765,8 @@ export default {
 
         vm.maxAge = localGet('maxAge', 24);
         vm.fadeWithAge = localGet('fadeWithAge', true);
-        vm.showResources = localGet('showResources', false);
-        vm.showLightning = localGet('showLightning', false);
+        vm.showResources = localGet('showResources', true);
+        vm.showLightning = localGet('showLightning', true);
         vm.sortBy = localGet('sortBy', '_age');
         vm.loadFilterTree();
         vm.feedsSelected = localGet('feedsSelected', Object.keys(vm.feeds));

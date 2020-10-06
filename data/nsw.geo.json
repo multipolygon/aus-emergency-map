@@ -28,10 +28,159 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.5289440150001,
-                    -29.715078602999938
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.5381679269855,
+                            -29.707480148619
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.515105249,
+                                            -29.706558356
+                                        ],
+                                        [
+                                            152.517160782,
+                                            -29.70525888
+                                        ],
+                                        [
+                                            152.517556094,
+                                            -29.705939695
+                                        ],
+                                        [
+                                            152.517579888,
+                                            -29.7068200959999
+                                        ],
+                                        [
+                                            152.518031985,
+                                            -29.7077956749999
+                                        ],
+                                        [
+                                            152.519031361,
+                                            -29.7087712539999
+                                        ],
+                                        [
+                                            152.520459036,
+                                            -29.709175763
+                                        ],
+                                        [
+                                            152.521529794,
+                                            -29.708961611
+                                        ],
+                                        [
+                                            152.522505373,
+                                            -29.708342951
+                                        ],
+                                        [
+                                            152.522600551,
+                                            -29.707486345
+                                        ],
+                                        [
+                                            152.523171622,
+                                            -29.7064869709999
+                                        ],
+                                        [
+                                            152.525146574,
+                                            -29.7030605479999
+                                        ],
+                                        [
+                                            152.525979386,
+                                            -29.7012521569999
+                                        ],
+                                        [
+                                            152.528263668,
+                                            -29.7004431399999
+                                        ],
+                                        [
+                                            152.530048264,
+                                            -29.700681087
+                                        ],
+                                        [
+                                            152.53147594,
+                                            -29.7017756389999
+                                        ],
+                                        [
+                                            152.532903617,
+                                            -29.7030605479999
+                                        ],
+                                        [
+                                            152.534902365,
+                                            -29.703655413
+                                        ],
+                                        [
+                                            152.528977507,
+                                            -29.7137681209999
+                                        ],
+                                        [
+                                            152.529500987,
+                                            -29.7151482089999
+                                        ],
+                                        [
+                                            152.530738308,
+                                            -29.71602861
+                                        ],
+                                        [
+                                            152.530000674,
+                                            -29.7165996809999
+                                        ],
+                                        [
+                                            152.528691971,
+                                            -29.7177656169999
+                                        ],
+                                        [
+                                            152.527573625,
+                                            -29.7174562869999
+                                        ],
+                                        [
+                                            152.527026349,
+                                            -29.716004815
+                                        ],
+                                        [
+                                            152.523409568,
+                                            -29.7162665559999
+                                        ],
+                                        [
+                                            152.519840376,
+                                            -29.713744327
+                                        ],
+                                        [
+                                            152.518745824,
+                                            -29.7112220989999
+                                        ],
+                                        [
+                                            152.51810337,
+                                            -29.710436877
+                                        ],
+                                        [
+                                            152.516390157,
+                                            -29.7098896009999
+                                        ],
+                                        [
+                                            152.51505766,
+                                            -29.7090567889999
+                                        ],
+                                        [
+                                            152.513725162,
+                                            -29.706891481
+                                        ],
+                                        [
+                                            152.515105249,
+                                            -29.706558356
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -65,11 +214,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394203",
-                "created": "2020-10-05T04:13:00+11:00",
-                "updated": "2020-10-05T15:13:00+11:00",
+                "created": "2020-10-06T04:31:00+11:00",
+                "updated": "2020-10-06T15:31:00+11:00",
                 "location": "Broadwater Evans Head Rd, Evans Head, NSW 2473",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Broadwater Evans Head Rd, Evans Head, NSW 2473 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 5 Oct 2020 15:13",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Broadwater Evans Head Rd, Evans Head, NSW 2473 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 6 Oct 2020 15:31",
                 "title": "incident: fire"
             }
         },
@@ -3064,30 +3213,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.30088377000004,
-                    -28.61709488699995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "The Channon Planned Burn",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394097",
-                "created": "2020-10-04T08:21:00+11:00",
-                "updated": "2020-10-04T19:21:00+11:00",
-                "location": "786 Terania Creek Rd The Channon",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 786 Terania Creek Rd The Channon <br />COUNCIL AREA: Lismore <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Oct 2020 19:21",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.6304130000001,
                     -31.449058999999977
                 ]
@@ -3900,30 +4025,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.30505728700007,
-                    -28.89059018599994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wyrallah School Planned Burn",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394012",
-                "created": "2020-10-04T00:34:00+10:00",
-                "updated": "2020-10-04T11:34:00+11:00",
-                "location": "80 Breckenridge St, Wyrallah NSW 2480",
-                "size": 3,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 80 Breckenridge St, Wyrallah NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Oct 2020 11:34",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.49727900000005,
                     -32.378255999999965
                 ]
@@ -4149,13 +4250,13 @@
                 "sourceTitle": "Tawarri St, Moree",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394311",
-                "created": "2020-10-06T04:32:00+11:00",
-                "updated": "2020-10-06T15:32:00+11:00",
+                "created": "2020-10-06T04:38:00+11:00",
+                "updated": "2020-10-06T15:38:00+11:00",
                 "location": "14 Tawarri St, Moree, NSW 2400",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 14 Tawarri St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Oct 2020 15:32",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 14 Tawarri St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Oct 2020 15:38",
                 "title": "incident: fire"
             }
         },

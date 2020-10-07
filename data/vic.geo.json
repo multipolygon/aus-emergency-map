@@ -35827,10 +35827,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Atlantic Dr",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-07T19:36:36+11:00",
-                "updated": "2020-10-07T19:36:36+11:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-10-07T19:49:45+11:00",
+                "updated": "2020-10-07T19:49:45+11:00",
                 "id": "ESTA:201005513",
                 "location": "Atlantic Dr, Keysborough",
                 "size": "Small",
@@ -35848,58 +35848,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Duke St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-10-07T18:50:00+11:00",
-                "updated": "2020-10-07T19:37:00+11:00",
-                "id": "ESTA:201005502",
-                "location": "Duke St, Maffra",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.97070815473444,
-                    -37.96407064359616
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sturt St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-10-07T19:40:53+11:00",
-                "updated": "2020-10-07T19:40:53+11:00",
-                "id": "ESTA:201005514",
-                "location": "Sturt St, Ballarat Central",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.83934254744838,
-                    -37.56017094327849
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Lawley St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-07T19:23:22+11:00",
-                "updated": "2020-10-07T19:23:22+11:00",
+                "status": "safe",
+                "created": "2020-10-07T19:53:48+11:00",
+                "updated": "2020-10-07T19:53:48+11:00",
                 "id": "ESTA:201005511",
                 "location": "Lawley St, Reservoir",
                 "size": "Small",
@@ -35917,45 +35871,135 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "safe",
-                "created": "2020-10-07T18:54:00+11:00",
-                "updated": "2020-10-07T19:22:00+11:00",
-                "id": "ESTA:201005504",
-                "location": "Macedon",
+                "sourceTitle": "Essex St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-10-07T19:58:25+11:00",
+                "updated": "2020-10-07T19:58:25+11:00",
+                "id": "ESTA:201005517",
+                "location": "Essex St, Prahran",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.54259553541647,
-                    -37.422516881135756
+                    144.99669352798787,
+                    -37.84839703022518
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Brim",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-07T19:47:00+11:00",
+                "updated": "2020-10-07T19:53:00+11:00",
+                "id": "ESTA:201005515",
+                "location": "Maffra",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.97822061008767,
+                    -37.96811007677079
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "responding",
-                "created": "2020-10-07T19:42:54+11:00",
-                "updated": "2020-10-07T19:45:44+11:00",
-                "id": "ESTA:201050608",
-                "location": "Swann St, Brim",
+                "status": "request for assistance",
+                "created": "2020-10-07T19:55:00+11:00",
+                "updated": "2020-10-07T19:58:00+11:00",
+                "id": "ESTA:201050610",
+                "location": "Newborough",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.41755500151478,
-                    -36.076342772994565
+                    146.3000058468442,
+                    -38.178159654537055
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Warrnambool",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-10-07T19:57:05+11:00",
+                "updated": "2020-10-07T20:01:39+11:00",
+                "id": "ESTA:201050612",
+                "location": "Hallam Dr, Warrnambool",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.5100785922277,
+                    -38.36708338527504
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-10-07T19:54:00+11:00",
+                "updated": "2020-10-07T20:02:00+11:00",
+                "id": "ESTA:201050609",
+                "location": "Emerald",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.44449220076254,
+                    -37.90423184276463
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Emerald-Monbulk Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-10-07T19:55:00+11:00",
+                "updated": "2020-10-07T19:55:00+11:00",
+                "id": "ESTA:201005518",
+                "location": "Emerald-Monbulk Rd, Emerald",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.44449220076254,
+                    -37.90423184276463
                 ]
             }
         },
@@ -45789,10 +45833,56 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Duke St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-10-07T18:50:00+11:00",
+                "updated": "2020-10-07T19:37:00+11:00",
+                "id": "ESTA:201005502",
+                "location": "Duke St, Maffra",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.97070815473444,
+                    -37.96407064359616
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "safe",
+                "created": "2020-10-07T18:54:00+11:00",
+                "updated": "2020-10-07T19:22:00+11:00",
+                "id": "ESTA:201005504",
+                "location": "Macedon",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.54259553541647,
+                    -37.422516881135756
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Carlisle St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-10-07T18:41:00+11:00",
                 "updated": "2020-10-07T18:41:00+11:00",
                 "id": "ESTA:201005500",
@@ -45829,6 +45919,51 @@
                 "coordinates": [
                     144.37249375656236,
                     -38.07656620204528
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sturt St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-10-07T19:47:01+11:00",
+                "updated": "2020-10-07T19:47:01+11:00",
+                "id": "ESTA:201005514",
+                "location": "Sturt St, Ballarat Central",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.83934254744838,
+                    -37.56017094327849
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-10-07T19:46:00+11:00",
+                "updated": "2020-10-07T20:01:00+11:00",
+                "id": "ESTA:201050608",
+                "location": "Brim",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.4175480917119,
+                    -36.076352265947946
                 ]
             }
         },

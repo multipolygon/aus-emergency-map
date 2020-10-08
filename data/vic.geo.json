@@ -39942,14 +39942,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Booran Rd",
+                "sourceTitle": "Fitzsimons Lane",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-10-09T03:38:24+11:00",
-                "updated": "2020-10-09T03:38:24+11:00",
-                "id": "ESTA:201005954",
-                "location": "Booran Rd, Glen Huntly",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-10-09T03:48:00+11:00",
+                "updated": "2020-10-09T03:48:00+11:00",
+                "id": "ESTA:201005956",
+                "location": "Fitzsimons Lane, Templestowe",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -39957,30 +39957,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.03727887585993,
-                    -37.8917555913053
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Acheron",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "responding",
-                "created": "2020-10-09T03:44:57+11:00",
-                "updated": "2020-10-09T03:46:03+11:00",
-                "id": "ESTA:201050978",
-                "location": "Acheron",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.70504371980792,
-                    -37.2586741986463
+                    145.1364069019016,
+                    -37.75076996153161
                 ]
             }
         },
@@ -47686,6 +47664,51 @@
                 "coordinates": [
                     144.5688309938401,
                     -38.17264512103417
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Booran Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-10-09T03:38:24+11:00",
+                "updated": "2020-10-09T03:38:24+11:00",
+                "id": "ESTA:201005954",
+                "location": "Booran Rd, Glen Huntly",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03727887585993,
+                    -37.8917555913053
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-09T03:46:00+11:00",
+                "updated": "2020-10-09T03:51:00+11:00",
+                "id": "ESTA:201050978",
+                "location": "Acheron",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.70503532452562,
+                    -37.25868069244936
                 ]
             }
         },

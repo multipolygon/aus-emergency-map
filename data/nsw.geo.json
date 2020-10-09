@@ -76,6 +76,79 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.01796722400002,
+                            -33.21240905999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.016997631,
+                                            -33.210563974
+                                        ],
+                                        [
+                                            150.018770328,
+                                            -33.210230849
+                                        ],
+                                        [
+                                            150.018853609,
+                                            -33.2119440609999
+                                        ],
+                                        [
+                                            150.01903207,
+                                            -33.2132289689999
+                                        ],
+                                        [
+                                            150.019650729,
+                                            -33.214323522
+                                        ],
+                                        [
+                                            150.019365194,
+                                            -33.214442495
+                                        ],
+                                        [
+                                            150.018056491,
+                                            -33.212764975
+                                        ],
+                                        [
+                                            150.016997631,
+                                            -33.210563974
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ben Bullen HR",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394653",
+                "created": "2020-10-09T22:43:00+11:00",
+                "updated": "2020-10-10T09:43:00+11:00",
+                "location": "Castlereagh Hwy Ben Bullen",
+                "size": 3,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Castlereagh Hwy Ben Bullen <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 09:43",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     152.76085853600011,
@@ -2899,30 +2972,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.13800000000003,
-                    -35.78789999999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Buckenbowra Rd, Mogo",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394656",
-                "created": "2020-10-09T22:09:00+11:00",
-                "updated": "2020-10-10T09:09:00+11:00",
-                "location": "Buckenbowra Rd, Mogo, NSW 2536",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Buckenbowra Rd, Mogo, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 09:09",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.16822000000002,
                     -34.07540799999998
                 ]
@@ -3152,30 +3201,6 @@
                 "location": "2891/Reg Hailstone Way, Wyangala, NSW 2808",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2891/Reg Hailstone Way, Wyangala, NSW 2808 <br />COUNCIL AREA: Cowra <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 08:24",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.34306000000004,
-                    -34.82215499999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Riverside Dr, Jugiong",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394651",
-                "created": "2020-10-09T22:04:00+11:00",
-                "updated": "2020-10-10T09:04:00+11:00",
-                "location": "169 Riverside Dr, Jugiong, NSW 2726",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 169 Riverside Dr, Jugiong, NSW 2726 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 09:04",
                 "title": "incident: fire"
             }
         },

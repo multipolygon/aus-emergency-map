@@ -44961,14 +44961,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Eighth St",
+                "sourceTitle": "Marie Cr",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-10-10T02:38:52+11:00",
+                "updated": "2020-10-10T02:38:52+11:00",
+                "id": "ESTA:201006469",
+                "location": "Marie Cr, Wendouree",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.83725313154497,
+                    -37.52296862746121
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mildura",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-10-10T02:21:24+11:00",
-                "updated": "2020-10-10T02:21:24+11:00",
+                "status": "safe",
+                "created": "2020-10-10T02:40:47+11:00",
+                "updated": "2020-10-10T02:40:47+11:00",
                 "id": "ESTA:201006467",
-                "location": "Eighth St, Mildura",
+                "location": "Mildura, Mildura",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -44976,54 +44999,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.15020942141084,
-                    -34.1749696454998
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elgin St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-10-10T02:23:32+11:00",
-                "updated": "2020-10-10T02:23:32+11:00",
-                "id": "ESTA:201006465",
-                "location": "Elgin St, Carlton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97416784786205,
-                    -37.79750576341266
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Miller St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-10T02:05:00+11:00",
-                "updated": "2020-10-10T02:17:00+11:00",
-                "id": "ESTA:201006466",
-                "location": "Miller St, Colac",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.58133110319596,
-                    -38.341734403961546
+                    142.15070405257245,
+                    -34.17508106086424
                 ]
             }
         },
@@ -46534,52 +46511,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Warramunda Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-10T00:41:00+11:00",
-                "updated": "2020-10-10T01:51:00+11:00",
-                "id": "ESTA:201006454",
-                "location": "Warramunda Dr, Kyabram",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04185287546613,
-                    -36.3163083039556
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hopetoun St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-10T01:39:00+11:00",
-                "updated": "2020-10-10T01:40:00+11:00",
-                "id": "ESTA:201006462",
-                "location": "Hopetoun St, Rochester",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.69457969716007,
-                    -36.35634167513437
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Daltons Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -46620,6 +46551,75 @@
                 "coordinates": [
                     144.6745527984688,
                     -37.830728848848075
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Miller St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-10T02:05:00+11:00",
+                "updated": "2020-10-10T02:17:00+11:00",
+                "id": "ESTA:201006466",
+                "location": "Miller St, Colac",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.58133110319596,
+                    -38.341734403961546
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Warramunda Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-10T00:41:00+11:00",
+                "updated": "2020-10-10T01:51:00+11:00",
+                "id": "ESTA:201006454",
+                "location": "Warramunda Dr, Kyabram",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04185287546613,
+                    -36.3163083039556
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elgin St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-10-10T02:23:32+11:00",
+                "updated": "2020-10-10T02:23:32+11:00",
+                "id": "ESTA:201006465",
+                "location": "Elgin St, Carlton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97416784786205,
+                    -37.79750576341266
                 ]
             }
         },

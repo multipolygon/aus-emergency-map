@@ -328,13 +328,13 @@
                 "sourceTitle": "East Bank Rd, Coramba",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394689",
-                "created": "2020-10-10T01:02:00+11:00",
-                "updated": "2020-10-10T12:02:00+11:00",
+                "created": "2020-10-10T01:25:00+11:00",
+                "updated": "2020-10-10T12:25:00+11:00",
                 "location": "370 East Bank Rd, Coramba, NSW 2450",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 370 East Bank Rd, Coramba, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 12:02",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 370 East Bank Rd, Coramba, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 12:25",
                 "title": "incident: fire"
             }
         },
@@ -365,10 +365,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.38431930500008,
-                    -30.602162435999958
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.3793196590001,
+                            -30.603478930999984
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.377130554,
+                                            -30.6020869459999
+                                        ],
+                                        [
+                                            152.377082966,
+                                            -30.602039357
+                                        ],
+                                        [
+                                            152.377654036,
+                                            -30.6026580179999
+                                        ],
+                                        [
+                                            152.37798716,
+                                            -30.603633596
+                                        ],
+                                        [
+                                            152.377844393,
+                                            -30.6039191319999
+                                        ],
+                                        [
+                                            152.376892609,
+                                            -30.60370498
+                                        ],
+                                        [
+                                            152.375940823,
+                                            -30.603181498
+                                        ],
+                                        [
+                                            152.375464931,
+                                            -30.602705606
+                                        ],
+                                        [
+                                            152.375131807,
+                                            -30.6018490009999
+                                        ],
+                                        [
+                                            152.3756077,
+                                            -30.601396903
+                                        ],
+                                        [
+                                            152.376012208,
+                                            -30.60127793
+                                        ],
+                                        [
+                                            152.376845019,
+                                            -30.601753822
+                                        ],
+                                        [
+                                            152.377130554,
+                                            -30.6020869459999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1213,11 +1282,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394287",
-                "created": "2020-10-09T06:33:00+11:00",
-                "updated": "2020-10-09T17:33:00+11:00",
+                "created": "2020-10-10T01:22:00+11:00",
+                "updated": "2020-10-10T12:22:00+11:00",
                 "location": "WNW of Markwell",
                 "size": 15,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: WNW of Markwell <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 15 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 9 Oct 2020 17:33",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: WNW of Markwell <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 15 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 10 Oct 2020 12:22",
                 "title": "incident: fire"
             }
         },
@@ -3265,23 +3334,47 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.85114800100007,
-                    -33.688549999999964
+                    151.01988600000004,
+                    -33.77663900099998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clifton Rd, Riverstone",
-                "category": "other",
-                "subcategory": "fire alarm",
+                "sourceTitle": "Cambridge Av, North Rocks",
+                "category": "fire",
+                "subcategory": "grass fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394690",
-                "created": "2020-10-10T01:04:00+11:00",
-                "updated": "2020-10-10T12:04:00+11:00",
-                "location": "26 Clifton Rd, Riverstone, NSW 2765",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394697",
+                "created": "2020-10-10T01:34:00+11:00",
+                "updated": "2020-10-10T12:34:00+11:00",
+                "location": "Cambridge Av, North Rocks, NSW 2151",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 26 Clifton Rd, Riverstone, NSW 2765 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 12:04",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cambridge Av, North Rocks, NSW 2151 <br />COUNCIL AREA: City of Parramatta <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Oct 2020 12:34",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.6722460000001,
+                    -35.02055699999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Catherine St, Myola",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394693",
+                "created": "2020-10-10T01:14:00+11:00",
+                "updated": "2020-10-10T12:14:00+11:00",
+                "location": "Catherine St, Myola, NSW 2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Catherine St, Myola, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 12:14",
+                "title": "incident: fire"
             }
         },
         {
@@ -3313,22 +3406,46 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.59593000000007,
-                    -32.774280999999974
+                    153.61589700000002,
+                    -28.66411599999998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Leinster Cct, Ashtonfield",
+                "sourceTitle": "Ironbark Av, Byron Bay",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "bushfire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394691",
-                "created": "2020-10-10T01:06:00+11:00",
-                "updated": "2020-10-10T12:06:00+11:00",
-                "location": "26 Leinster Cct, Ashtonfield, NSW 2323",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394698",
+                "created": "2020-10-10T01:36:00+11:00",
+                "updated": "2020-10-10T12:36:00+11:00",
+                "location": "Ironbark Av, Byron Bay, NSW 2481",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 26 Leinster Cct, Ashtonfield, NSW 2323 <br />COUNCIL AREA: Maitland <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Oct 2020 12:06",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ironbark Av, Byron Bay, NSW 2481 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Oct 2020 12:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.28170609500012,
+                    -33.646188920999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "McCarrs Creek Road Structure Fire",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394696",
+                "created": "2020-10-10T01:25:00+11:00",
+                "updated": "2020-10-10T12:25:00+11:00",
+                "location": "23 McCarrs Creek Road",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 23 McCarrs Creek Road <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Oct 2020 12:25",
                 "title": "incident: fire"
             }
         },
@@ -3617,6 +3734,30 @@
                 "location": "83 Wallanol Rd, Moree, NSW 2400",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 83 Wallanol Rd, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Oct 2020 16:39",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.51060200000006,
+                    -35.08862099999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wandean Rd, Wandandian",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394695",
+                "created": "2020-10-10T01:22:00+11:00",
+                "updated": "2020-10-10T12:22:00+11:00",
+                "location": "Wandean Rd, Wandandian, NSW 2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wandean Rd, Wandandian, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 12:22",
                 "title": "incident: fire"
             }
         }

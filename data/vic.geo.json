@@ -30621,23 +30621,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Harold St",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Lyle St",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-10-11T08:37:55+11:00",
-                "updated": "2020-10-11T08:37:55+11:00",
-                "id": "ESTA:201008340",
-                "location": "Harold St, Wantirna",
+                "created": "2020-10-11T08:59:00+11:00",
+                "updated": "2020-10-11T08:59:00+11:00",
+                "id": "ESTA:201008389",
+                "location": "Lyle St, Bacchus Marsh",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.22871792378484,
-                    -37.856891807649475
+                    144.43261264752473,
+                    -37.67047445806195
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "First Av",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2020-10-11T08:53:00+11:00",
+                "updated": "2020-10-11T09:02:00+11:00",
+                "id": "ESTA:201008372",
+                "location": "First Av, Portarlington",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6391319150652,
+                    -38.11035557846374
                 ]
             }
         },
@@ -30683,6 +30706,74 @@
                 "coordinates": [
                     149.7527280325602,
                     -37.548087584705456
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Harold St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-11T08:50:20+11:00",
+                "updated": "2020-10-11T08:50:20+11:00",
+                "id": "ESTA:201008340",
+                "location": "Harold St, Wantirna",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22871792378484,
+                    -37.856891807649475
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grubb Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-11T09:01:30+11:00",
+                "updated": "2020-10-11T09:01:30+11:00",
+                "id": "ESTA:201008371",
+                "location": "Grubb Av, Traralgon",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.51479796510125,
+                    -38.19240600750628
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "complete",
+                "created": "2020-10-11T08:53:00+11:00",
+                "updated": "2020-10-11T09:00:00+11:00",
+                "id": "ESTA:201051214",
+                "location": "Portarlington",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6391319150652,
+                    -38.11035557846374
                 ]
             }
         }

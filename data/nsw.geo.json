@@ -1041,11 +1041,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394709",
-                "created": "2020-10-10T10:10:00+11:00",
-                "updated": "2020-10-10T21:10:00+11:00",
+                "created": "2020-10-10T14:00:00+11:00",
+                "updated": "2020-10-11T01:00:00+11:00",
                 "location": "Princes Hwy, Waterfall, NSW 2233",
                 "size": 200,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Princes Hwy, Waterfall, NSW 2233 <br />COUNCIL AREA: Sutherland <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 200 ha <br />MAJOR FIRE UPDATE AS AT 10 Oct 2020 9:15PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10810' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 21:10",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Princes Hwy, Waterfall, NSW 2233 <br />COUNCIL AREA: Sutherland <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 200 ha <br />MAJOR FIRE UPDATE AS AT 10 Oct 2020 9:15PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10810' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Oct 2020 01:00",
                 "title": "incident: fire"
             }
         },
@@ -1539,49 +1539,6 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.804483989,
-                                            -29.112555699
-                                        ],
-                                        [
-                                            152.804745729,
-                                            -29.113007796
-                                        ],
-                                        [
-                                            152.805388185,
-                                            -29.1134360999999
-                                        ],
-                                        [
-                                            152.805411979,
-                                            -29.113816813
-                                        ],
-                                        [
-                                            152.805102649,
-                                            -29.1144116789999
-                                        ],
-                                        [
-                                            152.805245416,
-                                            -29.115101723
-                                        ],
-                                        [
-                                            152.804817114,
-                                            -29.1157203819999
-                                        ],
-                                        [
-                                            152.804317427,
-                                            -29.115958328
-                                        ],
-                                        [
-                                            152.804483989,
-                                            -29.112555699
-                                        ]
-                                    ]
-                                ]
-                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -2181,6 +2138,49 @@
                                         [
                                             152.804269837,
                                             -29.1189564489999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.804483989,
+                                            -29.112555699
+                                        ],
+                                        [
+                                            152.804745729,
+                                            -29.113007796
+                                        ],
+                                        [
+                                            152.805388185,
+                                            -29.1134360999999
+                                        ],
+                                        [
+                                            152.805411979,
+                                            -29.113816813
+                                        ],
+                                        [
+                                            152.805102649,
+                                            -29.1144116789999
+                                        ],
+                                        [
+                                            152.805245416,
+                                            -29.115101723
+                                        ],
+                                        [
+                                            152.804817114,
+                                            -29.1157203819999
+                                        ],
+                                        [
+                                            152.804317427,
+                                            -29.115958328
+                                        ],
+                                        [
+                                            152.804483989,
+                                            -29.112555699
                                         ]
                                     ]
                                 ]
@@ -3178,6 +3178,30 @@
                 "size": 3,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 38 Whites Road Homeliegh <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2020 13:21",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.56792800000005,
+                    -34.207199998999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Barbour Rd, Thirlmere",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394782",
+                "created": "2020-10-10T16:10:00+11:00",
+                "updated": "2020-10-11T03:10:00+11:00",
+                "location": "Unit 853/21 Barbour Rd, Thirlmere, NSW 2572",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit 853/21 Barbour Rd, Thirlmere, NSW 2572 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Oct 2020 03:10",
+                "title": "incident: other"
             }
         },
         {

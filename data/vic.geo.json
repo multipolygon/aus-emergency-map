@@ -27449,34 +27449,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "complete",
-                "created": "2020-10-11T14:31:00+11:00",
-                "updated": "2020-10-11T14:52:00+11:00",
-                "id": "ESTA:201051230",
-                "location": "Coolaroo",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93483764740216,
-                    -37.665212041198494
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Shirley Cr",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-10-11T14:57:00+11:00",
-                "updated": "2020-10-11T14:57:00+11:00",
+                "updated": "2020-10-11T15:08:00+11:00",
                 "id": "ESTA:201009243",
                 "location": "Shirley Cr, Woori Yallock",
                 "size": "Small",
@@ -27494,12 +27472,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Prairie-Rochester Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-10-11T15:22:00+11:00",
+                "updated": "2020-10-11T15:22:00+11:00",
+                "id": "ESTA:201009283",
+                "location": "Prairie-Rochester Rd, Ballendella",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.68190378317763,
+                    -36.29867300257943
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Cloris Av",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-10-11T15:00:33+11:00",
-                "updated": "2020-10-11T15:00:33+11:00",
+                "status": "under control",
+                "created": "2020-10-11T15:24:35+11:00",
+                "updated": "2020-10-11T15:24:35+11:00",
                 "id": "ESTA:201009235",
                 "location": "Cloris Av, Beaumaris",
                 "size": "Small",
@@ -27517,14 +27518,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Teesdale Ct",
+                "sourceTitle": "Peel St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-11T13:55:00+11:00",
-                "updated": "2020-10-11T14:08:00+11:00",
-                "id": "ESTA:201009136",
-                "location": "Teesdale Ct, Narre Warren South",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-11T15:26:00+11:00",
+                "updated": "2020-10-11T15:26:00+11:00",
+                "id": "ESTA:201009291",
+                "location": "Peel St, North Melbourne",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -27532,31 +27533,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.31089810513865,
-                    -38.06839042929055
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Main St",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-10-11T14:06:00+11:00",
-                "updated": "2020-10-11T14:33:00+11:00",
-                "id": "ESTA:201009158",
-                "location": "Main St, Bealiba",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.5530313745347,
-                    -36.785399383860806
+                    144.9567576679934,
+                    -37.80324018211406
                 ]
             }
         },
@@ -27585,10 +27563,33 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bungower Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-10-11T15:21:00+11:00",
+                "updated": "2020-10-11T15:21:00+11:00",
+                "id": "ESTA:201009281",
+                "location": "Bungower Rd, Somerville",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16078271200442,
+                    -38.236923645485426
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Timor St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-10-11T14:58:00+11:00",
                 "updated": "2020-10-11T14:58:00+11:00",
                 "id": "ESTA:201009245",
@@ -27631,16 +27632,62 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Main St",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-10-11T14:06:00+11:00",
+                "updated": "2020-10-11T14:33:00+11:00",
+                "id": "ESTA:201009158",
+                "location": "Main St, Bealiba",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.5530313745347,
+                    -36.785399383860806
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Morona Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-11T15:26:58+11:00",
+                "updated": "2020-10-11T15:26:58+11:00",
+                "id": "ESTA:201009257",
+                "location": "Morona Av, Norlane",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.35141819456643,
+                    -38.09533767276696
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "under control",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-10-11T13:49:00+11:00",
-                "updated": "2020-10-11T14:11:00+11:00",
+                "updated": "2020-10-11T15:24:00+11:00",
                 "id": "ESTA:201009125",
                 "location": "Casterton",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {

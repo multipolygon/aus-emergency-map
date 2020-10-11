@@ -409,6 +409,37 @@
                                 "coordinates": [
                                     [
                                         [
+                                            152.382008938,
+                                            -30.609072688
+                                        ],
+                                        [
+                                            152.382268101,
+                                            -30.60941824
+                                        ],
+                                        [
+                                            152.383029529,
+                                            -30.610655559
+                                        ],
+                                        [
+                                            152.383410243,
+                                            -30.611369397
+                                        ],
+                                        [
+                                            152.383219885,
+                                            -30.612035646
+                                        ],
+                                        [
+                                            152.382008938,
+                                            -30.609072688
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             152.377794715,
                                             -30.597663703
                                         ],
@@ -547,37 +578,6 @@
                                         [
                                             152.377794715,
                                             -30.597663703
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.382008938,
-                                            -30.609072688
-                                        ],
-                                        [
-                                            152.382268101,
-                                            -30.60941824
-                                        ],
-                                        [
-                                            152.383029529,
-                                            -30.610655559
-                                        ],
-                                        [
-                                            152.383410243,
-                                            -30.611369397
-                                        ],
-                                        [
-                                            152.383219885,
-                                            -30.612035646
-                                        ],
-                                        [
-                                            152.382008938,
-                                            -30.609072688
                                         ]
                                     ]
                                 ]
@@ -3509,30 +3509,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.52623299900006,
-                    -34.835699999999974
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Illaroo Rd, Tapitallee",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394812",
-                "created": "2020-10-11T03:17:00+11:00",
-                "updated": "2020-10-11T14:17:00+11:00",
-                "location": "Illaroo Rd, Tapitallee, NSW 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Illaroo Rd, Tapitallee, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Oct 2020 14:17",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.60396200000002,
                     -34.997713999999974
                 ]
@@ -3542,13 +3518,37 @@
                 "sourceTitle": "Jervis Bay Rd, Falls Creek",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394814",
-                "created": "2020-10-11T03:04:00+11:00",
-                "updated": "2020-10-11T14:04:00+11:00",
+                "created": "2020-10-11T03:22:00+11:00",
+                "updated": "2020-10-11T14:22:00+11:00",
                 "location": "183 Jervis Bay Rd, Falls Creek, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 183 Jervis Bay Rd, Falls Creek, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Oct 2020 14:04",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 183 Jervis Bay Rd, Falls Creek, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Oct 2020 14:22",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.220682,
+                    -33.76324399999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Landscape Av, Forestville",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394818",
+                "created": "2020-10-11T03:32:00+11:00",
+                "updated": "2020-10-11T14:32:00+11:00",
+                "location": "21 Landscape Av, Forestville, NSW 2087",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 21 Landscape Av, Forestville, NSW 2087 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 11 Oct 2020 14:32",
                 "title": "incident: fire"
             }
         },

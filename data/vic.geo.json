@@ -14894,9 +14894,9 @@
                 "sourceTitle": "Calulu - Coxs Road",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2020-10-13T10:09:41+11:00",
-                "updated": "2020-10-13T10:09:41+11:00",
+                "status": "patrolled",
+                "created": "2020-10-14T07:25:37+11:00",
+                "updated": "2020-10-14T07:25:37+11:00",
                 "id": 3006191,
                 "location": "12Km Nw Of Bairnsdale",
                 "size": "15.54",
@@ -14983,14 +14983,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pinewood Dr",
+                "sourceTitle": "Gordon St",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-10-14T07:44:36+11:00",
-                "updated": "2020-10-14T07:44:36+11:00",
-                "id": "ESTA:201011817",
-                "location": "Pinewood Dr, Mount Waverley",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-14T07:53:27+11:00",
+                "updated": "2020-10-14T07:53:27+11:00",
+                "id": "ESTA:201011828",
+                "location": "Gordon St, Footscray",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -14998,8 +14998,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.14005958199755,
-                    -37.88838215509278
+                    144.88737941557025,
+                    -37.79239199750256
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Commercial Dr",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-10-14T07:51:41+11:00",
+                "updated": "2020-10-14T07:51:41+11:00",
+                "id": "ESTA:201011824",
+                "location": "Commercial Dr, Dandenong South",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22806782864876,
+                    -38.025344877395895
                 ]
             }
         },
@@ -15664,29 +15687,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sunnyside Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-14T06:35:00+11:00",
-                "updated": "2020-10-14T06:50:00+11:00",
-                "id": "ESTA:201011793",
-                "location": "Sunnyside Av, Mildura",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.16211555367516,
-                    -34.1979500437835
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tinning St",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -15704,6 +15704,29 @@
                 "coordinates": [
                     144.9616741723709,
                     -37.75945245071204
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pinewood Dr",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-10-14T07:44:36+11:00",
+                "updated": "2020-10-14T07:44:36+11:00",
+                "id": "ESTA:201011817",
+                "location": "Pinewood Dr, Mount Waverley",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14005958199755,
+                    -37.88838215509278
                 ]
             }
         }

@@ -10962,23 +10962,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2020-10-14T14:16:00+11:00",
-                "updated": "2020-10-14T14:16:00+11:00",
-                "id": "ESTA:201012409",
-                "location": "Craigieburn",
-                "size": "Small",
-                "title": "incident: rescue"
+                "sourceTitle": "Ringwood",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-10-14T14:48:49+11:00",
+                "updated": "2020-10-14T14:50:39+11:00",
+                "id": "ESTA:201012445",
+                "location": "Heatherdale Rd, Ringwood",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9500315340645,
-                    -37.54091302663462
+                    145.21355404409798,
+                    -37.82498140077828
                 ]
             }
         },
@@ -10988,9 +10987,9 @@
                 "sourceTitle": "Bolton Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-10-14T14:38:00+11:00",
-                "updated": "2020-10-14T14:38:00+11:00",
+                "updated": "2020-10-14T14:51:00+11:00",
                 "id": "ESTA:201012435",
                 "location": "Bolton Rd, Selby",
                 "size": "Small",
@@ -11008,14 +11007,59 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
+                "sourceTitle": "Greensborough",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "responding",
+                "created": "2020-10-14T13:42:06+11:00",
+                "updated": "2020-10-14T14:55:32+11:00",
+                "id": "ESTA:201051324",
+                "location": "Adeline St, Greensborough",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.09461667194034,
+                    -37.70410876148856
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Heatherdale Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-10-14T14:59:26+11:00",
+                "updated": "2020-10-14T14:59:26+11:00",
+                "id": "ESTA:201012441",
+                "location": "Heatherdale Rd, Ringwood",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21354795949244,
+                    -37.824988436083885
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rosebud",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-10-14T14:41:59+11:00",
-                "updated": "2020-10-14T14:41:59+11:00",
-                "id": "ESTA:201012424",
-                "location": "Princes Hwy, Werribee",
+                "created": "2020-10-14T15:00:19+11:00",
+                "updated": "2020-10-14T15:00:19+11:00",
+                "id": "ESTA:201012449",
+                "location": "Rosebud, Rosebud",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -11023,75 +11067,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.69895053056024,
-                    -37.88567193662925
+                    144.8886487328315,
+                    -38.379339942380454
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-10-14T13:42:00+11:00",
-                "updated": "2020-10-14T14:43:00+11:00",
-                "id": "ESTA:201051324",
-                "location": "Greensborough",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.09460902749512,
-                    -37.70412192238934
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-10-14T13:55:00+11:00",
-                "updated": "2020-10-14T14:44:00+11:00",
-                "id": "ESTA:201051326",
-                "location": "Ivanhoe",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04344014986643,
-                    -37.75720234289403
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Calder Hwy",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-10-14T12:29:00+11:00",
-                "updated": "2020-10-14T14:18:00+11:00",
-                "id": "ESTA:201012256",
-                "location": "Calder Hwy, Hattah",
+                "sourceTitle": "Weir St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-10-14T15:01:00+11:00",
+                "updated": "2020-10-14T15:01:00+11:00",
+                "id": "ESTA:201012450",
+                "location": "Weir St, Rye",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.29484690729487,
-                    -34.83021458426896
+                    144.82705753504735,
+                    -38.374428057071
                 ]
             }
         },
@@ -11778,6 +11778,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2020-10-14T14:16:00+11:00",
+                "updated": "2020-10-14T14:16:00+11:00",
+                "id": "ESTA:201012409",
+                "location": "Craigieburn",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9500315340645,
+                    -37.54091302663462
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ararat-St Arnaud Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-14T13:37:00+11:00",
+                "updated": "2020-10-14T14:06:00+11:00",
+                "id": "ESTA:201012353",
+                "location": "Ararat-St Arnaud Rd, Landsborough",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.1234073134179,
+                    -37.03006642956842
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Eleventh St",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -11805,8 +11851,8 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2020-10-14T14:36:58+11:00",
-                "updated": "2020-10-14T14:36:58+11:00",
+                "created": "2020-10-14T14:55:18+11:00",
+                "updated": "2020-10-14T14:55:18+11:00",
                 "id": "ESTA:201012420",
                 "location": "Boronia, Boronia",
                 "size": "Small",
@@ -11824,23 +11870,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ararat-St Arnaud Rd",
-                "category": "fire",
-                "subcategory": "other",
+                "sourceTitle": "Calder Hwy",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "safe",
-                "created": "2020-10-14T13:37:00+11:00",
-                "updated": "2020-10-14T14:06:00+11:00",
-                "id": "ESTA:201012353",
-                "location": "Ararat-St Arnaud Rd, Landsborough",
+                "created": "2020-10-14T12:29:00+11:00",
+                "updated": "2020-10-14T14:18:00+11:00",
+                "id": "ESTA:201012256",
+                "location": "Calder Hwy, Hattah",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.1234073134179,
-                    -37.03006642956842
+                    142.29484690729487,
+                    -34.83021458426896
                 ]
             }
         },
@@ -11893,39 +11939,16 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Eltham North",
+                "sourceTitle": "Wilson St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-14T14:27:22+11:00",
-                "updated": "2020-10-14T14:27:22+11:00",
-                "id": "ESTA:201012403",
-                "location": "Eltham North, Eltham North",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1426824769323,
-                    -37.68829079196018
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wilson St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-10-14T14:27:23+11:00",
-                "updated": "2020-10-14T14:27:23+11:00",
+                "status": "under control",
+                "created": "2020-10-14T14:48:34+11:00",
+                "updated": "2020-10-14T14:48:34+11:00",
                 "id": "ESTA:201012418",
                 "location": "Wilson St, Dandenong",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {

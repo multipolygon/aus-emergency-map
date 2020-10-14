@@ -4,10 +4,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.29114198700006,
-                    -29.46601745499993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.29042127900004,
+                            -29.463095519999968
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.291262395,
+                                            -29.461567976
+                                        ],
+                                        [
+                                            153.290691982,
+                                            -29.464507049
+                                        ],
+                                        [
+                                            153.290566298,
+                                            -29.464507049
+                                        ],
+                                        [
+                                            153.289135434,
+                                            -29.4639269689999
+                                        ],
+                                        [
+                                            153.28963817,
+                                            -29.461480964
+                                        ],
+                                        [
+                                            153.290073231,
+                                            -29.461442291
+                                        ],
+                                        [
+                                            153.291262395,
+                                            -29.461567976
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2036,30 +2081,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Flowers Dr, Catherine Hill Bay, NSW 2281 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Oct 2020 19:01",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.95714999900008,
-                    -33.690925998999944
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Grattan Rd, North Kellyville",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395108",
-                "created": "2020-10-14T09:48:00+11:00",
-                "updated": "2020-10-14T20:48:00+11:00",
-                "location": "14 Grattan Rd, North Kellyville, NSW 2155",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 14 Grattan Rd, North Kellyville, NSW 2155 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Oct 2020 20:48",
-                "title": "incident: fire"
             }
         },
         {

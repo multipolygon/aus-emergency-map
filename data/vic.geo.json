@@ -10908,10 +10908,33 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "French St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-14T21:28:12+11:00",
+                "updated": "2020-10-14T21:28:12+11:00",
+                "id": "ESTA:201012718",
+                "location": "French St, Croydon",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2978914347906,
+                    -37.78259628894644
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Menai Ct",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-10-14T21:15:00+11:00",
                 "updated": "2020-10-14T21:15:00+11:00",
                 "id": "ESTA:201012714",
@@ -10931,81 +10954,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Belgrave-Gembrook Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-10-14T21:11:00+11:00",
-                "updated": "2020-10-14T21:18:00+11:00",
-                "id": "ESTA:201012713",
-                "location": "Belgrave-Gembrook Rd, Emerald",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.44344214945235,
-                    -37.930849022846225
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bambury St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-14T21:18:22+11:00",
-                "updated": "2020-10-14T21:18:22+11:00",
-                "id": "ESTA:201012715",
-                "location": "Bambury St, Boronia",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.29280134363177,
-                    -37.857698678346
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2020-10-14T21:17:00+11:00",
-                "updated": "2020-10-14T21:17:00+11:00",
-                "id": "ESTA:201012716",
-                "location": "Wallan",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98122971618784,
-                    -37.409989212364216
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Alexander Dr",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-10-14T21:23:24+11:00",
-                "updated": "2020-10-14T21:23:24+11:00",
+                "status": "safe",
+                "created": "2020-10-14T21:32:14+11:00",
+                "updated": "2020-10-14T21:32:14+11:00",
                 "id": "ESTA:201012717",
                 "location": "Alexander Dr, Burwood",
                 "size": "Small",
@@ -11023,22 +10977,69 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Croydon",
+                "sourceTitle": "Belgrave-Gembrook Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-14T21:26:20+11:00",
-                "updated": "2020-10-14T21:26:51+11:00",
-                "id": "ESTA:201012718",
-                "location": "French St, Croydon",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-14T21:11:00+11:00",
+                "updated": "2020-10-14T21:32:00+11:00",
+                "id": "ESTA:201012713",
+                "location": "Belgrave-Gembrook Rd, Emerald",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.29789360893577,
-                    -37.78259167766405
+                    145.44344214945235,
+                    -37.930849022846225
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Arden St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-14T21:32:31+11:00",
+                "updated": "2020-10-14T21:32:31+11:00",
+                "id": "ESTA:201012719",
+                "location": "Arden St, North Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94589224504955,
+                    -37.80053274718894
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-14T21:17:00+11:00",
+                "updated": "2020-10-14T21:33:00+11:00",
+                "id": "ESTA:201012716",
+                "location": "Wallan",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98122971618784,
+                    -37.409989212364216
                 ]
             }
         },
@@ -11449,29 +11450,6 @@
                 "coordinates": [
                     143.8455913830738,
                     -37.58093605930433
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-14T20:25:00+11:00",
-                "updated": "2020-10-14T20:28:00+11:00",
-                "id": "ESTA:201012701",
-                "location": "Warrandyte",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.20839269929584,
-                    -37.752508398705956
                 ]
             }
         },

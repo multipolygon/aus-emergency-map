@@ -10863,14 +10863,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Monbulk Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-10-15T19:21:00+11:00",
-                "updated": "2020-10-15T19:23:00+11:00",
-                "id": "ESTA:201013446",
-                "location": "The Basin",
+                "created": "2020-10-15T19:49:00+11:00",
+                "updated": "2020-10-15T19:50:00+11:00",
+                "id": "ESTA:201013454",
+                "location": "Monbulk Rd, Kallista",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -10878,31 +10878,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3260056741547,
-                    -37.8466405794898
+                    145.37970995702318,
+                    -37.880701074532894
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Reservoir",
-                "category": "other",
+                "sourceTitle": "Browns Plains",
+                "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-15T19:39:21+11:00",
-                "updated": "2020-10-15T19:39:21+11:00",
-                "id": "ESTA:201013452",
-                "location": "Reservoir, Reservoir",
-                "size": "Small",
-                "title": "incident: other"
+                "status": "safe",
+                "created": "2020-10-15T17:46:39+11:00",
+                "updated": "2020-10-15T19:53:29+11:00",
+                "id": "ESTA:201013408",
+                "location": "Browns Plains",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.00605704458832,
-                    -37.71750637553598
+                    146.6358262959564,
+                    -36.04869700488677
                 ]
             }
         },
@@ -10932,12 +10931,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Franklin St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-15T19:53:37+11:00",
+                "updated": "2020-10-15T19:53:37+11:00",
+                "id": "ESTA:201013455",
+                "location": "Franklin St, Eltham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1548168993538,
+                    -37.722668601511145
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-15T19:21:00+11:00",
+                "updated": "2020-10-15T19:23:00+11:00",
+                "id": "ESTA:201013446",
+                "location": "The Basin",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3260056741547,
+                    -37.8466405794898
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Shepparton",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-10-15T19:41:11+11:00",
-                "updated": "2020-10-15T19:41:11+11:00",
+                "status": "safe",
+                "created": "2020-10-15T19:51:54+11:00",
+                "updated": "2020-10-15T19:51:54+11:00",
                 "id": "ESTA:201013453",
                 "location": "Shepparton, Shepparton",
                 "size": "Small",
@@ -10955,12 +11000,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Reservoir",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-15T19:50:34+11:00",
+                "updated": "2020-10-15T19:50:34+11:00",
+                "id": "ESTA:201013452",
+                "location": "Reservoir, Reservoir",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00605704458832,
+                    -37.71750637553598
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
                 "created": "2020-10-15T19:29:00+11:00",
-                "updated": "2020-10-15T19:32:00+11:00",
+                "updated": "2020-10-15T19:59:00+11:00",
                 "id": "ESTA:201051394",
                 "location": "Hampton Park",
                 "title": "incident: building damage"
@@ -10971,6 +11039,28 @@
                 "coordinates": [
                     145.28030350415597,
                     -38.04351558173104
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-10-15T19:48:00+11:00",
+                "updated": "2020-10-15T19:51:00+11:00",
+                "id": "ESTA:201051395",
+                "location": "Kallista",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.37970995702318,
+                    -37.880701074532894
                 ]
             }
         },

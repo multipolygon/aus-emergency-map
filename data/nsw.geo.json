@@ -470,11 +470,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394604",
-                "created": "2020-10-14T04:31:00+11:00",
-                "updated": "2020-10-14T15:31:00+11:00",
+                "created": "2020-10-15T03:00:00+11:00",
+                "updated": "2020-10-15T14:00:00+11:00",
                 "location": "Five Day Creek Rd, Comara, NSW 2440",
                 "size": 109,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Five Day Creek Rd, Comara, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 109 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Oct 2020 15:31",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Five Day Creek Rd, Comara, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 109 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Oct 2020 14:00",
                 "title": "incident: fire"
             }
         },
@@ -1540,11 +1540,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/394688",
-                "created": "2020-10-14T02:03:00+11:00",
-                "updated": "2020-10-14T13:03:00+11:00",
+                "created": "2020-10-15T03:21:00+11:00",
+                "updated": "2020-10-15T14:21:00+11:00",
                 "location": "Pine Hut Rd, Bago, NSW 2446",
                 "size": 6,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Pine Hut Rd, Bago, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 14 Oct 2020 13:03",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Pine Hut Rd, Bago, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 15 Oct 2020 14:21",
                 "title": "incident: fire"
             }
         },
@@ -1736,10 +1736,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.96516799900007,
-                    -36.119850258999975
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.95139217400003,
+                            -36.12245019599993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.951241789,
+                                            -36.122454498
+                                        ],
+                                        [
+                                            148.951217994,
+                                            -36.122454498
+                                        ],
+                                        [
+                                            148.951455939,
+                                            -36.122430703
+                                        ],
+                                        [
+                                            148.951812859,
+                                            -36.122454498
+                                        ],
+                                        [
+                                            148.952003216,
+                                            -36.122573471
+                                        ],
+                                        [
+                                            148.952003216,
+                                            -36.122811417
+                                        ],
+                                        [
+                                            148.951931833,
+                                            -36.122977979
+                                        ],
+                                        [
+                                            148.951741476,
+                                            -36.123096953
+                                        ],
+                                        [
+                                            148.951408351,
+                                            -36.123096953
+                                        ],
+                                        [
+                                            148.951194199,
+                                            -36.1230255679999
+                                        ],
+                                        [
+                                            148.951003842,
+                                            -36.1228352109999
+                                        ],
+                                        [
+                                            148.951027637,
+                                            -36.122597266
+                                        ],
+                                        [
+                                            148.951241789,
+                                            -36.122454498
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2147,6 +2216,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.79465000000005,
+                    -31.634889999999984
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ocean Dr, Laurieton",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395157",
+                "created": "2020-10-15T03:16:00+11:00",
+                "updated": "2020-10-15T14:16:00+11:00",
+                "location": "Ocean Dr, Laurieton, NSW 2443",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ocean Dr, Laurieton, NSW 2443 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Oct 2020 14:16",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.78770900000006,
                     -30.333256998999957
                 ]
@@ -2283,6 +2376,30 @@
                 "location": "Taits Trl, Mungo Brush, NSW 2423",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Taits Trl, Mungo Brush, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 14 Oct 2020 15:47",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.11215199900005,
+                    -33.253417999999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Gipps Way, Condobolin",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395154",
+                "created": "2020-10-15T03:06:00+11:00",
+                "updated": "2020-10-15T14:06:00+11:00",
+                "location": "8360 The Gipps Way, Condobolin, NSW 2877",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8360 The Gipps Way, Condobolin, NSW 2877 <br />COUNCIL AREA: Lachlan <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Oct 2020 14:06",
                 "title": "incident: fire"
             }
         },

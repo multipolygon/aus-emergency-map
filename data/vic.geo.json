@@ -10952,14 +10952,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Elizabeth St",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-10-15T12:03:00+11:00",
-                "updated": "2020-10-15T15:10:00+11:00",
-                "id": "ESTA:201013110",
-                "location": "Pine Grove",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-10-15T15:30:00+11:00",
+                "updated": "2020-10-15T15:30:00+11:00",
+                "id": "ESTA:201013313",
+                "location": "Elizabeth St, Seymour",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10967,22 +10967,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.454488186972,
-                    -36.2258086124655
+                    145.13244086608742,
+                    -37.02215799197231
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clive St",
+                "sourceTitle": "Drummond Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "not yet under control",
-                "created": "2020-10-15T15:17:30+11:00",
-                "updated": "2020-10-15T15:17:30+11:00",
+                "status": "under control",
+                "created": "2020-10-15T15:35:22+11:00",
+                "updated": "2020-10-15T15:35:22+11:00",
                 "id": "ESTA:201013297",
-                "location": "Clive St, Shepparton",
+                "location": "Drummond Rd, Shepparton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10990,30 +10990,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.41247027970005,
-                    -36.36969208342954
+                    145.42609208444136,
+                    -36.366290843710736
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "sourceTitle": "Spray St",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-10-15T15:16:00+11:00",
-                "updated": "2020-10-15T15:28:00+11:00",
-                "id": "ESTA:201051372",
-                "location": "Ringwood East",
-                "title": "incident: tree down"
+                "created": "2020-10-15T15:36:38+11:00",
+                "updated": "2020-10-15T15:36:38+11:00",
+                "id": "ESTA:201013320",
+                "location": "Spray St, Rosebud",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.24336418387333,
-                    -37.81338945794525
+                    144.9045360199609,
+                    -38.36684209752276
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hazelwood Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-15T15:37:47+11:00",
+                "updated": "2020-10-15T15:37:47+11:00",
+                "id": "ESTA:201013322",
+                "location": "Hazelwood Dr, Morwell",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.40830561954874,
+                    -38.25117546413776
                 ]
             }
         },
@@ -11048,9 +11072,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-10-15T10:00:00+11:00",
+                "created": "2020-10-15T15:00:00+11:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/776598ab9d50500d23a92cef812a6eaf",
+                "id": "IDV20600/832c883066324c90f8ec50a3b5887bc2",
                 "location": "Port Phillip and East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -14255,6 +14279,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-10-15T12:03:00+11:00",
+                "updated": "2020-10-15T15:10:00+11:00",
+                "id": "ESTA:201013110",
+                "location": "Pine Grove",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.454488186972,
+                    -36.2258086124655
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Strathallan Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -14318,6 +14365,28 @@
                 "coordinates": [
                     145.1238414307385,
                     -37.88430052422283
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "responding",
+                "created": "2020-10-15T15:16:00+11:00",
+                "updated": "2020-10-15T15:28:00+11:00",
+                "id": "ESTA:201051372",
+                "location": "Ringwood East",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24336418387333,
+                    -37.81338945794525
                 ]
             }
         }

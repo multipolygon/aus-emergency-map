@@ -76,6 +76,127 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.30285263100006,
+                            -33.811280574999955
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.300390652,
+                                            -33.809932126
+                                        ],
+                                        [
+                                            151.301996787,
+                                            -33.8099559189999
+                                        ],
+                                        [
+                                            151.302080068,
+                                            -33.810110585
+                                        ],
+                                        [
+                                            151.303222209,
+                                            -33.81057458
+                                        ],
+                                        [
+                                            151.3041502,
+                                            -33.810051098
+                                        ],
+                                        [
+                                            151.305458903,
+                                            -33.810039202
+                                        ],
+                                        [
+                                            151.305815822,
+                                            -33.810526991
+                                        ],
+                                        [
+                                            151.305851514,
+                                            -33.811157548
+                                        ],
+                                        [
+                                            151.30551839,
+                                            -33.8115977489999
+                                        ],
+                                        [
+                                            151.305125779,
+                                            -33.81194277
+                                        ],
+                                        [
+                                            151.304649887,
+                                            -33.81194277
+                                        ],
+                                        [
+                                            151.30445953,
+                                            -33.8117881049999
+                                        ],
+                                        [
+                                            151.304019329,
+                                            -33.8117643099999
+                                        ],
+                                        [
+                                            151.303805177,
+                                            -33.811966565
+                                        ],
+                                        [
+                                            151.303424463,
+                                            -33.812287791
+                                        ],
+                                        [
+                                            151.303281696,
+                                            -33.812775581
+                                        ],
+                                        [
+                                            151.301163976,
+                                            -33.811800002
+                                        ],
+                                        [
+                                            151.301223462,
+                                            -33.811300316
+                                        ],
+                                        [
+                                            151.301056901,
+                                            -33.8108482179999
+                                        ],
+                                        [
+                                            151.300390652,
+                                            -33.809932126
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bluefish Banksia Scrub HR",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395361",
+                "created": "2020-10-16T23:40:00+11:00",
+                "updated": "2020-10-17T10:40:00+11:00",
+                "location": "manly",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: manly <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 17 Oct 2020 10:40",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     153.60135555300008,
@@ -683,30 +804,6 @@
                 "location": "Four Mile Creek, Tabulam, NSW 2469",
                 "size": 110,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Four Mile Creek, Tabulam, NSW 2469 <br />COUNCIL AREA: Tenterfield <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 110 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 09:51",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.1103262900001,
-                    -32.76516475999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gamble Hazard Reduction, Frost Road, One Mile",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395238",
-                "created": "2020-10-16T10:16:00+11:00",
-                "updated": "2020-10-16T21:16:00+11:00",
-                "location": "14 Frost road, one mile",
-                "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 14 Frost road, one mile <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2020 21:16",
                 "title": "incident: fire"
             }
         },
@@ -2427,30 +2524,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.71967600000005,
-                    -31.00321299999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Armidale Rd, Deep Creek",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395358",
-                "created": "2020-10-16T23:02:00+11:00",
-                "updated": "2020-10-17T10:02:00+11:00",
-                "location": "Armidale Rd, Deep Creek, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Armidale Rd, Deep Creek, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 10:02",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.51908683700003,
                     -28.329164383999967
                 ]
@@ -2515,6 +2588,30 @@
                 "location": "Behind 30 Deans Rd, Boambee, NSW 2450",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Behind 30 Deans Rd, Boambee, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 08:35",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.61962699900005,
+                    -32.78865799999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Donaldson 1 HR, Thornton",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395359",
+                "created": "2020-10-16T23:36:00+11:00",
+                "updated": "2020-10-17T10:36:00+11:00",
+                "location": "Parish Dr, Thornton, NSW 2322",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Parish Dr, Thornton, NSW 2322 <br />COUNCIL AREA: Maitland <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 10:36",
                 "title": "incident: fire"
             }
         },
@@ -2660,6 +2757,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, James Creek, NSW 2463 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2020 20:19",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.43492400000002,
+                    -35.12804799999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sturt Hwy, Gumly Gumly",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395360",
+                "created": "2020-10-16T23:34:00+11:00",
+                "updated": "2020-10-17T10:34:00+11:00",
+                "location": "Sturt Hwy, Gumly Gumly, NSW 2652",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sturt Hwy, Gumly Gumly, NSW 2652 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 10:34",
+                "title": "incident: other"
             }
         },
         {

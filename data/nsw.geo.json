@@ -213,6 +213,89 @@
                                 "coordinates": [
                                     [
                                         [
+                                            152.371094597,
+                                            -30.600546729
+                                        ],
+                                        [
+                                            152.370261786,
+                                            -30.600332578
+                                        ],
+                                        [
+                                            152.369595537,
+                                            -30.6002017079999
+                                        ],
+                                        [
+                                            152.36829873,
+                                            -30.599214231
+                                        ],
+                                        [
+                                            152.368203552,
+                                            -30.598345728
+                                        ],
+                                        [
+                                            152.367929914,
+                                            -30.597953117
+                                        ],
+                                        [
+                                            152.367977503,
+                                            -30.5970251269999
+                                        ],
+                                        [
+                                            152.368489087,
+                                            -30.596335084
+                                        ],
+                                        [
+                                            152.369155336,
+                                            -30.596109035
+                                        ],
+                                        [
+                                            152.370261786,
+                                            -30.596477851
+                                        ],
+                                        [
+                                            152.370678192,
+                                            -30.5969061549999
+                                        ],
+                                        [
+                                            152.37139203,
+                                            -30.597286868
+                                        ],
+                                        [
+                                            152.372189149,
+                                            -30.597239278
+                                        ],
+                                        [
+                                            152.372831603,
+                                            -30.597179792
+                                        ],
+                                        [
+                                            152.373402675,
+                                            -30.597572403
+                                        ],
+                                        [
+                                            152.373973745,
+                                            -30.59807209
+                                        ],
+                                        [
+                                            152.375032605,
+                                            -30.5982505499999
+                                        ],
+                                        [
+                                            152.375698854,
+                                            -30.59855988
+                                        ],
+                                        [
+                                            152.371094597,
+                                            -30.600546729
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             152.377794715,
                                             -30.597663703
                                         ],
@@ -354,89 +437,6 @@
                                         ]
                                     ]
                                 ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.371094597,
-                                            -30.600546729
-                                        ],
-                                        [
-                                            152.370261786,
-                                            -30.600332578
-                                        ],
-                                        [
-                                            152.369595537,
-                                            -30.6002017079999
-                                        ],
-                                        [
-                                            152.36829873,
-                                            -30.599214231
-                                        ],
-                                        [
-                                            152.368203552,
-                                            -30.598345728
-                                        ],
-                                        [
-                                            152.367929914,
-                                            -30.597953117
-                                        ],
-                                        [
-                                            152.367977503,
-                                            -30.5970251269999
-                                        ],
-                                        [
-                                            152.368489087,
-                                            -30.596335084
-                                        ],
-                                        [
-                                            152.369155336,
-                                            -30.596109035
-                                        ],
-                                        [
-                                            152.370261786,
-                                            -30.596477851
-                                        ],
-                                        [
-                                            152.370678192,
-                                            -30.5969061549999
-                                        ],
-                                        [
-                                            152.37139203,
-                                            -30.597286868
-                                        ],
-                                        [
-                                            152.372189149,
-                                            -30.597239278
-                                        ],
-                                        [
-                                            152.372831603,
-                                            -30.597179792
-                                        ],
-                                        [
-                                            152.373402675,
-                                            -30.597572403
-                                        ],
-                                        [
-                                            152.373973745,
-                                            -30.59807209
-                                        ],
-                                        [
-                                            152.375032605,
-                                            -30.5982505499999
-                                        ],
-                                        [
-                                            152.375698854,
-                                            -30.59855988
-                                        ],
-                                        [
-                                            152.371094597,
-                                            -30.600546729
-                                        ]
-                                    ]
-                                ]
                             }
                         ]
                     }
@@ -454,6 +454,30 @@
                 "location": "Five Day Creek Rd, Comara, NSW 2440",
                 "size": 109,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Five Day Creek Rd, Comara, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 109 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2020 09:06",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.43336124000007,
+                    -28.80921237299998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Four Mile Creek, Tabulam",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395279",
+                "created": "2020-10-16T05:52:00+11:00",
+                "updated": "2020-10-16T16:52:00+11:00",
+                "location": "Four Mile Creek, Tabulam, NSW 2469",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Four Mile Creek, Tabulam, NSW 2469 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2020 16:52",
                 "title": "incident: fire"
             }
         },
@@ -484,10 +508,107 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.44958412500011,
-                    -28.840877960999933
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.44958412500011,
+                            -28.840877960999933
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.449393768,
+                                            -28.837004405
+                                        ],
+                                        [
+                                            152.449274795,
+                                            -28.8370282
+                                        ],
+                                        [
+                                            152.450369347,
+                                            -28.837694448
+                                        ],
+                                        [
+                                            152.452510862,
+                                            -28.838646233
+                                        ],
+                                        [
+                                            152.454961707,
+                                            -28.8393600709999
+                                        ],
+                                        [
+                                            152.455485188,
+                                            -28.8405260069999
+                                        ],
+                                        [
+                                            152.456722508,
+                                            -28.842405782
+                                        ],
+                                        [
+                                            152.456698714,
+                                            -28.843262388
+                                        ],
+                                        [
+                                            152.456151437,
+                                            -28.844237967
+                                        ],
+                                        [
+                                            152.455532778,
+                                            -28.8441427879999
+                                        ],
+                                        [
+                                            152.454033717,
+                                            -28.8435955109999
+                                        ],
+                                        [
+                                            152.452415684,
+                                            -28.8440951979999
+                                        ],
+                                        [
+                                            152.451559078,
+                                            -28.8446186799999
+                                        ],
+                                        [
+                                            152.448632341,
+                                            -28.8439286359999
+                                        ],
+                                        [
+                                            152.447395021,
+                                            -28.8418585049999
+                                        ],
+                                        [
+                                            152.447109485,
+                                            -28.8410256939999
+                                        ],
+                                        [
+                                            152.446728771,
+                                            -28.8390983309999
+                                        ],
+                                        [
+                                            152.446800156,
+                                            -28.838003779
+                                        ],
+                                        [
+                                            152.447323637,
+                                            -28.8373851179999
+                                        ],
+                                        [
+                                            152.449393768,
+                                            -28.837004405
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -502,30 +623,6 @@
                 "location": "419 Sugarbag Rd, Tabulam, NSW 2469",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 419 Sugarbag Rd, Tabulam, NSW 2469 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2020 14:32",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.06177400100012,
-                    -28.498793999999975
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Green Pigeon Rd, Green Pigeon",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395147",
-                "created": "2020-10-16T01:27:00+11:00",
-                "updated": "2020-10-16T12:27:00+11:00",
-                "location": "900 Green Pigeon Rd, Green Pigeon, NSW 2474",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 900 Green Pigeon Rd, Green Pigeon, NSW 2474 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2020 12:27",
                 "title": "incident: fire"
             }
         },
@@ -569,152 +666,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395158",
-                "created": "2020-10-15T11:56:00+11:00",
-                "updated": "2020-10-15T22:56:00+11:00",
+                "created": "2020-10-16T06:12:00+11:00",
+                "updated": "2020-10-16T17:12:00+11:00",
                 "location": "huntley grange road springwood",
                 "size": 22,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: huntley grange road springwood <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 22 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Oct 2020 22:56",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            152.4324883150001,
-                            -28.80755202299997
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.428926493,
-                                            -28.80529401
-                                        ],
-                                        [
-                                            152.432786274,
-                                            -28.8026665689999
-                                        ],
-                                        [
-                                            152.433304701,
-                                            -28.8024862459999
-                                        ],
-                                        [
-                                            152.434803761,
-                                            -28.80255763
-                                        ],
-                                        [
-                                            152.437302196,
-                                            -28.8029859329999
-                                        ],
-                                        [
-                                            152.44006237,
-                                            -28.804818118
-                                        ],
-                                        [
-                                            152.440443084,
-                                            -28.8062457939999
-                                        ],
-                                        [
-                                            152.439681657,
-                                            -28.8068882489999
-                                        ],
-                                        [
-                                            152.439681657,
-                                            -28.80895838
-                                        ],
-                                        [
-                                            152.438967818,
-                                            -28.809696013
-                                        ],
-                                        [
-                                            152.437897061,
-                                            -28.808149363
-                                        ],
-                                        [
-                                            152.437064249,
-                                            -28.8085300769999
-                                        ],
-                                        [
-                                            152.436469384,
-                                            -28.8104574399999
-                                        ],
-                                        [
-                                            152.434803761,
-                                            -28.812503777
-                                        ],
-                                        [
-                                            152.43428028,
-                                            -28.8148594429999
-                                        ],
-                                        [
-                                            152.433066755,
-                                            -28.8150260049999
-                                        ],
-                                        [
-                                            152.430949035,
-                                            -28.811123688
-                                        ],
-                                        [
-                                            152.428950287,
-                                            -28.810386056
-                                        ],
-                                        [
-                                            152.427141897,
-                                            -28.810243289
-                                        ],
-                                        [
-                                            152.426666005,
-                                            -28.810909538
-                                        ],
-                                        [
-                                            152.42576181,
-                                            -28.8104574399999
-                                        ],
-                                        [
-                                            152.425619041,
-                                            -28.8099577529999
-                                        ],
-                                        [
-                                            152.425047971,
-                                            -28.808601461
-                                        ],
-                                        [
-                                            152.42545248,
-                                            -28.806816865
-                                        ],
-                                        [
-                                            152.428926493,
-                                            -28.80529401
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jenny Lind Lane, Tabulam",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395279",
-                "created": "2020-10-16T05:52:00+11:00",
-                "updated": "2020-10-16T16:52:00+11:00",
-                "location": "Four Mile Creek, Tabulam, NSW 2469",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Four Mile Creek, Tabulam, NSW 2469 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2020 16:52",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: huntley grange road springwood <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 22 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2020 17:12",
                 "title": "incident: fire"
             }
         },
@@ -2299,6 +2255,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    145.9380010000001,
+                    -30.08765999999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Darling St, Bourke",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395281",
+                "created": "2020-10-16T06:14:00+11:00",
+                "updated": "2020-10-16T17:14:00+11:00",
+                "location": "Darling St, Bourke, NSW 2840",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Darling St, Bourke, NSW 2840 <br />COUNCIL AREA: Bourke <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Oct 2020 17:14",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.062585,
                     -30.346664999999973
                 ]
@@ -2315,6 +2295,30 @@
                 "location": "Behind 30 Deans Rd, Boambee, NSW 2450",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Behind 30 Deans Rd, Boambee, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2020 09:21",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.50637900000004,
+                    -33.247244999999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gorokan Dr, Lake Haven",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395283",
+                "created": "2020-10-16T06:10:00+11:00",
+                "updated": "2020-10-16T17:10:00+11:00",
+                "location": "Unit 4/ 31 Gorokan Dr, Lake Haven, NSW 2263",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit 4/ 31 Gorokan Dr, Lake Haven, NSW 2263 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Oct 2020 17:10",
                 "title": "incident: fire"
             }
         },

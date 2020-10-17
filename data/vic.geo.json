@@ -52852,32 +52852,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "complete",
-                "created": "2020-10-18T08:34:00+11:00",
-                "updated": "2020-10-18T09:35:00+11:00",
-                "id": "ESTA:201051529",
-                "location": "Healesville",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.52222548550174,
-                    -37.64803531413162
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Grant Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-10-18T09:38:00+11:00",
                 "updated": "2020-10-18T09:38:00+11:00",
                 "id": "ESTA:201015564",
@@ -52900,7 +52878,7 @@
                 "sourceTitle": "Station St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-10-18T09:39:00+11:00",
                 "updated": "2020-10-18T09:39:00+11:00",
                 "id": "ESTA:201015565",
@@ -52920,14 +52898,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lake View Bvd",
+                "sourceTitle": "Shadforth St",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2020-10-18T09:41:38+11:00",
-                "updated": "2020-10-18T09:41:38+11:00",
-                "id": "ESTA:201015508",
-                "location": "Lake View Bvd, Keysborough",
+                "created": "2020-10-18T10:00:08+11:00",
+                "updated": "2020-10-18T10:00:08+11:00",
+                "id": "ESTA:201015577",
+                "location": "Shadforth St, Wangaratta",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -52935,8 +52913,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.15041373971803,
-                    -38.001160029702646
+                    146.32011736782692,
+                    -36.37556778132718
                 ]
             }
         },
@@ -53232,6 +53210,29 @@
                         ],
                         "name": "East Gippsland Coast"
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lake View Bvd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-10-18T09:41:38+11:00",
+                "updated": "2020-10-18T09:41:38+11:00",
+                "id": "ESTA:201015508",
+                "location": "Lake View Bvd, Keysborough",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.15041373971803,
+                    -38.001160029702646
                 ]
             }
         },

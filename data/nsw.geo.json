@@ -1961,11 +1961,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395086",
-                "created": "2020-10-17T05:21:00+11:00",
-                "updated": "2020-10-17T16:21:00+11:00",
+                "created": "2020-10-17T07:44:00+11:00",
+                "updated": "2020-10-17T18:44:00+11:00",
                 "location": "239 Bumble Hill Road, Kulnura",
                 "size": 5,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 239 Bumble Hill Road, Kulnura <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 16:21",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 239 Bumble Hill Road, Kulnura <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 18:44",
                 "title": "incident: fire"
             }
         },
@@ -2768,10 +2768,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.18158300000005,
-                    -30.617200999999966
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.17937289300005,
+                            -30.61788577599998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.179158741,
+                                            -30.6172671149999
+                                        ],
+                                        [
+                                            152.179158741,
+                                            -30.61729091
+                                        ],
+                                        [
+                                            152.17951566,
+                                            -30.6172433199999
+                                        ],
+                                        [
+                                            152.180205704,
+                                            -30.617624034
+                                        ],
+                                        [
+                                            152.18018191,
+                                            -30.6179095689999
+                                        ],
+                                        [
+                                            152.178897001,
+                                            -30.6188613529999
+                                        ],
+                                        [
+                                            152.17832593,
+                                            -30.618980327
+                                        ],
+                                        [
+                                            152.17770727,
+                                            -30.6188613529999
+                                        ],
+                                        [
+                                            152.17770727,
+                                            -30.618575818
+                                        ],
+                                        [
+                                            152.177802448,
+                                            -30.617885776
+                                        ],
+                                        [
+                                            152.178349724,
+                                            -30.6172671149999
+                                        ],
+                                        [
+                                            152.179158741,
+                                            -30.6172671149999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2958,11 +3023,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395354",
-                "created": "2020-10-17T05:50:00+11:00",
-                "updated": "2020-10-17T16:50:00+11:00",
+                "created": "2020-10-17T07:55:00+11:00",
+                "updated": "2020-10-17T18:55:00+11:00",
                 "location": "MONA VALE ROAD, TERREY HILLS",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: MONA VALE ROAD, TERREY HILLS <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 16:50",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: MONA VALE ROAD, TERREY HILLS <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 18:55",
                 "title": "incident: fire"
             }
         },
@@ -3091,11 +3156,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395395",
-                "created": "2020-10-17T06:10:00+11:00",
-                "updated": "2020-10-17T17:10:00+11:00",
+                "created": "2020-10-17T07:46:00+11:00",
+                "updated": "2020-10-17T18:46:00+11:00",
                 "location": "manly",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: manly <br />COUNCIL AREA: Northern Beaches <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 17 Oct 2020 17:10",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: manly <br />COUNCIL AREA: Northern Beaches <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 17 Oct 2020 18:46",
                 "title": "incident: fire"
             }
         },
@@ -3530,30 +3595,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.51929000000007,
-                    -32.18004399999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Barneys Reef Rd, Barneys Reef",
-                "category": "other",
-                "subcategory": "medical",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395414",
-                "created": "2020-10-17T07:36:00+11:00",
-                "updated": "2020-10-17T18:36:00+11:00",
-                "location": "1995 Barneys Reef Rd, Barneys Reef, NSW 2852",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1995 Barneys Reef Rd, Barneys Reef, NSW 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 18:36",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.062585,
                     -30.346664999999973
                 ]
@@ -3626,30 +3667,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.0934000000001,
-                    -33.42521799999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Great Western Hwy, Marrangaroo",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395422",
-                "created": "2020-10-17T07:32:00+11:00",
-                "updated": "2020-10-17T18:32:00+11:00",
-                "location": "58-78 Great Western Hwy, Marrangaroo, NSW 2790",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 58-78 Great Western Hwy, Marrangaroo, NSW 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 18:32",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.08427200000006,
                     -31.14689599999997
                 ]
@@ -3709,11 +3726,11 @@
                 "subcategory": "burn off",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395421",
-                "created": "2020-10-17T07:30:00+11:00",
-                "updated": "2020-10-17T18:30:00+11:00",
+                "created": "2020-10-17T08:02:00+11:00",
+                "updated": "2020-10-17T19:02:00+11:00",
                 "location": "283-285 King St, Rossmore, NSW 2557",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 283-285 King St, Rossmore, NSW 2557 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 18:30",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 283-285 King St, Rossmore, NSW 2557 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 19:02",
                 "title": "incident: fire"
             }
         },
@@ -3858,6 +3875,30 @@
                 "location": "Taits Trl, Mungo Brush, NSW 2423",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Taits Trl, Mungo Brush, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 17 Oct 2020 16:33",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.4557380000001,
+                    -28.690219999999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Taylors Rd, Eureka",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395423",
+                "created": "2020-10-17T07:46:00+11:00",
+                "updated": "2020-10-17T18:46:00+11:00",
+                "location": "Taylors Rd, Eureka, NSW 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Taylors Rd, Eureka, NSW 2480 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 18:46",
                 "title": "incident: fire"
             }
         },

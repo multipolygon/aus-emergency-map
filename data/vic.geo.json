@@ -52854,7 +52854,7 @@
                 "feedType": "incident",
                 "sourceTitle": "Railway Pl",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "bushfire",
                 "status": "responding",
                 "created": "2020-10-17T20:30:00+11:00",
                 "updated": "2020-10-17T20:30:00+11:00",
@@ -52875,12 +52875,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Albert St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-10-17T20:42:21+11:00",
+                "updated": "2020-10-17T20:42:21+11:00",
+                "id": "ESTA:201015396",
+                "location": "Albert St, Sebastopol",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8412817439526,
+                    -37.58955833036832
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Station St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-10-17T20:38:00+11:00",
+                "updated": "2020-10-17T20:38:00+11:00",
+                "id": "ESTA:201015395",
+                "location": "Station St, Murchison",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21558004386196,
+                    -36.62037385241502
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Greenvale Park Dr",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-10-17T20:20:58+11:00",
-                "updated": "2020-10-17T20:20:58+11:00",
+                "created": "2020-10-17T19:42:00+11:00",
+                "updated": "2020-10-17T20:21:00+11:00",
                 "id": "ESTA:201015376",
                 "location": "Greenvale Park Dr, Greenvale",
                 "size": "Small",
@@ -52890,8 +52936,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.89363972270272,
-                    -37.62808366750192
+                    144.89363537719805,
+                    -37.628084158069115
                 ]
             }
         },
@@ -52944,29 +52990,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "The Esplanade -",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-17T19:31:00+11:00",
-                "updated": "2020-10-17T19:37:00+11:00",
-                "id": "ESTA:201015369",
-                "location": "The Esplanade -, Edithvale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1075493476115,
-                    -38.03874304800425
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Martin Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -53013,75 +53036,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Esplanade East -",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-10-17T20:26:51+11:00",
-                "updated": "2020-10-17T20:26:51+11:00",
-                "id": "ESTA:201015391",
-                "location": "Esplanade East -, Port Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9466845570277,
-                    -37.83632994215645
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pakenham",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-17T20:23:48+11:00",
-                "updated": "2020-10-17T20:23:48+11:00",
-                "id": "ESTA:201015322",
-                "location": "Pakenham, Pakenham",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.45037063027172,
-                    -38.07429580126621
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Oneills Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-17T20:28:01+11:00",
-                "updated": "2020-10-17T20:28:01+11:00",
-                "id": "ESTA:201015385",
-                "location": "Oneills Rd, Melton",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.5776289567938,
-                    -37.67662921867983
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Glenferrie Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -53105,22 +53059,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-10-17T19:06:00+11:00",
-                "updated": "2020-10-17T20:25:00+11:00",
-                "id": "ESTA:201051517",
-                "location": "Ringwood",
-                "title": "incident: tree down"
+                "sourceTitle": "Oneills Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-17T20:28:01+11:00",
+                "updated": "2020-10-17T20:28:01+11:00",
+                "id": "ESTA:201015385",
+                "location": "Oneills Rd, Melton",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.23910935923755,
-                    -37.820346349804375
+                    144.5776289567938,
+                    -37.67662921867983
                 ]
             }
         },

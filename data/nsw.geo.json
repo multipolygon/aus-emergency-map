@@ -3082,10 +3082,123 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.30079269400005,
-                    -33.815880241999935
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.30079269400005,
+                            -33.815880241999935
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.302827161,
+                                            -33.8122948769999
+                                        ],
+                                        [
+                                            151.302827161,
+                                            -33.8123186719999
+                                        ],
+                                        [
+                                            151.302589214,
+                                            -33.81303251
+                                        ],
+                                        [
+                                            151.302922339,
+                                            -33.813532197
+                                        ],
+                                        [
+                                            151.303017518,
+                                            -33.815649917
+                                        ],
+                                        [
+                                            151.302589214,
+                                            -33.816458934
+                                        ],
+                                        [
+                                            151.300828413,
+                                            -33.8180293779999
+                                        ],
+                                        [
+                                            151.300447699,
+                                            -33.821217856
+                                        ],
+                                        [
+                                            151.301209127,
+                                            -33.822122051
+                                        ],
+                                        [
+                                            151.300400111,
+                                            -33.823454549
+                                        ],
+                                        [
+                                            151.29951971,
+                                            -33.823192809
+                                        ],
+                                        [
+                                            151.298663104,
+                                            -33.8234069609999
+                                        ],
+                                        [
+                                            151.291905435,
+                                            -33.82067058
+                                        ],
+                                        [
+                                            151.294832172,
+                                            -33.818386297
+                                        ],
+                                        [
+                                            151.296021903,
+                                            -33.818314914
+                                        ],
+                                        [
+                                            151.296688151,
+                                            -33.818909779
+                                        ],
+                                        [
+                                            151.297806498,
+                                            -33.819552233
+                                        ],
+                                        [
+                                            151.297639936,
+                                            -33.819123931
+                                        ],
+                                        [
+                                            151.298782077,
+                                            -33.817410718
+                                        ],
+                                        [
+                                            151.298448953,
+                                            -33.817053799
+                                        ],
+                                        [
+                                            151.2973544,
+                                            -33.8163875499999
+                                        ],
+                                        [
+                                            151.298734488,
+                                            -33.8152216139999
+                                        ],
+                                        [
+                                            151.300804618,
+                                            -33.81117653
+                                        ],
+                                        [
+                                            151.302827161,
+                                            -33.8122948769999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3663,13 +3776,13 @@
                 "sourceTitle": "Frogmore Rd, Boorowa",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395463",
-                "created": "2020-10-17T19:29:00+11:00",
-                "updated": "2020-10-18T06:29:00+11:00",
+                "created": "2020-10-17T19:56:00+11:00",
+                "updated": "2020-10-18T06:56:00+11:00",
                 "location": "Frogmore Rd, Boorowa, NSW 2586",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Frogmore Rd, Boorowa, NSW 2586 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2020 06:29",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Frogmore Rd, Boorowa, NSW 2586 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2020 06:56",
                 "title": "incident: other"
             }
         },
@@ -3718,6 +3831,30 @@
                 "location": "6045 Illawarra Hwy, Avoca, NSW 2577",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6045 Illawarra Hwy, Avoca, NSW 2577 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 13:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.5234150000001,
+                    -32.19229199999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Likely St, Forster",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395466",
+                "created": "2020-10-17T20:26:00+11:00",
+                "updated": "2020-10-18T07:26:00+11:00",
+                "location": "Likely St, Forster, NSW 2428",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Likely St, Forster, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Oct 2020 07:26",
                 "title": "incident: fire"
             }
         },

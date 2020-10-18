@@ -34868,33 +34868,10 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Evans Pl",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-10-19T05:55:00+11:00",
-                "updated": "2020-10-19T06:16:00+11:00",
-                "id": "ESTA:201016250",
-                "location": "Evans Pl, Halls Gap",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.5357384087718,
-                    -37.12969749026831
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Davisson St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-10-19T06:22:00+11:00",
                 "updated": "2020-10-19T06:22:00+11:00",
                 "id": "ESTA:201016254",
@@ -34908,6 +34885,29 @@
                 "coordinates": [
                     145.02986962442333,
                     -37.651202354076375
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Norman St",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-10-19T06:29:58+11:00",
+                "updated": "2020-10-19T06:29:58+11:00",
+                "id": "ESTA:201016256",
+                "location": "Norman St, Wendouree",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.81977323812097,
+                    -37.53234970033161
                 ]
             }
         },
@@ -34937,13 +34937,36 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "South Gippsland Hwy",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-10-19T06:05:11+11:00",
-                "updated": "2020-10-19T06:05:11+11:00",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-19T05:59:00+11:00",
+                "updated": "2020-10-19T06:26:00+11:00",
                 "id": "ESTA:201016251",
                 "location": "South Gippsland Hwy, Cranbourne",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.28267468266193,
+                    -38.10099152944773
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Evans Pl",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-10-19T05:55:00+11:00",
+                "updated": "2020-10-19T06:16:00+11:00",
+                "id": "ESTA:201016250",
+                "location": "Evans Pl, Halls Gap",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -34951,8 +34974,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2826781835025,
-                    -38.10098616869517
+                    142.5357384087718,
+                    -37.12969749026831
                 ]
             }
         },

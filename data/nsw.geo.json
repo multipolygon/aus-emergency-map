@@ -755,61 +755,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.05262993,
-                                            -30.3198713909999
-                                        ],
-                                        [
-                                            153.052249216,
-                                            -30.3197881099999
-                                        ],
-                                        [
-                                            153.051975577,
-                                            -30.3195382659999
-                                        ],
-                                        [
-                                            153.051487788,
-                                            -30.319324114
-                                        ],
-                                        [
-                                            153.051345021,
-                                            -30.3190385789999
-                                        ],
-                                        [
-                                            153.051392609,
-                                            -30.318776839
-                                        ],
-                                        [
-                                            153.051713837,
-                                            -30.318776839
-                                        ],
-                                        [
-                                            153.052403881,
-                                            -30.318741146
-                                        ],
-                                        [
-                                            153.052939259,
-                                            -30.3187887359999
-                                        ],
-                                        [
-                                            153.053129617,
-                                            -30.3190028879999
-                                        ],
-                                        [
-                                            153.053177206,
-                                            -30.3192884229999
-                                        ],
-                                        [
-                                            153.05262993,
-                                            -30.3198713909999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.05241842499984,
                                             -30.31939225500005
                                         ],
@@ -1003,6 +948,61 @@
                                         [
                                             153.052951156,
                                             -30.3203710779999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.05262993,
+                                            -30.3198713909999
+                                        ],
+                                        [
+                                            153.052249216,
+                                            -30.3197881099999
+                                        ],
+                                        [
+                                            153.051975577,
+                                            -30.3195382659999
+                                        ],
+                                        [
+                                            153.051487788,
+                                            -30.319324114
+                                        ],
+                                        [
+                                            153.051345021,
+                                            -30.3190385789999
+                                        ],
+                                        [
+                                            153.051392609,
+                                            -30.318776839
+                                        ],
+                                        [
+                                            153.051713837,
+                                            -30.318776839
+                                        ],
+                                        [
+                                            153.052403881,
+                                            -30.318741146
+                                        ],
+                                        [
+                                            153.052939259,
+                                            -30.3187887359999
+                                        ],
+                                        [
+                                            153.053129617,
+                                            -30.3190028879999
+                                        ],
+                                        [
+                                            153.053177206,
+                                            -30.3192884229999
+                                        ],
+                                        [
+                                            153.05262993,
+                                            -30.3198713909999
                                         ]
                                     ]
                                 ]
@@ -2429,6 +2429,30 @@
                 "location": "huntley grange road springwood",
                 "size": 22,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: huntley grange road springwood <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 22 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2020 14:22",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.6156400010001,
+                    -35.02010399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jervis Bay Rd, Woollamia",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395498",
+                "created": "2020-10-18T03:48:00+11:00",
+                "updated": "2020-10-18T14:48:00+11:00",
+                "location": "503 Jervis Bay Rd, Woollamia, NSW 2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 503 Jervis Bay Rd, Woollamia, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2020 14:48",
                 "title": "incident: fire"
             }
         },
@@ -4182,6 +4206,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.97116200000005,
+                    -32.791804999999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bylong Valley Way, Rylstone",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395496",
+                "created": "2020-10-18T03:46:00+11:00",
+                "updated": "2020-10-18T14:46:00+11:00",
+                "location": "Bylong Valley Way, Rylstone, NSW 2849",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bylong Valley Way, Rylstone, NSW 2849 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2020 14:46",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.51857185300003,
                     -28.32906994399997
                 ]
@@ -4254,30 +4302,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.9747010000001,
-                    -30.679358999999977
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Giinagay Way, Nambucca Heads",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395493",
-                "created": "2020-10-18T03:38:00+11:00",
-                "updated": "2020-10-18T14:38:00+11:00",
-                "location": "1790 Giinagay Way, Nambucca Heads, NSW 2448",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1790 Giinagay Way, Nambucca Heads, NSW 2448 <br />COUNCIL AREA: Nambucca <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Oct 2020 14:38",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.08427200000006,
                     -31.14689599999997
                 ]
@@ -4319,6 +4343,54 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6045 Illawarra Hwy, Avoca, NSW 2577 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Oct 2020 13:02",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.95231400000011,
+                    -35.55176199999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kings Hwy, Buckenbowra",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395499",
+                "created": "2020-10-18T03:50:00+11:00",
+                "updated": "2020-10-18T14:50:00+11:00",
+                "location": "Kings Hwy, Buckenbowra, NSW 2536",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kings Hwy, Buckenbowra, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2020 14:50",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.05654300000003,
+                    -35.587185999999974
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kings Hwy, Currowan",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395497",
+                "created": "2020-10-18T03:48:00+11:00",
+                "updated": "2020-10-18T14:48:00+11:00",
+                "location": "Kings Hwy, Currowan, NSW 2536",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kings Hwy, Currowan, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2020 14:48",
+                "title": "incident: other"
             }
         },
         {
@@ -4446,30 +4518,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.30717900000002,
-                    -32.49841399999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Taits Trl, Mungo Brush",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395032",
-                "created": "2020-10-18T00:26:00+11:00",
-                "updated": "2020-10-18T11:26:00+11:00",
-                "location": "Taits Trl, Mungo Brush, NSW 2423",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Taits Trl, Mungo Brush, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 18 Oct 2020 11:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.4557380000001,
                     -28.690219999999954
                 ]
@@ -4534,6 +4582,30 @@
                 "location": "3894 Wallambah Rd (Pacific On Ramp) Hwy, Nabiac,  2312",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3894 Wallambah Rd (Pacific On Ramp) Hwy, Nabiac,  2312 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2020 14:08",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.50114000000008,
+                    -29.410270999999966
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Watercourse Rd, Moree",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/395495",
+                "created": "2020-10-18T03:42:00+11:00",
+                "updated": "2020-10-18T14:42:00+11:00",
+                "location": "Watercourse Rd, Moree, NSW 2400",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Watercourse Rd, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2020 14:42",
                 "title": "incident: other"
             }
         },

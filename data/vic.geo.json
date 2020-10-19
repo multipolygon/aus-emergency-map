@@ -12307,10 +12307,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Camms Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-20T03:46:26+11:00",
-                "updated": "2020-10-20T03:46:26+11:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-10-20T03:55:50+11:00",
+                "updated": "2020-10-20T03:55:50+11:00",
                 "id": "ESTA:201017178",
                 "location": "Camms Rd, Cranbourne",
                 "size": "Small",
@@ -12320,8 +12320,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.28420398358105,
-                    -38.09746910924777
+                    145.28854161952177,
+                    -38.09892724910204
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-10-20T03:56:00+11:00",
+                "updated": "2020-10-20T04:00:00+11:00",
+                "id": "ESTA:201051591",
+                "location": "Officer",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.43002559525831,
+                    -38.07032182608032
                 ]
             }
         },

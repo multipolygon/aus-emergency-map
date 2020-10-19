@@ -16862,12 +16862,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-19T13:34:00+11:00",
+                "updated": "2020-10-19T13:54:00+11:00",
+                "id": "ESTA:201016765",
+                "location": "Ellaswood",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.60319488484902,
+                    -37.786937244597866
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
-                "status": "on scene",
+                "status": "complete",
                 "created": "2020-10-19T11:42:00+11:00",
-                "updated": "2020-10-19T13:38:00+11:00",
+                "updated": "2020-10-19T13:56:00+11:00",
                 "id": "ESTA:201016637",
                 "location": "Mount Buller",
                 "size": "Small",
@@ -16888,9 +16911,9 @@
                 "sourceTitle": "Ring Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-10-19T13:43:28+11:00",
-                "updated": "2020-10-19T13:43:28+11:00",
+                "status": "safe",
+                "created": "2020-10-19T13:57:41+11:00",
+                "updated": "2020-10-19T13:57:41+11:00",
                 "id": "ESTA:201016751",
                 "location": "Ring Rd, Wendouree",
                 "size": "Small",
@@ -16908,23 +16931,67 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
+                "sourceTitle": "Albion",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-10-19T13:34:00+11:00",
-                "updated": "2020-10-19T13:34:00+11:00",
-                "id": "ESTA:201016765",
-                "location": "Ellaswood",
+                "created": "2020-10-19T13:58:24+11:00",
+                "updated": "2020-10-19T13:58:24+11:00",
+                "id": "ESTA:201016789",
+                "location": "Albion, Albion",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.60319488484902,
-                    -37.786937244597866
+                    144.80909278305379,
+                    -37.77463301692067
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-19T14:02:00+11:00",
+                "updated": "2020-10-19T14:02:00+11:00",
+                "id": "ESTA:201051567",
+                "location": "St Albans",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.779572754193,
+                    -37.741989947329856
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Albion",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-10-19T14:02:27+11:00",
+                "updated": "2020-10-19T14:03:13+11:00",
+                "id": "ESTA:201016794",
+                "location": "Albion",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8099420522347,
+                    -37.77472782211067
                 ]
             }
         },

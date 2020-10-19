@@ -1091,10 +1091,10 @@
                 "sourceTitle": "CANNINGTON",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2084607-500102",
                 "created": "2020-10-19T12:26:23+08:00",
-                "updated": "2020-10-19T12:26:39+08:00",
+                "updated": "2020-10-19T12:36:28+08:00",
                 "location": "CANNINGTON",
                 "size": "",
                 "description": "Active Alarm",
@@ -1123,6 +1123,31 @@
                 "location": "MUNDARING",
                 "size": "",
                 "description": "Burn Off",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    118.610504,
+                    -20.399284
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "SOUTH HEDLAND",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "monitoring",
+                "id": "2084596-500098",
+                "created": "2020-10-19T11:54:07+08:00",
+                "updated": "2020-10-19T12:33:02+08:00",
+                "location": "SOUTH HEDLAND",
+                "size": "",
+                "description": "Fire",
                 "title": "incident: fire"
             }
         },
@@ -1357,23 +1382,23 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.79481,
-                    -32.04999
+                    115.74492,
+                    -32.05045
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "WILLAGEE",
-                "category": "active alarm",
-                "subcategory": "active alarm",
+                "sourceTitle": "FREMANTLE",
+                "category": "fire",
+                "subcategory": "bushfire",
                 "status": "on scene",
-                "id": "2084605-500101",
-                "created": "2020-10-19T12:15:38+08:00",
-                "updated": "2020-10-19T12:32:45+08:00",
-                "location": "WILLAGEE",
+                "id": "2084608-500103",
+                "created": "2020-10-19T12:24:30+08:00",
+                "updated": "2020-10-19T12:32:53+08:00",
+                "location": "FREMANTLE",
                 "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
+                "description": "Bushfire",
+                "title": "incident: fire"
             }
         },
         {
@@ -1557,56 +1582,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    118.610504,
-                    -20.399284
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "SOUTH HEDLAND",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "on scene",
-                "id": "2084596-500098",
-                "created": "2020-10-19T11:54:07+08:00",
-                "updated": "2020-10-19T12:29:17+08:00",
-                "location": "SOUTH HEDLAND",
-                "size": "",
-                "description": "Structure Fire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.74492,
-                    -32.05045
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "FREMANTLE",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "on scene",
-                "id": "2084608-500103",
-                "created": "2020-10-19T12:24:30+08:00",
-                "updated": "2020-10-19T12:32:53+08:00",
-                "location": "FREMANTLE",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     123.065,
                     -17.49
                 ]
@@ -1649,6 +1624,31 @@
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.79481,
+                    -32.04999
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WILLAGEE",
+                "category": "active alarm",
+                "subcategory": "active alarm",
+                "status": "on scene",
+                "id": "2084605-500101",
+                "created": "2020-10-19T12:15:38+08:00",
+                "updated": "2020-10-19T12:32:45+08:00",
+                "location": "WILLAGEE",
+                "size": "",
+                "description": "Active Alarm",
+                "title": "incident: active alarm"
             }
         },
         {

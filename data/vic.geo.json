@@ -832,9 +832,9 @@
                 "category": "advice",
                 "subcategory": "weather",
                 "status": "minor",
-                "created": "2020-10-20T10:52:50+11:00",
-                "updated": "2020-10-20T10:52:51+11:00",
-                "id": "14898",
+                "created": "2020-10-21T10:47:57+11:00",
+                "updated": "2020-10-21T10:47:57+11:00",
+                "id": "14903",
                 "location": "The Kiewa River downstream of Mongans Bridge",
                 "title": "warning: advice"
             }
@@ -10771,14 +10771,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murray St",
+                "sourceTitle": "Annabelle Bvd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-10-21T11:04:07+11:00",
+                "updated": "2020-10-21T11:04:07+11:00",
+                "id": "ESTA:201018551",
+                "location": "Annabelle Bvd, Keysborough",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18073725961233,
+                    -38.00279402718418
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bowman Ct",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-21T10:22:00+11:00",
-                "updated": "2020-10-21T10:29:00+11:00",
-                "id": "ESTA:201018465",
-                "location": "Murray St, Kerang",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-21T11:08:50+11:00",
+                "updated": "2020-10-21T11:08:50+11:00",
+                "id": "ESTA:201018562",
+                "location": "Bowman Ct, Taylors Hill",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10786,31 +10809,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.91450093347396,
-                    -35.73059156472994
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Stirling Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-10-21T10:44:07+11:00",
-                "updated": "2020-10-21T10:44:07+11:00",
-                "id": "ESTA:201018510",
-                "location": "Stirling Av, Malvern East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.08731598243145,
-                    -37.87403443254217
+                    144.75156906924178,
+                    -37.71783471065838
                 ]
             }
         },
@@ -10839,58 +10839,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Howard Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-21T09:29:00+11:00",
-                "updated": "2020-10-21T10:08:00+11:00",
-                "id": "ESTA:201018332",
-                "location": "Howard Av, Churchill",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.41682761312506,
-                    -38.30985646867866
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Corrigan Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-21T09:16:00+11:00",
-                "updated": "2020-10-21T09:46:00+11:00",
-                "id": "ESTA:201018308",
-                "location": "Corrigan Rd, Noble Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17349697651863,
-                    -37.94889355272669
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Settlement Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
                 "created": "2020-10-21T09:16:00+11:00",
-                "updated": "2020-10-21T09:16:00+11:00",
+                "updated": "2020-10-21T11:03:00+11:00",
                 "id": "ESTA:201018309",
                 "location": "Settlement Rd, Cowes",
                 "size": "Small",
@@ -10902,6 +10856,73 @@
                 "coordinates": [
                     145.2477669264681,
                     -38.45616823037118
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murray St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-21T10:22:00+11:00",
+                "updated": "2020-10-21T10:29:00+11:00",
+                "id": "ESTA:201018465",
+                "location": "Murray St, Kerang",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.91450093347396,
+                    -35.73059156472994
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-21T10:55:00+11:00",
+                "updated": "2020-10-21T11:08:00+11:00",
+                "id": "ESTA:201051616",
+                "location": "Korweinguboora",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.14000476981533,
+                    -37.45897908226188
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-21T10:49:00+11:00",
+                "updated": "2020-10-21T10:58:00+11:00",
+                "id": "ESTA:201051615",
+                "location": "Bunding",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.17241141319371,
+                    -37.52704327136737
                 ]
             }
         },

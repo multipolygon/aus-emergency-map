@@ -85563,7 +85563,7 @@
                 "sourceTitle": "Dalmore Dr",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-10-22T22:20:00+11:00",
                 "updated": "2020-10-22T22:20:00+11:00",
                 "id": "ESTA:201020667",
@@ -85583,37 +85583,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tuckfield St",
+                "sourceTitle": "Nepean Hwy",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-10-22T22:21:01+11:00",
-                "updated": "2020-10-22T22:21:01+11:00",
-                "id": "ESTA:201020655",
-                "location": "Tuckfield St, Ocean Grove",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.533659568495,
-                    -38.266046771552546
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mt Sunday Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "fire",
                 "status": "responding",
-                "created": "2020-10-22T22:21:00+11:00",
-                "updated": "2020-10-22T22:21:00+11:00",
-                "id": "ESTA:201020668",
-                "location": "Mt Sunday Rd, Mount Buller",
+                "created": "2020-10-22T22:44:57+11:00",
+                "updated": "2020-10-22T22:44:57+11:00",
+                "id": "ESTA:201020670",
+                "location": "Nepean Hwy, Seaford",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -85621,54 +85598,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.41454233309287,
-                    -37.37067862627012
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "David St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-10-22T22:29:25+11:00",
-                "updated": "2020-10-22T22:29:25+11:00",
-                "id": "ESTA:201020663",
-                "location": "David St, Noble Park",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17431879382417,
-                    -37.979532352893266
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beach Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-10-22T22:30:13+11:00",
-                "updated": "2020-10-22T22:30:13+11:00",
-                "id": "ESTA:201020665",
-                "location": "Beach Rd, Werribee South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.69001756372705,
-                    -37.973637322835444
+                    145.12448575401868,
+                    -38.09567699844382
                 ]
             }
         },
@@ -93128,12 +93059,104 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Solid Dr",
+                "sourceTitle": "Beach Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-10-22T22:01:33+11:00",
-                "updated": "2020-10-22T22:01:33+11:00",
+                "created": "2020-10-22T22:30:13+11:00",
+                "updated": "2020-10-22T22:30:13+11:00",
+                "id": "ESTA:201020665",
+                "location": "Beach Rd, Werribee South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.69001756372705,
+                    -37.973637322835444
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "David St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-10-22T22:29:25+11:00",
+                "updated": "2020-10-22T22:29:25+11:00",
+                "id": "ESTA:201020663",
+                "location": "David St, Noble Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17431879382417,
+                    -37.979532352893266
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tuckfield St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-22T21:40:00+11:00",
+                "updated": "2020-10-22T22:21:00+11:00",
+                "id": "ESTA:201020655",
+                "location": "Tuckfield St, Ocean Grove",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.53364960510052,
+                    -38.266053686502744
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mt Sunday Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-10-22T22:21:00+11:00",
+                "updated": "2020-10-22T22:21:00+11:00",
+                "id": "ESTA:201020668",
+                "location": "Mt Sunday Rd, Mount Buller",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.41454233309287,
+                    -37.37067862627012
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Solid Dr",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-22T21:48:00+11:00",
+                "updated": "2020-10-22T22:01:00+11:00",
                 "id": "ESTA:201020657",
                 "location": "Solid Dr, Pakenham",
                 "size": "Small",
@@ -93143,8 +93166,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.47994474146336,
-                    -38.05637954220484
+                    145.4799371251974,
+                    -38.05638759112039
                 ]
             }
         },
@@ -93168,29 +93191,6 @@
                 "coordinates": [
                     143.7140994936392,
                     -37.59198269645619
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-10-22T20:29:00+11:00",
-                "updated": "2020-10-22T21:43:00+11:00",
-                "id": "ESTA:201020617",
-                "location": "Officer",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.41004220928366,
-                    -38.06030219448645
                 ]
             }
         },

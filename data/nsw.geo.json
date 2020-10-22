@@ -52,10 +52,91 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.266656,
-                    -30.126961000999984
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.29753398900004,
+                            -30.117586750999976
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.296218915,
+                                            -30.120214468
+                                        ],
+                                        [
+                                            148.295064877,
+                                            -30.1208093339999
+                                        ],
+                                        [
+                                            148.293608647,
+                                            -30.121661181
+                                        ],
+                                        [
+                                            148.292752041,
+                                            -30.121387543
+                                        ],
+                                        [
+                                            148.293204138,
+                                            -30.120245401
+                                        ],
+                                        [
+                                            148.291257739,
+                                            -30.11901284
+                                        ],
+                                        [
+                                            148.292804388,
+                                            -30.1174423959999
+                                        ],
+                                        [
+                                            148.293703825,
+                                            -30.117223485
+                                        ],
+                                        [
+                                            148.294779341,
+                                            -30.1168594279999
+                                        ],
+                                        [
+                                            148.296563938,
+                                            -30.1162169739999
+                                        ],
+                                        [
+                                            148.29845085,
+                                            -30.115426993
+                                        ],
+                                        [
+                                            148.299609647,
+                                            -30.115062935
+                                        ],
+                                        [
+                                            148.299692928,
+                                            -30.115598314
+                                        ],
+                                        [
+                                            148.298538889,
+                                            -30.117454293
+                                        ],
+                                        [
+                                            148.29778936,
+                                            -30.1188105859999
+                                        ],
+                                        [
+                                            148.296218915,
+                                            -30.120214468
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -67,9 +148,9 @@
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/396662",
                 "created": "2020-10-21T06:57:00+11:00",
                 "updated": "2020-10-21T17:57:00+11:00",
-                "location": "Come By Chance Rd, Walgett, NSW 2832",
+                "location": "250676",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Come By Chance Rd, Walgett, NSW 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Oct 2020 17:57",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 250676 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Oct 2020 17:57",
                 "title": "incident: fire"
             }
         },
@@ -1123,35 +1204,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/396707",
-                "created": "2020-10-22T00:21:00+11:00",
-                "updated": "2020-10-22T11:21:00+11:00",
+                "created": "2020-10-22T02:15:00+11:00",
+                "updated": "2020-10-22T13:15:00+11:00",
                 "location": "bangalee",
                 "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: bangalee <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 22 Oct 2020 11:21",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.5289110000001,
-                    -28.25553199999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tweed Valley Way Off Ramp, Chinderah",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/396716",
-                "created": "2020-10-22T01:59:00+11:00",
-                "updated": "2020-10-22T12:59:00+11:00",
-                "location": "Tweed Valley Way Off Ramp, Chinderah, NSW 2487",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Tweed Valley Way Off Ramp, Chinderah, NSW 2487 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2020 12:59",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: bangalee <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 22 Oct 2020 13:15",
                 "title": "incident: fire"
             }
         },
@@ -1184,22 +1241,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.26352100000008,
-                    -28.839777999999967
+                    153.59214300000008,
+                    -28.734350999999947
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bruxner Hwy, Loftville",
+                "sourceTitle": "Broken Head Rd, Broken Head",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/396705",
-                "created": "2020-10-21T23:34:00+11:00",
-                "updated": "2020-10-22T10:34:00+11:00",
-                "location": "Bruxner Hwy, Loftville, NSW 2480",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/396717",
+                "created": "2020-10-22T02:04:00+11:00",
+                "updated": "2020-10-22T13:04:00+11:00",
+                "location": "Broken Head Rd, Broken Head, NSW 2481",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bruxner Hwy, Loftville, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2020 10:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Broken Head Rd, Broken Head, NSW 2481 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2020 13:04",
                 "title": "incident: other"
             }
         },
@@ -1304,30 +1361,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.73210000000006,
-                    -33.66721999999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Londonderry Rd, Londonderry",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/396706",
-                "created": "2020-10-21T23:48:00+11:00",
-                "updated": "2020-10-22T10:48:00+11:00",
-                "location": "Londonderry Rd, Londonderry, NSW 2753",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Londonderry Rd, Londonderry, NSW 2753 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2020 10:48",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.843566,
                     -30.414197999999942
                 ]
@@ -1345,30 +1378,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pandora Lane, Narrabri, NSW 2390 <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2020 11:06",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.4489364630001,
-                    -30.57763235599998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thunderbolts Way MVA",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/396708",
-                "created": "2020-10-21T23:54:00+11:00",
-                "updated": "2020-10-22T10:54:00+11:00",
-                "location": "351149 6616810",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 351149 6616810 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 22 Oct 2020 10:54",
-                "title": "incident: other"
             }
         },
         {

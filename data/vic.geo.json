@@ -15080,15 +15080,81 @@
             },
             "properties": {
                 "feedType": "warning",
-                "sourceTitle": "Advice",
+                "sourceTitle": "All Clear",
                 "category": "advice",
                 "subcategory": "weather",
-                "status": "minor",
-                "created": "2020-10-26T10:09:27+11:00",
-                "updated": "2020-10-26T10:09:31+11:00",
-                "id": "14996",
+                "status": "all clear",
+                "created": "2020-10-27T10:02:55+11:00",
+                "updated": "2020-10-27T10:02:55+11:00",
+                "id": "15000",
                 "location": "Murray River upstream of Lake Hume",
                 "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            141.23889874683687,
+                            -36.76723652858928
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ],
+                                [
+                                    141.24015402065305,
+                                    -36.76279312595286
+                                ],
+                                [
+                                    141.24356579052682,
+                                    -36.766162326149455
+                                ],
+                                [
+                                    141.242492906918,
+                                    -36.77049393746737
+                                ],
+                                [
+                                    141.23890947567685,
+                                    -36.771679931225705
+                                ],
+                                [
+                                    141.23599123226117,
+                                    -36.77035642975759
+                                ],
+                                [
+                                    141.23423170314695,
+                                    -36.76695303536076
+                                ],
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "env",
+                "status": "unknown",
+                "created": "2020-10-01T11:45:40+10:00",
+                "updated": "2020-10-01T11:45:42+10:00",
+                "id": "14562",
+                "location": "Minimay",
+                "title": "warning: community update"
             }
         },
         {
@@ -22723,72 +22789,6 @@
         },
         {
             "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            141.23889874683687,
-                            -36.76723652858928
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    141.23575519787207,
-                                    -36.76365262986296
-                                ],
-                                [
-                                    141.24015402065305,
-                                    -36.76279312595286
-                                ],
-                                [
-                                    141.24356579052682,
-                                    -36.766162326149455
-                                ],
-                                [
-                                    141.242492906918,
-                                    -36.77049393746737
-                                ],
-                                [
-                                    141.23890947567685,
-                                    -36.771679931225705
-                                ],
-                                [
-                                    141.23599123226117,
-                                    -36.77035642975759
-                                ],
-                                [
-                                    141.23423170314695,
-                                    -36.76695303536076
-                                ],
-                                [
-                                    141.23575519787207,
-                                    -36.76365262986296
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Community Information",
-                "category": "community update",
-                "subcategory": "env",
-                "status": "unknown",
-                "created": "2020-10-01T11:45:40+10:00",
-                "updated": "2020-10-01T11:45:42+10:00",
-                "id": "14562",
-                "location": "Minimay",
-                "title": "warning: community update"
-            }
-        },
-        {
-            "type": "Feature",
             "properties": {
                 "feedType": "warning",
                 "sourceTitle": "Advice",
@@ -25000,14 +25000,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
+                "sourceTitle": "Moe-Rawson Rd",
                 "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-10-27T08:40:00+11:00",
-                "updated": "2020-10-27T08:58:00+11:00",
-                "id": "ESTA:201024337",
-                "location": "Forge Creek",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-10-27T09:50:00+11:00",
+                "updated": "2020-10-27T09:50:00+11:00",
+                "id": "ESTA:201024395",
+                "location": "Moe-Rawson Rd, Moondarra",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -25015,22 +25015,45 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.6406600809191,
-                    -37.901087401955365
+                    146.33202085682325,
+                    -38.057857073814326
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mollis Cl",
+                "sourceTitle": "Geelong Rd",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2020-10-27T09:31:00+11:00",
+                "updated": "2020-10-27T09:45:00+11:00",
+                "id": "ESTA:201024378",
+                "location": "Geelong Rd, Canadian",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.86740725543456,
+                    -37.58472380019664
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-27T09:07:00+11:00",
-                "updated": "2020-10-27T09:24:00+11:00",
-                "id": "ESTA:201024358",
-                "location": "Mollis Cl, Narre Warren",
+                "status": "responding",
+                "created": "2020-10-27T09:54:00+11:00",
+                "updated": "2020-10-27T09:54:00+11:00",
+                "id": "ESTA:201024398",
+                "location": "Mandurang",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -25038,53 +25061,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.322315215952,
-                    -38.03915723920393
+                    144.2883561265346,
+                    -36.829397539526624
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Geelong",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Narre Warren North Rd",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-10-27T09:39:03+11:00",
-                "updated": "2020-10-27T09:39:03+11:00",
-                "id": "ESTA:201024388",
-                "location": "Geelong, Geelong",
+                "created": "2020-10-27T10:02:00+11:00",
+                "updated": "2020-10-27T10:02:00+11:00",
+                "id": "ESTA:201024405",
+                "location": "Narre Warren North Rd, Narre Warren North",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.37210623216043,
-                    -38.15305943456794
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Walhalla",
-                "category": "landslide",
-                "subcategory": "landslide",
-                "status": "responding",
-                "created": "2020-10-27T09:36:50+11:00",
-                "updated": "2020-10-27T09:40:50+11:00",
-                "id": "ESTA:201053057",
-                "location": "Walhalla Rd, Walhalla",
-                "title": "incident: landslide"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.4382188001873,
-                    -37.95268241878063
+                    145.31370669417663,
+                    -37.99018940743826
                 ]
             }
         },
@@ -25094,10 +25095,10 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-10-27T09:43:00+11:00",
-                "updated": "2020-10-27T09:44:00+11:00",
-                "id": "ESTA:201053058",
+                "status": "complete",
+                "created": "2020-10-27T09:30:00+11:00",
+                "updated": "2020-10-27T10:02:00+11:00",
+                "id": "ESTA:201053056",
                 "location": "Main Ridge",
                 "title": "incident: tree down"
             },
@@ -25105,31 +25106,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9723867137674,
-                    -38.39232440259891
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Geelong Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-27T09:44:59+11:00",
-                "updated": "2020-10-27T09:44:59+11:00",
-                "id": "ESTA:201024378",
-                "location": "Geelong Rd, Canadian",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.86741166812203,
-                    -37.58471709169939
+                    144.9718072108583,
+                    -38.39872118597566
                 ]
             }
         },
@@ -26492,14 +26470,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Central Park Av",
+                "sourceTitle": "Mollis Cl",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-10-27T09:42:00+11:00",
-                "updated": "2020-10-27T09:42:00+11:00",
-                "id": "ESTA:201024391",
-                "location": "Central Park Av, Craigieburn",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-27T09:07:00+11:00",
+                "updated": "2020-10-27T09:24:00+11:00",
+                "id": "ESTA:201024358",
+                "location": "Mollis Cl, Narre Warren",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -26507,31 +26485,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.91145724052504,
-                    -37.58846010022617
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-27T09:15:00+11:00",
-                "updated": "2020-10-27T09:33:00+11:00",
-                "id": "ESTA:201024364",
-                "location": "Cape Woolamai",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34110488053457,
-                    -38.51984944313692
+                    145.322315215952,
+                    -38.03915723920393
                 ]
             }
         },
@@ -26555,29 +26510,6 @@
                 "coordinates": [
                     144.74913823106922,
                     -37.35596927029081
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mercer St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-27T08:48:00+11:00",
-                "updated": "2020-10-27T08:51:00+11:00",
-                "id": "ESTA:201024342",
-                "location": "Mercer St, Koorlong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.0679779783426,
-                    -34.29096951479243
                 ]
             }
         },
@@ -26630,13 +26562,194 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-27T09:59:00+11:00",
+                "updated": "2020-10-27T10:01:00+11:00",
+                "id": "ESTA:201024401",
+                "location": "Cowes",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24838597850606,
+                    -38.45615946739627
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Geelong",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-10-27T09:57:02+11:00",
+                "updated": "2020-10-27T09:57:02+11:00",
+                "id": "ESTA:201024388",
+                "location": "Geelong, Geelong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.37210623216043,
+                    -38.15305943456794
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-10-27T09:47:00+11:00",
+                "updated": "2020-10-27T09:54:00+11:00",
+                "id": "ESTA:201024392",
+                "location": "Moondarra",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.33066753772135,
+                    -38.056263146635544
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-27T09:15:00+11:00",
+                "updated": "2020-10-27T09:33:00+11:00",
+                "id": "ESTA:201024364",
+                "location": "Cape Woolamai",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34110488053457,
+                    -38.51984944313692
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2020-10-27T08:40:00+11:00",
+                "updated": "2020-10-27T08:58:00+11:00",
+                "id": "ESTA:201024337",
+                "location": "Forge Creek",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.6406600809191,
+                    -37.901087401955365
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-10-27T09:30:00+11:00",
-                "updated": "2020-10-27T09:39:00+11:00",
-                "id": "ESTA:201053056",
+                "created": "2020-10-27T09:48:00+11:00",
+                "updated": "2020-10-27T09:59:00+11:00",
+                "id": "ESTA:201053060",
+                "location": "Gembrook",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.5486569211649,
+                    -37.96611618523467
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-10-27T08:21:00+11:00",
+                "updated": "2020-10-27T09:56:00+11:00",
+                "id": "ESTA:201053034",
+                "location": "Aspendale",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10458643307976,
+                    -38.02107751582067
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-27T09:00:00+11:00",
+                "updated": "2020-10-27T09:53:00+11:00",
+                "id": "ESTA:201053046",
+                "location": "Bentleigh",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02613051765277,
+                    -37.914485203276925
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-27T09:43:00+11:00",
+                "updated": "2020-10-27T09:50:00+11:00",
+                "id": "ESTA:201053058",
                 "location": "Main Ridge",
                 "title": "incident: tree down"
             },
@@ -26644,8 +26757,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9718072108583,
-                    -38.39872118597566
+                    144.9723867137674,
+                    -38.39232440259891
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-10-27T09:46:00+11:00",
+                "updated": "2020-10-27T09:48:00+11:00",
+                "id": "ESTA:201053059",
+                "location": "Elphinstone",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.32503413788135,
+                    -37.07844871309315
                 ]
             }
         },
@@ -26690,50 +26825,6 @@
                 "coordinates": [
                     145.35963536069073,
                     -37.913758919547014
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-10-27T09:00:00+11:00",
-                "updated": "2020-10-27T09:15:00+11:00",
-                "id": "ESTA:201053046",
-                "location": "Bentleigh",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02613051765277,
-                    -37.914485203276925
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-10-27T08:21:00+11:00",
-                "updated": "2020-10-27T09:08:00+11:00",
-                "id": "ESTA:201053034",
-                "location": "Aspendale",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10458643307976,
-                    -38.02107751582067
                 ]
             }
         },

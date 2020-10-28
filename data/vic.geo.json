@@ -10508,14 +10508,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Turanga Rd",
+                "sourceTitle": "Princes Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-10-29T08:11:00+11:00",
+                "updated": "2020-10-29T08:42:00+11:00",
+                "id": "ESTA:201025885",
+                "location": "Princes Hwy, Kalimna",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.96403393732925,
+                    -37.880289713673456
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ballagh St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-29T08:08:00+11:00",
-                "updated": "2020-10-29T08:23:00+11:00",
-                "id": "ESTA:201025879",
-                "location": "Turanga Rd, Gisborne",
+                "status": "responding",
+                "created": "2020-10-29T08:42:00+11:00",
+                "updated": "2020-10-29T08:42:00+11:00",
+                "id": "ESTA:201025940",
+                "location": "Ballagh St, Elliminyt",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10523,30 +10546,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.5824655602888,
-                    -37.48724089585398
+                    143.57451882064208,
+                    -38.3622564249407
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-10-29T08:34:00+11:00",
-                "updated": "2020-10-29T08:38:00+11:00",
-                "id": "ESTA:201053195",
-                "location": "Sebastopol",
-                "title": "incident: building damage"
+                "sourceTitle": "Mason St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-10-29T08:46:27+11:00",
+                "updated": "2020-10-29T08:46:27+11:00",
+                "id": "ESTA:201025952",
+                "location": "Mason St, Altona North",
+                "size": "Small",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.83715675778637,
-                    -37.586311384859144
+                    144.85356726084996,
+                    -37.83917169450507
                 ]
             }
         },
@@ -10575,23 +10599,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Matthews Cr",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-10-29T08:11:00+11:00",
-                "updated": "2020-10-29T08:11:00+11:00",
-                "id": "ESTA:201025885",
-                "location": "Princes Hwy, Kalimna",
+                "created": "2020-10-29T08:44:00+11:00",
+                "updated": "2020-10-29T08:44:00+11:00",
+                "id": "ESTA:201025948",
+                "location": "Matthews Cr, Traralgon",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.96403393732925,
-                    -37.880289713673456
+                    146.54932475964324,
+                    -38.19532440635506
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Turanga Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-29T08:08:00+11:00",
+                "updated": "2020-10-29T08:23:00+11:00",
+                "id": "ESTA:201025879",
+                "location": "Turanga Rd, Gisborne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.5824655602888,
+                    -37.48724089585398
                 ]
             }
         },
@@ -10615,29 +10662,6 @@
                 "coordinates": [
                     144.32217310374378,
                     -38.331694344429124
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sunshine",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-10-29T07:50:34+11:00",
-                "updated": "2020-10-29T07:50:34+11:00",
-                "id": "ESTA:201025847",
-                "location": "Sunshine, Sunshine",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.83028339693314,
-                    -37.795919852624586
                 ]
             }
         },
@@ -10684,6 +10708,28 @@
                 "coordinates": [
                     144.8786472541339,
                     -37.70813732679108
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-10-29T08:34:00+11:00",
+                "updated": "2020-10-29T08:38:00+11:00",
+                "id": "ESTA:201053195",
+                "location": "Sebastopol",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.83715675778637,
+                    -37.586311384859144
                 ]
             }
         }

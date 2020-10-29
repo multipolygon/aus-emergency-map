@@ -10736,10 +10736,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Thompson Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-30T10:21:45+11:00",
-                "updated": "2020-10-30T10:21:45+11:00",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-10-30T10:33:02+11:00",
+                "updated": "2020-10-30T10:33:02+11:00",
                 "id": "ESTA:201027104",
                 "location": "Thompson Rd, North Geelong",
                 "size": "Small",
@@ -10757,12 +10757,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Hendersons Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-10-30T10:14:00+11:00",
+                "updated": "2020-10-30T10:36:00+11:00",
+                "id": "ESTA:201027092",
+                "location": "Hendersons Rd, Hastings",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16721070284106,
+                    -38.312116179664436
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Marine Pde",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-10-30T10:21:00+11:00",
-                "updated": "2020-10-30T10:21:00+11:00",
+                "updated": "2020-10-30T10:36:00+11:00",
                 "id": "ESTA:201027107",
                 "location": "Marine Pde, Hastings",
                 "size": "Small",
@@ -10772,8 +10795,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.19099225510234,
-                    -38.29217381789134
+                    145.19094139123953,
+                    -38.29238029546665
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-10-30T10:40:00+11:00",
+                "updated": "2020-10-30T10:41:00+11:00",
+                "id": "ESTA:201053242",
+                "location": "Mildura",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.1560447383295,
+                    -34.17539035422964
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Plenty Lane",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-10-30T10:44:52+11:00",
+                "updated": "2020-10-30T10:44:52+11:00",
+                "id": "ESTA:201027149",
+                "location": "Plenty Lane, Greensborough",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10358978104878,
+                    -37.71469556420955
                 ]
             }
         },
@@ -10802,29 +10870,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hendersons Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2020-10-30T10:14:00+11:00",
-                "updated": "2020-10-30T10:14:00+11:00",
-                "id": "ESTA:201027092",
-                "location": "Hendersons Rd, Hastings",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16721070284106,
-                    -38.312116179664436
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Bristol Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -10842,6 +10887,29 @@
                 "coordinates": [
                     144.32217310374378,
                     -38.331694344429124
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Margot St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-30T10:36:06+11:00",
+                "updated": "2020-10-30T10:36:06+11:00",
+                "id": "ESTA:201027135",
+                "location": "Margot St, Chadstone",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.09644953638875,
+                    -37.879045907348974
                 ]
             }
         }

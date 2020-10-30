@@ -10756,12 +10756,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bentleigh",
+                "category": "landslide",
+                "subcategory": "landslide",
+                "status": "complete",
+                "created": "2020-10-30T12:43:20+11:00",
+                "updated": "2020-10-30T13:19:13+11:00",
+                "id": "ESTA:201053246",
+                "location": "Bentleigh",
+                "title": "incident: landslide"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04586853005938,
+                    -37.92454538122603
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Tormorvey Av",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-10-30T13:05:24+11:00",
-                "updated": "2020-10-30T13:05:24+11:00",
+                "created": "2020-10-30T13:19:31+11:00",
+                "updated": "2020-10-30T13:19:31+11:00",
                 "id": "ESTA:201027371",
                 "location": "Tormorvey Av, Hillside (Greater Melbourne)",
                 "size": "Small",
@@ -10779,46 +10801,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pt Nepean Rd",
+                "sourceTitle": "Apollo Bay",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-30T12:28:00+11:00",
-                "updated": "2020-10-30T12:42:00+11:00",
-                "id": "ESTA:201027341",
-                "location": "Pt Nepean Rd, Rye",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.81090338604935,
-                    -38.36808114532701
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Edwards St",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-10-30T13:14:20+11:00",
-                "updated": "2020-10-30T13:14:20+11:00",
-                "id": "ESTA:201027416",
-                "location": "Edwards St, Sebastopol",
-                "size": "Small",
+                "created": "2020-10-30T13:30:14+11:00",
+                "updated": "2020-10-30T13:30:54+11:00",
+                "id": "ESTA:201027444",
+                "location": "Great Ocean Rd, Apollo Bay",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.83579983664717,
-                    -37.60287813052936
+                    143.66968221958965,
+                    -38.75765433750201
                 ]
             }
         },
@@ -10847,14 +10845,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Iona Av",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-10-30T13:14:00+11:00",
+                "updated": "2020-10-30T13:25:00+11:00",
+                "id": "ESTA:201027418",
+                "location": "Cobblebank",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.60190615959556,
+                    -37.706246888278564
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pt Nepean Rd",
                 "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-10-30T12:17:00+11:00",
-                "updated": "2020-10-30T12:27:00+11:00",
-                "id": "ESTA:201027331",
-                "location": "Iona Av, Warrnambool",
+                "created": "2020-10-30T12:28:00+11:00",
+                "updated": "2020-10-30T12:42:00+11:00",
+                "id": "ESTA:201027341",
+                "location": "Pt Nepean Rd, Rye",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10862,8 +10883,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.4872820700415,
-                    -38.36942816802309
+                    144.81090338604935,
+                    -38.36808114532701
                 ]
             }
         },
@@ -10933,29 +10954,6 @@
                 "coordinates": [
                     144.99840116900333,
                     -37.69380907471616
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "request for assistance",
-                "created": "2020-10-30T13:14:00+11:00",
-                "updated": "2020-10-30T13:14:00+11:00",
-                "id": "ESTA:201027418",
-                "location": "Cobblebank",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.60190615959556,
-                    -37.706246888278564
                 ]
             }
         }

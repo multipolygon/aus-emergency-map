@@ -107,6 +107,31 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    117.63905,
+                    -34.9229
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "REDMOND",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "monitoring",
+                "id": "2087929-502149",
+                "created": "2020-10-30T14:00:41+08:00",
+                "updated": "2020-10-30T18:20:49+08:00",
+                "location": "REDMOND",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     116.11171,
                     -31.80745
                 ]
@@ -124,31 +149,6 @@
                 "size": "",
                 "description": "Rescue",
                 "title": "incident: rescue"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.883514,
-                    -31.987612
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "KENSINGTON",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "monitoring",
-                "id": "2087997-502202",
-                "created": "2020-10-30T17:49:19+08:00",
-                "updated": "2020-10-30T18:04:03+08:00",
-                "location": "KENSINGTON",
-                "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
             }
         },
         {
@@ -214,16 +214,16 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "WEST PERTH",
-                "category": "report of smoke",
-                "subcategory": "report of smoke",
+                "category": "fire",
+                "subcategory": "fire",
                 "status": "on scene",
                 "id": "2087994-502199",
                 "created": "2020-10-30T17:31:41+08:00",
-                "updated": "2020-10-30T17:39:54+08:00",
+                "updated": "2020-10-30T18:10:02+08:00",
                 "location": "WEST PERTH",
                 "size": "",
-                "description": "Report of Smoke",
-                "title": "incident: report of smoke"
+                "description": "Fire",
+                "title": "incident: fire"
             }
         },
         {
@@ -341,10 +341,10 @@
                 "sourceTitle": "FLOREAT",
                 "category": "fire",
                 "subcategory": "fire",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2088006-502209",
                 "created": "2020-10-30T18:03:52+08:00",
-                "updated": "2020-10-30T18:04:57+08:00",
+                "updated": "2020-10-30T18:24:34+08:00",
                 "location": "FLOREAT",
                 "size": "",
                 "description": "Fire",
@@ -407,6 +407,31 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    115.72641,
+                    -32.297417
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ROCKINGHAM",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "id": "2088014-502217",
+                "created": "2020-10-30T18:24:10+08:00",
+                "updated": "2020-10-30T18:25:19+08:00",
+                "location": "ROCKINGHAM",
+                "size": "",
+                "description": "Structure Fire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     117.8603,
                     -34.98265
                 ]
@@ -432,31 +457,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.877426,
-                    -33.32784
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BUREKUP",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "monitoring",
-                "id": "2087699-502015",
-                "created": "2020-10-29T16:51:22+08:00",
-                "updated": "2020-10-30T02:01:11+08:00",
-                "location": "BUREKUP",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     115.65346,
                     -31.47818
                 ]
@@ -471,6 +471,56 @@
                 "created": "2020-10-30T18:01:41+08:00",
                 "updated": "2020-10-30T18:01:41+08:00",
                 "location": "TWO ROCKS",
+                "size": "",
+                "description": "Burn Off",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.548096,
+                    -31.3516
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CARABAN",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "active",
+                "id": "2088013-502216",
+                "created": "2020-10-30T18:20:13+08:00",
+                "updated": "2020-10-30T18:20:13+08:00",
+                "location": "CARABAN",
+                "size": "",
+                "description": "Burn Off",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.39703,
+                    -31.06232
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "KARAKIN",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "active",
+                "id": "2088010-502214",
+                "created": "2020-10-30T18:13:57+08:00",
+                "updated": "2020-10-30T18:13:57+08:00",
+                "location": "KARAKIN",
                 "size": "",
                 "description": "Burn Off",
                 "title": "incident: fire"
@@ -1082,56 +1132,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    117.63905,
-                    -34.9229
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "REDMOND",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "id": "2087929-502149",
-                "created": "2020-10-30T14:00:41+08:00",
-                "updated": "2020-10-30T14:01:31+08:00",
-                "location": "REDMOND",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    116.445175,
-                    -31.47354
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "COONDLE",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "active",
-                "id": "2087990-502196",
-                "created": "2020-10-30T17:25:47+08:00",
-                "updated": "2020-10-30T17:25:47+08:00",
-                "location": "COONDLE",
-                "size": "",
-                "description": "Burn Off",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     118.70155,
                     -22.66839
                 ]
@@ -1191,10 +1191,10 @@
                 "sourceTitle": "MOUNT ADAMS",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "monitoring",
                 "id": "2087952-502165",
                 "created": "2020-10-30T15:02:35+08:00",
-                "updated": "2020-10-30T15:05:37+08:00",
+                "updated": "2020-10-30T18:18:35+08:00",
                 "location": "MOUNT ADAMS",
                 "size": "",
                 "description": "Bushfire",
@@ -1282,6 +1282,31 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    119.81768,
+                    -20.99644
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NEWMAN",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "2088012-502215",
+                "created": "2020-10-30T18:17:00+08:00",
+                "updated": "2020-10-30T18:23:04+08:00",
+                "location": "NEWMAN",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     116.842094,
                     -34.960968
                 ]
@@ -1357,31 +1382,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    118.71943,
-                    -28.010498
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "SANDSTONE",
-                "category": "vehicle fire",
-                "subcategory": "vehicle fire",
-                "status": "responding",
-                "id": "2088007-502210",
-                "created": "2020-10-30T18:05:58+08:00",
-                "updated": "2020-10-30T18:06:35+08:00",
-                "location": "SANDSTONE",
-                "size": "",
-                "description": "Vehicle Fire",
-                "title": "incident: vehicle fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     124.913,
                     -15.378
                 ]
@@ -1396,6 +1396,31 @@
                 "created": "2020-10-29T15:07:00+08:00",
                 "updated": "2020-10-29T17:40:07+08:00",
                 "location": "PRINCE REGENT RIVER",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    126.19491,
+                    -18.74656
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MUELLER RANGES",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "monitoring",
+                "id": "2088011-502213",
+                "created": "2020-10-30T18:09:53+08:00",
+                "updated": "2020-10-30T18:21:45+08:00",
+                "location": "MUELLER RANGES",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
@@ -1499,6 +1524,31 @@
                 "size": "",
                 "description": "Burn Off",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    118.71943,
+                    -28.010498
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "SANDSTONE",
+                "category": "vehicle fire",
+                "subcategory": "vehicle fire",
+                "status": "responding",
+                "id": "2088007-502210",
+                "created": "2020-10-30T18:05:58+08:00",
+                "updated": "2020-10-30T18:06:47+08:00",
+                "location": "SANDSTONE",
+                "size": "",
+                "description": "Vehicle Fire",
+                "title": "incident: vehicle fire"
             }
         },
         {

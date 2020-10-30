@@ -10734,57 +10734,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-10-31T07:07:00+11:00",
-                "updated": "2020-10-31T07:10:00+11:00",
-                "id": "ESTA:201053272",
-                "location": "Thornhill Park",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.6322761483487,
-                    -37.71636801946452
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Malcolm Pl",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-31T07:14:16+11:00",
-                "updated": "2020-10-31T07:14:16+11:00",
-                "id": "ESTA:201028001",
-                "location": "Malcolm Pl, Campbellfield",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.96917731093828,
-                    -37.67253130073448
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Murmungee Av",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-10-31T07:07:00+11:00",
-                "updated": "2020-10-31T07:07:00+11:00",
+                "updated": "2020-10-31T07:16:00+11:00",
                 "id": "ESTA:201027996",
                 "location": "Murmungee Av, Mernda",
                 "size": "Small",
@@ -10802,22 +10757,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Yaloke Rd, Deniliquin",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-10-30T16:18:00+11:00",
-                "updated": "2020-10-30T16:18:00+11:00",
-                "id": "2020-10-30T16:18:00.0000000:396696",
-                "location": "Yaloke Rd, Deniliquin, Nsw 2710",
-                "title": "incident: other"
+                "sourceTitle": "Malcolm Pl",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2020-10-31T07:27:12+11:00",
+                "updated": "2020-10-31T07:27:12+11:00",
+                "id": "ESTA:201028001",
+                "location": "Malcolm Pl, Campbellfield",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.660544395,
-                    -35.5636516929999
+                    144.96917731093828,
+                    -37.67253130073448
                 ]
             }
         },
@@ -10890,12 +10846,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Yaloke Rd, Deniliquin",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-10-30T16:18:00+11:00",
+                "updated": "2020-10-30T16:18:00+11:00",
+                "id": "2020-10-30T16:18:00.0000000:396696",
+                "location": "Yaloke Rd, Deniliquin, Nsw 2710",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.660544395,
+                    -35.5636516929999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Reynolds Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-10-31T06:41:16+11:00",
-                "updated": "2020-10-31T06:41:16+11:00",
+                "created": "2020-10-31T06:27:00+11:00",
+                "updated": "2020-10-31T06:41:00+11:00",
                 "id": "ESTA:201027981",
                 "location": "Reynolds Rd, Doncaster East",
                 "size": "Small",
@@ -10905,31 +10883,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.16803309204508,
-                    -37.76392705980051
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-10-31T06:07:00+11:00",
-                "updated": "2020-10-31T06:23:00+11:00",
-                "id": "ESTA:201027977",
-                "location": "Moorooduc",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1455628848681,
-                    -38.25855476408108
+                    145.16803278767824,
+                    -37.76392795377586
                 ]
             }
         },
@@ -10953,6 +10908,28 @@
                 "coordinates": [
                     144.32217310374378,
                     -38.331694344429124
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-10-31T07:07:00+11:00",
+                "updated": "2020-10-31T07:10:00+11:00",
+                "id": "ESTA:201053272",
+                "location": "Thornhill Park",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6322761483487,
+                    -37.71636801946452
                 ]
             }
         }

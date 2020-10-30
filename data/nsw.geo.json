@@ -28,10 +28,129 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.60171400000002,
-                    -28.89956899999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.60171400000002,
+                            -28.89956899999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.62208554,
+                                            -28.906465139
+                                        ],
+                                        [
+                                            149.625714217,
+                                            -28.907773843
+                                        ],
+                                        [
+                                            149.621550161,
+                                            -28.9067625719999
+                                        ],
+                                        [
+                                            149.62208554,
+                                            -28.906465139
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.60140538,
+                                            -28.899042542
+                                        ],
+                                        [
+                                            149.601384229,
+                                            -28.899029323
+                                        ],
+                                        [
+                                            149.57860089,
+                                            -28.898196512
+                                        ],
+                                        [
+                                            149.575805023,
+                                            -28.8971257539999
+                                        ],
+                                        [
+                                            149.576637835,
+                                            -28.892961698
+                                        ],
+                                        [
+                                            149.575507591,
+                                            -28.891652994
+                                        ],
+                                        [
+                                            149.579731135,
+                                            -28.888619181
+                                        ],
+                                        [
+                                            149.58425211,
+                                            -28.888916614
+                                        ],
+                                        [
+                                            149.587285923,
+                                            -28.883860259
+                                        ],
+                                        [
+                                            149.590379222,
+                                            -28.888678668
+                                        ],
+                                        [
+                                            149.59674428,
+                                            -28.8853474229999
+                                        ],
+                                        [
+                                            149.602454987,
+                                            -28.893794509
+                                        ],
+                                        [
+                                            149.60140538,
+                                            -28.899042542
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.588892059,
+                                            -28.891771967
+                                        ],
+                                        [
+                                            149.588475654,
+                                            -28.8919504259999
+                                        ],
+                                        [
+                                            149.589130005,
+                                            -28.891652994
+                                        ],
+                                        [
+                                            149.589605897,
+                                            -28.891712481
+                                        ],
+                                        [
+                                            149.588892059,
+                                            -28.891771967
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -54,30 +173,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.7471250000001,
-                    -31.03976099999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Armidale Rd, Yarravel",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397240",
-                "created": "2020-10-30T03:52:00+11:00",
-                "updated": "2020-10-30T14:52:00+11:00",
-                "location": "396 Armidale Rd, Yarravel, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 396 Armidale Rd, Yarravel, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Oct 2020 14:52",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.25822500100003,
                     -35.18202199999996
                 ]
@@ -89,11 +184,11 @@
                 "subcategory": "other",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397238",
-                "created": "2020-10-30T04:11:00+11:00",
-                "updated": "2020-10-30T15:11:00+11:00",
+                "created": "2020-10-30T05:01:00+11:00",
+                "updated": "2020-10-30T16:01:00+11:00",
                 "location": "Federal Hwy, Sutton, NSW 2620",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Federal Hwy, Sutton, NSW 2620 <br />COUNCIL AREA: Yass Valley <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Oct 2020 15:11",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Federal Hwy, Sutton, NSW 2620 <br />COUNCIL AREA: Yass Valley <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Oct 2020 16:01",
                 "title": "incident: fire"
             }
         },
@@ -185,11 +280,11 @@
                 "subcategory": "other",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397227",
-                "created": "2020-10-30T01:25:00+11:00",
-                "updated": "2020-10-30T12:25:00+11:00",
+                "created": "2020-10-30T04:52:00+11:00",
+                "updated": "2020-10-30T15:52:00+11:00",
                 "location": "14C Yengo Dr, Putty, NSW 2330",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 14C Yengo Dr, Putty, NSW 2330 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Oct 2020 12:25",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 14C Yengo Dr, Putty, NSW 2330 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Oct 2020 15:52",
                 "title": "incident: fire"
             }
         }

@@ -10734,57 +10734,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Stephens St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-10-31T04:34:34+11:00",
-                "updated": "2020-10-31T04:34:34+11:00",
-                "id": "ESTA:201027962",
-                "location": "Stephens St, Warrnambool",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.4712720326159,
-                    -38.391512582012425
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hampton",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-31T04:40:00+11:00",
-                "updated": "2020-10-31T04:40:12+11:00",
-                "id": "ESTA:201027965",
-                "location": "Earlsfield Rd, Hampton",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0170287501049,
-                    -37.93311045904647
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Earlsfield Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-10-31T04:42:19+11:00",
-                "updated": "2020-10-31T04:42:19+11:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-10-31T04:50:02+11:00",
+                "updated": "2020-10-31T04:50:02+11:00",
                 "id": "ESTA:201027964",
                 "location": "Earlsfield Rd, Hampton",
                 "size": "Small",
@@ -10802,14 +10757,58 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Unknown -",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-10-31T04:52:00+11:00",
+                "updated": "2020-10-31T04:56:00+11:00",
+                "id": "ESTA:201053271",
+                "location": "Cheltenham",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0388853263188,
+                    -37.95588197065117
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thornbury",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-31T04:58:40+11:00",
+                "updated": "2020-10-31T05:00:43+11:00",
+                "id": "ESTA:201027969",
+                "location": "Collins St, Thornbury",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0080953395532,
+                    -37.75540914726132
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Domain Dr",
                 "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-10-31T04:07:00+11:00",
-                "updated": "2020-10-31T04:43:00+11:00",
-                "id": "ESTA:201027961",
-                "location": "Unknown -, Nathalia",
+                "created": "2020-10-31T04:58:00+11:00",
+                "updated": "2020-10-31T05:01:00+11:00",
+                "id": "ESTA:201027967",
+                "location": "Domain Dr, Berwick",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10817,8 +10816,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1954051545941,
-                    -36.057509606573404
+                    145.3305101138896,
+                    -38.05562151149689
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tharratt St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-10-31T05:01:44+11:00",
+                "updated": "2020-10-31T05:01:44+11:00",
+                "id": "ESTA:201027968",
+                "location": "Tharratt St, Thornbury",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.008307114621,
+                    -37.755737054049305
                 ]
             }
         },
@@ -10913,6 +10935,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Stephens St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-10-31T04:46:59+11:00",
+                "updated": "2020-10-31T04:46:59+11:00",
+                "id": "ESTA:201027962",
+                "location": "Stephens St, Warrnambool",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.4712720326159,
+                    -38.391512582012425
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Unknown -",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-31T04:07:00+11:00",
+                "updated": "2020-10-31T04:43:00+11:00",
+                "id": "ESTA:201027961",
+                "location": "Unknown -, Nathalia",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1954051545941,
+                    -36.057509606573404
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Mitchells Lane",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -10976,6 +11044,29 @@
                 "coordinates": [
                     144.32217310374378,
                     -38.331694344429124
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cheltenham",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-10-31T04:53:16+11:00",
+                "updated": "2020-10-31T04:53:16+11:00",
+                "id": "ESTA:201027966",
+                "location": "Cheltenham, Cheltenham",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03889221901372,
+                    -37.955876498002254
                 ]
             }
         },

@@ -10734,14 +10734,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Toorak Rd",
-                "category": "fire",
-                "subcategory": "fire",
+                "sourceTitle": "Darling Rd",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-10-31T02:52:19+11:00",
-                "updated": "2020-10-31T02:52:19+11:00",
-                "id": "ESTA:201027950",
-                "location": "Toorak Rd, South Yarra",
+                "created": "2020-10-31T03:20:59+11:00",
+                "updated": "2020-10-31T03:20:59+11:00",
+                "id": "ESTA:201027958",
+                "location": "Darling Rd, Malvern East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0604653629528,
+                    -37.86979831614996
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jessop St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-10-31T03:22:52+11:00",
+                "updated": "2020-10-31T03:22:52+11:00",
+                "id": "ESTA:201027954",
+                "location": "Jessop St, Greensborough",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10749,30 +10772,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9933537920342,
-                    -37.839044584343796
+                    145.10024811422423,
+                    -37.70084937161814
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hillside (Greater Melbourne)",
+                "sourceTitle": "Bridge Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-10-31T03:01:42+11:00",
-                "updated": "2020-10-31T03:03:44+11:00",
-                "id": "ESTA:201027952",
-                "location": "Gourlay Rd, Hillside (Greater Melbourne)",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-10-31T03:23:57+11:00",
+                "updated": "2020-10-31T03:23:57+11:00",
+                "id": "ESTA:201027955",
+                "location": "Bridge Rd, Richmond",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74247928025898,
-                    -37.69999960371988
+                    144.9930490057944,
+                    -37.817735943775034
                 ]
             }
         },
@@ -10867,6 +10891,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Gourlay Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-10-31T03:03:00+11:00",
+                "updated": "2020-10-31T03:11:00+11:00",
+                "id": "ESTA:201027952",
+                "location": "Gourlay Rd, Hillside (Greater Melbourne)",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.742468982459,
+                    -37.70000288127691
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Bristol Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -10884,29 +10931,6 @@
                 "coordinates": [
                     144.32217310374378,
                     -38.331694344429124
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "St Kilda",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-10-31T02:47:01+11:00",
-                "updated": "2020-10-31T02:47:01+11:00",
-                "id": "ESTA:201027948",
-                "location": "St Kilda, St Kilda",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97587239723418,
-                    -37.86444124989584
                 ]
             }
         },
@@ -10936,23 +10960,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dandenong Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-10-31T02:53:42+11:00",
-                "updated": "2020-10-31T02:53:42+11:00",
-                "id": "ESTA:201027951",
-                "location": "Dandenong Rd, Huntingdale",
+                "sourceTitle": "Toorak Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-10-31T03:07:43+11:00",
+                "updated": "2020-10-31T03:07:43+11:00",
+                "id": "ESTA:201027950",
+                "location": "Toorak Rd, South Yarra",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10733834494812,
-                    -37.90242598556187
+                    144.9933537920342,
+                    -37.839044584343796
                 ]
             }
         }

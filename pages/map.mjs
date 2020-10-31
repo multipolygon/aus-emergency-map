@@ -815,6 +815,7 @@ export default {
 
             window.lightningLayer = L.imageOverlay(lightningImageUrl(), lightningImageBounds, {
                 opacity: 0.6,
+                className: 'lightning-image-overlay',
             });
 
             L.control

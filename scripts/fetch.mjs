@@ -9,12 +9,14 @@ import toGeoJSON from '@mapbox/togeojson';
 import moment from 'moment-timezone';
 import jsdom from 'jsdom';
 import mkdirp from 'mkdirp';
+import UserAgent from 'user-agents';
 
 const targetPath = path.join('.', 'static', 'data');
 const useCache = process.argv.includes('--cache');
-const userAgent = 'Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0';
 const geoJsonSchema = JSON.parse(fs.readFileSync(path.join('.', 'scripts', 'schema.geo.json')));
 const validator = new jsonschema.Validator();
+
+const randomUserAgent = new UserAgent();
 
 const sources = {
     vic: {
@@ -77,7 +79,7 @@ const download = (src, filePath) =>
         fetch(src.url, {
             headers: {
                 ...src.headers,
-                'User-Agent': userAgent,
+                'User-Agent': randomUserAgent().toString(),
             },
         })
             .then((response) => {

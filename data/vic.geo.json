@@ -10044,14 +10044,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lynbrook Bvd",
+                "sourceTitle": "Railway Rd",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-11-02T09:21:00+11:00",
-                "updated": "2020-11-02T09:21:00+11:00",
-                "id": "ESTA:201101687",
-                "location": "Lynbrook Bvd, Lynbrook",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-02T08:42:00+11:00",
+                "updated": "2020-11-02T09:16:00+11:00",
+                "id": "ESTA:201101563",
+                "location": "Railway Rd, Mount Evelyn",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10059,8 +10059,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2564880527717,
-                    -38.051167186437716
+                    145.36946494506876,
+                    -37.79349235509359
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-11-02T09:13:00+11:00",
+                "updated": "2020-11-02T09:42:00+11:00",
+                "id": "ESTA:201150042",
+                "location": "Endeavour Hills",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27180798242247,
+                    -37.97926240960862
                 ]
             }
         },
@@ -10090,13 +10112,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Yaloke Rd, Deniliquin",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-11-02T09:33:00+11:00",
+                "updated": "2020-11-02T09:33:00+11:00",
+                "id": "2020-11-02T09:33:00.0000000:396696",
+                "location": "Yaloke Rd, Deniliquin, Nsw 2710",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.660544395,
+                    -35.5636516929999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Barratta",
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "out of control",
-                "created": "2020-11-01T16:21:00+11:00",
-                "updated": "2020-11-01T16:21:00+11:00",
-                "id": "2020-11-01T16:21:00.0000000:397302",
+                "created": "2020-11-02T09:37:00+11:00",
+                "updated": "2020-11-02T09:37:00+11:00",
+                "id": "2020-11-02T09:37:00.0000000:397302",
                 "location": "Barratta",
                 "title": "incident: fire"
             },
@@ -10134,51 +10178,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Yaloke Rd, Deniliquin",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-11-01T16:18:00+11:00",
-                "updated": "2020-11-01T16:18:00+11:00",
-                "id": "2020-11-01T16:18:00.0000000:396696",
-                "location": "Yaloke Rd, Deniliquin, Nsw 2710",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.660544395,
-                    -35.5636516929999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Railway Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-02T08:42:00+11:00",
-                "updated": "2020-11-02T09:16:00+11:00",
-                "id": "ESTA:201101563",
-                "location": "Railway Rd, Mount Evelyn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.36946494506876,
-                    -37.79349235509359
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tremaine Ct",
                 "category": "fire",
                 "subcategory": "other",
@@ -10202,37 +10201,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mahers Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2020-11-02T09:08:00+11:00",
-                "updated": "2020-11-02T09:08:00+11:00",
-                "id": "ESTA:201101642",
-                "location": "Mahers Rd, Barwon Downs",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.75375633117204,
-                    -38.49058084354349
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dandenong",
+                "sourceTitle": "Victoria St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-02T09:16:17+11:00",
-                "updated": "2020-11-02T09:16:17+11:00",
-                "id": "ESTA:201101637",
-                "location": "Dandenong, Dandenong",
+                "status": "under control",
+                "created": "2020-11-02T09:42:52+11:00",
+                "updated": "2020-11-02T09:42:52+11:00",
+                "id": "ESTA:201101728",
+                "location": "Victoria St, Brunswick",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -10240,8 +10216,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.22214160073946,
-                    -37.97770570720986
+                    144.9553828813552,
+                    -37.76606378620655
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Garden St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-02T09:37:13+11:00",
+                "updated": "2020-11-02T09:37:13+11:00",
+                "id": "ESTA:201101735",
+                "location": "Garden St, Morwell",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.43917213203736,
+                    -38.229567689806565
                 ]
             }
         },
@@ -10288,51 +10287,6 @@
                 "coordinates": [
                     145.05940908474807,
                     -37.94291243576286
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Emma St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-11-02T06:04:10+11:00",
-                "updated": "2020-11-02T06:04:10+11:00",
-                "id": "ESTA:201101394",
-                "location": "Emma St, Collingwood",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98590899849964,
-                    -37.79592193793862
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-02T09:13:00+11:00",
-                "updated": "2020-11-02T09:25:00+11:00",
-                "id": "ESTA:201150042",
-                "location": "Endeavour Hills",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.27180798242247,
-                    -37.97926240960862
                 ]
             }
         }

@@ -69,140 +69,6 @@
         },
         {
             "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            144.9689841918908,
-                            -37.672328115809016
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    144.97177368926302,
-                                    -37.668922090846756
-                                ],
-                                [
-                                    144.97030437368971,
-                                    -37.66840685852289
-                                ],
-                                [
-                                    144.96870582952369,
-                                    -37.6682762445844
-                                ],
-                                [
-                                    144.9671345334056,
-                                    -37.6685430364307
-                                ],
-                                [
-                                    144.96574429474742,
-                                    -37.669181114607305
-                                ],
-                                [
-                                    144.96467119979528,
-                                    -37.67012801109161
-                                ],
-                                [
-                                    144.96402029055986,
-                                    -37.67129102733895
-                                ],
-                                [
-                                    144.9638552825722,
-                                    -37.67255631197449
-                                ],
-                                [
-                                    144.96396197342486,
-                                    -37.67318866046687
-                                ],
-                                [
-                                    144.96454067409613,
-                                    -37.67437530223967
-                                ],
-                                [
-                                    144.96499843438363,
-                                    -37.674900378155506
-                                ],
-                                [
-                                    144.96619469451858,
-                                    -37.675749718665955
-                                ],
-                                [
-                                    144.9669037384713,
-                                    -37.676053072185084
-                                ],
-                                [
-                                    144.96845678896975,
-                                    -37.676379987033634
-                                ],
-                                [
-                                    144.97006146534076,
-                                    -37.67631105665378
-                                ],
-                                [
-                                    144.97083385037598,
-                                    -37.676128736271224
-                                ],
-                                [
-                                    144.97222408903417,
-                                    -37.675490717832794
-                                ],
-                                [
-                                    144.97280771036745,
-                                    -37.67505072771994
-                                ],
-                                [
-                                    144.97368045742576,
-                                    -37.673982682803064
-                                ],
-                                [
-                                    144.97394809322174,
-                                    -37.67338092450987
-                                ],
-                                [
-                                    144.97411310120935,
-                                    -37.67211565393481
-                                ],
-                                [
-                                    144.97400641035674,
-                                    -37.671483296298675
-                                ],
-                                [
-                                    144.97342770968544,
-                                    -37.67029660827808
-                                ],
-                                [
-                                    144.97296994939796,
-                                    -37.669771499785234
-                                ],
-                                [
-                                    144.97177368926302,
-                                    -37.668922090846756
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Advice",
-                "category": "advice",
-                "subcategory": "fire",
-                "status": "minor",
-                "created": "2020-10-31T08:04:08+11:00",
-                "updated": "2020-10-31T08:04:10+11:00",
-                "id": "15013",
-                "location": "Dallas, Coolaroo, Campbellfield, Thomastown",
-                "title": "warning: advice"
-            }
-        },
-        {
-            "type": "Feature",
             "properties": {
                 "feedType": "warning",
                 "sourceTitle": "Advice",
@@ -10044,44 +9910,92 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mount Evelyn",
+                "sourceTitle": "Gloucester -",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-02T08:41:02+11:00",
-                "updated": "2020-11-02T10:30:50+11:00",
-                "id": "ESTA:201101563",
-                "location": "Railway Rd, Mount Evelyn",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-02T10:38:00+11:00",
+                "updated": "2020-11-02T10:38:00+11:00",
+                "id": "ESTA:201101898",
+                "location": "Gloucester -, Berwick",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3694760487596,
-                    -37.7934820565588
+                    145.34674495524746,
+                    -38.037664976476876
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Redan",
+                "sourceTitle": "Thompsons Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-11-02T10:40:01+11:00",
+                "updated": "2020-11-02T10:40:01+11:00",
+                "id": "ESTA:201101897",
+                "location": "Thompsons Rd, Cranbourne North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3047214977174,
+                    -38.085545177899384
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hazel Glen Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-02T10:40:00+11:00",
+                "updated": "2020-11-02T10:40:00+11:00",
+                "id": "ESTA:201101905",
+                "location": "Hazel Glen Dr, Doreen",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12725400533216,
+                    -37.586783437575754
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elm St",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-11-02T10:29:39+11:00",
-                "updated": "2020-11-02T10:31:17+11:00",
-                "id": "ESTA:201101885",
-                "location": "Cooke St, Redan",
+                "created": "2020-11-02T10:42:53+11:00",
+                "updated": "2020-11-02T10:42:53+11:00",
+                "id": "ESTA:201101913",
+                "location": "Elm St, Northcote",
+                "size": "Small",
                 "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8368633300783,
-                    -37.58009805020649
+                    144.98947835796986,
+                    -37.76699066685563
                 ]
             }
         },
@@ -10132,6 +10046,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Cooke St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-02T10:45:12+11:00",
+                "updated": "2020-11-02T10:45:12+11:00",
+                "id": "ESTA:201101885",
+                "location": "Cooke St, Redan",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8368632368729,
+                    -37.580098427986336
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Refinery Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -10172,6 +10109,28 @@
                 "coordinates": [
                     145.02787301585897,
                     -37.727829177934765
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-11-02T10:33:00+11:00",
+                "updated": "2020-11-02T10:36:00+11:00",
+                "id": "ESTA:201150045",
+                "location": "Redan",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8368529688648,
+                    -37.580101318071264
                 ]
             }
         }

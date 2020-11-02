@@ -10090,28 +10090,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Paringa Paddock Road, Renmark",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "going",
-                "created": "2020-11-03T05:55:00+11:00",
-                "updated": "2020-11-03T05:55:00+11:00",
-                "id": "1389213",
-                "location": "Paringa Paddock Road, Renmark",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    140.773102852986,
-                    -34.181345358987
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Kurting - Christie Rd",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -10181,45 +10159,68 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Richmond",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Biggs Dr",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-11-03T06:42:57+11:00",
-                "updated": "2020-11-03T06:42:57+11:00",
-                "id": "ESTA:201102946",
-                "location": "Richmond, Richmond",
+                "created": "2020-11-03T07:00:00+11:00",
+                "updated": "2020-11-03T07:00:00+11:00",
+                "id": "ESTA:201102950",
+                "location": "Biggs Dr, Wonthaggi",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99131215693572,
-                    -37.80991511251213
+                    145.58623172509397,
+                    -38.603952636658825
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-11-03T06:43:00+11:00",
-                "updated": "2020-11-03T06:44:00+11:00",
-                "id": "ESTA:201150077",
-                "location": "Southbank",
-                "title": "incident: flooding"
+                "sourceTitle": "Ripplebrook Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-03T07:00:31+11:00",
+                "updated": "2020-11-03T07:00:31+11:00",
+                "id": "ESTA:201102949",
+                "location": "Ripplebrook Dr, Broadmeadows",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96873236882905,
-                    -37.82674361589809
+                    144.91506833473073,
+                    -37.67436132626768
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Broadmeadows",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-11-03T07:00:59+11:00",
+                "updated": "2020-11-03T07:01:52+11:00",
+                "id": "ESTA:201102951",
+                "location": "Ripplebrook Dr, Broadmeadows",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91518767108815,
+                    -37.67421725799701
                 ]
             }
         },
@@ -10581,6 +10582,74 @@
                 "coordinates": [
                     144.660544395,
                     -35.5636516929999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Richmond",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-03T06:50:16+11:00",
+                "updated": "2020-11-03T06:50:16+11:00",
+                "id": "ESTA:201102946",
+                "location": "Richmond, Richmond",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99131215693572,
+                    -37.80991511251213
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wells St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-03T06:52:58+11:00",
+                "updated": "2020-11-03T06:52:58+11:00",
+                "id": "ESTA:201102947",
+                "location": "Wells St, Southbank",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96873951328035,
+                    -37.82674208615004
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-11-03T06:43:00+11:00",
+                "updated": "2020-11-03T06:48:00+11:00",
+                "id": "ESTA:201150077",
+                "location": "Southbank",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96873236882905,
+                    -37.82674361589809
                 ]
             }
         }

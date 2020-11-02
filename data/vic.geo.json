@@ -10204,12 +10204,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Beachwood Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-02T19:59:38+11:00",
+                "updated": "2020-11-02T19:59:38+11:00",
+                "id": "ESTA:201102821",
+                "location": "Beachwood Dr, Point Lonsdale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.61013900258246,
+                    -38.27356044193715
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Buckingham Av",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-11-02T20:01:34+11:00",
+                "updated": "2020-11-02T20:01:34+11:00",
+                "id": "ESTA:201102809",
+                "location": "Buckingham Av, Springvale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1515740370653,
+                    -37.94972384951222
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Foster St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-11-02T19:37:00+11:00",
-                "updated": "2020-11-02T19:37:00+11:00",
+                "updated": "2020-11-02T19:54:00+11:00",
                 "id": "ESTA:201102789",
                 "location": "Foster St, Hamilton",
                 "size": "Small",
@@ -10227,23 +10273,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Corangamite St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-11-02T18:32:00+11:00",
-                "updated": "2020-11-02T19:31:00+11:00",
-                "id": "ESTA:201102723",
-                "location": "Corangamite St, Colac",
+                "sourceTitle": "Boundary Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-11-02T20:02:00+11:00",
+                "updated": "2020-11-02T20:02:00+11:00",
+                "id": "ESTA:201102827",
+                "location": "Boundary Rd, Dromana",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.58427503798364,
-                    -38.34280481271277
+                    144.9939842891455,
+                    -38.34576658170273
                 ]
             }
         },
@@ -10316,12 +10362,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Robinsons Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-02T19:56:00+11:00",
+                "updated": "2020-11-02T19:56:00+11:00",
+                "id": "ESTA:201102818",
+                "location": "Robinsons Rd, Ravenhall",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.75453266498772,
+                    -37.77822829730516
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Donnybrook Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-02T19:44:07+11:00",
-                "updated": "2020-11-02T19:44:07+11:00",
+                "created": "2020-11-02T19:05:00+11:00",
+                "updated": "2020-11-02T19:44:00+11:00",
                 "id": "ESTA:201102758",
                 "location": "Donnybrook Rd, Norlane",
                 "size": "Small",
@@ -10331,8 +10400,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.34520166473638,
-                    -38.08657421726841
+                    144.34519032673097,
+                    -38.08657959765102
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Corangamite St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-11-02T18:32:00+11:00",
+                "updated": "2020-11-02T19:31:00+11:00",
+                "id": "ESTA:201102723",
+                "location": "Corangamite St, Colac",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.58427503798364,
+                    -38.34280481271277
                 ]
             }
         },
@@ -10408,75 +10500,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Big Tree Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-02T16:56:00+11:00",
-                "updated": "2020-11-02T19:00:00+11:00",
-                "id": "ESTA:201102588",
-                "location": "Big Tree Rd, Nangiloc",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.38181324199144,
-                    -34.47846855467639
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-02T18:34:00+11:00",
-                "updated": "2020-11-02T18:54:00+11:00",
-                "id": "ESTA:201102726",
-                "location": "Purnim",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.60996873344433,
-                    -38.29716566698171
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South Melbourne",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-02T19:16:27+11:00",
-                "updated": "2020-11-02T19:16:27+11:00",
-                "id": "ESTA:201102762",
-                "location": "South Melbourne, South Melbourne",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.96283121463205,
-                    -37.82983082837959
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Manning Dr",
                 "category": "other",
                 "subcategory": "other",
@@ -10526,9 +10549,9 @@
                 "sourceTitle": "Appletree Cr",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-11-02T19:34:34+11:00",
-                "updated": "2020-11-02T19:34:34+11:00",
+                "status": "safe",
+                "created": "2020-11-02T20:01:29+11:00",
+                "updated": "2020-11-02T20:01:29+11:00",
                 "id": "ESTA:201102784",
                 "location": "Appletree Cr, Shepparton",
                 "size": "Small",
@@ -10546,14 +10569,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Landy Rd",
+                "sourceTitle": "Burke Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-11-02T19:42:18+11:00",
-                "updated": "2020-11-02T19:42:18+11:00",
-                "id": "ESTA:201102793",
-                "location": "Landy Rd, Jacana",
+                "status": "safe",
+                "created": "2020-11-02T19:59:12+11:00",
+                "updated": "2020-11-02T19:59:12+11:00",
+                "id": "ESTA:201102808",
+                "location": "Burke Rd, Kew",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -10561,30 +10584,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.91341868868858,
-                    -37.68940771355265
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2020-11-02T19:19:00+11:00",
-                "updated": "2020-11-02T19:43:00+11:00",
-                "id": "ESTA:201150064",
-                "location": "Richmond",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9983768666429,
-                    -37.822024494091174
+                    145.05918509884495,
+                    -37.817000748029145
                 ]
             }
         },

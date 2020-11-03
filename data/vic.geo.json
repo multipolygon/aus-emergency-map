@@ -10524,10 +10524,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Kim St",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-11-04T01:22:12+11:00",
-                "updated": "2020-11-04T01:22:12+11:00",
+                "created": "2020-11-04T00:55:00+11:00",
+                "updated": "2020-11-04T01:22:00+11:00",
                 "id": "ESTA:201103597",
                 "location": "Kim St, Diamond Creek",
                 "size": "Small",
@@ -10537,8 +10537,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1452640020649,
-                    -37.68049359111244
+                    145.14525390557068,
+                    -37.68049773486594
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Enterprise Av",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-11-04T01:38:00+11:00",
+                "updated": "2020-11-04T01:38:00+11:00",
+                "id": "ESTA:201103600",
+                "location": "Enterprise Av, Berwick",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3401807336069,
+                    -38.03669830500196
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-04T01:44:00+11:00",
+                "updated": "2020-11-04T01:45:00+11:00",
+                "id": "ESTA:201150134",
+                "location": "Tatura",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.23120792919477,
+                    -36.44012201418681
                 ]
             }
         },
@@ -11612,29 +11657,6 @@
                 "coordinates": [
                     144.660544395,
                     -35.5636516929999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rainier Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-03T23:30:00+11:00",
-                "updated": "2020-11-04T00:35:00+11:00",
-                "id": "ESTA:201103588",
-                "location": "Rainier Av, Dromana",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98290704645257,
-                    -38.34044918865603
                 ]
             }
         },

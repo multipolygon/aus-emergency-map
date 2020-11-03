@@ -10522,22 +10522,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Scoresby",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-11-04T02:02:02+11:00",
-                "updated": "2020-11-04T02:02:07+11:00",
-                "id": "ESTA:201103603",
-                "location": "Dalmore Dr, Scoresby",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-11-04T01:44:00+11:00",
+                "updated": "2020-11-04T02:08:00+11:00",
+                "id": "ESTA:201150134",
+                "location": "Tatura",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.22567791669695,
-                    -37.905622808460386
+                    145.23120792919477,
+                    -36.44012201418681
                 ]
             }
         },
@@ -11617,6 +11617,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Dalmore Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-04T02:02:00+11:00",
+                "updated": "2020-11-04T02:02:00+11:00",
+                "id": "ESTA:201103603",
+                "location": "Dalmore Dr, Scoresby",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2256701984654,
+                    -37.90563277466946
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Enterprise Av",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -11726,51 +11749,6 @@
                 "coordinates": [
                     146.81985085413694,
                     -36.722651124303034
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Melbourne",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-11-04T00:37:32+11:00",
-                "updated": "2020-11-04T00:37:32+11:00",
-                "id": "ESTA:201103593",
-                "location": "Melbourne, Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95690637094245,
-                    -37.80134811713584
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-04T01:44:00+11:00",
-                "updated": "2020-11-04T01:57:00+11:00",
-                "id": "ESTA:201150134",
-                "location": "Tatura",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.23120792919477,
-                    -36.44012201418681
                 ]
             }
         }

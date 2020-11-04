@@ -10332,9 +10332,9 @@
                 "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "contained",
+                "status": "safe",
                 "created": "2020-11-03T17:00:00+11:00",
-                "updated": "2020-11-03T22:29:00+11:00",
+                "updated": "2020-11-04T11:35:00+11:00",
                 "id": 978405,
                 "location": "3.6Km E Of Buninyong",
                 "size": "8.00",
@@ -10346,6 +10346,29 @@
                 "coordinates": [
                     143.9266,
                     -37.649
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tambo 11 - Timbarra - Central Camp",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-04T11:24:00+11:00",
+                "updated": "2020-11-04T11:24:00+11:00",
+                "id": 978411,
+                "location": "Timbarra-Central Camp",
+                "size": "0.10",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.085256,
+                    -37.36485
                 ]
             }
         },
@@ -10444,59 +10467,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lalalty (Nsw)",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "unknown",
-                "created": "2020-11-04T10:02:54+11:00",
-                "updated": "2020-11-04T10:39:38+11:00",
-                "id": "ESTA:201103846",
-                "location": "Berrigan Rd, Lalalty (Nsw)",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.7485826565518,
-                    -35.79673590342651
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Warburton Hwy",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-04T10:41:00+11:00",
-                "updated": "2020-11-04T10:56:00+11:00",
-                "id": "ESTA:201103899",
-                "location": "Warburton Hwy, Yarra Junction",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-11-04T11:17:00+11:00",
+                "updated": "2020-11-04T11:42:00+11:00",
+                "id": "ESTA:201103948",
+                "location": "Yarrawonga",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.61292489617503,
-                    -37.78146078279961
+                    146.005930834701,
+                    -36.01104111960409
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Martin St",
+                "sourceTitle": "Delepan Dr",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-11-04T10:58:00+11:00",
-                "updated": "2020-11-04T10:58:00+11:00",
-                "id": "ESTA:201103928",
-                "location": "Martin St, Penshurst",
+                "created": "2020-11-04T11:44:00+11:00",
+                "updated": "2020-11-04T11:44:00+11:00",
+                "id": "ESTA:201103978",
+                "location": "Delepan Dr, Tyabb",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10504,8 +10505,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.2902119174304,
-                    -37.8766618667715
+                    145.18331987013715,
+                    -38.254567735760155
                 ]
             }
         },
@@ -11583,6 +11584,7 @@
             }
         },
         {
+            "type": "Feature",
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Berrigan Rd, Lalalty",
@@ -11595,12 +11597,63 @@
                 "location": "1255 Berrigan Rd, Lalalty, Nsw 3644",
                 "title": "incident: fire"
             },
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.737031,
-                    -35.790989
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.7395,
+                                    -35.7953
+                                ],
+                                [
+                                    145.7427,
+                                    -35.7942
+                                ],
+                                [
+                                    145.7462,
+                                    -35.794
+                                ],
+                                [
+                                    145.7467,
+                                    -35.7942
+                                ],
+                                [
+                                    145.7467,
+                                    -35.7947
+                                ],
+                                [
+                                    145.7463,
+                                    -35.7958
+                                ],
+                                [
+                                    145.7454,
+                                    -35.7969
+                                ],
+                                [
+                                    145.7428,
+                                    -35.7966
+                                ],
+                                [
+                                    145.74,
+                                    -35.7956
+                                ],
+                                [
+                                    145.7395,
+                                    -35.7953
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.737031,
+                            -35.790989
+                        ]
+                    }
                 ]
             }
         },
@@ -11673,29 +11726,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Foleys Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-04T10:59:18+11:00",
-                "updated": "2020-11-04T10:59:18+11:00",
-                "id": "ESTA:201103910",
-                "location": "Foleys Rd, Deer Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.77173193573847,
-                    -37.78328960210167
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -11742,29 +11772,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Selman Av",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-11-04T10:06:00+11:00",
-                "updated": "2020-11-04T10:06:00+11:00",
-                "id": "ESTA:201103849",
-                "location": "Selman Av, Ferntree Gully",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2947171705316,
-                    -37.887106519130505
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tungamah Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -11790,10 +11797,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Hogarths Rd",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "non structure fire",
                 "status": "under control",
-                "created": "2020-11-03T16:56:00+11:00",
-                "updated": "2020-11-03T19:37:00+11:00",
+                "created": "2020-11-03T19:36:53+11:00",
+                "updated": "2020-11-03T19:36:53+11:00",
                 "id": "ESTA:201103440",
                 "location": "Hogarths Rd, Buninyong",
                 "size": "Small",
@@ -11803,8 +11810,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.9236692046309,
-                    -37.64831704417157
+                    143.92366991436722,
+                    -37.648315668044475
                 ]
             }
         },
@@ -11828,6 +11835,144 @@
                 "coordinates": [
                     146.81985085413694,
                     -36.722651124303034
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bangholme",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-11-04T11:42:53+11:00",
+                "updated": "2020-11-04T11:42:53+11:00",
+                "id": "ESTA:201103961",
+                "location": "Bangholme, Bangholme",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20091570075112,
+                    -38.038024136643095
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Campbell St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-04T11:27:00+11:00",
+                "updated": "2020-11-04T11:27:00+11:00",
+                "id": "ESTA:201103958",
+                "location": "Campbell St, Swan Hill",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.56155512177278,
+                    -35.346975539937596
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Martin St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-11-04T10:58:00+11:00",
+                "updated": "2020-11-04T11:08:00+11:00",
+                "id": "ESTA:201103928",
+                "location": "Martin St, Penshurst",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.2902119174304,
+                    -37.8766618667715
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Foleys Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-11-04T10:59:18+11:00",
+                "updated": "2020-11-04T10:59:18+11:00",
+                "id": "ESTA:201103910",
+                "location": "Foleys Rd, Deer Park",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.77173193573847,
+                    -37.78328960210167
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Warburton Hwy",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-04T10:41:00+11:00",
+                "updated": "2020-11-04T10:56:00+11:00",
+                "id": "ESTA:201103899",
+                "location": "Warburton Hwy, Yarra Junction",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.61292489617503,
+                    -37.78146078279961
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Taylors Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-11-04T11:26:34+11:00",
+                "updated": "2020-11-04T11:26:34+11:00",
+                "id": "ESTA:201103950",
+                "location": "Taylors Rd, St Albans",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.81010340824585,
+                    -37.72932187784104
                 ]
             }
         }

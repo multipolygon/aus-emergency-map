@@ -10398,59 +10398,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "complete",
-                "created": "2020-11-04T19:29:00+11:00",
-                "updated": "2020-11-04T20:19:00+11:00",
-                "id": "ESTA:201150187",
-                "location": "East Melbourne",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98389787585623,
-                    -37.81262148658874
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Selandra Bvd",
-                "category": "other",
-                "subcategory": "other",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2020-11-04T20:29:28+11:00",
-                "updated": "2020-11-04T20:29:28+11:00",
+                "created": "2020-11-04T20:32:09+11:00",
+                "updated": "2020-11-04T20:32:09+11:00",
                 "id": "ESTA:201104291",
                 "location": "Selandra Bvd, Clyde North",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3250901900939,
-                    -38.10662685928156
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hallam Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-04T20:11:00+11:00",
-                "updated": "2020-11-04T20:30:00+11:00",
-                "id": "ESTA:201104289",
-                "location": "Hallam Rd, Hampton Park",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10458,8 +10413,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.26752056028118,
-                    -38.03276596656294
+                    145.3250901900939,
+                    -38.10662685928156
                 ]
             }
         },
@@ -11673,6 +11628,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Hallam Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-04T20:11:00+11:00",
+                "updated": "2020-11-04T20:30:00+11:00",
+                "id": "ESTA:201104289",
+                "location": "Hallam Rd, Hampton Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26752056028118,
+                    -38.03276596656294
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Maberley Cr",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -11696,29 +11674,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wilsons Rd",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2020-11-04T19:05:00+11:00",
-                "updated": "2020-11-04T19:35:00+11:00",
-                "id": "ESTA:201104269",
-                "location": "Wilsons Rd, Haddon",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.6767084097652,
-                    -37.607498061517745
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tungamah Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -11736,52 +11691,6 @@
                 "coordinates": [
                     145.87733254326992,
                     -36.14326950713775
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Abbotsford St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-04T19:44:16+11:00",
-                "updated": "2020-11-04T19:44:16+11:00",
-                "id": "ESTA:201104276",
-                "location": "Abbotsford St, North Melbourne",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94662296629343,
-                    -37.7948927484266
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gladstone Park",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-04T20:20:47+11:00",
-                "updated": "2020-11-04T20:20:47+11:00",
-                "id": "ESTA:201104292",
-                "location": "Gladstone Park, Gladstone Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.88211149583918,
-                    -37.6903000666021
                 ]
             }
         },
@@ -11814,9 +11723,9 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-11-04T20:05:00+11:00",
-                "updated": "2020-11-04T20:06:00+11:00",
+                "updated": "2020-11-04T20:35:00+11:00",
                 "id": "ESTA:201150188",
                 "location": "Melbourne",
                 "title": "incident: building damage"

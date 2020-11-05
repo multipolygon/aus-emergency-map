@@ -10177,45 +10177,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Keilor East",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-11-05T22:10:00+11:00",
-                "updated": "2020-11-05T22:10:00+11:00",
-                "id": "ESTA:201104872",
-                "location": "Keilor East, Keilor East",
+                "sourceTitle": "Mcphillips Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-05T22:20:00+11:00",
+                "updated": "2020-11-05T22:20:00+11:00",
+                "id": "ESTA:201104876",
+                "location": "Mcphillips Rd, Bannockburn",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8720839477488,
-                    -37.74638851952133
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-05T22:11:00+11:00",
-                "updated": "2020-11-05T22:12:00+11:00",
-                "id": "ESTA:201150240",
-                "location": "Red Hill",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0174127043201,
-                    -38.37196394436517
+                    144.16548428388822,
+                    -38.03713953155122
                 ]
             }
         },
@@ -10225,9 +10203,9 @@
                 "sourceTitle": "Geelong Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-11-05T22:10:21+11:00",
-                "updated": "2020-11-05T22:10:21+11:00",
+                "status": "safe",
+                "created": "2020-11-05T21:47:00+11:00",
+                "updated": "2020-11-05T22:16:00+11:00",
                 "id": "ESTA:201104870",
                 "location": "Geelong Rd, Mount Clear",
                 "size": "Small",
@@ -10237,8 +10215,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8691537389799,
-                    -37.608352536101194
+                    143.86915334758626,
+                    -37.60836121073753
                 ]
             }
         },
@@ -10768,15 +10746,15 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Cardigan Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-11-05T22:03:23+11:00",
-                "updated": "2020-11-05T22:03:23+11:00",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-05T22:13:51+11:00",
+                "updated": "2020-11-05T22:13:51+11:00",
                 "id": "ESTA:201104875",
                 "location": "Cardigan Rd, Mooroolbark",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -10784,29 +10762,6 @@
                 "coordinates": [
                     145.32498319781402,
                     -37.788905169808885
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Long Tree Dr",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-11-05T22:01:25+11:00",
-                "updated": "2020-11-05T22:01:25+11:00",
-                "id": "ESTA:201104874",
-                "location": "Long Tree Dr, Harkness",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.54442385517817,
-                    -37.66904670453881
                 ]
             }
         },
@@ -10853,6 +10808,74 @@
                 "coordinates": [
                     145.87733254326992,
                     -36.14326950713775
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brunswick",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-11-05T22:28:31+11:00",
+                "updated": "2020-11-05T22:28:31+11:00",
+                "id": "ESTA:201104878",
+                "location": "Brunswick, Brunswick",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96043923342083,
+                    -37.777103057212365
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Keilor East",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-11-05T22:10:00+11:00",
+                "updated": "2020-11-05T22:10:00+11:00",
+                "id": "ESTA:201104872",
+                "location": "Keilor East, Keilor East",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8720839477488,
+                    -37.74638851952133
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-05T22:11:00+11:00",
+                "updated": "2020-11-05T22:15:00+11:00",
+                "id": "ESTA:201150240",
+                "location": "Red Hill",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0174127043201,
+                    -38.37196394436517
                 ]
             }
         }

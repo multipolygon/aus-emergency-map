@@ -10055,80 +10055,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Somerville Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-11-06T23:49:40+11:00",
-                "updated": "2020-11-06T23:49:40+11:00",
-                "id": "ESTA:201106063",
-                "location": "Somerville Rd, Hampton Park",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.25424657579012,
-                    -38.030616860859816
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Oxford St",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-11-06T23:55:53+11:00",
-                "updated": "2020-11-06T23:55:53+11:00",
-                "id": "ESTA:201106069",
-                "location": "Oxford St, Whittington",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.38693507343194,
-                    -38.17435134423244
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-07T00:01:00+11:00",
-                "updated": "2020-11-07T00:00:47+11:00",
-                "id": "ESTA:201150271",
-                "location": "Carrum Downs",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.18478049245766,
-                    -38.11574956547414
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ballarat Central",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-11-07T00:01:50+11:00",
-                "updated": "2020-11-07T00:02:46+11:00",
+                "updated": "2020-11-07T00:10:36+11:00",
                 "id": "ESTA:201106070",
                 "location": "Ballarat Central",
                 "title": "incident: fire"
@@ -10137,8 +10069,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.85668961420356,
-                    -37.55963762936014
+                    143.856846636348,
+                    -37.5589533833111
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tarneit",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-11-07T00:12:16+11:00",
+                "updated": "2020-11-07T00:12:16+11:00",
+                "id": "ESTA:201106071",
+                "location": "Tarneit, Tarneit",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.69037072681678,
+                    -37.837816526629126
                 ]
             }
         },
@@ -10856,6 +10811,98 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-01T11:00:00+11:00",
+                "updated": "2020-11-01T11:00:00+11:00",
+                "id": "4f457559c264928f38adfb1be6433cd8",
+                "location": "Metropolitan 4 - Frankston North - Panorma Track",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.1678,
+                            -38.1283
+                        ],
+                        [
+                            145.1677,
+                            -38.1281
+                        ],
+                        [
+                            145.168,
+                            -38.128
+                        ],
+                        [
+                            145.1678,
+                            -38.1283
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-03T11:00:00+11:00",
+                "updated": "2020-11-03T11:00:00+11:00",
+                "id": "243a344cd88f07cfb4ad382c27cc3535",
+                "location": "Midlands 27 - Buninyong - Hogarths Road",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.9253,
+                            -37.6482
+                        ],
+                        [
+                            143.9278,
+                            -37.6488
+                        ],
+                        [
+                            143.9271,
+                            -37.651
+                        ],
+                        [
+                            143.9262,
+                            -37.6503
+                        ],
+                        [
+                            143.9254,
+                            -37.6501
+                        ],
+                        [
+                            143.9237,
+                            -37.6509
+                        ],
+                        [
+                            143.9238,
+                            -37.6483
+                        ],
+                        [
+                            143.9253,
+                            -37.6482
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Foott Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -11239,94 +11286,25 @@
             }
         },
         {
-            "type": "Feature",
             "properties": {
-                "feedType": "other",
-                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-01T11:00:00+11:00",
-                "updated": "2020-11-01T11:00:00+11:00",
-                "id": "4f457559c264928f38adfb1be6433cd8",
-                "location": "Metropolitan 4 - Frankston North - Panorma Track",
-                "title": "other: burn area"
+                "feedType": "incident",
+                "sourceTitle": "Somerville Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-11-06T23:49:40+11:00",
+                "updated": "2020-11-06T23:49:40+11:00",
+                "id": "ESTA:201106063",
+                "location": "Somerville Rd, Hampton Park",
+                "size": "Small",
+                "title": "incident: fire"
             },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            145.1678,
-                            -38.1283
-                        ],
-                        [
-                            145.1677,
-                            -38.1281
-                        ],
-                        [
-                            145.168,
-                            -38.128
-                        ],
-                        [
-                            145.1678,
-                            -38.1283
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
             "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-03T11:00:00+11:00",
-                "updated": "2020-11-03T11:00:00+11:00",
-                "id": "243a344cd88f07cfb4ad382c27cc3535",
-                "location": "Midlands 27 - Buninyong - Hogarths Road",
-                "title": "other: burn area"
-            },
             "geometry": {
-                "type": "Polygon",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        [
-                            143.9253,
-                            -37.6482
-                        ],
-                        [
-                            143.9278,
-                            -37.6488
-                        ],
-                        [
-                            143.9271,
-                            -37.651
-                        ],
-                        [
-                            143.9262,
-                            -37.6503
-                        ],
-                        [
-                            143.9254,
-                            -37.6501
-                        ],
-                        [
-                            143.9237,
-                            -37.6509
-                        ],
-                        [
-                            143.9238,
-                            -37.6483
-                        ],
-                        [
-                            143.9253,
-                            -37.6482
-                        ]
-                    ]
+                    145.25424657579012,
+                    -38.030616860859816
                 ]
             }
         },
@@ -11379,52 +11357,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Marigold St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-11-06T23:00:00+11:00",
-                "updated": "2020-11-06T23:14:00+11:00",
-                "id": "ESTA:201106056",
-                "location": "Marigold St, Wendouree",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.82124124241665,
-                    -37.530339953638105
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-11-06T21:56:00+11:00",
-                "updated": "2020-11-06T23:13:00+11:00",
-                "id": "ESTA:201106043",
-                "location": "Bonegilla",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.00700261480677,
-                    -36.141454200385326
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tungamah Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -11442,6 +11374,28 @@
                 "coordinates": [
                     145.87733254326992,
                     -36.14326950713775
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
+                "created": "2020-11-07T00:01:00+11:00",
+                "updated": "2020-11-07T00:12:00+11:00",
+                "id": "ESTA:201150271",
+                "location": "Carrum Downs",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18478049245766,
+                    -38.11574956547414
                 ]
             }
         }

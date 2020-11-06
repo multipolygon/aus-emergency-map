@@ -666,10 +666,10 @@
                 "sourceTitle": "PORT HEDLAND",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2089718-503236",
                 "created": "2020-11-06T10:03:57+08:00",
-                "updated": "2020-11-06T10:04:15+08:00",
+                "updated": "2020-11-06T10:28:50+08:00",
                 "location": "PORT HEDLAND",
                 "size": "",
                 "description": "Active Alarm",
@@ -699,31 +699,6 @@
                 "size": "",
                 "description": "Burn Off",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.884766,
-                    -32.037975
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "RIVERTON",
-                "category": "incident",
-                "subcategory": "incident",
-                "status": "on scene",
-                "id": "2089693-503221",
-                "created": "2020-11-06T08:25:48+08:00",
-                "updated": "2020-11-06T08:39:28+08:00",
-                "location": "RIVERTON",
-                "size": "",
-                "description": "Incident",
-                "title": "incident: incident"
             }
         },
         {
@@ -1357,6 +1332,31 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    115.771416,
+                    -32.290604
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "COOLOONGUP",
+                "category": "active alarm",
+                "subcategory": "active alarm",
+                "status": "responding",
+                "id": "2089725-503238",
+                "created": "2020-11-06T10:21:19+08:00",
+                "updated": "2020-11-06T10:22:31+08:00",
+                "location": "COOLOONGUP",
+                "size": "",
+                "description": "Active Alarm",
+                "title": "incident: active alarm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     115.144,
                     -33.9006
                 ]
@@ -1441,14 +1441,39 @@
                 "sourceTitle": "ROLEYSTONE",
                 "category": "hazardous materials",
                 "subcategory": "hazardous materials",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2089717-503235",
                 "created": "2020-11-06T10:01:11+08:00",
-                "updated": "2020-11-06T10:03:03+08:00",
+                "updated": "2020-11-06T10:18:31+08:00",
                 "location": "ROLEYSTONE",
                 "size": "",
                 "description": "Hazardous Materials",
                 "title": "incident: hazardous materials"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.711876,
+                    -31.676401
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CLARKSON",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "on scene",
+                "id": "2089723-503237",
+                "created": "2020-11-06T10:15:58+08:00",
+                "updated": "2020-11-06T10:27:26+08:00",
+                "location": "CLARKSON",
+                "size": "",
+                "description": "Fire",
+                "title": "incident: fire"
             }
         }
     ]

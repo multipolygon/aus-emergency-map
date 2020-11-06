@@ -10023,52 +10023,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Oceanwave Pde",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-11-06T12:28:43+11:00",
-                "updated": "2020-11-06T12:28:43+11:00",
-                "id": "ESTA:201105464",
-                "location": "Oceanwave Pde, Point Cook",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.74052335647855,
-                    -37.90230185688496
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Egan St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-11-06T12:31:04+11:00",
-                "updated": "2020-11-06T12:31:04+11:00",
-                "id": "ESTA:201105483",
-                "location": "Egan St, Richmond",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9938102871102,
-                    -37.813996820437936
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Birregurra Rd",
                 "category": "fire",
                 "subcategory": "other",
@@ -10095,9 +10049,9 @@
                 "sourceTitle": "Murray Valley Hwy",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-11-06T12:17:00+11:00",
-                "updated": "2020-11-06T12:35:00+11:00",
+                "updated": "2020-11-06T12:42:00+11:00",
                 "id": "ESTA:201105475",
                 "location": "Murray Valley Hwy, Wyuna",
                 "size": "Small",
@@ -10109,6 +10063,51 @@
                 "coordinates": [
                     145.11594542411876,
                     -36.180917978527205
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Raglan St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-11-06T12:11:28+11:00",
+                "updated": "2020-11-06T12:11:28+11:00",
+                "id": "ESTA:201105416",
+                "location": "Raglan St, Creswick",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.88940802003683,
+                    -37.4252002434916
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rye",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-06T12:45:21+11:00",
+                "updated": "2020-11-06T12:45:36+11:00",
+                "id": "ESTA:201105522",
+                "location": "Flinders St, Rye",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.79800619598834,
+                    -38.37431750475049
                 ]
             }
         },
@@ -10848,118 +10847,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Foott Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-10-04T11:00:00+11:00",
-                "updated": "2020-10-04T11:00:00+11:00",
-                "id": "38a110569d1c08fe7e9b346b60710164",
-                "location": "Foott Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            145.3894,
-                            -37.9826
-                        ],
-                        [
-                            145.3894,
-                            -37.9816
-                        ],
-                        [
-                            145.3897,
-                            -37.9817
-                        ],
-                        [
-                            145.3898,
-                            -37.9823
-                        ],
-                        [
-                            145.3898,
-                            -37.9825
-                        ],
-                        [
-                            145.3894,
-                            -37.9826
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Tambo 4 - Buchan South - Quire Road",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-09-04T10:00:00+10:00",
-                "updated": "2020-09-04T10:00:00+10:00",
-                "id": "26559cc1593a087dac8fdea27f7197b8",
-                "location": "Tambo 4 - Buchan South - Quire Road",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    148.0958,
-                                    -37.5465
-                                ],
-                                [
-                                    148.086,
-                                    -37.5433
-                                ],
-                                [
-                                    148.0891,
-                                    -37.543
-                                ],
-                                [
-                                    148.0958,
-                                    -37.5465
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    148.0958,
-                                    -37.5465
-                                ],
-                                [
-                                    148.0959,
-                                    -37.5464
-                                ],
-                                [
-                                    148.0959,
-                                    -37.5465
-                                ],
-                                [
-                                    148.0958,
-                                    -37.5465
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Metropolitan 2 - Main Ridge - Limestone Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -11176,6 +11063,118 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Foott Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-10-04T11:00:00+11:00",
+                "updated": "2020-10-04T11:00:00+11:00",
+                "id": "38a110569d1c08fe7e9b346b60710164",
+                "location": "Foott Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.3894,
+                            -37.9826
+                        ],
+                        [
+                            145.3894,
+                            -37.9816
+                        ],
+                        [
+                            145.3897,
+                            -37.9817
+                        ],
+                        [
+                            145.3898,
+                            -37.9823
+                        ],
+                        [
+                            145.3898,
+                            -37.9825
+                        ],
+                        [
+                            145.3894,
+                            -37.9826
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Tambo 4 - Buchan South - Quire Road",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-09-04T10:00:00+10:00",
+                "updated": "2020-09-04T10:00:00+10:00",
+                "id": "26559cc1593a087dac8fdea27f7197b8",
+                "location": "Tambo 4 - Buchan South - Quire Road",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    148.0958,
+                                    -37.5465
+                                ],
+                                [
+                                    148.086,
+                                    -37.5433
+                                ],
+                                [
+                                    148.0891,
+                                    -37.543
+                                ],
+                                [
+                                    148.0958,
+                                    -37.5465
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    148.0958,
+                                    -37.5465
+                                ],
+                                [
+                                    148.0959,
+                                    -37.5464
+                                ],
+                                [
+                                    148.0959,
+                                    -37.5465
+                                ],
+                                [
+                                    148.0958,
+                                    -37.5465
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Snowy 3 - Marlo  - Marlo Plains Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -11325,14 +11324,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murray Valley Hwy",
+                "sourceTitle": "Lake St",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-11-06T12:19:00+11:00",
-                "updated": "2020-11-06T12:19:00+11:00",
-                "id": "ESTA:201105478",
-                "location": "Murray Valley Hwy, Wyuna",
+                "created": "2020-11-06T12:41:00+11:00",
+                "updated": "2020-11-06T12:41:00+11:00",
+                "id": "ESTA:201105516",
+                "location": "Lake St, Caroline Springs",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -11340,22 +11339,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.11594542411876,
-                    -36.180917978527205
+                    144.74340143823403,
+                    -37.73319229362802
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Raglan St",
+                "sourceTitle": "Oceanwave Pde",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-11-06T12:11:28+11:00",
-                "updated": "2020-11-06T12:11:28+11:00",
-                "id": "ESTA:201105416",
-                "location": "Raglan St, Creswick",
+                "status": "under control",
+                "created": "2020-11-06T12:28:43+11:00",
+                "updated": "2020-11-06T12:28:43+11:00",
+                "id": "ESTA:201105464",
+                "location": "Oceanwave Pde, Point Cook",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -11363,8 +11362,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.88940802003683,
-                    -37.4252002434916
+                    144.74052335647855,
+                    -37.90230185688496
                 ]
             }
         },
@@ -11411,6 +11410,29 @@
                 "coordinates": [
                     145.04719089057838,
                     -37.79810294035696
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Egan St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-11-06T12:31:04+11:00",
+                "updated": "2020-11-06T12:31:04+11:00",
+                "id": "ESTA:201105483",
+                "location": "Egan St, Richmond",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9938102871102,
+                    -37.813996820437936
                 ]
             }
         }

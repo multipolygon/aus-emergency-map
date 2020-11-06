@@ -10055,34 +10055,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-11-07T00:01:00+11:00",
-                "updated": "2020-11-07T00:51:00+11:00",
-                "id": "ESTA:201150271",
-                "location": "Carrum Downs",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.18478049245766,
-                    -38.11574956547414
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Cooper St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-11-07T00:57:10+11:00",
-                "updated": "2020-11-07T00:57:10+11:00",
+                "status": "safe",
+                "created": "2020-11-07T01:07:25+11:00",
+                "updated": "2020-11-07T01:07:25+11:00",
                 "id": "ESTA:201106077",
                 "location": "Cooper St, Essendon",
                 "size": "Small",
@@ -10100,23 +10078,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ranceby Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-11-07T00:21:00+11:00",
-                "updated": "2020-11-07T00:44:00+11:00",
-                "id": "ESTA:201106073",
-                "location": "Ranceby Rd, Poowong",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
+                "status": "complete",
+                "created": "2020-11-06T22:55:00+11:00",
+                "updated": "2020-11-07T01:15:00+11:00",
+                "id": "ESTA:201106054",
+                "location": "Herne Hill",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.76826267944406,
-                    -38.34336470386257
+                    144.31859211164007,
+                    -38.137424430424076
                 ]
             }
         },
@@ -10834,6 +10811,208 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Foott Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-10-04T11:00:00+11:00",
+                "updated": "2020-10-04T11:00:00+11:00",
+                "id": "38a110569d1c08fe7e9b346b60710164",
+                "location": "Foott Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.3894,
+                            -37.9826
+                        ],
+                        [
+                            145.3894,
+                            -37.9816
+                        ],
+                        [
+                            145.3897,
+                            -37.9817
+                        ],
+                        [
+                            145.3898,
+                            -37.9823
+                        ],
+                        [
+                            145.3898,
+                            -37.9825
+                        ],
+                        [
+                            145.3894,
+                            -37.9826
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Tambo 4 - Buchan South - Quire Road",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-09-04T10:00:00+10:00",
+                "updated": "2020-09-04T10:00:00+10:00",
+                "id": "26559cc1593a087dac8fdea27f7197b8",
+                "location": "Tambo 4 - Buchan South - Quire Road",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    148.0958,
+                                    -37.5465
+                                ],
+                                [
+                                    148.086,
+                                    -37.5433
+                                ],
+                                [
+                                    148.0891,
+                                    -37.543
+                                ],
+                                [
+                                    148.0958,
+                                    -37.5465
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    148.0958,
+                                    -37.5465
+                                ],
+                                [
+                                    148.0959,
+                                    -37.5464
+                                ],
+                                [
+                                    148.0959,
+                                    -37.5465
+                                ],
+                                [
+                                    148.0958,
+                                    -37.5465
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Metropolitan 2 - Main Ridge - Limestone Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-09-08T10:00:00+10:00",
+                "updated": "2020-09-08T10:00:00+10:00",
+                "id": "716c8a6dfc5661a23a069c3c144fccfd",
+                "location": "Metropolitan 2 - Main Ridge - Limestone Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.9267,
+                            -38.4138
+                        ],
+                        [
+                            144.9269,
+                            -38.4135
+                        ],
+                        [
+                            144.9275,
+                            -38.4134
+                        ],
+                        [
+                            144.9276,
+                            -38.4136
+                        ],
+                        [
+                            144.9277,
+                            -38.414
+                        ],
+                        [
+                            144.9275,
+                            -38.4142
+                        ],
+                        [
+                            144.928,
+                            -38.4143
+                        ],
+                        [
+                            144.9281,
+                            -38.4149
+                        ],
+                        [
+                            144.9287,
+                            -38.4151
+                        ],
+                        [
+                            144.9291,
+                            -38.4158
+                        ],
+                        [
+                            144.9291,
+                            -38.4161
+                        ],
+                        [
+                            144.9278,
+                            -38.4164
+                        ],
+                        [
+                            144.9277,
+                            -38.4158
+                        ],
+                        [
+                            144.9268,
+                            -38.4151
+                        ],
+                        [
+                            144.9269,
+                            -38.4146
+                        ],
+                        [
+                            144.9267,
+                            -38.4144
+                        ],
+                        [
+                            144.9267,
+                            -38.4138
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Midlands 7 - Hardies Hill - Buninyong - Mount Mercer Road",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -11107,218 +11286,39 @@
             }
         },
         {
-            "type": "Feature",
             "properties": {
-                "feedType": "other",
-                "sourceTitle": "Foott Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-10-04T11:00:00+11:00",
-                "updated": "2020-10-04T11:00:00+11:00",
-                "id": "38a110569d1c08fe7e9b346b60710164",
-                "location": "Foott Rd",
-                "title": "other: burn area"
+                "feedType": "incident",
+                "sourceTitle": "Boggy Gate Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-11-07T01:11:00+11:00",
+                "updated": "2020-11-07T01:11:00+11:00",
+                "id": "ESTA:201106079",
+                "location": "Boggy Gate Rd, Clarkefield",
+                "size": "Small",
+                "title": "incident: rescue"
             },
+            "type": "Feature",
             "geometry": {
-                "type": "Polygon",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        [
-                            145.3894,
-                            -37.9826
-                        ],
-                        [
-                            145.3894,
-                            -37.9816
-                        ],
-                        [
-                            145.3897,
-                            -37.9817
-                        ],
-                        [
-                            145.3898,
-                            -37.9823
-                        ],
-                        [
-                            145.3898,
-                            -37.9825
-                        ],
-                        [
-                            145.3894,
-                            -37.9826
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Tambo 4 - Buchan South - Quire Road",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-09-04T10:00:00+10:00",
-                "updated": "2020-09-04T10:00:00+10:00",
-                "id": "26559cc1593a087dac8fdea27f7197b8",
-                "location": "Tambo 4 - Buchan South - Quire Road",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    148.0958,
-                                    -37.5465
-                                ],
-                                [
-                                    148.086,
-                                    -37.5433
-                                ],
-                                [
-                                    148.0891,
-                                    -37.543
-                                ],
-                                [
-                                    148.0958,
-                                    -37.5465
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    148.0958,
-                                    -37.5465
-                                ],
-                                [
-                                    148.0959,
-                                    -37.5464
-                                ],
-                                [
-                                    148.0959,
-                                    -37.5465
-                                ],
-                                [
-                                    148.0958,
-                                    -37.5465
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Metropolitan 2 - Main Ridge - Limestone Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-09-08T10:00:00+10:00",
-                "updated": "2020-09-08T10:00:00+10:00",
-                "id": "716c8a6dfc5661a23a069c3c144fccfd",
-                "location": "Metropolitan 2 - Main Ridge - Limestone Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.9267,
-                            -38.4138
-                        ],
-                        [
-                            144.9269,
-                            -38.4135
-                        ],
-                        [
-                            144.9275,
-                            -38.4134
-                        ],
-                        [
-                            144.9276,
-                            -38.4136
-                        ],
-                        [
-                            144.9277,
-                            -38.414
-                        ],
-                        [
-                            144.9275,
-                            -38.4142
-                        ],
-                        [
-                            144.928,
-                            -38.4143
-                        ],
-                        [
-                            144.9281,
-                            -38.4149
-                        ],
-                        [
-                            144.9287,
-                            -38.4151
-                        ],
-                        [
-                            144.9291,
-                            -38.4158
-                        ],
-                        [
-                            144.9291,
-                            -38.4161
-                        ],
-                        [
-                            144.9278,
-                            -38.4164
-                        ],
-                        [
-                            144.9277,
-                            -38.4158
-                        ],
-                        [
-                            144.9268,
-                            -38.4151
-                        ],
-                        [
-                            144.9269,
-                            -38.4146
-                        ],
-                        [
-                            144.9267,
-                            -38.4144
-                        ],
-                        [
-                            144.9267,
-                            -38.4138
-                        ]
-                    ]
+                    144.79394847582904,
+                    -37.4848747406031
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Narre Warren East",
+                "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-07T00:50:07+11:00",
-                "updated": "2020-11-07T00:50:07+11:00",
+                "created": "2020-11-07T00:24:00+11:00",
+                "updated": "2020-11-07T00:50:00+11:00",
                 "id": "ESTA:201106075",
-                "location": "Narre Warren East, Narre Warren East",
+                "location": "Narre Warren East",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -11326,8 +11326,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.36113903288864,
-                    -37.96117860039894
+                    145.36113047376543,
+                    -37.961183333582106
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ranceby Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-11-07T00:21:00+11:00",
+                "updated": "2020-11-07T00:44:00+11:00",
+                "id": "ESTA:201106073",
+                "location": "Ranceby Rd, Poowong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.76826267944406,
+                    -38.34336470386257
                 ]
             }
         },
@@ -11357,22 +11380,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "request for assistance",
-                "created": "2020-11-06T22:55:00+11:00",
-                "updated": "2020-11-06T23:25:00+11:00",
-                "id": "ESTA:201106054",
-                "location": "Herne Hill",
-                "title": "incident: rescue"
+                "sourceTitle": "Footscray",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-11-07T01:19:07+11:00",
+                "updated": "2020-11-07T01:19:07+11:00",
+                "id": "ESTA:201106078",
+                "location": "Footscray, Footscray",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.31859211164007,
-                    -38.137424430424076
+                    144.90786327583103,
+                    -37.80072581239568
                 ]
             }
         }

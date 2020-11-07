@@ -406,11 +406,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397427",
-                "created": "2020-11-06T23:11:00+11:00",
-                "updated": "2020-11-07T10:11:00+11:00",
+                "created": "2020-11-07T07:13:00+11:00",
+                "updated": "2020-11-07T18:13:00+11:00",
                 "location": "Daniels Rd, Waterview Heights, NSW 2460",
                 "size": 267,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Daniels Rd, Waterview Heights, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 267 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Nov 2020 10:11",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Daniels Rd, Waterview Heights, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 267 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Nov 2020 18:13",
                 "title": "incident: fire"
             }
         },
@@ -643,6 +643,45 @@
                                 "coordinates": [
                                     [
                                         [
+                                            152.40808226,
+                                            -28.889899952
+                                        ],
+                                        [
+                                            152.408094156,
+                                            -28.889888054
+                                        ],
+                                        [
+                                            152.408629535,
+                                            -28.890387741
+                                        ],
+                                        [
+                                            152.408117951,
+                                            -28.891874905
+                                        ],
+                                        [
+                                            152.407653956,
+                                            -28.8916250619999
+                                        ],
+                                        [
+                                            152.406892529,
+                                            -28.8906256879999
+                                        ],
+                                        [
+                                            152.407213756,
+                                            -28.8903282549999
+                                        ],
+                                        [
+                                            152.40808226,
+                                            -28.889899952
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             152.408045378,
                                             -28.890210087
                                         ],
@@ -697,45 +736,6 @@
                                         [
                                             152.408045378,
                                             -28.890210087
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.40808226,
-                                            -28.889899952
-                                        ],
-                                        [
-                                            152.408094156,
-                                            -28.889888054
-                                        ],
-                                        [
-                                            152.408629535,
-                                            -28.890387741
-                                        ],
-                                        [
-                                            152.408117951,
-                                            -28.891874905
-                                        ],
-                                        [
-                                            152.407653956,
-                                            -28.8916250619999
-                                        ],
-                                        [
-                                            152.406892529,
-                                            -28.8906256879999
-                                        ],
-                                        [
-                                            152.407213756,
-                                            -28.8903282549999
-                                        ],
-                                        [
-                                            152.40808226,
-                                            -28.889899952
                                         ]
                                     ]
                                 ]
@@ -956,24 +956,89 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.06642150900007,
-                    -32.16515044999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.06642150900007,
+                            -32.16515044999994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.064862475,
+                                            -32.162971974
+                                        ],
+                                        [
+                                            147.064802988,
+                                            -32.162971974
+                                        ],
+                                        [
+                                            147.067658341,
+                                            -32.1613658369999
+                                        ],
+                                        [
+                                            147.067955774,
+                                            -32.161484811
+                                        ],
+                                        [
+                                            147.069859342,
+                                            -32.164994516
+                                        ],
+                                        [
+                                            147.070156775,
+                                            -32.166124759
+                                        ],
+                                        [
+                                            147.070989587,
+                                            -32.1684447339999
+                                        ],
+                                        [
+                                            147.070335234,
+                                            -32.170407789
+                                        ],
+                                        [
+                                            147.06801526,
+                                            -32.1715380329999
+                                        ],
+                                        [
+                                            147.063137365,
+                                            -32.167433463
+                                        ],
+                                        [
+                                            147.061412256,
+                                            -32.1653514349999
+                                        ],
+                                        [
+                                            147.064862475,
+                                            -32.162971974
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Warrah Rd, Tottenham",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
+                "subcategory": "grass fire",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397747",
-                "created": "2020-11-07T06:08:00+11:00",
-                "updated": "2020-11-07T17:08:00+11:00",
+                "created": "2020-11-07T07:04:00+11:00",
+                "updated": "2020-11-07T18:04:00+11:00",
                 "location": "Warrah Rd, Tottenham, NSW 2873",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Warrah Rd, Tottenham, NSW 2873 <br />COUNCIL AREA: Bogan <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Nov 2020 17:08",
+                "size": 24,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Warrah Rd, Tottenham, NSW 2873 <br />COUNCIL AREA: Bogan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 24 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Nov 2020 18:04",
                 "title": "incident: fire"
             }
         },
@@ -998,6 +1063,30 @@
                 "location": "Junction of wakool and Edwards Rivers",
                 "size": 1,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Junction of wakool and Edwards Rivers  <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Nov 2020 17:45",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.75700100000006,
+                    -33.92658199999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wollarma Rd, Goolgowi",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397754",
+                "created": "2020-11-07T07:12:00+11:00",
+                "updated": "2020-11-07T18:12:00+11:00",
+                "location": "803 Wollarma Rd, Goolgowi, NSW 2652",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 803 Wollarma Rd, Goolgowi, NSW 2652 <br />COUNCIL AREA: Carrathool <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Nov 2020 18:12",
                 "title": "incident: fire"
             }
         },
@@ -1624,13 +1713,13 @@
                 "sourceTitle": "Ramsay Rd, Rossmore",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397750",
-                "created": "2020-11-07T06:20:00+11:00",
-                "updated": "2020-11-07T17:20:00+11:00",
+                "created": "2020-11-07T07:13:00+11:00",
+                "updated": "2020-11-07T18:13:00+11:00",
                 "location": "Ramsay Rd, Rossmore, NSW 2557",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ramsay Rd, Rossmore, NSW 2557 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Nov 2020 17:20",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ramsay Rd, Rossmore, NSW 2557 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Nov 2020 18:13",
                 "title": "incident: other"
             }
         },

@@ -10180,9 +10180,9 @@
                 "sourceTitle": "Belgrave-Gembrook Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-11-07T12:52:00+11:00",
-                "updated": "2020-11-07T12:52:00+11:00",
+                "updated": "2020-11-07T13:08:00+11:00",
                 "id": "ESTA:201106939",
                 "location": "Belgrave-Gembrook Rd, Selby",
                 "size": "Small",
@@ -10200,14 +10200,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Capri Dr",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-11-07T12:42:00+11:00",
+                "updated": "2020-11-07T13:16:00+11:00",
+                "id": "ESTA:201150291",
+                "location": "Flinders",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99320548473898,
+                    -38.424482617610735
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Edinburgh Rd",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-07T12:29:00+11:00",
-                "updated": "2020-11-07T12:54:00+11:00",
-                "id": "ESTA:201106875",
-                "location": "Capri Dr, Mount Martha",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-07T13:19:00+11:00",
+                "updated": "2020-11-07T13:19:00+11:00",
+                "id": "ESTA:201107009",
+                "location": "Edinburgh Rd, Edenhope",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10215,30 +10237,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99293235576482,
-                    -38.29058249895961
+                    141.28778973914794,
+                    -37.037048404694204
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Spring Dr, Mulwala",
-                "category": "transport",
-                "subcategory": "motor vehicle accident",
-                "status": "out of control",
-                "created": "2020-11-07T12:12:00+11:00",
-                "updated": "2020-11-07T12:12:00+11:00",
-                "id": "2020-11-07T12:12:00.0000000:397729",
-                "location": "Spring Dr, Mulwala, Nsw 2647",
-                "title": "incident: transport"
+                "sourceTitle": "Gwendoline Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-11-07T13:20:09+11:00",
+                "updated": "2020-11-07T13:20:09+11:00",
+                "id": "ESTA:201106981",
+                "location": "Gwendoline Dr, Berwick",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.139988001,
-                    -35.9980449999999
+                    145.33421138906127,
+                    -38.04503427772088
                 ]
             }
         },
@@ -10265,48 +10288,24 @@
             }
         },
         {
-            "type": "Feature",
             "properties": {
-                "feedType": "other",
-                "sourceTitle": "Foott Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-10-04T11:00:00+11:00",
-                "updated": "2020-10-04T11:00:00+11:00",
-                "id": "38a110569d1c08fe7e9b346b60710164",
-                "location": "Foott Rd",
-                "title": "other: burn area"
+                "feedType": "incident",
+                "sourceTitle": "Spring Dr, Mulwala",
+                "category": "transport",
+                "subcategory": "motor vehicle accident",
+                "status": "out of control",
+                "created": "2020-11-07T12:12:00+11:00",
+                "updated": "2020-11-07T12:12:00+11:00",
+                "id": "2020-11-07T12:12:00.0000000:397729",
+                "location": "Spring Dr, Mulwala, Nsw 2647",
+                "title": "incident: transport"
             },
+            "type": "Feature",
             "geometry": {
-                "type": "Polygon",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        [
-                            145.3894,
-                            -37.9826
-                        ],
-                        [
-                            145.3894,
-                            -37.9816
-                        ],
-                        [
-                            145.3897,
-                            -37.9817
-                        ],
-                        [
-                            145.3898,
-                            -37.9823
-                        ],
-                        [
-                            145.3898,
-                            -37.9825
-                        ],
-                        [
-                            145.3894,
-                            -37.9826
-                        ]
-                    ]
+                    146.139988001,
+                    -35.9980449999999
                 ]
             }
         },
@@ -10373,6 +10372,90 @@
                             ]
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-01T11:00:00+11:00",
+                "updated": "2020-11-01T11:00:00+11:00",
+                "id": "4f457559c264928f38adfb1be6433cd8",
+                "location": "Metropolitan 4 - Frankston North - Panorma Track",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.1678,
+                            -38.1283
+                        ],
+                        [
+                            145.1677,
+                            -38.1281
+                        ],
+                        [
+                            145.168,
+                            -38.128
+                        ],
+                        [
+                            145.1678,
+                            -38.1283
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Foott Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-10-04T11:00:00+11:00",
+                "updated": "2020-10-04T11:00:00+11:00",
+                "id": "38a110569d1c08fe7e9b346b60710164",
+                "location": "Foott Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.3894,
+                            -37.9826
+                        ],
+                        [
+                            145.3894,
+                            -37.9816
+                        ],
+                        [
+                            145.3897,
+                            -37.9817
+                        ],
+                        [
+                            145.3898,
+                            -37.9823
+                        ],
+                        [
+                            145.3898,
+                            -37.9825
+                        ],
+                        [
+                            145.3894,
+                            -37.9826
+                        ]
+                    ]
                 ]
             }
         },
@@ -10654,44 +10737,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-01T11:00:00+11:00",
-                "updated": "2020-11-01T11:00:00+11:00",
-                "id": "4f457559c264928f38adfb1be6433cd8",
-                "location": "Metropolitan 4 - Frankston North - Panorma Track",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            145.1678,
-                            -38.1283
-                        ],
-                        [
-                            145.1677,
-                            -38.1281
-                        ],
-                        [
-                            145.168,
-                            -38.128
-                        ],
-                        [
-                            145.1678,
-                            -38.1283
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -10739,6 +10784,29 @@
                             -37.6482
                         ]
                     ]
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Capri Dr",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-07T12:29:00+11:00",
+                "updated": "2020-11-07T12:54:00+11:00",
+                "id": "ESTA:201106875",
+                "location": "Capri Dr, Mount Martha",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99293235576482,
+                    -38.29058249895961
                 ]
             }
         },
@@ -10817,53 +10885,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-07T12:00:00+11:00",
-                "updated": "2020-11-07T12:47:00+11:00",
-                "id": "ESTA:201150282",
-                "location": "Collingwood",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9920402086135,
-                    -37.80096415921152
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-07T12:42:00+11:00",
-                "updated": "2020-11-07T12:44:00+11:00",
-                "id": "ESTA:201150291",
-                "location": "Flinders",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99320548473898,
-                    -38.424482617610735
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
                 "status": "on scene",
                 "created": "2020-11-07T12:10:00+11:00",
-                "updated": "2020-11-07T12:21:00+11:00",
+                "updated": "2020-11-07T13:04:00+11:00",
                 "id": "ESTA:201150284",
                 "location": "Buxton",
                 "title": "incident: tree down"
@@ -10884,18 +10908,18 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-11-07T11:56:00+11:00",
-                "updated": "2020-11-07T12:08:00+11:00",
-                "id": "ESTA:201150281",
-                "location": "Marysville",
+                "created": "2020-11-07T12:00:00+11:00",
+                "updated": "2020-11-07T12:47:00+11:00",
+                "id": "ESTA:201150282",
+                "location": "Collingwood",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.75570645326425,
-                    -37.48735966340588
+                    144.9920402086135,
+                    -37.80096415921152
                 ]
             }
         },

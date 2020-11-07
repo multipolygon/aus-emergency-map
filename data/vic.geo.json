@@ -10177,14 +10177,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Belgrave-Gembrook Rd",
+                "sourceTitle": "Gwendoline Dr",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2020-11-07T12:52:00+11:00",
-                "updated": "2020-11-07T13:08:00+11:00",
-                "id": "ESTA:201106939",
-                "location": "Belgrave-Gembrook Rd, Selby",
+                "created": "2020-11-07T13:20:09+11:00",
+                "updated": "2020-11-07T13:20:09+11:00",
+                "id": "ESTA:201106981",
+                "location": "Gwendoline Dr, Berwick",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10192,8 +10192,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.37440777947361,
-                    -37.91446861728886
+                    145.33421138906127,
+                    -38.04503427772088
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ricky Way",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-07T13:24:00+11:00",
+                "updated": "2020-11-07T13:24:00+11:00",
+                "id": "ESTA:201107022",
+                "location": "Ricky Way, Epping",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99977147166675,
+                    -37.642927288848526
                 ]
             }
         },
@@ -10201,21 +10224,44 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-11-07T12:42:00+11:00",
-                "updated": "2020-11-07T13:16:00+11:00",
-                "id": "ESTA:201150291",
-                "location": "Flinders",
-                "title": "incident: tree down"
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-11-07T13:25:00+11:00",
+                "updated": "2020-11-07T13:26:00+11:00",
+                "id": "ESTA:201150292",
+                "location": "Shepparton",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99320548473898,
-                    -38.424482617610735
+                    145.41741809766,
+                    -36.38072712482408
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Johnsons Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-07T12:24:00+11:00",
+                "updated": "2020-11-07T12:32:00+11:00",
+                "id": "ESTA:201106861",
+                "location": "Johnsons Rd, Amphitheatre",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.40756613857388,
+                    -37.17214861606744
                 ]
             }
         },
@@ -10239,29 +10285,6 @@
                 "coordinates": [
                     141.28778973914794,
                     -37.037048404694204
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gwendoline Dr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-11-07T13:20:09+11:00",
-                "updated": "2020-11-07T13:20:09+11:00",
-                "id": "ESTA:201106981",
-                "location": "Gwendoline Dr, Berwick",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33421138906127,
-                    -38.04503427772088
                 ]
             }
         },
@@ -10306,6 +10329,52 @@
                 "coordinates": [
                     146.139988001,
                     -35.9980449999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Foott Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-10-04T11:00:00+11:00",
+                "updated": "2020-10-04T11:00:00+11:00",
+                "id": "38a110569d1c08fe7e9b346b60710164",
+                "location": "Foott Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.3894,
+                            -37.9826
+                        ],
+                        [
+                            145.3894,
+                            -37.9816
+                        ],
+                        [
+                            145.3897,
+                            -37.9817
+                        ],
+                        [
+                            145.3898,
+                            -37.9823
+                        ],
+                        [
+                            145.3898,
+                            -37.9825
+                        ],
+                        [
+                            145.3894,
+                            -37.9826
+                        ]
+                    ]
                 ]
             }
         },
@@ -10372,90 +10441,6 @@
                             ]
                         ]
                     }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-01T11:00:00+11:00",
-                "updated": "2020-11-01T11:00:00+11:00",
-                "id": "4f457559c264928f38adfb1be6433cd8",
-                "location": "Metropolitan 4 - Frankston North - Panorma Track",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            145.1678,
-                            -38.1283
-                        ],
-                        [
-                            145.1677,
-                            -38.1281
-                        ],
-                        [
-                            145.168,
-                            -38.128
-                        ],
-                        [
-                            145.1678,
-                            -38.1283
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Foott Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-10-04T11:00:00+11:00",
-                "updated": "2020-10-04T11:00:00+11:00",
-                "id": "38a110569d1c08fe7e9b346b60710164",
-                "location": "Foott Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            145.3894,
-                            -37.9826
-                        ],
-                        [
-                            145.3894,
-                            -37.9816
-                        ],
-                        [
-                            145.3897,
-                            -37.9817
-                        ],
-                        [
-                            145.3898,
-                            -37.9823
-                        ],
-                        [
-                            145.3898,
-                            -37.9825
-                        ],
-                        [
-                            145.3894,
-                            -37.9826
-                        ]
-                    ]
                 ]
             }
         },
@@ -10737,6 +10722,44 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-01T11:00:00+11:00",
+                "updated": "2020-11-01T11:00:00+11:00",
+                "id": "4f457559c264928f38adfb1be6433cd8",
+                "location": "Metropolitan 4 - Frankston North - Panorma Track",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.1678,
+                            -38.1283
+                        ],
+                        [
+                            145.1677,
+                            -38.1281
+                        ],
+                        [
+                            145.168,
+                            -38.128
+                        ],
+                        [
+                            145.1678,
+                            -38.1283
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -10790,6 +10813,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Belgrave-Gembrook Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-07T12:52:00+11:00",
+                "updated": "2020-11-07T13:08:00+11:00",
+                "id": "ESTA:201106939",
+                "location": "Belgrave-Gembrook Rd, Selby",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.37440777947361,
+                    -37.91446861728886
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Capri Dr",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -10830,29 +10876,6 @@
                 "coordinates": [
                     145.303998167293,
                     -37.99678874762963
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Johnsons Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-07T12:24:00+11:00",
-                "updated": "2020-11-07T12:32:00+11:00",
-                "id": "ESTA:201106861",
-                "location": "Johnsons Rd, Amphitheatre",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.40756613857388,
-                    -37.17214861606744
                 ]
             }
         },

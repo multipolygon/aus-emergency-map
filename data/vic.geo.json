@@ -10024,10 +10024,78 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Magpie St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-09T06:21:00+11:00",
+                "updated": "2020-11-09T06:24:00+11:00",
+                "id": "ESTA:201150339",
+                "location": "Clayton South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13345138161984,
+                    -37.94429967144937
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clayton South",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-09T06:22:21+11:00",
+                "updated": "2020-11-09T06:22:21+11:00",
+                "id": "ESTA:201109250",
+                "location": "Clayton South, Clayton South",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1334624536427,
+                    -37.944294556014455
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bradley St",
                 "category": "fire",
                 "subcategory": "building fire",
                 "status": "responding",
+                "created": "2020-11-09T06:22:00+11:00",
+                "updated": "2020-11-09T06:22:00+11:00",
+                "id": "ESTA:201109251",
+                "location": "Bradley St, Kyabram",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04643043415305,
+                    -36.31229993494159
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Magpie St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
                 "created": "2020-11-09T06:12:00+11:00",
                 "updated": "2020-11-09T06:12:00+11:00",
                 "id": "ESTA:201109242",
@@ -10047,36 +10115,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lockwood South",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-11-09T06:13:19+11:00",
-                "updated": "2020-11-09T06:14:40+11:00",
+                "subcategory": "rescue road trap fire",
+                "status": "request for assistance",
+                "created": "2020-11-09T06:15:00+11:00",
+                "updated": "2020-11-09T06:22:00+11:00",
                 "id": "ESTA:201109246",
                 "location": "Lockwood South",
+                "size": "Small",
                 "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.1583478337505,
-                    -36.84442071285558
+                    144.15484600658857,
+                    -36.851372475492525
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clematis Av",
+                "sourceTitle": "Gosney St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-09T05:48:00+11:00",
-                "updated": "2020-11-09T06:04:00+11:00",
-                "id": "ESTA:201109239",
-                "location": "Clematis Av, Ferntree Gully",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-09T06:29:38+11:00",
+                "updated": "2020-11-09T06:29:38+11:00",
+                "id": "ESTA:201109254",
+                "location": "Gosney St, Winchelsea",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10084,8 +10153,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30226242866198,
-                    -37.87990679710798
+                    143.98499037349526,
+                    -38.24343866399195
                 ]
             }
         },
@@ -10592,14 +10661,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Magpie St",
+                "sourceTitle": "Clematis Av",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-11-09T06:12:00+11:00",
-                "updated": "2020-11-09T06:12:00+11:00",
-                "id": "ESTA:201109243",
-                "location": "Magpie St, Golden Point (Ballarat)",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-09T05:48:00+11:00",
+                "updated": "2020-11-09T06:04:00+11:00",
+                "id": "ESTA:201109239",
+                "location": "Clematis Av, Ferntree Gully",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10607,8 +10676,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.86403778976415,
-                    -37.57628160962524
+                    145.30226242866198,
+                    -37.87990679710798
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Morris Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-09T06:19:16+11:00",
+                "updated": "2020-11-09T06:19:16+11:00",
+                "id": "ESTA:201109248",
+                "location": "Morris Rd, Hoppers Crossing",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.70192871481322,
+                    -37.87422786607731
                 ]
             }
         },

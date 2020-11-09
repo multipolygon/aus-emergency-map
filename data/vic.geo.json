@@ -10116,45 +10116,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wandong",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-11-09T15:20:16+11:00",
-                "updated": "2020-11-09T16:49:19+11:00",
-                "id": "ESTA:201109923",
-                "location": "Union Lane, Wandong",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-11-09T16:26:00+11:00",
+                "updated": "2020-11-09T17:12:00+11:00",
+                "id": "ESTA:201109962",
+                "location": "Warragul",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.01894672820174,
-                    -37.36048810702652
+                    145.91567218777354,
+                    -38.162487169493225
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Airport Dr",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-11-09T16:50:47+11:00",
-                "updated": "2020-11-09T16:50:47+11:00",
-                "id": "ESTA:201109970",
-                "location": "Airport Dr, Tullamarine",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-11-09T15:45:00+11:00",
+                "updated": "2020-11-09T17:16:00+11:00",
+                "id": "ESTA:201150362",
+                "location": "Spotswood",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.87414404877515,
-                    -37.7153590396823
+                    144.87891003198644,
+                    -37.830701787372995
                 ]
             }
         },
@@ -10164,10 +10164,10 @@
                 "sourceTitle": "East St, East Albury",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
-                "created": "2020-11-09T16:34:00+11:00",
-                "updated": "2020-11-09T16:34:00+11:00",
-                "id": "2020-11-09T16:34:00.0000000:397887",
+                "status": "under control",
+                "created": "2020-11-09T16:53:00+11:00",
+                "updated": "2020-11-09T16:53:00+11:00",
+                "id": "2020-11-09T16:53:00.0000000:397887",
                 "location": "East St, East Albury, Nsw 2640",
                 "title": "incident: fire"
             },
@@ -10199,60 +10199,6 @@
                 "coordinates": [
                     143.500113487,
                     -34.9799046799999
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-03T11:00:00+11:00",
-                "updated": "2020-11-03T11:00:00+11:00",
-                "id": "243a344cd88f07cfb4ad382c27cc3535",
-                "location": "Midlands 27 - Buninyong - Hogarths Road",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.9253,
-                            -37.6482
-                        ],
-                        [
-                            143.9278,
-                            -37.6488
-                        ],
-                        [
-                            143.9271,
-                            -37.651
-                        ],
-                        [
-                            143.9262,
-                            -37.6503
-                        ],
-                        [
-                            143.9254,
-                            -37.6501
-                        ],
-                        [
-                            143.9237,
-                            -37.6509
-                        ],
-                        [
-                            143.9238,
-                            -37.6483
-                        ],
-                        [
-                            143.9253,
-                            -37.6482
-                        ]
-                    ]
                 ]
             }
         },
@@ -10681,94 +10627,79 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-11-09T16:26:00+11:00",
-                "updated": "2020-11-09T16:49:00+11:00",
-                "id": "ESTA:201109962",
-                "location": "Warragul",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
             "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-03T11:00:00+11:00",
+                "updated": "2020-11-03T11:00:00+11:00",
+                "id": "243a344cd88f07cfb4ad382c27cc3535",
+                "location": "Midlands 27 - Buninyong - Hogarths Road",
+                "title": "other: burn area"
+            },
             "geometry": {
-                "type": "Point",
+                "type": "Polygon",
                 "coordinates": [
-                    145.91567218777354,
-                    -38.162487169493225
+                    [
+                        [
+                            143.9253,
+                            -37.6482
+                        ],
+                        [
+                            143.9278,
+                            -37.6488
+                        ],
+                        [
+                            143.9271,
+                            -37.651
+                        ],
+                        [
+                            143.9262,
+                            -37.6503
+                        ],
+                        [
+                            143.9254,
+                            -37.6501
+                        ],
+                        [
+                            143.9237,
+                            -37.6509
+                        ],
+                        [
+                            143.9238,
+                            -37.6483
+                        ],
+                        [
+                            143.9253,
+                            -37.6482
+                        ]
+                    ]
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Deans Marsh-Lorne Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Templestowe",
+                "category": "other",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-09T15:33:00+11:00",
-                "updated": "2020-11-09T16:18:00+11:00",
-                "id": "ESTA:201109930",
-                "location": "Deans Marsh-Lorne Rd, Benwerrin",
+                "created": "2020-11-09T17:12:55+11:00",
+                "updated": "2020-11-09T17:12:55+11:00",
+                "id": "ESTA:201109991",
+                "location": "Templestowe, Templestowe",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.94237640237904,
-                    -38.491153191210266
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Alpine Way",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-09T15:58:00+11:00",
-                "updated": "2020-11-09T16:07:00+11:00",
-                "id": "ESTA:201109943",
-                "location": "Alpine Way, Kilsyth",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33055334543005,
-                    -37.8052219523089
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Keys St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-11-09T16:46:23+11:00",
-                "updated": "2020-11-09T16:46:23+11:00",
-                "id": "ESTA:201109969",
-                "location": "Keys St, Frankston",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12281687144718,
-                    -38.14179462695828
+                    145.1249291868778,
+                    -37.75856455373184
                 ]
             }
         },
@@ -10813,28 +10744,6 @@
                 "coordinates": [
                     144.3987310944081,
                     -38.174782873331175
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-09T15:45:00+11:00",
-                "updated": "2020-11-09T16:44:00+11:00",
-                "id": "ESTA:201150362",
-                "location": "Spotswood",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.87891003198644,
-                    -37.830701787372995
                 ]
             }
         },

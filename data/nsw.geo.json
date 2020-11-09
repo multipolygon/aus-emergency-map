@@ -162,11 +162,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/396965",
-                "created": "2020-11-08T05:14:00+11:00",
-                "updated": "2020-11-08T16:14:00+11:00",
+                "created": "2020-11-09T03:57:00+11:00",
+                "updated": "2020-11-09T14:57:00+11:00",
                 "location": "Sherwood Rd, 16km north of Coffs Harbour",
                 "size": 51,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Sherwood Rd, 16km north of Coffs Harbour <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 51 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 8 Nov 2020 16:14",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Sherwood Rd, 16km north of Coffs Harbour <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 51 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 9 Nov 2020 14:57",
                 "title": "incident: fire"
             }
         },
@@ -516,30 +516,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.89292100000011,
-                    -29.31104899899998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "New England Hwy, Bolivia",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397861",
-                "created": "2020-11-09T02:48:00+11:00",
-                "updated": "2020-11-09T13:48:00+11:00",
-                "location": "5465 New England Hwy, Bolivia, NSW 2372",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 5465 New England Hwy, Bolivia, NSW 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Nov 2020 13:48",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.07102394100002,
                     -33.46288104499996
                 ]
@@ -699,10 +675,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.4206160000001,
-                    -31.258639999999957
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.4206160000001,
+                            -31.258639999999957
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.407627186,
+                                            -31.250701175
+                                        ],
+                                        [
+                                            150.407900823,
+                                            -31.2506059959999
+                                        ],
+                                        [
+                                            150.41082756,
+                                            -31.251058094
+                                        ],
+                                        [
+                                            150.411006021,
+                                            -31.251510191
+                                        ],
+                                        [
+                                            150.411303453,
+                                            -31.251676754
+                                        ],
+                                        [
+                                            150.411446221,
+                                            -31.252652333
+                                        ],
+                                        [
+                                            150.410910841,
+                                            -31.253687398
+                                        ],
+                                        [
+                                            150.409649727,
+                                            -31.254187085
+                                        ],
+                                        [
+                                            150.409007273,
+                                            -31.254353647
+                                        ],
+                                        [
+                                            150.408388613,
+                                            -31.2541394949999
+                                        ],
+                                        [
+                                            150.407674775,
+                                            -31.253604117
+                                        ],
+                                        [
+                                            150.406830066,
+                                            -31.2534732459999
+                                        ],
+                                        [
+                                            150.405735515,
+                                            -31.2535803219999
+                                        ],
+                                        [
+                                            150.407615288,
+                                            -31.25067738
+                                        ],
+                                        [
+                                            150.407627186,
+                                            -31.250701175
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1622,6 +1675,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.980814,
+                    -32.50704899999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Goolma Rd, Wuuluman",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397877",
+                "created": "2020-11-09T03:50:00+11:00",
+                "updated": "2020-11-09T14:50:00+11:00",
+                "location": "6561 Goolma Rd, Wuuluman,  2820",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6561 Goolma Rd, Wuuluman,  2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Nov 2020 14:50",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.70235100000002,
+                    -33.59181499899995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grose Vale Rd, North Richmond",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397878",
+                "created": "2020-11-09T03:56:00+11:00",
+                "updated": "2020-11-09T14:56:00+11:00",
+                "location": "177 Grose Vale Rd, North Richmond,  2754",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 177 Grose Vale Rd, North Richmond,  2754 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Nov 2020 14:56",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.96550600000012,
                     -30.522085999999945
                 ]
@@ -1631,13 +1732,13 @@
                 "sourceTitle": "Martells Rd, Urunga",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397873",
-                "created": "2020-11-09T03:16:00+11:00",
-                "updated": "2020-11-09T14:16:00+11:00",
+                "created": "2020-11-09T03:48:00+11:00",
+                "updated": "2020-11-09T14:48:00+11:00",
                 "location": "Martells Rd, Urunga, NSW 2455",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Martells Rd, Urunga, NSW 2455 <br />COUNCIL AREA: Bellingen <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Nov 2020 14:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Martells Rd, Urunga, NSW 2455 <br />COUNCIL AREA: Bellingen <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Nov 2020 14:48",
                 "title": "incident: other"
             }
         },
@@ -1679,37 +1780,13 @@
                 "sourceTitle": "Queen Elizabeth Dr, Armidale",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397875",
-                "created": "2020-11-09T03:40:00+11:00",
-                "updated": "2020-11-09T14:40:00+11:00",
+                "created": "2020-11-09T03:54:00+11:00",
+                "updated": "2020-11-09T14:54:00+11:00",
                 "location": "Queen Elizabeth Dr, Armidale, NSW 2350",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Queen Elizabeth Dr, Armidale, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 9 Nov 2020 14:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.1735480000001,
-                    -32.55898399999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Queen St, Singleton",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397876",
-                "created": "2020-11-09T03:44:00+11:00",
-                "updated": "2020-11-09T14:44:00+11:00",
-                "location": "Queen St, Singleton, NSW 2330",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Queen St, Singleton, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 9 Nov 2020 14:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Queen Elizabeth Dr, Armidale, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 9 Nov 2020 14:54",
                 "title": "incident: fire"
             }
         },

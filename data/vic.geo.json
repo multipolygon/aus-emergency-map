@@ -9,60 +9,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            144.96588255312037,
-                            -37.74498519368277
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    144.96408010866884,
-                                    -37.74115053702834
-                                ],
-                                [
-                                    144.9689724579079,
-                                    -37.74159171376004
-                                ],
-                                [
-                                    144.9670412674174,
-                                    -37.748819850337206
-                                ],
-                                [
-                                    144.96279264833285,
-                                    -37.74844658357565
-                                ],
-                                [
-                                    144.96408010866884,
-                                    -37.74115053702834
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "All Clear",
-                "category": "advice",
-                "subcategory": "cbrne",
-                "status": "all clear",
-                "created": "2020-11-10T09:41:57+11:00",
-                "updated": "2020-11-10T09:40:14+11:00",
-                "id": "15046",
-                "location": "Coburg, Coburg East, Coburg North, Brunswick, Brunswick West, Brunswick East",
-                "title": "warning: advice"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -9990,9 +9936,9 @@
                 "sourceTitle": "Murrindindi 2 - Toolangi - Healesville-Kinglake Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-11-09T14:45:00+11:00",
-                "updated": "2020-11-09T16:30:00+11:00",
+                "updated": "2020-11-10T10:21:00+11:00",
                 "id": 978442,
                 "location": "In Toolangi Township",
                 "size": "0.10",
@@ -10148,6 +10094,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Mallacoota - Recovery Heaps 2",
+                "category": "fire",
+                "subcategory": "planned burn",
+                "status": "in progress",
+                "created": "2020-11-10T10:07:29+11:00",
+                "updated": "2020-11-10T10:07:29+11:00",
+                "id": 3009473,
+                "location": "0.5Km Nw Of Mallacoota",
+                "size": "0.20",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.746992,
+                    -37.5577641
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Bendoc - Mt Koolabbra Recovery Windrows",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -10165,6 +10134,52 @@
                 "coordinates": [
                     148.7549469,
                     -37.1685656
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "George St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-10T10:21:16+11:00",
+                "updated": "2020-11-10T10:21:16+11:00",
+                "id": "ESTA:201110339",
+                "location": "George St, Noble Park",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17121004297664,
+                    -37.96388743933692
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cecil St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-10T10:28:23+11:00",
+                "updated": "2020-11-10T10:28:23+11:00",
+                "id": "ESTA:201110341",
+                "location": "Cecil St, South Melbourne",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95956751601886,
+                    -37.83632596292118
                 ]
             }
         },

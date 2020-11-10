@@ -10140,58 +10140,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cecil St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-11-10T10:39:03+11:00",
-                "updated": "2020-11-10T10:39:03+11:00",
-                "id": "ESTA:201110341",
-                "location": "Cecil St, South Melbourne",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95956751601886,
-                    -37.83632596292118
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue trench",
-                "status": "request for assistance",
-                "created": "2020-11-10T10:39:00+11:00",
-                "updated": "2020-11-10T10:42:00+11:00",
-                "id": "ESTA:201110359",
-                "location": "Koo Wee Rup",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4521454184099,
-                    -38.179776641896424
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mudge St",
                 "category": "rescue",
                 "subcategory": "rescue",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-11-10T10:43:00+11:00",
-                "updated": "2020-11-10T10:43:00+11:00",
+                "updated": "2020-11-10T10:54:00+11:00",
                 "id": "ESTA:201110362",
                 "location": "Mudge St, Sea Lake",
                 "size": "Small",
@@ -10207,6 +10161,52 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Church Ct",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-11-10T10:53:00+11:00",
+                "updated": "2020-11-10T11:04:00+11:00",
+                "id": "ESTA:201110369",
+                "location": "Church Ct, Timor",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.70754546267952,
+                    -36.9827987859203
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Octavia Cr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-10T11:06:27+11:00",
+                "updated": "2020-11-10T11:06:27+11:00",
+                "id": "ESTA:201110372",
+                "location": "Octavia Cr, St Kilda",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.985227070209,
+                    -37.857333982601
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -10214,9 +10214,9 @@
                 "category": "met",
                 "subcategory": "weather",
                 "status": "warning",
-                "created": "2020-11-10T10:33:29+11:00",
+                "created": "2020-11-10T10:44:53+11:00",
                 "updated": "Invalid date",
-                "id": "IDV21037/bed9dfa4808e990d25e5feec6eafbd66",
+                "id": "IDV21037/87c4b579d503d962365c9229917b5f87",
                 "location": "Central, South West, North Central and Wimmera",
                 "title": "incident: met"
             },
@@ -14025,6 +14025,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue trench",
+                "status": "on scene",
+                "created": "2020-11-10T10:39:00+11:00",
+                "updated": "2020-11-10T11:01:00+11:00",
+                "id": "ESTA:201110359",
+                "location": "Koo Wee Rup",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4521454184099,
+                    -38.179776641896424
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-11-10T10:46:00+11:00",
+                "updated": "2020-11-10T10:46:00+11:00",
+                "id": "ESTA:201110364",
+                "location": "Tallandoon",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.23072427690815,
+                    -36.40802809349464
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "George St",
                 "category": "other",
                 "subcategory": "other",
@@ -14042,6 +14088,29 @@
                 "coordinates": [
                     145.17121004297664,
                     -37.96388743933692
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ramsden St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-10T11:03:38+11:00",
+                "updated": "2020-11-10T11:03:38+11:00",
+                "id": "ESTA:201110366",
+                "location": "Ramsden St, Clifton Hill",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99917117597562,
+                    -37.7905977812762
                 ]
             }
         },
@@ -14088,6 +14157,29 @@
                 "coordinates": [
                     144.9342460715454,
                     -37.7825337017866
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cecil St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-11-10T10:39:03+11:00",
+                "updated": "2020-11-10T10:39:03+11:00",
+                "id": "ESTA:201110341",
+                "location": "Cecil St, South Melbourne",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95956751601886,
+                    -37.83632596292118
                 ]
             }
         },

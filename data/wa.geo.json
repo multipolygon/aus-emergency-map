@@ -182,31 +182,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.89603,
-                    -31.95846
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BURSWOOD",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "on scene",
-                "id": "2090787-503864",
-                "created": "2020-11-10T14:51:01+08:00",
-                "updated": "2020-11-10T14:58:46+08:00",
-                "location": "BURSWOOD",
-                "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     115.76005,
                     -31.742462
                 ]
@@ -249,6 +224,31 @@
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.984,
+                    -32.22937
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BYFORD",
+                "category": "incident",
+                "subcategory": "incident",
+                "status": "responding",
+                "id": "2090799-503872",
+                "created": "2020-11-10T15:36:45+08:00",
+                "updated": "2020-11-10T15:40:00+08:00",
+                "location": "BYFORD",
+                "size": "",
+                "description": "Incident",
+                "title": "incident: incident"
             }
         },
         {
@@ -491,10 +491,10 @@
                 "sourceTitle": "OSBORNE PARK",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2090793-503869",
                 "created": "2020-11-10T15:26:48+08:00",
-                "updated": "2020-11-10T15:27:09+08:00",
+                "updated": "2020-11-10T15:32:54+08:00",
                 "location": "OSBORNE PARK",
                 "size": "",
                 "description": "Active Alarm",
@@ -864,13 +864,38 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "BUTLER",
-                "category": "fuel leak",
-                "subcategory": "fuel leak",
-                "status": "responding",
+                "category": "road crash",
+                "subcategory": "road crash",
+                "status": "on scene",
                 "id": "2090795-503870",
                 "created": "2020-11-10T15:27:57+08:00",
-                "updated": "2020-11-10T15:28:10+08:00",
+                "updated": "2020-11-10T15:36:48+08:00",
                 "location": "BUTLER",
+                "size": "",
+                "description": "Road Crash",
+                "title": "incident: road crash"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.93713,
+                    -31.88756
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "EDEN HILL",
+                "category": "fuel leak",
+                "subcategory": "fuel leak",
+                "status": "on scene",
+                "id": "2090798-503871",
+                "created": "2020-11-10T15:37:47+08:00",
+                "updated": "2020-11-10T15:40:55+08:00",
+                "location": "EDEN HILL",
                 "size": "",
                 "description": "Fuel Leak",
                 "title": "incident: fuel leak"

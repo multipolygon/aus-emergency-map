@@ -10342,12 +10342,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "on scene",
+                "created": "2020-11-10T20:20:00+11:00",
+                "updated": "2020-11-10T20:21:00+11:00",
+                "id": "ESTA:201150448",
+                "location": "Rainbow",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.76230758014353,
+                    -35.85056199442115
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Mt Warrenheip Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "not yet under control",
-                "created": "2020-11-10T20:05:50+11:00",
-                "updated": "2020-11-10T20:05:50+11:00",
+                "status": "under control",
+                "created": "2020-11-10T20:24:03+11:00",
+                "updated": "2020-11-10T20:24:03+11:00",
                 "id": "ESTA:201110712",
                 "location": "Mt Warrenheip Rd, Dunnstown",
                 "size": "Small",
@@ -10359,51 +10381,6 @@
                 "coordinates": [
                     143.957399111025,
                     -37.57577591524518
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-11-10T19:55:00+11:00",
-                "updated": "2020-11-10T20:08:00+11:00",
-                "id": "ESTA:201150445",
-                "location": "Mount Waverley",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12897143727855,
-                    -37.88174936833335
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lalors Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-11-10T20:17:00+11:00",
-                "updated": "2020-11-10T20:17:00+11:00",
-                "id": "ESTA:201110721",
-                "location": "Lalors Rd, Healesville",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.51597493760556,
-                    -37.66195348781696
                 ]
             }
         },
@@ -16888,9 +16865,9 @@
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
                 "status": "under control",
-                "created": "2020-11-10T17:42:00+11:00",
-                "updated": "2020-11-10T17:42:00+11:00",
-                "id": "2020-11-10T17:42:00.0000000:397955",
+                "created": "2020-11-10T20:07:00+11:00",
+                "updated": "2020-11-10T20:07:00+11:00",
+                "id": "2020-11-10T20:07:00.0000000:397955",
                 "location": "Euston Prungle Road, Euston",
                 "title": "incident: other"
             },
@@ -17498,75 +17475,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Liverpool St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-10T19:16:00+11:00",
-                "updated": "2020-11-10T19:30:00+11:00",
-                "id": "ESTA:201110698",
-                "location": "Liverpool St, Point Cook",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.71545588922896,
-                    -37.89268706521429
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pennyroyal Trk",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-10T19:11:00+11:00",
-                "updated": "2020-11-10T19:28:00+11:00",
-                "id": "ESTA:201110695",
-                "location": "Pennyroyal Trk, Pennyroyal",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.88837863601958,
-                    -38.45773047891143
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Freemans Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-10T15:25:00+11:00",
-                "updated": "2020-11-10T19:22:00+11:00",
-                "id": "ESTA:201110539",
-                "location": "Freemans Rd, Mount Eliza",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.09018360074944,
-                    -38.16621869489174
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Dalmore Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -17614,6 +17522,28 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
+                "status": "on scene",
+                "created": "2020-11-10T18:34:00+11:00",
+                "updated": "2020-11-10T20:21:00+11:00",
+                "id": "ESTA:201110666",
+                "location": "Rainbow",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.76230758014353,
+                    -35.85056199442115
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
@@ -17651,28 +17581,6 @@
                 "coordinates": [
                     145.00045247597058,
                     -37.79646620195464
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "on scene",
-                "created": "2020-11-10T18:34:00+11:00",
-                "updated": "2020-11-10T19:05:00+11:00",
-                "id": "ESTA:201110666",
-                "location": "Rainbow",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.76230758014353,
-                    -35.85056199442115
                 ]
             }
         }

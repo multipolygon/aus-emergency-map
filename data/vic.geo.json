@@ -10031,7 +10031,7 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "created": "2020-11-10T22:00:00+11:00",
-                "updated": "2020-11-11T10:18:00+11:00",
+                "updated": "2020-11-11T10:31:00+11:00",
                 "id": 978461,
                 "location": "12 Km Se Edenhope",
                 "size": "0.80",
@@ -10054,7 +10054,7 @@
                 "subcategory": "bushfire",
                 "status": "not yet under control",
                 "created": "2020-11-11T09:30:00+11:00",
-                "updated": "2020-11-11T10:23:00+11:00",
+                "updated": "2020-11-11T10:27:00+11:00",
                 "id": 978463,
                 "location": "10Km N Dunkeld",
                 "size": "0.01",
@@ -10279,22 +10279,113 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kyabram",
+                "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-11T04:25:38+11:00",
-                "updated": "2020-11-11T10:20:12+11:00",
-                "id": "ESTA:201110794",
-                "location": "Kyabram",
+                "status": "responding",
+                "created": "2020-11-11T10:32:00+11:00",
+                "updated": "2020-11-11T10:32:00+11:00",
+                "id": "ESTA:201110981",
+                "location": "Ripplebrook",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0320026006092,
-                    -36.35777734506028
+                    145.75648688633896,
+                    -38.20334743130537
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yanac-Netherby Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-11T09:50:00+11:00",
+                "updated": "2020-11-11T10:16:00+11:00",
+                "id": "ESTA:201110942",
+                "location": "Yanac-Netherby Rd, Yanac",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.5371796080021,
+                    -36.10610753674189
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-11T10:38:00+11:00",
+                "updated": "2020-11-11T10:42:00+11:00",
+                "id": "ESTA:201150486",
+                "location": "Croydon",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.28306265556125,
+                    -37.806702115139935
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Westernport Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-11-11T10:37:00+11:00",
+                "updated": "2020-11-11T10:37:00+11:00",
+                "id": "ESTA:201110985",
+                "location": "Westernport Rd, Ripplebrook",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.75751181994605,
+                    -38.20352050177034
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-11-11T09:46:00+11:00",
+                "updated": "2020-11-11T10:42:00+11:00",
+                "id": "ESTA:201150482",
+                "location": "Ringwood",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22614439224245,
+                    -37.8161684111983
                 ]
             }
         },
@@ -10304,9 +10395,9 @@
                 "sourceTitle": "Mount Cottrell",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-11-11T10:27:10+11:00",
-                "updated": "2020-11-11T10:27:10+11:00",
+                "status": "safe",
+                "created": "2020-11-11T10:42:48+11:00",
+                "updated": "2020-11-11T10:42:48+11:00",
                 "id": "ESTA:201110975",
                 "location": "Mount Cottrell, Mount Cottrell",
                 "size": "Small",
@@ -10318,74 +10409,6 @@
                 "coordinates": [
                     144.64322268809627,
                     -37.784967463909815
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dingle Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-11T09:27:00+11:00",
-                "updated": "2020-11-11T09:43:00+11:00",
-                "id": "ESTA:201110914",
-                "location": "Dingle Rd, Beechworth",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.7013290709771,
-                    -36.37651320971456
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-11T09:20:00+11:00",
-                "updated": "2020-11-11T09:45:00+11:00",
-                "id": "ESTA:201110906",
-                "location": "Heywood",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.6089482538825,
-                    -38.13927331677851
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-11-11T10:12:00+11:00",
-                "updated": "2020-11-11T10:30:00+11:00",
-                "id": "ESTA:201150484",
-                "location": "Seymour",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10640958905842,
-                    -37.021177513793624
                 ]
             }
         },
@@ -16931,23 +16954,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Yanac-Netherby Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-11T09:50:00+11:00",
-                "updated": "2020-11-11T10:16:00+11:00",
-                "id": "ESTA:201110942",
-                "location": "Yanac-Netherby Rd, Yanac",
+                "sourceTitle": "Warrandyte Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-11T10:39:00+11:00",
+                "updated": "2020-11-11T10:39:00+11:00",
+                "id": "ESTA:201110987",
+                "location": "Warrandyte Rd, Langwarrin",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.5371796080021,
-                    -36.10610753674189
+                    145.1869800281971,
+                    -38.17206097200994
                 ]
             }
         },
@@ -16971,29 +16994,6 @@
                 "coordinates": [
                     145.3514180780586,
                     -38.04827457073753
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "The Parade -",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2020-11-11T09:30:00+11:00",
-                "updated": "2020-11-11T09:41:00+11:00",
-                "id": "ESTA:201110918",
-                "location": "The Parade -, Eltham North",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1532341591469,
-                    -37.69889070446092
                 ]
             }
         },
@@ -17046,52 +17046,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Greensborough",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-11-11T07:35:24+11:00",
-                "updated": "2020-11-11T07:35:24+11:00",
-                "id": "ESTA:201110827",
-                "location": "Greensborough, Greensborough",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.106655964571,
-                    -37.71735094382266
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Melton",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-11T10:03:12+11:00",
-                "updated": "2020-11-11T10:03:12+11:00",
-                "id": "ESTA:201110929",
-                "location": "Melton, Melton",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.60388927618513,
-                    -37.69528073829278
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "North St",
                 "category": "other",
                 "subcategory": "other",
@@ -17109,28 +17063,6 @@
                 "coordinates": [
                     144.89347927209226,
                     -37.80655244094609
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-11-11T09:46:00+11:00",
-                "updated": "2020-11-11T10:18:00+11:00",
-                "id": "ESTA:201150482",
-                "location": "Ringwood",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.22580349341683,
-                    -37.81617228764902
                 ]
             }
         },

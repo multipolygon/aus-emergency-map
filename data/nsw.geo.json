@@ -52,10 +52,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.48385100000007,
-                    -33.45285299999995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.48173639800007,
+                            -33.45102683599998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.482593003,
+                                            -33.4507412999999
+                                        ],
+                                        [
+                                            149.482640592,
+                                            -33.4507175059999
+                                        ],
+                                        [
+                                            149.481831576,
+                                            -33.452264155
+                                        ],
+                                        [
+                                            149.480974969,
+                                            -33.451740674
+                                        ],
+                                        [
+                                            149.480855997,
+                                            -33.4509316579999
+                                        ],
+                                        [
+                                            149.481236711,
+                                            -33.450289202
+                                        ],
+                                        [
+                                            149.482093316,
+                                            -33.45012264
+                                        ],
+                                        [
+                                            149.482593003,
+                                            -33.4507412999999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1266,13 +1315,13 @@
                 "sourceTitle": "Beaconsfield Rd, Wisemans Creek",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397947",
-                "created": "2020-11-10T03:14:00+11:00",
-                "updated": "2020-11-10T14:14:00+11:00",
+                "created": "2020-11-10T03:36:00+11:00",
+                "updated": "2020-11-10T14:36:00+11:00",
                 "location": "2068 Beaconsfield Rd, Wisemans Creek, NSW 2795",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2068 Beaconsfield Rd, Wisemans Creek, NSW 2795 <br />COUNCIL AREA: Oberon <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Nov 2020 14:14",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2068 Beaconsfield Rd, Wisemans Creek, NSW 2795 <br />COUNCIL AREA: Oberon <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Nov 2020 14:36",
                 "title": "incident: fire"
             }
         },
@@ -1362,13 +1411,13 @@
                 "sourceTitle": "Greggerys Rd, Berrigan",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/397948",
-                "created": "2020-11-10T03:40:00+11:00",
-                "updated": "2020-11-10T14:40:00+11:00",
+                "created": "2020-11-10T04:00:00+11:00",
+                "updated": "2020-11-10T15:00:00+11:00",
                 "location": "16-18 Greggerys Rd, Berrigan, NSW 2712",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 16-18 Greggerys Rd, Berrigan, NSW 2712 <br />COUNCIL AREA: Berrigan <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Nov 2020 14:40",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 16-18 Greggerys Rd, Berrigan, NSW 2712 <br />COUNCIL AREA: Berrigan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Nov 2020 15:00",
                 "title": "incident: fire"
             }
         },

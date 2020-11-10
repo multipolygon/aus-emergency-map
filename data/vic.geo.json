@@ -10233,23 +10233,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Melton",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Sandringham",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-11-11T09:50:16+11:00",
-                "updated": "2020-11-11T09:50:16+11:00",
-                "id": "ESTA:201110929",
-                "location": "Melton, Melton",
-                "size": "Small",
-                "title": "incident: hazardous material"
+                "created": "2020-11-11T10:03:28+11:00",
+                "updated": "2020-11-11T10:07:41+11:00",
+                "id": "ESTA:201150483",
+                "location": "Station St, Sandringham",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.60388927618513,
-                    -37.69528073829278
+                    145.00398961212713,
+                    -37.95077829904489
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-11T10:12:00+11:00",
+                "updated": "2020-11-11T10:15:00+11:00",
+                "id": "ESTA:201150484",
+                "location": "Northwood",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10680379195313,
+                    -36.95724504720221
                 ]
             }
         },
@@ -10259,9 +10280,9 @@
                 "sourceTitle": "Yanac-Netherby Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-11-11T09:50:00+11:00",
-                "updated": "2020-11-11T09:50:00+11:00",
+                "updated": "2020-11-11T10:16:00+11:00",
                 "id": "ESTA:201110942",
                 "location": "Yanac-Netherby Rd, Yanac",
                 "size": "Small",
@@ -10277,98 +10298,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-11T08:33:00+11:00",
-                "updated": "2020-11-11T09:19:00+11:00",
-                "id": "ESTA:201110858",
-                "location": "Undera",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1684842427598,
-                    -36.213797217758405
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kangan Dr",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
-                "created": "2020-11-11T09:51:00+11:00",
-                "updated": "2020-11-11T09:51:00+11:00",
-                "id": "ESTA:201110944",
-                "location": "Kangan Dr, Berwick",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3514180780586,
-                    -38.04827457073753
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Victoria Pde",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2020-11-11T09:55:23+11:00",
-                "updated": "2020-11-11T09:55:23+11:00",
-                "id": "ESTA:201110947",
-                "location": "Victoria Pde, Fitzroy",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97456183098316,
-                    -37.80770526519783
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "King St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-11-11T09:57:41+11:00",
-                "updated": "2020-11-11T09:57:41+11:00",
-                "id": "ESTA:201110943",
-                "location": "King St, Prahran",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99685253274535,
-                    -37.850063867638475
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -10376,601 +10305,15 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2020-11-11T05:00:00+11:00",
+                "created": "2020-11-11T10:00:00+11:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/3fc9a3f6bc611a4bb0f4f71b8b62c491",
-                "location": "Port Phillip, West Coast, Central Coast and East Gippsland Coast",
+                "id": "IDV20600/86b4ddad23cd99f4922f71e1f6771490",
+                "location": "Port Phillip and East Gippsland Coast",
                 "title": "incident: met"
             },
             "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    143.5115,
-                                    -38.856
-                                ],
-                                [
-                                    143.5115,
-                                    -39.536
-                                ],
-                                [
-                                    140.9658,
-                                    -39.2861
-                                ],
-                                [
-                                    140.9658,
-                                    -38.0563
-                                ],
-                                [
-                                    141.1452,
-                                    -38.1239
-                                ],
-                                [
-                                    141.1486,
-                                    -38.1254
-                                ],
-                                [
-                                    141.2642,
-                                    -38.1959
-                                ],
-                                [
-                                    141.2728,
-                                    -38.2018
-                                ],
-                                [
-                                    141.3802,
-                                    -38.3016
-                                ],
-                                [
-                                    141.3858,
-                                    -38.3084
-                                ],
-                                [
-                                    141.3984,
-                                    -38.3378
-                                ],
-                                [
-                                    141.3643,
-                                    -38.3751
-                                ],
-                                [
-                                    141.3641,
-                                    -38.3755
-                                ],
-                                [
-                                    141.4066,
-                                    -38.397
-                                ],
-                                [
-                                    141.4089,
-                                    -38.3779
-                                ],
-                                [
-                                    141.4066,
-                                    -38.3703
-                                ],
-                                [
-                                    141.4227,
-                                    -38.3627
-                                ],
-                                [
-                                    141.4483,
-                                    -38.36
-                                ],
-                                [
-                                    141.5185,
-                                    -38.3894
-                                ],
-                                [
-                                    141.5205,
-                                    -38.3905
-                                ],
-                                [
-                                    141.5216,
-                                    -38.4142
-                                ],
-                                [
-                                    141.5214,
-                                    -38.4144
-                                ],
-                                [
-                                    141.5433,
-                                    -38.4327
-                                ],
-                                [
-                                    141.566,
-                                    -38.4042
-                                ],
-                                [
-                                    141.5731,
-                                    -38.3906
-                                ],
-                                [
-                                    141.626,
-                                    -38.4063
-                                ],
-                                [
-                                    141.6263,
-                                    -38.4065
-                                ],
-                                [
-                                    141.6274,
-                                    -38.3939
-                                ],
-                                [
-                                    141.6502,
-                                    -38.3928
-                                ],
-                                [
-                                    141.6002,
-                                    -38.3215
-                                ],
-                                [
-                                    141.6021,
-                                    -38.3128
-                                ],
-                                [
-                                    141.7358,
-                                    -38.2538
-                                ],
-                                [
-                                    141.7388,
-                                    -38.2534
-                                ],
-                                [
-                                    141.9299,
-                                    -38.2782
-                                ],
-                                [
-                                    142.1428,
-                                    -38.3882
-                                ],
-                                [
-                                    142.1447,
-                                    -38.3902
-                                ],
-                                [
-                                    142.2406,
-                                    -38.3945
-                                ],
-                                [
-                                    142.2481,
-                                    -38.375
-                                ],
-                                [
-                                    142.2694,
-                                    -38.3632
-                                ],
-                                [
-                                    142.3777,
-                                    -38.3512
-                                ],
-                                [
-                                    142.3784,
-                                    -38.3512
-                                ],
-                                [
-                                    142.4706,
-                                    -38.4015
-                                ],
-                                [
-                                    142.475,
-                                    -38.4042
-                                ],
-                                [
-                                    142.4895,
-                                    -38.3939
-                                ],
-                                [
-                                    142.4905,
-                                    -38.3937
-                                ],
-                                [
-                                    142.5632,
-                                    -38.4215
-                                ],
-                                [
-                                    142.859,
-                                    -38.603
-                                ],
-                                [
-                                    142.8591,
-                                    -38.6046
-                                ],
-                                [
-                                    143.0351,
-                                    -38.6313
-                                ],
-                                [
-                                    143.1247,
-                                    -38.6786
-                                ],
-                                [
-                                    143.2228,
-                                    -38.7598
-                                ],
-                                [
-                                    143.2344,
-                                    -38.7666
-                                ],
-                                [
-                                    143.3579,
-                                    -38.7547
-                                ],
-                                [
-                                    143.4218,
-                                    -38.7824
-                                ],
-                                [
-                                    143.4274,
-                                    -38.783
-                                ],
-                                [
-                                    143.5115,
-                                    -38.856
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    144.6139,
-                                    -38.2918
-                                ],
-                                [
-                                    144.651,
-                                    -38.3035
-                                ],
-                                [
-                                    144.742,
-                                    -38.3539
-                                ],
-                                [
-                                    144.8868,
-                                    -38.477
-                                ],
-                                [
-                                    144.8865,
-                                    -38.4956
-                                ],
-                                [
-                                    145.0101,
-                                    -38.4803
-                                ],
-                                [
-                                    145.0327,
-                                    -38.4861
-                                ],
-                                [
-                                    145.1171,
-                                    -38.518
-                                ],
-                                [
-                                    145.1716,
-                                    -38.5096
-                                ],
-                                [
-                                    145.2214,
-                                    -38.5279
-                                ],
-                                [
-                                    145.2392,
-                                    -38.5067
-                                ],
-                                [
-                                    145.2639,
-                                    -38.5079
-                                ],
-                                [
-                                    145.2715,
-                                    -38.5048
-                                ],
-                                [
-                                    145.3128,
-                                    -38.5219
-                                ],
-                                [
-                                    145.3531,
-                                    -38.5668
-                                ],
-                                [
-                                    145.3629,
-                                    -38.5518
-                                ],
-                                [
-                                    145.3408,
-                                    -38.5356
-                                ],
-                                [
-                                    145.3559,
-                                    -38.5184
-                                ],
-                                [
-                                    145.3633,
-                                    -38.5155
-                                ],
-                                [
-                                    145.3725,
-                                    -38.5361
-                                ],
-                                [
-                                    145.4791,
-                                    -38.5532
-                                ],
-                                [
-                                    145.54,
-                                    -38.6135
-                                ],
-                                [
-                                    145.5614,
-                                    -38.652
-                                ],
-                                [
-                                    145.6065,
-                                    -38.6777
-                                ],
-                                [
-                                    145.6554,
-                                    -38.6767
-                                ],
-                                [
-                                    145.7389,
-                                    -38.6347
-                                ],
-                                [
-                                    145.8183,
-                                    -38.6469
-                                ],
-                                [
-                                    145.8456,
-                                    -38.6935
-                                ],
-                                [
-                                    145.8424,
-                                    -38.6958
-                                ],
-                                [
-                                    145.8092,
-                                    -38.6835
-                                ],
-                                [
-                                    145.8016,
-                                    -38.6613
-                                ],
-                                [
-                                    145.7496,
-                                    -38.6477
-                                ],
-                                [
-                                    145.7336,
-                                    -38.6463
-                                ],
-                                [
-                                    145.7871,
-                                    -38.6818
-                                ],
-                                [
-                                    145.873,
-                                    -38.7815
-                                ],
-                                [
-                                    145.922,
-                                    -38.9088
-                                ],
-                                [
-                                    146.0006,
-                                    -38.8817
-                                ],
-                                [
-                                    146.0003,
-                                    -38.8611
-                                ],
-                                [
-                                    145.9967,
-                                    -38.8516
-                                ],
-                                [
-                                    146.0137,
-                                    -38.8233
-                                ],
-                                [
-                                    146.0382,
-                                    -38.8123
-                                ],
-                                [
-                                    146.1072,
-                                    -38.8233
-                                ],
-                                [
-                                    146.1737,
-                                    -38.8615
-                                ],
-                                [
-                                    146.1826,
-                                    -38.8584
-                                ],
-                                [
-                                    146.1615,
-                                    -38.8497
-                                ],
-                                [
-                                    146.151,
-                                    -38.8354
-                                ],
-                                [
-                                    146.1563,
-                                    -38.8149
-                                ],
-                                [
-                                    146.169,
-                                    -38.8167
-                                ],
-                                [
-                                    146.1855,
-                                    -38.8627
-                                ],
-                                [
-                                    146.1842,
-                                    -38.8695
-                                ],
-                                [
-                                    146.2725,
-                                    -38.98
-                                ],
-                                [
-                                    146.2511,
-                                    -38.9952
-                                ],
-                                [
-                                    146.2744,
-                                    -38.9971
-                                ],
-                                [
-                                    146.2907,
-                                    -39.0189
-                                ],
-                                [
-                                    146.2855,
-                                    -39.0249
-                                ],
-                                [
-                                    146.3262,
-                                    -39.0395
-                                ],
-                                [
-                                    146.3183,
-                                    -39.0526
-                                ],
-                                [
-                                    146.3438,
-                                    -39.0606
-                                ],
-                                [
-                                    146.3222,
-                                    -39.0808
-                                ],
-                                [
-                                    146.3257,
-                                    -39.0943
-                                ],
-                                [
-                                    146.37,
-                                    -39.1347
-                                ],
-                                [
-                                    146.3753,
-                                    -39.1348
-                                ],
-                                [
-                                    146.3753,
-                                    -39.6647
-                                ],
-                                [
-                                    143.9494,
-                                    -39.579
-                                ],
-                                [
-                                    143.5115,
-                                    -39.536
-                                ],
-                                [
-                                    143.5115,
-                                    -38.856
-                                ],
-                                [
-                                    143.5535,
-                                    -38.8553
-                                ],
-                                [
-                                    143.6153,
-                                    -38.7952
-                                ],
-                                [
-                                    143.6658,
-                                    -38.7793
-                                ],
-                                [
-                                    143.6816,
-                                    -38.7372
-                                ],
-                                [
-                                    143.8289,
-                                    -38.6925
-                                ],
-                                [
-                                    143.8382,
-                                    -38.6922
-                                ],
-                                [
-                                    143.9209,
-                                    -38.6005
-                                ],
-                                [
-                                    143.9239,
-                                    -38.5932
-                                ],
-                                [
-                                    143.9755,
-                                    -38.5657
-                                ],
-                                [
-                                    143.988,
-                                    -38.5493
-                                ],
-                                [
-                                    143.9786,
-                                    -38.5343
-                                ],
-                                [
-                                    144.0366,
-                                    -38.4759
-                                ],
-                                [
-                                    144.1051,
-                                    -38.4683
-                                ],
-                                [
-                                    144.1339,
-                                    -38.4343
-                                ],
-                                [
-                                    144.252,
-                                    -38.3965
-                                ],
-                                [
-                                    144.3281,
-                                    -38.3267
-                                ],
-                                [
-                                    144.4275,
-                                    -38.282
-                                ],
-                                [
-                                    144.5008,
-                                    -38.2904
-                                ],
-                                [
-                                    144.505,
-                                    -38.2761
-                                ],
-                                [
-                                    144.5383,
-                                    -38.2711
-                                ],
-                                [
-                                    144.6139,
-                                    -38.2918
-                                ]
-                            ]
-                        ]
-                    },
                     {
                         "type": "Polygon",
                         "coordinates": [
@@ -11548,22 +10891,6 @@
                                 ]
                             ]
                         ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            142.23862991200008,
-                            -38.79615925999997
-                        ],
-                        "name": "West Coast"
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            144.94338504700005,
-                            -38.96782901249995
-                        ],
-                        "name": "Central Coast"
                     },
                     {
                         "type": "Point",
@@ -16989,6 +16316,156 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Snowy 3 - Marlo  - Marlo Plains Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-10-21T11:00:00+11:00",
+                "updated": "2020-10-21T11:00:00+11:00",
+                "id": "2782598ee076638262f098184bf7aec7",
+                "location": "Snowy 3 - Marlo  - Marlo Plains Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            148.6381,
+                            -37.7995
+                        ],
+                        [
+                            148.6382,
+                            -37.7995
+                        ],
+                        [
+                            148.6382,
+                            -37.8007
+                        ],
+                        [
+                            148.6482,
+                            -37.8003
+                        ],
+                        [
+                            148.6482,
+                            -37.8004
+                        ],
+                        [
+                            148.6383,
+                            -37.8013
+                        ],
+                        [
+                            148.6382,
+                            -37.8008
+                        ],
+                        [
+                            148.638,
+                            -37.8008
+                        ],
+                        [
+                            148.6381,
+                            -37.7995
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-01T11:00:00+11:00",
+                "updated": "2020-11-01T11:00:00+11:00",
+                "id": "4f457559c264928f38adfb1be6433cd8",
+                "location": "Metropolitan 4 - Frankston North - Panorma Track",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.1678,
+                            -38.1283
+                        ],
+                        [
+                            145.1677,
+                            -38.1281
+                        ],
+                        [
+                            145.168,
+                            -38.128
+                        ],
+                        [
+                            145.1678,
+                            -38.1283
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-03T11:00:00+11:00",
+                "updated": "2020-11-03T11:00:00+11:00",
+                "id": "243a344cd88f07cfb4ad382c27cc3535",
+                "location": "Midlands 27 - Buninyong - Hogarths Road",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.9253,
+                            -37.6482
+                        ],
+                        [
+                            143.9278,
+                            -37.6488
+                        ],
+                        [
+                            143.9271,
+                            -37.651
+                        ],
+                        [
+                            143.9262,
+                            -37.6503
+                        ],
+                        [
+                            143.9254,
+                            -37.6501
+                        ],
+                        [
+                            143.9237,
+                            -37.6509
+                        ],
+                        [
+                            143.9238,
+                            -37.6483
+                        ],
+                        [
+                            143.9253,
+                            -37.6482
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Eastgate Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -17360,152 +16837,25 @@
             }
         },
         {
-            "type": "Feature",
             "properties": {
-                "feedType": "other",
-                "sourceTitle": "Snowy 3 - Marlo  - Marlo Plains Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-10-21T11:00:00+11:00",
-                "updated": "2020-10-21T11:00:00+11:00",
-                "id": "2782598ee076638262f098184bf7aec7",
-                "location": "Snowy 3 - Marlo  - Marlo Plains Rd",
-                "title": "other: burn area"
+                "feedType": "incident",
+                "sourceTitle": "Kangan Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-11T09:51:00+11:00",
+                "updated": "2020-11-11T10:05:00+11:00",
+                "id": "ESTA:201110944",
+                "location": "Kangan Dr, Berwick",
+                "size": "Small",
+                "title": "incident: other"
             },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            148.6381,
-                            -37.7995
-                        ],
-                        [
-                            148.6382,
-                            -37.7995
-                        ],
-                        [
-                            148.6382,
-                            -37.8007
-                        ],
-                        [
-                            148.6482,
-                            -37.8003
-                        ],
-                        [
-                            148.6482,
-                            -37.8004
-                        ],
-                        [
-                            148.6383,
-                            -37.8013
-                        ],
-                        [
-                            148.6382,
-                            -37.8008
-                        ],
-                        [
-                            148.638,
-                            -37.8008
-                        ],
-                        [
-                            148.6381,
-                            -37.7995
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
             "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-01T11:00:00+11:00",
-                "updated": "2020-11-01T11:00:00+11:00",
-                "id": "4f457559c264928f38adfb1be6433cd8",
-                "location": "Metropolitan 4 - Frankston North - Panorma Track",
-                "title": "other: burn area"
-            },
             "geometry": {
-                "type": "Polygon",
+                "type": "Point",
                 "coordinates": [
-                    [
-                        [
-                            145.1678,
-                            -38.1283
-                        ],
-                        [
-                            145.1677,
-                            -38.1281
-                        ],
-                        [
-                            145.168,
-                            -38.128
-                        ],
-                        [
-                            145.1678,
-                            -38.1283
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-03T11:00:00+11:00",
-                "updated": "2020-11-03T11:00:00+11:00",
-                "id": "243a344cd88f07cfb4ad382c27cc3535",
-                "location": "Midlands 27 - Buninyong - Hogarths Road",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.9253,
-                            -37.6482
-                        ],
-                        [
-                            143.9278,
-                            -37.6488
-                        ],
-                        [
-                            143.9271,
-                            -37.651
-                        ],
-                        [
-                            143.9262,
-                            -37.6503
-                        ],
-                        [
-                            143.9254,
-                            -37.6501
-                        ],
-                        [
-                            143.9237,
-                            -37.6509
-                        ],
-                        [
-                            143.9238,
-                            -37.6483
-                        ],
-                        [
-                            143.9253,
-                            -37.6482
-                        ]
-                    ]
+                    145.3514180780586,
+                    -38.04827457073753
                 ]
             }
         },
@@ -17604,14 +16954,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
+                "sourceTitle": "Healy Av",
                 "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "complete",
+                "subcategory": "road accident",
+                "status": "safe",
                 "created": "2020-11-11T09:14:00+11:00",
-                "updated": "2020-11-11T09:58:00+11:00",
+                "updated": "2020-11-11T09:21:00+11:00",
                 "id": "ESTA:201110897",
-                "location": "Sunbury",
+                "location": "Healy Av, Sunbury",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -17627,14 +16977,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Berkeley Ct",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-11T08:29:00+11:00",
-                "updated": "2020-11-11T09:03:00+11:00",
-                "id": "ESTA:201110852",
-                "location": "Berkeley Ct, Mount Eliza",
+                "created": "2020-11-11T08:33:00+11:00",
+                "updated": "2020-11-11T09:19:00+11:00",
+                "id": "ESTA:201110858",
+                "location": "Undera",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -17642,8 +16992,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10225323582623,
-                    -38.180553394381896
+                    145.1684842427598,
+                    -36.213797217758405
                 ]
             }
         },
@@ -17673,29 +17023,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glenora St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-11-11T07:23:28+11:00",
-                "updated": "2020-11-11T07:23:28+11:00",
-                "id": "ESTA:201110813",
-                "location": "Glenora St, Chadstone",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10741955216946,
-                    -37.879604214384806
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Greensborough",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -17719,14 +17046,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kurrajong Av",
+                "sourceTitle": "Melton",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-11T09:45:01+11:00",
-                "updated": "2020-11-11T09:45:01+11:00",
-                "id": "ESTA:201110894",
-                "location": "Kurrajong Av, Croydon",
+                "created": "2020-11-11T10:03:12+11:00",
+                "updated": "2020-11-11T10:03:12+11:00",
+                "id": "ESTA:201110929",
+                "location": "Melton, Melton",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -17734,31 +17061,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30112928123197,
-                    -37.794580757723445
+                    144.60388927618513,
+                    -37.69528073829278
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Maroondah Hwy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-11T10:01:06+11:00",
-                "updated": "2020-11-11T10:01:06+11:00",
-                "id": "ESTA:201110938",
-                "location": "Maroondah Hwy, Ringwood",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-11T09:26:00+11:00",
+                "updated": "2020-11-11T09:29:00+11:00",
+                "id": "ESTA:201150480",
+                "location": "Melton West",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.22615268485436,
-                    -37.81616253389227
+                    144.5661649843645,
+                    -37.67405566060201
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-11T08:59:00+11:00",
+                "updated": "2020-11-11T10:07:00+11:00",
+                "id": "ESTA:201150476",
+                "location": "Westmeadows",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91460550722104,
+                    -37.663459080544435
                 ]
             }
         },
@@ -17803,50 +17151,6 @@
                 "coordinates": [
                     145.02956876733373,
                     -37.37310608798139
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-11T09:26:00+11:00",
-                "updated": "2020-11-11T09:29:00+11:00",
-                "id": "ESTA:201150480",
-                "location": "Melton West",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.5661649843645,
-                    -37.67405566060201
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-11T08:59:00+11:00",
-                "updated": "2020-11-11T09:27:00+11:00",
-                "id": "ESTA:201150476",
-                "location": "Westmeadows",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.91460550722104,
-                    -37.663459080544435
                 ]
             }
         }

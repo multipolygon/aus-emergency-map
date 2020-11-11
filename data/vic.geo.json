@@ -10625,14 +10625,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ormond Rd",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-11-12T06:15:00+11:00",
+                "updated": "2020-11-12T07:32:00+11:00",
+                "id": "ESTA:201150581",
+                "location": "Eltham",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16088413878117,
+                    -37.689033815660146
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bucknall St",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-12T07:29:09+11:00",
-                "updated": "2020-11-12T07:29:09+11:00",
-                "id": "ESTA:201111481",
-                "location": "Ormond Rd, Thomson (Geelong)",
+                "created": "2020-11-12T07:31:00+11:00",
+                "updated": "2020-11-12T07:36:00+11:00",
+                "id": "ESTA:201111495",
+                "location": "Bucknall St, Carisbrook",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10640,8 +10662,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.38006744574864,
-                    -38.16437961665795
+                    143.79240245277467,
+                    -37.035702376143625
                 ]
             }
         },
@@ -10651,9 +10673,9 @@
                 "sourceTitle": "Swan St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-11-12T07:27:58+11:00",
-                "updated": "2020-11-12T07:27:58+11:00",
+                "status": "safe",
+                "created": "2020-11-12T07:39:12+11:00",
+                "updated": "2020-11-12T07:39:12+11:00",
                 "id": "ESTA:201111488",
                 "location": "Swan St, Richmond",
                 "size": "Small",
@@ -10671,22 +10693,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Carisbrook",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-11-12T07:28:43+11:00",
-                "updated": "2020-11-12T07:30:53+11:00",
-                "id": "ESTA:201111495",
-                "location": "Bucknall St, Carisbrook",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue industrial trap",
+                "status": "request for assistance",
+                "created": "2020-11-12T07:43:00+11:00",
+                "updated": "2020-11-12T07:45:00+11:00",
+                "id": "ESTA:201111503",
+                "location": "Epsom",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.79241776010886,
-                    -37.035690749545104
+                    144.31765488461875,
+                    -36.70518387270207
                 ]
             }
         },
@@ -13825,28 +13848,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tammit Stn, Euston ",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-11-11T20:18:00+11:00",
-                "updated": "2020-11-11T20:18:00+11:00",
-                "id": "2020-11-11T20:18:00.0000000:398047",
-                "location": "Tammit Stn, Euston, Nsw 2737",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.452464104,
-                    -34.578740405
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Weewaa",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -13929,6 +13930,28 @@
                 "coordinates": [
                     142.8241539,
                     -34.4767033209999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tammit Stn, Euston ",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-11-11T20:18:00+11:00",
+                "updated": "2020-11-11T20:18:00+11:00",
+                "id": "2020-11-11T20:18:00.0000000:398047",
+                "location": "Tammit Stn, Euston, Nsw 2737",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.452464104,
+                    -34.578740405
                 ]
             }
         },
@@ -14791,6 +14814,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Ormond Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-12T07:18:00+11:00",
+                "updated": "2020-11-12T07:29:00+11:00",
+                "id": "ESTA:201111481",
+                "location": "Ormond Rd, Thomson (Geelong)",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3806030637632,
+                    -38.164648412473795
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Tuxion Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -14854,28 +14900,6 @@
                 "coordinates": [
                     144.86336601014017,
                     -37.71057171397487
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-11-12T06:15:00+11:00",
-                "updated": "2020-11-12T07:06:00+11:00",
-                "id": "ESTA:201150581",
-                "location": "Eltham",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16088413878117,
-                    -37.689033815660146
                 ]
             }
         },

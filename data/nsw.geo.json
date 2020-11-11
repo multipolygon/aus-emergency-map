@@ -623,10 +623,127 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4043960570001,
-                    -34.82775479999998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.4043960570001,
+                            -34.82775479999998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.41811876,
+                                            -34.8048556009999
+                                        ],
+                                        [
+                                            145.418153794,
+                                            -34.804864359
+                                        ],
+                                        [
+                                            145.414252136,
+                                            -34.827757914
+                                        ],
+                                        [
+                                            145.414252136,
+                                            -34.8239507759999
+                                        ],
+                                        [
+                                            145.412229594,
+                                            -34.823891289
+                                        ],
+                                        [
+                                            145.411396783,
+                                            -34.827222535
+                                        ],
+                                        [
+                                            145.409136295,
+                                            -34.8269845889999
+                                        ],
+                                        [
+                                            145.408481942,
+                                            -34.8244861549999
+                                        ],
+                                        [
+                                            145.408957835,
+                                            -34.821511828
+                                        ],
+                                        [
+                                            145.409671673,
+                                            -34.8174667449999
+                                        ],
+                                        [
+                                            145.41092089,
+                                            -34.8134811479999
+                                        ],
+                                        [
+                                            145.412943432,
+                                            -34.8081868469999
+                                        ],
+                                        [
+                                            145.415917758,
+                                            -34.7990854089999
+                                        ],
+                                        [
+                                            145.414609055,
+                                            -34.795873136
+                                        ],
+                                        [
+                                            145.412943432,
+                                            -34.793077269
+                                        ],
+                                        [
+                                            145.410088079,
+                                            -34.790459862
+                                        ],
+                                        [
+                                            145.406756834,
+                                            -34.789508078
+                                        ],
+                                        [
+                                            145.407589645,
+                                            -34.7841542909999
+                                        ],
+                                        [
+                                            145.407530158,
+                                            -34.780942018
+                                        ],
+                                        [
+                                            145.409195781,
+                                            -34.779514342
+                                        ],
+                                        [
+                                            145.411872675,
+                                            -34.781358424
+                                        ],
+                                        [
+                                            145.413776244,
+                                            -34.7858793999999
+                                        ],
+                                        [
+                                            145.416036732,
+                                            -34.790400376
+                                        ],
+                                        [
+                                            145.420022329,
+                                            -34.7947428919999
+                                        ],
+                                        [
+                                            145.41811876,
+                                            -34.8048556009999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -636,11 +753,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398052",
-                "created": "2020-11-11T08:19:00+11:00",
-                "updated": "2020-11-11T19:19:00+11:00",
+                "created": "2020-11-11T09:37:00+11:00",
+                "updated": "2020-11-11T20:37:00+11:00",
                 "location": "Sturt Hwy, Carrathool, NSW 2711",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Sturt Hwy, Carrathool, NSW 2711 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2020 19:19",
+                "size": 58,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Sturt Hwy, Carrathool, NSW 2711 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 58 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2020 20:37",
                 "title": "incident: fire"
             }
         },
@@ -1786,6 +1903,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.2355480000001,
+                    -33.11767999999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "North Forbes Rd, Condobolin",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398070",
+                "created": "2020-11-11T09:38:00+11:00",
+                "updated": "2020-11-11T20:38:00+11:00",
+                "location": "North Forbes Rd, Condobolin, NSW 2877",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: North Forbes Rd, Condobolin, NSW 2877 <br />COUNCIL AREA: Lachlan <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2020 20:38",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.87323236500004,
                     -30.81511644799997
                 ]
@@ -1802,6 +1943,30 @@
                 "location": "Pacific Hwy, Eungai Creek, NSW 2441",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Eungai Creek, NSW 2441 <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2020 08:12",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.64262000000008,
+                    -32.76074099999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Raymond Terrace Rd, Chisholm",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398069",
+                "created": "2020-11-11T09:18:00+11:00",
+                "updated": "2020-11-11T20:18:00+11:00",
+                "location": "507 Raymond Terrace Rd, Chisholm, NSW 2322",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 507 Raymond Terrace Rd, Chisholm, NSW 2322 <br />COUNCIL AREA: Maitland <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2020 20:18",
                 "title": "incident: fire"
             }
         },
@@ -1893,11 +2058,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398047",
-                "created": "2020-11-11T07:17:00+11:00",
-                "updated": "2020-11-11T18:17:00+11:00",
+                "created": "2020-11-11T09:18:00+11:00",
+                "updated": "2020-11-11T20:18:00+11:00",
                 "location": "TAMMIT STN, Euston, NSW 2737",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: TAMMIT STN, Euston, NSW 2737 <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2020 18:17",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: TAMMIT STN, Euston, NSW 2737 <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2020 20:18",
                 "title": "incident: fire"
             }
         }

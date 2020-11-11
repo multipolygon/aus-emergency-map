@@ -13465,29 +13465,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wimmera 4 - Yallakar - Tishlers Track",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-10T22:00:00+11:00",
-                "updated": "2020-11-11T17:23:00+11:00",
-                "id": 978461,
-                "location": "12 Km Se Edenhope",
-                "size": "0.80",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.4242,
-                    -37.0878
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Wimmera 5 - Grampians - Cassidy`S Gap Road",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -13764,22 +13741,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-11T18:05:00+11:00",
-                "updated": "2020-11-11T18:09:00+11:00",
-                "id": "ESTA:201150533",
-                "location": "Canterbury",
-                "title": "incident: tree down"
+                "sourceTitle": "Hume Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-11T18:18:44+11:00",
+                "updated": "2020-11-11T18:18:44+11:00",
+                "id": "ESTA:201111337",
+                "location": "Hume Hwy, Craigieburn",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.08132535173567,
-                    -37.82277456441759
+                    144.94495744209786,
+                    -37.60297831011996
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-11-11T18:19:00+11:00",
+                "updated": "2020-11-11T18:25:00+11:00",
+                "id": "ESTA:201150535",
+                "location": "Daylesford",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.14371063004597,
+                    -37.33770150260453
                 ]
             }
         },
@@ -13789,9 +13789,9 @@
                 "sourceTitle": "Avalon Foreshore Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-11-11T18:07:17+11:00",
-                "updated": "2020-11-11T18:07:17+11:00",
+                "status": "safe",
+                "created": "2020-11-11T18:21:15+11:00",
+                "updated": "2020-11-11T18:21:15+11:00",
                 "id": "ESTA:201111331",
                 "location": "Avalon Foreshore Rd, Avalon",
                 "size": "Small",
@@ -13809,10 +13809,99 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Sullivans Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-11T18:22:01+11:00",
+                "updated": "2020-11-11T18:22:01+11:00",
+                "id": "ESTA:201111339",
+                "location": "Sullivans Rd, Strathfieldsaye",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.35978911118212,
+                    -36.7992046231782
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-11T18:24:00+11:00",
+                "updated": "2020-11-11T18:28:00+11:00",
+                "id": "ESTA:201150537",
+                "location": "Blind Bight",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.340624235895,
+                    -38.212587886613946
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-11T18:23:00+11:00",
+                "updated": "2020-11-11T18:26:00+11:00",
+                "id": "ESTA:201150536",
+                "location": "Templestowe Lower",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10469153823396,
+                    -37.75713121842036
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-11-11T16:17:00+11:00",
+                "updated": "2020-11-11T18:28:00+11:00",
+                "id": "ESTA:201150519",
+                "location": "Hawthorn",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02251881793407,
+                    -37.81434881899432
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-11-11T18:06:00+11:00",
                 "updated": "2020-11-11T18:06:00+11:00",
                 "id": "ESTA:201111330",
@@ -13832,36 +13921,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "sourceTitle": "Williamstown",
+                "category": "building damage",
+                "subcategory": "building damage",
                 "status": "complete",
-                "created": "2020-11-11T17:45:00+11:00",
-                "updated": "2020-11-11T18:08:00+11:00",
-                "id": "ESTA:201150531",
-                "location": "Beech Forest",
-                "title": "incident: tree down"
+                "created": "2020-11-11T18:28:18+11:00",
+                "updated": "2020-11-11T18:30:47+11:00",
+                "id": "ESTA:201150538",
+                "location": "Cumberland Cl, Williamstown",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.5279575821379,
-                    -38.60078706076132
+                    144.90291834680121,
+                    -37.86750932507155
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Inverleigh-Winchelsea Rd",
+                "sourceTitle": "Unknown -",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-11-11T16:54:00+11:00",
-                "updated": "2020-11-11T17:41:00+11:00",
-                "id": "ESTA:201111287",
-                "location": "Inverleigh-Winchelsea Rd, Inverleigh",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-11-11T18:29:00+11:00",
+                "updated": "2020-11-11T18:29:00+11:00",
+                "id": "ESTA:201111343",
+                "location": "Unknown -, Robinvale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -13869,120 +13958,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.0620023822499,
-                    -38.11759639918993
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-11-11T18:07:00+11:00",
-                "updated": "2020-11-11T18:09:00+11:00",
-                "id": "ESTA:201150534",
-                "location": "St Leonards",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7120112742877,
-                    -38.169414250812004
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-11-11T17:36:00+11:00",
-                "updated": "2020-11-11T18:11:00+11:00",
-                "id": "ESTA:201150528",
-                "location": "Lockwood",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.1570515311999,
-                    -36.81877649276055
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sunshine North",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-11-11T18:12:56+11:00",
-                "updated": "2020-11-11T18:12:56+11:00",
-                "id": "ESTA:201111334",
-                "location": "Sunshine North, Sunshine North",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.82090685986364,
-                    -37.76140620300438
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hume Hwy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-11-11T18:17:41+11:00",
-                "updated": "2020-11-11T18:17:41+11:00",
-                "id": "ESTA:201111337",
-                "location": "Hume Hwy, Craigieburn",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94495744209786,
-                    -37.60297831011996
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Daylesford",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "responding",
-                "created": "2020-11-11T18:18:05+11:00",
-                "updated": "2020-11-11T18:19:19+11:00",
-                "id": "ESTA:201150535",
-                "location": "Vincent St, Daylesford",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.1437139018619,
-                    -37.3376936234273
+                    142.77525239383877,
+                    -34.583812010446124
                 ]
             }
         },
@@ -21988,28 +21965,6 @@
                 "sourceTitle": "Caldwell Line Rd, Caldwell",
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-11-11T08:56:00+11:00",
-                "updated": "2020-11-11T08:56:00+11:00",
-                "id": "2020-11-11T08:56:00.0000000:397902",
-                "location": "1802 Caldwell Line Rd, Caldwell, Nsw 2710",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.546862999,
-                    -35.643729
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Caldwell Line Rd, Caldwell",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
                 "status": "out of control",
                 "created": "2020-11-11T17:58:00+11:00",
                 "updated": "2020-11-11T17:58:00+11:00",
@@ -22023,6 +21978,28 @@
                 "coordinates": [
                     144.458769,
                     -35.528318
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Caldwell Line Rd, Caldwell",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-11-11T08:56:00+11:00",
+                "updated": "2020-11-11T08:56:00+11:00",
+                "id": "2020-11-11T08:56:00.0000000:397902",
+                "location": "1802 Caldwell Line Rd, Caldwell, Nsw 2710",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.546862999,
+                    -35.643729
                 ]
             }
         },
@@ -22074,14 +22051,14 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Tammit Stn, Euston",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "out of control",
-                "created": "2020-11-11T17:28:00+11:00",
-                "updated": "2020-11-11T17:28:00+11:00",
-                "id": "2020-11-11T17:28:00.0000000:398047",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-11-11T18:17:00+11:00",
+                "updated": "2020-11-11T18:17:00+11:00",
+                "id": "2020-11-11T18:17:00.0000000:398047",
                 "location": "Tapalin Mail Rd, Euston, Nsw 2737",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
@@ -22711,6 +22688,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Inverleigh-Winchelsea Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-11-11T16:54:00+11:00",
+                "updated": "2020-11-11T17:41:00+11:00",
+                "id": "ESTA:201111287",
+                "location": "Inverleigh-Winchelsea Rd, Inverleigh",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.0620023822499,
+                    -38.11759639918993
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Devon Meadows",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -22751,98 +22751,6 @@
                 "coordinates": [
                     147.3619008541742,
                     -37.75592859602833
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-11-11T17:00:00+11:00",
-                "updated": "2020-11-11T17:29:00+11:00",
-                "id": "ESTA:201111289",
-                "location": "Balliang",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.38182734581707,
-                    -37.873751134242944
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Browns Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-11T17:11:00+11:00",
-                "updated": "2020-11-11T17:26:00+11:00",
-                "id": "ESTA:201111297",
-                "location": "Browns Rd, Leitchville",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.33778357879675,
-                    -35.8847987952344
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-11T17:16:00+11:00",
-                "updated": "2020-11-11T17:23:00+11:00",
-                "id": "ESTA:201111300",
-                "location": "Moorooduc",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.15126024782913,
-                    -38.23532315113177
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mackrells Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-11T14:32:00+11:00",
-                "updated": "2020-11-11T17:22:00+11:00",
-                "id": "ESTA:201111170",
-                "location": "Mackrells Rd, Strathbogie",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.72799276351202,
-                    -36.83359803628865
                 ]
             }
         },
@@ -22964,22 +22872,67 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Sunshine North",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-11T18:23:37+11:00",
+                "updated": "2020-11-11T18:23:37+11:00",
+                "id": "ESTA:201111334",
+                "location": "Sunshine North, Sunshine North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82090685986364,
+                    -37.76140620300438
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-11T18:05:00+11:00",
+                "updated": "2020-11-11T18:09:00+11:00",
+                "id": "ESTA:201150533",
+                "location": "Canterbury",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.08132535173567,
+                    -37.82277456441759
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2020-11-11T16:17:00+11:00",
-                "updated": "2020-11-11T17:11:00+11:00",
-                "id": "ESTA:201150519",
-                "location": "Hawthorn",
+                "created": "2020-11-11T18:07:00+11:00",
+                "updated": "2020-11-11T18:09:00+11:00",
+                "id": "ESTA:201150534",
+                "location": "St Leonards",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02251881793407,
-                    -37.81434881899432
+                    144.7120112742877,
+                    -38.169414250812004
                 ]
             }
         }

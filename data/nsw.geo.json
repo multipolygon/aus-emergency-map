@@ -173,10 +173,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.5860595700001,
-                    -31.414600276999977
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            142.5860595700001,
+                            -31.414600276999977
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            142.5772738219999,
+                                            -31.412127552999916
+                                        ],
+                                        [
+                                            142.57929636399987,
+                                            -31.426213962000034
+                                        ],
+                                        [
+                                            142.5907653659999,
+                                            -31.423667939000072
+                                        ],
+                                        [
+                                            142.58640904800012,
+                                            -31.410125474000115
+                                        ],
+                                        [
+                                            142.58638715800015,
+                                            -31.410223983999984
+                                        ],
+                                        [
+                                            142.5863871579998,
+                                            -31.41005742200006
+                                        ],
+                                        [
+                                            142.58640904800012,
+                                            -31.410125474000115
+                                        ],
+                                        [
+                                            142.58643474699988,
+                                            -31.41000983299991
+                                        ],
+                                        [
+                                            142.5772738219999,
+                                            -31.412127552999916
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1209,6 +1262,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.5861797330001,
+                    -33.13337354799995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BILLBABOURIE RD GWANDALAN",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398162",
+                "created": "2020-11-12T20:50:00+11:00",
+                "updated": "2020-11-13T07:50:00+11:00",
+                "location": "10 BILLBABOURIE RD GWANDALAN",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 10 BILLBABOURIE RD GWANDALAN <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2020 07:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     144.54686299900004,
                     -35.64372899999995
                 ]
@@ -1490,30 +1567,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: TAMMIT STN, Euston, NSW 2737 <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Nov 2020 18:40",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.35808491700004,
-                    -32.24258815299993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tottenham MPS",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398161",
-                "created": "2020-11-12T20:42:00+11:00",
-                "updated": "2020-11-13T07:42:00+11:00",
-                "location": "Tottenham MPS",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Tottenham MPS <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2020 07:42",
-                "title": "incident: other"
             }
         },
         {

@@ -10526,6 +10526,52 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tooronga Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-12T15:22:53+11:00",
+                "updated": "2020-11-12T15:22:53+11:00",
+                "id": "ESTA:201111909",
+                "location": "Tooronga Rd, Hawthorn East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0467605495305,
+                    -37.83663901318852
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Albrecht Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-12T15:18:00+11:00",
+                "updated": "2020-11-12T15:18:00+11:00",
+                "id": "ESTA:201111904",
+                "location": "Albrecht Rd, Gerang Gerung",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.91396415255483,
+                    -36.373768958216345
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -12072,98 +12118,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Latrobe Pde",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-12T13:45:00+11:00",
-                "updated": "2020-11-12T14:40:00+11:00",
-                "id": "ESTA:201111818",
-                "location": "Latrobe Pde, Dromana",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95359309407516,
-                    -38.33805780368683
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rintoull St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-11-12T14:23:00+11:00",
-                "updated": "2020-11-12T14:36:00+11:00",
-                "id": "ESTA:201111845",
-                "location": "Rintoull St, Morwell",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.4144704758114,
-                    -38.23308635521852
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Baradine Ct",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-11-12T13:41:00+11:00",
-                "updated": "2020-11-12T14:24:00+11:00",
-                "id": "ESTA:201111813",
-                "location": "Baradine Ct, Sunbury",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.69876326560083,
-                    -37.57426592963773
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sandown Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-11-12T15:09:00+11:00",
-                "updated": "2020-11-12T15:09:00+11:00",
-                "id": "ESTA:201111894",
-                "location": "Sandown Rd, Springvale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16224316481862,
-                    -37.95248520133187
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Walley Lane",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -12273,6 +12227,52 @@
                 "coordinates": [
                     144.64237199841884,
                     -36.24143173101131
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Latrobe Pde",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-12T13:45:00+11:00",
+                "updated": "2020-11-12T14:40:00+11:00",
+                "id": "ESTA:201111818",
+                "location": "Latrobe Pde, Dromana",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95359309407516,
+                    -38.33805780368683
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rintoull St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-11-12T14:23:00+11:00",
+                "updated": "2020-11-12T14:36:00+11:00",
+                "id": "ESTA:201111845",
+                "location": "Rintoull St, Morwell",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.4144704758114,
+                    -38.23308635521852
                 ]
             }
         },

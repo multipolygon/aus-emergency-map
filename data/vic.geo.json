@@ -10229,6 +10229,28 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Jenkins Terrace, Naracoorte",
+                "category": "other",
+                "subcategory": "other",
+                "status": "going",
+                "created": "2020-11-14T08:16:00+11:00",
+                "updated": "2020-11-14T08:16:00+11:00",
+                "id": "1391179",
+                "location": "Jenkins Terrace, Naracoorte",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.7508176155,
+                    -36.9542372763717
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "East Warburton - Crooked Creek Pipeline",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -10275,35 +10297,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Shaggy Ridge Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-11-14T07:51:00+11:00",
-                "updated": "2020-11-14T08:12:00+11:00",
-                "id": "ESTA:201113669",
-                "location": "Shaggy Ridge Rd, Robinvale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.7448885844932,
-                    -34.666543659561064
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Derrimut",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-11-14T08:12:35+11:00",
-                "updated": "2020-11-14T08:12:35+11:00",
+                "status": "safe",
+                "created": "2020-11-14T08:21:00+11:00",
+                "updated": "2020-11-14T08:21:00+11:00",
                 "id": "ESTA:201113711",
                 "location": "Derrimut, Derrimut",
                 "size": "Small",
@@ -10321,14 +10320,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Burwood Hwy",
+                "sourceTitle": "Shaggy Ridge Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-11-14T08:13:54+11:00",
-                "updated": "2020-11-14T08:13:54+11:00",
-                "id": "ESTA:201113694",
-                "location": "Burwood Hwy, Burwood",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-11-14T07:51:00+11:00",
+                "updated": "2020-11-14T08:23:00+11:00",
+                "id": "ESTA:201113669",
+                "location": "Shaggy Ridge Rd, Robinvale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10336,30 +10335,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.12151433434772,
-                    -37.851065585233464
+                    142.7448885844932,
+                    -34.666543659561064
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Woolshed Rd, Finley",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-11-13T14:30:00+11:00",
-                "updated": "2020-11-13T14:30:00+11:00",
-                "id": "2020-11-13T14:30:00.0000000:398088",
-                "location": "895 Woolshed Rd, Finley, Nsw 2713",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-11-14T05:53:00+11:00",
+                "updated": "2020-11-14T08:24:00+11:00",
+                "id": "ESTA:201150684",
+                "location": "Snake Valley",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.648926,
-                    -35.716576
+                    143.57762377297405,
+                    -37.63376510438297
                 ]
             }
         },
@@ -10426,6 +10425,50 @@
                 "coordinates": [
                     144.546862999,
                     -35.643729
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Merton Haystack Fire",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-11-14T08:25:00+11:00",
+                "updated": "2020-11-14T08:25:00+11:00",
+                "id": "2020-11-14T08:25:00.0000000:398249",
+                "location": "Humeden Road And Merton Road",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.193062067,
+                    -35.911202902
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Woolshed Rd, Finley",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-11-13T14:30:00+11:00",
+                "updated": "2020-11-13T14:30:00+11:00",
+                "id": "2020-11-13T14:30:00.0000000:398088",
+                "location": "895 Woolshed Rd, Finley, Nsw 2713",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.648926,
+                    -35.716576
                 ]
             }
         },
@@ -11429,6 +11472,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Burwood Hwy",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-11-14T08:13:54+11:00",
+                "updated": "2020-11-14T08:13:54+11:00",
+                "id": "ESTA:201113694",
+                "location": "Burwood Hwy, Burwood",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12151433434772,
+                    -37.851065585233464
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
@@ -11445,28 +11511,6 @@
                 "coordinates": [
                     145.58407784904213,
                     -37.79894439132987
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-14T05:53:00+11:00",
-                "updated": "2020-11-14T06:13:00+11:00",
-                "id": "ESTA:201150684",
-                "location": "Snake Valley",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.57762377297405,
-                    -37.63376510438297
                 ]
             }
         }

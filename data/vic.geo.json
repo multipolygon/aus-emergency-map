@@ -10275,14 +10275,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clayton Rd",
+                "sourceTitle": "Marine Pde",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-14T00:06:00+11:00",
+                "updated": "2020-11-14T00:08:00+11:00",
+                "id": "ESTA:201113563",
+                "location": "Marine Pde, San Remo",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3675212256937,
+                    -38.521356201262655
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Adamson St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-11-14T00:02:05+11:00",
-                "updated": "2020-11-14T00:02:05+11:00",
-                "id": "ESTA:201113561",
-                "location": "Clayton Rd, Clayton",
+                "status": "under control",
+                "created": "2020-11-14T00:08:59+11:00",
+                "updated": "2020-11-14T00:08:59+11:00",
+                "id": "ESTA:201113560",
+                "location": "Adamson St, Braybrook",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10290,8 +10313,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1208306632392,
-                    -37.92086497736157
+                    144.85681196187164,
+                    -37.78766512273989
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Gippsland Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-14T00:11:00+11:00",
+                "updated": "2020-11-14T00:11:00+11:00",
+                "id": "ESTA:201113564",
+                "location": "South Gippsland Hwy, Foster",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.2439417385292,
+                    -38.64469219392776
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-11-13T22:15:00+11:00",
+                "updated": "2020-11-14T00:16:00+11:00",
+                "id": "ESTA:201113542",
+                "location": "Diggers Rest",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7402193861978,
+                    -37.656046214543
                 ]
             }
         },
@@ -11354,51 +11422,6 @@
                 "coordinates": [
                     144.9568478293864,
                     -37.82431470962063
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Adamson St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-11-13T23:41:10+11:00",
-                "updated": "2020-11-13T23:41:10+11:00",
-                "id": "ESTA:201113560",
-                "location": "Adamson St, Braybrook",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.85681196187164,
-                    -37.78766512273989
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "request for assistance",
-                "created": "2020-11-13T22:15:00+11:00",
-                "updated": "2020-11-13T22:24:00+11:00",
-                "id": "ESTA:201113542",
-                "location": "Diggers Rest",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7402193861978,
-                    -37.656046214543
                 ]
             }
         }

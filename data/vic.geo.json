@@ -10275,23 +10275,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Westernport Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-14T07:35:08+11:00",
-                "updated": "2020-11-14T07:35:08+11:00",
-                "id": "ESTA:201113595",
-                "location": "Westernport Rd, Lang Lang",
+                "sourceTitle": "Shaggy Ridge Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-14T07:51:00+11:00",
+                "updated": "2020-11-14T07:51:00+11:00",
+                "id": "ESTA:201113669",
+                "location": "Shaggy Ridge Rd, Robinvale",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.6102135541916,
-                    -38.2518479467258
+                    142.7448885844932,
+                    -34.666543659561064
                 ]
             }
         },
@@ -10301,9 +10301,9 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-11-14T07:35:00+11:00",
-                "updated": "2020-11-14T07:35:00+11:00",
+                "updated": "2020-11-14T07:56:00+11:00",
                 "id": "ESTA:201113647",
                 "location": "Wallan",
                 "size": "Small",
@@ -10315,6 +10315,95 @@
                 "coordinates": [
                     144.99508362103913,
                     -37.417948625575406
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Willaura",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-14T06:39:13+11:00",
+                "updated": "2020-11-14T07:55:52+11:00",
+                "id": "ESTA:201113608",
+                "location": "Maroona-Glenthompson Rd, Willaura",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.77563353478857,
+                    -37.49840276587714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Westernport Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-11-14T05:56:00+11:00",
+                "updated": "2020-11-14T07:35:00+11:00",
+                "id": "ESTA:201113595",
+                "location": "Westernport Rd, Lang Lang",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.61021209878922,
+                    -38.25184908579728
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Burwood",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-14T08:01:25+11:00",
+                "updated": "2020-11-14T08:02:38+11:00",
+                "id": "ESTA:201113694",
+                "location": "Burwood Hwy, Burwood",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12151781843625,
+                    -37.8510603570863
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Woolshed Rd, Finley",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-11-13T14:30:00+11:00",
+                "updated": "2020-11-13T14:30:00+11:00",
+                "id": "2020-11-13T14:30:00.0000000:398088",
+                "location": "895 Woolshed Rd, Finley, Nsw 2713",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.648926,
+                    -35.716576
                 ]
             }
         },
@@ -10381,28 +10470,6 @@
                 "coordinates": [
                     144.546862999,
                     -35.643729
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Woolshed Rd, Finley",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-11-13T14:30:00+11:00",
-                "updated": "2020-11-13T14:30:00+11:00",
-                "id": "2020-11-13T14:30:00.0000000:398088",
-                "location": "895 Woolshed Rd, Finley, Nsw 2713",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.648926,
-                    -35.716576
                 ]
             }
         },
@@ -11337,29 +11404,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Maroona-Glenthompson Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-14T06:42:00+11:00",
-                "updated": "2020-11-14T07:00:00+11:00",
-                "id": "ESTA:201113608",
-                "location": "Maroona-Glenthompson Rd, Willaura",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.77561916604807,
-                    -37.49841255925769
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Adamson St",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -11377,6 +11421,51 @@
                 "coordinates": [
                     144.85681196187164,
                     -37.78766512273989
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Palmerston St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-14T07:56:40+11:00",
+                "updated": "2020-11-14T07:56:40+11:00",
+                "id": "ESTA:201113663",
+                "location": "Palmerston St, Carlton",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9742815982337,
+                    -37.796911120832114
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-14T08:00:00+11:00",
+                "updated": "2020-11-14T08:01:00+11:00",
+                "id": "ESTA:201150686",
+                "location": "Launching Place",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.58407784904213,
+                    -37.79894439132987
                 ]
             }
         },

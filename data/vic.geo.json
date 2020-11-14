@@ -10292,19 +10292,42 @@
                 "sourceTitle": "Seaford",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-11-15T09:20:44+11:00",
-                "updated": "2020-11-15T09:20:53+11:00",
+                "status": "under control",
+                "created": "2020-11-15T09:29:44+11:00",
+                "updated": "2020-11-15T09:29:44+11:00",
                 "id": "ESTA:201115928",
-                "location": "Seaford",
+                "location": "Seaford, Seaford",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.13061077000586,
-                    -38.083632657805175
+                    145.13060934073098,
+                    -38.083634613196274
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Somerville",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-15T09:30:36+11:00",
+                "updated": "2020-11-15T09:31:05+11:00",
+                "id": "ESTA:201115937",
+                "location": "Jones Rd, Somerville",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17073578063412,
+                    -38.2438586841654
                 ]
             }
         },
@@ -16950,28 +16973,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Belmore St, Howlong",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-11-15T08:11:00+11:00",
-                "updated": "2020-11-15T08:11:00+11:00",
-                "id": "2020-11-15T08:11:00.0000000:398256",
-                "location": "Belmore St, Howlong, Nsw 2643",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.618918,
-                    -35.971303
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Euston Regional Park",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -17032,6 +17033,28 @@
                 "coordinates": [
                     144.487638474,
                     -35.2924301639999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Belmore St, Howlong",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-11-15T08:11:00+11:00",
+                "updated": "2020-11-15T08:11:00+11:00",
+                "id": "2020-11-15T08:11:00.0000000:398256",
+                "location": "Belmore St, Howlong, Nsw 2643",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.618918,
+                    -35.971303
                 ]
             }
         },

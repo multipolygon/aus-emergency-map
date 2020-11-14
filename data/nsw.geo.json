@@ -250,10 +250,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.38656425400006,
-                    -28.936580289999938
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.38656425400006,
+                            -28.936580289999938
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.408406477,
+                                            -28.935131113
+                                        ],
+                                        [
+                                            153.40834699,
+                                            -28.9353095719999
+                                        ],
+                                        [
+                                            153.407097773,
+                                            -28.9375700599999
+                                        ],
+                                        [
+                                            153.408941855,
+                                            -28.93911671
+                                        ],
+                                        [
+                                            153.38728876,
+                                            -28.9388787629999
+                                        ],
+                                        [
+                                            153.388121572,
+                                            -28.9340603549999
+                                        ],
+                                        [
+                                            153.408406477,
+                                            -28.935131113
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -287,11 +332,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398291",
-                "created": "2020-11-14T05:53:00+11:00",
-                "updated": "2020-11-14T16:53:00+11:00",
+                "created": "2020-11-14T07:47:00+11:00",
+                "updated": "2020-11-14T18:47:00+11:00",
                 "location": "Minne Water Rd, Minnie Water",
                 "size": 10,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Minne Water Rd, Minnie Water <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 14 Nov 2020 16:53",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Minne Water Rd, Minnie Water <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 14 Nov 2020 18:47",
                 "title": "incident: fire"
             }
         },
@@ -1376,11 +1421,11 @@
                 "subcategory": "burn off",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398307",
-                "created": "2020-11-14T06:10:00+11:00",
-                "updated": "2020-11-14T17:10:00+11:00",
+                "created": "2020-11-14T07:57:00+11:00",
+                "updated": "2020-11-14T18:57:00+11:00",
                 "location": "37 Malapatinti Rd, Invergowrie, NSW 2350",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 37 Malapatinti Rd, Invergowrie, NSW 2350 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2020 17:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 37 Malapatinti Rd, Invergowrie, NSW 2350 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2020 18:57",
                 "title": "incident: fire"
             }
         },

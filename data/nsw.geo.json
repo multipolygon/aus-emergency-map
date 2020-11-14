@@ -125,10 +125,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.9006958000001,
-                    -32.08839220799996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.9146003720001,
+                            -32.04875214499998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.913671157,
+                                            -32.0458844529999
+                                        ],
+                                        [
+                                            147.918013673,
+                                            -32.048977754
+                                        ],
+                                        [
+                                            147.917121375,
+                                            -32.0545099999999
+                                        ],
+                                        [
+                                            147.913016804,
+                                            -32.0561756229999
+                                        ],
+                                        [
+                                            147.901000526,
+                                            -32.05569973
+                                        ],
+                                        [
+                                            147.90677072,
+                                            -32.048620834
+                                        ],
+                                        [
+                                            147.910637344,
+                                            -32.045170616
+                                        ],
+                                        [
+                                            147.913671157,
+                                            -32.0458844529999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -138,11 +187,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398298",
-                "created": "2020-11-14T04:25:00+11:00",
-                "updated": "2020-11-14T15:25:00+11:00",
+                "created": "2020-11-14T05:08:00+11:00",
+                "updated": "2020-11-14T16:08:00+11:00",
                 "location": "Dandaloo Rd, Trangie, NSW 2823",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Dandaloo Rd, Trangie, NSW 2823 <br />COUNCIL AREA: Narromine <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2020 15:25",
+                "size": 300,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Dandaloo Rd, Trangie, NSW 2823 <br />COUNCIL AREA: Narromine <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 300 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2020 16:08",
                 "title": "incident: fire"
             }
         },
@@ -341,13 +390,13 @@
                 "sourceTitle": "Minnie Water Rd, Minnie Water",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398291",
-                "created": "2020-11-14T04:21:00+11:00",
-                "updated": "2020-11-14T15:21:00+11:00",
+                "created": "2020-11-14T05:01:00+11:00",
+                "updated": "2020-11-14T16:01:00+11:00",
                 "location": "Minne Water Rd, Minnie Water",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Minne Water Rd, Minnie Water <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2020 15:21",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Minne Water Rd, Minnie Water <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2020 16:01",
                 "title": "incident: fire"
             }
         },
@@ -371,7 +420,7 @@
                 "updated": "2020-11-14T10:05:00+11:00",
                 "location": "25kms West of Euston",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 25kms West of Euston <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 14 Nov 2020 10:05",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 25kms West of Euston <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 14 Nov 2020 10:05",
                 "title": "incident: fire"
             }
         },
@@ -389,13 +438,13 @@
                 "sourceTitle": "Pacific Hwy, Clybucca",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398295",
-                "created": "2020-11-14T04:48:00+11:00",
-                "updated": "2020-11-14T15:48:00+11:00",
+                "created": "2020-11-14T05:09:00+11:00",
+                "updated": "2020-11-14T16:09:00+11:00",
                 "location": "2267 Pacific Hwy, Clybucca, NSW 2440",
-                "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2267 Pacific Hwy, Clybucca, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2020 15:48",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2267 Pacific Hwy, Clybucca, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2020 16:09",
                 "title": "incident: fire"
             }
         },

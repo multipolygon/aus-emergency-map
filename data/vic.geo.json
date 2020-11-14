@@ -10267,37 +10267,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wells Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
+                "sourceTitle": "Jones Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2020-11-15T02:49:37+11:00",
-                "updated": "2020-11-15T02:49:37+11:00",
-                "id": "ESTA:201115854",
-                "location": "Wells Rd, Chelsea Heights",
+                "created": "2020-11-14T21:56:00+11:00",
+                "updated": "2020-11-15T03:17:00+11:00",
+                "id": "ESTA:201115807",
+                "location": "Jones Rd, Somerville",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.14098157341988,
-                    -38.047172429150805
+                    145.17071995034505,
+                    -38.2438736240151
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kurung Dr",
+                "sourceTitle": "Nelson St",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-11-15T02:59:50+11:00",
-                "updated": "2020-11-15T02:59:50+11:00",
-                "id": "ESTA:201115856",
-                "location": "Kurung Dr, Kings Park",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-15T03:21:00+11:00",
+                "updated": "2020-11-15T03:21:00+11:00",
+                "id": "ESTA:201115860",
+                "location": "Nelson St, Apollo Bay",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10305,8 +10305,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.76935910918397,
-                    -37.731259715589594
+                    143.6649279474227,
+                    -38.75862337044117
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glenroy",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-15T03:23:00+11:00",
+                "updated": "2020-11-15T03:23:00+11:00",
+                "id": "ESTA:201115861",
+                "location": "Glenroy, Glenroy",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90684091269154,
+                    -37.699755817361506
                 ]
             }
         },
@@ -16952,50 +16975,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Simms St, Moama",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-11-15T00:31:00+11:00",
-                "updated": "2020-11-15T00:31:00+11:00",
-                "id": "2020-11-15T00:31:00.0000000:398277",
-                "location": "Simms St, Moama, Nsw 2731",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.761061,
-                    -36.114746
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Woolshed Rd, Finley",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-11-13T14:30:00+11:00",
-                "updated": "2020-11-13T14:30:00+11:00",
-                "id": "2020-11-13T14:30:00.0000000:398088",
-                "location": "895 Woolshed Rd, Finley, Nsw 2713",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.648926,
-                    -35.716576
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Euston Regional Park",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -17122,6 +17101,50 @@
                 "coordinates": [
                     146.193062067,
                     -35.911202902
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Simms St, Moama",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-11-15T00:31:00+11:00",
+                "updated": "2020-11-15T00:31:00+11:00",
+                "id": "2020-11-15T00:31:00.0000000:398277",
+                "location": "Simms St, Moama, Nsw 2731",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.761061,
+                    -36.114746
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Woolshed Rd, Finley",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-11-13T14:30:00+11:00",
+                "updated": "2020-11-13T14:30:00+11:00",
+                "id": "2020-11-13T14:30:00.0000000:398088",
+                "location": "895 Woolshed Rd, Finley, Nsw 2713",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.648926,
+                    -35.716576
                 ]
             }
         },
@@ -18056,23 +18079,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Jones Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "under control",
-                "created": "2020-11-14T21:56:00+11:00",
-                "updated": "2020-11-14T22:22:00+11:00",
-                "id": "ESTA:201115807",
-                "location": "Jones Rd, Somerville",
+                "sourceTitle": "Wells Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-15T02:41:00+11:00",
+                "updated": "2020-11-15T02:49:00+11:00",
+                "id": "ESTA:201115854",
+                "location": "Wells Rd, Chelsea Heights",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.17071995034505,
-                    -38.2438736240151
+                    145.1409721951119,
+                    -38.04717972923295
                 ]
             }
         },
@@ -18096,6 +18119,29 @@
                 "coordinates": [
                     144.7914982239538,
                     -37.70466548845607
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kurung Dr",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-11-15T02:59:50+11:00",
+                "updated": "2020-11-15T02:59:50+11:00",
+                "id": "ESTA:201115856",
+                "location": "Kurung Dr, Kings Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.76935910918397,
+                    -37.731259715589594
                 ]
             }
         },

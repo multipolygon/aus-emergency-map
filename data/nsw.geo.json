@@ -81,30 +81,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.52588367400006,
-                    -32.96413473399997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Blowfly Rd, Freemans Waterhole",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398388",
-                "created": "2020-11-15T05:08:00+11:00",
-                "updated": "2020-11-15T16:08:00+11:00",
-                "location": "Blowfly Rd, Freemans Waterhole, NSW 2323",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Blowfly Rd, Freemans Waterhole, NSW 2323 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Nov 2020 16:08",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -267,10 +243,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.6953460000001,
-                    -31.455875998999943
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.6953460000001,
+                            -31.455875998999943
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.608851255,
+                                            -31.4496265839999
+                                        ],
+                                        [
+                                            147.57006604,
+                                            -31.448555826
+                                        ],
+                                        [
+                                            147.548531918,
+                                            -31.428687327
+                                        ],
+                                        [
+                                            147.548293972,
+                                            -31.41167418
+                                        ],
+                                        [
+                                            147.569471175,
+                                            -31.409532665
+                                        ],
+                                        [
+                                            147.588863782,
+                                            -31.411198288
+                                        ],
+                                        [
+                                            147.596716003,
+                                            -31.4195264009999
+                                        ],
+                                        [
+                                            147.600761087,
+                                            -31.430233976
+                                        ],
+                                        [
+                                            147.599214438,
+                                            -31.439870793
+                                        ],
+                                        [
+                                            147.607423577,
+                                            -31.4417743619999
+                                        ],
+                                        [
+                                            147.6090892,
+                                            -31.4496265839999
+                                        ],
+                                        [
+                                            147.608851255,
+                                            -31.4496265839999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -352,11 +393,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398116",
-                "created": "2020-11-14T23:17:00+11:00",
-                "updated": "2020-11-15T10:17:00+11:00",
+                "created": "2020-11-15T06:07:00+11:00",
+                "updated": "2020-11-15T17:07:00+11:00",
                 "location": "1.6kms Sth of Euston",
                 "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1.6kms Sth of Euston <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 15 Nov 2020 10:17",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1.6kms Sth of Euston <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 15 Nov 2020 17:07",
                 "title": "incident: fire"
             }
         },
@@ -618,11 +659,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398225",
-                "created": "2020-11-14T23:04:00+11:00",
-                "updated": "2020-11-15T10:04:00+11:00",
+                "created": "2020-11-15T05:59:00+11:00",
+                "updated": "2020-11-15T16:59:00+11:00",
                 "location": "25kms West of Euston",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 25kms West of Euston <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 15 Nov 2020 10:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 25kms West of Euston <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 15 Nov 2020 16:59",
                 "title": "incident: fire"
             }
         },
@@ -1585,13 +1626,13 @@
                 "sourceTitle": "Collett Cct, Appin",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398394",
-                "created": "2020-11-15T05:48:00+11:00",
-                "updated": "2020-11-15T16:48:00+11:00",
+                "created": "2020-11-15T06:05:00+11:00",
+                "updated": "2020-11-15T17:05:00+11:00",
                 "location": "16 Collett Cct, Appin, NSW 2560",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 16 Collett Cct, Appin, NSW 2560 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Nov 2020 16:48",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 16 Collett Cct, Appin, NSW 2560 <br />COUNCIL AREA: Wollondilly <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Nov 2020 17:05",
                 "title": "incident: other"
             }
         },

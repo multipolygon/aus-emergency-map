@@ -4,10 +4,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.91234500000007,
-                    -35.623719999999935
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.91234500000007,
+                            -35.623719999999935
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            144.936401069,
+                                            -35.600093434
+                                        ],
+                                        [
+                                            144.954365999,
+                                            -35.61710658
+                                        ],
+                                        [
+                                            144.955436757,
+                                            -35.638640702
+                                        ],
+                                        [
+                                            144.946394805,
+                                            -35.6529174679999
+                                        ],
+                                        [
+                                            144.936401069,
+                                            -35.65494001
+                                        ],
+                                        [
+                                            144.929262685,
+                                            -35.651370818
+                                        ],
+                                        [
+                                            144.929262685,
+                                            -35.634595619
+                                        ],
+                                        [
+                                            144.932118039,
+                                            -35.618058365
+                                        ],
+                                        [
+                                            144.936401069,
+                                            -35.600093434
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -17,11 +70,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398431",
-                "created": "2020-11-15T15:31:00+11:00",
-                "updated": "2020-11-16T02:31:00+11:00",
+                "created": "2020-11-15T17:20:00+11:00",
+                "updated": "2020-11-16T04:20:00+11:00",
                 "location": "Cobb Hwy, Deniliquin, NSW 2710",
                 "size": 1000,
-                "description": "ALERT LEVEL: Watch and Act <br />LOCATION: Cobb Hwy, Deniliquin, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1000 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 02:31",
+                "description": "ALERT LEVEL: Watch and Act <br />LOCATION: Cobb Hwy, Deniliquin, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1000 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 04:20",
                 "title": "incident: fire"
             }
         },
@@ -489,11 +542,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398384",
-                "created": "2020-11-15T07:54:00+11:00",
-                "updated": "2020-11-15T18:54:00+11:00",
+                "created": "2020-11-15T17:10:00+11:00",
+                "updated": "2020-11-16T04:10:00+11:00",
                 "location": "Demon Creek Rd S, Rocky River, NSW 2372",
-                "size": 225,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Demon Creek Rd S, Rocky River, NSW 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 225 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Nov 2020 18:54",
+                "size": 227,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Demon Creek Rd S, Rocky River, NSW 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 227 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 04:10",
                 "title": "incident: fire"
             }
         },

@@ -938,10 +938,70 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.235507965,
-                    -32.45748746199996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.235507965,
+                            -32.45748746199996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.232221415,
+                                            -32.4517998549999
+                                        ],
+                                        [
+                                            147.243285909,
+                                            -32.448528096
+                                        ],
+                                        [
+                                            147.24324506,
+                                            -32.4485573539999
+                                        ],
+                                        [
+                                            147.243317213,
+                                            -32.4573018739999
+                                        ],
+                                        [
+                                            147.232221415,
+                                            -32.4517998549999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.261346575,
+                                            -32.448921264
+                                        ],
+                                        [
+                                            147.261287089,
+                                            -32.448921264
+                                        ],
+                                        [
+                                            147.261227602,
+                                            -32.448861778
+                                        ],
+                                        [
+                                            147.261346575,
+                                            -32.448921264
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -956,6 +1016,30 @@
                 "location": "Yambora Rd, Boona Mount, NSW 2877",
                 "size": 40,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Yambora Rd, Boona Mount, NSW 2877 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 40 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Nov 2020 12:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.78816200000006,
+                    -33.85064099999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mamre Rd, Kemps Creek",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398461",
+                "created": "2020-11-15T23:05:00+11:00",
+                "updated": "2020-11-16T10:05:00+11:00",
+                "location": "930B Mamre Rd, Kemps Creek, NSW 2178",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 930B Mamre Rd, Kemps Creek, NSW 2178 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 10:05",
                 "title": "incident: fire"
             }
         },
@@ -1134,6 +1218,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.2376229990001,
+                    -36.89445299999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Monaro Hwy, Bombala",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398462",
+                "created": "2020-11-15T23:10:00+11:00",
+                "updated": "2020-11-16T10:10:00+11:00",
+                "location": "Monaro Hwy, Bombala, NSW 2632",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Monaro Hwy, Bombala, NSW 2632 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 10:10",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     142.44896650300007,
                     -34.57803371799997
                 ]
@@ -1145,11 +1253,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398225",
-                "created": "2020-11-15T05:59:00+11:00",
-                "updated": "2020-11-15T16:59:00+11:00",
+                "created": "2020-11-15T23:13:00+11:00",
+                "updated": "2020-11-16T10:13:00+11:00",
                 "location": "25kms West of Euston",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 25kms West of Euston <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 15 Nov 2020 16:59",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 25kms West of Euston <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 16 Nov 2020 10:13",
                 "title": "incident: fire"
             }
         },
@@ -2018,11 +2126,11 @@
                 "subcategory": "burn off",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398406",
-                "created": "2020-11-15T06:25:00+11:00",
-                "updated": "2020-11-15T17:25:00+11:00",
+                "created": "2020-11-15T23:07:00+11:00",
+                "updated": "2020-11-16T10:07:00+11:00",
                 "location": "Eastern Side, Pacific Highway, North of Clybucca Creek",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eastern Side, Pacific Highway, North of Clybucca Creek <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Nov 2020 17:25",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eastern Side, Pacific Highway, North of Clybucca Creek <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 10:07",
                 "title": "incident: fire"
             }
         },
@@ -2040,13 +2148,13 @@
                 "sourceTitle": "Ellerslie",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398456",
-                "created": "2020-11-15T22:15:00+11:00",
-                "updated": "2020-11-16T09:15:00+11:00",
+                "created": "2020-11-15T23:06:00+11:00",
+                "updated": "2020-11-16T10:06:00+11:00",
                 "location": "Ellerslie Road, Palinyewah NSW 2648",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ellerslie Road, Palinyewah NSW 2648 <br />COUNCIL AREA: Wentworth <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 09:15",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ellerslie Road, Palinyewah NSW 2648 <br />COUNCIL AREA: Wentworth <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 10:06",
                 "title": "incident: other"
             }
         },
@@ -2072,6 +2180,54 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eulah Creek Rd, Eulah Creek, NSW 2390 <br />COUNCIL AREA: Narrabri <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 07:34",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.3302040000001,
+                    -28.765529999999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Greengate Rd, Bexhill",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398460",
+                "created": "2020-11-15T23:02:00+11:00",
+                "updated": "2020-11-16T10:02:00+11:00",
+                "location": "Greengate Rd, Bexhill, NSW 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Greengate Rd, Bexhill, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 10:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.81771000000003,
+                    -36.63615199999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jimenbuen Rd, Numbla Vale",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398459",
+                "created": "2020-11-15T22:48:00+11:00",
+                "updated": "2020-11-16T09:48:00+11:00",
+                "location": "Jimenbuen Rd, Numbla Vale, NSW 2628",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Jimenbuen Rd, Numbla Vale, NSW 2628 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 09:48",
+                "title": "incident: other"
             }
         },
         {
@@ -2208,13 +2364,13 @@
                 "sourceTitle": "Unit Crn/Rollands Plains Rd, Rollands Plains",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398452",
-                "created": "2020-11-15T21:55:00+11:00",
-                "updated": "2020-11-16T08:55:00+11:00",
+                "created": "2020-11-15T23:15:00+11:00",
+                "updated": "2020-11-16T10:15:00+11:00",
                 "location": "Unit Crn/Rollands Plains Rd, Rollands Plains, NSW 2441",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit Crn/Rollands Plains Rd, Rollands Plains, NSW 2441 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 08:55",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit Crn/Rollands Plains Rd, Rollands Plains, NSW 2441 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 10:15",
                 "title": "incident: other"
             }
         }

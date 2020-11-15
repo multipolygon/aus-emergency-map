@@ -696,10 +696,115 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.2151570000001,
-                    -29.15955299999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.2151570000001,
+                            -29.15955299999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.226172574,
+                                            -29.1300185709999
+                                        ],
+                                        [
+                                            152.231264621,
+                                            -29.13218388
+                                        ],
+                                        [
+                                            152.232335379,
+                                            -29.133111871
+                                        ],
+                                        [
+                                            152.233310958,
+                                            -29.132945309
+                                        ],
+                                        [
+                                            152.236309078,
+                                            -29.130898972
+                                        ],
+                                        [
+                                            152.236618408,
+                                            -29.1316603989999
+                                        ],
+                                        [
+                                            152.236404257,
+                                            -29.132731157
+                                        ],
+                                        [
+                                            152.234191358,
+                                            -29.1343016009999
+                                        ],
+                                        [
+                                            152.234833812,
+                                            -29.135491331
+                                        ],
+                                        [
+                                            152.23802229,
+                                            -29.137323517
+                                        ],
+                                        [
+                                            152.237879523,
+                                            -29.138156328
+                                        ],
+                                        [
+                                            152.232430557,
+                                            -29.13925088
+                                        ],
+                                        [
+                                            152.231264621,
+                                            -29.140702351
+                                        ],
+                                        [
+                                            152.229670382,
+                                            -29.141202038
+                                        ],
+                                        [
+                                            152.228623419,
+                                            -29.140892708
+                                        ],
+                                        [
+                                            152.226981591,
+                                            -29.142344179
+                                        ],
+                                        [
+                                            152.223079275,
+                                            -29.142082439
+                                        ],
+                                        [
+                                            152.220794993,
+                                            -29.14074994
+                                        ],
+                                        [
+                                            152.220414278,
+                                            -29.140274048
+                                        ],
+                                        [
+                                            152.220152538,
+                                            -29.139227085
+                                        ],
+                                        [
+                                            152.220485663,
+                                            -29.137965971
+                                        ],
+                                        [
+                                            152.226172574,
+                                            -29.1300185709999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1902,6 +2007,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.85273400000005,
+                    -29.47419900099993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bingara Rd, Moree",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398453",
+                "created": "2020-11-15T21:30:00+11:00",
+                "updated": "2020-11-16T08:30:00+11:00",
+                "location": "4 Bingara Rd, Moree, NSW 2400",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 Bingara Rd, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Nov 2020 08:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     144.54686299900004,
                     -35.64372899999995
                 ]
@@ -2094,6 +2223,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.54912400000012,
+                    -33.40330499999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Scotford Pl, Windradyne",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398450",
+                "created": "2020-11-15T21:20:00+11:00",
+                "updated": "2020-11-16T08:20:00+11:00",
+                "location": "8 Scotford Pl, Windradyne, NSW 2795",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8 Scotford Pl, Windradyne, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Nov 2020 08:20",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     144.7608160970001,
                     -36.116938226999935
                 ]
@@ -2135,6 +2288,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 93 Southwell Rd, Wallaroo, NSW 2618 <br />COUNCIL AREA: Yass Valley <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Nov 2020 21:36",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.756344,
+                    -34.93023199999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Weston St, Culburra Beach",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398451",
+                "created": "2020-11-15T21:20:00+11:00",
+                "updated": "2020-11-16T08:20:00+11:00",
+                "location": "8 - 22 Weston St, Culburra Beach,  2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8 - 22 Weston St, Culburra Beach,  2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2020 08:20",
+                "title": "incident: other"
             }
         },
         {

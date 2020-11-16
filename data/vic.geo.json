@@ -10381,7 +10381,7 @@
                 "updated": "2020-11-17T05:28:00+11:00",
                 "id": 978596,
                 "location": "Little Desert National Park",
-                "size": "1952.00",
+                "size": "1949.00",
                 "title": "incident: fire"
             },
             "type": "Feature",
@@ -10579,22 +10579,92 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Watsonia",
+                "sourceTitle": "Wills St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-17T06:09:33+11:00",
+                "updated": "2020-11-17T06:09:33+11:00",
+                "id": "ESTA:201117287",
+                "location": "Wills St, Glen Iris",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05610199778818,
+                    -37.85592525325722
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nepean St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-11-17T06:01:17+11:00",
-                "updated": "2020-11-17T06:02:23+11:00",
+                "status": "safe",
+                "created": "2020-11-17T06:10:53+11:00",
+                "updated": "2020-11-17T06:10:53+11:00",
                 "id": "ESTA:201117286",
                 "location": "Nepean St, Watsonia",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.08802288247162,
-                    -37.71055531388538
+                    145.08801190581528,
+                    -37.710563226814976
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-11-17T06:15:00+11:00",
+                "updated": "2020-11-17T06:15:00+11:00",
+                "id": "ESTA:201117289",
+                "location": "Strathallan",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8137611081461,
+                    -36.23210519040481
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-11-17T06:14:00+11:00",
+                "updated": "2020-11-17T06:17:00+11:00",
+                "id": "ESTA:201117288",
+                "location": "Tongala",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93405276558397,
+                    -36.2988453465942
                 ]
             }
         },
@@ -11605,96 +11675,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Metropolitan 2 - Main Ridge - Limestone Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-09-08T10:00:00+10:00",
-                "updated": "2020-09-08T10:00:00+10:00",
-                "id": "716c8a6dfc5661a23a069c3c144fccfd",
-                "location": "Metropolitan 2 - Main Ridge - Limestone Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.9267,
-                            -38.4138
-                        ],
-                        [
-                            144.9269,
-                            -38.4135
-                        ],
-                        [
-                            144.9275,
-                            -38.4134
-                        ],
-                        [
-                            144.9276,
-                            -38.4136
-                        ],
-                        [
-                            144.9277,
-                            -38.414
-                        ],
-                        [
-                            144.9275,
-                            -38.4142
-                        ],
-                        [
-                            144.928,
-                            -38.4143
-                        ],
-                        [
-                            144.9281,
-                            -38.4149
-                        ],
-                        [
-                            144.9287,
-                            -38.4151
-                        ],
-                        [
-                            144.9291,
-                            -38.4158
-                        ],
-                        [
-                            144.9291,
-                            -38.4161
-                        ],
-                        [
-                            144.9278,
-                            -38.4164
-                        ],
-                        [
-                            144.9277,
-                            -38.4158
-                        ],
-                        [
-                            144.9268,
-                            -38.4151
-                        ],
-                        [
-                            144.9269,
-                            -38.4146
-                        ],
-                        [
-                            144.9267,
-                            -38.4144
-                        ],
-                        [
-                            144.9267,
-                            -38.4138
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Eastgate Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -12044,6 +12024,96 @@
                             ]
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Metropolitan 2 - Main Ridge - Limestone Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-09-08T10:00:00+10:00",
+                "updated": "2020-09-08T10:00:00+10:00",
+                "id": "716c8a6dfc5661a23a069c3c144fccfd",
+                "location": "Metropolitan 2 - Main Ridge - Limestone Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.9267,
+                            -38.4138
+                        ],
+                        [
+                            144.9269,
+                            -38.4135
+                        ],
+                        [
+                            144.9275,
+                            -38.4134
+                        ],
+                        [
+                            144.9276,
+                            -38.4136
+                        ],
+                        [
+                            144.9277,
+                            -38.414
+                        ],
+                        [
+                            144.9275,
+                            -38.4142
+                        ],
+                        [
+                            144.928,
+                            -38.4143
+                        ],
+                        [
+                            144.9281,
+                            -38.4149
+                        ],
+                        [
+                            144.9287,
+                            -38.4151
+                        ],
+                        [
+                            144.9291,
+                            -38.4158
+                        ],
+                        [
+                            144.9291,
+                            -38.4161
+                        ],
+                        [
+                            144.9278,
+                            -38.4164
+                        ],
+                        [
+                            144.9277,
+                            -38.4158
+                        ],
+                        [
+                            144.9268,
+                            -38.4151
+                        ],
+                        [
+                            144.9269,
+                            -38.4146
+                        ],
+                        [
+                            144.9267,
+                            -38.4144
+                        ],
+                        [
+                            144.9267,
+                            -38.4138
+                        ]
+                    ]
                 ]
             }
         },
@@ -12587,7 +12657,7 @@
                 "status": "unknown",
                 "created": "2020-11-16T11:00:00+11:00",
                 "updated": "2020-11-16T11:00:00+11:00",
-                "id": "6b8995714f199f845dd353d002fde364",
+                "id": "e018851ff1c62e7b007a1a7095af17b2",
                 "location": "Wimmera 9 - Little Desert - Pump Jack Track",
                 "title": "other: burn area"
             },
@@ -12664,8 +12734,12 @@
                             -36.4795
                         ],
                         [
-                            141.8584,
-                            -36.4806
+                            141.858,
+                            -36.481
+                        ],
+                        [
+                            141.848,
+                            -36.4863
                         ],
                         [
                             141.8466,
@@ -12780,11 +12854,7 @@
                             -36.4809
                         ],
                         [
-                            141.8408,
-                            -36.4723
-                        ],
-                        [
-                            141.8663,
+                            141.8685,
                             -36.451
                         ],
                         [
@@ -13505,50 +13575,6 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-11-16T18:04:00+11:00",
-                "updated": "2020-11-16T18:06:00+11:00",
-                "id": "ESTA:201152374",
-                "location": "Breakwater",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.37907325076517,
-                    -38.177084639187804
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-11-16T16:52:00+11:00",
-                "updated": "2020-11-16T17:28:00+11:00",
-                "id": "ESTA:201152336",
-                "location": "East Geelong",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.37276174906785,
-                    -38.158634405043394
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
@@ -13652,6 +13678,50 @@
                 "coordinates": [
                     145.13444337628567,
                     -37.72997503434786
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-11-16T18:04:00+11:00",
+                "updated": "2020-11-16T18:06:00+11:00",
+                "id": "ESTA:201152374",
+                "location": "Breakwater",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.37907325076517,
+                    -38.177084639187804
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
+                "created": "2020-11-16T16:52:00+11:00",
+                "updated": "2020-11-16T17:28:00+11:00",
+                "id": "ESTA:201152336",
+                "location": "East Geelong",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.37276174906785,
+                    -38.158634405043394
                 ]
             }
         }

@@ -10281,29 +10281,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wimmera 6 - Jilpanger - Mewetts Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-11T19:15:00+11:00",
-                "updated": "2020-11-16T22:19:00+11:00",
-                "id": 978486,
-                "location": "3 Km Nw Douglas",
-                "size": "5.00",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.7124,
-                    -36.981
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mallee 14 - Hattah - Jinkers Bend",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -10602,14 +10579,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Smith St",
+                "sourceTitle": "Winter Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-11-16T22:56:05+11:00",
-                "updated": "2020-11-16T22:56:05+11:00",
-                "id": "ESTA:201117247",
-                "location": "Smith St, Fitzroy",
+                "created": "2020-11-16T22:29:00+11:00",
+                "updated": "2020-11-16T22:48:00+11:00",
+                "id": "ESTA:201117245",
+                "location": "Winter Rd, Girgarre",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10617,8 +10594,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.98469411418358,
-                    -37.795660495864816
+                    144.9260186296198,
+                    -36.399001032857434
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Johnston St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-16T23:21:19+11:00",
+                "updated": "2020-11-16T23:21:19+11:00",
+                "id": "ESTA:201117254",
+                "location": "Johnston St, Port Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94300939516768,
+                    -37.843851558166556
                 ]
             }
         },
@@ -10629,40 +10629,108 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "complete",
-                "created": "2020-11-16T06:57:00+11:00",
-                "updated": "2020-11-16T23:02:00+11:00",
-                "id": "ESTA:201151619",
-                "location": "Carrum Downs",
+                "created": "2020-11-16T00:20:00+11:00",
+                "updated": "2020-11-16T23:23:00+11:00",
+                "id": "ESTA:201151151",
+                "location": "Greensborough",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.18101757319286,
-                    -38.09592881348851
+                    145.10444740204397,
+                    -37.693718362403324
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Apollo Bay",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "responding",
-                "created": "2020-11-16T23:00:37+11:00",
-                "updated": "2020-11-16T23:03:07+11:00",
-                "id": "ESTA:201152434",
-                "location": "Great Ocean Rd, Apollo Bay",
-                "title": "incident: tree down"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-11-16T23:24:00+11:00",
+                "updated": "2020-11-16T23:26:00+11:00",
+                "id": "ESTA:201152435",
+                "location": "Sunbury",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.66953482611348,
-                    -38.75104887002318
+                    144.7080694262689,
+                    -37.58463026904998
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sunbury",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-16T23:22:39+11:00",
+                "updated": "2020-11-16T23:23:55+11:00",
+                "id": "ESTA:201117256",
+                "location": "Sunbury",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.70808168118464,
+                    -37.584614662375934
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elizabeth Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-16T23:24:46+11:00",
+                "updated": "2020-11-16T23:24:46+11:00",
+                "id": "ESTA:201117255",
+                "location": "Elizabeth Dr, Sunbury",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.70840032616016,
+                    -37.584875279301855
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cardigan Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-11-16T23:26:41+11:00",
+                "updated": "2020-11-16T23:26:41+11:00",
+                "id": "ESTA:201117252",
+                "location": "Cardigan Rd, Mooroolbark",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.32498319781402,
+                    -37.788905169808885
                 ]
             }
         },
@@ -13195,7 +13263,7 @@
                 "status": "unknown",
                 "created": "2020-11-16T11:00:00+11:00",
                 "updated": "2020-11-16T11:00:00+11:00",
-                "id": "c3bfd69f927bd815d699483122c0eb09",
+                "id": "b5a9227f738a3ee930d98b0ac141b08c",
                 "location": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
                 "title": "other: burn area"
             },
@@ -13304,20 +13372,20 @@
                             -36.5531
                         ],
                         [
-                            141.9643,
-                            -36.561
+                            141.9631,
+                            -36.5593
                         ],
                         [
-                            141.9575,
-                            -36.5639
+                            141.9579,
+                            -36.5615
                         ],
                         [
-                            141.9587,
-                            -36.5651
+                            141.9565,
+                            -36.5686
                         ],
                         [
-                            141.9569,
-                            -36.5693
+                            141.9652,
+                            -36.5644
                         ],
                         [
                             141.9687,
@@ -13453,7 +13521,7 @@
                 "status": "unknown",
                 "created": "2020-11-16T11:00:00+11:00",
                 "updated": "2020-11-16T11:00:00+11:00",
-                "id": "11d89b98161e4017a7988208299e0f2d",
+                "id": "bb4c2beaee254496e6c3b284629766f6",
                 "location": "Wimmera 9 - Little Desert - Pump Jack Track",
                 "title": "other: burn area"
             },
@@ -13582,6 +13650,14 @@
                             -36.5085
                         ],
                         [
+                            141.8335,
+                            -36.5231
+                        ],
+                        [
+                            141.8316,
+                            -36.5251
+                        ],
+                        [
                             141.8323,
                             -36.534
                         ],
@@ -13622,8 +13698,8 @@
                             -36.4928
                         ],
                         [
-                            141.8226,
-                            -36.4868
+                            141.8221,
+                            -36.4884
                         ],
                         [
                             141.826,
@@ -13634,8 +13710,8 @@
                             -36.4655
                         ],
                         [
-                            141.8612,
-                            -36.4551
+                            141.8569,
+                            -36.459
                         ],
                         [
                             141.8663,
@@ -14312,14 +14388,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Winter Rd",
+                "sourceTitle": "Mckenzie Gr",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-16T22:29:00+11:00",
-                "updated": "2020-11-16T22:48:00+11:00",
-                "id": "ESTA:201117245",
-                "location": "Winter Rd, Girgarre",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-16T23:10:00+11:00",
+                "updated": "2020-11-16T23:10:00+11:00",
+                "id": "ESTA:201117251",
+                "location": "Mckenzie Gr, Montrose",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -14327,54 +14403,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9260186296198,
-                    -36.399001032857434
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bolwarra Ct",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-11-16T22:25:42+11:00",
-                "updated": "2020-11-16T22:25:42+11:00",
-                "id": "ESTA:201117242",
-                "location": "Bolwarra Ct, Portland",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.59609657074932,
-                    -38.36427192315495
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-16T20:12:00+11:00",
-                "updated": "2020-11-16T22:17:00+11:00",
-                "id": "ESTA:201117214",
-                "location": "Porcupine Ridge",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.19329817932982,
-                    -37.281921284430595
+                    145.34706572591264,
+                    -37.81911742592611
                 ]
             }
         },
@@ -14421,6 +14451,73 @@
                 "coordinates": [
                     144.8770349966088,
                     -37.78596661838804
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Canterbury Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-16T23:18:53+11:00",
+                "updated": "2020-11-16T23:18:53+11:00",
+                "id": "ESTA:201117253",
+                "location": "Canterbury Rd, Toorak",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00958982607546,
+                    -37.8477750087337
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "complete",
+                "created": "2020-11-16T23:25:00+11:00",
+                "updated": "2020-11-16T23:26:00+11:00",
+                "id": "ESTA:201152436",
+                "location": "Melbourne",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96669949592038,
+                    -37.81098300938281
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-16T23:03:00+11:00",
+                "updated": "2020-11-16T23:04:00+11:00",
+                "id": "ESTA:201152434",
+                "location": "Apollo Bay",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.6695247993983,
+                    -38.75105844916048
                 ]
             }
         },
@@ -14509,28 +14606,6 @@
                 "coordinates": [
                     145.13444337628567,
                     -37.72997503434786
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-11-16T00:20:00+11:00",
-                "updated": "2020-11-16T21:00:00+11:00",
-                "id": "ESTA:201151151",
-                "location": "Greensborough",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10444740204397,
-                    -37.693718362403324
                 ]
             }
         },

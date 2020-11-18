@@ -10401,12 +10401,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Toulouse Cr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-11-19T01:10:09+11:00",
+                "updated": "2020-11-19T01:10:09+11:00",
+                "id": "ESTA:201119249",
+                "location": "Toulouse Cr, Hoppers Crossing",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6710865897112,
+                    -37.854532798729025
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Greg Norman Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-11-19T01:00:07+11:00",
-                "updated": "2020-11-19T01:00:07+11:00",
+                "status": "under control",
+                "created": "2020-11-19T01:18:13+11:00",
+                "updated": "2020-11-19T01:18:13+11:00",
                 "id": "ESTA:201119254",
                 "location": "Greg Norman Dr, Point Cook",
                 "size": "Small",
@@ -13165,29 +13188,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Toulouse Cr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-11-19T00:25:56+11:00",
-                "updated": "2020-11-19T00:25:56+11:00",
-                "id": "ESTA:201119249",
-                "location": "Toulouse Cr, Hoppers Crossing",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.6710865897112,
-                    -37.854532798729025
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -13228,6 +13228,29 @@
                 "coordinates": [
                     144.69593330573832,
                     -37.805025113751356
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Camelot Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-19T01:21:31+11:00",
+                "updated": "2020-11-19T01:21:31+11:00",
+                "id": "ESTA:201119256",
+                "location": "Camelot Dr, Glen Waverley",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18119653438248,
+                    -37.867118044769576
                 ]
             }
         }

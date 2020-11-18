@@ -10455,14 +10455,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Spencer St",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-11-18T18:34:00+11:00",
+                "updated": "2020-11-18T19:53:00+11:00",
+                "id": "ESTA:201119117",
+                "location": "Sunbury",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7088572974567,
+                    -37.613212526515454
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Robinsons Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-18T19:56:34+11:00",
+                "updated": "2020-11-18T19:56:34+11:00",
+                "id": "ESTA:201119179",
+                "location": "Robinsons Rd, Deer Park",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.75749287749863,
+                    -37.76293459429938
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Flood St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-11-18T19:32:17+11:00",
-                "updated": "2020-11-18T19:32:17+11:00",
-                "id": "ESTA:201119109",
-                "location": "Spencer St, Melbourne",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-11-18T19:57:41+11:00",
+                "updated": "2020-11-18T19:57:41+11:00",
+                "id": "ESTA:201119180",
+                "location": "Flood St, Bendigo",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10470,8 +10516,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.952333189146,
-                    -37.81453712559503
+                    144.27860993661778,
+                    -36.74878924417589
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lakes Entrance",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "safe",
+                "created": "2020-11-18T16:59:25+11:00",
+                "updated": "2020-11-18T19:58:23+11:00",
+                "id": "ESTA:201119027",
+                "location": "Lakes Entrance",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.00456423297237,
+                    -37.852789375113446
                 ]
             }
         },
@@ -10480,10 +10548,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Smith St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
+                "subcategory": "bushfire",
+                "status": "safe",
                 "created": "2020-11-18T19:42:00+11:00",
-                "updated": "2020-11-18T19:42:00+11:00",
+                "updated": "2020-11-18T19:59:00+11:00",
                 "id": "ESTA:201119169",
                 "location": "Smith St, Seymour",
                 "size": "Small",
@@ -10501,69 +10569,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pynsent St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-11-18T19:43:00+11:00",
-                "updated": "2020-11-18T19:43:00+11:00",
-                "id": "ESTA:201119170",
-                "location": "Pynsent St, Horsham",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.20153344779874,
-                    -36.71547892585839
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Edithvale Rd",
+                "sourceTitle": "Bundoora",
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "responding",
-                "created": "2020-11-18T19:36:44+11:00",
-                "updated": "2020-11-18T19:36:44+11:00",
-                "id": "ESTA:201119164",
-                "location": "Edithvale Rd, Edithvale",
-                "size": "Small",
+                "created": "2020-11-18T20:00:45+11:00",
+                "updated": "2020-11-18T20:02:00+11:00",
+                "id": "ESTA:201119181",
+                "location": "Ormond Bvd, Bundoora",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10940036074913,
-                    -38.03842138388233
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Barry Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-11-18T19:36:56+11:00",
-                "updated": "2020-11-18T19:36:56+11:00",
-                "id": "ESTA:201119165",
-                "location": "Barry Rd, Campbellfield",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95922699863866,
-                    -37.667464393477005
+                    145.0740890141551,
+                    -37.6808141930836
                 ]
             }
         },
@@ -12821,6 +12842,98 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Keys St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-18T19:51:00+11:00",
+                "updated": "2020-11-18T19:58:00+11:00",
+                "id": "ESTA:201119176",
+                "location": "Keys St, Frankston",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12274230481074,
+                    -38.14152964342897
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Warrandyte Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-11-18T19:50:00+11:00",
+                "updated": "2020-11-18T19:50:00+11:00",
+                "id": "ESTA:201119174",
+                "location": "Old Warrandyte Rd, Donvale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.180790438498,
+                    -37.78532210870269
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rees Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-18T19:46:47+11:00",
+                "updated": "2020-11-18T19:46:47+11:00",
+                "id": "ESTA:201119113",
+                "location": "Rees Rd, Melton South",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.56391080827999,
+                    -37.70821618637601
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Edithvale Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-11-18T19:45:35+11:00",
+                "updated": "2020-11-18T19:45:35+11:00",
+                "id": "ESTA:201119164",
+                "location": "Edithvale Rd, Edithvale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10940036074913,
+                    -38.03842138388233
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "View St",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -12913,121 +13026,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dandenong-Hastings Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-18T18:11:00+11:00",
-                "updated": "2020-11-18T18:54:00+11:00",
-                "id": "ESTA:201119099",
-                "location": "Dandenong-Hastings Rd, Dandenong South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2461525504164,
-                    -38.042046650103046
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bible St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-18T18:47:00+11:00",
-                "updated": "2020-11-18T18:54:00+11:00",
-                "id": "ESTA:201119128",
-                "location": "Bible St, Eltham",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.15129044816035,
-                    -37.71640690441966
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Francis Cr",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-18T18:36:00+11:00",
-                "updated": "2020-11-18T18:52:00+11:00",
-                "id": "ESTA:201119119",
-                "location": "Francis Cr, Mount Evelyn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.36768301079397,
-                    -37.77795749096546
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rees Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-18T19:30:11+11:00",
-                "updated": "2020-11-18T19:30:11+11:00",
-                "id": "ESTA:201119113",
-                "location": "Rees Rd, Melton South",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.56391080827999,
-                    -37.70821618637601
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-11-18T18:34:00+11:00",
-                "updated": "2020-11-18T19:06:00+11:00",
-                "id": "ESTA:201119117",
-                "location": "Sunbury",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7088572974567,
-                    -37.613212526515454
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Truganina",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -13051,14 +13049,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Caithness Cr",
+                "sourceTitle": "Spencer St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-11-18T19:30:21+11:00",
-                "updated": "2020-11-18T19:30:21+11:00",
-                "id": "ESTA:201119145",
-                "location": "Caithness Cr, Glen Waverley",
+                "status": "under control",
+                "created": "2020-11-18T19:32:17+11:00",
+                "updated": "2020-11-18T19:32:17+11:00",
+                "id": "ESTA:201119109",
+                "location": "Spencer St, Melbourne",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -13066,8 +13064,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.17981581948106,
-                    -37.888653573360145
+                    144.952333189146,
+                    -37.81453712559503
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mt Ridley Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-18T19:52:43+11:00",
+                "updated": "2020-11-18T19:52:43+11:00",
+                "id": "ESTA:201119175",
+                "location": "Mt Ridley Rd, Craigieburn",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93661601373464,
+                    -37.56926466400114
                 ]
             }
         },
@@ -13079,7 +13100,7 @@
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-11-18T19:24:00+11:00",
-                "updated": "2020-11-18T19:33:00+11:00",
+                "updated": "2020-11-18T19:57:00+11:00",
                 "id": "ESTA:201152586",
                 "location": "Diamond Creek",
                 "title": "incident: tree down"
@@ -13090,6 +13111,28 @@
                 "coordinates": [
                     145.16201438870502,
                     -37.66529525276374
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "complete",
+                "created": "2020-11-18T19:05:00+11:00",
+                "updated": "2020-11-18T19:56:00+11:00",
+                "id": "ESTA:201152585",
+                "location": "Sunbury",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7088572974567,
+                    -37.613212526515454
                 ]
             }
         },
@@ -13112,50 +13155,6 @@
                 "coordinates": [
                     144.56368872178155,
                     -37.7081483183073
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "on scene",
-                "created": "2020-11-18T19:05:00+11:00",
-                "updated": "2020-11-18T19:05:00+11:00",
-                "id": "ESTA:201152585",
-                "location": "Sunbury",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7088572974567,
-                    -37.613212526515454
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-18T18:56:00+11:00",
-                "updated": "2020-11-18T19:00:00+11:00",
-                "id": "ESTA:201152584",
-                "location": "Corio",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3708340733062,
-                    -38.065459246383924
                 ]
             }
         },

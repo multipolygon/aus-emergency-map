@@ -10105,9 +10105,9 @@
                 "sourceTitle": "St Andrews - Pindari Road",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2020-11-17T12:29:41+11:00",
-                "updated": "2020-11-17T12:29:41+11:00",
+                "status": "patrolled",
+                "created": "2020-11-19T10:47:56+11:00",
+                "updated": "2020-11-19T10:47:56+11:00",
                 "id": 934953,
                 "location": ".5Km E Of St Andrews",
                 "size": "16.40",
@@ -10153,7 +10153,7 @@
                 "subcategory": "bushfire",
                 "status": "contained",
                 "created": "2020-11-11T19:35:00+11:00",
-                "updated": "2020-11-18T16:50:00+11:00",
+                "updated": "2020-11-19T10:50:00+11:00",
                 "id": 978489,
                 "location": "22Km Ene Of Hattah",
                 "size": "3.70",
@@ -10355,14 +10355,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Greenwood Av",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-11-19T10:55:00+11:00",
+                "updated": "2020-11-19T10:57:00+11:00",
+                "id": "ESTA:201119482",
+                "location": "Portarlington",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.64312576136206,
+                    -38.11667134286595
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Muir Ct",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-11-19T10:32:29+11:00",
-                "updated": "2020-11-19T10:32:29+11:00",
-                "id": "ESTA:201119463",
-                "location": "Greenwood Av, Ringwood",
+                "status": "responding",
+                "created": "2020-11-19T10:57:00+11:00",
+                "updated": "2020-11-19T10:57:00+11:00",
+                "id": "ESTA:201119485",
+                "location": "Muir Ct, Romsey",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -10370,8 +10393,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.23045013290076,
-                    -37.81755992740779
+                    144.7341487601162,
+                    -37.345733682528035
                 ]
             }
         },
@@ -10379,36 +10402,81 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2020-11-19T10:43:00+11:00",
-                "updated": "2020-11-19T10:43:00+11:00",
-                "id": "ESTA:201119478",
-                "location": "Nathalia",
+                "created": "2020-11-19T10:58:00+11:00",
+                "updated": "2020-11-19T10:58:00+11:00",
+                "id": "ESTA:201119487",
+                "location": "Stawell",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20387224469107,
-                    -36.05717706663841
+                    142.78300158596647,
+                    -37.059421502568654
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Derrimut",
+                "sourceTitle": "Dalmore Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-19T11:03:00+11:00",
+                "updated": "2020-11-19T11:03:00+11:00",
+                "id": "ESTA:201119492",
+                "location": "Dalmore Rd, Dalmore",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.41874470847122,
+                    -38.19486785320619
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kyabram",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-19T11:05:56+11:00",
+                "updated": "2020-11-19T11:06:01+11:00",
+                "id": "ESTA:201119494",
+                "location": "Lancaster Rd, Kyabram",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0982495732608,
+                    -36.3136539389978
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nathalia",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "not yet under control",
-                "created": "2020-11-19T07:08:07+11:00",
-                "updated": "2020-11-19T07:08:07+11:00",
-                "id": "ESTA:201119274",
-                "location": "Derrimut, Derrimut",
+                "status": "responding",
+                "created": "2020-11-19T10:58:13+11:00",
+                "updated": "2020-11-19T10:58:13+11:00",
+                "id": "ESTA:201119478",
+                "location": "Nathalia, Nathalia",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -10416,8 +10484,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.78130640266022,
-                    -37.80931068439238
+                    145.20388029343388,
+                    -36.05716937944249
                 ]
             }
         },
@@ -13165,6 +13233,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Raglan Pde",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-19T10:52:00+11:00",
+                "updated": "2020-11-19T11:00:00+11:00",
+                "id": "ESTA:201119480",
+                "location": "Raglan Pde, Warrnambool",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.46749762499704,
+                    -38.36863217392544
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-11-19T10:59:00+11:00",
+                "updated": "2020-11-19T10:59:00+11:00",
+                "id": "ESTA:201119488",
+                "location": "Portarlington",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.64312576136206,
+                    -38.11667134286595
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Smythesdale-Snake Valley Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -13205,29 +13319,6 @@
                 "coordinates": [
                     142.42036208888248,
                     -35.795334091752025
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Agar Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-19T09:32:00+11:00",
-                "updated": "2020-11-19T09:47:00+11:00",
-                "id": "ESTA:201119413",
-                "location": "Agar Rd, Bass",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.44393239526394,
-                    -38.4496567860373
                 ]
             }
         },
@@ -13283,9 +13374,9 @@
                 "sourceTitle": "Macbeth St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-19T10:12:37+11:00",
-                "updated": "2020-11-19T10:12:37+11:00",
+                "status": "safe",
+                "created": "2020-11-19T10:48:43+11:00",
+                "updated": "2020-11-19T10:48:43+11:00",
                 "id": "ESTA:201119378",
                 "location": "Macbeth St, Braeside",
                 "size": "Small",
@@ -13297,6 +13388,73 @@
                 "coordinates": [
                     145.11230926473448,
                     -38.00303052106155
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Derrimut",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-11-19T10:46:06+11:00",
+                "updated": "2020-11-19T10:46:06+11:00",
+                "id": "ESTA:201119274",
+                "location": "Derrimut, Derrimut",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.78130640266022,
+                    -37.80931068439238
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-19T10:47:00+11:00",
+                "updated": "2020-11-19T10:51:00+11:00",
+                "id": "ESTA:201152612",
+                "location": "Black Rock",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02039267535062,
+                    -37.97699279381623
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-19T09:58:00+11:00",
+                "updated": "2020-11-19T10:50:00+11:00",
+                "id": "ESTA:201152608",
+                "location": "Diamond Creek",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1540356109017,
+                    -37.66656750686145
                 ]
             }
         },
@@ -13341,28 +13499,6 @@
                 "coordinates": [
                     144.892754700064,
                     -37.85963438992385
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-19T09:58:00+11:00",
-                "updated": "2020-11-19T10:04:00+11:00",
-                "id": "ESTA:201152608",
-                "location": "Diamond Creek",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1540356109017,
-                    -37.66656750686145
                 ]
             }
         }

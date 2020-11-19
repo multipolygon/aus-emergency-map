@@ -10322,10 +10322,10 @@
                 "subcategory": "bushfire",
                 "status": "not yet under control",
                 "created": "2020-11-19T13:25:00+11:00",
-                "updated": "2020-11-19T15:11:00+11:00",
+                "updated": "2020-11-19T17:12:00+11:00",
                 "id": 978824,
                 "location": "2.6 Km Se Of Narbethong",
-                "size": "2.00",
+                "size": "3.00",
                 "title": "incident: fire"
             },
             "type": "Feature",
@@ -10523,52 +10523,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Caniambo",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-11-19T17:22:32+11:00",
-                "updated": "2020-11-19T17:22:32+11:00",
-                "id": "ESTA:201119814",
-                "location": "Caniambo, Caniambo",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.53175624824308,
-                    -36.47575336467253
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Federation Way",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-11-19T17:30:30+11:00",
-                "updated": "2020-11-19T17:30:30+11:00",
-                "id": "ESTA:201119820",
-                "location": "Federation Way, Moorabbin Airport",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10461711732412,
-                    -37.97357688052646
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Connewarre",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -10592,22 +10546,158 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dewhurst",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-11-19T15:51:00+11:00",
+                "updated": "2020-11-19T17:38:00+11:00",
+                "id": "ESTA:201152632",
+                "location": "Amphitheatre",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.44367217760882,
+                    -37.17358097937376
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-19T17:40:00+11:00",
+                "updated": "2020-11-19T17:40:00+11:00",
+                "id": "ESTA:201152655",
+                "location": "Lorne",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.98294130734496,
+                    -38.54797519565878
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Federation Way",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2020-11-19T17:34:26+11:00",
-                "updated": "2020-11-19T17:35:40+11:00",
-                "id": "ESTA:201119822",
-                "location": "Bourkes Creek Rd, Dewhurst",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-11-19T17:40:08+11:00",
+                "updated": "2020-11-19T17:40:08+11:00",
+                "id": "ESTA:201119820",
+                "location": "Federation Way, Moorabbin Airport",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.47544473007525,
-                    -37.979554820843525
+                    145.10461711732412,
+                    -37.97357688052646
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bourkes Creek Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-11-19T17:36:00+11:00",
+                "updated": "2020-11-19T17:36:00+11:00",
+                "id": "ESTA:201119822",
+                "location": "Bourkes Creek Rd, Dewhurst",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.47543206524608,
+                    -37.9795642119278
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Townsend Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-19T17:43:15+11:00",
+                "updated": "2020-11-19T17:43:15+11:00",
+                "id": "ESTA:201119824",
+                "location": "Townsend Rd, St Albans Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.39784905402604,
+                    -38.182379003755706
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tivoli Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-19T17:44:24+11:00",
+                "updated": "2020-11-19T17:44:24+11:00",
+                "id": "ESTA:201119826",
+                "location": "Tivoli Rd, South Yarra",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99848898646476,
+                    -37.83881050015893
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lalor",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-11-19T17:45:18+11:00",
+                "updated": "2020-11-19T17:46:11+11:00",
+                "id": "ESTA:201119827",
+                "location": "Treska Lnk, Lalor",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9834295679707,
+                    -37.665084400343616
                 ]
             }
         },
@@ -11153,9 +11243,9 @@
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "under control",
-                "created": "2020-11-19T11:09:00+11:00",
-                "updated": "2020-11-19T11:09:00+11:00",
-                "id": "2020-11-19T11:09:00.0000000:398431",
+                "created": "2020-11-19T17:44:00+11:00",
+                "updated": "2020-11-19T17:44:00+11:00",
+                "id": "2020-11-19T17:44:00.0000000:398431",
                 "location": "Cobb Hwy, Deniliquin, Nsw 2710",
                 "title": "incident: fire"
             },
@@ -11457,6 +11547,88 @@
                         [
                             146.3857,
                             -39.229
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Murrindindi 18 - Narbethong - Acheron Way",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-19T11:00:00+11:00",
+                "updated": "2020-11-19T11:00:00+11:00",
+                "id": "84519fc39a71c261b7f937c376da3e37",
+                "location": "Murrindindi 18 - Narbethong - Acheron Way",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.6895,
+                            -37.5641
+                        ],
+                        [
+                            145.6896,
+                            -37.5639
+                        ],
+                        [
+                            145.6899,
+                            -37.5641
+                        ],
+                        [
+                            145.6899,
+                            -37.5645
+                        ],
+                        [
+                            145.6897,
+                            -37.5651
+                        ],
+                        [
+                            145.69,
+                            -37.5657
+                        ],
+                        [
+                            145.6899,
+                            -37.566
+                        ],
+                        [
+                            145.6894,
+                            -37.5662
+                        ],
+                        [
+                            145.6888,
+                            -37.566
+                        ],
+                        [
+                            145.688,
+                            -37.5652
+                        ],
+                        [
+                            145.6884,
+                            -37.5646
+                        ],
+                        [
+                            145.6889,
+                            -37.5646
+                        ],
+                        [
+                            145.689,
+                            -37.5642
+                        ],
+                        [
+                            145.6892,
+                            -37.5641
+                        ],
+                        [
+                            145.6895,
+                            -37.5641
                         ]
                     ]
                 ]
@@ -12620,88 +12792,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Murrindindi 18 - Narbethong - Acheron Way",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-19T11:00:00+11:00",
-                "updated": "2020-11-19T11:00:00+11:00",
-                "id": "84519fc39a71c261b7f937c376da3e37",
-                "location": "Murrindindi 18 - Narbethong - Acheron Way",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            145.6895,
-                            -37.5641
-                        ],
-                        [
-                            145.6896,
-                            -37.5639
-                        ],
-                        [
-                            145.6899,
-                            -37.5641
-                        ],
-                        [
-                            145.6899,
-                            -37.5645
-                        ],
-                        [
-                            145.6897,
-                            -37.5651
-                        ],
-                        [
-                            145.69,
-                            -37.5657
-                        ],
-                        [
-                            145.6899,
-                            -37.566
-                        ],
-                        [
-                            145.6894,
-                            -37.5662
-                        ],
-                        [
-                            145.6888,
-                            -37.566
-                        ],
-                        [
-                            145.688,
-                            -37.5652
-                        ],
-                        [
-                            145.6884,
-                            -37.5646
-                        ],
-                        [
-                            145.6889,
-                            -37.5646
-                        ],
-                        [
-                            145.689,
-                            -37.5642
-                        ],
-                        [
-                            145.6892,
-                            -37.5641
-                        ],
-                        [
-                            145.6895,
-                            -37.5641
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Mallee 12 - Wyperfeld - Red Hill Dam",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -13480,6 +13570,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Caniambo",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-11-19T17:22:32+11:00",
+                "updated": "2020-11-19T17:22:32+11:00",
+                "id": "ESTA:201119814",
+                "location": "Caniambo, Caniambo",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.53175624824308,
+                    -36.47575336467253
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Mceacharn St",
                 "category": "other",
                 "subcategory": "other",
@@ -13589,52 +13702,6 @@
                 "coordinates": [
                     145.31384241627887,
                     -37.77034983338412
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Macarthur St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-11-19T16:35:00+11:00",
-                "updated": "2020-11-19T16:46:00+11:00",
-                "id": "ESTA:201119783",
-                "location": "Macarthur St, Sale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.0699424128016,
-                    -38.10489723579011
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Heaths Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-11-19T16:24:00+11:00",
-                "updated": "2020-11-19T16:43:00+11:00",
-                "id": "ESTA:201119772",
-                "location": "Heaths Rd, Hoppers Crossing",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.68001591239218,
-                    -37.87699885753065
                 ]
             }
         },
@@ -13756,6 +13823,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Derrimut",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-11-19T10:46:06+11:00",
+                "updated": "2020-11-19T10:46:06+11:00",
+                "id": "ESTA:201119274",
+                "location": "Derrimut, Derrimut",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.78130640266022,
+                    -37.80931068439238
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Weyburn Pl",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -13796,52 +13886,6 @@
                 "coordinates": [
                     144.88349642391518,
                     -37.7334343006265
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Blake St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-19T17:32:16+11:00",
-                "updated": "2020-11-19T17:32:16+11:00",
-                "id": "ESTA:201119818",
-                "location": "Blake St, Caulfield",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03272818208922,
-                    -37.88460317036678
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Derrimut",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-11-19T10:46:06+11:00",
-                "updated": "2020-11-19T10:46:06+11:00",
-                "id": "ESTA:201119274",
-                "location": "Derrimut, Derrimut",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.78130640266022,
-                    -37.80931068439238
                 ]
             }
         },
@@ -13930,28 +13974,6 @@
                 "coordinates": [
                     144.91066011785284,
                     -37.77007108001549
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-19T15:51:00+11:00",
-                "updated": "2020-11-19T16:10:00+11:00",
-                "id": "ESTA:201152632",
-                "location": "Amphitheatre",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.44367217760882,
-                    -37.17358097937376
                 ]
             }
         }

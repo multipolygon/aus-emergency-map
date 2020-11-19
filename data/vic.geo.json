@@ -10459,14 +10459,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Station St",
+                "sourceTitle": "Fitzroy St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-11-19T22:57:09+11:00",
-                "updated": "2020-11-19T22:57:09+11:00",
-                "id": "ESTA:201119959",
-                "location": "Station St, Malvern",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-11-19T23:22:32+11:00",
+                "updated": "2020-11-19T23:22:32+11:00",
+                "id": "ESTA:201119981",
+                "location": "Fitzroy St, St Kilda",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10474,31 +10474,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02882157966977,
-                    -37.86519704231758
+                    144.9821247678218,
+                    -37.85727950156883
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tydeman St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-19T22:50:00+11:00",
-                "updated": "2020-11-19T22:59:00+11:00",
-                "id": "ESTA:201119979",
-                "location": "Tydeman St, Horsham",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-11-19T23:25:00+11:00",
+                "updated": "2020-11-19T23:26:00+11:00",
+                "id": "ESTA:201119982",
+                "location": "Ararat",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.18522527256832,
-                    -36.7245756108517
+                    143.014054705432,
+                    -37.21661717194437
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ararat",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-11-19T23:26:35+11:00",
+                "updated": "2020-11-19T23:28:33+11:00",
+                "id": "ESTA:201119983",
+                "location": "Pyrenees Hwy, Ararat",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.01364081030545,
+                    -37.21717222695641
                 ]
             }
         },
@@ -13147,14 +13169,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dukelows Rd",
+                "sourceTitle": "Tydeman St",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-11-19T22:42:36+11:00",
-                "updated": "2020-11-19T22:42:36+11:00",
-                "id": "ESTA:201119964",
-                "location": "Dukelows Rd, Mount Cottrell",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-11-19T22:50:00+11:00",
+                "updated": "2020-11-19T22:59:00+11:00",
+                "id": "ESTA:201119979",
+                "location": "Tydeman St, Horsham",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -13162,31 +13184,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.59079027610736,
-                    -37.802523121806
+                    142.18522527256832,
+                    -36.7245756108517
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
+                "sourceTitle": "Cobbledicks Ford Rd",
+                "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-19T21:57:00+11:00",
-                "updated": "2020-11-19T22:07:00+11:00",
-                "id": "ESTA:201119960",
-                "location": "Manifold Heights",
+                "created": "2020-11-19T22:05:00+11:00",
+                "updated": "2020-11-19T22:40:00+11:00",
+                "id": "ESTA:201119964",
+                "location": "Cobbledicks Ford Rd, Mount Cottrell",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.32976777281215,
-                    -38.14098598081184
+                    144.59078794507812,
+                    -37.80253075872547
                 ]
             }
         },
@@ -13256,52 +13278,6 @@
                 "coordinates": [
                     144.99641763362598,
                     -37.91573611820444
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tullamarine",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-19T22:44:10+11:00",
-                "updated": "2020-11-19T22:44:10+11:00",
-                "id": "ESTA:201119976",
-                "location": "Tullamarine, Tullamarine",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.87558428772167,
-                    -37.715513720516306
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sandra Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-19T22:45:44+11:00",
-                "updated": "2020-11-19T22:45:44+11:00",
-                "id": "ESTA:201119977",
-                "location": "Sandra Av, Fawkner",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.96006234603888,
-                    -37.69550540812418
                 ]
             }
         }

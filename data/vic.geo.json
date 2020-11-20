@@ -10199,7 +10199,7 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "created": "2020-11-15T16:39:00+11:00",
-                "updated": "2020-11-19T20:36:00+11:00",
+                "updated": "2020-11-20T10:36:00+11:00",
                 "id": 978596,
                 "location": "Little Desert National Park",
                 "size": "2007.00",
@@ -10400,23 +10400,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tymna Dr",
-                "category": "rescue",
-                "subcategory": "rescue",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-20T09:45:00+11:00",
-                "updated": "2020-11-20T10:23:00+11:00",
-                "id": "ESTA:201120299",
-                "location": "Tymna Dr, Halls Gap",
+                "created": "2020-11-20T10:52:00+11:00",
+                "updated": "2020-11-20T10:54:00+11:00",
+                "id": "ESTA:201120450",
+                "location": "Mount Bute",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.54189983553,
-                    -37.17313374162818
+                    143.40435259997457,
+                    -37.87324160358362
                 ]
             }
         },
@@ -10426,9 +10426,9 @@
                 "sourceTitle": "Hillside (Greater Melbourne)",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-11-20T10:43:04+11:00",
-                "updated": "2020-11-20T10:43:04+11:00",
+                "status": "safe",
+                "created": "2020-11-20T10:56:15+11:00",
+                "updated": "2020-11-20T10:56:15+11:00",
                 "id": "ESTA:201120427",
                 "location": "Hillside (Greater Melbourne), Hillside (Greater Melbourne)",
                 "size": "Small",
@@ -10446,12 +10446,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Mansfield-Woods Point Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-11-20T10:49:00+11:00",
+                "updated": "2020-11-20T10:49:00+11:00",
+                "id": "ESTA:201120440",
+                "location": "Mansfield-Woods Point Rd, Jamieson",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.13959302007703,
+                    -37.25300990116156
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Albert St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-11-20T11:03:47+11:00",
+                "updated": "2020-11-20T11:03:47+11:00",
+                "id": "ESTA:201120454",
+                "location": "Albert St, Moe",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.26003500629227,
+                    -38.174759254831265
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "washaway",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-11-20T10:44:00+11:00",
-                "updated": "2020-11-20T10:44:00+11:00",
+                "updated": "2020-11-20T10:56:00+11:00",
                 "id": "ESTA:201120433",
                 "location": "Benalla",
                 "size": "Small",
@@ -10469,22 +10515,67 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Killarney",
-                "category": "fire",
-                "subcategory": "other",
+                "sourceTitle": "Campbellfield",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-11-20T10:42:59+11:00",
-                "updated": "2020-11-20T10:45:23+11:00",
-                "id": "ESTA:201120435",
-                "location": "Princes Hwy, Killarney",
+                "created": "2020-11-20T11:04:03+11:00",
+                "updated": "2020-11-20T11:04:03+11:00",
+                "id": "ESTA:201120474",
+                "location": "Campbellfield, Campbellfield",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96389689700064,
+                    -37.66796147336944
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Yarra",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-20T11:05:09+11:00",
+                "updated": "2020-11-20T11:05:56+11:00",
+                "id": "ESTA:201120480",
+                "location": "South Yarra",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9943740355162,
+                    -37.84567702543077
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Doreen",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-20T11:05:12+11:00",
+                "updated": "2020-11-20T11:06:42+11:00",
+                "id": "ESTA:201120478",
+                "location": "Chapel Lane, Doreen",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.322903106097,
-                    -38.33854550415329
+                    145.15369213045767,
+                    -37.59250402751572
                 ]
             }
         },
@@ -13526,16 +13617,39 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Miller St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Koala St",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-11-20T10:29:38+11:00",
-                "updated": "2020-11-20T10:29:38+11:00",
+                "created": "2020-11-20T10:54:00+11:00",
+                "updated": "2020-11-20T10:54:00+11:00",
+                "id": "ESTA:201120452",
+                "location": "Koala St, Cowes",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22906779513772,
+                    -38.45508499665719
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Miller St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-11-20T10:48:24+11:00",
+                "updated": "2020-11-20T10:48:24+11:00",
                 "id": "ESTA:201120409",
                 "location": "Miller St, Epping",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -13543,6 +13657,75 @@
                 "coordinates": [
                     145.01994529377254,
                     -37.64925925948041
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Montrose",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-11-20T10:58:34+11:00",
+                "updated": "2020-11-20T10:58:34+11:00",
+                "id": "ESTA:201120466",
+                "location": "Montrose, Montrose",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34237009130308,
+                    -37.80995859216725
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Windsor Av",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-20T10:56:00+11:00",
+                "updated": "2020-11-20T10:57:00+11:00",
+                "id": "ESTA:201120461",
+                "location": "Windsor Av, Springvale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14953376940986,
+                    -37.95144782845466
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-11-20T11:01:31+11:00",
+                "updated": "2020-11-20T11:01:31+11:00",
+                "id": "ESTA:201120435",
+                "location": "Princes Hwy, Killarney",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.32289565644675,
+                    -38.338550457033925
                 ]
             }
         },
@@ -13595,46 +13778,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Central Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-20T10:16:44+11:00",
-                "updated": "2020-11-20T10:16:44+11:00",
-                "id": "ESTA:201120350",
-                "location": "Central Av, Mooroolbark",
+                "sourceTitle": "Tymna Dr",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2020-11-20T09:45:00+11:00",
+                "updated": "2020-11-20T10:23:00+11:00",
+                "id": "ESTA:201120299",
+                "location": "Tymna Dr, Halls Gap",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30924297875708,
-                    -37.78788357719067
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lloyd St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-20T10:27:37+11:00",
-                "updated": "2020-11-20T10:27:37+11:00",
-                "id": "ESTA:201120363",
-                "location": "Lloyd St, Kensington",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93316308799174,
-                    -37.80044524050728
+                    142.54189983553,
+                    -37.17313374162818
                 ]
             }
         },

@@ -10509,14 +10509,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Collins St",
+                "sourceTitle": "Lake Baker Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-11-21T04:41:57+11:00",
-                "updated": "2020-11-21T04:41:57+11:00",
-                "id": "ESTA:201121237",
-                "location": "Collins St, Melbourne",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-21T04:50:00+11:00",
+                "updated": "2020-11-21T04:50:00+11:00",
+                "id": "ESTA:201121255",
+                "location": "Lake Baker Rd, Lake Boga",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10524,8 +10524,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.955044919911,
-                    -37.819034178920894
+                    143.6248636990363,
+                    -35.43303151295909
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-21T04:52:00+11:00",
+                "updated": "2020-11-21T04:56:00+11:00",
+                "id": "ESTA:201152754",
+                "location": "Gisborne",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.55897698660812,
+                    -37.483071919979814
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gisborne",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "responding",
+                "created": "2020-11-21T04:59:48+11:00",
+                "updated": "2020-11-21T05:02:25+11:00",
+                "id": "ESTA:201152755",
+                "location": "Bacchus Marsh Rd, Gisborne",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.5675254013408,
+                    -37.48994888839257
                 ]
             }
         },
@@ -13197,29 +13241,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Arthur St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-21T03:37:00+11:00",
-                "updated": "2020-11-21T03:53:00+11:00",
-                "id": "ESTA:201121249",
-                "location": "Arthur St, Hamlyn Heights",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.32913316388598,
-                    -38.128357055364845
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Hazelwood Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -13237,6 +13258,52 @@
                 "coordinates": [
                     146.40840960188197,
                     -38.25123731483351
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Collins St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-11-21T04:41:57+11:00",
+                "updated": "2020-11-21T04:41:57+11:00",
+                "id": "ESTA:201121237",
+                "location": "Collins St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.955044919911,
+                    -37.819034178920894
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2020-11-21T04:54:00+11:00",
+                "updated": "2020-11-21T04:56:00+11:00",
+                "id": "ESTA:201121256",
+                "location": "Boronia",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26334573196146,
+                    -37.86282888306838
                 ]
             }
         }

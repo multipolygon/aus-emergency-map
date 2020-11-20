@@ -10555,34 +10555,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-11-20T16:28:00+11:00",
-                "updated": "2020-11-20T17:22:00+11:00",
-                "id": "ESTA:201152736",
-                "location": "Hamilton",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.0831443259249,
-                    -37.74341330483784
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Midland Hwy",
                 "category": "rescue",
                 "subcategory": "rescue",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-11-20T17:26:00+11:00",
-                "updated": "2020-11-20T17:26:00+11:00",
+                "updated": "2020-11-20T17:37:00+11:00",
                 "id": "ESTA:201120969",
                 "location": "Midland Hwy, Mooroopna",
                 "size": "Small",
@@ -10600,14 +10578,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mafeking Rd",
+                "sourceTitle": "Coburg",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-11-20T17:05:00+11:00",
-                "updated": "2020-11-20T17:29:00+11:00",
-                "id": "ESTA:201120939",
-                "location": "Mafeking Rd, Traralgon",
+                "status": "responding",
+                "created": "2020-11-20T17:42:59+11:00",
+                "updated": "2020-11-20T17:42:59+11:00",
+                "id": "ESTA:201120987",
+                "location": "Coburg, Coburg",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -10615,22 +10593,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.53082315479958,
-                    -38.18835734314045
+                    144.97653257038692,
+                    -37.7515362615431
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Upper Lurg Rd",
+                "sourceTitle": "Elizabeth St",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2020-11-20T16:18:00+11:00",
-                "updated": "2020-11-20T16:48:00+11:00",
-                "id": "ESTA:201120884",
-                "location": "Upper Lurg Rd, Upper Lurg",
+                "created": "2020-11-20T17:43:09+11:00",
+                "updated": "2020-11-20T17:43:09+11:00",
+                "id": "ESTA:201120974",
+                "location": "Elizabeth St, Melbourne",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10638,30 +10616,75 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.18366502654916,
-                    -36.58800404154049
+                    144.9583817398289,
+                    -37.802853322782816
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Londrigan",
+                "sourceTitle": "Coburg",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-20T17:41:32+11:00",
+                "updated": "2020-11-20T17:44:22+11:00",
+                "id": "ESTA:201120988",
+                "location": "Coburg",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97654256149798,
+                    -37.75153361425515
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-20T17:33:28+11:00",
-                "updated": "2020-11-20T17:36:01+11:00",
+                "status": "under control",
+                "created": "2020-11-20T17:35:00+11:00",
+                "updated": "2020-11-20T17:45:00+11:00",
                 "id": "ESTA:201120979",
                 "location": "Londrigan",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.4561980451249,
-                    -36.3479390160276
+                    146.4561824031823,
+                    -36.34794484152069
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-11-20T17:46:00+11:00",
+                "updated": "2020-11-20T17:45:43+11:00",
+                "id": "ESTA:201152744",
+                "location": "Lilydale",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34272979278398,
+                    -37.75946732004533
                 ]
             }
         },
@@ -13015,10 +13038,33 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Railway Av",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-11-20T16:03:00+11:00",
+                "updated": "2020-11-20T17:44:00+11:00",
+                "id": "ESTA:201120872",
+                "location": "Railway Av, Laverton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.76384544516338,
+                    -37.866573560093165
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Racecourse Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-11-20T17:32:00+11:00",
                 "updated": "2020-11-20T17:32:00+11:00",
                 "id": "ESTA:201120977",
@@ -13032,6 +13078,29 @@
                 "coordinates": [
                     145.06966858143468,
                     -38.23985753470207
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mafeking Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-11-20T17:05:00+11:00",
+                "updated": "2020-11-20T17:29:00+11:00",
+                "id": "ESTA:201120939",
+                "location": "Mafeking Rd, Traralgon",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.53082315479958,
+                    -38.18835734314045
                 ]
             }
         },
@@ -13107,60 +13176,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-11-20T15:33:00+11:00",
-                "updated": "2020-11-20T16:39:00+11:00",
-                "id": "ESTA:201120831",
-                "location": "Pitfield",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.60222442397833,
-                    -37.8081547241801
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-20T16:03:00+11:00",
-                "updated": "2020-11-20T16:38:00+11:00",
-                "id": "ESTA:201120871",
-                "location": "Mount Eliza",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0994251431761,
-                    -38.22478070304088
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Railway Av",
+                "sourceTitle": "Upper Lurg Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-11-20T16:21:09+11:00",
-                "updated": "2020-11-20T16:21:09+11:00",
-                "id": "ESTA:201120872",
-                "location": "Railway Av, Laverton",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-20T16:18:00+11:00",
+                "updated": "2020-11-20T16:48:00+11:00",
+                "id": "ESTA:201120884",
+                "location": "Upper Lurg Rd, Upper Lurg",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -13168,8 +13191,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.76385398339514,
-                    -37.86657206802465
+                    146.18366502654916,
+                    -36.58800404154049
                 ]
             }
         },
@@ -13294,19 +13317,19 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-11-20T16:26:00+11:00",
-                "updated": "2020-11-20T17:29:00+11:00",
-                "id": "ESTA:201152735",
-                "location": "Wheelers Hill",
+                "status": "request for assistance",
+                "created": "2020-11-20T15:04:00+11:00",
+                "updated": "2020-11-20T17:46:00+11:00",
+                "id": "ESTA:201152727",
+                "location": "Mildura",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1749279290014,
-                    -37.902540601957554
+                    142.1560485634452,
+                    -34.20032498282777
                 ]
             }
         },
@@ -13316,9 +13339,9 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue persons trapped",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-11-20T17:26:00+11:00",
-                "updated": "2020-11-20T17:28:00+11:00",
+                "updated": "2020-11-20T17:45:00+11:00",
                 "id": "ESTA:201152743",
                 "location": "Mooroopna",
                 "title": "incident: rescue"
@@ -13340,7 +13363,7 @@
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-11-20T17:13:00+11:00",
-                "updated": "2020-11-20T17:24:00+11:00",
+                "updated": "2020-11-20T17:41:00+11:00",
                 "id": "ESTA:201152742",
                 "location": "Kyneton",
                 "title": "incident: tree down"
@@ -13373,28 +13396,6 @@
                 "coordinates": [
                     145.08074996563886,
                     -37.865139035835185
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-20T15:04:00+11:00",
-                "updated": "2020-11-20T15:19:00+11:00",
-                "id": "ESTA:201152727",
-                "location": "Mildura",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.1560485634452,
-                    -34.20032498282777
                 ]
             }
         },

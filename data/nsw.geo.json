@@ -891,11 +891,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398431",
-                "created": "2020-11-21T05:41:00+11:00",
-                "updated": "2020-11-21T16:41:00+11:00",
+                "created": "2020-11-21T06:13:00+11:00",
+                "updated": "2020-11-21T17:13:00+11:00",
                 "location": "Cobb Hwy, Deniliquin, NSW 2710",
                 "size": 866,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Cobb Hwy, Deniliquin, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 866 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 16:41",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Cobb Hwy, Deniliquin, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 866 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 17:13",
                 "title": "incident: fire"
             }
         },
@@ -1655,10 +1655,71 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.74723000000006,
-                    -32.19183899999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.74723000000006,
+                            -32.19183899999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.745872815,
+                                            -32.192173464
+                                        ],
+                                        [
+                                            148.745930376,
+                                            -32.192244291
+                                        ],
+                                        [
+                                            148.746884989,
+                                            -32.192230719
+                                        ],
+                                        [
+                                            148.747483527,
+                                            -32.192675961
+                                        ],
+                                        [
+                                            148.747691811,
+                                            -32.193270043
+                                        ],
+                                        [
+                                            148.747667492,
+                                            -32.193461444
+                                        ],
+                                        [
+                                            148.74665812,
+                                            -32.193547446
+                                        ],
+                                        [
+                                            148.745648745,
+                                            -32.1936334399999
+                                        ],
+                                        [
+                                            148.745462922,
+                                            -32.192752453
+                                        ],
+                                        [
+                                            148.745448846,
+                                            -32.192036198
+                                        ],
+                                        [
+                                            148.745872815,
+                                            -32.192173464
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1666,13 +1727,13 @@
                 "sourceTitle": "Dunedoo Rd, Beni",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398983",
-                "created": "2020-11-21T05:34:00+11:00",
-                "updated": "2020-11-21T16:34:00+11:00",
+                "created": "2020-11-21T06:17:00+11:00",
+                "updated": "2020-11-21T17:17:00+11:00",
                 "location": "94L Dunedoo Rd, Beni, NSW 2830",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 94L Dunedoo Rd, Beni, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 16:34",
+                "size": 2,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 94L Dunedoo Rd, Beni, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 17:17",
                 "title": "incident: fire"
             }
         },
@@ -1690,13 +1751,13 @@
                 "sourceTitle": "Elsinore Rd, Mullengudgery",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398979",
-                "created": "2020-11-21T05:07:00+11:00",
-                "updated": "2020-11-21T16:07:00+11:00",
+                "created": "2020-11-21T06:06:00+11:00",
+                "updated": "2020-11-21T17:06:00+11:00",
                 "location": "166 Elsinore Rd, Mullengudgery, NSW 2825",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 166 Elsinore Rd, Mullengudgery, NSW 2825 <br />COUNCIL AREA: Warren <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 16:07",
+                "size": 2,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 166 Elsinore Rd, Mullengudgery, NSW 2825 <br />COUNCIL AREA: Warren <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 17:06",
                 "title": "incident: fire"
             }
         },
@@ -1721,6 +1782,30 @@
                 "location": "Moses Rock Rd, 9km NW of Cascade",
                 "size": 228,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Moses Rock Rd, 9km NW of Cascade <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 228 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 19 Nov 2020 17:33",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.03617400000007,
+                    -32.44577999999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Goolma Rd, Bodangora",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398987",
+                "created": "2020-11-21T06:24:00+11:00",
+                "updated": "2020-11-21T17:24:00+11:00",
+                "location": "Goolma Rd, Bodangora, NSW 2820",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Goolma Rd, Bodangora, NSW 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 17:24",
                 "title": "incident: fire"
             }
         },
@@ -3165,11 +3250,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398885",
-                "created": "2020-11-21T04:28:00+11:00",
-                "updated": "2020-11-21T15:28:00+11:00",
+                "created": "2020-11-21T06:09:00+11:00",
+                "updated": "2020-11-21T17:09:00+11:00",
                 "location": "Pleasant View Lane, Collie, NSW 2827",
                 "size": 399,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Pleasant View Lane, Collie, NSW 2827 <br />COUNCIL AREA: Warren <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 399 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 15:28",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Pleasant View Lane, Collie, NSW 2827 <br />COUNCIL AREA: Warren <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 399 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 17:09",
                 "title": "incident: fire"
             }
         },
@@ -3461,13 +3546,13 @@
                 "sourceTitle": "Cedarvale Lane, Jaspers Brush",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398984",
-                "created": "2020-11-21T05:44:00+11:00",
-                "updated": "2020-11-21T16:44:00+11:00",
+                "created": "2020-11-21T06:11:00+11:00",
+                "updated": "2020-11-21T17:11:00+11:00",
                 "location": "43 Cedarvale Lane, Jaspers Brush, NSW 2535",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 43 Cedarvale Lane, Jaspers Brush, NSW 2535 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 16:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 43 Cedarvale Lane, Jaspers Brush, NSW 2535 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 17:11",
                 "title": "incident: fire"
             }
         },

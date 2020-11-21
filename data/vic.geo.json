@@ -10485,35 +10485,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Franklin St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-11-21T19:05:00+11:00",
-                "updated": "2020-11-21T19:19:00+11:00",
-                "id": "ESTA:201123230",
-                "location": "Franklin St, Maldon",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.06503666830744,
-                    -36.98780705558378
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Rose Av",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-11-21T19:25:39+11:00",
-                "updated": "2020-11-21T19:25:39+11:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-11-21T19:32:10+11:00",
+                "updated": "2020-11-21T19:32:10+11:00",
                 "id": "ESTA:201123260",
                 "location": "Rose Av, Templestowe Lower",
                 "size": "Small",
@@ -10531,12 +10508,81 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dunbabbin Rd",
+                "sourceTitle": "Konagaderra Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "under control",
+                "created": "2020-11-21T18:59:00+11:00",
+                "updated": "2020-11-21T19:37:00+11:00",
+                "id": "ESTA:201123223",
+                "location": "Konagaderra Rd, Oaklands Junction",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8340916479059,
+                    -37.531191379535265
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Victoria St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-11-21T19:38:19+11:00",
+                "updated": "2020-11-21T19:38:19+11:00",
+                "id": "ESTA:201123209",
+                "location": "Victoria St, Richmond",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01090265660255,
+                    -37.81175298296754
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Emerald Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-11-21T19:33:00+11:00",
+                "updated": "2020-11-21T19:41:00+11:00",
+                "id": "ESTA:201123278",
+                "location": "Old Emerald Rd, Monbulk",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.43379514198438,
+                    -37.88356010055687
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dunbabbin Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
                 "created": "2020-11-21T19:11:00+11:00",
-                "updated": "2020-11-21T19:28:00+11:00",
+                "updated": "2020-11-21T19:42:00+11:00",
                 "id": "ESTA:201123239",
                 "location": "Dunbabbin Rd, The Gurdies",
                 "size": "Small",
@@ -13361,14 +13407,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Franklin St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-11-21T19:15:00+11:00",
-                "updated": "2020-11-21T19:15:00+11:00",
-                "id": "ESTA:201123244",
-                "location": "Miepoll",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-11-21T19:05:00+11:00",
+                "updated": "2020-11-21T19:19:00+11:00",
+                "id": "ESTA:201123230",
+                "location": "Franklin St, Maldon",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -13376,31 +13422,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.51347687642541,
-                    -36.61219556539017
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Konagaderra Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-11-21T18:59:00+11:00",
-                "updated": "2020-11-21T18:59:00+11:00",
-                "id": "ESTA:201123223",
-                "location": "Konagaderra Rd, Oaklands Junction",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.8340916479059,
-                    -37.531191379535265
+                    144.06503666830744,
+                    -36.98780705558378
                 ]
             }
         },
@@ -13424,75 +13447,6 @@
                 "coordinates": [
                     143.63140586354663,
                     -37.260205203392
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Australis Dr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-21T18:34:00+11:00",
-                "updated": "2020-11-21T18:38:00+11:00",
-                "id": "ESTA:201123181",
-                "location": "Australis Dr, Wallan",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9716617238094,
-                    -37.40029936573469
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Samann Ct",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-21T17:25:00+11:00",
-                "updated": "2020-11-21T18:35:00+11:00",
-                "id": "ESTA:201123069",
-                "location": "Samann Ct, Mount Clear",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.86645835995938,
-                    -37.59923593887898
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Victoria St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-11-21T18:58:51+11:00",
-                "updated": "2020-11-21T18:58:51+11:00",
-                "id": "ESTA:201123209",
-                "location": "Victoria St, Richmond",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01090265660255,
-                    -37.81175298296754
                 ]
             }
         },

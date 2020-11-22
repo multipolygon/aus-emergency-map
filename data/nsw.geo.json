@@ -52,30 +52,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.34792699900004,
-                    -34.44874599999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Boorowa Rd, Lost River",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399107",
-                "created": "2020-11-22T07:24:00+11:00",
-                "updated": "2020-11-22T18:24:00+11:00",
-                "location": "778 Boorowa Rd, Lost River, NSW 2583",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 778 Boorowa Rd, Lost River, NSW 2583 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2020 18:24",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -1784,24 +1760,77 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.70466900000008,
-                    -30.80540899999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.80704116800007,
+                            -33.20508414599993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.806113327,
+                                            -33.206663923
+                                        ],
+                                        [
+                                            146.793145265,
+                                            -33.206188031
+                                        ],
+                                        [
+                                            146.779344391,
+                                            -33.1998824579999
+                                        ],
+                                        [
+                                            146.78124796,
+                                            -33.1950045639999
+                                        ],
+                                        [
+                                            146.788624289,
+                                            -33.1941717519999
+                                        ],
+                                        [
+                                            146.798974944,
+                                            -33.199168621
+                                        ],
+                                        [
+                                            146.806470247,
+                                            -33.205712138
+                                        ],
+                                        [
+                                            146.806708192,
+                                            -33.206425977
+                                        ],
+                                        [
+                                            146.806113327,
+                                            -33.206663923
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Greenhills Rd, Upper Taylors Arm",
+                "sourceTitle": "Hobob fire  Tullibigeal",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399109",
-                "created": "2020-11-22T07:00:00+11:00",
-                "updated": "2020-11-22T18:00:00+11:00",
-                "location": "Greenhills Rd, Upper Taylors Arm, NSW 2447",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Greenhills Rd, Upper Taylors Arm, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2020 18:00",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399098",
+                "created": "2020-11-22T07:25:00+11:00",
+                "updated": "2020-11-22T18:25:00+11:00",
+                "location": "Tullibigeal Rd, Tullibigeal, NSW 2669",
+                "size": 120,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Tullibigeal Rd, Tullibigeal, NSW 2669 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 120 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2020 18:25",
                 "title": "incident: fire"
             }
         },
@@ -3263,83 +3292,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            146.80704116800007,
-                            -33.20508414599993
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            146.806113327,
-                                            -33.206663923
-                                        ],
-                                        [
-                                            146.793145265,
-                                            -33.206188031
-                                        ],
-                                        [
-                                            146.779344391,
-                                            -33.1998824579999
-                                        ],
-                                        [
-                                            146.78124796,
-                                            -33.1950045639999
-                                        ],
-                                        [
-                                            146.788624289,
-                                            -33.1941717519999
-                                        ],
-                                        [
-                                            146.798974944,
-                                            -33.199168621
-                                        ],
-                                        [
-                                            146.806470247,
-                                            -33.205712138
-                                        ],
-                                        [
-                                            146.806708192,
-                                            -33.206425977
-                                        ],
-                                        [
-                                            146.806113327,
-                                            -33.206663923
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tullibigeal Rd, Tullibigeal",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399098",
-                "created": "2020-11-22T06:46:00+11:00",
-                "updated": "2020-11-22T17:46:00+11:00",
-                "location": "Tullibigeal Rd, Tullibigeal, NSW 2669",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Tullibigeal Rd, Tullibigeal, NSW 2669 <br />COUNCIL AREA: Lachlan <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2020 17:46",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             151.8910760000001,
                             -29.99205999999998
                         ]
@@ -3534,6 +3486,30 @@
                 "location": "Eastern Side, Pacific Highway, North of Clybucca Creek",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eastern Side, Pacific Highway, North of Clybucca Creek <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2020 16:13",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.55953216500006,
+                    -36.37347429799996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kosciuszko Rd, Jindabyne",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399110",
+                "created": "2020-11-22T07:38:00+11:00",
+                "updated": "2020-11-22T18:38:00+11:00",
+                "location": "Kosciuszko Rd, Jindabyne, NSW 2627",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kosciuszko Rd, Jindabyne, NSW 2627 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 22 Nov 2020 18:38",
                 "title": "incident: fire"
             }
         },

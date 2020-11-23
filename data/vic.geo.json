@@ -11532,6 +11532,51 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Shaw St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-24T04:00:00+11:00",
+                "updated": "2020-11-24T04:00:00+11:00",
+                "id": "ESTA:201125758",
+                "location": "Shaw St, Mortlake",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.81083884026881,
+                    -38.079229825182175
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Redbank",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "responding",
+                "created": "2020-11-24T04:08:40+11:00",
+                "updated": "2020-11-24T04:08:54+11:00",
+                "id": "ESTA:201153450",
+                "location": "Redbank",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.35992375193157,
+                    -36.96639442242767
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -11777,76 +11822,6 @@
                 "coordinates": [
                     144.760816097,
                     -36.1169382269999
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Curran Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-15T11:00:00+11:00",
-                "updated": "2020-11-15T11:00:00+11:00",
-                "id": "0f2050d1ecf89bb9b288bd07a80921c7",
-                "location": "Curran Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.1929,
-                            -35.1565
-                        ],
-                        [
-                            143.1925,
-                            -35.1567
-                        ],
-                        [
-                            143.1927,
-                            -35.1569
-                        ],
-                        [
-                            143.1926,
-                            -35.1574
-                        ],
-                        [
-                            143.1907,
-                            -35.158
-                        ],
-                        [
-                            143.1907,
-                            -35.1574
-                        ],
-                        [
-                            143.1901,
-                            -35.1574
-                        ],
-                        [
-                            143.1918,
-                            -35.1547
-                        ],
-                        [
-                            143.1922,
-                            -35.1545
-                        ],
-                        [
-                            143.1929,
-                            -35.1546
-                        ],
-                        [
-                            143.194,
-                            -35.1554
-                        ],
-                        [
-                            143.1929,
-                            -35.1565
-                        ]
-                    ]
                 ]
             }
         },
@@ -12125,6 +12100,76 @@
                         [
                             142.6916,
                             -35.7581
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Curran Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-15T11:00:00+11:00",
+                "updated": "2020-11-15T11:00:00+11:00",
+                "id": "0f2050d1ecf89bb9b288bd07a80921c7",
+                "location": "Curran Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.1929,
+                            -35.1565
+                        ],
+                        [
+                            143.1925,
+                            -35.1567
+                        ],
+                        [
+                            143.1927,
+                            -35.1569
+                        ],
+                        [
+                            143.1926,
+                            -35.1574
+                        ],
+                        [
+                            143.1907,
+                            -35.158
+                        ],
+                        [
+                            143.1907,
+                            -35.1574
+                        ],
+                        [
+                            143.1901,
+                            -35.1574
+                        ],
+                        [
+                            143.1918,
+                            -35.1547
+                        ],
+                        [
+                            143.1922,
+                            -35.1545
+                        ],
+                        [
+                            143.1929,
+                            -35.1546
+                        ],
+                        [
+                            143.194,
+                            -35.1554
+                        ],
+                        [
+                            143.1929,
+                            -35.1565
                         ]
                     ]
                 ]

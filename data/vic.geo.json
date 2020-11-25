@@ -11391,14 +11391,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Patterson Rd",
+                "sourceTitle": "Elizabeth St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-26T08:44:00+11:00",
-                "updated": "2020-11-26T08:45:00+11:00",
-                "id": "ESTA:201128208",
-                "location": "Patterson Rd, Cape Schanck",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-26T09:11:00+11:00",
+                "updated": "2020-11-26T09:11:00+11:00",
+                "id": "ESTA:201128268",
+                "location": "Elizabeth St, Seymour",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -11406,8 +11406,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9051551820477,
-                    -38.43555632612571
+                    145.1326444554,
+                    -37.02164745193303
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Holroyd Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-26T09:19:59+11:00",
+                "updated": "2020-11-26T09:19:59+11:00",
+                "id": "ESTA:201128287",
+                "location": "Holroyd Ct, Blackburn South",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1474447754118,
+                    -37.845450388295205
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hume Fwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-11-26T07:57:00+11:00",
+                "updated": "2020-11-26T09:19:00+11:00",
+                "id": "ESTA:201128127",
+                "location": "Hume Fwy, Violet Town",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.7591182931994,
+                    -36.624391142665175
                 ]
             }
         },
@@ -11417,9 +11463,9 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-11-26T08:39:00+11:00",
-                "updated": "2020-11-26T08:49:00+11:00",
+                "updated": "2020-11-26T09:23:00+11:00",
                 "id": "ESTA:201128197",
                 "location": "Bullengarook",
                 "size": "Small",
@@ -11431,29 +11477,6 @@
                 "coordinates": [
                     144.47174963195192,
                     -37.537593517726776
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Yarrawonga-Wangaratta Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-11-26T09:00:46+11:00",
-                "updated": "2020-11-26T09:00:46+11:00",
-                "id": "ESTA:201128247",
-                "location": "Yarrawonga-Wangaratta Rd, Waldara",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.28326296178034,
-                    -36.31773963474329
                 ]
             }
         },
@@ -11998,28 +12021,6 @@
                 "coordinates": [
                     144.212501,
                     -35.2635139999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Simms St, Moama",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-11-25T15:35:00+11:00",
-                "updated": "2020-11-25T15:35:00+11:00",
-                "id": "2020-11-25T15:35:00.0000000:398277",
-                "location": "Simms St, Moama, Nsw 2731",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.760816097,
-                    -36.1169382269999
                 ]
             }
         },
@@ -14304,58 +14305,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hume Fwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "under control",
-                "created": "2020-11-26T07:57:00+11:00",
-                "updated": "2020-11-26T08:32:00+11:00",
-                "id": "ESTA:201128127",
-                "location": "Hume Fwy, Violet Town",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.7591182931994,
-                    -36.624391142665175
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "on scene",
-                "created": "2020-11-26T08:06:00+11:00",
-                "updated": "2020-11-26T08:44:00+11:00",
-                "id": "ESTA:201128139",
-                "location": "Portland",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.61307710219543,
-                    -38.36756268064759
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Pound Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-11-26T08:53:22+11:00",
-                "updated": "2020-11-26T08:53:22+11:00",
+                "status": "under control",
+                "created": "2020-11-26T09:21:06+11:00",
+                "updated": "2020-11-26T09:21:06+11:00",
                 "id": "ESTA:201127689",
                 "location": "Pound Rd, Warrandyte",
                 "size": "Small",
@@ -14367,6 +14322,75 @@
                 "coordinates": [
                     145.19762993712115,
                     -37.745284714911925
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Heathmont Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-11-26T09:17:00+11:00",
+                "updated": "2020-11-26T09:17:00+11:00",
+                "id": "ESTA:201128282",
+                "location": "Heathmont Rd, Heathmont",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.25560693788807,
+                    -37.83523659169304
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Patterson Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-26T08:44:00+11:00",
+                "updated": "2020-11-26T08:45:00+11:00",
+                "id": "ESTA:201128208",
+                "location": "Patterson Rd, Cape Schanck",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9051551820477,
+                    -38.43555632612571
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "on scene",
+                "created": "2020-11-26T08:06:00+11:00",
+                "updated": "2020-11-26T09:04:00+11:00",
+                "id": "ESTA:201128139",
+                "location": "Portland",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.61307710219543,
+                    -38.36756268064759
                 ]
             }
         },
@@ -14419,14 +14443,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Altona Meadows",
+                "sourceTitle": "Yarrawonga-Wangaratta Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-11-26T08:42:30+11:00",
-                "updated": "2020-11-26T08:42:30+11:00",
-                "id": "ESTA:201128163",
-                "location": "Altona Meadows, Altona Meadows",
+                "status": "safe",
+                "created": "2020-11-26T09:06:47+11:00",
+                "updated": "2020-11-26T09:06:47+11:00",
+                "id": "ESTA:201128247",
+                "location": "Yarrawonga-Wangaratta Rd, Waldara",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -14434,54 +14458,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7759236406915,
-                    -37.86664024529764
+                    146.28326296178034,
+                    -36.31773963474329
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Alma Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-26T08:57:41+11:00",
-                "updated": "2020-11-26T08:57:41+11:00",
-                "id": "ESTA:201128179",
-                "location": "Alma Rd, Caulfield North",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-26T09:09:00+11:00",
+                "updated": "2020-11-26T09:10:00+11:00",
+                "id": "ESTA:201153553",
+                "location": "Upwey",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02433258856954,
-                    -37.865738626581766
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lygon St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-26T09:02:20+11:00",
-                "updated": "2020-11-26T09:02:20+11:00",
-                "id": "ESTA:201128196",
-                "location": "Lygon St, Brunswick East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97242977882533,
-                    -37.76854672638782
+                    145.33911196567334,
+                    -37.91486788225064
                 ]
             }
         },
@@ -14504,28 +14504,6 @@
                 "coordinates": [
                     146.29481746355162,
                     -38.13837450142258
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-11-26T08:06:00+11:00",
-                "updated": "2020-11-26T08:37:00+11:00",
-                "id": "ESTA:201153546",
-                "location": "Macclesfield",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4643004291097,
-                    -37.859052108488285
                 ]
             }
         },

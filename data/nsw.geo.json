@@ -476,6 +476,71 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            146.35218143400004,
+                            -34.74598522399998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.352294472,
+                                            -34.745761111
+                                        ],
+                                        [
+                                            146.352282576,
+                                            -34.745784906
+                                        ],
+                                        [
+                                            146.3521755,
+                                            -34.746689101
+                                        ],
+                                        [
+                                            146.350878693,
+                                            -34.746439257
+                                        ],
+                                        [
+                                            146.351342688,
+                                            -34.745689727
+                                        ],
+                                        [
+                                            146.352294472,
+                                            -34.745761111
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Devlins Bridge Rd, Gillenbah",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399434",
+                "created": "2020-11-26T08:12:00+11:00",
+                "updated": "2020-11-26T19:12:00+11:00",
+                "location": "Devlins Bridge Rd, Gillenbah, NSW 2700",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Devlins Bridge Rd, Gillenbah, NSW 2700 <br />COUNCIL AREA: Narrandera <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Nov 2020 19:12",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             149.1654753680001,
                             -35.30735951499997
                         ]
@@ -993,65 +1058,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.389350282,
-                                            -28.939560668
-                                        ],
-                                        [
-                                            153.389135069,
-                                            -28.9396467519999
-                                        ],
-                                        [
-                                            153.388980115,
-                                            -28.939577884
-                                        ],
-                                        [
-                                            153.38895429,
-                                            -28.9394573659999
-                                        ],
-                                        [
-                                            153.389040376,
-                                            -28.939207718
-                                        ],
-                                        [
-                                            153.389221154,
-                                            -28.9389925049999
-                                        ],
-                                        [
-                                            153.389290023,
-                                            -28.938906419
-                                        ],
-                                        [
-                                            153.389677405,
-                                            -28.9389150279999
-                                        ],
-                                        [
-                                            153.389703232,
-                                            -28.939001114
-                                        ],
-                                        [
-                                            153.38965158,
-                                            -28.9391130239999
-                                        ],
-                                        [
-                                            153.389668797,
-                                            -28.9392507599999
-                                        ],
-                                        [
-                                            153.389591321,
-                                            -28.939362671
-                                        ],
-                                        [
-                                            153.389350282,
-                                            -28.939560668
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.391824566,
                                             -28.940980758
                                         ],
@@ -1166,6 +1172,65 @@
                                         [
                                             153.391824566,
                                             -28.940980758
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.389350282,
+                                            -28.939560668
+                                        ],
+                                        [
+                                            153.389135069,
+                                            -28.9396467519999
+                                        ],
+                                        [
+                                            153.388980115,
+                                            -28.939577884
+                                        ],
+                                        [
+                                            153.38895429,
+                                            -28.9394573659999
+                                        ],
+                                        [
+                                            153.389040376,
+                                            -28.939207718
+                                        ],
+                                        [
+                                            153.389221154,
+                                            -28.9389925049999
+                                        ],
+                                        [
+                                            153.389290023,
+                                            -28.938906419
+                                        ],
+                                        [
+                                            153.389677405,
+                                            -28.9389150279999
+                                        ],
+                                        [
+                                            153.389703232,
+                                            -28.939001114
+                                        ],
+                                        [
+                                            153.38965158,
+                                            -28.9391130239999
+                                        ],
+                                        [
+                                            153.389668797,
+                                            -28.9392507599999
+                                        ],
+                                        [
+                                            153.389591321,
+                                            -28.939362671
+                                        ],
+                                        [
+                                            153.389350282,
+                                            -28.939560668
                                         ]
                                     ]
                                 ]
@@ -2971,13 +3036,13 @@
                 "sourceTitle": "Tyringham Rd, Tyringham",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399409",
-                "created": "2020-11-26T04:56:00+11:00",
-                "updated": "2020-11-26T15:56:00+11:00",
+                "created": "2020-11-26T08:06:00+11:00",
+                "updated": "2020-11-26T19:06:00+11:00",
                 "location": "Tyringham Rd, Tyringham, NSW 2453",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Tyringham Rd, Tyringham, NSW 2453 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Nov 2020 15:56",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Tyringham Rd, Tyringham, NSW 2453 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Nov 2020 19:06",
                 "title": "incident: fire"
             }
         },
@@ -3099,6 +3164,30 @@
                 "location": "X Line Rd, The Pilliga, NSW 2388",
                 "size": 97,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: X Line Rd, The Pilliga, NSW 2388 <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 97 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 26 Nov 2020 10:21",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.90226100000007,
+                    -33.62836699999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Annear St, Box Hill",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399429",
+                "created": "2020-11-26T07:58:00+11:00",
+                "updated": "2020-11-26T18:58:00+11:00",
+                "location": "14 Annear St, Box Hill, NSW 2765",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 14 Annear St, Box Hill, NSW 2765 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Nov 2020 18:58",
                 "title": "incident: fire"
             }
         },
@@ -3251,30 +3340,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.4526370000001,
-                    -34.66772099999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Irrigation Way, Narrandera",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399433",
-                "created": "2020-11-26T07:40:00+11:00",
-                "updated": "2020-11-26T18:40:00+11:00",
-                "location": "Irrigation Way, Narrandera, NSW 2700",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Irrigation Way, Narrandera, NSW 2700 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Nov 2020 18:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.42393400000003,
                     -28.61524500099995
                 ]
@@ -3284,13 +3349,13 @@
                 "sourceTitle": "Mafeking Rd, Goonengerry",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399430",
-                "created": "2020-11-26T07:49:00+11:00",
-                "updated": "2020-11-26T18:49:00+11:00",
+                "created": "2020-11-26T08:19:00+11:00",
+                "updated": "2020-11-26T19:19:00+11:00",
                 "location": "174 Mafeking Rd, Goonengerry, NSW 2482",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 174 Mafeking Rd, Goonengerry, NSW 2482 <br />COUNCIL AREA: Byron <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Nov 2020 18:49",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 174 Mafeking Rd, Goonengerry, NSW 2482 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Nov 2020 19:19",
                 "title": "incident: other"
             }
         },

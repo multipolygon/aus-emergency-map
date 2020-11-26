@@ -10491,74 +10491,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wellsford",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-11-27T01:10:13+11:00",
-                "updated": "2020-11-27T01:10:13+11:00",
-                "id": "ESTA:201129148",
-                "location": "Wellsford, Wellsford",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.34770283311803,
-                    -36.74193517673609
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Quarry Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-11-27T01:10:00+11:00",
-                "updated": "2020-11-27T01:10:00+11:00",
-                "id": "ESTA:201129154",
-                "location": "Quarry Rd, Ferntree Gully",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.29950998531967,
-                    -37.88884310515022
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-11-27T01:13:00+11:00",
-                "updated": "2020-11-27T01:19:00+11:00",
-                "id": "ESTA:201153597",
-                "location": "Mount Clear",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.864844043715,
-                    -37.60350114347742
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Hopkins Hwy",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -10576,6 +10508,29 @@
                 "coordinates": [
                     142.58014951808389,
                     -38.29258777027771
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Quarry Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "not yet under control",
+                "created": "2020-11-27T01:10:00+11:00",
+                "updated": "2020-11-27T01:10:00+11:00",
+                "id": "ESTA:201129154",
+                "location": "Quarry Rd, Ferntree Gully",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29950998531967,
+                    -37.88884310515022
                 ]
             }
         },
@@ -13321,29 +13276,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Melrose Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-11-27T01:06:00+11:00",
-                "updated": "2020-11-27T01:06:00+11:00",
-                "id": "ESTA:201129153",
-                "location": "Melrose Dr, West Wodonga",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.86798061205062,
-                    -36.11697603077393
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mokepilly Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -13384,29 +13316,6 @@
                 "coordinates": [
                     145.43895419075335,
                     -36.09301660705894
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bartons Lane",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-11-27T00:39:00+11:00",
-                "updated": "2020-11-27T00:39:00+11:00",
-                "id": "ESTA:201129147",
-                "location": "Bartons Lane, Loy Yang",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.58149232874447,
-                    -38.251681469153255
                 ]
             }
         },
@@ -13499,6 +13408,51 @@
                 "coordinates": [
                     145.14871123235216,
                     -38.127577501887274
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wellsford",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-11-27T01:10:13+11:00",
+                "updated": "2020-11-27T01:10:13+11:00",
+                "id": "ESTA:201129148",
+                "location": "Wellsford, Wellsford",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.34770283311803,
+                    -36.74193517673609
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-11-27T01:13:00+11:00",
+                "updated": "2020-11-27T01:19:00+11:00",
+                "id": "ESTA:201153597",
+                "location": "Mount Clear",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.864844043715,
+                    -37.60350114347742
                 ]
             }
         },

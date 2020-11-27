@@ -10551,9 +10551,9 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-11-27T12:23:00+11:00",
-                "updated": "2020-11-27T12:23:00+11:00",
+                "updated": "2020-11-27T12:37:00+11:00",
                 "id": "ESTA:201129614",
                 "location": "Merrijig (Mount Buller)",
                 "size": "Small",
@@ -10571,14 +10571,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Groppi Rd",
+                "sourceTitle": "Macintyre Lane",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-27T12:27:37+11:00",
-                "updated": "2020-11-27T12:27:37+11:00",
-                "id": "ESTA:201129593",
-                "location": "Groppi Rd, Hazelwood North",
+                "created": "2020-11-27T11:54:00+11:00",
+                "updated": "2020-11-27T12:18:00+11:00",
+                "id": "ESTA:201129591",
+                "location": "Macintyre Lane, Yering",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10586,8 +10586,100 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.45095626171852,
-                    -38.24242693532359
+                    145.3625046101007,
+                    -37.698153186323424
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "West Wodonga",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-27T12:45:56+11:00",
+                "updated": "2020-11-27T12:45:56+11:00",
+                "id": "ESTA:201129631",
+                "location": "West Wodonga, West Wodonga",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.825302488622,
+                    -36.102439440516484
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maffra St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-11-27T12:43:42+11:00",
+                "updated": "2020-11-27T12:43:42+11:00",
+                "id": "ESTA:201129617",
+                "location": "Maffra St, Coolaroo",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94138930575463,
+                    -37.662248879572914
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gaussberg Walk",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-11-27T12:47:11+11:00",
+                "updated": "2020-11-27T12:47:11+11:00",
+                "id": "ESTA:201129635",
+                "location": "Gaussberg Walk, Roxburgh Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91262146055277,
+                    -37.63355950726255
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Imperial Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-27T12:48:25+11:00",
+                "updated": "2020-11-27T12:48:25+11:00",
+                "id": "ESTA:201129637",
+                "location": "Imperial Av, Caulfield South",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01647283404458,
+                    -37.888030209802345
                 ]
             }
         },
@@ -10595,21 +10687,67 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "building damage",
+                "subcategory": "building damage",
                 "status": "complete",
-                "created": "2020-11-27T11:23:00+11:00",
-                "updated": "2020-11-27T12:31:00+11:00",
-                "id": "ESTA:201153612",
-                "location": "Vermont South",
-                "title": "incident: tree down"
+                "created": "2020-11-25T14:57:00+11:00",
+                "updated": "2020-11-27T12:47:00+11:00",
+                "id": "ESTA:201153508",
+                "location": "Rowville",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.17503437344246,
-                    -37.8470916878644
+                    145.2531351962397,
+                    -37.92836642884634
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "aircraft accident",
+                "status": "request for assistance",
+                "created": "2020-11-27T12:40:00+11:00",
+                "updated": "2020-11-27T12:42:00+11:00",
+                "id": "ESTA:201129632",
+                "location": "Connewarre",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.4251490128233,
+                    -38.259486690507465
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Byrneside",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-11-27T12:48:49+11:00",
+                "updated": "2020-11-27T12:48:49+11:00",
+                "id": "ESTA:201129638",
+                "location": "Byrneside, Byrneside",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18652033408313,
+                    -36.40181112574922
                 ]
             }
         },
@@ -15829,14 +15967,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Macintyre Lane",
+                "sourceTitle": "Groppi Rd",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-11-27T11:54:00+11:00",
-                "updated": "2020-11-27T12:18:00+11:00",
-                "id": "ESTA:201129591",
-                "location": "Macintyre Lane, Yering",
+                "created": "2020-11-27T12:27:37+11:00",
+                "updated": "2020-11-27T12:27:37+11:00",
+                "id": "ESTA:201129593",
+                "location": "Groppi Rd, Hazelwood North",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -15844,8 +15982,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3625046101007,
-                    -37.698153186323424
+                    146.45095626171852,
+                    -38.24242693532359
                 ]
             }
         },
@@ -15892,52 +16030,6 @@
                 "coordinates": [
                     145.09397812817215,
                     -37.6006611806899
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Empress Way",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2020-11-27T11:14:00+11:00",
-                "updated": "2020-11-27T11:48:00+11:00",
-                "id": "ESTA:201129540",
-                "location": "Empress Way, Melton West",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.56016643962286,
-                    -37.67962679978534
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princeton Av",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-11-27T11:25:00+11:00",
-                "updated": "2020-11-27T11:46:00+11:00",
-                "id": "ESTA:201129551",
-                "location": "Princeton Av, Cape Woolamai",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33468548363317,
-                    -38.528138749185196
                 ]
             }
         },
@@ -16082,52 +16174,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Norwest Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-11-27T12:28:48+11:00",
-                "updated": "2020-11-27T12:28:48+11:00",
-                "id": "ESTA:201129594",
-                "location": "Norwest Av, Laverton North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.77187174170285,
-                    -37.82346594280969
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sunbury",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-27T12:25:57+11:00",
-                "updated": "2020-11-27T12:25:57+11:00",
-                "id": "ESTA:201129612",
-                "location": "Sunbury, Sunbury",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.71016793724306,
-                    -37.578635032036026
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Rosebank Av",
                 "category": "other",
                 "subcategory": "other",
@@ -16151,29 +16197,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Seaside Cl",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-11-27T12:32:23+11:00",
-                "updated": "2020-11-27T12:32:23+11:00",
-                "id": "ESTA:201129565",
-                "location": "Seaside Cl, Seabrook",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.75341990906136,
-                    -37.884210377248834
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Lightwood Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -16191,28 +16214,6 @@
                 "coordinates": [
                     145.1640281165138,
                     -37.95809534985038
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2020-11-25T14:57:00+11:00",
-                "updated": "2020-11-27T12:29:00+11:00",
-                "id": "ESTA:201153508",
-                "location": "Rowville",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2531351962397,
-                    -37.92836642884634
                 ]
             }
         },

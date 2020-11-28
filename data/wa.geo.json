@@ -414,16 +414,16 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "MULLALOO",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "on scene",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "monitoring",
                 "id": "2096131-506620",
                 "created": "2020-11-29T06:11:04+08:00",
-                "updated": "2020-11-29T06:23:17+08:00",
+                "updated": "2020-11-29T07:32:30+08:00",
                 "location": "MULLALOO",
                 "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
+                "description": "Structure Fire",
+                "title": "incident: fire"
             }
         },
         {
@@ -746,6 +746,31 @@
                 "created": "2020-11-29T05:36:08+08:00",
                 "updated": "2020-11-29T05:36:08+08:00",
                 "location": "OCEAN BEACH",
+                "size": "",
+                "description": "Burn Off",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.84743,
+                    -31.785997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GNANGARA",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "active",
+                "id": "2096146-506624",
+                "created": "2020-11-29T07:31:59+08:00",
+                "updated": "2020-11-29T07:31:59+08:00",
+                "location": "GNANGARA",
                 "size": "",
                 "description": "Burn Off",
                 "title": "incident: fire"

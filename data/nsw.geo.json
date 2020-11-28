@@ -219,6 +219,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.785074,
+                    -33.93174799999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Badgery Rd, Cowra",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399689",
+                "created": "2020-11-28T08:28:00+11:00",
+                "updated": "2020-11-28T19:28:00+11:00",
+                "location": "653 Badgery Rd, Cowra, NSW 2794",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 653 Badgery Rd, Cowra, NSW 2794 <br />COUNCIL AREA: Cowra <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:28",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.52902984600007,
                     -29.708481237999933
                 ]
@@ -450,13 +474,13 @@
                 "sourceTitle": "Carrathool Rd, Carrathool",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399654",
-                "created": "2020-11-28T06:42:00+11:00",
-                "updated": "2020-11-28T17:42:00+11:00",
+                "created": "2020-11-28T08:37:00+11:00",
+                "updated": "2020-11-28T19:37:00+11:00",
                 "location": "Carrathool Rd, Carrathool, NSW 2711",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Carrathool Rd, Carrathool, NSW 2711 <br />COUNCIL AREA: Carrathool <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 17:42",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Carrathool Rd, Carrathool, NSW 2711 <br />COUNCIL AREA: Carrathool <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:37",
                 "title": "incident: fire"
             }
         },
@@ -498,13 +522,13 @@
                 "sourceTitle": "County Boundary Rd, Pleasant Hills",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399668",
-                "created": "2020-11-28T08:03:00+11:00",
-                "updated": "2020-11-28T19:03:00+11:00",
+                "created": "2020-11-28T08:40:00+11:00",
+                "updated": "2020-11-28T19:40:00+11:00",
                 "location": "County Boundary Rd, Pleasant Hills, NSW 2658",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: County Boundary Rd, Pleasant Hills, NSW 2658 <br />COUNCIL AREA: Lockhart <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:03",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: County Boundary Rd, Pleasant Hills, NSW 2658 <br />COUNCIL AREA: Lockhart <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:40",
                 "title": "incident: fire"
             }
         },
@@ -553,30 +577,6 @@
                 "location": "Dukes Rd, Forbes, NSW 2871",
                 "size": 15,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Dukes Rd, Forbes, NSW 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 15 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:30",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.24785500000007,
-                    -34.48768499999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "End Of Mount Harris Rd, Stanbridge",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399670",
-                "created": "2020-11-28T08:22:00+11:00",
-                "updated": "2020-11-28T19:22:00+11:00",
-                "location": "End Of Mount Harris Rd, Stanbridge, NSW 2705",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: End Of Mount Harris Rd, Stanbridge, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:22",
                 "title": "incident: fire"
             }
         },
@@ -1444,65 +1444,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.389747001,
-                                            -28.940569582
-                                        ],
-                                        [
-                                            153.389687386,
-                                            -28.94073227
-                                        ],
-                                        [
-                                            153.389439611,
-                                            -28.940683212
-                                        ],
-                                        [
-                                            153.389198887,
-                                            -28.940508968
-                                        ],
-                                        [
-                                            153.389291479,
-                                            -28.9404589069999
-                                        ],
-                                        [
-                                            153.389160895,
-                                            -28.9403870849999
-                                        ],
-                                        [
-                                            153.38918672,
-                                            -28.940180481
-                                        ],
-                                        [
-                                            153.389212545,
-                                            -28.939999701
-                                        ],
-                                        [
-                                            153.389358891,
-                                            -28.939982485
-                                        ],
-                                        [
-                                            153.389496627,
-                                            -28.9401460459999
-                                        ],
-                                        [
-                                            153.389617146,
-                                            -28.9402665649999
-                                        ],
-                                        [
-                                            153.389596157,
-                                            -28.940350521
-                                        ],
-                                        [
-                                            153.389747001,
-                                            -28.940569582
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.386044562,
                                             -28.930188196
                                         ],
@@ -1633,6 +1574,65 @@
                                         [
                                             153.386044562,
                                             -28.930188196
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.389747001,
+                                            -28.940569582
+                                        ],
+                                        [
+                                            153.389687386,
+                                            -28.94073227
+                                        ],
+                                        [
+                                            153.389439611,
+                                            -28.940683212
+                                        ],
+                                        [
+                                            153.389198887,
+                                            -28.940508968
+                                        ],
+                                        [
+                                            153.389291479,
+                                            -28.9404589069999
+                                        ],
+                                        [
+                                            153.389160895,
+                                            -28.9403870849999
+                                        ],
+                                        [
+                                            153.38918672,
+                                            -28.940180481
+                                        ],
+                                        [
+                                            153.389212545,
+                                            -28.939999701
+                                        ],
+                                        [
+                                            153.389358891,
+                                            -28.939982485
+                                        ],
+                                        [
+                                            153.389496627,
+                                            -28.9401460459999
+                                        ],
+                                        [
+                                            153.389617146,
+                                            -28.9402665649999
+                                        ],
+                                        [
+                                            153.389596157,
+                                            -28.940350521
+                                        ],
+                                        [
+                                            153.389747001,
+                                            -28.940569582
                                         ]
                                     ]
                                 ]
@@ -1985,7 +1985,7 @@
                 "updated": "2020-11-28T16:14:00+11:00",
                 "location": "261 Martins Rd, Myrtle Park, NSW 2713",
                 "size": 416,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 261 Martins Rd, Myrtle Park, NSW 2713 <br />COUNCIL AREA: Berrigan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 416 ha <br />MAJOR FIRE UPDATE AS AT 28 Nov 2020 5:18PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10844' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 16:14",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 261 Martins Rd, Myrtle Park, NSW 2713 <br />COUNCIL AREA: Berrigan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 416 ha <br />MAJOR FIRE UPDATE AS AT 28 Nov 2020 7:45PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=10844' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 16:14",
                 "title": "incident: fire"
             }
         },
@@ -3292,8 +3292,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.2431560000001,
-                    -32.38238099999995
+                    147.26065635700002,
+                    -32.395399518999966
                 ]
             },
             "properties": {
@@ -4145,10 +4145,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.50685700000008,
-                    -33.35599399999995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.50685700000008,
+                            -33.35599399999995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.535898483,
+                                            -33.3530040169999
+                                        ],
+                                        [
+                                            147.544821462,
+                                            -33.3547291259999
+                                        ],
+                                        [
+                                            147.543810191,
+                                            -33.361153671
+                                        ],
+                                        [
+                                            147.534649266,
+                                            -33.360201887
+                                        ],
+                                        [
+                                            147.535838996,
+                                            -33.3529445299999
+                                        ],
+                                        [
+                                            147.535898483,
+                                            -33.3530040169999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4187,95 +4228,6 @@
                 "location": "Tyringham Rd, Tyringham, NSW 2453",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Tyringham Rd, Tyringham, NSW 2453 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 16:08",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.6043449990001,
-                    -33.93959899999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Waddell St, Wattamondara",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399685",
-                "created": "2020-11-28T08:24:00+11:00",
-                "updated": "2020-11-28T19:24:00+11:00",
-                "location": "Waddell St, Wattamondara, NSW 2794",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Waddell St, Wattamondara, NSW 2794 <br />COUNCIL AREA: Cowra <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:24",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            146.34690284700002,
-                            -34.76343855199997
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            146.347516403,
-                                            -34.762053169
-                                        ],
-                                        [
-                                            146.347504507,
-                                            -34.762076964
-                                        ],
-                                        [
-                                            146.347397431,
-                                            -34.7629811589999
-                                        ],
-                                        [
-                                            146.346100624,
-                                            -34.7627313149999
-                                        ],
-                                        [
-                                            146.346564619,
-                                            -34.7619817849999
-                                        ],
-                                        [
-                                            146.347516403,
-                                            -34.762053169
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Warilba, Gillenbah",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399434",
-                "created": "2020-11-28T03:50:00+11:00",
-                "updated": "2020-11-28T14:50:00+11:00",
-                "location": "Devlins Bridge Rd, Gillenbah, NSW 2700",
-                "size": 20,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Devlins Bridge Rd, Gillenbah, NSW 2700 <br />COUNCIL AREA: Narrandera <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 14:50",
                 "title": "incident: fire"
             }
         },
@@ -4578,30 +4530,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.07467300100006,
-                    -33.64903999999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Crosslands Rd, Galston",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399678",
-                "created": "2020-11-28T08:25:00+11:00",
-                "updated": "2020-11-28T19:25:00+11:00",
-                "location": "38A Crosslands Rd, Galston, NSW 2159",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 38A Crosslands Rd, Galston, NSW 2159 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:25",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.71670900000004,
                     -34.480651999999964
                 ]
@@ -4779,13 +4707,13 @@
                 "sourceTitle": "Spring Creek Rd, Young",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399680",
-                "created": "2020-11-28T08:17:00+11:00",
-                "updated": "2020-11-28T19:17:00+11:00",
+                "created": "2020-11-28T08:37:00+11:00",
+                "updated": "2020-11-28T19:37:00+11:00",
                 "location": "519 Spring Creek Rd, Young, NSW 2594",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 519 Spring Creek Rd, Young, NSW 2594 <br />COUNCIL AREA: Hilltops <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:17",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 519 Spring Creek Rd, Young, NSW 2594 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:37",
                 "title": "incident: other"
             }
         }

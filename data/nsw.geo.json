@@ -1350,65 +1350,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.389747001,
-                                            -28.940569582
-                                        ],
-                                        [
-                                            153.389687386,
-                                            -28.94073227
-                                        ],
-                                        [
-                                            153.389439611,
-                                            -28.940683212
-                                        ],
-                                        [
-                                            153.389198887,
-                                            -28.940508968
-                                        ],
-                                        [
-                                            153.389291479,
-                                            -28.9404589069999
-                                        ],
-                                        [
-                                            153.389160895,
-                                            -28.9403870849999
-                                        ],
-                                        [
-                                            153.38918672,
-                                            -28.940180481
-                                        ],
-                                        [
-                                            153.389212545,
-                                            -28.939999701
-                                        ],
-                                        [
-                                            153.389358891,
-                                            -28.939982485
-                                        ],
-                                        [
-                                            153.389496627,
-                                            -28.9401460459999
-                                        ],
-                                        [
-                                            153.389617146,
-                                            -28.9402665649999
-                                        ],
-                                        [
-                                            153.389596157,
-                                            -28.940350521
-                                        ],
-                                        [
-                                            153.389747001,
-                                            -28.940569582
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.389350282,
                                             -28.939560668
                                         ],
@@ -1459,6 +1400,65 @@
                                         [
                                             153.389350282,
                                             -28.939560668
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.389747001,
+                                            -28.940569582
+                                        ],
+                                        [
+                                            153.389687386,
+                                            -28.94073227
+                                        ],
+                                        [
+                                            153.389439611,
+                                            -28.940683212
+                                        ],
+                                        [
+                                            153.389198887,
+                                            -28.940508968
+                                        ],
+                                        [
+                                            153.389291479,
+                                            -28.9404589069999
+                                        ],
+                                        [
+                                            153.389160895,
+                                            -28.9403870849999
+                                        ],
+                                        [
+                                            153.38918672,
+                                            -28.940180481
+                                        ],
+                                        [
+                                            153.389212545,
+                                            -28.939999701
+                                        ],
+                                        [
+                                            153.389358891,
+                                            -28.939982485
+                                        ],
+                                        [
+                                            153.389496627,
+                                            -28.9401460459999
+                                        ],
+                                        [
+                                            153.389617146,
+                                            -28.9402665649999
+                                        ],
+                                        [
+                                            153.389596157,
+                                            -28.940350521
+                                        ],
+                                        [
+                                            153.389747001,
+                                            -28.940569582
                                         ]
                                     ]
                                 ]
@@ -4081,6 +4081,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.77141900100003,
+                    -32.27492399999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ulan-Wollar Rd, Ulan",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399731",
+                "created": "2020-11-28T17:40:00+11:00",
+                "updated": "2020-11-29T04:40:00+11:00",
+                "location": "Ulan-Wollar Rd, Ulan, NSW 2850",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Ulan-Wollar Rd, Ulan, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Nov 2020 04:40",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     146.17288200000007,
                     -34.53603599999997
                 ]
@@ -4303,30 +4327,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.6172160000001,
-                    -31.42287399999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Yarrandale Rd, Armatree",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399730",
-                "created": "2020-11-28T17:35:00+11:00",
-                "updated": "2020-11-29T04:35:00+11:00",
-                "location": "Yarrandale Rd, Armatree, NSW 2831",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Yarrandale Rd, Armatree, NSW 2831 <br />COUNCIL AREA: Gilgandra <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Nov 2020 04:35",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.07805700000006,
                     -34.142241000999945
                 ]
@@ -4336,13 +4336,13 @@
                 "sourceTitle": "Ballards Rd, Thuddungra",
                 "category": "fire",
                 "subcategory": "haystack fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399727",
-                "created": "2020-11-28T16:05:00+11:00",
-                "updated": "2020-11-29T03:05:00+11:00",
+                "created": "2020-11-28T17:50:00+11:00",
+                "updated": "2020-11-29T04:50:00+11:00",
                 "location": "159 Ballards Rd, Thuddungra, NSW 2594",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 159 Ballards Rd, Thuddungra, NSW 2594 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Nov 2020 03:05",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 159 Ballards Rd, Thuddungra, NSW 2594 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Nov 2020 04:50",
                 "title": "incident: fire"
             }
         },

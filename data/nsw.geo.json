@@ -463,10 +463,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.43617100000006,
-                    -34.34538099899993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.3902474020001,
+                            -34.40546238999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.390258642,
+                                            -34.405411998
+                                        ],
+                                        [
+                                            145.39027054,
+                                            -34.405423895
+                                        ],
+                                        [
+                                            145.38903322,
+                                            -34.4063756809999
+                                        ],
+                                        [
+                                            145.386808423,
+                                            -34.4059830689999
+                                        ],
+                                        [
+                                            145.386677554,
+                                            -34.404555392
+                                        ],
+                                        [
+                                            145.387724516,
+                                            -34.402651824
+                                        ],
+                                        [
+                                            145.388319381,
+                                            -34.4026994119999
+                                        ],
+                                        [
+                                            145.39009208,
+                                            -34.403686889
+                                        ],
+                                        [
+                                            145.390258642,
+                                            -34.405411998
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -553,6 +606,30 @@
                 "location": "1071 Currawang Road Currawang",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 1071 Currawang Road Currawang <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 17:00",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.0700720000001,
+                    -33.40971399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dukes Rd, Forbes",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399681",
+                "created": "2020-11-28T08:00:00+11:00",
+                "updated": "2020-11-28T19:00:00+11:00",
+                "location": "Dukes Rd, Forbes, NSW 2871",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Dukes Rd, Forbes, NSW 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 19:00",
                 "title": "incident: fire"
             }
         },
@@ -658,30 +735,6 @@
                 "location": "Jerrabomberra Wetlands",
                 "size": 3,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Jerrabomberra Wetlands <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: ACT Parks And Conservation Service <br />UPDATED: 28 Nov 2020 12:49",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.63592800000004,
-                    -34.45445599999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Fishers Rd, Combaning",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399662",
-                "created": "2020-11-28T07:33:00+11:00",
-                "updated": "2020-11-28T18:33:00+11:00",
-                "location": "Fishers Rd, Combaning, NSW 2666",
-                "size": 10,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Fishers Rd, Combaning, NSW 2666 <br />COUNCIL AREA: Temora <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:33",
                 "title": "incident: fire"
             }
         },
@@ -1114,6 +1167,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.235901,
+                    -35.827508999999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hume Hwy, Woomargama",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399679",
+                "created": "2020-11-28T07:54:00+11:00",
+                "updated": "2020-11-28T18:54:00+11:00",
+                "location": "13006 Hume Hwy, Woomargama, NSW 2644",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 13006 Hume Hwy, Woomargama, NSW 2644 <br />COUNCIL AREA: Greater Hume <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:54",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     146.23182100000008,
                     -34.50230699999997
                 ]
@@ -1303,6 +1380,65 @@
                                 "coordinates": [
                                     [
                                         [
+                                            153.389747001,
+                                            -28.940569582
+                                        ],
+                                        [
+                                            153.389687386,
+                                            -28.94073227
+                                        ],
+                                        [
+                                            153.389439611,
+                                            -28.940683212
+                                        ],
+                                        [
+                                            153.389198887,
+                                            -28.940508968
+                                        ],
+                                        [
+                                            153.389291479,
+                                            -28.9404589069999
+                                        ],
+                                        [
+                                            153.389160895,
+                                            -28.9403870849999
+                                        ],
+                                        [
+                                            153.38918672,
+                                            -28.940180481
+                                        ],
+                                        [
+                                            153.389212545,
+                                            -28.939999701
+                                        ],
+                                        [
+                                            153.389358891,
+                                            -28.939982485
+                                        ],
+                                        [
+                                            153.389496627,
+                                            -28.9401460459999
+                                        ],
+                                        [
+                                            153.389617146,
+                                            -28.9402665649999
+                                        ],
+                                        [
+                                            153.389596157,
+                                            -28.940350521
+                                        ],
+                                        [
+                                            153.389747001,
+                                            -28.940569582
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             153.391824566,
                                             -28.940980758
                                         ],
@@ -1417,65 +1553,6 @@
                                         [
                                             153.391824566,
                                             -28.940980758
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            153.389747001,
-                                            -28.940569582
-                                        ],
-                                        [
-                                            153.389687386,
-                                            -28.94073227
-                                        ],
-                                        [
-                                            153.389439611,
-                                            -28.940683212
-                                        ],
-                                        [
-                                            153.389198887,
-                                            -28.940508968
-                                        ],
-                                        [
-                                            153.389291479,
-                                            -28.9404589069999
-                                        ],
-                                        [
-                                            153.389160895,
-                                            -28.9403870849999
-                                        ],
-                                        [
-                                            153.38918672,
-                                            -28.940180481
-                                        ],
-                                        [
-                                            153.389212545,
-                                            -28.939999701
-                                        ],
-                                        [
-                                            153.389358891,
-                                            -28.939982485
-                                        ],
-                                        [
-                                            153.389496627,
-                                            -28.9401460459999
-                                        ],
-                                        [
-                                            153.389617146,
-                                            -28.9402665649999
-                                        ],
-                                        [
-                                            153.389596157,
-                                            -28.940350521
-                                        ],
-                                        [
-                                            153.389747001,
-                                            -28.940569582
                                         ]
                                     ]
                                 ]
@@ -2044,13 +2121,13 @@
                 "sourceTitle": "Mid Western Hwy, 11 Kms East Of Caragabal",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399671",
-                "created": "2020-11-28T07:34:00+11:00",
-                "updated": "2020-11-28T18:34:00+11:00",
+                "created": "2020-11-28T07:57:00+11:00",
+                "updated": "2020-11-28T18:57:00+11:00",
                 "location": "Mid Western Hwy, 11 Kms East Of Caragabal, NSW 2810",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Mid Western Hwy, 11 Kms East Of Caragabal, NSW 2810 <br />COUNCIL AREA: Weddin <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:34",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Mid Western Hwy, 11 Kms East Of Caragabal, NSW 2810 <br />COUNCIL AREA: Weddin <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:57",
                 "title": "incident: fire"
             }
         },
@@ -3424,6 +3501,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.2540600000001,
+                    -32.89902299999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Springvale Rd, Condobolin",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399675",
+                "created": "2020-11-28T07:55:00+11:00",
+                "updated": "2020-11-28T18:55:00+11:00",
+                "location": "Springvale Rd, Condobolin, NSW 2877",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Springvale Rd, Condobolin, NSW 2877 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:55",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -4103,11 +4204,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399635",
-                "created": "2020-11-28T06:46:00+11:00",
-                "updated": "2020-11-28T17:46:00+11:00",
+                "created": "2020-11-28T07:46:00+11:00",
+                "updated": "2020-11-28T18:46:00+11:00",
                 "location": "2947 The Bucketts Way, Belbora, NSW 2422",
                 "size": 3,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2947 The Bucketts Way, Belbora, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 17:46",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2947 The Bucketts Way, Belbora, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:46",
                 "title": "incident: fire"
             }
         },
@@ -4427,6 +4528,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    146.36912999900005,
+                    -34.53744999999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yeo Rd, Leeton",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399676",
+                "created": "2020-11-28T07:46:00+11:00",
+                "updated": "2020-11-28T18:46:00+11:00",
+                "location": "167 Yeo Rd, Leeton, NSW 2705",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 167 Yeo Rd, Leeton, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:46",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     143.3834240000001,
                     -31.56494799999996
                 ]
@@ -4443,30 +4568,6 @@
                 "location": "Barrier Hwy, Wilcannia, NSW 2836",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Barrier Hwy, Wilcannia, NSW 2836 <br />COUNCIL AREA: Central Darling <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 17:14",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.921691,
-                    -31.69403099999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bundemar Rd, Warren",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399658",
-                "created": "2020-11-28T06:48:00+11:00",
-                "updated": "2020-11-28T17:48:00+11:00",
-                "location": "Lot 1 Bundemar Rd, Warren, NSW 2824",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lot 1 Bundemar Rd, Warren, NSW 2824 <br />COUNCIL AREA: Warren <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 17:48",
                 "title": "incident: fire"
             }
         },
@@ -4515,6 +4616,30 @@
                 "location": "1258 New Forbes Road Warraderry",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1258 New Forbes Road Warraderry  <br />COUNCIL AREA: Weddin <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 12:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.07467300100006,
+                    -33.64903999999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Crosslands Rd, Galston",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399678",
+                "created": "2020-11-28T07:52:00+11:00",
+                "updated": "2020-11-28T18:52:00+11:00",
+                "location": "38A Crosslands Rd, Galston, NSW 2159",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 38A Crosslands Rd, Galston, NSW 2159 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:52",
                 "title": "incident: fire"
             }
         },
@@ -4595,6 +4720,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.8267369990001,
+                    -34.87550599999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mclaughlin Rd, Gundary",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399673",
+                "created": "2020-11-28T07:36:00+11:00",
+                "updated": "2020-11-28T18:36:00+11:00",
+                "location": "Mclaughlin Rd, Gundary,  2580",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mclaughlin Rd, Gundary,  2580 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.0890690000001,
+                    -33.84921899999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mid Western Hwy, Grenfell",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399677",
+                "created": "2020-11-28T07:50:00+11:00",
+                "updated": "2020-11-28T18:50:00+11:00",
+                "location": "Mid Western Hwy, Grenfell, NSW 2810",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mid Western Hwy, Grenfell, NSW 2810 <br />COUNCIL AREA: Weddin <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.089693,
                     -28.953188998999963
                 ]
@@ -4643,30 +4816,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.04091599900005,
-                    -35.43710799999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Olympic Hwy, Yerong Creek",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399664",
-                "created": "2020-11-28T07:34:00+11:00",
-                "updated": "2020-11-28T18:34:00+11:00",
-                "location": "Olympic Hwy, Yerong Creek, NSW 2642",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Olympic Hwy, Yerong Creek, NSW 2642 <br />COUNCIL AREA: Lockhart <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:34",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.45589685400012,
                     -31.09540668099993
                 ]
@@ -4691,23 +4840,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.45715700000005,
-                    -33.36447399999997
+                    148.2523920000001,
+                    -34.34895800099997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wyong Rd, Killarney Vale",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399672",
-                "created": "2020-11-28T07:40:00+11:00",
-                "updated": "2020-11-28T18:40:00+11:00",
-                "location": "Wyong Rd, Killarney Vale, NSW 2261",
+                "sourceTitle": "Spring Creek Rd, Young",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/399680",
+                "created": "2020-11-28T07:56:00+11:00",
+                "updated": "2020-11-28T18:56:00+11:00",
+                "location": "519 Spring Creek Rd, Young, NSW 2594",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wyong Rd, Killarney Vale, NSW 2261 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Nov 2020 18:40",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 519 Spring Creek Rd, Young, NSW 2594 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Nov 2020 18:56",
+                "title": "incident: other"
             }
         }
     ]

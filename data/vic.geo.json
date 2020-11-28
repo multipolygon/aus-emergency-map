@@ -10397,28 +10397,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2020-11-29T04:14:00+11:00",
-                "updated": "2020-11-29T04:14:00+11:00",
-                "id": "ESTA:201153752",
-                "location": "Clyde North",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33739283599598,
-                    -38.11205219229132
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mackellar St",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -10436,6 +10414,96 @@
                 "coordinates": [
                     145.9862377846371,
                     -36.54463318373075
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Heatherton Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-29T04:27:29+11:00",
+                "updated": "2020-11-29T04:27:29+11:00",
+                "id": "ESTA:201131830",
+                "location": "Heatherton Rd, Springvale South",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14313097080748,
+                    -37.96129337708565
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2020-11-29T04:14:00+11:00",
+                "updated": "2020-11-29T04:25:00+11:00",
+                "id": "ESTA:201153752",
+                "location": "Clyde North",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.33739283599598,
+                    -38.11205219229132
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-29T04:28:19+11:00",
+                "updated": "2020-11-29T04:28:19+11:00",
+                "id": "ESTA:201131831",
+                "location": "Princes Hwy, Noble Park North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1886486774689,
+                    -37.9612035514373
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Springvale",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-29T04:25:42+11:00",
+                "updated": "2020-11-29T04:30:10+11:00",
+                "id": "ESTA:201131832",
+                "location": "Princes Hwy, Springvale",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16681114192164,
+                    -37.94173108218928
                 ]
             }
         },
@@ -19126,76 +19194,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Curran Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-15T11:00:00+11:00",
-                "updated": "2020-11-15T11:00:00+11:00",
-                "id": "0f2050d1ecf89bb9b288bd07a80921c7",
-                "location": "Curran Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.1929,
-                            -35.1565
-                        ],
-                        [
-                            143.1925,
-                            -35.1567
-                        ],
-                        [
-                            143.1927,
-                            -35.1569
-                        ],
-                        [
-                            143.1926,
-                            -35.1574
-                        ],
-                        [
-                            143.1907,
-                            -35.158
-                        ],
-                        [
-                            143.1907,
-                            -35.1574
-                        ],
-                        [
-                            143.1901,
-                            -35.1574
-                        ],
-                        [
-                            143.1918,
-                            -35.1547
-                        ],
-                        [
-                            143.1922,
-                            -35.1545
-                        ],
-                        [
-                            143.1929,
-                            -35.1546
-                        ],
-                        [
-                            143.194,
-                            -35.1554
-                        ],
-                        [
-                            143.1929,
-                            -35.1565
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Boundary Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -19467,6 +19465,76 @@
                         [
                             142.6916,
                             -35.7581
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Curran Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-15T11:00:00+11:00",
+                "updated": "2020-11-15T11:00:00+11:00",
+                "id": "0f2050d1ecf89bb9b288bd07a80921c7",
+                "location": "Curran Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.1929,
+                            -35.1565
+                        ],
+                        [
+                            143.1925,
+                            -35.1567
+                        ],
+                        [
+                            143.1927,
+                            -35.1569
+                        ],
+                        [
+                            143.1926,
+                            -35.1574
+                        ],
+                        [
+                            143.1907,
+                            -35.158
+                        ],
+                        [
+                            143.1907,
+                            -35.1574
+                        ],
+                        [
+                            143.1901,
+                            -35.1574
+                        ],
+                        [
+                            143.1918,
+                            -35.1547
+                        ],
+                        [
+                            143.1922,
+                            -35.1545
+                        ],
+                        [
+                            143.1929,
+                            -35.1546
+                        ],
+                        [
+                            143.194,
+                            -35.1554
+                        ],
+                        [
+                            143.1929,
+                            -35.1565
                         ]
                     ]
                 ]
@@ -21817,29 +21885,6 @@
                             -36.4716
                         ]
                     ]
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Murray Valley Hwy",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-29T03:06:00+11:00",
-                "updated": "2020-11-29T03:23:00+11:00",
-                "id": "ESTA:201131825",
-                "location": "Murray Valley Hwy, Lake Boga",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.61369189477693,
-                    -35.439367271553266
                 ]
             }
         },

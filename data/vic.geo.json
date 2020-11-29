@@ -10289,14 +10289,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bennison Dr",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-29T22:49:00+11:00",
+                "updated": "2020-11-29T22:55:00+11:00",
+                "id": "ESTA:201153971",
+                "location": "Boorhaman North",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.26320083532335,
+                    -36.07689060851775
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "St Albans Park",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-29T21:44:00+11:00",
-                "updated": "2020-11-29T22:18:00+11:00",
-                "id": "ESTA:201132619",
-                "location": "Bennison Dr, Wurruk",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-11-29T23:00:07+11:00",
+                "updated": "2020-11-29T23:00:07+11:00",
+                "id": "ESTA:201132632",
+                "location": "St Albans Park, St Albans Park",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10304,8 +10326,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.03436507762183,
-                    -38.1014701597863
+                    144.39817633156645,
+                    -38.1970917015641
                 ]
             }
         },
@@ -10316,8 +10338,8 @@
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2020-11-29T22:34:37+11:00",
-                "updated": "2020-11-29T22:34:37+11:00",
+                "created": "2020-11-29T23:01:13+11:00",
+                "updated": "2020-11-29T23:01:13+11:00",
                 "id": "ESTA:201132622",
                 "location": "Walsh St, Noble Park",
                 "size": "Small",
@@ -10329,6 +10351,28 @@
                 "coordinates": [
                     145.1678109212072,
                     -37.9654418578819
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bayswater North",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "responding",
+                "created": "2020-11-29T23:01:10+11:00",
+                "updated": "2020-11-29T23:04:18+11:00",
+                "id": "ESTA:201153972",
+                "location": "Bayswater North",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2875861578846,
+                    -37.82600059436313
                 ]
             }
         },
@@ -10635,9 +10679,9 @@
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "under control",
-                "created": "2020-11-29T22:05:00+11:00",
-                "updated": "2020-11-29T22:05:00+11:00",
-                "id": "2020-11-29T22:05:00.0000000:399589",
+                "created": "2020-11-29T22:48:00+11:00",
+                "updated": "2020-11-29T22:48:00+11:00",
+                "id": "2020-11-29T22:48:00.0000000:399589",
                 "location": "261 Martins Rd, Myrtle Park, Nsw 2713",
                 "title": "incident: fire"
             },
@@ -14057,6 +14101,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bennison Dr",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-29T21:44:00+11:00",
+                "updated": "2020-11-29T22:18:00+11:00",
+                "id": "ESTA:201132619",
+                "location": "Bennison Dr, Wurruk",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.03436507762183,
+                    -38.1014701597863
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Armstrong St",
                 "category": "rescue",
                 "subcategory": "rescue",
@@ -14074,52 +14141,6 @@
                 "coordinates": [
                     143.57516812568676,
                     -38.34732119529714
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bennison Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-29T21:46:00+11:00",
-                "updated": "2020-11-29T21:52:00+11:00",
-                "id": "ESTA:201132621",
-                "location": "Bennison Dr, Wurruk",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.03436507762183,
-                    -38.1014701597863
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Allingham St",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-11-29T21:32:00+11:00",
-                "updated": "2020-11-29T21:51:00+11:00",
-                "id": "ESTA:201132615",
-                "location": "Allingham St, Kangaroo Flat",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.24944919933677,
-                    -36.79609689710575
                 ]
             }
         },
@@ -14200,7 +14221,7 @@
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2020-11-29T22:31:00+11:00",
-                "updated": "2020-11-29T22:33:00+11:00",
+                "updated": "2020-11-29T22:48:00+11:00",
                 "id": "ESTA:201153970",
                 "location": "Beaconsfield Upper",
                 "title": "incident: tree down"

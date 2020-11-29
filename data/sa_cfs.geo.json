@@ -15,7 +15,7 @@
                 "feedType": "incident",
                 "sourceTitle": "BUNDARRA DRIVE, MARINO",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "grass and stubble fire",
                 "status": "going",
                 "id": "1393723",
                 "created": "2020-11-29T18:25:00+10:30",
@@ -52,52 +52,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    138.740555559287,
-                    -35.0125345521582,
-                    0
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "LEWIS AVENUE, ALDGATE",
-                "category": "other",
-                "subcategory": "tree down",
-                "status": "going",
-                "id": "1393718",
-                "created": "2020-11-29T18:13:00+10:30",
-                "updated": "2020-11-29T18:13:00+10:30",
-                "title": "incident: other"
-            },
-            "id": "1393718"
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    140.864651688166,
-                    -37.8268026119291,
-                    0
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BISHOP ROAD, WORROLONG",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "going",
-                "id": "1393716",
-                "created": "2020-11-29T17:57:00+10:30",
-                "updated": "2020-11-29T17:57:00+10:30",
-                "title": "incident: fire"
-            },
-            "id": "1393716"
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     139.057184750565,
                     -34.6997909636273,
                     0
@@ -108,7 +62,7 @@
                 "sourceTitle": "SPRINGTON ROAD, SPRINGTON",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "going",
+                "status": "contained",
                 "id": "1393713",
                 "created": "2020-11-29T17:44:00+10:30",
                 "updated": "2020-11-29T17:44:00+10:30",
@@ -719,6 +673,75 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    138.521939603926,
+                    -34.9063876240589,
+                    0
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GRANGE ROAD, KIDMAN PARK",
+                "category": "fire",
+                "subcategory": "tree fire",
+                "status": "complete",
+                "id": "1393585",
+                "created": "2020-11-29T00:33:00+10:30",
+                "updated": "2020-11-29T00:33:00+10:30",
+                "title": "incident: fire"
+            },
+            "id": "1393585"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.740555559287,
+                    -35.0125345521582,
+                    0
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "LEWIS AVENUE, ALDGATE",
+                "category": "other",
+                "subcategory": "tree down",
+                "status": "complete",
+                "id": "1393718",
+                "created": "2020-11-29T18:13:00+10:30",
+                "updated": "2020-11-29T18:13:00+10:30",
+                "title": "incident: other"
+            },
+            "id": "1393718"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.864651688166,
+                    -37.8268026119291,
+                    0
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BISHOP ROAD, WORROLONG",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "complete",
+                "id": "1393716",
+                "created": "2020-11-29T17:57:00+10:30",
+                "updated": "2020-11-29T17:57:00+10:30",
+                "title": "incident: fire"
+            },
+            "id": "1393716"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     138.447838700112,
                     -35.2985518420539,
                     0
@@ -943,29 +966,6 @@
                 "title": "incident: other"
             },
             "id": "1393608"
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    138.521939603926,
-                    -34.9063876240589,
-                    0
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "GRANGE ROAD, KIDMAN PARK",
-                "category": "fire",
-                "subcategory": "tree fire",
-                "status": "complete",
-                "id": "1393585",
-                "created": "2020-11-29T00:33:00+10:30",
-                "updated": "2020-11-29T00:33:00+10:30",
-                "title": "incident: fire"
-            },
-            "id": "1393585"
         }
     ]
 }

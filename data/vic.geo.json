@@ -10131,46 +10131,91 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-30T19:15:00+11:00",
-                "updated": "2020-11-30T19:23:00+11:00",
-                "id": "ESTA:201133639",
-                "location": "Mooroopna",
+                "sourceTitle": "Pakenham",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-30T20:23:26+11:00",
+                "updated": "2020-11-30T20:23:26+11:00",
+                "id": "ESTA:201133681",
+                "location": "Pakenham, Pakenham",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.35387757710603,
-                    -36.374793195087705
+                    145.50228509363234,
+                    -38.06613541914007
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Preston",
-                "category": "fire",
-                "subcategory": "non structure fire",
+                "sourceTitle": "Rowville",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-11-30T20:01:57+11:00",
-                "updated": "2020-11-30T20:01:57+11:00",
-                "id": "ESTA:201133673",
-                "location": "Preston, Preston",
+                "created": "2020-11-30T20:21:57+11:00",
+                "updated": "2020-11-30T20:21:57+11:00",
+                "id": "ESTA:201133683",
+                "location": "Rowville, Rowville",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99564260984917,
-                    -37.74809655235823
+                    145.23315363294992,
+                    -37.92803339641031
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lahinch St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-11-30T20:25:00+11:00",
+                "updated": "2020-11-30T20:25:00+11:00",
+                "id": "ESTA:201133685",
+                "location": "Lahinch St, Broadmeadows",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9237929570437,
+                    -37.68992836025206
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-11-30T20:23:00+11:00",
+                "updated": "2020-11-30T20:24:00+11:00",
+                "id": "ESTA:201154022",
+                "location": "Ringwood North",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22000729564184,
+                    -37.80634273720268
                 ]
             }
         },
@@ -10180,9 +10225,9 @@
                 "sourceTitle": "Murphy St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-11-30T19:59:23+11:00",
-                "updated": "2020-11-30T19:59:23+11:00",
+                "status": "safe",
+                "created": "2020-11-30T20:24:30+11:00",
+                "updated": "2020-11-30T20:24:30+11:00",
                 "id": "ESTA:201133669",
                 "location": "Murphy St, South Yarra",
                 "size": "Small",
@@ -10194,6 +10239,28 @@
                 "coordinates": [
                     144.9906273461979,
                     -37.837404591304505
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kealba",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-30T20:24:45+11:00",
+                "updated": "2020-11-30T20:25:44+11:00",
+                "id": "ESTA:201133691",
+                "location": "Orbital Dr, Kealba",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.831806482336,
+                    -37.737909670824244
                 ]
             }
         },
@@ -16735,9 +16802,9 @@
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "under control",
-                "created": "2020-11-30T16:08:00+11:00",
-                "updated": "2020-11-30T16:08:00+11:00",
-                "id": "2020-11-30T16:08:00.0000000:400046",
+                "created": "2020-11-30T20:12:00+11:00",
+                "updated": "2020-11-30T20:12:00+11:00",
+                "id": "2020-11-30T20:12:00.0000000:400046",
                 "location": "164 Woodvale Rd, Mayrung, Nsw 2710",
                 "title": "incident: fire"
             },
@@ -19867,14 +19934,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Waterways",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-11-30T20:13:00+11:00",
+                "updated": "2020-11-30T20:24:00+11:00",
+                "id": "ESTA:201133679",
+                "location": "Chelsea Heights",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14255699588892,
+                    -38.0512059724654
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Somerton Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-11-30T19:58:32+11:00",
-                "updated": "2020-11-30T19:58:32+11:00",
-                "id": "ESTA:201133644",
-                "location": "Waterways, Waterways",
+                "created": "2020-11-30T18:59:00+11:00",
+                "updated": "2020-11-30T20:09:00+11:00",
+                "id": "ESTA:201133626",
+                "location": "Somerton Rd, Greenvale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -19882,8 +19972,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.12943425230193,
-                    -38.01673442072575
+                    144.89609477605035,
+                    -37.636500115065424
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-11-30T19:27:00+11:00",
+                "updated": "2020-11-30T19:44:00+11:00",
+                "id": "ESTA:201133644",
+                "location": "Waterways",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12942807798373,
+                    -38.01673531370191
                 ]
             }
         },
@@ -19936,29 +20049,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Somerton Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-11-30T19:47:44+11:00",
-                "updated": "2020-11-30T19:47:44+11:00",
-                "id": "ESTA:201133626",
-                "location": "Somerton Rd, Greenvale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.8960979903872,
-                    -37.636492797380555
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mokepilly Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -19982,23 +20072,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wishart St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-11-30T20:01:05+11:00",
-                "updated": "2020-11-30T20:01:05+11:00",
-                "id": "ESTA:201133668",
-                "location": "Wishart St, Hampton East",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-11-30T20:13:00+11:00",
+                "updated": "2020-11-30T20:17:00+11:00",
+                "id": "ESTA:201154020",
+                "location": "Chelsea Heights",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0266873458363,
-                    -37.93621203943325
+                    145.14255699588892,
+                    -38.0512059724654
                 ]
             }
         },

@@ -10154,23 +10154,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kirkland Av",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2020-11-30T13:23:00+11:00",
-                "updated": "2020-11-30T13:41:00+11:00",
-                "id": "ESTA:201133306",
-                "location": "Kirkland Av, Euroa",
-                "size": "Small",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-11-30T13:53:00+11:00",
+                "updated": "2020-11-30T13:54:00+11:00",
+                "id": "ESTA:201153996",
+                "location": "North Melbourne",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.57435965343606,
-                    -36.75406446382962
+                    144.94000218318232,
+                    -37.79558652483668
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "North Melbourne",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-30T13:59:00+11:00",
+                "updated": "2020-11-30T13:59:00+11:00",
+                "id": "ESTA:201133338",
+                "location": "North Melbourne, North Melbourne",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94000280183926,
+                    -37.79558339918056
                 ]
             }
         },
@@ -10180,9 +10202,9 @@
                 "sourceTitle": "Payne St",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2020-11-30T13:23:00+11:00",
-                "updated": "2020-11-30T13:23:00+11:00",
+                "updated": "2020-11-30T14:02:00+11:00",
                 "id": "ESTA:201133305",
                 "location": "Payne St, Coleraine",
                 "size": "Small",
@@ -10194,74 +10216,6 @@
                 "coordinates": [
                     141.69781862108678,
                     -37.61004465659082
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-11-30T13:43:00+11:00",
-                "updated": "2020-11-30T13:45:00+11:00",
-                "id": "ESTA:201153994",
-                "location": "Sunbury",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7111656987455,
-                    -37.572641753248234
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Springs Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-11-30T12:31:00+11:00",
-                "updated": "2020-11-30T13:45:00+11:00",
-                "id": "ESTA:201133254",
-                "location": "Springs Rd, Caveat",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.52191424674433,
-                    -37.02339536386791
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-11-30T13:08:00+11:00",
-                "updated": "2020-11-30T13:45:00+11:00",
-                "id": "ESTA:201133285",
-                "location": "Mooroopna",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.35714590363466,
-                    -36.39164077346876
                 ]
             }
         },
@@ -16372,9 +16326,9 @@
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "under control",
-                "created": "2020-11-30T08:22:00+11:00",
-                "updated": "2020-11-30T08:22:00+11:00",
-                "id": "2020-11-30T08:22:00.0000000:399589",
+                "created": "2020-11-30T13:56:00+11:00",
+                "updated": "2020-11-30T13:56:00+11:00",
+                "id": "2020-11-30T13:56:00.0000000:399589",
                 "location": "261 Martins Rd, Myrtle Park, Nsw 2713",
                 "title": "incident: fire"
             },
@@ -19839,6 +19793,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Springs Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-11-30T12:31:00+11:00",
+                "updated": "2020-11-30T13:45:00+11:00",
+                "id": "ESTA:201133254",
+                "location": "Springs Rd, Caveat",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.52191424674433,
+                    -37.02339536386791
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-11-30T13:08:00+11:00",
+                "updated": "2020-11-30T13:45:00+11:00",
+                "id": "ESTA:201133285",
+                "location": "Mooroopna",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.35714590363466,
+                    -36.39164077346876
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kirkland Av",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "under control",
+                "created": "2020-11-30T13:23:00+11:00",
+                "updated": "2020-11-30T13:41:00+11:00",
+                "id": "ESTA:201133306",
+                "location": "Kirkland Av, Euroa",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.57435965343606,
+                    -36.75406446382962
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Stanbury Av",
                 "category": "other",
                 "subcategory": "other",
@@ -19954,29 +19977,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bungower Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-11-30T12:38:00+11:00",
-                "updated": "2020-11-30T12:51:00+11:00",
-                "id": "ESTA:201133259",
-                "location": "Bungower Rd, Somerville",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2191756170275,
-                    -38.23888779442582
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mokepilly Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -20027,8 +20027,8 @@
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-11-30T13:22:31+11:00",
-                "updated": "2020-11-30T13:22:31+11:00",
+                "created": "2020-11-30T13:51:22+11:00",
+                "updated": "2020-11-30T13:51:22+11:00",
                 "id": "ESTA:201133181",
                 "location": "East Wangaratta, East Wangaratta",
                 "size": "Small",
@@ -20086,6 +20086,95 @@
                 "coordinates": [
                     144.69558523609012,
                     -37.57297600306505
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sunshine Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-11-30T14:01:16+11:00",
+                "updated": "2020-11-30T14:01:16+11:00",
+                "id": "ESTA:201133343",
+                "location": "Sunshine Av, Kealba",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82063813514398,
+                    -37.73595170644714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-11-30T13:57:00+11:00",
+                "updated": "2020-11-30T14:00:00+11:00",
+                "id": "ESTA:201153997",
+                "location": "Keilor Downs",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8152576382197,
+                    -37.7294189803586
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-11-30T13:48:00+11:00",
+                "updated": "2020-11-30T13:53:00+11:00",
+                "id": "ESTA:201153995",
+                "location": "Newtown (Geelong)",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3294861076012,
+                    -38.14620556906016
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-11-30T13:43:00+11:00",
+                "updated": "2020-11-30T13:45:00+11:00",
+                "id": "ESTA:201153994",
+                "location": "Sunbury",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7111656987455,
+                    -37.572641753248234
                 ]
             }
         }

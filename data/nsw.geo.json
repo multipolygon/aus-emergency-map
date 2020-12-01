@@ -41,11 +41,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400255",
-                "created": "2020-12-01T09:46:00+11:00",
-                "updated": "2020-12-01T20:46:00+11:00",
+                "created": "2020-12-01T23:02:00+11:00",
+                "updated": "2020-12-02T10:02:00+11:00",
                 "location": "63 Boyds Lane, Stockinbingal,  2725",
                 "size": 20,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 63 Boyds Lane, Stockinbingal,  2725 <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Dec 2020 20:46",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 63 Boyds Lane, Stockinbingal,  2725 <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Dec 2020 10:02",
                 "title": "incident: fire"
             }
         },
@@ -154,8 +154,8 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            148.3005027397695,
-                            -31.799722026140998
+                            148.3004951480001,
+                            -31.799675770999954
                         ]
                     },
                     {
@@ -303,11 +303,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400207",
-                "created": "2020-12-01T20:21:00+11:00",
-                "updated": "2020-12-02T07:21:00+11:00",
+                "created": "2020-12-01T23:16:00+11:00",
+                "updated": "2020-12-02T10:16:00+11:00",
                 "location": "Collie-Trangie Rd, Collie, NSW 2827",
                 "size": 571,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Collie-Trangie Rd, Collie, NSW 2827 <br />COUNCIL AREA: Warren <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 571 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Dec 2020 07:21",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Collie-Trangie Rd, Collie, NSW 2827 <br />COUNCIL AREA: Narromine <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 571 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Dec 2020 10:16",
                 "title": "incident: fire"
             }
         },
@@ -4747,10 +4747,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.0577363970001,
-                    -30.923358942999982
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.0577363970001,
+                            -30.923358942999982
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.057280505,
+                                            -30.9221625399999
+                                        ],
+                                        [
+                                            149.057268608,
+                                            -30.9221030529999
+                                        ],
+                                        [
+                                            149.058862846,
+                                            -30.9222696149999
+                                        ],
+                                        [
+                                            149.058969922,
+                                            -30.922340999
+                                        ],
+                                        [
+                                            149.058791463,
+                                            -30.922757404
+                                        ],
+                                        [
+                                            149.058779565,
+                                            -30.9231024269999
+                                        ],
+                                        [
+                                            149.058160906,
+                                            -30.923340372
+                                        ],
+                                        [
+                                            149.056959278,
+                                            -30.9235545239999
+                                        ],
+                                        [
+                                            149.056828407,
+                                            -30.9232808859999
+                                        ],
+                                        [
+                                            149.056852202,
+                                            -30.9229477609999
+                                        ],
+                                        [
+                                            149.057232916,
+                                            -30.9225194589999
+                                        ],
+                                        [
+                                            149.057280505,
+                                            -30.9221625399999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {

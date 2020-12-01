@@ -10176,21 +10176,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-01T20:49:00+11:00",
-                "updated": "2020-12-01T20:50:00+11:00",
-                "id": "ESTA:201250128",
-                "location": "Ivanhoe",
-                "title": "incident: tree down"
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-12-01T20:30:00+11:00",
+                "updated": "2020-12-01T21:17:00+11:00",
+                "id": "ESTA:201250127",
+                "location": "Portland",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.049506360968,
-                    -37.760475138679986
+                    141.60490366580868,
+                    -38.34277642333847
                 ]
             }
         },
@@ -10200,19 +10200,64 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-01T20:51:00+11:00",
-                "updated": "2020-12-01T20:57:00+11:00",
-                "id": "ESTA:201250129",
-                "location": "Malvern",
+                "status": "complete",
+                "created": "2020-12-01T20:20:00+11:00",
+                "updated": "2020-12-01T21:19:00+11:00",
+                "id": "ESTA:201250126",
+                "location": "Apsley",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.03844400289702,
-                    -37.85985457558166
+                    141.08162808540257,
+                    -36.96788615975413
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-12-01T18:31:00+11:00",
+                "updated": "2020-12-01T21:19:00+11:00",
+                "id": "ESTA:201250111",
+                "location": "Ferntree Gully",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26884708831238,
+                    -37.89441609578603
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mast Gully Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-12-01T21:23:00+11:00",
+                "updated": "2020-12-01T21:23:00+11:00",
+                "id": "ESTA:201200500",
+                "location": "Mast Gully Rd, Upwey",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.33518659783547,
+                    -37.895724770948256
                 ]
             }
         },
@@ -19711,6 +19756,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bowen St",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-12-01T21:07:00+11:00",
+                "updated": "2020-12-01T21:07:00+11:00",
+                "id": "ESTA:201200498",
+                "location": "Bowen St, Warragul",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.929214955035,
+                    -38.140287994659
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Healesville Kinglake Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -19728,52 +19796,6 @@
                 "coordinates": [
                     145.5009573865563,
                     -37.65160631188768
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-01T20:15:00+11:00",
-                "updated": "2020-12-01T20:24:00+11:00",
-                "id": "ESTA:201200488",
-                "location": "Durham Lead",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.8828611821576,
-                    -37.71299025316354
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Graham St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-01T19:56:00+11:00",
-                "updated": "2020-12-01T20:09:00+11:00",
-                "id": "ESTA:201200483",
-                "location": "Graham St, Wonthaggi",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.57922546219925,
-                    -38.60167801015889
                 ]
             }
         },
@@ -19807,8 +19829,8 @@
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2020-12-01T20:14:25+11:00",
-                "updated": "2020-12-01T20:14:25+11:00",
+                "created": "2020-12-01T21:09:24+11:00",
+                "updated": "2020-12-01T21:09:24+11:00",
                 "id": "ESTA:201200480",
                 "location": "Collins St, Melbourne",
                 "size": "Small",
@@ -19826,45 +19848,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Unitt St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-01T20:56:55+11:00",
-                "updated": "2020-12-01T20:56:55+11:00",
-                "id": "ESTA:201200494",
-                "location": "Unitt St, Melton",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.5798668974013,
-                    -37.68192631929991
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2020-12-01T20:30:00+11:00",
-                "updated": "2020-12-01T20:54:00+11:00",
-                "id": "ESTA:201250127",
-                "location": "Portland",
-                "title": "incident: building damage"
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-01T20:51:00+11:00",
+                "updated": "2020-12-01T20:57:00+11:00",
+                "id": "ESTA:201250129",
+                "location": "Malvern",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.60490366580868,
-                    -38.34277642333847
+                    145.03844400289702,
+                    -37.85985457558166
                 ]
             }
         },
@@ -19874,19 +19873,19 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-12-01T20:20:00+11:00",
-                "updated": "2020-12-01T20:52:00+11:00",
-                "id": "ESTA:201250126",
-                "location": "Apsley",
+                "status": "request for assistance",
+                "created": "2020-12-01T20:49:00+11:00",
+                "updated": "2020-12-01T20:50:00+11:00",
+                "id": "ESTA:201250128",
+                "location": "Ivanhoe",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.08162808540257,
-                    -36.96788615975413
+                    145.049506360968,
+                    -37.760475138679986
                 ]
             }
         },
@@ -19919,28 +19918,6 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-12-01T19:50:00+11:00",
-                "updated": "2020-12-01T20:00:00+11:00",
-                "id": "ESTA:201250122",
-                "location": "Eldorado",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.51873385034617,
-                    -36.31024047104535
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
                 "created": "2020-12-01T19:06:00+11:00",
                 "updated": "2020-12-01T19:29:00+11:00",
                 "id": "ESTA:201250117",
@@ -19953,28 +19930,6 @@
                 "coordinates": [
                     144.955475903123,
                     -37.73477410969122
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-01T18:31:00+11:00",
-                "updated": "2020-12-01T19:03:00+11:00",
-                "id": "ESTA:201250111",
-                "location": "Ferntree Gully",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26884708831238,
-                    -37.89441609578603
                 ]
             }
         }

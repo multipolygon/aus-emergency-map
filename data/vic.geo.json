@@ -10067,7 +10067,7 @@
                 "subcategory": "bushfire",
                 "status": "not yet under control",
                 "created": "2020-12-01T17:26:00+11:00",
-                "updated": "2020-12-01T17:57:00+11:00",
+                "updated": "2020-12-01T18:30:00+11:00",
                 "id": 979203,
                 "location": "Mallacoota Inlet Entrance",
                 "size": "0.01",
@@ -10198,36 +10198,59 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Allansford",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
                 "status": "complete",
-                "created": "2020-12-01T18:04:40+11:00",
-                "updated": "2020-12-01T18:49:29+11:00",
-                "id": "ESTA:201250105",
-                "location": "Brown St, Allansford",
-                "title": "incident: tree down"
+                "created": "2020-12-01T18:17:00+11:00",
+                "updated": "2020-12-01T19:20:00+11:00",
+                "id": "ESTA:201200442",
+                "location": "Yallourn North",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.60632497035203,
-                    -38.38781971853774
+                    146.40448764853804,
+                    -38.16254952202087
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Blackwood Dr",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-12-01T18:31:00+11:00",
+                "updated": "2020-12-01T19:22:00+11:00",
+                "id": "ESTA:201250112",
+                "location": "Oakleigh",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1002975312405,
+                    -37.90425216090387
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gordon St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-12-01T18:08:00+11:00",
-                "updated": "2020-12-01T18:39:00+11:00",
-                "id": "ESTA:201200439",
-                "location": "Blackwood Dr, Hampton Park",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-12-01T19:24:42+11:00",
+                "updated": "2020-12-01T19:24:42+11:00",
+                "id": "ESTA:201200458",
+                "location": "Gordon St, Footscray",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10235,8 +10258,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2713866398689,
-                    -38.024856405647064
+                    144.8888175168519,
+                    -37.79501528536176
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Barwon Heads Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-12-01T19:27:49+11:00",
+                "updated": "2020-12-01T19:27:49+11:00",
+                "id": "ESTA:201200463",
+                "location": "Barwon Heads Rd, Armstrong Creek",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3721573238512,
+                    -38.227534004585145
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yarraville",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-12-01T19:22:13+11:00",
+                "updated": "2020-12-01T19:27:38+11:00",
+                "id": "ESTA:201250120",
+                "location": "Somerville Rd, Yarraville",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8719914656395,
+                    -37.81168037155206
                 ]
             }
         },
@@ -10247,131 +10315,18 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-12-01T18:51:00+11:00",
-                "updated": "2020-12-01T18:56:00+11:00",
-                "id": "ESTA:201250115",
-                "location": "Frankston South",
+                "created": "2020-12-01T19:28:00+11:00",
+                "updated": "2020-12-01T19:28:00+11:00",
+                "id": "ESTA:201250121",
+                "location": "Hamilton",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1303787708081,
-                    -38.165099447191835
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rudd Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-12-01T18:53:24+11:00",
-                "updated": "2020-12-01T18:53:24+11:00",
-                "id": "ESTA:201200452",
-                "location": "Rudd Rd, Shepparton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.37032262505895,
-                    -36.34885073192686
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South Morang",
-                "category": "landslide",
-                "subcategory": "landslide",
-                "status": "complete",
-                "created": "2020-12-01T16:24:28+11:00",
-                "updated": "2020-12-01T18:54:35+11:00",
-                "id": "ESTA:201250091",
-                "location": "Mcdonalds Rd, South Morang",
-                "title": "incident: landslide"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.07761637365348,
-                    -37.649973717337765
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jells Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-12-01T19:00:27+11:00",
-                "updated": "2020-12-01T19:00:27+11:00",
-                "id": "ESTA:201200456",
-                "location": "Jells Rd, Wheelers Hill",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.18618252204638,
-                    -37.92103377046693
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-12-01T18:14:00+11:00",
-                "updated": "2020-12-01T19:00:00+11:00",
-                "id": "ESTA:201250107",
-                "location": "Carlisle River",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.38999973872822,
-                    -38.54493173823437
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Fire- Lawloit-Western Hwy",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-12-01T16:44:00+11:00",
-                "updated": "2020-12-01T18:02:00+11:00",
-                "id": "ESTA:201200393",
-                "location": "Fire- Lawloit-Western Hwy, Kaniva",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.42309439631714,
-                    -36.398143657198446
+                    142.03918193816983,
+                    -37.71713984730334
                 ]
             }
         },
@@ -19848,12 +19803,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Fire- Lawloit-Western Hwy",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-12-01T16:44:00+11:00",
+                "updated": "2020-12-01T19:02:00+11:00",
+                "id": "ESTA:201200393",
+                "location": "Fire- Lawloit-Western Hwy, Kaniva",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.42309439631714,
+                    -36.398143657198446
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Ferrier Gr",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-12-01T18:48:46+11:00",
-                "updated": "2020-12-01T18:48:46+11:00",
+                "created": "2020-12-01T18:39:00+11:00",
+                "updated": "2020-12-01T18:48:00+11:00",
                 "id": "ESTA:201200454",
                 "location": "Ferrier Gr, Bonbeach",
                 "size": "Small",
@@ -19863,31 +19841,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.13105075233443,
-                    -38.06876032558504
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "on scene",
-                "created": "2020-12-01T18:17:00+11:00",
-                "updated": "2020-12-01T18:42:00+11:00",
-                "id": "ESTA:201200442",
-                "location": "Yallourn North",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.40448764853804,
-                    -38.16254952202087
+                    145.13104439236142,
+                    -38.068767370999424
                 ]
             }
         },
@@ -19895,59 +19850,13 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Blackwood Dr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-12-01T18:26:00+11:00",
-                "updated": "2020-12-01T18:30:00+11:00",
-                "id": "ESTA:201200450",
-                "location": "Blackwood Dr, Hampton Park",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2713866398689,
-                    -38.024856405647064
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Harris Gr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-01T17:48:00+11:00",
-                "updated": "2020-12-01T18:25:00+11:00",
-                "id": "ESTA:201200426",
-                "location": "Harris Gr, Bayswater",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26039159089746,
-                    -37.840525394819636
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ackerleys Rd",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-12-01T16:07:00+11:00",
-                "updated": "2020-12-01T18:24:00+11:00",
-                "id": "ESTA:201200378",
-                "location": "Ackerleys Rd, Hamilton",
+                "created": "2020-12-01T18:08:00+11:00",
+                "updated": "2020-12-01T18:39:00+11:00",
+                "id": "ESTA:201200439",
+                "location": "Blackwood Dr, Hampton Park",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -19955,54 +19864,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.01153561769596,
-                    -37.71992196908074
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-12-01T18:19:00+11:00",
-                "updated": "2020-12-01T18:21:00+11:00",
-                "id": "ESTA:201200444",
-                "location": "Yallourn North",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.40668887256587,
-                    -38.16137100850738
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Stintons Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-01T18:11:45+11:00",
-                "updated": "2020-12-01T18:11:45+11:00",
-                "id": "ESTA:201200428",
-                "location": "Stintons Rd, Park Orchards",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.20534587704643,
-                    -37.770347332078295
+                    145.2713866398689,
+                    -38.024856405647064
                 ]
             }
         },
@@ -20032,22 +19895,248 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Rudd Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-12-01T18:53:24+11:00",
+                "updated": "2020-12-01T18:53:24+11:00",
+                "id": "ESTA:201200452",
+                "location": "Rudd Rd, Shepparton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.37032262505895,
+                    -36.34885073192686
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Merrill St",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-12-01T19:23:39+11:00",
+                "updated": "2020-12-01T19:23:39+11:00",
+                "id": "ESTA:201200464",
+                "location": "Merrill St, Mulgrave",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1703131690747,
+                    -37.92958040994691
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Western Ring Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-01T19:23:49+11:00",
+                "updated": "2020-12-01T19:23:49+11:00",
+                "id": "ESTA:201200427",
+                "location": "Western Ring Rd, Tullamarine",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.87633350968377,
+                    -37.715136058837636
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wheelers Hill",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-01T19:24:31+11:00",
+                "updated": "2020-12-01T19:24:31+11:00",
+                "id": "ESTA:201200456",
+                "location": "Wheelers Hill, Wheelers Hill",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18628697437097,
+                    -37.92188051475144
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Panoramic Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-01T19:26:50+11:00",
+                "updated": "2020-12-01T19:26:50+11:00",
+                "id": "ESTA:201200459",
+                "location": "Panoramic Rd, Balwyn North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0803148066899,
+                    -37.78903917554856
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Webb St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-12-01T19:14:07+11:00",
+                "updated": "2020-12-01T19:14:07+11:00",
+                "id": "ESTA:201200457",
+                "location": "Webb St, Coburg",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95583245622245,
+                    -37.734798288865264
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-12-01T18:31:00+11:00",
-                "updated": "2020-12-01T18:56:00+11:00",
-                "id": "ESTA:201250112",
-                "location": "Oakleigh",
+                "created": "2020-12-01T19:06:00+11:00",
+                "updated": "2020-12-01T19:29:00+11:00",
+                "id": "ESTA:201250117",
+                "location": "Coburg",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1002975312405,
-                    -37.90425216090387
+                    144.955475903123,
+                    -37.73477410969122
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-01T18:51:00+11:00",
+                "updated": "2020-12-01T19:26:00+11:00",
+                "id": "ESTA:201250115",
+                "location": "Frankston South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1303787708081,
+                    -38.165099447191835
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-01T19:06:00+11:00",
+                "updated": "2020-12-01T19:25:00+11:00",
+                "id": "ESTA:201250118",
+                "location": "Thornbury",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0174176334097,
+                    -37.76041711950239
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-01T19:15:00+11:00",
+                "updated": "2020-12-01T19:18:00+11:00",
+                "id": "ESTA:201250119",
+                "location": "Mount Cole Creek",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.10042908184133,
+                    -37.20025479965292
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-01T18:31:00+11:00",
+                "updated": "2020-12-01T19:03:00+11:00",
+                "id": "ESTA:201250111",
+                "location": "Ferntree Gully",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26884708831238,
+                    -37.89441609578603
                 ]
             }
         },
@@ -20070,50 +20159,6 @@
                 "coordinates": [
                     142.79164429606382,
                     -38.329549269678296
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-01T18:39:00+11:00",
-                "updated": "2020-12-01T18:40:00+11:00",
-                "id": "ESTA:201250113",
-                "location": "Airport West",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.88479131914607,
-                    -37.726497250083305
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-01T18:31:00+11:00",
-                "updated": "2020-12-01T18:35:00+11:00",
-                "id": "ESTA:201250111",
-                "location": "Ferntree Gully",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26884708831238,
-                    -37.89441609578603
                 ]
             }
         },

@@ -9864,6 +9864,28 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Acacia Court, Naracoorte",
+                "category": "other",
+                "subcategory": "other",
+                "status": "going",
+                "created": "2020-12-03T22:55:00+11:00",
+                "updated": "2020-12-03T22:55:00+11:00",
+                "id": "1394361",
+                "location": "Acacia Court, Naracoorte",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.750154785996,
+                    -36.9520519703305
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Kangaroo Flat - Carcoola Dr",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -10048,34 +10070,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-12-03T21:48:00+11:00",
-                "updated": "2020-12-03T22:32:00+11:00",
-                "id": "ESTA:201250220",
-                "location": "Boorhaman",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.2810257813482,
-                    -36.23275953763158
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Warneet",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-12-03T22:45:16+11:00",
-                "updated": "2020-12-03T22:45:16+11:00",
+                "status": "safe",
+                "created": "2020-12-03T23:03:21+11:00",
+                "updated": "2020-12-03T23:03:21+11:00",
                 "id": "ESTA:201202413",
                 "location": "Warneet, Warneet",
                 "size": "Small",
@@ -10096,7 +10096,7 @@
                 "sourceTitle": "Jones St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2020-12-03T22:45:00+11:00",
                 "updated": "2020-12-03T22:45:00+11:00",
                 "id": "ESTA:201202414",
@@ -10110,6 +10110,28 @@
                 "coordinates": [
                     145.23982379404495,
                     -36.90701460647283
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jindabyne",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "out of control",
+                "created": "2020-12-03T21:56:00+11:00",
+                "updated": "2020-12-03T21:56:00+11:00",
+                "id": "2020-12-03T21:56:00.0000000:400582",
+                "location": "36_23_43_8_S _ 148_36_39_06_E, Jindabyne, Nsw 2627",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.606787,
+                    -36.387097001
                 ]
             }
         },
@@ -19136,35 +19158,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Factory Lane",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-03T21:45:00+11:00",
-                "updated": "2020-12-03T21:57:00+11:00",
-                "id": "ESTA:201202399",
-                "location": "Factory Lane, Penshurst",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.29418669333728,
-                    -37.872490498941566
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Sasha Ct",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2020-12-03T22:39:53+11:00",
-                "updated": "2020-12-03T22:39:53+11:00",
+                "created": "2020-12-03T22:51:17+11:00",
+                "updated": "2020-12-03T22:51:17+11:00",
                 "id": "ESTA:201202384",
                 "location": "Sasha Ct, Langwarrin",
                 "size": "Small",
@@ -19176,29 +19175,6 @@
                 "coordinates": [
                     145.20613155245462,
                     -38.15822081620547
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kirkham Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-12-03T22:32:30+11:00",
-                "updated": "2020-12-03T22:32:30+11:00",
-                "id": "ESTA:201202385",
-                "location": "Kirkham Rd, Dandenong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.21544263961624,
-                    -37.999367402364896
                 ]
             }
         },
@@ -19228,12 +19204,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Kirkham Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-12-03T22:32:30+11:00",
+                "updated": "2020-12-03T22:32:30+11:00",
+                "id": "ESTA:201202385",
+                "location": "Kirkham Rd, Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21544263961624,
+                    -37.999367402364896
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Nepean Hwy",
                 "category": "other",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2020-12-03T22:38:43+11:00",
-                "updated": "2020-12-03T22:38:43+11:00",
+                "created": "2020-12-03T22:51:01+11:00",
+                "updated": "2020-12-03T22:51:01+11:00",
                 "id": "ESTA:201202410",
                 "location": "Nepean Hwy, Brighton East",
                 "size": "Small",

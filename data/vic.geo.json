@@ -10102,14 +10102,59 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Duncans Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-12-04T07:23:37+11:00",
+                "updated": "2020-12-04T07:23:37+11:00",
+                "id": "ESTA:201202487",
+                "location": "Duncans Rd, Werribee South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.70446169546912,
+                    -37.964637188157944
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-12-04T05:47:00+11:00",
+                "updated": "2020-12-04T07:24:00+11:00",
+                "id": "ESTA:201250224",
+                "location": "Thomastown",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01255959825596,
+                    -37.68782512728167
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
                 "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-12-04T06:23:00+11:00",
-                "updated": "2020-12-04T06:59:00+11:00",
-                "id": "ESTA:201202494",
-                "location": "Bylands",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-12-04T07:25:00+11:00",
+                "updated": "2020-12-04T07:25:00+11:00",
+                "id": "ESTA:201202531",
+                "location": "Lubeck",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -10117,8 +10162,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96051836963846,
-                    -37.338769556021845
+                    142.52285424723618,
+                    -36.74687456006825
                 ]
             }
         },
@@ -19144,46 +19189,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Duncans Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-12-04T06:21:45+11:00",
-                "updated": "2020-12-04T06:21:45+11:00",
-                "id": "ESTA:201202487",
-                "location": "Duncans Rd, Werribee South",
+                "sourceTitle": "High St",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-12-04T07:05:00+11:00",
+                "updated": "2020-12-04T07:05:00+11:00",
+                "id": "ESTA:201202519",
+                "location": "High St, Wallan",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.70446169546912,
-                    -37.964637188157944
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mokepilly Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-11-26T13:58:00+11:00",
-                "updated": "2020-11-27T00:45:00+11:00",
-                "id": "ESTA:201128751",
-                "location": "Mokepilly Rd, Jung",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.36921867561512,
-                    -36.52483730354991
+                    144.97846146566204,
+                    -37.419242602770524
                 ]
             }
         },
@@ -19236,14 +19258,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Williams Landing",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2020-12-04T06:23:00+11:00",
+                "updated": "2020-12-04T06:59:00+11:00",
+                "id": "ESTA:201202494",
+                "location": "Bylands",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96051836963846,
+                    -37.338769556021845
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mokepilly Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-11-26T13:58:00+11:00",
+                "updated": "2020-11-27T00:45:00+11:00",
+                "id": "ESTA:201128751",
+                "location": "Mokepilly Rd, Jung",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.36921867561512,
+                    -36.52483730354991
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Leeds St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-04T06:54:05+11:00",
-                "updated": "2020-12-04T06:54:05+11:00",
-                "id": "ESTA:201202506",
-                "location": "Williams Landing, Williams Landing",
+                "status": "safe",
+                "created": "2020-12-04T07:23:10+11:00",
+                "updated": "2020-12-04T07:23:10+11:00",
+                "id": "ESTA:201202526",
+                "location": "Leeds St, Footscray",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -19251,8 +19319,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74773468250393,
-                    -37.85739424877631
+                    144.90120902873127,
+                    -37.80076556829323
                 ]
             }
         },
@@ -19276,28 +19344,6 @@
                 "coordinates": [
                     144.94927931969298,
                     -37.8464852692548
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2020-12-04T05:47:00+11:00",
-                "updated": "2020-12-04T06:46:00+11:00",
-                "id": "ESTA:201250224",
-                "location": "Thomastown",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01255959825596,
-                    -37.68782512728167
                 ]
             }
         }

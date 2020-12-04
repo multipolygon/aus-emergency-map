@@ -21,59 +21,44 @@
                                 "coordinates": [
                                     [
                                         [
-                                            146.971825958,
-                                            -34.607891879
+                                            146.997131212,
+                                            -34.590942183
                                         ],
                                         [
-                                            146.994073919,
-                                            -34.6166958859999
+                                            147.007016443,
+                                            -34.598639098
                                         ],
                                         [
-                                            146.989790889,
-                                            -34.6230014569999
+                                            146.992224323,
+                                            -34.59828105
                                         ],
                                         [
-                                            146.982652505,
-                                            -34.6233583759999
+                                            146.987172003,
+                                            -34.607469352
                                         ],
                                         [
-                                            146.971706985,
-                                            -34.607891879
+                                            146.953617794,
+                                            -34.603463808
                                         ],
                                         [
-                                            146.971825958,
-                                            -34.607891879
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            146.953742055,
-                                            -34.603965769
+                                            146.954557329,
+                                            -34.6007194659999
                                         ],
                                         [
-                                            146.976108987,
-                                            -34.6102713409999
+                                            146.96213581,
+                                            -34.596545267
                                         ],
                                         [
-                                            146.980154071,
-                                            -34.6226445369999
+                                            146.978010322,
+                                            -34.5949976799999
                                         ],
                                         [
-                                            146.968494713,
-                                            -34.625023999
+                                            146.988256551,
+                                            -34.592135018
                                         ],
                                         [
-                                            146.953147189,
-                                            -34.604322688
-                                        ],
-                                        [
-                                            146.953742055,
-                                            -34.603965769
+                                            146.997131212,
+                                            -34.590942183
                                         ]
                                     ]
                                 ]
@@ -161,11 +146,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400643",
-                "created": "2020-12-04T02:58:00+11:00",
-                "updated": "2020-12-04T13:58:00+11:00",
+                "created": "2020-12-04T03:54:00+11:00",
+                "updated": "2020-12-04T14:54:00+11:00",
                 "location": "582 Bowens Rd, Stratford, NSW 2422",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 582 Bowens Rd, Stratford, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 13:58",
+                "size": 4,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 582 Bowens Rd, Stratford, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 14:54",
                 "title": "incident: fire"
             }
         },
@@ -735,11 +720,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400642",
-                "created": "2020-12-04T02:50:00+11:00",
-                "updated": "2020-12-04T13:50:00+11:00",
+                "created": "2020-12-04T03:56:00+11:00",
+                "updated": "2020-12-04T14:56:00+11:00",
                 "location": "309 Field Road, Murrumbidgee NSW",
                 "size": 8,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 309 Field Road, Murrumbidgee NSW <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 13:50",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 309 Field Road, Murrumbidgee NSW <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 14:56",
                 "title": "incident: fire"
             }
         },
@@ -1465,10 +1450,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.02158308100002,
-                    -34.89983499999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.03740768600005,
+                            -34.914790488999984
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.035385144,
+                                            -34.9149808459999
+                                        ],
+                                        [
+                                            146.03699128,
+                                            -34.913434196
+                                        ],
+                                        [
+                                            146.038704492,
+                                            -34.914017164
+                                        ],
+                                        [
+                                            146.03703887,
+                                            -34.916515599
+                                        ],
+                                        [
+                                            146.035408938,
+                                            -34.9150046409999
+                                        ],
+                                        [
+                                            146.035385144,
+                                            -34.9149808459999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1759,61 +1785,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.387981528,
-                                            -28.9387772919999
-                                        ],
-                                        [
-                                            153.388231174,
-                                            -28.938863377
-                                        ],
-                                        [
-                                            153.388308652,
-                                            -28.938949462
-                                        ],
-                                        [
-                                            153.388162307,
-                                            -28.9390355479999
-                                        ],
-                                        [
-                                            153.387878225,
-                                            -28.9389925039999
-                                        ],
-                                        [
-                                            153.387645794,
-                                            -28.938880594
-                                        ],
-                                        [
-                                            153.38743919,
-                                            -28.9390097209999
-                                        ],
-                                        [
-                                            153.387249803,
-                                            -28.9388719849999
-                                        ],
-                                        [
-                                            153.38726702,
-                                            -28.938768683
-                                        ],
-                                        [
-                                            153.387551101,
-                                            -28.9387342489999
-                                        ],
-                                        [
-                                            153.387817966,
-                                            -28.938682598
-                                        ],
-                                        [
-                                            153.387981528,
-                                            -28.9387772919999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.389350282,
                                             -28.939560668
                                         ],
@@ -1864,6 +1835,61 @@
                                         [
                                             153.389350282,
                                             -28.939560668
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.387981528,
+                                            -28.9387772919999
+                                        ],
+                                        [
+                                            153.388231174,
+                                            -28.938863377
+                                        ],
+                                        [
+                                            153.388308652,
+                                            -28.938949462
+                                        ],
+                                        [
+                                            153.388162307,
+                                            -28.9390355479999
+                                        ],
+                                        [
+                                            153.387878225,
+                                            -28.9389925039999
+                                        ],
+                                        [
+                                            153.387645794,
+                                            -28.938880594
+                                        ],
+                                        [
+                                            153.38743919,
+                                            -28.9390097209999
+                                        ],
+                                        [
+                                            153.387249803,
+                                            -28.9388719849999
+                                        ],
+                                        [
+                                            153.38726702,
+                                            -28.938768683
+                                        ],
+                                        [
+                                            153.387551101,
+                                            -28.9387342489999
+                                        ],
+                                        [
+                                            153.387817966,
+                                            -28.938682598
+                                        ],
+                                        [
+                                            153.387981528,
+                                            -28.9387772919999
                                         ]
                                     ]
                                 ]
@@ -2055,8 +2081,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.33544400000005,
-                    -33.43253199999998
+                    149.38118934700003,
+                    -33.47118667299998
                 ]
             },
             "properties": {
@@ -3031,30 +3057,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.49317800000006,
-                    -35.78103999999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tuppal Rd, Tocumwal",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400647",
-                "created": "2020-12-04T03:31:00+11:00",
-                "updated": "2020-12-04T14:31:00+11:00",
-                "location": "784 Tuppal Rd, Tocumwal, NSW 2714",
-                "size": 3,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 784 Tuppal Rd, Tocumwal, NSW 2714 <br />COUNCIL AREA: Berrigan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 14:31",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.89822400000003,
                     -32.47272099999998
                 ]
@@ -3451,11 +3453,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400635",
-                "created": "2020-12-04T02:38:00+11:00",
-                "updated": "2020-12-04T13:38:00+11:00",
+                "created": "2020-12-04T03:46:00+11:00",
+                "updated": "2020-12-04T14:46:00+11:00",
                 "location": "Waratah Rd SE Forests NP",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Waratah Rd SE Forests NP <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 4 Dec 2020 13:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Waratah Rd SE Forests NP <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 4 Dec 2020 14:46",
                 "title": "incident: fire"
             }
         },
@@ -3497,13 +3499,37 @@
                 "sourceTitle": "Burindi Rd, Barraba",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400655",
-                "created": "2020-12-04T03:40:00+11:00",
-                "updated": "2020-12-04T14:40:00+11:00",
+                "created": "2020-12-04T03:58:00+11:00",
+                "updated": "2020-12-04T14:58:00+11:00",
                 "location": "Burindi Rd, Barraba, NSW 2347",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Burindi Rd, Barraba, NSW 2347 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 14:40",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Burindi Rd, Barraba, NSW 2347 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 14:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.86101800000006,
+                    -29.717368999999962
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Delungra Bypass Rd, Delungra",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400657",
+                "created": "2020-12-04T03:44:00+11:00",
+                "updated": "2020-12-04T14:44:00+11:00",
+                "location": "243 Delungra Bypass Rd, Delungra, NSW 2403",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 243 Delungra Bypass Rd, Delungra, NSW 2403 <br />COUNCIL AREA: Inverell <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 14:44",
                 "title": "incident: fire"
             }
         },
@@ -3631,30 +3657,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.53335800000002,
-                    -28.573294999999973
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gulgan Rd, Brunswick Heads",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400641",
-                "created": "2020-12-04T03:11:00+11:00",
-                "updated": "2020-12-04T14:11:00+11:00",
-                "location": "194 Gulgan Rd, Brunswick Heads, NSW 2483",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 194 Gulgan Rd, Brunswick Heads, NSW 2483 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 14:11",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -3738,6 +3740,30 @@
                 "location": "Gwabegar Rd, Baradine, NSW 2396",
                 "size": 3,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Gwabegar Rd, Baradine, NSW 2396 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 08:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.60500000000002,
+                    -34.191299999999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Henry St, Picton",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400654",
+                "created": "2020-12-04T03:49:00+11:00",
+                "updated": "2020-12-04T14:49:00+11:00",
+                "location": "Henry St, Picton, NSW 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Henry St, Picton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 4 Dec 2020 14:49",
                 "title": "incident: fire"
             }
         },

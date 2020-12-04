@@ -10033,14 +10033,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bellavista Dr",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-04T10:55:00+11:00",
+                "updated": "2020-12-04T11:04:00+11:00",
+                "id": "ESTA:201250232",
+                "location": "Macclesfield",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.45610350374645,
+                    -37.89396660050835
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ashwood",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-12-04T10:42:59+11:00",
-                "updated": "2020-12-04T10:42:59+11:00",
-                "id": "ESTA:201202858",
-                "location": "Bellavista Dr, Wollert",
+                "created": "2020-12-04T11:02:53+11:00",
+                "updated": "2020-12-04T11:02:53+11:00",
+                "id": "ESTA:201202901",
+                "location": "Ashwood, Ashwood",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -10048,8 +10070,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0147367454218,
-                    -37.613784951399985
+                    145.11077442406477,
+                    -37.87292489822227
                 ]
             }
         },
@@ -10059,9 +10081,9 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "washaway",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-12-04T10:39:00+11:00",
-                "updated": "2020-12-04T10:39:00+11:00",
+                "updated": "2020-12-04T11:03:00+11:00",
                 "id": "ESTA:201202864",
                 "location": "Bairnsdale",
                 "size": "Small",
@@ -10079,46 +10101,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hawkins Lane",
+                "sourceTitle": "Rutherglen",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-12-04T10:29:00+11:00",
-                "updated": "2020-12-04T10:40:00+11:00",
-                "id": "ESTA:201202849",
-                "location": "Hawkins Lane, Longlea",
-                "size": "Small",
+                "status": "safe",
+                "created": "2020-12-03T18:43:37+11:00",
+                "updated": "2020-12-04T11:07:43+11:00",
+                "id": "ESTA:201202291",
+                "location": "Rutherglen",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.43104550157784,
-                    -36.76666247799502
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mclennan St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-12-04T10:34:00+11:00",
-                "updated": "2020-12-04T10:34:00+11:00",
-                "id": "ESTA:201202856",
-                "location": "Mclennan St, Mooroopna",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3471151543885,
-                    -36.39673060375856
+                    146.50373468582148,
+                    -36.089543656796494
                 ]
             }
         },
@@ -18245,6 +18243,28 @@
                         ],
                         "name": "East Gippsland"
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sturt Hwy, Maude",
+                "category": "transport",
+                "subcategory": "motor vehicle accident",
+                "status": "out of control",
+                "created": "2020-12-04T10:08:00+11:00",
+                "updated": "2020-12-04T10:08:00+11:00",
+                "id": "2020-12-04T10:08:00.0000000:400613",
+                "location": "Sturt Hwy, Balranald, Nsw 2715",
+                "title": "incident: transport"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.879699707,
+                    -34.729198342
                 ]
             }
         },
@@ -27220,6 +27240,52 @@
                             -36.4716
                         ]
                     ]
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bellavista Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-04T10:58:21+11:00",
+                "updated": "2020-12-04T10:58:21+11:00",
+                "id": "ESTA:201202858",
+                "location": "Bellavista Dr, Wollert",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0147367454218,
+                    -37.613784951399985
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hawkins Lane",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-12-04T10:29:00+11:00",
+                "updated": "2020-12-04T10:48:00+11:00",
+                "id": "ESTA:201202849",
+                "location": "Hawkins Lane, Longlea",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.43104550157784,
+                    -36.76666247799502
                 ]
             }
         },

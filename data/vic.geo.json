@@ -10275,12 +10275,57 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Blackwells Lane",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-12-04T17:00:44+11:00",
+                "updated": "2020-12-04T17:00:44+11:00",
+                "id": "ESTA:201203153",
+                "location": "Blackwells Lane, Bulla",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82101244189388,
+                    -37.635349829687875
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-12-04T16:41:00+11:00",
+                "updated": "2020-12-04T16:53:00+11:00",
+                "id": "ESTA:201250248",
+                "location": "Northcote",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99815476266642,
+                    -37.76924743035112
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Murchison-Violet Town Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-12-04T16:16:00+11:00",
-                "updated": "2020-12-04T16:36:00+11:00",
+                "updated": "2020-12-04T16:56:00+11:00",
                 "id": "ESTA:201203364",
                 "location": "Murchison-Violet Town Rd, Miepoll",
                 "size": "Small",
@@ -10298,14 +10343,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Williamsons Rd",
+                "sourceTitle": "Power St",
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-12-04T16:36:08+11:00",
-                "updated": "2020-12-04T16:36:08+11:00",
-                "id": "ESTA:201203347",
-                "location": "Williamsons Rd, Yarragon",
+                "created": "2020-12-04T16:56:52+11:00",
+                "updated": "2020-12-04T16:56:52+11:00",
+                "id": "ESTA:201203385",
+                "location": "Power St, Balwyn",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10313,45 +10358,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.10907551147574,
-                    -38.2193321698726
+                    145.07899830594184,
+                    -37.811240931578546
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lyndarum Dr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-12-04T16:36:00+11:00",
-                "updated": "2020-12-04T16:36:00+11:00",
-                "id": "ESTA:201203378",
-                "location": "Lyndarum Dr, Epping",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02709149336826,
-                    -37.62811201270462
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Flinders St",
+                "sourceTitle": "Neangar Ct",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2020-12-04T16:37:36+11:00",
-                "updated": "2020-12-04T16:37:36+11:00",
-                "id": "ESTA:201203377",
-                "location": "Flinders St, Melbourne",
+                "created": "2020-12-04T17:03:04+11:00",
+                "updated": "2020-12-04T17:03:04+11:00",
+                "id": "ESTA:201203388",
+                "location": "Neangar Ct, Eaglehawk",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10359,8 +10381,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9733666687099,
-                    -37.81549870133716
+                    144.24912319189437,
+                    -36.715447743883566
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maffra-Sale Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-12-04T16:58:00+11:00",
+                "updated": "2020-12-04T16:58:00+11:00",
+                "id": "ESTA:201203391",
+                "location": "Maffra-Sale Rd, Maffra",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.98547166020901,
+                    -37.97397862264095
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sale Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-12-04T16:58:00+11:00",
+                "updated": "2020-12-04T16:58:00+11:00",
+                "id": "ESTA:201203392",
+                "location": "Sale Rd, Maffra",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.98555144063033,
+                    -37.973573050150854
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Citylink -",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-12-04T17:01:51+11:00",
+                "updated": "2020-12-04T17:01:51+11:00",
+                "id": "ESTA:201203386",
+                "location": "Citylink -, Port Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93052959202652,
+                    -37.82414018120452
                 ]
             }
         },
@@ -10370,9 +10461,9 @@
                 "sourceTitle": "Eureka",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-12-04T16:39:03+11:00",
-                "updated": "2020-12-04T16:39:03+11:00",
+                "status": "safe",
+                "created": "2020-12-04T16:59:07+11:00",
+                "updated": "2020-12-04T16:59:07+11:00",
                 "id": "ESTA:201203363",
                 "location": "Eureka, Eureka",
                 "size": "Small",
@@ -10390,14 +10481,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dingle Rd",
+                "sourceTitle": "Williamsons Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-12-04T16:17:00+11:00",
-                "updated": "2020-12-04T16:39:00+11:00",
-                "id": "ESTA:201203365",
-                "location": "Dingle Rd, Beechworth",
+                "created": "2020-12-04T16:06:00+11:00",
+                "updated": "2020-12-04T16:36:00+11:00",
+                "id": "ESTA:201203347",
+                "location": "Williamsons Rd, Yarragon",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10405,53 +10496,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.69803390533016,
-                    -36.36661509158971
+                    146.10907540656524,
+                    -38.21933236198007
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Arthurton Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-04T16:44:49+11:00",
-                "updated": "2020-12-04T16:44:49+11:00",
-                "id": "ESTA:201203381",
-                "location": "Arthurton Rd, Northcote",
+                "sourceTitle": "Hamilton Way",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2020-12-04T16:29:00+11:00",
+                "updated": "2020-12-04T17:02:00+11:00",
+                "id": "ESTA:201203375",
+                "location": "Hamilton Way, Lockwood South",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9981612116268,
-                    -37.76924366757072
+                    144.13791405394272,
+                    -36.89072421162992
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-12-04T16:41:00+11:00",
-                "updated": "2020-12-04T16:45:00+11:00",
-                "id": "ESTA:201250248",
-                "location": "Northcote",
-                "title": "incident: building damage"
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-12-04T17:03:00+11:00",
+                "updated": "2020-12-04T17:03:00+11:00",
+                "id": "ESTA:201203403",
+                "location": "Numurkah",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99815476266642,
-                    -37.76924743035112
+                    145.4410986459305,
+                    -36.082466665580675
                 ]
             }
         },
@@ -27917,14 +28009,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hamilton Way",
+                "sourceTitle": "Neangar Ct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-04T16:58:00+11:00",
+                "updated": "2020-12-04T17:01:00+11:00",
+                "id": "ESTA:201203390",
+                "location": "Neangar Ct, Eaglehawk",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.24911645980728,
+                    -36.71545135726623
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-04T15:47:00+11:00",
+                "updated": "2020-12-04T16:49:00+11:00",
+                "id": "ESTA:201203308",
+                "location": "Irymple",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.1803005146123,
+                    -34.260640020600306
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dingle Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2020-12-04T16:29:00+11:00",
-                "updated": "2020-12-04T16:29:00+11:00",
-                "id": "ESTA:201203375",
-                "location": "Hamilton Way, Lockwood South",
+                "status": "safe",
+                "created": "2020-12-04T16:17:00+11:00",
+                "updated": "2020-12-04T16:39:00+11:00",
+                "id": "ESTA:201203365",
+                "location": "Dingle Rd, Beechworth",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -27932,8 +28070,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.13791405394272,
-                    -36.89072421162992
+                    146.69803390533016,
+                    -36.36661509158971
                 ]
             }
         },
@@ -28009,75 +28147,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Irymple",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-04T16:32:46+11:00",
-                "updated": "2020-12-04T16:32:46+11:00",
-                "id": "ESTA:201203308",
-                "location": "Irymple, Irymple",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.18030478014566,
-                    -34.26063244163224
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Canterbury Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-04T15:43:00+11:00",
-                "updated": "2020-12-04T15:53:00+11:00",
-                "id": "ESTA:201203303",
-                "location": "Canterbury Rd, Bayswater North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2695477575325,
-                    -37.83190955508172
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Blackwells Lane",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-12-04T16:24:29+11:00",
-                "updated": "2020-12-04T16:24:29+11:00",
-                "id": "ESTA:201203153",
-                "location": "Blackwells Lane, Bulla",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.82101244189388,
-                    -37.635349829687875
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mokepilly Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -28101,29 +28170,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Napier St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-12-04T16:38:07+11:00",
-                "updated": "2020-12-04T16:38:07+11:00",
-                "id": "ESTA:201203336",
-                "location": "Napier St, Mentone",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06085558902956,
-                    -37.98725619744867
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Hilda Cr",
                 "category": "other",
                 "subcategory": "other",
@@ -28141,6 +28187,29 @@
                 "coordinates": [
                     145.02856561202722,
                     -37.81948069039231
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Arthurton Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-12-04T17:02:47+11:00",
+                "updated": "2020-12-04T17:02:47+11:00",
+                "id": "ESTA:201203381",
+                "location": "Arthurton Rd, Northcote",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9981612116268,
+                    -37.76924366757072
                 ]
             }
         },

@@ -10001,12 +10001,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Flinders St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-12-05T05:46:52+11:00",
+                "updated": "2020-12-05T05:46:52+11:00",
+                "id": "ESTA:201203814",
+                "location": "Flinders St, Melbourne",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96825515899977,
+                    -37.81701114395025
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Edwards Cr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-12-05T05:29:00+11:00",
+                "updated": "2020-12-05T05:41:00+11:00",
+                "id": "ESTA:201203811",
+                "location": "Edwards Cr, Wendouree",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.83875973182046,
+                    -37.526558809403255
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Mentone Pde",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-12-05T05:42:18+11:00",
-                "updated": "2020-12-05T05:42:18+11:00",
+                "status": "safe",
+                "created": "2020-12-05T05:46:10+11:00",
+                "updated": "2020-12-05T05:46:10+11:00",
                 "id": "ESTA:201203813",
                 "location": "Mentone Pde, Mentone",
                 "size": "Small",
@@ -10024,46 +10070,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Edwards Cr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-12-05T05:41:08+11:00",
-                "updated": "2020-12-05T05:41:08+11:00",
-                "id": "ESTA:201203811",
-                "location": "Edwards Cr, Wendouree",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-05T05:47:00+11:00",
+                "updated": "2020-12-05T05:48:00+11:00",
+                "id": "ESTA:201250272",
+                "location": "Eden Park",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.83875965504424,
-                    -37.526551901786036
+                    145.06917142008663,
+                    -37.50330392091068
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Flinders St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-05T05:42:56+11:00",
-                "updated": "2020-12-05T05:42:56+11:00",
-                "id": "ESTA:201203814",
-                "location": "Flinders St, Melbourne",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-05T05:50:00+11:00",
+                "updated": "2020-12-05T05:49:34+11:00",
+                "id": "ESTA:201250273",
+                "location": "Eden Park",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96825515899977,
-                    -37.81701114395025
+                    145.06917142008663,
+                    -37.50330392091068
                 ]
             }
         },
@@ -21589,6 +21633,64 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-27T11:00:00+11:00",
+                "updated": "2020-11-27T11:00:00+11:00",
+                "id": "13b3bba9db2e4ad0f7264d73a4dd1dc8",
+                "location": "Fire - Rupanyup - Barkers Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.6396,
+                            -36.567
+                        ],
+                        [
+                            142.6418,
+                            -36.5678
+                        ],
+                        [
+                            142.6427,
+                            -36.5682
+                        ],
+                        [
+                            142.6424,
+                            -36.5683
+                        ],
+                        [
+                            142.6418,
+                            -36.5683
+                        ],
+                        [
+                            142.6404,
+                            -36.5675
+                        ],
+                        [
+                            142.6397,
+                            -36.5672
+                        ],
+                        [
+                            142.6397,
+                            -36.5672
+                        ],
+                        [
+                            142.6396,
+                            -36.567
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Chaplin Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -22436,64 +22538,6 @@
                         [
                             144.2152,
                             -36.7104
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-27T11:00:00+11:00",
-                "updated": "2020-11-27T11:00:00+11:00",
-                "id": "13b3bba9db2e4ad0f7264d73a4dd1dc8",
-                "location": "Fire - Rupanyup - Barkers Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.6396,
-                            -36.567
-                        ],
-                        [
-                            142.6418,
-                            -36.5678
-                        ],
-                        [
-                            142.6427,
-                            -36.5682
-                        ],
-                        [
-                            142.6424,
-                            -36.5683
-                        ],
-                        [
-                            142.6418,
-                            -36.5683
-                        ],
-                        [
-                            142.6404,
-                            -36.5675
-                        ],
-                        [
-                            142.6397,
-                            -36.5672
-                        ],
-                        [
-                            142.6397,
-                            -36.5672
-                        ],
-                        [
-                            142.6396,
-                            -36.567
                         ]
                     ]
                 ]

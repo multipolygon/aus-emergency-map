@@ -2151,65 +2151,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.389350282,
-                                            -28.939560668
-                                        ],
-                                        [
-                                            153.389135069,
-                                            -28.9396467519999
-                                        ],
-                                        [
-                                            153.388980115,
-                                            -28.939577884
-                                        ],
-                                        [
-                                            153.38895429,
-                                            -28.9394573659999
-                                        ],
-                                        [
-                                            153.389040376,
-                                            -28.939207718
-                                        ],
-                                        [
-                                            153.389221154,
-                                            -28.9389925049999
-                                        ],
-                                        [
-                                            153.389290023,
-                                            -28.938906419
-                                        ],
-                                        [
-                                            153.389677405,
-                                            -28.9389150279999
-                                        ],
-                                        [
-                                            153.389703232,
-                                            -28.939001114
-                                        ],
-                                        [
-                                            153.38965158,
-                                            -28.9391130239999
-                                        ],
-                                        [
-                                            153.389668797,
-                                            -28.9392507599999
-                                        ],
-                                        [
-                                            153.389591321,
-                                            -28.939362671
-                                        ],
-                                        [
-                                            153.389350282,
-                                            -28.939560668
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.386044562,
                                             -28.930188196
                                         ],
@@ -2343,6 +2284,65 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.389350282,
+                                            -28.939560668
+                                        ],
+                                        [
+                                            153.389135069,
+                                            -28.9396467519999
+                                        ],
+                                        [
+                                            153.388980115,
+                                            -28.939577884
+                                        ],
+                                        [
+                                            153.38895429,
+                                            -28.9394573659999
+                                        ],
+                                        [
+                                            153.389040376,
+                                            -28.939207718
+                                        ],
+                                        [
+                                            153.389221154,
+                                            -28.9389925049999
+                                        ],
+                                        [
+                                            153.389290023,
+                                            -28.938906419
+                                        ],
+                                        [
+                                            153.389677405,
+                                            -28.9389150279999
+                                        ],
+                                        [
+                                            153.389703232,
+                                            -28.939001114
+                                        ],
+                                        [
+                                            153.38965158,
+                                            -28.9391130239999
+                                        ],
+                                        [
+                                            153.389668797,
+                                            -28.9392507599999
+                                        ],
+                                        [
+                                            153.389591321,
+                                            -28.939362671
+                                        ],
+                                        [
+                                            153.389350282,
+                                            -28.939560668
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -2355,11 +2355,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/398286",
-                "created": "2020-12-03T23:04:00+11:00",
-                "updated": "2020-12-04T10:04:00+11:00",
+                "created": "2020-12-04T06:46:00+11:00",
+                "updated": "2020-12-04T17:46:00+11:00",
                 "location": "Justelius Rd, Meerschaum Vale, NSW 2477",
                 "size": 32,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Justelius Rd, Meerschaum Vale, NSW 2477 <br />COUNCIL AREA: Ballina <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 32 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 10:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Justelius Rd, Meerschaum Vale, NSW 2477 <br />COUNCIL AREA: Ballina <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 32 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 17:46",
                 "title": "incident: fire"
             }
         },
@@ -3367,10 +3367,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.13427400000012,
-                    -31.08618699899995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.13427400000012,
+                            -31.08618699899995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.137075169,
+                                            -31.0847126859999
+                                        ],
+                                        [
+                                            151.138031818,
+                                            -31.086650859
+                                        ],
+                                        [
+                                            151.136055838,
+                                            -31.0866883809999
+                                        ],
+                                        [
+                                            151.136043821,
+                                            -31.085673529
+                                        ],
+                                        [
+                                            151.137075169,
+                                            -31.0847126859999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4131,6 +4168,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.8086419990001,
+                    -33.95510399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rickard Rd, Leppington",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400687",
+                "created": "2020-12-04T06:44:00+11:00",
+                "updated": "2020-12-04T17:44:00+11:00",
+                "location": "Rickard Rd, Leppington,  2174",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Rickard Rd, Leppington,  2174 <br />COUNCIL AREA: Camden <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 17:44",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.45589685400012,
                     -31.09540668099993
                 ]
@@ -4155,22 +4216,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.551554,
-                    -33.170207999999946
+                    151.55686855300007,
+                    -33.177304945999936
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tall Timbers Rd, Mannering Park",
+                "sourceTitle": "Tall Timbers Rd, North Doyalson",
                 "category": "fire",
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400682",
                 "created": "2020-12-04T05:58:00+11:00",
                 "updated": "2020-12-04T16:58:00+11:00",
-                "location": "130 Tall Timbers Rd, Mannering Park, NSW 2259",
+                "location": "130 Tall Timbers Rd, North Doyalson, NSW 2259",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 130 Tall Timbers Rd, Mannering Park, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 16:58",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 130 Tall Timbers Rd, North Doyalson, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 16:58",
                 "title": "incident: fire"
             }
         },
@@ -4244,30 +4305,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wickham St, Arncliffe, NSW 2205 <br />COUNCIL AREA: Bayside <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 4 Dec 2020 15:34",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.7395570010001,
-                    -32.555883999999935
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Woerdens Rd, Clarence Town",
-                "category": "other",
-                "subcategory": "medical",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/400680",
-                "created": "2020-12-04T05:46:00+11:00",
-                "updated": "2020-12-04T16:46:00+11:00",
-                "location": "325 Woerdens Rd, Clarence Town, NSW 2321",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 325 Woerdens Rd, Clarence Town, NSW 2321 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Dec 2020 16:46",
-                "title": "incident: other"
             }
         },
         {

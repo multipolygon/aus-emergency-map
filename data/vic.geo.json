@@ -10153,37 +10153,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Shirley St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-12-07T20:39:30+11:00",
-                "updated": "2020-12-07T20:39:30+11:00",
-                "id": "ESTA:201206081",
-                "location": "Shirley St, St Albans",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7894118764523,
-                    -37.73711731357844
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Centre Dandenong Rd",
+                "sourceTitle": "Farm Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-12-07T20:30:35+11:00",
-                "updated": "2020-12-07T20:30:35+11:00",
+                "status": "under control",
+                "created": "2020-12-07T20:40:07+11:00",
+                "updated": "2020-12-07T20:40:07+11:00",
                 "id": "ESTA:201206073",
-                "location": "Centre Dandenong Rd, Cheltenham",
+                "location": "Farm Rd, Cheltenham",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10191,30 +10168,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.08726682808646,
-                    -37.96913105896896
+                    145.08825124714036,
+                    -37.96426524303499
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sawmill Settlement",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "responding",
-                "created": "2020-12-07T20:37:51+11:00",
-                "updated": "2020-12-07T20:40:37+11:00",
+                "status": "request for assistance",
+                "created": "2020-12-07T20:41:00+11:00",
+                "updated": "2020-12-07T20:43:00+11:00",
                 "id": "ESTA:201251094",
-                "location": "Warrambat Rd, Sawmill Settlement",
+                "location": "Sawmill Settlement",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.3657600385026,
-                    -37.107632956879655
+                    146.36574708596658,
+                    -37.1076353068917
                 ]
             }
         },
@@ -10224,9 +10201,9 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "responding",
+                "status": "complete",
                 "created": "2020-12-07T14:18:00+11:00",
-                "updated": "2020-12-07T16:45:00+11:00",
+                "updated": "2020-12-07T20:41:00+11:00",
                 "id": "ESTA:201251032",
                 "location": "Horsham",
                 "title": "incident: building damage"
@@ -10243,34 +10220,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sawmill Settlement",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-07T20:40:56+11:00",
-                "updated": "2020-12-07T20:41:10+11:00",
-                "id": "ESTA:201206083",
-                "location": "Warrambat Rd, Sawmill Settlement",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.3657600385026,
-                    -37.107632956879655
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Fonteyn Dr",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-12-07T20:39:35+11:00",
-                "updated": "2020-12-07T20:39:35+11:00",
+                "status": "safe",
+                "created": "2020-12-07T20:47:16+11:00",
+                "updated": "2020-12-07T20:47:16+11:00",
                 "id": "ESTA:201206077",
                 "location": "Fonteyn Dr, Wantirna South",
                 "size": "Small",
@@ -10282,6 +10237,51 @@
                 "coordinates": [
                     145.2209198849785,
                     -37.88321517635832
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Warrambat Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-07T20:41:00+11:00",
+                "updated": "2020-12-07T20:43:00+11:00",
+                "id": "ESTA:201206083",
+                "location": "Warrambat Rd, Sawmill Settlement",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.36574708596658,
+                    -37.1076353068917
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-12-07T09:26:00+11:00",
+                "updated": "2020-12-07T20:49:00+11:00",
+                "id": "ESTA:201250960",
+                "location": "Horsham",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.20497279718313,
+                    -36.69983138877507
                 ]
             }
         },
@@ -21654,29 +21654,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Theodore Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-07T19:40:00+11:00",
-                "updated": "2020-12-07T19:50:00+11:00",
-                "id": "ESTA:201206057",
-                "location": "Theodore Av, Noble Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16742285431036,
-                    -37.974410682843626
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Shaft St",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -21694,6 +21671,29 @@
                 "coordinates": [
                     144.25501704901092,
                     -36.74809348340599
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dowling Pl",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "not yet under control",
+                "created": "2020-12-07T09:14:00+11:00",
+                "updated": "2020-12-07T09:14:00+11:00",
+                "id": "ESTA:201206082",
+                "location": "Dowling Pl, West Bendigo",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.25384642365339,
+                    -36.75548320086072
                 ]
             }
         },
@@ -22531,28 +22531,6 @@
                 "coordinates": [
                     142.19621158664447,
                     -36.71886781983646
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "responding",
-                "created": "2020-12-07T09:26:00+11:00",
-                "updated": "2020-12-07T10:45:00+11:00",
-                "id": "ESTA:201250960",
-                "location": "Horsham",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.20497279718313,
-                    -36.69983138877507
                 ]
             }
         },

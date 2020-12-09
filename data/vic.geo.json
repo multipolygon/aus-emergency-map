@@ -10107,14 +10107,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Browns Rd",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-10T06:18:00+11:00",
+                "updated": "2020-12-10T06:19:00+11:00",
+                "id": "ESTA:201251233",
+                "location": "Emerald",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.46331820582614,
+                    -37.90796692715406
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Trawalla",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-10T06:00:14+11:00",
-                "updated": "2020-12-10T06:00:14+11:00",
-                "id": "ESTA:201207970",
-                "location": "Browns Rd, Noble Park North",
+                "created": "2020-12-10T06:21:21+11:00",
+                "updated": "2020-12-10T06:21:21+11:00",
+                "id": "ESTA:201207977",
+                "location": "Trawalla, Trawalla",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -10122,30 +10144,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.18718614015967,
-                    -37.949637638512705
+                    143.53565543422465,
+                    -37.453982086424986
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Noble Park North",
+                "sourceTitle": "Avondale Heights",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-10T05:58:35+11:00",
-                "updated": "2020-12-10T05:58:54+11:00",
-                "id": "ESTA:201207972",
-                "location": "Browns Rd, Noble Park North",
+                "created": "2020-12-10T06:22:25+11:00",
+                "updated": "2020-12-10T06:22:25+11:00",
+                "id": "ESTA:201207978",
+                "location": "Avondale Heights, Avondale Heights",
+                "size": "Small",
                 "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1871574758163,
-                    -37.949642199151974
+                    144.85987843842838,
+                    -37.756475402946684
                 ]
             }
         },
@@ -10838,50 +10861,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Perricoota Rd, Thule",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-12-10T05:47:00+11:00",
-                "updated": "2020-12-10T05:47:00+11:00",
-                "id": "2020-12-10T05:47:00.0000000:402181",
-                "location": "6857 Perricoota Rd, Thule, Nsw 2732",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.418671,
-                    -35.6742209999999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tulla Rd, Wakool",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-12-09T12:40:00+11:00",
-                "updated": "2020-12-09T12:40:00+11:00",
-                "id": "2020-12-09T12:40:00.0000000:402097",
-                "location": "484 Tulla Rd, Wakool, Nsw 2710",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.241833,
-                    -35.451995
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -10948,6 +10927,28 @@
                             -35.725123458
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tulla Rd, Wakool",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-12-09T12:40:00+11:00",
+                "updated": "2020-12-09T12:40:00+11:00",
+                "id": "2020-12-09T12:40:00.0000000:402097",
+                "location": "484 Tulla Rd, Wakool, Nsw 2710",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.241833,
+                    -35.451995
                 ]
             }
         },
@@ -20027,29 +20028,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-12-10T04:52:00+11:00",
-                "updated": "2020-12-10T05:22:00+11:00",
-                "id": "ESTA:201207962",
-                "location": "Mount Cottrell",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.60440645694464,
-                    -37.79650978402008
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Darwin Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -20090,29 +20068,6 @@
                 "coordinates": [
                     142.36921867561512,
                     -36.52483730354991
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Maroondah Hwy",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-12-10T05:52:03+11:00",
-                "updated": "2020-12-10T05:52:03+11:00",
-                "id": "ESTA:201207968",
-                "location": "Maroondah Hwy, Croydon North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.29281433186597,
-                    -37.77316607990148
                 ]
             }
         },

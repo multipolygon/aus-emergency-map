@@ -10168,9 +10168,9 @@
                 "sourceTitle": "Sheppard St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-12-09T20:47:07+11:00",
-                "updated": "2020-12-09T20:47:07+11:00",
+                "status": "safe",
+                "created": "2020-12-09T20:57:38+11:00",
+                "updated": "2020-12-09T20:57:38+11:00",
                 "id": "ESTA:201207877",
                 "location": "Sheppard St, Thornbury",
                 "size": "Small",
@@ -10188,23 +10188,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Studley St",
-                "category": "fire",
-                "subcategory": "non structure fire",
+                "sourceTitle": "Kars St",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-09T20:51:00+11:00",
-                "updated": "2020-12-09T20:51:00+11:00",
-                "id": "ESTA:201207885",
-                "location": "Studley St, Abbotsford",
+                "created": "2020-12-09T20:54:00+11:00",
+                "updated": "2020-12-09T20:54:00+11:00",
+                "id": "ESTA:201207888",
+                "location": "Kars St, Maryborough",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99369778502844,
-                    -37.80116647874276
+                    143.73077869275724,
+                    -37.04754603861119
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Frankston",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-12-09T20:33:34+11:00",
+                "updated": "2020-12-09T20:59:12+11:00",
+                "id": "ESTA:201251222",
+                "location": "Finlay St, Frankston",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1324791472801,
+                    -38.138813691382545
                 ]
             }
         },
@@ -19376,6 +19398,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Mokepilly Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-11-26T13:58:00+11:00",
+                "updated": "2020-12-09T10:30:00+11:00",
+                "id": "ESTA:201128751",
+                "location": "Mokepilly Rd, Jung",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.36921867561512,
+                    -36.52483730354991
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-12-09T18:06:00+11:00",
+                "updated": "2020-12-09T20:51:00+11:00",
+                "id": "ESTA:201207771",
+                "location": "Muckatah",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.6316212980051,
+                    -35.98932413852584
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Pollen Pl",
                 "category": "other",
                 "subcategory": "other",
@@ -19445,129 +19513,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-12-09T16:42:00+11:00",
-                "updated": "2020-12-09T20:03:00+11:00",
-                "id": "ESTA:201207676",
-                "location": "Fraser Rise",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.69427819593045,
-                    -37.70551315325695
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sugarloaf Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2020-12-09T18:46:00+11:00",
-                "updated": "2020-12-09T20:02:00+11:00",
-                "id": "ESTA:201207798",
-                "location": "Sugarloaf Rd, Eildon",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.9085303855318,
-                    -37.21041771371574
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Burton Av",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-12-09T19:54:00+11:00",
-                "updated": "2020-12-09T19:59:00+11:00",
-                "id": "ESTA:201207856",
-                "location": "Burton Av, Kyneton",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.4202352282232,
-                    -37.237605933941815
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mokepilly Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-11-26T13:58:00+11:00",
-                "updated": "2020-12-09T10:30:00+11:00",
-                "id": "ESTA:201128751",
-                "location": "Mokepilly Rd, Jung",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.36921867561512,
-                    -36.52483730354991
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Coral St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-12-09T20:51:31+11:00",
-                "updated": "2020-12-09T20:51:31+11:00",
-                "id": "ESTA:201207867",
-                "location": "Coral St, Heidelberg West",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04606683813134,
-                    -37.742375253327104
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Franklin St",
+                "sourceTitle": "Bulleen Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-09T20:45:00+11:00",
-                "updated": "2020-12-09T20:45:00+11:00",
-                "id": "ESTA:201207875",
-                "location": "Franklin St, Melbourne",
+                "status": "responding",
+                "created": "2020-12-09T20:58:40+11:00",
+                "updated": "2020-12-09T20:58:40+11:00",
+                "id": "ESTA:201207889",
+                "location": "Bulleen Rd, Bulleen",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -19575,8 +19528,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.95712878910678,
-                    -37.80961043658008
+                    145.07473897145675,
+                    -37.776293399070624
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-09T20:37:00+11:00",
+                "updated": "2020-12-09T20:59:00+11:00",
+                "id": "ESTA:201251223",
+                "location": "Frankston",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.13246436814833,
+                    -38.13882801032
                 ]
             }
         },
@@ -19599,50 +19574,6 @@
                 "coordinates": [
                     145.13181938618953,
                     -37.219630565442614
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-09T20:37:00+11:00",
-                "updated": "2020-12-09T20:39:00+11:00",
-                "id": "ESTA:201251223",
-                "location": "Frankston",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13246436814833,
-                    -38.13882801032
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-09T20:36:00+11:00",
-                "updated": "2020-12-09T20:37:00+11:00",
-                "id": "ESTA:201251222",
-                "location": "Frankston",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13246436814833,
-                    -38.13882801032
                 ]
             }
         },

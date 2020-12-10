@@ -10183,35 +10183,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-10T22:15:00+11:00",
-                "updated": "2020-12-10T22:29:00+11:00",
-                "id": "ESTA:201208872",
-                "location": "Bannockburn",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.17091125250536,
-                    -38.046496768136954
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Goulburn St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-12-10T22:44:26+11:00",
-                "updated": "2020-12-10T22:44:26+11:00",
+                "status": "safe",
+                "created": "2020-12-10T23:03:48+11:00",
+                "updated": "2020-12-10T23:03:48+11:00",
                 "id": "ESTA:201208874",
                 "location": "Goulburn St, Mernda",
                 "size": "Small",
@@ -10229,14 +10206,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hampden St",
+                "sourceTitle": "Midland Hwy",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-12-10T22:42:18+11:00",
-                "updated": "2020-12-10T22:42:18+11:00",
-                "id": "ESTA:201208875",
-                "location": "Hampden St, Dallas",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-12-10T18:11:00+11:00",
+                "updated": "2020-12-10T22:59:00+11:00",
+                "id": "ESTA:201208707",
+                "location": "Midland Hwy, Springmount",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10244,22 +10221,45 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94537296085417,
-                    -37.67068465640316
+                    143.91621531101208,
+                    -37.413199276294414
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-12-10T22:48:00+11:00",
+                "updated": "2020-12-10T23:02:00+11:00",
+                "id": "ESTA:201208879",
+                "location": "Hamilton",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.068105214193,
+                    -37.74180205625246
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thompsons Rd",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-10T22:45:00+11:00",
-                "updated": "2020-12-10T22:45:00+11:00",
-                "id": "ESTA:201208878",
-                "location": "Princes Hwy, Bairnsdale",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-12-10T23:04:04+11:00",
+                "updated": "2020-12-10T23:04:04+11:00",
+                "id": "ESTA:201208882",
+                "location": "Thompsons Rd, Cranbourne North",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10267,8 +10267,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.60145403149096,
-                    -37.835553605417246
+                    145.28258803877327,
+                    -38.08305861170097
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cranbourne",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-12-10T23:00:40+11:00",
+                "updated": "2020-12-10T23:04:26+11:00",
+                "id": "ESTA:201208889",
+                "location": "Springhill Dr, Cranbourne",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.28318646546853,
+                    -38.084150906956076
                 ]
             }
         },
@@ -10335,28 +10357,6 @@
                             -35.7102127539999
                         ]
                     }
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Alpine St, Thurgoona",
-                "category": "fire",
-                "subcategory": "other non-urgent alerts",
-                "status": "out of control",
-                "created": "2020-12-10T20:48:00+11:00",
-                "updated": "2020-12-10T20:48:00+11:00",
-                "id": "2020-12-10T20:48:00.0000000:402254",
-                "location": "79 Alpine St, Thurgoona, Nsw 2640",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.017895,
-                    -36.052087
                 ]
             }
         },
@@ -19628,6 +19628,29 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
+                "created": "2020-12-10T22:15:00+11:00",
+                "updated": "2020-12-10T22:29:00+11:00",
+                "id": "ESTA:201208872",
+                "location": "Bannockburn",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.17091125250536,
+                    -38.046496768136954
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2020-12-10T21:55:00+11:00",
                 "updated": "2020-12-10T22:07:00+11:00",
                 "id": "ESTA:201208866",
@@ -19670,29 +19693,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Midland Hwy",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-12-10T18:11:00+11:00",
-                "updated": "2020-12-10T19:12:00+11:00",
-                "id": "ESTA:201208707",
-                "location": "Midland Hwy, Springmount",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.91621531101208,
-                    -37.413199276294414
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Darwin Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -19710,29 +19710,6 @@
                 "coordinates": [
                     142.75369663317096,
                     -34.621542298403696
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pascoe Vale South",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-10T21:24:55+11:00",
-                "updated": "2020-12-10T21:24:55+11:00",
-                "id": "ESTA:201208830",
-                "location": "Pascoe Vale South, Pascoe Vale South",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94676431236283,
-                    -37.73932679862183
                 ]
             }
         },

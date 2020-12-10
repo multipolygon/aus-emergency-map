@@ -10183,29 +10183,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-10T22:15:00+11:00",
-                "updated": "2020-12-10T22:15:00+11:00",
-                "id": "ESTA:201208872",
-                "location": "Bannockburn",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.17091125250536,
-                    -38.046496768136954
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
@@ -10228,44 +10205,90 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Swamp Rd",
+                "sourceTitle": "Berwick",
                 "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-12-10T18:02:00+11:00",
-                "updated": "2020-12-10T18:02:00+11:00",
-                "id": "2020-12-10T18:02:00.0000000:402202",
-                "location": "Swamp Rd Coolangubra Sf",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2020-12-10T11:21:55+11:00",
+                "updated": "2020-12-10T22:29:01+11:00",
+                "id": "ESTA:201208288",
+                "location": "Canning Dr, Berwick",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.330978394,
-                    -36.992133098
+                    145.35307759776475,
+                    -38.04290329459387
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tulla Rd, Wakool",
+                "sourceTitle": "Untitled",
                 "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-12-10T15:55:00+11:00",
-                "updated": "2020-12-10T15:55:00+11:00",
-                "id": "2020-12-10T15:55:00.0000000:402097",
-                "location": "484 Tulla Rd, Wakool, Nsw 2710",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-10T22:15:00+11:00",
+                "updated": "2020-12-10T22:29:00+11:00",
+                "id": "ESTA:201208872",
+                "location": "Bannockburn",
+                "size": "Small",
                 "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.241833,
-                    -35.451995
+                    144.17091125250536,
+                    -38.046496768136954
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Goulburn St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-12-10T22:29:26+11:00",
+                "updated": "2020-12-10T22:29:26+11:00",
+                "id": "ESTA:201208874",
+                "location": "Goulburn St, Mernda",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.09889234999142,
+                    -37.60931170843408
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dallas",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-12-10T22:30:41+11:00",
+                "updated": "2020-12-10T22:31:14+11:00",
+                "id": "ESTA:201208875",
+                "location": "Hampden St, Dallas",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94537628640006,
+                    -37.67068319070209
                 ]
             }
         },
@@ -10376,6 +10399,50 @@
                 "coordinates": [
                     149.450221999,
                     -36.8405020009999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Swamp Rd",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-12-10T18:02:00+11:00",
+                "updated": "2020-12-10T18:02:00+11:00",
+                "id": "2020-12-10T18:02:00.0000000:402202",
+                "location": "Swamp Rd Coolangubra Sf",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.330978394,
+                    -36.992133098
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tulla Rd, Wakool",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-12-10T15:55:00+11:00",
+                "updated": "2020-12-10T15:55:00+11:00",
+                "id": "2020-12-10T15:55:00.0000000:402097",
+                "location": "484 Tulla Rd, Wakool, Nsw 2710",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.241833,
+                    -35.451995
                 ]
             }
         },

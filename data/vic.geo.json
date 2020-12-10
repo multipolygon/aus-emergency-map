@@ -10115,6 +10115,28 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Parsons Road, Kongal",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "going",
+                "created": "2020-12-10T22:05:00+11:00",
+                "updated": "2020-12-10T22:05:00+11:00",
+                "id": "1396081",
+                "location": "Parsons Road, Kongal",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.458573289126,
+                    -36.348911391907
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "East Warburton - Crooked Creek Pipeline",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -10162,45 +10184,88 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-10T21:55:00+11:00",
-                "updated": "2020-12-10T21:55:00+11:00",
-                "id": "ESTA:201208866",
-                "location": "Berwick",
+                "created": "2020-12-10T22:15:00+11:00",
+                "updated": "2020-12-10T22:15:00+11:00",
+                "id": "ESTA:201208872",
+                "location": "Bannockburn",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.34122128204828,
-                    -38.045121115630224
+                    144.17091125250536,
+                    -38.046496768136954
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2020-12-10T20:53:00+11:00",
+                "updated": "2020-12-10T22:24:00+11:00",
+                "id": "ESTA:201208853",
+                "location": "Jeparit",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.87221707123686,
+                    -36.11549642972965
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Swamp Rd",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-10T22:02:00+11:00",
-                "updated": "2020-12-10T22:02:00+11:00",
-                "id": "ESTA:201208868",
-                "location": "Tyabb",
-                "size": "Small",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2020-12-10T18:02:00+11:00",
+                "updated": "2020-12-10T18:02:00+11:00",
+                "id": "2020-12-10T18:02:00.0000000:402202",
+                "location": "Swamp Rd Coolangubra Sf",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.16694107915166,
-                    -38.284663359053916
+                    149.330978394,
+                    -36.992133098
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tulla Rd, Wakool",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-12-10T15:55:00+11:00",
+                "updated": "2020-12-10T15:55:00+11:00",
+                "id": "2020-12-10T15:55:00.0000000:402097",
+                "location": "484 Tulla Rd, Wakool, Nsw 2710",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.241833,
+                    -35.451995
                 ]
             }
         },
@@ -10311,50 +10376,6 @@
                 "coordinates": [
                     149.450221999,
                     -36.8405020009999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Swamp Rd",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2020-12-10T18:02:00+11:00",
-                "updated": "2020-12-10T18:02:00+11:00",
-                "id": "2020-12-10T18:02:00.0000000:402202",
-                "location": "Swamp Rd Coolangubra Sf",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.330978394,
-                    -36.992133098
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tulla Rd, Wakool",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-12-10T15:55:00+11:00",
-                "updated": "2020-12-10T15:55:00+11:00",
-                "id": "2020-12-10T15:55:00.0000000:402097",
-                "location": "484 Tulla Rd, Wakool, Nsw 2710",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.241833,
-                    -35.451995
                 ]
             }
         },
@@ -19556,6 +19577,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-10T21:55:00+11:00",
+                "updated": "2020-12-10T22:07:00+11:00",
+                "id": "ESTA:201208866",
+                "location": "Berwick",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34122128204828,
+                    -38.045121115630224
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Chindwin Pl",
                 "category": "fire",
                 "subcategory": "other",
@@ -19602,75 +19646,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mays Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-10T21:22:00+11:00",
-                "updated": "2020-12-10T21:25:00+11:00",
-                "id": "ESTA:201208860",
-                "location": "Mays Rd, Tyers",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.49456281284301,
-                    -38.14938977246127
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Facey Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-12-10T20:51:00+11:00",
-                "updated": "2020-12-10T21:14:00+11:00",
-                "id": "ESTA:201208852",
-                "location": "Facey Rd, Devon Meadows",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.31269519239393,
-                    -38.15282968427695
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2020-12-10T20:53:00+11:00",
-                "updated": "2020-12-10T21:29:00+11:00",
-                "id": "ESTA:201208853",
-                "location": "Jeparit",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.87221707123686,
-                    -36.11549642972965
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Midland Hwy",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -19711,29 +19686,6 @@
                 "coordinates": [
                     142.75369663317096,
                     -34.621542298403696
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Grosvenor St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-12-10T22:00:45+11:00",
-                "updated": "2020-12-10T22:00:45+11:00",
-                "id": "ESTA:201208865",
-                "location": "Grosvenor St, Brighton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98914011815546,
-                    -37.909185658679334
                 ]
             }
         },

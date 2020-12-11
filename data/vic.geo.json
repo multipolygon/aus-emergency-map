@@ -10247,6 +10247,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Goulburn 98 - Mooroopna. Causeway  - Powerlines 3",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "not yet under control",
+                "created": "2020-12-11T19:50:00+11:00",
+                "updated": "2020-12-11T20:10:00+11:00",
+                "id": 979395,
+                "location": "2.5 Kms West Mooroopna Township",
+                "size": "2.00",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3799,
+                    -36.3889
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "East Warburton - Crooked Creek Pipeline",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -10296,9 +10319,9 @@
                 "sourceTitle": "Tyson Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-12-11T19:18:00+11:00",
-                "updated": "2020-12-11T19:36:00+11:00",
+                "updated": "2020-12-11T20:19:00+11:00",
                 "id": "ESTA:201210218",
                 "location": "Tyson Rd, Heyfield",
                 "size": "Small",
@@ -10316,35 +10339,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sandhurst",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-12-11T20:02:13+11:00",
-                "updated": "2020-12-11T20:02:13+11:00",
-                "id": "ESTA:201210244",
-                "location": "Sandhurst, Sandhurst",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.20872315327452,
-                    -38.08075882838495
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Lisburn Way",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-11T19:57:49+11:00",
-                "updated": "2020-12-11T19:57:49+11:00",
+                "status": "safe",
+                "created": "2020-12-11T20:22:41+11:00",
+                "updated": "2020-12-11T20:22:41+11:00",
                 "id": "ESTA:201210239",
                 "location": "Lisburn Way, Berwick",
                 "size": "Small",
@@ -10362,14 +10362,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mornington",
+                "sourceTitle": "Forsyth Av",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-11T20:01:41+11:00",
-                "updated": "2020-12-11T20:01:41+11:00",
-                "id": "ESTA:201210257",
-                "location": "Mornington, Mornington",
+                "created": "2020-12-11T20:28:00+11:00",
+                "updated": "2020-12-11T20:28:00+11:00",
+                "id": "ESTA:201210280",
+                "location": "Forsyth Av, Horsham",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10377,31 +10377,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.04597846672183,
-                    -38.23132933730332
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Oram Ct",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-12-11T20:02:45+11:00",
-                "updated": "2020-12-11T20:02:45+11:00",
-                "id": "ESTA:201210260",
-                "location": "Oram Ct, Mildura",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.14056979951528,
-                    -34.1939381202319
+                    142.21131368769437,
+                    -36.70299415609814
                 ]
             }
         },
@@ -19735,6 +19712,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Mornington",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-11T20:19:18+11:00",
+                "updated": "2020-12-11T20:19:18+11:00",
+                "id": "ESTA:201210257",
+                "location": "Mornington, Mornington",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04597846672183,
+                    -38.23132933730332
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Oram Ct",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-11T20:02:00+11:00",
+                "updated": "2020-12-11T20:12:00+11:00",
+                "id": "ESTA:201210260",
+                "location": "Oram Ct, Mildura",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.1405616687309,
+                    -34.19394095422991
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-12-11T19:43:00+11:00",
+                "updated": "2020-12-11T19:57:00+11:00",
+                "id": "ESTA:201210244",
+                "location": "Sandhurst",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20872166573227,
+                    -38.080764285104074
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Midland Hwy",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -19752,29 +19798,6 @@
                 "coordinates": [
                     145.3797779856733,
                     -36.38879180275995
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beach Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-12-11T19:36:00+11:00",
-                "updated": "2020-12-11T19:36:00+11:00",
-                "id": "ESTA:201210236",
-                "location": "Beach Rd, Avalon",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.48088131622495,
-                    -38.018059661156144
                 ]
             }
         },
@@ -19831,8 +19854,8 @@
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-12-11T19:05:17+11:00",
-                "updated": "2020-12-11T19:05:17+11:00",
+                "created": "2020-12-11T20:14:48+11:00",
+                "updated": "2020-12-11T20:14:48+11:00",
                 "id": "ESTA:201209875",
                 "location": "Jamieson St, Gong Gong",
                 "size": "Small",
@@ -19888,28 +19911,6 @@
                 "coordinates": [
                     145.31587662585656,
                     -37.89270131971977
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2020-12-11T19:41:00+11:00",
-                "updated": "2020-12-11T19:52:00+11:00",
-                "id": "ESTA:201251338",
-                "location": "Berwick",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.32622343974117,
-                    -38.04416950629184
                 ]
             }
         },

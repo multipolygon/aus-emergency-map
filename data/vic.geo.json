@@ -10308,35 +10308,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Miller St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-12-13T02:42:17+11:00",
-                "updated": "2020-12-13T02:42:17+11:00",
-                "id": "ESTA:201212374",
-                "location": "Miller St, Heidelberg Heights",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0497483073244,
-                    -37.750275808949695
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Lansdowne St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-12-13T02:43:21+11:00",
-                "updated": "2020-12-13T02:43:21+11:00",
+                "status": "under control",
+                "created": "2020-12-13T02:53:30+11:00",
+                "updated": "2020-12-13T02:53:30+11:00",
                 "id": "ESTA:201212373",
                 "location": "Lansdowne St, East Melbourne",
                 "size": "Small",
@@ -10346,8 +10323,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.97813860656439,
-                    -37.809318771635
+                    144.9781727153244,
+                    -37.809183626925176
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dane Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-12-13T03:03:38+11:00",
+                "updated": "2020-12-13T03:03:38+11:00",
+                "id": "ESTA:201212377",
+                "location": "Dane Rd, Hampton East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0307159072746,
+                    -37.94006716702443
                 ]
             }
         },
@@ -21009,9 +21009,9 @@
                 "sourceTitle": "Foley St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "under control",
                 "created": "2020-12-13T02:32:00+11:00",
-                "updated": "2020-12-13T02:32:00+11:00",
+                "updated": "2020-12-13T02:57:00+11:00",
                 "id": "ESTA:201212372",
                 "location": "Foley St, Terang",
                 "size": "Small",
@@ -21046,6 +21046,51 @@
                 "coordinates": [
                     143.58140965602263,
                     -38.27911827100151
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Patho Ct",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2020-12-13T02:56:37+11:00",
+                "updated": "2020-12-13T02:56:37+11:00",
+                "id": "ESTA:201212375",
+                "location": "Patho Ct, Westmeadows",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90170962945422,
+                    -37.669115975822606
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-12-13T02:47:00+11:00",
+                "updated": "2020-12-13T02:51:00+11:00",
+                "id": "ESTA:201251429",
+                "location": "Ivanhoe",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03516672635422,
+                    -37.76530155397156
                 ]
             }
         },

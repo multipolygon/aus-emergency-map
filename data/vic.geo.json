@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.11251109863792,
+                            -36.842420376972434
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.11040824677107,
+                                    -36.835482776364756
+                                ],
+                                [
+                                    145.10749000336435,
+                                    -36.84825906673186
+                                ],
+                                [
+                                    145.11753219391147,
+                                    -36.84949536864584
+                                ],
+                                [
+                                    145.11263984467243,
+                                    -36.83534538529903
+                                ],
+                                [
+                                    145.11040824677107,
+                                    -36.835482776364756
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2020-12-13T19:09:03+11:00",
+                "updated": "2020-12-13T19:09:01+11:00",
+                "id": "15311",
+                "location": "Tabilk",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             145.30167722335582,
                             -36.95043283462084
                         ]
@@ -263,60 +317,6 @@
                 "id": "14562",
                 "location": "Minimay",
                 "title": "warning: community update"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            145.11251109863792,
-                            -36.842420376972434
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    145.11040824677107,
-                                    -36.835482776364756
-                                ],
-                                [
-                                    145.10749000336435,
-                                    -36.84825906673186
-                                ],
-                                [
-                                    145.11753219391147,
-                                    -36.84949536864584
-                                ],
-                                [
-                                    145.11263984467243,
-                                    -36.83534538529903
-                                ],
-                                [
-                                    145.11040824677107,
-                                    -36.835482776364756
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Advice",
-                "category": "advice",
-                "subcategory": "fire",
-                "status": "minor",
-                "created": "2020-12-13T16:21:59+11:00",
-                "updated": "2020-12-13T16:22:00+11:00",
-                "id": "15307",
-                "location": "Tabilk",
-                "title": "warning: advice"
             }
         },
         {
@@ -10242,9 +10242,9 @@
                 "sourceTitle": "Midlands 60 - Langi Ghiran - Red Gum Track",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "contained",
+                "status": "safe",
                 "created": "2020-12-13T15:50:00+11:00",
-                "updated": "2020-12-13T16:53:00+11:00",
+                "updated": "2020-12-13T19:15:00+11:00",
                 "id": 979477,
                 "location": "14Km E Of Ararat",
                 "size": "0.10",
@@ -10254,8 +10254,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.0799,
-                    -37.3182
+                    143.079921,
+                    -37.318193
                 ]
             }
         },
@@ -10279,98 +10279,6 @@
                 "coordinates": [
                     147.0977336,
                     -36.059252
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Longwood - Puddy Lane",
-                "category": "fire",
-                "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2020-12-12T08:50:47+11:00",
-                "updated": "2020-12-12T08:50:47+11:00",
-                "id": 3000936,
-                "location": ".1Km S Of Longwood",
-                "size": "0.86",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.416196,
-                    -36.805025
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Longwood - Maxfield St Private Property 2",
-                "category": "fire",
-                "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2020-12-12T08:50:07+11:00",
-                "updated": "2020-12-12T08:50:07+11:00",
-                "id": 3006950,
-                "location": ".01Km N Of Longwood",
-                "size": "3.41",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4232625,
-                    -36.7996698
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Longwood - Hill St Drain ",
-                "category": "fire",
-                "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2020-12-12T08:49:51+11:00",
-                "updated": "2020-12-12T08:49:51+11:00",
-                "id": 3006957,
-                "location": "0Km Ne Of Longwood",
-                "size": "1.28",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4260797,
-                    -36.8014493
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Longwood - Anglican Church Grounds",
-                "category": "fire",
-                "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2020-12-12T08:51:46+11:00",
-                "updated": "2020-12-12T08:51:46+11:00",
-                "id": 3006959,
-                "location": "0Km S Of Longwood",
-                "size": "0.29",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4234268,
-                    -36.8048507
                 ]
             }
         },
@@ -10423,105 +10331,58 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Warrak",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-12-13T15:47:47+11:00",
-                "updated": "2020-12-13T18:49:09+11:00",
-                "id": "ESTA:201213306",
-                "location": "Red Gum Trk, Warrak",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.08111579627712,
-                    -37.31765725037885
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Fwy",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-12-13T18:50:48+11:00",
-                "updated": "2020-12-13T18:50:48+11:00",
-                "id": "ESTA:201213379",
-                "location": "Princes Fwy, Tynong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.61393358544643,
-                    -38.06834772534992
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "request for assistance",
-                "created": "2020-12-13T18:21:00+11:00",
-                "updated": "2020-12-13T18:51:00+11:00",
-                "id": "ESTA:201213509",
-                "location": "Laanecoorie",
-                "size": "Small",
-                "title": "incident: rescue"
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-12-13T18:40:00+11:00",
+                "updated": "2020-12-13T19:19:00+11:00",
+                "id": "ESTA:201251475",
+                "location": "Chiltern Valley",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.93580252691103,
-                    -36.8092012177228
+                    146.57557167656762,
+                    -36.158769731443996
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Cashmore",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-12-13T18:44:00+11:00",
-                "updated": "2020-12-13T18:52:00+11:00",
-                "id": "ESTA:201213553",
-                "location": "Alexandra",
-                "size": "Small",
+                "created": "2020-12-13T14:18:39+11:00",
+                "updated": "2020-12-13T19:21:39+11:00",
+                "id": "ESTA:201213174",
+                "location": "Cashmore",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.70967413855692,
-                    -37.1916260773357
+                    141.50510984848754,
+                    -38.29924976656278
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bonds Rd",
+                "sourceTitle": "Lower Plenty",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-12-13T18:57:12+11:00",
-                "updated": "2020-12-13T18:57:12+11:00",
+                "status": "safe",
+                "created": "2020-12-13T19:26:10+11:00",
+                "updated": "2020-12-13T19:26:10+11:00",
                 "id": "ESTA:201213573",
-                "location": "Bonds Rd, Lower Plenty",
+                "location": "Lower Plenty, Lower Plenty",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10529,76 +10390,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1154096589881,
-                    -37.7526002881784
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-12-13T18:50:00+11:00",
-                "updated": "2020-12-13T18:58:00+11:00",
-                "id": "ESTA:201213560",
-                "location": "Merton",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.70100845358732,
-                    -36.984749045670796
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Adams St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-13T18:37:00+11:00",
-                "updated": "2020-12-13T18:58:00+11:00",
-                "id": "ESTA:201213539",
-                "location": "Adams St, Cobden",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.07448538928335,
-                    -38.327318748359396
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tabilk",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-12-13T15:38:55+11:00",
-                "updated": "2020-12-13T19:01:15+11:00",
-                "id": "ESTA:201213291",
-                "location": "Oneils Rd, Tabilk",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1114496359276,
-                    -36.83628971155968
+                    145.11359882112993,
+                    -37.74827708155189
                 ]
             }
         },
@@ -10608,9 +10401,9 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-12-13T19:02:00+11:00",
-                "updated": "2020-12-13T19:02:00+11:00",
+                "updated": "2020-12-13T19:32:00+11:00",
                 "id": "ESTA:201213580",
                 "location": "Elliminyt",
                 "size": "Small",
@@ -10620,31 +10413,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.5984951793447,
-                    -38.3834146685227
+                    143.60565113589237,
+                    -38.38058871820175
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Selkirk Way",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-12-13T18:47:00+11:00",
-                "updated": "2020-12-13T18:47:00+11:00",
-                "id": "ESTA:201213555",
-                "location": "Merton",
+                "created": "2020-12-13T19:32:59+11:00",
+                "updated": "2020-12-13T19:32:59+11:00",
+                "id": "ESTA:201213619",
+                "location": "Selkirk Way, Mickleham",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.70100845358732,
-                    -36.984749045670796
+                    144.901733903795,
+                    -37.53693688697986
                 ]
             }
         },
@@ -21039,14 +20832,83 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Springvale",
+                "sourceTitle": "Kerta Cl",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-12-13T19:26:25+11:00",
+                "updated": "2020-12-13T19:26:25+11:00",
+                "id": "ESTA:201213593",
+                "location": "Kerta Cl, Hoppers Crossing",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.70019781278873,
+                    -37.86359190287969
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Beach Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-12-13T16:24:00+11:00",
+                "updated": "2020-12-13T19:17:00+11:00",
+                "id": "ESTA:201213360",
+                "location": "Beach Rd, Werribee South",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.69270873590673,
+                    -37.97470467565312
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-12-13T18:47:00+11:00",
+                "updated": "2020-12-13T19:04:00+11:00",
+                "id": "ESTA:201213555",
+                "location": "Merton",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.70100845358732,
+                    -36.984749045670796
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lightwood Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-13T19:01:18+11:00",
-                "updated": "2020-12-13T19:01:18+11:00",
+                "status": "safe",
+                "created": "2020-12-13T18:52:00+11:00",
+                "updated": "2020-12-13T19:03:00+11:00",
                 "id": "ESTA:201213566",
-                "location": "Springvale, Springvale",
+                "location": "Lightwood Rd, Springvale",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -21054,8 +20916,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.15161708351957,
-                    -37.9484985004216
+                    145.15161052767758,
+                    -37.94850658248704
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Adams St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-13T18:37:00+11:00",
+                "updated": "2020-12-13T18:58:00+11:00",
+                "id": "ESTA:201213539",
+                "location": "Adams St, Cobden",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.07448538928335,
+                    -38.327318748359396
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-12-13T18:50:00+11:00",
+                "updated": "2020-12-13T18:58:00+11:00",
+                "id": "ESTA:201213560",
+                "location": "Merton",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.70100845358732,
+                    -36.984749045670796
                 ]
             }
         },
@@ -21079,6 +20987,75 @@
                 "coordinates": [
                     144.14065708618543,
                     -37.51894340172043
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-13T18:44:00+11:00",
+                "updated": "2020-12-13T18:52:00+11:00",
+                "id": "ESTA:201213553",
+                "location": "Alexandra",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.70967413855692,
+                    -37.1916260773357
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
+                "status": "request for assistance",
+                "created": "2020-12-13T18:21:00+11:00",
+                "updated": "2020-12-13T18:51:00+11:00",
+                "id": "ESTA:201213509",
+                "location": "Laanecoorie",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.93580252691103,
+                    -36.8092012177228
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Fwy",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-12-13T19:24:50+11:00",
+                "updated": "2020-12-13T19:24:50+11:00",
+                "id": "ESTA:201213379",
+                "location": "Princes Fwy, Tynong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.61393358544643,
+                    -38.06834772534992
                 ]
             }
         },
@@ -21131,229 +21108,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-12-13T18:15:00+11:00",
-                "updated": "2020-12-13T18:32:00+11:00",
-                "id": "ESTA:201213499",
-                "location": "Broadford",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05443694302699,
-                    -37.24127650832931
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-12-13T18:16:00+11:00",
-                "updated": "2020-12-13T18:32:00+11:00",
-                "id": "ESTA:201213501",
-                "location": "Kilmore East",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05495506521544,
-                    -37.28643829480604
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hume Fwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-12-13T18:14:00+11:00",
-                "updated": "2020-12-13T18:30:00+11:00",
-                "id": "ESTA:201213495",
-                "location": "Hume Fwy, Tallarook",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.08456536086692,
-                    -37.13934672521229
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cashmore",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-12-13T18:54:37+11:00",
-                "updated": "2020-12-13T18:54:37+11:00",
-                "id": "ESTA:201213174",
-                "location": "Cashmore, Cashmore",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.50510573159679,
-                    -38.29925443339127
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Morgan St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2020-12-13T18:17:00+11:00",
-                "updated": "2020-12-13T18:21:00+11:00",
-                "id": "ESTA:201213503",
-                "location": "Morgan St, Cowes",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.24089141171834,
-                    -38.45850721139759
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hillcrest Dr",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-12-13T16:17:00+11:00",
-                "updated": "2020-12-13T18:21:00+11:00",
-                "id": "ESTA:201213345",
-                "location": "Hillcrest Dr, Mcmahons Creek",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.83576697457428,
-                    -37.70387589963197
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Morgan St",
-                "category": "fire",
+                "sourceTitle": "Gordons Rd",
+                "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-12-13T17:53:00+11:00",
-                "updated": "2020-12-13T18:15:00+11:00",
-                "id": "ESTA:201213473",
-                "location": "Morgan St, Cowes",
+                "created": "2020-12-13T19:26:41+11:00",
+                "updated": "2020-12-13T19:26:41+11:00",
+                "id": "ESTA:201213594",
+                "location": "Gordons Rd, South Morang",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.24089141171834,
-                    -38.45850721139759
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beach Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-12-13T16:26:49+11:00",
-                "updated": "2020-12-13T16:26:49+11:00",
-                "id": "ESTA:201213360",
-                "location": "Beach Rd, Werribee South",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.69271062653368,
-                    -37.97469833998011
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Fitzroy St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-12-13T17:45:11+11:00",
-                "updated": "2020-12-13T17:45:11+11:00",
-                "id": "ESTA:201213442",
-                "location": "Fitzroy St, St Kilda",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97352059473087,
-                    -37.862377497730066
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-13T18:40:00+11:00",
-                "updated": "2020-12-13T18:53:00+11:00",
-                "id": "ESTA:201251475",
-                "location": "Chiltern Valley",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.57557167656762,
-                    -36.158769731443996
+                    145.07516850694117,
+                    -37.62610694399932
                 ]
             }
         },
@@ -21398,28 +21169,6 @@
                 "coordinates": [
                     147.47328435055041,
                     -36.78934869508273
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-13T08:33:00+11:00",
-                "updated": "2020-12-13T09:39:00+11:00",
-                "id": "ESTA:201251434",
-                "location": "Footscray",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.88323040402528,
-                    -37.796003609164444
                 ]
             }
         },

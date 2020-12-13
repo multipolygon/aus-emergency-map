@@ -10241,10 +10241,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Ryans Lane",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-12-14T03:03:52+11:00",
-                "updated": "2020-12-14T03:03:52+11:00",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-14T02:51:00+11:00",
+                "updated": "2020-12-14T03:17:00+11:00",
                 "id": "ESTA:201213769",
                 "location": "Ryans Lane, Toolern Vale",
                 "size": "Small",
@@ -10254,8 +10254,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.61990738689616,
-                    -37.646558115201906
+                    144.61989800518134,
+                    -37.64655959914067
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Romawi St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-12-14T03:43:08+11:00",
+                "updated": "2020-12-14T03:43:08+11:00",
+                "id": "ESTA:201213771",
+                "location": "Romawi St, Altona",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82441313874884,
+                    -37.86917161408238
                 ]
             }
         },
@@ -20644,6 +20667,29 @@
                             -36.4716
                         ]
                     ]
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wattle Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-12-14T03:43:54+11:00",
+                "updated": "2020-12-14T03:43:54+11:00",
+                "id": "ESTA:201213770",
+                "location": "Wattle Av, Glen Huntly",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0425781608973,
+                    -37.89413240082614
                 ]
             }
         },

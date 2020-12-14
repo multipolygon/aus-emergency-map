@@ -10134,14 +10134,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Drysdale",
+                "sourceTitle": "Portland Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-12-15T07:52:17+11:00",
-                "updated": "2020-12-15T07:52:17+11:00",
-                "id": "ESTA:201214365",
-                "location": "Drysdale, Drysdale",
+                "created": "2020-12-14T11:40:00+11:00",
+                "updated": "2020-12-15T08:16:00+11:00",
+                "id": "ESTA:201213954",
+                "location": "Portland Rd, Bessiebelle",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10149,8 +10149,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.56360382257523,
-                    -38.1721922580061
+                    141.92548611796963,
+                    -38.210710555075295
                 ]
             }
         },
@@ -10160,9 +10160,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-12-15T07:57:00+11:00",
-                "updated": "2020-12-15T07:58:00+11:00",
+                "updated": "2020-12-15T08:17:00+11:00",
                 "id": "ESTA:201251588",
                 "location": "Healesville",
                 "title": "incident: tree down"
@@ -10791,28 +10791,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Windomal Road - Balranald",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2020-12-14T16:34:00+11:00",
-                "updated": "2020-12-14T16:34:00+11:00",
-                "id": "2020-12-14T16:34:00.0000000:402541",
-                "location": "Windomal Road, Balranald",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.495178223,
-                    -34.6823463279999
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -10897,6 +10875,28 @@
                 "coordinates": [
                     144.458769,
                     -35.528318
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Windomal Road - Balranald",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2020-12-14T16:34:00+11:00",
+                "updated": "2020-12-14T16:34:00+11:00",
+                "id": "2020-12-14T16:34:00.0000000:402541",
+                "location": "Windomal Road, Balranald",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.495178223,
+                    -34.6823463279999
                 ]
             }
         },
@@ -16029,6 +16029,84 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-03T11:00:00+11:00",
+                "updated": "2020-11-03T11:00:00+11:00",
+                "id": "243a344cd88f07cfb4ad382c27cc3535",
+                "location": "Midlands 27 - Buninyong - Hogarths Road",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.9253,
+                            -37.6482
+                        ],
+                        [
+                            143.9278,
+                            -37.6488
+                        ],
+                        [
+                            143.9271,
+                            -37.651
+                        ],
+                        [
+                            143.9268,
+                            -37.6508
+                        ],
+                        [
+                            143.9265,
+                            -37.6505
+                        ],
+                        [
+                            143.9262,
+                            -37.6503
+                        ],
+                        [
+                            143.9258,
+                            -37.6502
+                        ],
+                        [
+                            143.9254,
+                            -37.6501
+                        ],
+                        [
+                            143.9252,
+                            -37.6501
+                        ],
+                        [
+                            143.9248,
+                            -37.6503
+                        ],
+                        [
+                            143.9242,
+                            -37.6507
+                        ],
+                        [
+                            143.9237,
+                            -37.6509
+                        ],
+                        [
+                            143.9238,
+                            -37.6483
+                        ],
+                        [
+                            143.9253,
+                            -37.6482
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Troups Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -16398,84 +16476,6 @@
                         [
                             145.1678,
                             -38.1283
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Midlands 27 - Buninyong - Hogarths Road",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-03T11:00:00+11:00",
-                "updated": "2020-11-03T11:00:00+11:00",
-                "id": "243a344cd88f07cfb4ad382c27cc3535",
-                "location": "Midlands 27 - Buninyong - Hogarths Road",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.9253,
-                            -37.6482
-                        ],
-                        [
-                            143.9278,
-                            -37.6488
-                        ],
-                        [
-                            143.9271,
-                            -37.651
-                        ],
-                        [
-                            143.9268,
-                            -37.6508
-                        ],
-                        [
-                            143.9265,
-                            -37.6505
-                        ],
-                        [
-                            143.9262,
-                            -37.6503
-                        ],
-                        [
-                            143.9258,
-                            -37.6502
-                        ],
-                        [
-                            143.9254,
-                            -37.6501
-                        ],
-                        [
-                            143.9252,
-                            -37.6501
-                        ],
-                        [
-                            143.9248,
-                            -37.6503
-                        ],
-                        [
-                            143.9242,
-                            -37.6507
-                        ],
-                        [
-                            143.9237,
-                            -37.6509
-                        ],
-                        [
-                            143.9238,
-                            -37.6483
-                        ],
-                        [
-                            143.9253,
-                            -37.6482
                         ]
                     ]
                 ]
@@ -22690,37 +22690,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-12-15T06:16:00+11:00",
-                "updated": "2020-12-15T07:24:00+11:00",
-                "id": "ESTA:201214350",
-                "location": "Sunbury",
+                "sourceTitle": "Endeavour Hills",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-12-15T08:26:02+11:00",
+                "updated": "2020-12-15T08:26:02+11:00",
+                "id": "ESTA:201214372",
+                "location": "Endeavour Hills, Endeavour Hills",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7088572974567,
-                    -37.613212526515454
+                    145.23747941284282,
+                    -37.97247795945383
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hampden Grn",
+                "sourceTitle": "Troups Rd",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-12-15T06:53:00+11:00",
-                "updated": "2020-12-15T07:11:00+11:00",
-                "id": "ESTA:201214354",
-                "location": "Hampden Grn, South Morang",
+                "created": "2020-12-15T08:17:43+11:00",
+                "updated": "2020-12-15T08:17:43+11:00",
+                "id": "ESTA:201214152",
+                "location": "Troups Rd, Mount Cottrell",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -22728,8 +22728,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.09566613582822,
-                    -37.61664006516695
+                    144.6645657553629,
+                    -37.76718877143923
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Drysdale",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2020-12-15T08:08:30+11:00",
+                "updated": "2020-12-15T08:08:30+11:00",
+                "id": "ESTA:201214365",
+                "location": "Drysdale, Drysdale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.56360382257523,
+                    -38.1721922580061
                 ]
             }
         },
@@ -22753,98 +22776,6 @@
                 "coordinates": [
                     145.3562170994043,
                     -37.521302671332464
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Portland Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-12-14T11:40:00+11:00",
-                "updated": "2020-12-14T12:11:00+11:00",
-                "id": "ESTA:201213954",
-                "location": "Portland Rd, Bessiebelle",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.92548611796963,
-                    -38.210710555075295
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Troups Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-12-14T17:03:00+11:00",
-                "updated": "2020-12-15T07:54:00+11:00",
-                "id": "ESTA:201214152",
-                "location": "Troups Rd, Mount Cottrell",
-                "size": "Large",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.66456300193232,
-                    -37.76719686098757
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Maddox Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2020-12-15T06:48:56+11:00",
-                "updated": "2020-12-15T06:48:56+11:00",
-                "id": "ESTA:201214235",
-                "location": "Maddox Rd, Newport",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.86835625243612,
-                    -37.847477968771365
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eastern Fwy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-15T07:36:00+11:00",
-                "updated": "2020-12-15T07:36:00+11:00",
-                "id": "ESTA:201214358",
-                "location": "Eastern Fwy, Blackburn North",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16755221960094,
-                    -37.80299583253467
                 ]
             }
         },
@@ -22891,6 +22822,52 @@
                 "coordinates": [
                     144.84653423147137,
                     -37.777948460229034
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maddox Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-12-15T08:21:22+11:00",
+                "updated": "2020-12-15T08:21:22+11:00",
+                "id": "ESTA:201214235",
+                "location": "Maddox Rd, Newport",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.86835625243612,
+                    -37.847477968771365
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Holt St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-15T08:25:46+11:00",
+                "updated": "2020-12-15T08:25:46+11:00",
+                "id": "ESTA:201214374",
+                "location": "Holt St, Ardeer",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.79988003683005,
+                    -37.7729060584526
                 ]
             }
         },

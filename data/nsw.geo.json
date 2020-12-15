@@ -224,171 +224,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            147.04802949100008,
-                            -35.05408534299994
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            147.048405361,
-                                            -35.053942895
-                                        ],
-                                        [
-                                            147.048360653,
-                                            -35.0540287869999
-                                        ],
-                                        [
-                                            147.048351732,
-                                            -35.054080314
-                                        ],
-                                        [
-                                            147.048366685,
-                                            -35.0541416469999
-                                        ],
-                                        [
-                                            147.048360743,
-                                            -35.054188266
-                                        ],
-                                        [
-                                            147.048298093,
-                                            -35.054203012
-                                        ],
-                                        [
-                                            147.04815786,
-                                            -35.054207972
-                                        ],
-                                        [
-                                            147.048062391,
-                                            -35.0542276369999
-                                        ],
-                                        [
-                                            147.047996756,
-                                            -35.0542399299999
-                                        ],
-                                        [
-                                            147.047931132,
-                                            -35.05427185
-                                        ],
-                                        [
-                                            147.047808788,
-                                            -35.054252268
-                                        ],
-                                        [
-                                            147.047740143,
-                                            -35.054220398
-                                        ],
-                                        [
-                                            147.04771324,
-                                            -35.054129626
-                                        ],
-                                        [
-                                            147.047713211,
-                                            -35.0540781019999
-                                        ],
-                                        [
-                                            147.047737044,
-                                            -35.0540093929999
-                                        ],
-                                        [
-                                            147.047751954,
-                                            -35.053994668
-                                        ],
-                                        [
-                                            147.047811622,
-                                            -35.0539848299999
-                                        ],
-                                        [
-                                            147.047850395,
-                                            -35.053957827
-                                        ],
-                                        [
-                                            147.047901113,
-                                            -35.0539479939999
-                                        ],
-                                        [
-                                            147.047966758,
-                                            -35.053952876
-                                        ],
-                                        [
-                                            147.04802941,
-                                            -35.053940584
-                                        ],
-                                        [
-                                            147.048092062,
-                                            -35.0539307459999
-                                        ],
-                                        [
-                                            147.048148761,
-                                            -35.0539454469999
-                                        ],
-                                        [
-                                            147.048190541,
-                                            -35.053957698
-                                        ],
-                                        [
-                                            147.048259155,
-                                            -35.053938043
-                                        ],
-                                        [
-                                            147.048294956,
-                                            -35.0539306699999
-                                        ],
-                                        [
-                                            147.048336727,
-                                            -35.053928201
-                                        ],
-                                        [
-                                            147.048354614,
-                                            -35.0539012039999
-                                        ],
-                                        [
-                                            147.048384439,
-                                            -35.053879111
-                                        ],
-                                        [
-                                            147.048417273,
-                                            -35.05390118
-                                        ],
-                                        [
-                                            147.048405361,
-                                            -35.053942895
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Brookdale",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/402295",
-                "created": "2020-12-14T23:03:00+11:00",
-                "updated": "2020-12-15T10:03:00+11:00",
-                "location": "Sturt Hwy (A20), Brookdale, NSW 2656",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Sturt Hwy (A20), Brookdale, NSW 2656 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 15 Dec 2020 10:03",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     149.3899464000001,
@@ -1368,6 +1203,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Nambucca Heads, NSW 2448 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Dec 2020 08:12",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.34945700000003,
+                    -32.85109399999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Racecourse Rd, Cessnock",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/402742",
+                "created": "2020-12-15T21:42:00+11:00",
+                "updated": "2020-12-16T08:42:00+11:00",
+                "location": "Racecourse Rd, Cessnock, NSW 2325",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Racecourse Rd, Cessnock, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Dec 2020 08:42",
+                "title": "incident: fire"
             }
         },
         {

@@ -10292,23 +10292,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "John St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-15T16:43:00+11:00",
-                "updated": "2020-12-15T16:45:00+11:00",
-                "id": "ESTA:201214610",
-                "location": "John St, Geelong West",
+                "sourceTitle": "Queen St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-12-15T17:23:10+11:00",
+                "updated": "2020-12-15T17:23:10+11:00",
+                "id": "ESTA:201214614",
+                "location": "Queen St, Melbourne",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3412040190105,
-                    -38.13614571370292
+                    144.96061220510262,
+                    -37.81548618279508
                 ]
             }
         },
@@ -10318,11 +10318,11 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "not yet under control",
-                "created": "2020-12-15T16:48:00+11:00",
-                "updated": "2020-12-15T16:48:00+11:00",
-                "id": "ESTA:201214613",
-                "location": "Darley",
+                "status": "responding",
+                "created": "2020-12-15T17:22:00+11:00",
+                "updated": "2020-12-15T17:22:00+11:00",
+                "id": "ESTA:201214629",
+                "location": "Carrum Downs",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -10330,22 +10330,44 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.43481322207037,
-                    -37.63355874625055
+                    145.16761239817023,
+                    -38.10530885644327
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Newcastle St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-15T17:24:00+11:00",
+                "updated": "2020-12-15T17:35:00+11:00",
+                "id": "ESTA:201251622",
+                "location": "Mildura",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.14249501525265,
+                    -34.17715853698382
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Avonmore Bridge Rd",
                 "category": "fire",
                 "subcategory": "fire",
                 "status": "responding",
-                "created": "2020-12-15T17:02:17+11:00",
-                "updated": "2020-12-15T17:02:17+11:00",
-                "id": "ESTA:201214618",
-                "location": "Newcastle St, Preston",
+                "created": "2020-12-15T17:29:31+11:00",
+                "updated": "2020-12-15T17:29:31+11:00",
+                "id": "ESTA:201214633",
+                "location": "Avonmore Bridge Rd, Runnymede",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10353,22 +10375,203 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.01112082040186,
-                    -37.75079919991997
+                    144.5912245797171,
+                    -36.56164818985277
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Oakleigh South",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2020-12-15T17:27:00+11:00",
+                "updated": "2020-12-15T17:27:00+11:00",
+                "id": "ESTA:201214634",
+                "location": "Runnymede",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.63695640973637,
+                    -36.5541950671271
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-15T17:29:00+11:00",
+                "updated": "2020-12-15T17:30:00+11:00",
+                "id": "ESTA:201251624",
+                "location": "Mildura",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.14249501525265,
+                    -34.17715853698382
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Donald St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-12-15T17:29:23+11:00",
+                "updated": "2020-12-15T17:29:23+11:00",
+                "id": "ESTA:201214628",
+                "location": "Donald St, Ashburton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06959191793078,
+                    -37.869712285744
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bairnsdale-Dargo Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-12-15T17:10:00+11:00",
+                "updated": "2020-12-15T17:31:00+11:00",
+                "id": "ESTA:201214624",
+                "location": "Bairnsdale-Dargo Rd, Hillside (Bairnsdale)",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.51917014805838,
+                    -37.826643595394174
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bairnsdale-Dargo Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2020-12-15T17:03:00+11:00",
+                "updated": "2020-12-15T17:21:00+11:00",
+                "id": "ESTA:201214622",
+                "location": "Bairnsdale-Dargo Rd, Hillside (Bairnsdale)",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.5604849277454,
+                    -37.83398914983927
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dunbabbin Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-12-15T17:26:43+11:00",
+                "updated": "2020-12-15T17:26:43+11:00",
+                "id": "ESTA:201214626",
+                "location": "Dunbabbin Rd, The Gurdies",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.5720577275333,
+                    -38.39717937210395
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mount Cottrell",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "unknown",
+                "created": "2020-12-14T17:01:31+11:00",
+                "updated": "2020-12-15T17:34:35+11:00",
+                "id": "ESTA:201214152",
+                "location": "Troups Rd, Mount Cottrell",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.66457299732105,
+                    -37.76718542754246
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-12-15T17:29:00+11:00",
+                "updated": "2020-12-15T17:35:00+11:00",
+                "id": "ESTA:201251625",
+                "location": "Ellaswood",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.5601904537804,
+                    -37.79803739630582
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hoffmans Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-15T17:02:53+11:00",
-                "updated": "2020-12-15T17:02:53+11:00",
-                "id": "ESTA:201214620",
-                "location": "Oakleigh South, Oakleigh South",
+                "created": "2020-12-15T17:30:33+11:00",
+                "updated": "2020-12-15T17:30:33+11:00",
+                "id": "ESTA:201214632",
+                "location": "Hoffmans Rd, Essendon",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -10376,99 +10579,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.09372009167802,
-                    -37.93287195215188
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Witken Av",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-12-15T17:02:52+11:00",
-                "updated": "2020-12-15T17:02:52+11:00",
-                "id": "ESTA:201214619",
-                "location": "Witken Av, Wantirna South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2430198716408,
-                    -37.88003708140918
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hillside (Bairnsdale)",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-12-15T17:00:46+11:00",
-                "updated": "2020-12-15T17:03:23+11:00",
-                "id": "ESTA:201214622",
-                "location": "Bairnsdale-Dargo Rd, Hillside (Bairnsdale)",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.56050444203325,
-                    -37.83397581570664
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Whalan Ct",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2020-12-15T17:02:00+11:00",
-                "updated": "2020-12-15T17:02:00+11:00",
-                "id": "ESTA:201214621",
-                "location": "Whalan Ct, Pyalong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.86417355331616,
-                    -37.13978786913028
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Melbourne",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-12-15T17:00:19+11:00",
-                "updated": "2020-12-15T17:00:19+11:00",
-                "id": "ESTA:201214614",
-                "location": "Melbourne, Melbourne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9606806174475,
-                    -37.81497263298782
+                    144.88998118397956,
+                    -37.75224494489815
                 ]
             }
         },
@@ -16178,6 +16290,88 @@
                         [
                             144.6535,
                             -37.7705
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Fire - Nurcong T Fullers Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-15T11:00:00+11:00",
+                "updated": "2020-12-15T11:00:00+11:00",
+                "id": "18b45a49ebbcce40a4f258dec8cf5845",
+                "location": "Fire - Nurcong T Fullers Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            141.6643,
+                            -36.6307
+                        ],
+                        [
+                            141.6641,
+                            -36.6328
+                        ],
+                        [
+                            141.6632,
+                            -36.6328
+                        ],
+                        [
+                            141.6628,
+                            -36.6329
+                        ],
+                        [
+                            141.6624,
+                            -36.633
+                        ],
+                        [
+                            141.6619,
+                            -36.6331
+                        ],
+                        [
+                            141.6612,
+                            -36.633
+                        ],
+                        [
+                            141.6606,
+                            -36.6323
+                        ],
+                        [
+                            141.6605,
+                            -36.6319
+                        ],
+                        [
+                            141.6606,
+                            -36.6309
+                        ],
+                        [
+                            141.6612,
+                            -36.6308
+                        ],
+                        [
+                            141.6614,
+                            -36.6305
+                        ],
+                        [
+                            141.6623,
+                            -36.6304
+                        ],
+                        [
+                            141.6631,
+                            -36.6304
+                        ],
+                        [
+                            141.6643,
+                            -36.6307
                         ]
                     ]
                 ]
@@ -22710,35 +22904,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2020-12-15T16:16:00+11:00",
-                "updated": "2020-12-15T16:36:00+11:00",
-                "id": "ESTA:201214590",
-                "location": "Gringegalgona",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.81275294047452,
-                    -37.4351612084507
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Kooluna Ct",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-15T17:02:18+11:00",
-                "updated": "2020-12-15T17:02:18+11:00",
+                "status": "safe",
+                "created": "2020-12-15T17:29:06+11:00",
+                "updated": "2020-12-15T17:29:06+11:00",
                 "id": "ESTA:201214596",
                 "location": "Kooluna Ct, Frankston",
                 "size": "Small",
@@ -22756,14 +22927,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Burwood Hwy",
+                "sourceTitle": "Geelong West",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-15T16:15:00+11:00",
-                "updated": "2020-12-15T16:23:00+11:00",
-                "id": "ESTA:201214589",
-                "location": "Burwood Hwy, Ferntree Gully",
+                "status": "under control",
+                "created": "2020-12-15T17:16:45+11:00",
+                "updated": "2020-12-15T17:16:45+11:00",
+                "id": "ESTA:201214612",
+                "location": "Geelong West, Geelong West",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -22771,8 +22942,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.26179049790338,
-                    -37.87725227267604
+                    144.34066320365335,
+                    -38.136207159052375
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Plenty Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-12-15T17:29:06+11:00",
+                "updated": "2020-12-15T17:29:06+11:00",
+                "id": "ESTA:201214627",
+                "location": "Plenty Rd, Mernda",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0992394508982,
+                    -37.597597408174494
                 ]
             }
         },
@@ -22782,11 +22976,11 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "safe",
-                "created": "2020-12-15T14:02:00+11:00",
-                "updated": "2020-12-15T16:21:00+11:00",
-                "id": "ESTA:201214516",
-                "location": "Bunyip",
+                "status": "under control",
+                "created": "2020-12-15T16:48:00+11:00",
+                "updated": "2020-12-15T17:17:00+11:00",
+                "id": "ESTA:201214613",
+                "location": "Darley",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -22794,22 +22988,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.71466084811365,
-                    -38.075393108280174
+                    144.43481322207037,
+                    -37.63355874625055
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Old Tatura Rd",
+                "sourceTitle": "Witken Av",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2020-12-15T15:58:00+11:00",
-                "updated": "2020-12-15T16:18:00+11:00",
-                "id": "ESTA:201214585",
-                "location": "Old Tatura Rd, Rushworth",
+                "created": "2020-12-15T17:28:37+11:00",
+                "updated": "2020-12-15T17:28:37+11:00",
+                "id": "ESTA:201214619",
+                "location": "Witken Av, Wantirna South",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -22817,22 +23011,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02024722351885,
-                    -36.5852626601185
+                    145.2430198716408,
+                    -37.88003708140918
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Whalan Ct",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-15T15:54:00+11:00",
-                "updated": "2020-12-15T16:06:00+11:00",
-                "id": "ESTA:201214583",
-                "location": "Warragul",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-12-15T17:02:00+11:00",
+                "updated": "2020-12-15T17:13:00+11:00",
+                "id": "ESTA:201214621",
+                "location": "Whalan Ct, Pyalong",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -22840,8 +23034,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.9320564667459,
-                    -38.16062757631422
+                    144.86417355331616,
+                    -37.13978786913028
                 ]
             }
         },
@@ -22851,12 +23045,12 @@
                 "sourceTitle": "Fire - Nurcong T Fullers Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2020-12-15T16:13:00+11:00",
-                "updated": "2020-12-15T16:56:00+11:00",
+                "updated": "2020-12-15T17:11:00+11:00",
                 "id": "ESTA:201214588",
                 "location": "Fire - Nurcong T Fullers Rd, Nurcoung",
-                "size": "Small",
+                "size": "Medium",
                 "title": "incident: fire"
             },
             "type": "Feature",
@@ -22865,6 +23059,29 @@
                 "coordinates": [
                     141.6719872845654,
                     -36.63855898894139
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-12-15T16:16:00+11:00",
+                "updated": "2020-12-15T17:10:00+11:00",
+                "id": "ESTA:201214590",
+                "location": "Gringegalgona",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.81275294047452,
+                    -37.4351612084507
                 ]
             }
         },
@@ -22896,7 +23113,7 @@
                 "feedType": "incident",
                 "sourceTitle": "Ballan-Daylesford Rd",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "other",
                 "status": "safe",
                 "created": "2020-12-15T16:39:00+11:00",
                 "updated": "2020-12-15T16:49:00+11:00",
@@ -22917,14 +23134,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Geelong West",
+                "sourceTitle": "John St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "not yet under control",
-                "created": "2020-12-15T16:59:41+11:00",
-                "updated": "2020-12-15T16:59:41+11:00",
-                "id": "ESTA:201214612",
-                "location": "Geelong West, Geelong West",
+                "status": "safe",
+                "created": "2020-12-15T16:43:00+11:00",
+                "updated": "2020-12-15T16:45:00+11:00",
+                "id": "ESTA:201214610",
+                "location": "John St, Geelong West",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -22932,8 +23149,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.34066320365335,
-                    -38.136207159052375
+                    144.3412040190105,
+                    -38.13614571370292
                 ]
             }
         },
@@ -22986,23 +23203,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Northernhay St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2020-12-15T16:47:32+11:00",
-                "updated": "2020-12-15T16:47:32+11:00",
-                "id": "ESTA:201214611",
-                "location": "Northernhay St, Reservoir",
+                "sourceTitle": "Oakleigh South",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-12-15T17:27:30+11:00",
+                "updated": "2020-12-15T17:27:30+11:00",
+                "id": "ESTA:201214620",
+                "location": "Oakleigh South, Oakleigh South",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.01085609084632,
-                    -37.724822466072126
+                    145.09372009167802,
+                    -37.93287195215188
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "request for assistance",
+                "created": "2020-12-15T17:25:00+11:00",
+                "updated": "2020-12-15T17:29:00+11:00",
+                "id": "ESTA:201251623",
+                "location": "Essendon",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.88997145864033,
+                    -37.75224658354483
                 ]
             }
         },

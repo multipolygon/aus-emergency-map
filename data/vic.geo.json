@@ -10088,14 +10088,59 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Painted Hills Rd",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-16T06:13:00+11:00",
+                "updated": "2020-12-16T06:17:00+11:00",
+                "id": "ESTA:201251647",
+                "location": "Tootgarook",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.84903290940596,
+                    -38.36985048155847
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Henty Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-12-16T05:02:00+11:00",
+                "updated": "2020-12-16T06:15:00+11:00",
+                "id": "ESTA:201214759",
+                "location": "Henty Hwy, Condah",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.72759254467832,
+                    -37.97820948999102
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Great Ocean Rd",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-16T05:54:00+11:00",
-                "updated": "2020-12-16T05:54:00+11:00",
-                "id": "ESTA:201214768",
-                "location": "Painted Hills Rd, Doreen",
+                "created": "2020-12-16T06:21:00+11:00",
+                "updated": "2020-12-16T06:21:00+11:00",
+                "id": "ESTA:201214777",
+                "location": "Great Ocean Rd, Apollo Bay",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10103,30 +10148,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.12860314140133,
-                    -37.586273117056244
+                    143.69774874146586,
+                    -38.73000332520071
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-12-16T05:47:00+11:00",
-                "updated": "2020-12-16T06:02:00+11:00",
-                "id": "ESTA:201251646",
-                "location": "Simpson",
-                "title": "incident: tree down"
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-16T06:20:00+11:00",
+                "updated": "2020-12-16T06:23:00+11:00",
+                "id": "ESTA:201214776",
+                "location": "Apollo Bay",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.24822066042717,
-                    -38.54293004367516
+                    143.67022623701456,
+                    -38.74672681450159
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pt Nepean Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-16T06:23:55+11:00",
+                "updated": "2020-12-16T06:23:55+11:00",
+                "id": "ESTA:201214770",
+                "location": "Pt Nepean Rd, Tootgarook",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8490409171235,
+                    -38.36984811420518
                 ]
             }
         },
@@ -12957,6 +13026,80 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Unknown",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-14T11:00:00+11:00",
+                "updated": "2020-12-14T11:00:00+11:00",
+                "id": "ddda0084a2ea727459104a43b693bb06",
+                "location": "Unknown",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.1391,
+                            -37.7808
+                        ],
+                        [
+                            144.139,
+                            -37.7799
+                        ],
+                        [
+                            144.1396,
+                            -37.7795
+                        ],
+                        [
+                            144.1402,
+                            -37.7796
+                        ],
+                        [
+                            144.1406,
+                            -37.7799
+                        ],
+                        [
+                            144.1409,
+                            -37.7807
+                        ],
+                        [
+                            144.1409,
+                            -37.7811
+                        ],
+                        [
+                            144.1407,
+                            -37.7815
+                        ],
+                        [
+                            144.1402,
+                            -37.7818
+                        ],
+                        [
+                            144.1397,
+                            -37.7818
+                        ],
+                        [
+                            144.1392,
+                            -37.7814
+                        ],
+                        [
+                            144.1391,
+                            -37.7812
+                        ],
+                        [
+                            144.1391,
+                            -37.7808
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Chaplin Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -13678,6 +13821,100 @@
                         [
                             143.2464,
                             -35.5452
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Mallee 17 - Tempy - Bronzewing Ffr",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-16T11:00:00+11:00",
+                "updated": "2020-11-16T11:00:00+11:00",
+                "id": "701ac56866d231dafceeb1ca92dca52f",
+                "location": "Mallee 17 - Tempy - Bronzewing Ffr",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.453,
+                            -35.2467
+                        ],
+                        [
+                            142.4536,
+                            -35.2474
+                        ],
+                        [
+                            142.4536,
+                            -35.2477
+                        ],
+                        [
+                            142.4538,
+                            -35.2479
+                        ],
+                        [
+                            142.4534,
+                            -35.2484
+                        ],
+                        [
+                            142.4534,
+                            -35.2491
+                        ],
+                        [
+                            142.4529,
+                            -35.2491
+                        ],
+                        [
+                            142.4527,
+                            -35.249
+                        ],
+                        [
+                            142.4527,
+                            -35.2485
+                        ],
+                        [
+                            142.4524,
+                            -35.2481
+                        ],
+                        [
+                            142.4528,
+                            -35.248
+                        ],
+                        [
+                            142.4529,
+                            -35.2477
+                        ],
+                        [
+                            142.4527,
+                            -35.2477
+                        ],
+                        [
+                            142.4526,
+                            -35.2478
+                        ],
+                        [
+                            142.4525,
+                            -35.2475
+                        ],
+                        [
+                            142.4528,
+                            -35.2473
+                        ],
+                        [
+                            142.4525,
+                            -35.2467
+                        ],
+                        [
+                            142.453,
+                            -35.2467
                         ]
                     ]
                 ]
@@ -14868,6 +15105,68 @@
                         [
                             142.989,
                             -35.469
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Owens Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-14T11:00:00+11:00",
+                "updated": "2020-12-14T11:00:00+11:00",
+                "id": "a83d9bd30d4bcabf652ee5ec64635c2d",
+                "location": "Owens Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.3597,
+                            -37.0925
+                        ],
+                        [
+                            144.3596,
+                            -37.0926
+                        ],
+                        [
+                            144.3596,
+                            -37.0928
+                        ],
+                        [
+                            144.3598,
+                            -37.0928
+                        ],
+                        [
+                            144.36,
+                            -37.0935
+                        ],
+                        [
+                            144.3587,
+                            -37.0934
+                        ],
+                        [
+                            144.3588,
+                            -37.0928
+                        ],
+                        [
+                            144.3595,
+                            -37.0922
+                        ],
+                        [
+                            144.3597,
+                            -37.0923
+                        ],
+                        [
+                            144.3597,
+                            -37.0925
                         ]
                     ]
                 ]
@@ -16460,142 +16759,6 @@
                         [
                             145.1853,
                             -36.5162
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Owens Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-14T11:00:00+11:00",
-                "updated": "2020-12-14T11:00:00+11:00",
-                "id": "a83d9bd30d4bcabf652ee5ec64635c2d",
-                "location": "Owens Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.3597,
-                            -37.0925
-                        ],
-                        [
-                            144.3596,
-                            -37.0926
-                        ],
-                        [
-                            144.3596,
-                            -37.0928
-                        ],
-                        [
-                            144.3598,
-                            -37.0928
-                        ],
-                        [
-                            144.36,
-                            -37.0935
-                        ],
-                        [
-                            144.3587,
-                            -37.0934
-                        ],
-                        [
-                            144.3588,
-                            -37.0928
-                        ],
-                        [
-                            144.3595,
-                            -37.0922
-                        ],
-                        [
-                            144.3597,
-                            -37.0923
-                        ],
-                        [
-                            144.3597,
-                            -37.0925
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Unknown",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-14T11:00:00+11:00",
-                "updated": "2020-12-14T11:00:00+11:00",
-                "id": "ddda0084a2ea727459104a43b693bb06",
-                "location": "Unknown",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.1391,
-                            -37.7808
-                        ],
-                        [
-                            144.139,
-                            -37.7799
-                        ],
-                        [
-                            144.1396,
-                            -37.7795
-                        ],
-                        [
-                            144.1402,
-                            -37.7796
-                        ],
-                        [
-                            144.1406,
-                            -37.7799
-                        ],
-                        [
-                            144.1409,
-                            -37.7807
-                        ],
-                        [
-                            144.1409,
-                            -37.7811
-                        ],
-                        [
-                            144.1407,
-                            -37.7815
-                        ],
-                        [
-                            144.1402,
-                            -37.7818
-                        ],
-                        [
-                            144.1397,
-                            -37.7818
-                        ],
-                        [
-                            144.1392,
-                            -37.7814
-                        ],
-                        [
-                            144.1391,
-                            -37.7812
-                        ],
-                        [
-                            144.1391,
-                            -37.7808
                         ]
                     ]
                 ]
@@ -21387,100 +21550,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Mallee 17 - Tempy - Bronzewing Ffr",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-16T11:00:00+11:00",
-                "updated": "2020-11-16T11:00:00+11:00",
-                "id": "701ac56866d231dafceeb1ca92dca52f",
-                "location": "Mallee 17 - Tempy - Bronzewing Ffr",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.453,
-                            -35.2467
-                        ],
-                        [
-                            142.4536,
-                            -35.2474
-                        ],
-                        [
-                            142.4536,
-                            -35.2477
-                        ],
-                        [
-                            142.4538,
-                            -35.2479
-                        ],
-                        [
-                            142.4534,
-                            -35.2484
-                        ],
-                        [
-                            142.4534,
-                            -35.2491
-                        ],
-                        [
-                            142.4529,
-                            -35.2491
-                        ],
-                        [
-                            142.4527,
-                            -35.249
-                        ],
-                        [
-                            142.4527,
-                            -35.2485
-                        ],
-                        [
-                            142.4524,
-                            -35.2481
-                        ],
-                        [
-                            142.4528,
-                            -35.248
-                        ],
-                        [
-                            142.4529,
-                            -35.2477
-                        ],
-                        [
-                            142.4527,
-                            -35.2477
-                        ],
-                        [
-                            142.4526,
-                            -35.2478
-                        ],
-                        [
-                            142.4525,
-                            -35.2475
-                        ],
-                        [
-                            142.4528,
-                            -35.2473
-                        ],
-                        [
-                            142.4525,
-                            -35.2467
-                        ],
-                        [
-                            142.453,
-                            -35.2467
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Murrindindi 18 - Narbethong - Acheron Way",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -23906,14 +23975,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Henty Hwy",
+                "sourceTitle": "Torquay Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-12-16T06:22:56+11:00",
+                "updated": "2020-12-16T06:22:56+11:00",
+                "id": "ESTA:201214771",
+                "location": "Torquay Rd, Grovedale",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.34231039518139,
+                    -38.19434971199264
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pt Nepean Rd",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "responding",
-                "created": "2020-12-16T05:02:00+11:00",
-                "updated": "2020-12-16T05:02:00+11:00",
-                "id": "ESTA:201214759",
-                "location": "Henty Hwy, Condah",
+                "status": "safe",
+                "created": "2020-12-16T06:07:00+11:00",
+                "updated": "2020-12-16T06:09:00+11:00",
+                "id": "ESTA:201214772",
+                "location": "Pt Nepean Rd, Tootgarook",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -23921,8 +24013,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.72759254467832,
-                    -37.97820948999102
+                    144.84903290940596,
+                    -38.36985048155847
                 ]
             }
         },
@@ -23999,15 +24091,15 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Sunshine West",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-12-16T05:59:49+11:00",
-                "updated": "2020-12-16T05:59:49+11:00",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-16T06:23:00+11:00",
+                "updated": "2020-12-16T06:23:00+11:00",
                 "id": "ESTA:201214765",
                 "location": "Sunshine West, Sunshine West",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -24015,6 +24107,29 @@
                 "coordinates": [
                     144.80903545015187,
                     -37.81528664260812
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kilsyth",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-16T06:23:39+11:00",
+                "updated": "2020-12-16T06:23:39+11:00",
+                "id": "ESTA:201214774",
+                "location": "Kilsyth, Kilsyth",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.30423530883368,
+                    -37.82151315455917
                 ]
             }
         },

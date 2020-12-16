@@ -9956,22 +9956,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-12-17T06:56:00+11:00",
-                "updated": "2020-12-17T07:03:00+11:00",
-                "id": "ESTA:201251764",
-                "location": "Faraday",
-                "title": "incident: tree down"
+                "sourceTitle": "South Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2020-12-17T07:27:45+11:00",
+                "updated": "2020-12-17T07:27:45+11:00",
+                "id": "ESTA:201215227",
+                "location": "South Rd, Moorabbin",
+                "size": "Small",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.31281033163359,
-                    -37.0347452602585
+                    145.03943826160298,
+                    -37.93387505404634
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Bullock Trk",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2020-12-17T07:28:19+11:00",
+                "updated": "2020-12-17T07:28:19+11:00",
+                "id": "ESTA:201215225",
+                "location": "The Bullock Trk, Melton West",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.5248614960363,
+                    -37.67940503010511
                 ]
             }
         },
@@ -10060,6 +10084,72 @@
                 "coordinates": [
                     144.458769,
                     -35.528318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Mallee 14 - Hattah - Jinkers Bend",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-17T11:00:00+11:00",
+                "updated": "2020-11-17T11:00:00+11:00",
+                "id": "fd092362eb53eca0f41e5e99a102e2be",
+                "location": "Mallee 14 - Hattah - Jinkers Bend",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.5097,
+                            -34.6875
+                        ],
+                        [
+                            142.5109,
+                            -34.6886
+                        ],
+                        [
+                            142.5118,
+                            -34.6891
+                        ],
+                        [
+                            142.5119,
+                            -34.6894
+                        ],
+                        [
+                            142.5114,
+                            -34.69
+                        ],
+                        [
+                            142.5104,
+                            -34.6902
+                        ],
+                        [
+                            142.5095,
+                            -34.6893
+                        ],
+                        [
+                            142.5095,
+                            -34.6884
+                        ],
+                        [
+                            142.5092,
+                            -34.6876
+                        ],
+                        [
+                            142.5096,
+                            -34.6874
+                        ],
+                        [
+                            142.5097,
+                            -34.6875
+                        ]
+                    ]
                 ]
             }
         },
@@ -20696,72 +20786,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Mallee 14 - Hattah - Jinkers Bend",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-17T11:00:00+11:00",
-                "updated": "2020-11-17T11:00:00+11:00",
-                "id": "fd092362eb53eca0f41e5e99a102e2be",
-                "location": "Mallee 14 - Hattah - Jinkers Bend",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.5097,
-                            -34.6875
-                        ],
-                        [
-                            142.5109,
-                            -34.6886
-                        ],
-                        [
-                            142.5118,
-                            -34.6891
-                        ],
-                        [
-                            142.5119,
-                            -34.6894
-                        ],
-                        [
-                            142.5114,
-                            -34.69
-                        ],
-                        [
-                            142.5104,
-                            -34.6902
-                        ],
-                        [
-                            142.5095,
-                            -34.6893
-                        ],
-                        [
-                            142.5095,
-                            -34.6884
-                        ],
-                        [
-                            142.5092,
-                            -34.6876
-                        ],
-                        [
-                            142.5096,
-                            -34.6874
-                        ],
-                        [
-                            142.5097,
-                            -34.6875
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -22461,29 +22485,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Peck St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-17T05:52:00+11:00",
-                "updated": "2020-12-17T06:10:00+11:00",
-                "id": "ESTA:201215212",
-                "location": "Peck St, Hamilton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.00167157912134,
-                    -37.723836712434306
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Sunman Dr",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -22533,9 +22534,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2020-12-17T06:18:00+11:00",
-                "updated": "2020-12-17T06:42:00+11:00",
+                "updated": "2020-12-17T07:04:00+11:00",
                 "id": "ESTA:201251763",
                 "location": "Stanhope",
                 "title": "incident: tree down"

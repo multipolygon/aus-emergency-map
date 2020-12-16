@@ -9956,46 +9956,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "The Esplanade -",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-12-17T08:02:08+11:00",
-                "updated": "2020-12-17T08:02:08+11:00",
-                "id": "ESTA:201215236",
-                "location": "The Esplanade -, Torquay",
-                "size": "Small",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-17T08:22:00+11:00",
+                "updated": "2020-12-17T08:23:00+11:00",
+                "id": "ESTA:201251767",
+                "location": "Mount Eliza",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3244138903521,
-                    -38.33626643526127
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hegarty Pl",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2020-12-17T07:44:00+11:00",
-                "updated": "2020-12-17T07:44:00+11:00",
-                "id": "ESTA:201215234",
-                "location": "Hegarty Pl, Maddingley",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.41945631212863,
-                    -37.69321942201324
+                    145.07873107308774,
+                    -38.20331203169377
                 ]
             }
         },
@@ -10072,9 +10048,9 @@
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
                 "status": "under control",
-                "created": "2020-12-16T20:27:00+11:00",
-                "updated": "2020-12-16T20:27:00+11:00",
-                "id": "2020-12-16T20:27:00.0000000:402371",
+                "created": "2020-12-17T08:11:00+11:00",
+                "updated": "2020-12-17T08:11:00+11:00",
+                "id": "2020-12-17T08:11:00.0000000:402371",
                 "location": "Caldwell Line Rd, Caldwell, Nsw 2710",
                 "title": "incident: other"
             },
@@ -22485,12 +22461,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "The Esplanade -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-17T07:55:00+11:00",
+                "updated": "2020-12-17T08:11:00+11:00",
+                "id": "ESTA:201215236",
+                "location": "The Esplanade -, Torquay",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3244069106611,
+                    -38.3362684341404
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2020-12-17T08:10:00+11:00",
+                "updated": "2020-12-17T08:10:00+11:00",
+                "id": "ESTA:201215242",
+                "location": "Elphinstone",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3166722811122,
+                    -37.078277717300026
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "The Bullock Trk",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-12-17T07:39:32+11:00",
-                "updated": "2020-12-17T07:39:32+11:00",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-17T07:18:00+11:00",
+                "updated": "2020-12-17T08:07:00+11:00",
                 "id": "ESTA:201215225",
                 "location": "The Bullock Trk, Melton West",
                 "size": "Small",
@@ -22500,8 +22522,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.52443176885672,
-                    -37.67923212259788
+                    144.5244306617258,
+                    -37.679233093595386
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hegarty Pl",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2020-12-17T07:44:00+11:00",
+                "updated": "2020-12-17T07:44:00+11:00",
+                "id": "ESTA:201215234",
+                "location": "Hegarty Pl, Maddingley",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.41945631212863,
+                    -37.69321942201324
                 ]
             }
         },
@@ -22571,29 +22616,6 @@
                 "coordinates": [
                     144.93746243584863,
                     -37.737042695352
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-17T07:54:19+11:00",
-                "updated": "2020-12-17T07:54:19+11:00",
-                "id": "ESTA:201215227",
-                "location": "South Rd, Moorabbin",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03943826160298,
-                    -37.93387505404634
                 ]
             }
         },

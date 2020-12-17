@@ -11073,23 +11073,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Malvern East",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-18T06:53:53+11:00",
-                "updated": "2020-12-18T06:53:53+11:00",
-                "id": "ESTA:201215930",
-                "location": "Malvern East, Malvern East",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2020-12-18T06:47:00+11:00",
+                "updated": "2020-12-18T07:14:00+11:00",
+                "id": "ESTA:201251852",
+                "location": "Metung",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.08170518452303,
-                    -37.87787655889491
+                    147.85330809350177,
+                    -37.893573089499526
                 ]
             }
         },
@@ -11099,9 +11098,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2020-12-18T06:52:00+11:00",
-                "updated": "2020-12-18T06:56:00+11:00",
+                "updated": "2020-12-18T07:24:00+11:00",
                 "id": "ESTA:201251853",
                 "location": "Doreen",
                 "title": "incident: tree down"
@@ -11118,14 +11117,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Garden Dr",
+                "sourceTitle": "Calder Hwy",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2020-12-18T06:58:40+11:00",
-                "updated": "2020-12-18T06:58:40+11:00",
-                "id": "ESTA:201215921",
-                "location": "Garden Dr, Tullamarine",
+                "created": "2020-12-18T07:25:00+11:00",
+                "updated": "2020-12-18T07:26:00+11:00",
+                "id": "ESTA:201215939",
+                "location": "Calder Hwy, Carwarp",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -11133,31 +11132,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.87668151108184,
-                    -37.68952870793414
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Prestons Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-12-18T07:02:09+11:00",
-                "updated": "2020-12-18T07:02:09+11:00",
-                "id": "ESTA:201215902",
-                "location": "Prestons Rd, Koo Wee Rup",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.44970203566425,
-                    -38.202709363045216
+                    142.1925981335747,
+                    -34.43742101582422
                 ]
             }
         },
@@ -13114,6 +13090,126 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Unknown",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-11T11:00:00+11:00",
+                "updated": "2020-11-11T11:00:00+11:00",
+                "id": "ec4a280cbf7c3c03559c74ffb3d25443",
+                "location": "Unknown",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.6916,
+                            -35.7581
+                        ],
+                        [
+                            142.6912,
+                            -35.7582
+                        ],
+                        [
+                            142.691,
+                            -35.7583
+                        ],
+                        [
+                            142.6908,
+                            -35.7585
+                        ],
+                        [
+                            142.6908,
+                            -35.7587
+                        ],
+                        [
+                            142.6907,
+                            -35.7587
+                        ],
+                        [
+                            142.6907,
+                            -35.7582
+                        ],
+                        [
+                            142.6908,
+                            -35.7581
+                        ],
+                        [
+                            142.6916,
+                            -35.7581
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Owens Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-14T11:00:00+11:00",
+                "updated": "2020-12-14T11:00:00+11:00",
+                "id": "a83d9bd30d4bcabf652ee5ec64635c2d",
+                "location": "Owens Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.3597,
+                            -37.0925
+                        ],
+                        [
+                            144.3596,
+                            -37.0926
+                        ],
+                        [
+                            144.3596,
+                            -37.0928
+                        ],
+                        [
+                            144.3598,
+                            -37.0928
+                        ],
+                        [
+                            144.36,
+                            -37.0935
+                        ],
+                        [
+                            144.3587,
+                            -37.0934
+                        ],
+                        [
+                            144.3588,
+                            -37.0928
+                        ],
+                        [
+                            144.3595,
+                            -37.0922
+                        ],
+                        [
+                            144.3597,
+                            -37.0923
+                        ],
+                        [
+                            144.3597,
+                            -37.0925
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Boundary Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -13905,64 +14001,6 @@
                         [
                             145.3089,
                             -36.4254
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Unknown",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-11T11:00:00+11:00",
-                "updated": "2020-11-11T11:00:00+11:00",
-                "id": "ec4a280cbf7c3c03559c74ffb3d25443",
-                "location": "Unknown",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.6916,
-                            -35.7581
-                        ],
-                        [
-                            142.6912,
-                            -35.7582
-                        ],
-                        [
-                            142.691,
-                            -35.7583
-                        ],
-                        [
-                            142.6908,
-                            -35.7585
-                        ],
-                        [
-                            142.6908,
-                            -35.7587
-                        ],
-                        [
-                            142.6907,
-                            -35.7587
-                        ],
-                        [
-                            142.6907,
-                            -35.7582
-                        ],
-                        [
-                            142.6908,
-                            -35.7581
-                        ],
-                        [
-                            142.6916,
-                            -35.7581
                         ]
                     ]
                 ]
@@ -17558,68 +17596,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Owens Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-14T11:00:00+11:00",
-                "updated": "2020-12-14T11:00:00+11:00",
-                "id": "a83d9bd30d4bcabf652ee5ec64635c2d",
-                "location": "Owens Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.3597,
-                            -37.0925
-                        ],
-                        [
-                            144.3596,
-                            -37.0926
-                        ],
-                        [
-                            144.3596,
-                            -37.0928
-                        ],
-                        [
-                            144.3598,
-                            -37.0928
-                        ],
-                        [
-                            144.36,
-                            -37.0935
-                        ],
-                        [
-                            144.3587,
-                            -37.0934
-                        ],
-                        [
-                            144.3588,
-                            -37.0928
-                        ],
-                        [
-                            144.3595,
-                            -37.0922
-                        ],
-                        [
-                            144.3597,
-                            -37.0923
-                        ],
-                        [
-                            144.3597,
-                            -37.0925
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Unknown",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -18472,6 +18448,76 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-18T11:00:00+11:00",
+                "updated": "2020-11-18T11:00:00+11:00",
+                "id": "46d942b9cf60bc010f4c9d0a99a84ae2",
+                "location": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            141.9766,
+                            -36.4996
+                        ],
+                        [
+                            141.977,
+                            -36.4995
+                        ],
+                        [
+                            141.9774,
+                            -36.4995
+                        ],
+                        [
+                            141.9776,
+                            -36.4996
+                        ],
+                        [
+                            141.9778,
+                            -36.4998
+                        ],
+                        [
+                            141.9777,
+                            -36.5
+                        ],
+                        [
+                            141.9776,
+                            -36.5001
+                        ],
+                        [
+                            141.9772,
+                            -36.5003
+                        ],
+                        [
+                            141.9763,
+                            -36.5003
+                        ],
+                        [
+                            141.9759,
+                            -36.5001
+                        ],
+                        [
+                            141.9762,
+                            -36.4999
+                        ],
+                        [
+                            141.9766,
+                            -36.4996
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Snowy 3 - Marlo  - Marlo Plains Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -18781,6 +18827,72 @@
                         [
                             143.9253,
                             -37.6482
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-18T11:00:00+11:00",
+                "updated": "2020-11-18T11:00:00+11:00",
+                "id": "f28d6d2e82f94705140eb06fa4d89e8f",
+                "location": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            141.9761,
+                            -36.5017
+                        ],
+                        [
+                            141.9763,
+                            -36.5014
+                        ],
+                        [
+                            141.9767,
+                            -36.5012
+                        ],
+                        [
+                            141.9771,
+                            -36.5011
+                        ],
+                        [
+                            141.9774,
+                            -36.5012
+                        ],
+                        [
+                            141.9776,
+                            -36.5013
+                        ],
+                        [
+                            141.9776,
+                            -36.5016
+                        ],
+                        [
+                            141.9774,
+                            -36.5018
+                        ],
+                        [
+                            141.977,
+                            -36.5019
+                        ],
+                        [
+                            141.9764,
+                            -36.5019
+                        ],
+                        [
+                            141.9761,
+                            -36.5017
                         ]
                     ]
                 ]
@@ -19843,142 +19955,6 @@
                         [
                             146.8411,
                             -36.1613
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-18T11:00:00+11:00",
-                "updated": "2020-11-18T11:00:00+11:00",
-                "id": "46d942b9cf60bc010f4c9d0a99a84ae2",
-                "location": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            141.9766,
-                            -36.4996
-                        ],
-                        [
-                            141.977,
-                            -36.4995
-                        ],
-                        [
-                            141.9774,
-                            -36.4995
-                        ],
-                        [
-                            141.9776,
-                            -36.4996
-                        ],
-                        [
-                            141.9778,
-                            -36.4998
-                        ],
-                        [
-                            141.9777,
-                            -36.5
-                        ],
-                        [
-                            141.9776,
-                            -36.5001
-                        ],
-                        [
-                            141.9772,
-                            -36.5003
-                        ],
-                        [
-                            141.9763,
-                            -36.5003
-                        ],
-                        [
-                            141.9759,
-                            -36.5001
-                        ],
-                        [
-                            141.9762,
-                            -36.4999
-                        ],
-                        [
-                            141.9766,
-                            -36.4996
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-18T11:00:00+11:00",
-                "updated": "2020-11-18T11:00:00+11:00",
-                "id": "f28d6d2e82f94705140eb06fa4d89e8f",
-                "location": "Wimmera 8 - Little Desert  - Desert Discovery Walk",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            141.9761,
-                            -36.5017
-                        ],
-                        [
-                            141.9763,
-                            -36.5014
-                        ],
-                        [
-                            141.9767,
-                            -36.5012
-                        ],
-                        [
-                            141.9771,
-                            -36.5011
-                        ],
-                        [
-                            141.9774,
-                            -36.5012
-                        ],
-                        [
-                            141.9776,
-                            -36.5013
-                        ],
-                        [
-                            141.9776,
-                            -36.5016
-                        ],
-                        [
-                            141.9774,
-                            -36.5018
-                        ],
-                        [
-                            141.977,
-                            -36.5019
-                        ],
-                        [
-                            141.9764,
-                            -36.5019
-                        ],
-                        [
-                            141.9761,
-                            -36.5017
                         ]
                     ]
                 ]
@@ -24995,12 +24971,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Calder Hwy",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-12-18T07:24:38+11:00",
+                "updated": "2020-12-18T07:24:38+11:00",
+                "id": "ESTA:201215935",
+                "location": "Calder Hwy, Carwarp",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.19260264520753,
+                    -34.437415296743694
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Prestons Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-12-18T07:15:46+11:00",
+                "updated": "2020-12-18T07:15:46+11:00",
+                "id": "ESTA:201215902",
+                "location": "Prestons Rd, Koo Wee Rup",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.44970203566425,
+                    -38.202709363045216
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
                 "status": "on scene",
                 "created": "2020-12-18T04:54:00+11:00",
-                "updated": "2020-12-18T06:54:00+11:00",
+                "updated": "2020-12-18T07:20:00+11:00",
                 "id": "ESTA:201215905",
                 "location": "Catani",
                 "size": "Small",
@@ -25064,29 +25086,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Carramar Cr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-18T06:05:00+11:00",
-                "updated": "2020-12-18T06:26:00+11:00",
-                "id": "ESTA:201215918",
-                "location": "Carramar Cr, Warrnambool",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.47166088679765,
-                    -38.36225380232227
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ladlows Rd",
                 "category": "fire",
                 "subcategory": "other",
@@ -25114,8 +25113,8 @@
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "under control",
-                "created": "2020-12-18T06:54:35+11:00",
-                "updated": "2020-12-18T06:54:35+11:00",
+                "created": "2020-12-18T07:16:35+11:00",
+                "updated": "2020-12-18T07:16:35+11:00",
                 "id": "ESTA:201215890",
                 "location": "Mernda, Mernda",
                 "size": "Small",
@@ -25133,14 +25132,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Brunswick Rd",
+                "sourceTitle": "Taylors Hill",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-18T06:51:18+11:00",
-                "updated": "2020-12-18T06:51:18+11:00",
-                "id": "ESTA:201215922",
-                "location": "Brunswick Rd, Brunswick West",
+                "status": "responding",
+                "created": "2020-12-18T07:15:08+11:00",
+                "updated": "2020-12-18T07:15:08+11:00",
+                "id": "ESTA:201215933",
+                "location": "Taylors Hill, Taylors Hill",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -25148,30 +25147,100 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94602388869825,
-                    -37.775214307538974
+                    144.75048251210092,
+                    -37.72399557550658
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-18T06:47:00+11:00",
-                "updated": "2020-12-18T06:49:00+11:00",
-                "id": "ESTA:201251852",
-                "location": "Metung",
-                "title": "incident: tree down"
+                "sourceTitle": "Beaumaris",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-12-18T07:24:48+11:00",
+                "updated": "2020-12-18T07:24:48+11:00",
+                "id": "ESTA:201215936",
+                "location": "Beaumaris, Beaumaris",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.85330809350177,
-                    -37.893573089499526
+                    145.0286394037276,
+                    -37.9841058980715
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Victoria Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-18T07:21:51+11:00",
+                "updated": "2020-12-18T07:21:51+11:00",
+                "id": "ESTA:201215932",
+                "location": "Victoria Dr, Thomastown",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99912698184755,
+                    -37.68494275928725
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bowerbird Pl",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-12-18T07:20:12+11:00",
+                "updated": "2020-12-18T07:20:12+11:00",
+                "id": "ESTA:201215934",
+                "location": "Bowerbird Pl, Truganina",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.72054175848825,
+                    -37.83877353693019
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Malvern East",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-18T07:10:08+11:00",
+                "updated": "2020-12-18T07:10:08+11:00",
+                "id": "ESTA:201215930",
+                "location": "Malvern East, Malvern East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.08170518452303,
+                    -37.87787655889491
                 ]
             }
         }

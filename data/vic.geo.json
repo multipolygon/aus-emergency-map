@@ -9991,14 +9991,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Jenkins St",
+                "sourceTitle": "Ebdale St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-12-19T00:00:29+11:00",
-                "updated": "2020-12-19T00:00:29+11:00",
-                "id": "ESTA:201216399",
-                "location": "Jenkins St, Caulfield South",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-12-19T00:33:37+11:00",
+                "updated": "2020-12-19T00:33:37+11:00",
+                "id": "ESTA:201216404",
+                "location": "Ebdale St, Frankston",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10006,8 +10006,75 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0248425951749,
-                    -37.89594833319729
+                    145.12571794648042,
+                    -38.13721522755556
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-19T00:32:00+11:00",
+                "updated": "2020-12-19T00:32:00+11:00",
+                "id": "ESTA:201251888",
+                "location": "Orbost",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.47718516317696,
+                    -37.6617689816188
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Keilor Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-12-19T00:33:22+11:00",
+                "updated": "2020-12-19T00:33:22+11:00",
+                "id": "ESTA:201216405",
+                "location": "Keilor Rd, Essendon",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90611802172745,
+                    -37.743122230848094
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Essendon",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-12-19T00:31:47+11:00",
+                "updated": "2020-12-19T00:35:06+11:00",
+                "id": "ESTA:201216406",
+                "location": "Keilor Rd, Essendon",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90521296726675,
+                    -37.74273720071819
                 ]
             }
         },
@@ -22940,6 +23007,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Goulburn Valley Hwy",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "responding",
+                "created": "2020-12-19T00:13:00+11:00",
+                "updated": "2020-12-19T00:13:00+11:00",
+                "id": "ESTA:201216401",
+                "location": "Goulburn Valley Hwy, Numurkah",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4317778286136,
+                    -36.1273286135184
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Fleetwood Dr",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -22986,35 +23076,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "on scene",
-                "created": "2020-12-18T22:57:00+11:00",
-                "updated": "2020-12-18T23:29:00+11:00",
-                "id": "ESTA:201216388",
-                "location": "Mickleham",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.89286743141935,
-                    -37.57098879464389
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Austin Pl",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-18T23:18:35+11:00",
-                "updated": "2020-12-18T23:18:35+11:00",
+                "created": "2020-12-19T00:18:31+11:00",
+                "updated": "2020-12-19T00:18:31+11:00",
                 "id": "ESTA:201216385",
                 "location": "Austin Pl, Melton South",
                 "size": "Small",
@@ -23026,6 +23093,28 @@
                 "coordinates": [
                     144.56819835621735,
                     -37.698202987008266
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "complete",
+                "created": "2020-12-18T22:57:00+11:00",
+                "updated": "2020-12-19T00:30:00+11:00",
+                "id": "ESTA:201216388",
+                "location": "Mickleham",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.89286743141935,
+                    -37.57098879464389
                 ]
             }
         },

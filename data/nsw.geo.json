@@ -362,23 +362,95 @@
                 "sourceTitle": "Whitton Darlington Point Rd, Whitton",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/402990",
-                "created": "2020-12-18T14:40:00+11:00",
-                "updated": "2020-12-19T01:40:00+11:00",
+                "created": "2020-12-18T15:34:00+11:00",
+                "updated": "2020-12-19T02:34:00+11:00",
                 "location": "Whitton Darlington Point Rd, Whitton, NSW 2705",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Whitton Darlington Point Rd, Whitton, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Dec 2020 01:40",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Whitton Darlington Point Rd, Whitton, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Dec 2020 02:34",
                 "title": "incident: fire"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.2186240000001,
-                    -34.53006799999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.2186240000001,
+                            -34.53006799999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.291278494,
+                                            -34.553731808
+                                        ],
+                                        [
+                                            146.291416512,
+                                            -34.5536474629999
+                                        ],
+                                        [
+                                            146.291761534,
+                                            -34.5535998739999
+                                        ],
+                                        [
+                                            146.29182102,
+                                            -34.553766437
+                                        ],
+                                        [
+                                            146.291278494,
+                                            -34.553731808
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.291278494,
+                                            -34.553731808
+                                        ],
+                                        [
+                                            146.291202361,
+                                            -34.5537783349999
+                                        ],
+                                        [
+                                            146.291059593,
+                                            -34.5537783349999
+                                        ],
+                                        [
+                                            146.291238052,
+                                            -34.5536236689999
+                                        ],
+                                        [
+                                            146.291261847,
+                                            -34.553671258
+                                        ],
+                                        [
+                                            146.291261847,
+                                            -34.5537307449999
+                                        ],
+                                        [
+                                            146.291278494,
+                                            -34.553731808
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {

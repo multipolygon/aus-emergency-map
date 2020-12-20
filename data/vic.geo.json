@@ -9,6 +9,68 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.6363649595931,
+                            -35.99939135184972
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.61589434039084,
+                                    -35.99595441194494
+                                ],
+                                [
+                                    145.61726763140155,
+                                    -36.00505079556642
+                                ],
+                                [
+                                    145.64009859453515,
+                                    -36.006994924662266
+                                ],
+                                [
+                                    145.65623476397363,
+                                    -36.00553683233424
+                                ],
+                                [
+                                    145.65683557879532,
+                                    -35.99178777903717
+                                ],
+                                [
+                                    145.63306047808737,
+                                    -35.99255167821295
+                                ],
+                                [
+                                    145.61589434039084,
+                                    -35.99595441194494
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-12-20T14:38:21+11:00",
+                "updated": "2020-12-20T14:38:21+11:00",
+                "id": "15384",
+                "location": "Muckatah",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -9933,23 +9995,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
+                "sourceTitle": "Reservoir",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-12-20T14:11:00+11:00",
-                "updated": "2020-12-20T14:11:00+11:00",
-                "id": "ESTA:201217373",
-                "location": "Muckatah",
-                "size": "Small",
-                "title": "incident: fire"
+                "created": "2020-12-20T14:24:09+11:00",
+                "updated": "2020-12-20T14:26:38+11:00",
+                "id": "ESTA:201217385",
+                "location": "Reservoir",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.63793136966436,
-                    -35.999105281919476
+                    145.0232117161516,
+                    -37.725485822230105
                 ]
             }
         },
@@ -9957,21 +10018,44 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-20T14:14:00+11:00",
-                "updated": "2020-12-20T14:17:00+11:00",
-                "id": "ESTA:201251936",
-                "location": "Olinda",
-                "title": "incident: tree down"
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2020-12-20T11:51:00+11:00",
+                "updated": "2020-12-20T14:29:00+11:00",
+                "id": "ESTA:201251928",
+                "location": "Airport West",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.38577593843172,
-                    -37.87106927264135
+                    144.87734430852433,
+                    -37.719090849535206
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Melbourne",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-12-20T14:37:08+11:00",
+                "updated": "2020-12-20T14:37:08+11:00",
+                "id": "ESTA:201217387",
+                "location": "Melbourne, Melbourne",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97932694007343,
+                    -37.82432068679605
                 ]
             }
         },
@@ -9981,9 +10065,9 @@
                 "sourceTitle": "Hastings St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-12-20T14:16:00+11:00",
-                "updated": "2020-12-20T14:16:00+11:00",
+                "updated": "2020-12-20T14:32:00+11:00",
                 "id": "ESTA:201217375",
                 "location": "Hastings St, Rhyll",
                 "size": "Small",
@@ -10001,37 +10085,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mables Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2020-12-20T13:49:00+11:00",
-                "updated": "2020-12-20T14:18:00+11:00",
-                "id": "ESTA:201217364",
-                "location": "Mables Rd, Glenfyne",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.04944185169188,
-                    -38.42090582189445
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-20T14:18:00+11:00",
-                "updated": "2020-12-20T14:18:00+11:00",
-                "id": "ESTA:201217377",
-                "location": "Maindample",
+                "subcategory": "bushfire",
+                "status": "not yet under control",
+                "created": "2020-12-20T14:11:00+11:00",
+                "updated": "2020-12-20T14:29:00+11:00",
+                "id": "ESTA:201217373",
+                "location": "Muckatah",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10039,121 +10100,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.99063297577462,
-                    -37.031274244706495
+                    145.63793136966436,
+                    -35.999105281919476
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Chartwell Dr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-12-20T14:19:54+11:00",
-                "updated": "2020-12-20T14:19:54+11:00",
-                "id": "ESTA:201217368",
-                "location": "Chartwell Dr, Wantirna",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.24059171545323,
-                    -37.85647216669705
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Olinda-Monbulk Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-20T14:16:00+11:00",
-                "updated": "2020-12-20T14:20:00+11:00",
-                "id": "ESTA:201217374",
-                "location": "Olinda-Monbulk Rd, Olinda",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.38577593843172,
-                    -37.87106927264135
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mount Waverley",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-20T14:20:59+11:00",
-                "updated": "2020-12-20T14:20:59+11:00",
-                "id": "ESTA:201217379",
-                "location": "Mount Waverley, Mount Waverley",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.14568380103617,
-                    -37.88673568774101
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Reservoir",
+                "sourceTitle": "Taylors Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-12-20T14:18:05+11:00",
-                "updated": "2020-12-20T14:20:54+11:00",
-                "id": "ESTA:201217381",
-                "location": "Reservoir",
+                "created": "2020-12-20T14:40:02+11:00",
+                "updated": "2020-12-20T14:40:02+11:00",
+                "id": "ESTA:201217392",
+                "location": "Taylors Rd, Delahey",
+                "size": "Small",
                 "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0232117161516,
-                    -37.725485822230105
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Castella",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-20T14:17:18+11:00",
-                "updated": "2020-12-20T14:22:43+11:00",
-                "id": "ESTA:201217383",
-                "location": "Castella",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4200453415351,
-                    -37.52682598857232
+                    144.76995392371754,
+                    -37.725926713156966
                 ]
             }
         },
@@ -22791,14 +22762,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Painted Hills Rd",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-20T14:10:00+11:00",
-                "updated": "2020-12-20T14:10:00+11:00",
-                "id": "ESTA:201217369",
-                "location": "Painted Hills Rd, Doreen",
+                "created": "2020-12-20T14:23:00+11:00",
+                "updated": "2020-12-20T14:23:00+11:00",
+                "id": "ESTA:201217383",
+                "location": "Castella",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -22806,8 +22777,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.12860314140133,
-                    -37.586273117056244
+                    145.4200332181098,
+                    -37.52683340792458
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Olinda-Monbulk Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-20T14:16:00+11:00",
+                "updated": "2020-12-20T14:20:00+11:00",
+                "id": "ESTA:201217374",
+                "location": "Olinda-Monbulk Rd, Olinda",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38577593843172,
+                    -37.87106927264135
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Chartwell Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2020-12-20T14:29:04+11:00",
+                "updated": "2020-12-20T14:29:04+11:00",
+                "id": "ESTA:201217368",
+                "location": "Chartwell Dr, Wantirna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24059171545323,
+                    -37.85647216669705
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mables Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-12-20T13:49:00+11:00",
+                "updated": "2020-12-20T14:18:00+11:00",
+                "id": "ESTA:201217364",
+                "location": "Mables Rd, Glenfyne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.04944185169188,
+                    -38.42090582189445
                 ]
             }
         },
@@ -22831,29 +22871,6 @@
                 "coordinates": [
                     145.17905631781517,
                     -37.95788346231483
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Greenglade Ct",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-20T13:24:00+11:00",
-                "updated": "2020-12-20T13:26:00+11:00",
-                "id": "ESTA:201217356",
-                "location": "Greenglade Ct, Noble Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17595959438253,
-                    -37.98137436566283
                 ]
             }
         },
@@ -22906,35 +22923,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Morwell",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-12-20T13:31:01+11:00",
-                "updated": "2020-12-20T13:31:01+11:00",
-                "id": "ESTA:201217169",
-                "location": "Morwell, Morwell",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.418870828995,
-                    -38.22806930175259
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Rishon Av",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-20T14:18:42+11:00",
-                "updated": "2020-12-20T14:18:42+11:00",
+                "status": "under control",
+                "created": "2020-12-20T14:26:50+11:00",
+                "updated": "2020-12-20T14:26:50+11:00",
                 "id": "ESTA:201217372",
                 "location": "Rishon Av, Blackburn South",
                 "size": "Small",
@@ -22946,6 +22940,74 @@
                 "coordinates": [
                     145.15088787227,
                     -37.84565333870076
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mount Waverley",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-12-20T14:34:38+11:00",
+                "updated": "2020-12-20T14:34:38+11:00",
+                "id": "ESTA:201217379",
+                "location": "Mount Waverley, Mount Waverley",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14568380103617,
+                    -37.88673568774101
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Reservoir",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2020-12-20T14:28:12+11:00",
+                "updated": "2020-12-20T14:28:12+11:00",
+                "id": "ESTA:201217381",
+                "location": "Reservoir, Reservoir",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02320977783145,
+                    -37.725487477609605
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-20T14:14:00+11:00",
+                "updated": "2020-12-20T14:17:00+11:00",
+                "id": "ESTA:201251936",
+                "location": "Olinda",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38577593843172,
+                    -37.87106927264135
                 ]
             }
         },
@@ -22968,28 +23030,6 @@
                 "coordinates": [
                     144.8835219996046,
                     -37.68378561314969
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-12-20T11:51:00+11:00",
-                "updated": "2020-12-20T12:16:00+11:00",
-                "id": "ESTA:201251928",
-                "location": "Airport West",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.87734430852433,
-                    -37.719090849535206
                 ]
             }
         }

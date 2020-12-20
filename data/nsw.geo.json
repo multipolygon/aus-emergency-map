@@ -234,10 +234,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.84978,
-                    -29.22521699999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.84978,
+                            -29.22521699999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.846282068,
+                                            -29.1585255319999
+                                        ],
+                                        [
+                                            149.917665898,
+                                            -29.166139808
+                                        ],
+                                        [
+                                            149.898154318,
+                                            -29.216108489
+                                        ],
+                                        [
+                                            149.846044122,
+                                            -29.2044491299999
+                                        ],
+                                        [
+                                            149.847709745,
+                                            -29.2023076149999
+                                        ],
+                                        [
+                                            149.846282068,
+                                            -29.1585255319999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -317,13 +358,13 @@
                 "sourceTitle": "Beach St, Harrington",
                 "category": "other",
                 "subcategory": "fire alarm",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403107",
-                "created": "2020-12-20T05:32:00+11:00",
-                "updated": "2020-12-20T16:32:00+11:00",
+                "created": "2020-12-20T05:56:00+11:00",
+                "updated": "2020-12-20T16:56:00+11:00",
                 "location": "50 Beach St, Harrington,  2427",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 50 Beach St, Harrington,  2427 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2020 16:32",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 50 Beach St, Harrington,  2427 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2020 16:56",
                 "title": "incident: other"
             }
         },
@@ -380,54 +421,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.4885270000001,
-                    -28.905333000999974
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bruxner Hwy, Tabulam",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403103",
-                "created": "2020-12-20T05:06:00+11:00",
-                "updated": "2020-12-20T16:06:00+11:00",
-                "location": "6401 Bruxner Hwy, Tabulam, NSW 2469",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6401 Bruxner Hwy, Tabulam, NSW 2469 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2020 16:06",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.93450200000007,
-                    -29.606255999999973
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Clarence Way, Mountain View",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403096",
-                "created": "2020-12-20T04:34:00+11:00",
-                "updated": "2020-12-20T15:34:00+11:00",
-                "location": "24 Clarence Way, Mountain View, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 24 Clarence Way, Mountain View, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 20 Dec 2020 15:34",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.91154700100003,
                     -31.09541399999995
                 ]
@@ -444,30 +437,6 @@
                 "location": "18-20 Grover St, Mullaley, NSW 2379",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 18-20 Grover St, Mullaley, NSW 2379 <br />COUNCIL AREA: Gunnedah <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2020 11:31",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.78298600000005,
-                    -31.441835999999967
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "James Ralfe Dr, Sancrox",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403099",
-                "created": "2020-12-20T04:35:00+11:00",
-                "updated": "2020-12-20T15:35:00+11:00",
-                "location": "14 James Ralfe Dr, Sancrox, NSW 2446",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 14 James Ralfe Dr, Sancrox, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2020 15:35",
                 "title": "incident: fire"
             }
         },
@@ -612,6 +581,30 @@
                 "location": "186 Robinson Rd, Piallaway, NSW 2342",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 186 Robinson Rd, Piallaway, NSW 2342 <br />COUNCIL AREA: Gunnedah <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2020 11:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.52599500000008,
+                    -33.153494999999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ruttleys Rd, Wyee",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403110",
+                "created": "2020-12-20T05:52:00+11:00",
+                "updated": "2020-12-20T16:52:00+11:00",
+                "location": "26/77 Ruttleys Rd, Wyee, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 26/77 Ruttleys Rd, Wyee, NSW 2259 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2020 16:52",
                 "title": "incident: fire"
             }
         },

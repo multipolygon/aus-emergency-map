@@ -9910,35 +9910,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rodgers St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-20T23:59:00+11:00",
-                "updated": "2020-12-20T23:59:00+11:00",
-                "id": "ESTA:201217573",
-                "location": "Rodgers St, Yarram",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.67488926794246,
-                    -38.56118735184583
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Old Sydney Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-12-21T00:02:01+11:00",
-                "updated": "2020-12-21T00:02:01+11:00",
+                "created": "2020-12-20T23:40:00+11:00",
+                "updated": "2020-12-20T23:58:00+11:00",
                 "id": "ESTA:201217572",
                 "location": "Old Sydney Rd, Beveridge",
                 "size": "Small",
@@ -9948,8 +9925,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.90801966988965,
-                    -37.49508558058895
+                    144.90801008008975,
+                    -37.49508834609314
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Midland Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2020-12-20T22:44:00+11:00",
+                "updated": "2020-12-21T00:16:00+11:00",
+                "id": "ESTA:201217562",
+                "location": "Midland Hwy, Mansfield",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.09369054917886,
+                    -37.02535466065644
                 ]
             }
         },
@@ -27682,23 +27682,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Midland Hwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "under control",
-                "created": "2020-12-20T22:44:00+11:00",
-                "updated": "2020-12-20T23:46:00+11:00",
-                "id": "ESTA:201217562",
-                "location": "Midland Hwy, Mansfield",
+                "sourceTitle": "Rodgers St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-20T23:59:00+11:00",
+                "updated": "2020-12-21T00:04:00+11:00",
+                "id": "ESTA:201217573",
+                "location": "Rodgers St, Yarram",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.09369054917886,
-                    -37.02535466065644
+                    146.67488926794246,
+                    -38.56118735184583
                 ]
             }
         },
@@ -27745,52 +27745,6 @@
                 "coordinates": [
                     147.84524473342248,
                     -37.85776914928671
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-20T22:19:00+11:00",
-                "updated": "2020-12-20T23:12:00+11:00",
-                "id": "ESTA:201217554",
-                "location": "Garfield",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.68879731087193,
-                    -38.07830670243083
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cadles Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-20T22:56:00+11:00",
-                "updated": "2020-12-20T23:11:00+11:00",
-                "id": "ESTA:201217564",
-                "location": "Cadles Rd, Carrum Downs",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.18746080834768,
-                    -38.09499206510725
                 ]
             }
         },
@@ -27883,29 +27837,6 @@
                 "coordinates": [
                     146.53839079277577,
                     -38.19429054933128
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Toorak",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-21T00:01:44+11:00",
-                "updated": "2020-12-21T00:01:44+11:00",
-                "id": "ESTA:201217571",
-                "location": "Toorak, Toorak",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01962137625634,
-                    -37.842358823344945
                 ]
             }
         }

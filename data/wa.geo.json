@@ -364,16 +364,16 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "EAST PERTH",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "responding",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "on scene",
                 "id": "2102154-508985",
                 "created": "2020-12-22T22:34:49+08:00",
-                "updated": "2020-12-22T22:35:13+08:00",
+                "updated": "2020-12-22T22:51:27+08:00",
                 "location": "EAST PERTH",
                 "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
+                "description": "Fire",
+                "title": "incident: fire"
             }
         },
         {
@@ -416,10 +416,10 @@
                 "sourceTitle": "CABLE BEACH",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2102153-508984",
                 "created": "2020-12-22T22:25:54+08:00",
-                "updated": "2020-12-22T22:26:58+08:00",
+                "updated": "2020-12-22T22:51:23+08:00",
                 "location": "CABLE BEACH",
                 "size": "",
                 "description": "Structure Fire",
@@ -482,56 +482,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.86456,
-                    -31.79559
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "LANDSDALE",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "on scene",
-                "id": "2102151-508982",
-                "created": "2020-12-22T22:08:24+08:00",
-                "updated": "2020-12-22T22:18:05+08:00",
-                "location": "LANDSDALE",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.87028,
-                    -31.924166
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "MOUNT LAWLEY",
-                "category": "road crash",
-                "subcategory": "road crash",
-                "status": "on scene",
-                "id": "2102150-508981",
-                "created": "2020-12-22T21:49:25+08:00",
-                "updated": "2020-12-22T21:56:28+08:00",
-                "location": "MOUNT LAWLEY",
-                "size": "",
-                "description": "Road Crash",
-                "title": "incident: road crash"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     116.05,
                     -32.61667
                 ]
@@ -548,6 +498,31 @@
                 "location": "BANKSIADALE",
                 "size": "",
                 "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.876205,
+                    -32.01469
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MANNING",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "id": "2102155-508986",
+                "created": "2020-12-22T22:45:14+08:00",
+                "updated": "2020-12-22T22:46:30+08:00",
+                "location": "MANNING",
+                "size": "",
+                "description": "Structure Fire",
                 "title": "incident: fire"
             }
         },

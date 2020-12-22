@@ -257,31 +257,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.94647,
-                    -32.605408
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "FAIRBRIDGE",
-                "category": "report of smoke",
-                "subcategory": "report of smoke",
-                "status": "monitoring",
-                "id": "2102020-508923",
-                "created": "2020-12-22T10:52:09+08:00",
-                "updated": "2020-12-22T11:15:02+08:00",
-                "location": "FAIRBRIDGE",
-                "size": "",
-                "description": "Report of Smoke",
-                "title": "incident: report of smoke"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     115.86652,
                     -32.01959
                 ]
@@ -319,7 +294,7 @@
                 "status": "monitoring",
                 "id": "2102005-508920",
                 "created": "2020-12-22T09:55:14+08:00",
-                "updated": "2020-12-22T11:41:59+08:00",
+                "updated": "2020-12-22T11:42:20+08:00",
                 "location": "NARRIKUP",
                 "size": "",
                 "description": "Road Crash",
@@ -366,14 +341,39 @@
                 "sourceTitle": "PERTH",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2102032-508925",
                 "created": "2020-12-22T11:37:41+08:00",
-                "updated": "2020-12-22T11:37:59+08:00",
+                "updated": "2020-12-22T11:46:55+08:00",
                 "location": "PERTH",
                 "size": "",
                 "description": "Active Alarm",
                 "title": "incident: active alarm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    116.05,
+                    -32.61667
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BANKSIADALE",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "on scene",
+                "id": "2101897-508874",
+                "created": "2020-12-21T17:42:03+08:00",
+                "updated": "2020-12-22T11:44:42+08:00",
+                "location": "BANKSIADALE",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
             }
         },
         {
@@ -423,6 +423,31 @@
                 "location": "KANOWNA",
                 "size": "",
                 "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.84353,
+                    -32.329514
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BALDIVIS",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "id": "2102037-508927",
+                "created": "2020-12-22T11:57:57+08:00",
+                "updated": "2020-12-22T11:58:40+08:00",
+                "location": "BALDIVIS",
+                "size": "",
+                "description": "Structure Fire",
                 "title": "incident: fire"
             }
         }

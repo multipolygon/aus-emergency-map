@@ -9,64 +9,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            145.0286805504581,
-                            -36.4306413117548
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    144.99589322746104,
-                                    -36.398874938729975
-                                ],
-                                [
-                                    145.0587212914248,
-                                    -36.40053297517639
-                                ],
-                                [
-                                    145.06181119620783,
-                                    -36.46240768477963
-                                ],
-                                [
-                                    144.99554990470835,
-                                    -36.46199350925356
-                                ],
-                                [
-                                    144.99589322746104,
-                                    -36.46171739100664
-                                ],
-                                [
-                                    144.99589322746104,
-                                    -36.398874938729975
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Watch & Act",
-                "category": "watch and act",
-                "subcategory": "fire",
-                "status": "moderate",
-                "created": "2020-12-23T15:10:48+11:00",
-                "updated": "2020-12-23T15:10:50+11:00",
-                "id": "15398",
-                "location": "Cooma, Girgarre, Girgarre East, Kyabram South, Stanhope",
-                "title": "warning: watch and act"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -122,6 +64,64 @@
                 "updated": "2020-12-21T17:08:00+11:00",
                 "id": "15391",
                 "location": "Minimay",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.0286805504581,
+                            -36.4306413117548
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.99589322746104,
+                                    -36.398874938729975
+                                ],
+                                [
+                                    145.0587212914248,
+                                    -36.40053297517639
+                                ],
+                                [
+                                    145.06181119620783,
+                                    -36.46240768477963
+                                ],
+                                [
+                                    144.99554990470835,
+                                    -36.46199350925356
+                                ],
+                                [
+                                    144.99589322746104,
+                                    -36.46171739100664
+                                ],
+                                [
+                                    144.99589322746104,
+                                    -36.398874938729975
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2020-12-23T15:29:54+11:00",
+                "updated": "2020-12-23T15:29:56+11:00",
+                "id": "15399",
+                "location": "Cooma, Girgarre, Girgarre East, Kyabram South, Stanhope",
                 "title": "warning: community update"
             }
         },
@@ -9899,37 +9899,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Murray Goldfields 34 - Girgarre - Mason Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet under control",
-                "created": "2020-12-23T14:38:00+11:00",
-                "updated": "2020-12-23T14:57:00+11:00",
-                "id": "ESTA:201218657",
-                "location": "Girgarre",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02281481743088,
-                    -36.41199164661913
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bell St",
-                "category": "fire",
-                "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2020-12-23T15:01:27+11:00",
-                "updated": "2020-12-23T15:01:27+11:00",
-                "id": "ESTA:201218662",
-                "location": "Bell St, Preston",
+                "created": "2020-12-23T14:50:00+11:00",
+                "updated": "2020-12-23T15:37:00+11:00",
+                "id": 979648,
+                "location": "4.5Km Se Girgarre",
+                "size": "15.00",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0224,
+                    -36.4177
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Queen St",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2020-12-23T15:23:00+11:00",
+                "updated": "2020-12-23T15:27:00+11:00",
+                "id": "ESTA:201218675",
+                "location": "Queen St, Warragul",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.92735786337403,
+                    -38.16268461298089
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ottrey St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2020-12-23T15:23:00+11:00",
+                "updated": "2020-12-23T15:35:00+11:00",
+                "id": "ESTA:201218674",
+                "location": "Ottrey St, Pyramid Hill",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9937,22 +9960,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.01892705903785,
-                    -37.74668052235771
+                    144.11778972948298,
+                    -36.05414414623751
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Marine Pde",
+                "sourceTitle": "Bella Vista Dr",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-23T14:33:00+11:00",
-                "updated": "2020-12-23T14:53:00+11:00",
-                "id": "ESTA:201218654",
-                "location": "Marine Pde, Hastings",
+                "status": "responding",
+                "created": "2020-12-23T15:40:00+11:00",
+                "updated": "2020-12-23T15:40:00+11:00",
+                "id": "ESTA:201218684",
+                "location": "Bella Vista Dr, Tootgarook",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9960,8 +9983,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1975393529002,
-                    -38.30853117704795
+                    144.84931154558737,
+                    -38.37938006822705
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lauderdale Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2020-12-23T15:45:51+11:00",
+                "updated": "2020-12-23T15:45:51+11:00",
+                "id": "ESTA:201218681",
+                "location": "Lauderdale Rd, Narre Warren",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.31055859918905,
+                    -38.02507018916056
                 ]
             }
         },
@@ -9969,67 +10015,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
+                "category": "tree down",
+                "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-12-23T15:05:00+11:00",
-                "updated": "2020-12-23T15:10:00+11:00",
-                "id": "ESTA:201252243",
-                "location": "Yeo",
-                "title": "incident: building damage"
+                "created": "2020-12-23T15:46:00+11:00",
+                "updated": "2020-12-23T15:48:00+11:00",
+                "id": "ESTA:201252244",
+                "location": "Bentleigh East",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.6240748099505,
-                    -38.343064678715635
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rosemary St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-12-23T15:09:54+11:00",
-                "updated": "2020-12-23T15:09:54+11:00",
-                "id": "ESTA:201218665",
-                "location": "Rosemary St, Chadstone",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10479932398414,
-                    -37.88362489456695
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Heidelberg",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-12-23T15:11:25+11:00",
-                "updated": "2020-12-23T15:11:25+11:00",
-                "id": "ESTA:201218664",
-                "location": "Heidelberg, Heidelberg",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06712702066966,
-                    -37.75634025972486
+                    145.06790135057543,
+                    -37.929633461535424
                 ]
             }
         },
@@ -10727,10 +10727,10 @@
                 "sourceTitle": "Kiah Hall Rd, Kiah",
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
-                "status": "out of control",
-                "created": "2020-12-23T14:36:00+11:00",
-                "updated": "2020-12-23T14:36:00+11:00",
-                "id": "2020-12-23T14:36:00.0000000:403296",
+                "status": "under control",
+                "created": "2020-12-23T15:42:00+11:00",
+                "updated": "2020-12-23T15:42:00+11:00",
+                "id": "2020-12-23T15:42:00.0000000:403296",
                 "location": "Kiah Hall Rd, Kiah, Nsw 2551",
                 "title": "incident: other"
             },
@@ -23573,14 +23573,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Masons Lane Girgarre",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2020-12-23T14:52:00+11:00",
-                "updated": "2020-12-23T14:52:00+11:00",
-                "id": "ESTA:201218660",
-                "location": "Strathallan",
+                "subcategory": "bushfire",
+                "status": "not yet under control",
+                "created": "2020-12-23T14:38:00+11:00",
+                "updated": "2020-12-23T15:31:00+11:00",
+                "id": "ESTA:201218657",
+                "location": "Masons Lane Girgarre, Girgarre",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -23588,8 +23588,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.83178299642555,
-                    -36.248675829917666
+                    145.02281481743088,
+                    -36.41199164661913
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ottrey St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-12-23T15:23:00+11:00",
+                "updated": "2020-12-23T15:25:00+11:00",
+                "id": "ESTA:201218676",
+                "location": "Ottrey St, Pyramid Hill",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.11752573556836,
+                    -36.05347088135958
                 ]
             }
         },
@@ -23599,9 +23622,9 @@
                 "sourceTitle": "Uptons Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2020-12-23T14:21:00+11:00",
-                "updated": "2020-12-23T14:51:00+11:00",
+                "updated": "2020-12-23T15:20:00+11:00",
                 "id": "ESTA:201218646",
                 "location": "Uptons Rd, Prairie",
                 "size": "Small",
@@ -23619,37 +23642,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Grand Ridge Rd",
-                "category": "other",
+                "sourceTitle": "Untitled",
+                "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2020-12-23T14:30:00+11:00",
-                "updated": "2020-12-23T14:48:00+11:00",
-                "id": "ESTA:201218652",
-                "location": "Grand Ridge Rd, Balook",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.53546398519697,
-                    -38.4296906215033
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Summerhill Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2020-12-23T15:11:58+11:00",
-                "updated": "2020-12-23T15:11:58+11:00",
-                "id": "ESTA:201218655",
-                "location": "Summerhill Rd, Craigieburn",
+                "created": "2020-12-23T14:52:00+11:00",
+                "updated": "2020-12-23T15:19:00+11:00",
+                "id": "ESTA:201218660",
+                "location": "Strathallan",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -23657,77 +23657,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94681523101866,
-                    -37.570170722413444
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "other",
-                "subcategory": "other",
-                "status": "request for assistance",
-                "created": "2020-12-23T14:24:00+11:00",
-                "updated": "2020-12-23T14:51:00+11:00",
-                "id": "ESTA:201218649",
-                "location": "Balook",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.53546398519697,
-                    -38.4296906215033
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Upper Taminick Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-12-23T15:12:04+11:00",
-                "updated": "2020-12-23T15:12:04+11:00",
-                "id": "ESTA:201218632",
-                "location": "Upper Taminick Rd, Taminick",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.19651106137746,
-                    -36.44317297335151
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Balmoral St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-23T14:16:00+11:00",
-                "updated": "2020-12-23T14:25:00+11:00",
-                "id": "ESTA:201218644",
-                "location": "Balmoral St, Frankston",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12524485751993,
-                    -38.142723100528016
+                    144.83178299642555,
+                    -36.248675829917666
                 ]
             }
         },
@@ -23737,9 +23668,9 @@
                 "sourceTitle": "Squadron Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-23T14:39:07+11:00",
-                "updated": "2020-12-23T14:39:07+11:00",
+                "status": "safe",
+                "created": "2020-12-23T12:00:00+11:00",
+                "updated": "2020-12-23T15:16:00+11:00",
                 "id": "ESTA:201218590",
                 "location": "Squadron Rd, Point Cook",
                 "size": "Small",
@@ -23749,8 +23680,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.76326035813165,
-                    -37.91451190949427
+                    144.7632585104385,
+                    -37.9145208935232
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Marine Pde",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-23T14:33:00+11:00",
+                "updated": "2020-12-23T14:53:00+11:00",
+                "id": "ESTA:201218654",
+                "location": "Marine Pde, Hastings",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1975393529002,
+                    -38.30853117704795
                 ]
             }
         },
@@ -23849,23 +23803,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Geelong Rd",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Summerhill Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-12-23T15:04:12+11:00",
-                "updated": "2020-12-23T15:04:12+11:00",
-                "id": "ESTA:201218663",
-                "location": "Geelong Rd, Footscray",
+                "created": "2020-12-23T14:35:00+11:00",
+                "updated": "2020-12-23T15:35:00+11:00",
+                "id": "ESTA:201218655",
+                "location": "Summerhill Rd, Craigieburn",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.88861580370147,
-                    -37.80090770978751
+                    144.9468065500649,
+                    -37.570173273095406
                 ]
             }
         },
@@ -23876,8 +23830,8 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2020-12-23T14:42:35+11:00",
-                "updated": "2020-12-23T14:42:35+11:00",
+                "created": "2020-12-23T15:36:45+11:00",
+                "updated": "2020-12-23T15:36:45+11:00",
                 "id": "ESTA:201218656",
                 "location": "Clayton Rd, Clayton South",
                 "size": "Small",
@@ -23889,51 +23843,6 @@
                 "coordinates": [
                     145.1170130434215,
                     -37.93799599891858
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Francis St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2020-12-23T14:48:21+11:00",
-                "updated": "2020-12-23T14:48:21+11:00",
-                "id": "ESTA:201218658",
-                "location": "Francis St, Belmont",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.34746605960976,
-                    -38.18428802788962
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2020-12-23T14:46:00+11:00",
-                "updated": "2020-12-23T15:02:00+11:00",
-                "id": "ESTA:201252240",
-                "location": "Frankston South",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1505145809253,
-                    -38.18897446884945
                 ]
             }
         },

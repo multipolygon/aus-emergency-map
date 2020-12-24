@@ -9922,14 +9922,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Grano St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-25T09:14:00+11:00",
+                "updated": "2020-12-25T09:22:00+11:00",
+                "id": "ESTA:201252311",
+                "location": "Highett",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02383295094285,
+                    -37.95101603701771
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "North Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "under control",
-                "created": "2020-12-25T08:26:00+11:00",
-                "updated": "2020-12-25T08:44:00+11:00",
-                "id": "ESTA:201219285",
-                "location": "Grano St, Ararat",
+                "status": "safe",
+                "created": "2020-12-25T09:10:00+11:00",
+                "updated": "2020-12-25T09:20:00+11:00",
+                "id": "ESTA:201219297",
+                "location": "North Rd, Pearcedale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9937,22 +9959,45 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.94165387367542,
-                    -37.28177138367028
+                    145.22273140078173,
+                    -38.169291384414436
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Albert Ct",
+                "sourceTitle": "Seaspray Av",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-25T08:20:00+11:00",
+                "updated": "2020-12-25T08:42:00+11:00",
+                "id": "ESTA:201219284",
+                "location": "Seaspray Av, Cape Woolamai",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34261657865693,
+                    -38.52495319435296
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Simpson St",
+                "category": "fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2020-12-25T08:56:21+11:00",
-                "updated": "2020-12-25T08:56:21+11:00",
-                "id": "ESTA:201219291",
-                "location": "Albert Ct, Epping",
+                "created": "2020-12-25T09:25:00+11:00",
+                "updated": "2020-12-25T09:25:00+11:00",
+                "id": "ESTA:201219300",
+                "location": "Simpson St, Bacchus Marsh",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9960,31 +10005,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0291422200788,
-                    -37.63599370039255
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Station St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2020-12-25T08:41:50+11:00",
-                "updated": "2020-12-25T08:41:50+11:00",
-                "id": "ESTA:201219289",
-                "location": "Station St, Mentone",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06615614827345,
-                    -37.98258654977539
+                    144.44184317253388,
+                    -37.67831657095741
                 ]
             }
         },
@@ -23040,14 +23062,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Seaspray Av",
+                "sourceTitle": "Albert Ct",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2020-12-25T08:20:00+11:00",
-                "updated": "2020-12-25T08:42:00+11:00",
-                "id": "ESTA:201219284",
-                "location": "Seaspray Av, Cape Woolamai",
+                "created": "2020-12-25T08:51:00+11:00",
+                "updated": "2020-12-25T09:11:00+11:00",
+                "id": "ESTA:201219291",
+                "location": "Albert Ct, Epping",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -23055,8 +23077,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.34261657865693,
-                    -38.52495319435296
+                    145.029138118498,
+                    -37.63599576398769
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grano St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2020-12-25T08:26:00+11:00",
+                "updated": "2020-12-25T09:08:00+11:00",
+                "id": "ESTA:201219285",
+                "location": "Grano St, Ararat",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.94165387367542,
+                    -37.28177138367028
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Station St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2020-12-25T09:24:17+11:00",
+                "updated": "2020-12-25T09:24:17+11:00",
+                "id": "ESTA:201219289",
+                "location": "Station St, Mentone",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06615614827345,
+                    -37.98258654977539
                 ]
             }
         }

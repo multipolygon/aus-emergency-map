@@ -9991,14 +9991,59 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Geelong Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
+                "sourceTitle": "Hamilton St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2020-12-27T02:26:32+11:00",
-                "updated": "2020-12-27T02:26:32+11:00",
-                "id": "ESTA:201219921",
-                "location": "Geelong Rd, Canadian",
+                "created": "2020-12-27T02:45:00+11:00",
+                "updated": "2020-12-27T02:45:00+11:00",
+                "id": "ESTA:201219924",
+                "location": "Hamilton St, Horsham",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.19846088142904,
+                    -36.718060948539
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2020-12-27T02:51:00+11:00",
+                "updated": "2020-12-27T02:51:00+11:00",
+                "id": "ESTA:201252396",
+                "location": "Kilsyth South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3017669967113,
+                    -37.83511836343514
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Miller St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2020-12-27T02:40:00+11:00",
+                "updated": "2020-12-27T02:54:00+11:00",
+                "id": "ESTA:201219923",
+                "location": "Miller St, Colac",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10006,8 +10051,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.86659512047243,
-                    -37.59009821300043
+                    143.58133110319596,
+                    -38.341734403961546
                 ]
             }
         },
@@ -10017,9 +10062,9 @@
                 "sourceTitle": "Roberts Lane",
                 "category": "rescue",
                 "subcategory": "rescue",
-                "status": "responding",
+                "status": "safe",
                 "created": "2020-12-27T02:21:00+11:00",
-                "updated": "2020-12-27T02:21:00+11:00",
+                "updated": "2020-12-27T02:49:00+11:00",
                 "id": "ESTA:201219920",
                 "location": "Roberts Lane, Kyvalley",
                 "size": "Small",
@@ -10031,51 +10076,6 @@
                 "coordinates": [
                     145.0248247124007,
                     -36.29283536586615
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Toward St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2020-12-27T02:28:26+11:00",
-                "updated": "2020-12-27T02:28:26+11:00",
-                "id": "ESTA:201219922",
-                "location": "Toward St, Murrumbeena",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06951063929023,
-                    -37.892525112563106
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-12-27T01:18:00+11:00",
-                "updated": "2020-12-27T02:33:00+11:00",
-                "id": "ESTA:201252395",
-                "location": "Yarrawonga South",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.9954400495935,
-                    -36.0699598469716
                 ]
             }
         },
@@ -16700,10 +16700,10 @@
                 "sourceTitle": "Table Top Rd, Table Top",
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
-                "status": "out of control",
-                "created": "2020-12-27T02:25:00+11:00",
-                "updated": "2020-12-27T02:25:00+11:00",
-                "id": "2020-12-27T02:25:00.0000000:403523",
+                "status": "under control",
+                "created": "2020-12-27T02:29:00+11:00",
+                "updated": "2020-12-27T02:29:00+11:00",
+                "id": "2020-12-27T02:29:00.0000000:403523",
                 "location": "Table Top Rd, Table Top, Nsw 2640",
                 "title": "incident: other"
             },
@@ -22187,6 +22187,176 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Snowy 3 - Marlo  - Marlo Plains Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-10-21T11:00:00+11:00",
+                "updated": "2020-10-21T11:00:00+11:00",
+                "id": "2782598ee076638262f098184bf7aec7",
+                "location": "Snowy 3 - Marlo  - Marlo Plains Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            148.6381,
+                            -37.7995
+                        ],
+                        [
+                            148.6382,
+                            -37.7995
+                        ],
+                        [
+                            148.6382,
+                            -37.8007
+                        ],
+                        [
+                            148.6385,
+                            -37.8006
+                        ],
+                        [
+                            148.6403,
+                            -37.8005
+                        ],
+                        [
+                            148.6406,
+                            -37.8006
+                        ],
+                        [
+                            148.641,
+                            -37.8006
+                        ],
+                        [
+                            148.6414,
+                            -37.8006
+                        ],
+                        [
+                            148.642,
+                            -37.8005
+                        ],
+                        [
+                            148.6426,
+                            -37.8005
+                        ],
+                        [
+                            148.6431,
+                            -37.8005
+                        ],
+                        [
+                            148.6433,
+                            -37.8005
+                        ],
+                        [
+                            148.6442,
+                            -37.8005
+                        ],
+                        [
+                            148.645,
+                            -37.8004
+                        ],
+                        [
+                            148.6452,
+                            -37.8004
+                        ],
+                        [
+                            148.6458,
+                            -37.8004
+                        ],
+                        [
+                            148.6477,
+                            -37.8003
+                        ],
+                        [
+                            148.6482,
+                            -37.8003
+                        ],
+                        [
+                            148.6482,
+                            -37.8004
+                        ],
+                        [
+                            148.6477,
+                            -37.8005
+                        ],
+                        [
+                            148.6461,
+                            -37.8006
+                        ],
+                        [
+                            148.6459,
+                            -37.8007
+                        ],
+                        [
+                            148.6453,
+                            -37.8007
+                        ],
+                        [
+                            148.6448,
+                            -37.8008
+                        ],
+                        [
+                            148.6446,
+                            -37.8008
+                        ],
+                        [
+                            148.6428,
+                            -37.8009
+                        ],
+                        [
+                            148.6424,
+                            -37.801
+                        ],
+                        [
+                            148.6418,
+                            -37.801
+                        ],
+                        [
+                            148.641,
+                            -37.8011
+                        ],
+                        [
+                            148.6403,
+                            -37.8012
+                        ],
+                        [
+                            148.6396,
+                            -37.8012
+                        ],
+                        [
+                            148.6386,
+                            -37.8013
+                        ],
+                        [
+                            148.6383,
+                            -37.8013
+                        ],
+                        [
+                            148.6382,
+                            -37.8008
+                        ],
+                        [
+                            148.638,
+                            -37.8008
+                        ],
+                        [
+                            148.6381,
+                            -37.8001
+                        ],
+                        [
+                            148.6381,
+                            -37.7995
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Crofts Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -22850,176 +23020,6 @@
                         [
                             144.6336,
                             -36.5478
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Snowy 3 - Marlo  - Marlo Plains Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-10-21T11:00:00+11:00",
-                "updated": "2020-10-21T11:00:00+11:00",
-                "id": "2782598ee076638262f098184bf7aec7",
-                "location": "Snowy 3 - Marlo  - Marlo Plains Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            148.6381,
-                            -37.7995
-                        ],
-                        [
-                            148.6382,
-                            -37.7995
-                        ],
-                        [
-                            148.6382,
-                            -37.8007
-                        ],
-                        [
-                            148.6385,
-                            -37.8006
-                        ],
-                        [
-                            148.6403,
-                            -37.8005
-                        ],
-                        [
-                            148.6406,
-                            -37.8006
-                        ],
-                        [
-                            148.641,
-                            -37.8006
-                        ],
-                        [
-                            148.6414,
-                            -37.8006
-                        ],
-                        [
-                            148.642,
-                            -37.8005
-                        ],
-                        [
-                            148.6426,
-                            -37.8005
-                        ],
-                        [
-                            148.6431,
-                            -37.8005
-                        ],
-                        [
-                            148.6433,
-                            -37.8005
-                        ],
-                        [
-                            148.6442,
-                            -37.8005
-                        ],
-                        [
-                            148.645,
-                            -37.8004
-                        ],
-                        [
-                            148.6452,
-                            -37.8004
-                        ],
-                        [
-                            148.6458,
-                            -37.8004
-                        ],
-                        [
-                            148.6477,
-                            -37.8003
-                        ],
-                        [
-                            148.6482,
-                            -37.8003
-                        ],
-                        [
-                            148.6482,
-                            -37.8004
-                        ],
-                        [
-                            148.6477,
-                            -37.8005
-                        ],
-                        [
-                            148.6461,
-                            -37.8006
-                        ],
-                        [
-                            148.6459,
-                            -37.8007
-                        ],
-                        [
-                            148.6453,
-                            -37.8007
-                        ],
-                        [
-                            148.6448,
-                            -37.8008
-                        ],
-                        [
-                            148.6446,
-                            -37.8008
-                        ],
-                        [
-                            148.6428,
-                            -37.8009
-                        ],
-                        [
-                            148.6424,
-                            -37.801
-                        ],
-                        [
-                            148.6418,
-                            -37.801
-                        ],
-                        [
-                            148.641,
-                            -37.8011
-                        ],
-                        [
-                            148.6403,
-                            -37.8012
-                        ],
-                        [
-                            148.6396,
-                            -37.8012
-                        ],
-                        [
-                            148.6386,
-                            -37.8013
-                        ],
-                        [
-                            148.6383,
-                            -37.8013
-                        ],
-                        [
-                            148.6382,
-                            -37.8008
-                        ],
-                        [
-                            148.638,
-                            -37.8008
-                        ],
-                        [
-                            148.6381,
-                            -37.8001
-                        ],
-                        [
-                            148.6381,
-                            -37.7995
                         ]
                     ]
                 ]
@@ -29772,8 +29772,8 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2020-12-27T02:04:10+11:00",
-                "updated": "2020-12-27T02:04:10+11:00",
+                "created": "2020-12-27T02:53:10+11:00",
+                "updated": "2020-12-27T02:53:10+11:00",
                 "id": "ESTA:201219913",
                 "location": "Mount Pleasant, Mount Pleasant",
                 "size": "Small",

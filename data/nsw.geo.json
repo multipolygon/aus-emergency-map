@@ -76,10 +76,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.86854600000004,
-                    -35.98557999999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.86854600000004,
+                            -35.98557999999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.869205914,
+                                            -35.988230428
+                                        ],
+                                        [
+                                            146.868386252,
+                                            -35.989016334
+                                        ],
+                                        [
+                                            146.867973039,
+                                            -35.9887512779999
+                                        ],
+                                        [
+                                            146.867349555,
+                                            -35.987885219
+                                        ],
+                                        [
+                                            146.867456879,
+                                            -35.986783889
+                                        ],
+                                        [
+                                            146.868336256,
+                                            -35.987206774
+                                        ],
+                                        [
+                                            146.869205914,
+                                            -35.988230428
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -87,13 +132,13 @@
                 "sourceTitle": "Mulgrave Rd, Jindera",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403553",
-                "created": "2020-12-27T02:04:00+11:00",
-                "updated": "2020-12-27T13:04:00+11:00",
+                "created": "2020-12-27T02:20:00+11:00",
+                "updated": "2020-12-27T13:20:00+11:00",
                 "location": "65 Mulgrave Rd, Jindera, NSW 2642",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 65 Mulgrave Rd, Jindera, NSW 2642 <br />COUNCIL AREA: Greater Hume <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Dec 2020 13:04",
+                "size": 2,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 65 Mulgrave Rd, Jindera, NSW 2642 <br />COUNCIL AREA: Greater Hume <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Dec 2020 13:20",
                 "title": "incident: fire"
             }
         },
@@ -174,6 +219,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    146.51569100000006,
+                    -34.78433299899996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Newell Hwy, Gillenbah",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403556",
+                "created": "2020-12-27T02:48:00+11:00",
+                "updated": "2020-12-27T13:48:00+11:00",
+                "location": "Newell Hwy, Gillenbah, NSW 2700",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Newell Hwy, Gillenbah, NSW 2700 <br />COUNCIL AREA: Narrandera <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Dec 2020 13:48",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.1756130000001,
                     -34.466507999999976
                 ]
@@ -183,13 +252,13 @@
                 "sourceTitle": "Olympic Hwy, Wombat",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403554",
-                "created": "2020-12-27T02:02:00+11:00",
-                "updated": "2020-12-27T13:02:00+11:00",
+                "created": "2020-12-27T02:25:00+11:00",
+                "updated": "2020-12-27T13:25:00+11:00",
                 "location": "Olympic Hwy, Wombat, NSW 2587",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Olympic Hwy, Wombat, NSW 2587 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Dec 2020 13:02",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Olympic Hwy, Wombat, NSW 2587 <br />COUNCIL AREA: Hilltops <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Dec 2020 13:25",
                 "title": "incident: other"
             }
         },
@@ -198,22 +267,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.21831750800004,
-                    -35.82611235199994
+                    151.61449400100003,
+                    -33.115043999999955
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "SES Support, Guerilla Bay",
+                "sourceTitle": "Shoreside Row, Murrays Beach",
                 "category": "other",
                 "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403536",
-                "created": "2020-12-27T01:52:00+11:00",
-                "updated": "2020-12-27T12:52:00+11:00",
-                "location": "Burri Pt Rd, Guerilla Bay",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403555",
+                "created": "2020-12-27T02:30:00+11:00",
+                "updated": "2020-12-27T13:30:00+11:00",
+                "location": "Shoreside Row, Murrays Beach, NSW 2281",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Burri Pt Rd, Guerilla Bay <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 27 Dec 2020 12:52",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Shoreside Row, Murrays Beach, NSW 2281 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Dec 2020 13:30",
                 "title": "incident: other"
             }
         },
@@ -310,30 +379,6 @@
                 "location": "Wyee Rd, Wyee,  2259",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wyee Rd, Wyee,  2259 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Dec 2020 12:03",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.81796900000006,
-                    -36.98451199999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Yowaka River Trl, Lochiel",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403540",
-                "created": "2020-12-27T00:15:00+11:00",
-                "updated": "2020-12-27T11:15:00+11:00",
-                "location": "Yowaka River Trl, Lochiel, NSW 2549",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Yowaka River Trl, Lochiel, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Being controlled <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Dec 2020 11:15",
                 "title": "incident: other"
             }
         }

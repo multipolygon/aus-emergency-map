@@ -10541,6 +10541,52 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Byrneside-Gillieston Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-12-28T03:44:00+11:00",
+                "updated": "2020-12-28T03:44:00+11:00",
+                "id": "ESTA:201220359",
+                "location": "Byrneside-Gillieston Rd, Merrigum",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18669082898464,
+                    -36.334720136325096
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tereddan Dr",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2020-12-28T03:57:56+11:00",
+                "updated": "2020-12-28T03:57:56+11:00",
+                "id": "ESTA:201220360",
+                "location": "Tereddan Dr, Kilsyth South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3179690120457,
+                    -37.829919969575755
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -12198,118 +12244,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Midlands 11 - Mt Clear -Katy R",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-10-04T11:00:00+11:00",
-                "updated": "2020-10-04T11:00:00+11:00",
-                "id": "eed538965f36a7786be95e16a52a7a6b",
-                "location": "Midlands 11 - Mt Clear -Katy R",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.9002,
-                            -37.5926
-                        ],
-                        [
-                            143.9008,
-                            -37.5927
-                        ],
-                        [
-                            143.9006,
-                            -37.5928
-                        ],
-                        [
-                            143.9004,
-                            -37.5928
-                        ],
-                        [
-                            143.9003,
-                            -37.5928
-                        ],
-                        [
-                            143.9003,
-                            -37.5927
-                        ],
-                        [
-                            143.9002,
-                            -37.5927
-                        ],
-                        [
-                            143.9002,
-                            -37.5926
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-27T11:00:00+11:00",
-                "updated": "2020-11-27T11:00:00+11:00",
-                "id": "13b3bba9db2e4ad0f7264d73a4dd1dc8",
-                "location": "Fire - Rupanyup - Barkers Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.6396,
-                            -36.567
-                        ],
-                        [
-                            142.6418,
-                            -36.5678
-                        ],
-                        [
-                            142.6427,
-                            -36.5682
-                        ],
-                        [
-                            142.6424,
-                            -36.5683
-                        ],
-                        [
-                            142.6418,
-                            -36.5683
-                        ],
-                        [
-                            142.6404,
-                            -36.5675
-                        ],
-                        [
-                            142.6397,
-                            -36.5672
-                        ],
-                        [
-                            142.6397,
-                            -36.5672
-                        ],
-                        [
-                            142.6396,
-                            -36.567
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Boundary Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -12733,6 +12667,60 @@
                         [
                             145.3894,
                             -37.9826
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Midlands 11 - Mt Clear -Katy R",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-10-04T11:00:00+11:00",
+                "updated": "2020-10-04T11:00:00+11:00",
+                "id": "eed538965f36a7786be95e16a52a7a6b",
+                "location": "Midlands 11 - Mt Clear -Katy R",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.9002,
+                            -37.5926
+                        ],
+                        [
+                            143.9008,
+                            -37.5927
+                        ],
+                        [
+                            143.9006,
+                            -37.5928
+                        ],
+                        [
+                            143.9004,
+                            -37.5928
+                        ],
+                        [
+                            143.9003,
+                            -37.5928
+                        ],
+                        [
+                            143.9003,
+                            -37.5927
+                        ],
+                        [
+                            143.9002,
+                            -37.5927
+                        ],
+                        [
+                            143.9002,
+                            -37.5926
                         ]
                     ]
                 ]
@@ -13453,64 +13441,6 @@
                         [
                             141.5083,
                             -35.1284
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-27T11:00:00+11:00",
-                "updated": "2020-11-27T11:00:00+11:00",
-                "id": "be621c2d560160b7d87d9e32a1994259",
-                "location": "Fire - Rupanyup - Barkers Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.635,
-                            -36.5655
-                        ],
-                        [
-                            142.637,
-                            -36.5661
-                        ],
-                        [
-                            142.6377,
-                            -36.5664
-                        ],
-                        [
-                            142.6376,
-                            -36.5666
-                        ],
-                        [
-                            142.6372,
-                            -36.5666
-                        ],
-                        [
-                            142.6357,
-                            -36.566
-                        ],
-                        [
-                            142.6352,
-                            -36.5657
-                        ],
-                        [
-                            142.635,
-                            -36.5656
-                        ],
-                        [
-                            142.635,
-                            -36.5655
                         ]
                     ]
                 ]
@@ -14315,6 +14245,122 @@
                         [
                             144.2152,
                             -36.7104
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-27T11:00:00+11:00",
+                "updated": "2020-11-27T11:00:00+11:00",
+                "id": "13b3bba9db2e4ad0f7264d73a4dd1dc8",
+                "location": "Fire - Rupanyup - Barkers Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.6396,
+                            -36.567
+                        ],
+                        [
+                            142.6418,
+                            -36.5678
+                        ],
+                        [
+                            142.6427,
+                            -36.5682
+                        ],
+                        [
+                            142.6424,
+                            -36.5683
+                        ],
+                        [
+                            142.6418,
+                            -36.5683
+                        ],
+                        [
+                            142.6404,
+                            -36.5675
+                        ],
+                        [
+                            142.6397,
+                            -36.5672
+                        ],
+                        [
+                            142.6397,
+                            -36.5672
+                        ],
+                        [
+                            142.6396,
+                            -36.567
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-27T11:00:00+11:00",
+                "updated": "2020-11-27T11:00:00+11:00",
+                "id": "be621c2d560160b7d87d9e32a1994259",
+                "location": "Fire - Rupanyup - Barkers Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.635,
+                            -36.5655
+                        ],
+                        [
+                            142.637,
+                            -36.5661
+                        ],
+                        [
+                            142.6377,
+                            -36.5664
+                        ],
+                        [
+                            142.6376,
+                            -36.5666
+                        ],
+                        [
+                            142.6372,
+                            -36.5666
+                        ],
+                        [
+                            142.6357,
+                            -36.566
+                        ],
+                        [
+                            142.6352,
+                            -36.5657
+                        ],
+                        [
+                            142.635,
+                            -36.5656
+                        ],
+                        [
+                            142.635,
+                            -36.5655
                         ]
                     ]
                 ]
@@ -17970,190 +18016,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-01T11:00:00+11:00",
-                "updated": "2020-11-01T11:00:00+11:00",
-                "id": "4f457559c264928f38adfb1be6433cd8",
-                "location": "Metropolitan 4 - Frankston North - Panorma Track",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            145.1678,
-                            -38.1283
-                        ],
-                        [
-                            145.1677,
-                            -38.1283
-                        ],
-                        [
-                            145.1677,
-                            -38.1283
-                        ],
-                        [
-                            145.1676,
-                            -38.1282
-                        ],
-                        [
-                            145.1677,
-                            -38.1281
-                        ],
-                        [
-                            145.1677,
-                            -38.1281
-                        ],
-                        [
-                            145.1678,
-                            -38.128
-                        ],
-                        [
-                            145.1679,
-                            -38.128
-                        ],
-                        [
-                            145.168,
-                            -38.128
-                        ],
-                        [
-                            145.168,
-                            -38.1281
-                        ],
-                        [
-                            145.1679,
-                            -38.1282
-                        ],
-                        [
-                            145.1678,
-                            -38.1283
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Metropolitan 6 - Truganina - Stowe Lane",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-02T11:00:00+11:00",
-                "updated": "2020-12-02T11:00:00+11:00",
-                "id": "78e8cf9953998edf1bf78c5b0509f5ba",
-                "location": "Metropolitan 6 - Truganina - Stowe Lane",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.7347,
-                            -37.8459
-                        ],
-                        [
-                            144.7352,
-                            -37.8462
-                        ],
-                        [
-                            144.7353,
-                            -37.8465
-                        ],
-                        [
-                            144.7351,
-                            -37.8467
-                        ],
-                        [
-                            144.7352,
-                            -37.8475
-                        ],
-                        [
-                            144.7353,
-                            -37.8477
-                        ],
-                        [
-                            144.7355,
-                            -37.8482
-                        ],
-                        [
-                            144.7352,
-                            -37.8498
-                        ],
-                        [
-                            144.7351,
-                            -37.8498
-                        ],
-                        [
-                            144.7341,
-                            -37.8495
-                        ],
-                        [
-                            144.7336,
-                            -37.8491
-                        ],
-                        [
-                            144.7335,
-                            -37.8486
-                        ],
-                        [
-                            144.7333,
-                            -37.8485
-                        ],
-                        [
-                            144.7331,
-                            -37.8482
-                        ],
-                        [
-                            144.7334,
-                            -37.8484
-                        ],
-                        [
-                            144.7336,
-                            -37.848
-                        ],
-                        [
-                            144.7351,
-                            -37.848
-                        ],
-                        [
-                            144.7352,
-                            -37.8476
-                        ],
-                        [
-                            144.7345,
-                            -37.8471
-                        ],
-                        [
-                            144.7345,
-                            -37.8467
-                        ],
-                        [
-                            144.734,
-                            -37.8461
-                        ],
-                        [
-                            144.7344,
-                            -37.8457
-                        ],
-                        [
-                            144.7347,
-                            -37.8459
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Fire - Duchembegarra Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -18479,6 +18341,190 @@
                         [
                             148.6381,
                             -37.7995
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Metropolitan 4 - Frankston North - Panorma Track",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-01T11:00:00+11:00",
+                "updated": "2020-11-01T11:00:00+11:00",
+                "id": "4f457559c264928f38adfb1be6433cd8",
+                "location": "Metropolitan 4 - Frankston North - Panorma Track",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.1678,
+                            -38.1283
+                        ],
+                        [
+                            145.1677,
+                            -38.1283
+                        ],
+                        [
+                            145.1677,
+                            -38.1283
+                        ],
+                        [
+                            145.1676,
+                            -38.1282
+                        ],
+                        [
+                            145.1677,
+                            -38.1281
+                        ],
+                        [
+                            145.1677,
+                            -38.1281
+                        ],
+                        [
+                            145.1678,
+                            -38.128
+                        ],
+                        [
+                            145.1679,
+                            -38.128
+                        ],
+                        [
+                            145.168,
+                            -38.128
+                        ],
+                        [
+                            145.168,
+                            -38.1281
+                        ],
+                        [
+                            145.1679,
+                            -38.1282
+                        ],
+                        [
+                            145.1678,
+                            -38.1283
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Metropolitan 6 - Truganina - Stowe Lane",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-02T11:00:00+11:00",
+                "updated": "2020-12-02T11:00:00+11:00",
+                "id": "78e8cf9953998edf1bf78c5b0509f5ba",
+                "location": "Metropolitan 6 - Truganina - Stowe Lane",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.7347,
+                            -37.8459
+                        ],
+                        [
+                            144.7352,
+                            -37.8462
+                        ],
+                        [
+                            144.7353,
+                            -37.8465
+                        ],
+                        [
+                            144.7351,
+                            -37.8467
+                        ],
+                        [
+                            144.7352,
+                            -37.8475
+                        ],
+                        [
+                            144.7353,
+                            -37.8477
+                        ],
+                        [
+                            144.7355,
+                            -37.8482
+                        ],
+                        [
+                            144.7352,
+                            -37.8498
+                        ],
+                        [
+                            144.7351,
+                            -37.8498
+                        ],
+                        [
+                            144.7341,
+                            -37.8495
+                        ],
+                        [
+                            144.7336,
+                            -37.8491
+                        ],
+                        [
+                            144.7335,
+                            -37.8486
+                        ],
+                        [
+                            144.7333,
+                            -37.8485
+                        ],
+                        [
+                            144.7331,
+                            -37.8482
+                        ],
+                        [
+                            144.7334,
+                            -37.8484
+                        ],
+                        [
+                            144.7336,
+                            -37.848
+                        ],
+                        [
+                            144.7351,
+                            -37.848
+                        ],
+                        [
+                            144.7352,
+                            -37.8476
+                        ],
+                        [
+                            144.7345,
+                            -37.8471
+                        ],
+                        [
+                            144.7345,
+                            -37.8467
+                        ],
+                        [
+                            144.734,
+                            -37.8461
+                        ],
+                        [
+                            144.7344,
+                            -37.8457
+                        ],
+                        [
+                            144.7347,
+                            -37.8459
                         ]
                     ]
                 ]
@@ -25229,35 +25275,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mckenzie St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-28T02:22:00+11:00",
-                "updated": "2020-12-28T02:50:00+11:00",
-                "id": "ESTA:201220356",
-                "location": "Mckenzie St, Echuca",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7422593115876,
-                    -36.13948769929821
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
                 "status": "on scene",
                 "created": "2020-12-28T00:54:00+11:00",
-                "updated": "2020-12-28T01:53:00+11:00",
+                "updated": "2020-12-28T03:39:00+11:00",
                 "id": "ESTA:201220347",
                 "location": "Bendoc",
                 "size": "Small",
@@ -25321,14 +25344,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Maxwell St",
+                "sourceTitle": "Brunswick Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2020-12-28T02:25:28+11:00",
-                "updated": "2020-12-28T02:25:28+11:00",
-                "id": "ESTA:201220331",
-                "location": "Maxwell St, Mornington",
+                "status": "under control",
+                "created": "2020-12-28T03:42:17+11:00",
+                "updated": "2020-12-28T03:42:17+11:00",
+                "id": "ESTA:201220357",
+                "location": "Brunswick Rd, Brunswick West",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -25336,8 +25359,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.04158798034342,
-                    -38.24281638834929
+                    144.94602388869825,
+                    -37.775214307538974
                 ]
             }
         },
@@ -25371,18 +25394,18 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2020-12-28T02:59:00+11:00",
-                "updated": "2020-12-28T02:58:50+11:00",
-                "id": "ESTA:201253090",
-                "location": "Butchers Ridge",
+                "created": "2020-12-28T03:41:00+11:00",
+                "updated": "2020-12-28T03:55:00+11:00",
+                "id": "ESTA:201253091",
+                "location": "Delacombe",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.2591362319046,
-                    -37.234793932941216
+                    143.8084205347014,
+                    -37.58123227035748
                 ]
             }
         },
@@ -25415,28 +25438,6 @@
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2020-12-28T00:22:00+11:00",
-                "updated": "2020-12-28T00:26:00+11:00",
-                "id": "ESTA:201253084",
-                "location": "Endeavour Hills",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26575682240048,
-                    -37.96111340938542
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
                 "created": "2020-12-28T00:24:00+11:00",
                 "updated": "2020-12-28T00:26:00+11:00",
                 "id": "ESTA:201253085",
@@ -25449,6 +25450,28 @@
                 "coordinates": [
                     145.26609076553368,
                     -37.96143375121842
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-12-28T00:22:00+11:00",
+                "updated": "2020-12-28T00:24:00+11:00",
+                "id": "ESTA:201253084",
+                "location": "Endeavour Hills",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26575682240048,
+                    -37.96111340938542
                 ]
             }
         },

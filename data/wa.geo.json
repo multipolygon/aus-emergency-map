@@ -82,6 +82,31 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    115.74944,
+                    -32.05526
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "FREMANTLE",
+                "category": "incident",
+                "subcategory": "incident",
+                "status": "on scene",
+                "id": "2103051-509487",
+                "created": "2020-12-27T23:03:18+08:00",
+                "updated": "2020-12-27T23:15:06+08:00",
+                "location": "FREMANTLE",
+                "size": "",
+                "description": "Incident",
+                "title": "incident: incident"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     116.08347,
                     -32.2863
                 ]
@@ -149,31 +174,6 @@
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.96932,
-                    -32.024807
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BECKENHAM",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "on scene",
-                "id": "2103049-509485",
-                "created": "2020-12-27T22:38:56+08:00",
-                "updated": "2020-12-27T22:46:32+08:00",
-                "location": "BECKENHAM",
-                "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
             }
         },
         {
@@ -291,10 +291,10 @@
                 "sourceTitle": "WELLINGTON FOREST",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "on scene",
+                "status": "monitoring",
                 "id": "2103044-509480",
                 "created": "2020-12-27T21:33:33+08:00",
-                "updated": "2020-12-27T21:45:33+08:00",
+                "updated": "2020-12-27T23:04:53+08:00",
                 "location": "WELLINGTON FOREST",
                 "size": "",
                 "description": "Bushfire",
@@ -398,6 +398,56 @@
                 "location": "NOWERGUP",
                 "size": "",
                 "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    121.89158,
+                    -33.842052
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CHADWICK",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "id": "2103050-509486",
+                "created": "2020-12-27T23:00:47+08:00",
+                "updated": "2020-12-27T23:01:53+08:00",
+                "location": "CHADWICK",
+                "size": "",
+                "description": "Structure Fire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    118.60538,
+                    -20.407955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "SOUTH HEDLAND",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "id": "2103052-509488",
+                "created": "2020-12-27T23:17:02+08:00",
+                "updated": "2020-12-27T23:20:30+08:00",
+                "location": "SOUTH HEDLAND",
+                "size": "",
+                "description": "Structure Fire",
                 "title": "incident: fire"
             }
         },

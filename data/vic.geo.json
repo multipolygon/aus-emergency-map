@@ -10296,14 +10296,58 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Brunswick St",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-12-30T01:58:00+11:00",
+                "updated": "2020-12-30T02:00:00+11:00",
+                "id": "ESTA:201253390",
+                "location": "Clifton Hill",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9900173477812,
+                    -37.792629764924584
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2020-12-30T02:00:00+11:00",
+                "updated": "2020-12-30T02:01:00+11:00",
+                "id": "ESTA:201253391",
+                "location": "Mulgrave",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2042780285143,
+                    -37.93360570850703
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Donna Buang Summit Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-12-30T01:54:08+11:00",
-                "updated": "2020-12-30T01:54:08+11:00",
-                "id": "ESTA:201221263",
-                "location": "Brunswick St, Fitzroy",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-12-30T02:02:00+11:00",
+                "updated": "2020-12-30T02:02:00+11:00",
+                "id": "ESTA:201221266",
+                "location": "Donna Buang Summit Rd, Warburton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10311,8 +10355,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.97790204036238,
-                    -37.80275038484238
+                    145.67687562876614,
+                    -37.70960823287848
                 ]
             }
         },
@@ -10877,60 +10921,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Midlands 11 - Mt Clear -Katy R",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-10-04T11:00:00+11:00",
-                "updated": "2020-10-04T11:00:00+11:00",
-                "id": "eed538965f36a7786be95e16a52a7a6b",
-                "location": "Midlands 11 - Mt Clear -Katy R",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.9002,
-                            -37.5926
-                        ],
-                        [
-                            143.9008,
-                            -37.5927
-                        ],
-                        [
-                            143.9006,
-                            -37.5928
-                        ],
-                        [
-                            143.9004,
-                            -37.5928
-                        ],
-                        [
-                            143.9003,
-                            -37.5928
-                        ],
-                        [
-                            143.9003,
-                            -37.5927
-                        ],
-                        [
-                            143.9002,
-                            -37.5927
-                        ],
-                        [
-                            143.9002,
-                            -37.5926
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Boundary Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -11354,6 +11344,60 @@
                         [
                             145.3894,
                             -37.9826
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Midlands 11 - Mt Clear -Katy R",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-10-04T11:00:00+11:00",
+                "updated": "2020-10-04T11:00:00+11:00",
+                "id": "eed538965f36a7786be95e16a52a7a6b",
+                "location": "Midlands 11 - Mt Clear -Katy R",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.9002,
+                            -37.5926
+                        ],
+                        [
+                            143.9008,
+                            -37.5927
+                        ],
+                        [
+                            143.9006,
+                            -37.5928
+                        ],
+                        [
+                            143.9004,
+                            -37.5928
+                        ],
+                        [
+                            143.9003,
+                            -37.5928
+                        ],
+                        [
+                            143.9003,
+                            -37.5927
+                        ],
+                        [
+                            143.9002,
+                            -37.5927
+                        ],
+                        [
+                            143.9002,
+                            -37.5926
                         ]
                     ]
                 ]
@@ -12074,64 +12118,6 @@
                         [
                             141.5083,
                             -35.1284
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-27T11:00:00+11:00",
-                "updated": "2020-11-27T11:00:00+11:00",
-                "id": "13b3bba9db2e4ad0f7264d73a4dd1dc8",
-                "location": "Fire - Rupanyup - Barkers Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.6396,
-                            -36.567
-                        ],
-                        [
-                            142.6418,
-                            -36.5678
-                        ],
-                        [
-                            142.6427,
-                            -36.5682
-                        ],
-                        [
-                            142.6424,
-                            -36.5683
-                        ],
-                        [
-                            142.6418,
-                            -36.5683
-                        ],
-                        [
-                            142.6404,
-                            -36.5675
-                        ],
-                        [
-                            142.6397,
-                            -36.5672
-                        ],
-                        [
-                            142.6397,
-                            -36.5672
-                        ],
-                        [
-                            142.6396,
-                            -36.567
                         ]
                     ]
                 ]
@@ -12936,6 +12922,64 @@
                         [
                             144.2152,
                             -36.7104
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-27T11:00:00+11:00",
+                "updated": "2020-11-27T11:00:00+11:00",
+                "id": "13b3bba9db2e4ad0f7264d73a4dd1dc8",
+                "location": "Fire - Rupanyup - Barkers Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.6396,
+                            -36.567
+                        ],
+                        [
+                            142.6418,
+                            -36.5678
+                        ],
+                        [
+                            142.6427,
+                            -36.5682
+                        ],
+                        [
+                            142.6424,
+                            -36.5683
+                        ],
+                        [
+                            142.6418,
+                            -36.5683
+                        ],
+                        [
+                            142.6404,
+                            -36.5675
+                        ],
+                        [
+                            142.6397,
+                            -36.5672
+                        ],
+                        [
+                            142.6397,
+                            -36.5672
+                        ],
+                        [
+                            142.6396,
+                            -36.567
                         ]
                     ]
                 ]
@@ -14086,80 +14130,6 @@
                         [
                             141.8234,
                             -37.0222
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Unknown",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-14T11:00:00+11:00",
-                "updated": "2020-12-14T11:00:00+11:00",
-                "id": "ddda0084a2ea727459104a43b693bb06",
-                "location": "Unknown",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.1391,
-                            -37.7808
-                        ],
-                        [
-                            144.139,
-                            -37.7799
-                        ],
-                        [
-                            144.1396,
-                            -37.7795
-                        ],
-                        [
-                            144.1402,
-                            -37.7796
-                        ],
-                        [
-                            144.1406,
-                            -37.7799
-                        ],
-                        [
-                            144.1409,
-                            -37.7807
-                        ],
-                        [
-                            144.1409,
-                            -37.7811
-                        ],
-                        [
-                            144.1407,
-                            -37.7815
-                        ],
-                        [
-                            144.1402,
-                            -37.7818
-                        ],
-                        [
-                            144.1397,
-                            -37.7818
-                        ],
-                        [
-                            144.1392,
-                            -37.7814
-                        ],
-                        [
-                            144.1391,
-                            -37.7812
-                        ],
-                        [
-                            144.1391,
-                            -37.7808
                         ]
                     ]
                 ]
@@ -15725,6 +15695,80 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Unknown",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-14T11:00:00+11:00",
+                "updated": "2020-12-14T11:00:00+11:00",
+                "id": "ddda0084a2ea727459104a43b693bb06",
+                "location": "Unknown",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.1391,
+                            -37.7808
+                        ],
+                        [
+                            144.139,
+                            -37.7799
+                        ],
+                        [
+                            144.1396,
+                            -37.7795
+                        ],
+                        [
+                            144.1402,
+                            -37.7796
+                        ],
+                        [
+                            144.1406,
+                            -37.7799
+                        ],
+                        [
+                            144.1409,
+                            -37.7807
+                        ],
+                        [
+                            144.1409,
+                            -37.7811
+                        ],
+                        [
+                            144.1407,
+                            -37.7815
+                        ],
+                        [
+                            144.1402,
+                            -37.7818
+                        ],
+                        [
+                            144.1397,
+                            -37.7818
+                        ],
+                        [
+                            144.1392,
+                            -37.7814
+                        ],
+                        [
+                            144.1391,
+                            -37.7812
+                        ],
+                        [
+                            144.1391,
+                            -37.7808
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Fire-St Helensplansfischers Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -16649,116 +16693,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Wimmera 21 - Morea  - Centre Tk",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-22T11:00:00+11:00",
-                "updated": "2020-11-22T11:00:00+11:00",
-                "id": "7167c3c60170148df35ff14a1a81356f",
-                "location": "Wimmera 21 - Morea  - Centre Tk",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            141.2955,
-                            -36.821
-                        ],
-                        [
-                            141.2955,
-                            -36.821
-                        ],
-                        [
-                            141.2955,
-                            -36.8211
-                        ],
-                        [
-                            141.2955,
-                            -36.8211
-                        ],
-                        [
-                            141.2956,
-                            -36.8211
-                        ],
-                        [
-                            141.2955,
-                            -36.8212
-                        ],
-                        [
-                            141.2956,
-                            -36.8212
-                        ],
-                        [
-                            141.2955,
-                            -36.8213
-                        ],
-                        [
-                            141.2955,
-                            -36.8213
-                        ],
-                        [
-                            141.2956,
-                            -36.8213
-                        ],
-                        [
-                            141.2956,
-                            -36.8213
-                        ],
-                        [
-                            141.2956,
-                            -36.8214
-                        ],
-                        [
-                            141.2956,
-                            -36.8214
-                        ],
-                        [
-                            141.2954,
-                            -36.8213
-                        ],
-                        [
-                            141.2954,
-                            -36.8213
-                        ],
-                        [
-                            141.2954,
-                            -36.8212
-                        ],
-                        [
-                            141.2953,
-                            -36.8212
-                        ],
-                        [
-                            141.2953,
-                            -36.8211
-                        ],
-                        [
-                            141.2954,
-                            -36.8211
-                        ],
-                        [
-                            141.2954,
-                            -36.8211
-                        ],
-                        [
-                            141.2954,
-                            -36.8211
-                        ],
-                        [
-                            141.2955,
-                            -36.821
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Fire - Duchembegarra Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -17066,148 +17000,6 @@
                         [
                             142.0897,
                             -37.3163
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Goulburn 69 - Mansfield - Paps Lane",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-27T11:00:00+11:00",
-                "updated": "2020-11-27T11:00:00+11:00",
-                "id": "89ca2e433d61aa1fc963ca1cf7819e18",
-                "location": "Goulburn 69 - Mansfield - Paps Lane",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            145.9916,
-                            -37.0456
-                        ],
-                        [
-                            145.9912,
-                            -37.045
-                        ],
-                        [
-                            145.9919,
-                            -37.045
-                        ],
-                        [
-                            145.9924,
-                            -37.0444
-                        ],
-                        [
-                            145.9927,
-                            -37.0441
-                        ],
-                        [
-                            145.993,
-                            -37.0441
-                        ],
-                        [
-                            145.9935,
-                            -37.0447
-                        ],
-                        [
-                            145.994,
-                            -37.0447
-                        ],
-                        [
-                            145.9943,
-                            -37.0446
-                        ],
-                        [
-                            145.9946,
-                            -37.0439
-                        ],
-                        [
-                            145.9956,
-                            -37.0437
-                        ],
-                        [
-                            145.9965,
-                            -37.044
-                        ],
-                        [
-                            145.9969,
-                            -37.0444
-                        ],
-                        [
-                            145.997,
-                            -37.0453
-                        ],
-                        [
-                            145.9968,
-                            -37.0457
-                        ],
-                        [
-                            145.997,
-                            -37.046
-                        ],
-                        [
-                            145.9966,
-                            -37.0463
-                        ],
-                        [
-                            145.9963,
-                            -37.0464
-                        ],
-                        [
-                            145.996,
-                            -37.0468
-                        ],
-                        [
-                            145.9952,
-                            -37.047
-                        ],
-                        [
-                            145.9949,
-                            -37.0472
-                        ],
-                        [
-                            145.9945,
-                            -37.0472
-                        ],
-                        [
-                            145.9941,
-                            -37.0474
-                        ],
-                        [
-                            145.994,
-                            -37.0472
-                        ],
-                        [
-                            145.9937,
-                            -37.0472
-                        ],
-                        [
-                            145.9927,
-                            -37.047
-                        ],
-                        [
-                            145.9927,
-                            -37.0468
-                        ],
-                        [
-                            145.9923,
-                            -37.0466
-                        ],
-                        [
-                            145.9922,
-                            -37.0462
-                        ],
-                        [
-                            145.9916,
-                            -37.0456
                         ]
                     ]
                 ]
@@ -19016,6 +18808,258 @@
                         [
                             147.0893,
                             -36.8573
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Wimmera 21 - Morea  - Centre Tk",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-22T11:00:00+11:00",
+                "updated": "2020-11-22T11:00:00+11:00",
+                "id": "7167c3c60170148df35ff14a1a81356f",
+                "location": "Wimmera 21 - Morea  - Centre Tk",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            141.2955,
+                            -36.821
+                        ],
+                        [
+                            141.2955,
+                            -36.821
+                        ],
+                        [
+                            141.2955,
+                            -36.8211
+                        ],
+                        [
+                            141.2955,
+                            -36.8211
+                        ],
+                        [
+                            141.2956,
+                            -36.8211
+                        ],
+                        [
+                            141.2955,
+                            -36.8212
+                        ],
+                        [
+                            141.2956,
+                            -36.8212
+                        ],
+                        [
+                            141.2955,
+                            -36.8213
+                        ],
+                        [
+                            141.2955,
+                            -36.8213
+                        ],
+                        [
+                            141.2956,
+                            -36.8213
+                        ],
+                        [
+                            141.2956,
+                            -36.8213
+                        ],
+                        [
+                            141.2956,
+                            -36.8214
+                        ],
+                        [
+                            141.2956,
+                            -36.8214
+                        ],
+                        [
+                            141.2954,
+                            -36.8213
+                        ],
+                        [
+                            141.2954,
+                            -36.8213
+                        ],
+                        [
+                            141.2954,
+                            -36.8212
+                        ],
+                        [
+                            141.2953,
+                            -36.8212
+                        ],
+                        [
+                            141.2953,
+                            -36.8211
+                        ],
+                        [
+                            141.2954,
+                            -36.8211
+                        ],
+                        [
+                            141.2954,
+                            -36.8211
+                        ],
+                        [
+                            141.2954,
+                            -36.8211
+                        ],
+                        [
+                            141.2955,
+                            -36.821
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Goulburn 69 - Mansfield - Paps Lane",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-27T11:00:00+11:00",
+                "updated": "2020-11-27T11:00:00+11:00",
+                "id": "89ca2e433d61aa1fc963ca1cf7819e18",
+                "location": "Goulburn 69 - Mansfield - Paps Lane",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.9916,
+                            -37.0456
+                        ],
+                        [
+                            145.9912,
+                            -37.045
+                        ],
+                        [
+                            145.9919,
+                            -37.045
+                        ],
+                        [
+                            145.9924,
+                            -37.0444
+                        ],
+                        [
+                            145.9927,
+                            -37.0441
+                        ],
+                        [
+                            145.993,
+                            -37.0441
+                        ],
+                        [
+                            145.9935,
+                            -37.0447
+                        ],
+                        [
+                            145.994,
+                            -37.0447
+                        ],
+                        [
+                            145.9943,
+                            -37.0446
+                        ],
+                        [
+                            145.9946,
+                            -37.0439
+                        ],
+                        [
+                            145.9956,
+                            -37.0437
+                        ],
+                        [
+                            145.9965,
+                            -37.044
+                        ],
+                        [
+                            145.9969,
+                            -37.0444
+                        ],
+                        [
+                            145.997,
+                            -37.0453
+                        ],
+                        [
+                            145.9968,
+                            -37.0457
+                        ],
+                        [
+                            145.997,
+                            -37.046
+                        ],
+                        [
+                            145.9966,
+                            -37.0463
+                        ],
+                        [
+                            145.9963,
+                            -37.0464
+                        ],
+                        [
+                            145.996,
+                            -37.0468
+                        ],
+                        [
+                            145.9952,
+                            -37.047
+                        ],
+                        [
+                            145.9949,
+                            -37.0472
+                        ],
+                        [
+                            145.9945,
+                            -37.0472
+                        ],
+                        [
+                            145.9941,
+                            -37.0474
+                        ],
+                        [
+                            145.994,
+                            -37.0472
+                        ],
+                        [
+                            145.9937,
+                            -37.0472
+                        ],
+                        [
+                            145.9927,
+                            -37.047
+                        ],
+                        [
+                            145.9927,
+                            -37.0468
+                        ],
+                        [
+                            145.9923,
+                            -37.0466
+                        ],
+                        [
+                            145.9922,
+                            -37.0462
+                        ],
+                        [
+                            145.9916,
+                            -37.0456
                         ]
                     ]
                 ]
@@ -24281,6 +24325,29 @@
                 "coordinates": [
                     142.20519848330824,
                     -37.01923397787001
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Delamere Cl",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2020-12-30T02:02:36+11:00",
+                "updated": "2020-12-30T02:02:36+11:00",
+                "id": "ESTA:201221265",
+                "location": "Delamere Cl, Mulgrave",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20428891777354,
+                    -37.93359980347711
                 ]
             }
         }

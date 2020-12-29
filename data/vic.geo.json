@@ -71,6 +71,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.18690170734573,
+                            -36.7834791567045
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.1675039717478,
+                                    -36.74924557179046
+                                ],
+                                [
+                                    145.1678472945005,
+                                    -36.81771274161854
+                                ],
+                                [
+                                    145.20629944294362,
+                                    -36.81771274161854
+                                ],
+                                [
+                                    145.20509781330028,
+                                    -36.74952066266812
+                                ],
+                                [
+                                    145.1675039717478,
+                                    -36.74924557179046
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2020-12-29T10:51:21+11:00",
+                "updated": "2020-12-29T10:51:39+11:00",
+                "id": "15441",
+                "location": "Kirwans Bridge, Nagambie, Wahring",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.23889874683687,
                             -36.76723652858928
                         ]
@@ -10335,22 +10389,67 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ballarat East",
+                "sourceTitle": "Lilliput",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2020-12-29T07:37:09+11:00",
-                "updated": "2020-12-29T10:17:21+11:00",
-                "id": "ESTA:201220897",
-                "location": "Eureka Tce, Ballarat East",
+                "created": "2020-12-28T21:10:20+11:00",
+                "updated": "2020-12-29T10:48:46+11:00",
+                "id": "ESTA:201220799",
+                "location": "Lilliput",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.89777129344571,
-                    -37.56714832206444
+                    146.43744786813093,
+                    -36.10891647129816
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2020-12-29T09:15:00+11:00",
+                "updated": "2020-12-29T10:16:00+11:00",
+                "id": "ESTA:201220923",
+                "location": "Traralgon",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.50447123314686,
+                    -38.24346860414734
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Balranald (Nsw)",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "unknown",
+                "created": "2020-12-29T10:46:23+11:00",
+                "updated": "2020-12-29T10:50:59+11:00",
+                "id": "ESTA:201220964",
+                "location": "Harben St, Balranald (Nsw)",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.55858787172042,
+                    -34.634649342788954
                 ]
             }
         },
@@ -10360,19 +10459,41 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "complete",
-                "created": "2020-12-29T10:10:00+11:00",
-                "updated": "2020-12-29T10:30:00+11:00",
-                "id": "ESTA:201253332",
-                "location": "Warranwood",
+                "status": "request for assistance",
+                "created": "2020-12-29T10:55:00+11:00",
+                "updated": "2020-12-29T10:58:00+11:00",
+                "id": "ESTA:201253336",
+                "location": "Box Hill North",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.25676190515648,
-                    -37.76825732158258
+                    145.11709134725422,
+                    -37.81153726331042
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fitzroy",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2020-12-29T11:01:45+11:00",
+                "updated": "2020-12-29T11:02:36+11:00",
+                "id": "ESTA:201220973",
+                "location": "Fitzroy",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97338455806724,
+                    -37.80676596357133
                 ]
             }
         },
@@ -24107,9 +24228,9 @@
                 "sourceTitle": "Goulburn Valley Fwy",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2020-12-29T09:49:00+11:00",
-                "updated": "2020-12-29T10:26:00+11:00",
+                "updated": "2020-12-29T10:54:00+11:00",
                 "id": "ESTA:201220935",
                 "location": "Goulburn Valley Fwy, Nagambie",
                 "size": "Small",
@@ -24144,52 +24265,6 @@
                 "coordinates": [
                     144.2493921595406,
                     -36.767618294359494
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sanders Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2020-12-29T10:16:05+11:00",
-                "updated": "2020-12-29T10:16:05+11:00",
-                "id": "ESTA:201220923",
-                "location": "Sanders Rd, Traralgon",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.50447308116875,
-                    -38.243465485670036
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Greengable Ct",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-29T09:17:00+11:00",
-                "updated": "2020-12-29T09:32:00+11:00",
-                "id": "ESTA:201220925",
-                "location": "Greengable Ct, Croydon Hills",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26866766423407,
-                    -37.77083915249008
                 ]
             }
         },
@@ -24242,14 +24317,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Buckley St",
+                "sourceTitle": "Port Melbourne",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2020-12-29T10:27:58+11:00",
-                "updated": "2020-12-29T10:27:58+11:00",
-                "id": "ESTA:201220910",
-                "location": "Buckley St, Essendon West",
+                "status": "responding",
+                "created": "2020-12-29T10:59:04+11:00",
+                "updated": "2020-12-29T10:59:04+11:00",
+                "id": "ESTA:201220955",
+                "location": "Port Melbourne, Port Melbourne",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -24257,22 +24332,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.88542875743016,
-                    -37.75348409911708
+                    144.91267432269652,
+                    -37.83330068887994
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sherwood Av",
+                "sourceTitle": "Fourth St",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2020-12-29T10:17:12+11:00",
-                "updated": "2020-12-29T10:17:12+11:00",
-                "id": "ESTA:201220942",
-                "location": "Sherwood Av, Chelsea",
+                "status": "responding",
+                "created": "2020-12-29T10:59:54+11:00",
+                "updated": "2020-12-29T10:59:54+11:00",
+                "id": "ESTA:201220970",
+                "location": "Fourth St, Black Rock",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -24280,8 +24355,74 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.12511888679458,
-                    -38.05138819583972
+                    145.0260773353373,
+                    -37.98146673582417
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2020-12-29T10:57:00+11:00",
+                "updated": "2020-12-29T11:00:00+11:00",
+                "id": "ESTA:201253337",
+                "location": "Black Rock",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02606755760317,
+                    -37.98146784584285
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "on scene",
+                "created": "2020-12-29T09:25:00+11:00",
+                "updated": "2020-12-29T10:58:00+11:00",
+                "id": "ESTA:201253325",
+                "location": "Wonga Park",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27105127592927,
+                    -37.76598953513221
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2020-12-29T10:32:00+11:00",
+                "updated": "2020-12-29T10:54:00+11:00",
+                "id": "ESTA:201253333",
+                "location": "Safety Beach",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9966860764073,
+                    -38.307912046120634
                 ]
             }
         },
@@ -24370,28 +24511,6 @@
                 "coordinates": [
                     145.17239137918568,
                     -37.977885461152226
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2020-12-29T09:25:00+11:00",
-                "updated": "2020-12-29T09:28:00+11:00",
-                "id": "ESTA:201253325",
-                "location": "Wonga Park",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.27105127592927,
-                    -37.76598953513221
                 ]
             }
         },

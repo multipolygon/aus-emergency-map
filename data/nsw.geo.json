@@ -6,8 +6,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.25677499900007,
-                    -34.60557399999993
+                    146.22331104400007,
+                    -34.60043944599994
                 ]
             },
             "properties": {
@@ -15,13 +15,13 @@
                 "sourceTitle": "Gogeldrie Rd, Gogeldrie",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403748",
-                "created": "2020-12-29T10:32:00+11:00",
-                "updated": "2020-12-29T21:32:00+11:00",
+                "created": "2020-12-29T10:59:00+11:00",
+                "updated": "2020-12-29T21:59:00+11:00",
                 "location": "Gogeldrie Rd, Gogeldrie, NSW 2705",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Gogeldrie Rd, Gogeldrie, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Dec 2020 21:32",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Gogeldrie Rd, Gogeldrie, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Dec 2020 21:59",
                 "title": "incident: fire"
             }
         },
@@ -118,6 +118,83 @@
                 "location": "Perricoota Forest Road Womboota NSW",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Perricoota Forest Road Womboota NSW <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Dec 2020 21:10",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.16652455200006,
+                            -34.57777519899997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.166012968,
+                                            -34.578762674
+                                        ],
+                                        [
+                                            146.165953481,
+                                            -34.578679393
+                                        ],
+                                        [
+                                            146.165905893,
+                                            -34.5782748839999
+                                        ],
+                                        [
+                                            146.166167633,
+                                            -34.577596738
+                                        ],
+                                        [
+                                            146.166369887,
+                                            -34.577561047
+                                        ],
+                                        [
+                                            146.166584039,
+                                            -34.577525355
+                                        ],
+                                        [
+                                            146.166548347,
+                                            -34.57781089
+                                        ],
+                                        [
+                                            146.166441271,
+                                            -34.578596112
+                                        ],
+                                        [
+                                            146.166012968,
+                                            -34.578762674
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Whitton Darlington Point Rd, Whitton",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403749",
+                "created": "2020-12-29T10:48:00+11:00",
+                "updated": "2020-12-29T21:48:00+11:00",
+                "location": "Whitton Darlington Point Rd, Whitton, NSW 2705",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Whitton Darlington Point Rd, Whitton, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Dec 2020 21:48",
                 "title": "incident: fire"
             }
         },

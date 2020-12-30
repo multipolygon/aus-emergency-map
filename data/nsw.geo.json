@@ -28,10 +28,83 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.00091699900008,
-                    -34.752096999999935
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.95842231900008,
+                            -34.73987872799995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.958493702,
+                                            -34.741068457
+                                        ],
+                                        [
+                                            145.958279552,
+                                            -34.74079482
+                                        ],
+                                        [
+                                            145.958350935,
+                                            -34.740211852
+                                        ],
+                                        [
+                                            145.958481805,
+                                            -34.7395574999999
+                                        ],
+                                        [
+                                            145.95886252,
+                                            -34.7395812949999
+                                        ],
+                                        [
+                                            145.959052876,
+                                            -34.7396407809999
+                                        ],
+                                        [
+                                            145.959255131,
+                                            -34.73986683
+                                        ],
+                                        [
+                                            145.959350309,
+                                            -34.740188057
+                                        ],
+                                        [
+                                            145.959207541,
+                                            -34.7403546199999
+                                        ],
+                                        [
+                                            145.959040979,
+                                            -34.740211852
+                                        ],
+                                        [
+                                            145.958838725,
+                                            -34.740342722
+                                        ],
+                                        [
+                                            145.958672163,
+                                            -34.740544977
+                                        ],
+                                        [
+                                            145.958803032,
+                                            -34.7407829219999
+                                        ],
+                                        [
+                                            145.958493702,
+                                            -34.741068457
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -39,13 +112,13 @@
                 "sourceTitle": "Eulo Rd, Coleambally",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403818",
-                "created": "2020-12-30T07:24:00+11:00",
-                "updated": "2020-12-30T18:24:00+11:00",
+                "created": "2020-12-30T07:57:00+11:00",
+                "updated": "2020-12-30T18:57:00+11:00",
                 "location": "Eulo Rd, Coleambally, NSW 2707",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Eulo Rd, Coleambally, NSW 2707 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2020 18:24",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Eulo Rd, Coleambally, NSW 2707 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2020 18:57",
                 "title": "incident: fire"
             }
         },
@@ -336,37 +409,13 @@
                 "sourceTitle": "Coursing Park Rd, Yathella",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403819",
-                "created": "2020-12-30T07:26:00+11:00",
-                "updated": "2020-12-30T18:26:00+11:00",
+                "created": "2020-12-30T07:55:00+11:00",
+                "updated": "2020-12-30T18:55:00+11:00",
                 "location": "555 Coursing Park Rd, Yathella, NSW 2650",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 555 Coursing Park Rd, Yathella, NSW 2650 <br />COUNCIL AREA: Junee <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2020 18:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.56373599900007,
-                    -36.48478499999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eagle View Rd, Moonbah",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403809",
-                "created": "2020-12-30T06:18:00+11:00",
-                "updated": "2020-12-30T17:18:00+11:00",
-                "location": "Eagle View Rd, Moonbah, NSW 2627",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eagle View Rd, Moonbah, NSW 2627 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2020 17:18",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 555 Coursing Park Rd, Yathella, NSW 2650 <br />COUNCIL AREA: Junee <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2020 18:55",
                 "title": "incident: fire"
             }
         },

@@ -69,6 +69,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.5043770000001,
+                    -35.63008099999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Caldwell Line Rd, Caldwell",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403910",
+                "created": "2020-12-31T10:26:00+11:00",
+                "updated": "2020-12-31T21:26:00+11:00",
+                "location": "Caldwell Line Rd, Caldwell, NSW 2710",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Caldwell Line Rd, Caldwell, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 21:26",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -179,29 +203,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            144.835217249,
-                                            -29.2597885549999
-                                        ],
-                                        [
-                                            144.835170689,
-                                            -29.259959453
-                                        ],
-                                        [
-                                            144.835056753,
-                                            -29.2598553139999
-                                        ],
-                                        [
-                                            144.835217249,
-                                            -29.2597885549999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             144.835170689,
                                             -29.259959453
                                         ],
@@ -216,6 +217,29 @@
                                         [
                                             144.835170689,
                                             -29.259959453
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            144.835217249,
+                                            -29.2597885549999
+                                        ],
+                                        [
+                                            144.835170689,
+                                            -29.259959453
+                                        ],
+                                        [
+                                            144.835056753,
+                                            -29.2598553139999
+                                        ],
+                                        [
+                                            144.835217249,
+                                            -29.2597885549999
                                         ]
                                     ]
                                 ]
@@ -344,13 +368,13 @@
                 "sourceTitle": "Judds/Carmichels Rd, Savernake",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403888",
-                "created": "2020-12-31T07:38:00+11:00",
-                "updated": "2020-12-31T18:38:00+11:00",
+                "created": "2020-12-31T08:16:00+11:00",
+                "updated": "2020-12-31T19:16:00+11:00",
                 "location": "112 Frasers Rd, Savernake, NSW 2646",
                 "size": 101,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 112 Frasers Rd, Savernake, NSW 2646 <br />COUNCIL AREA: Berrigan <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 101 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 18:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 112 Frasers Rd, Savernake, NSW 2646 <br />COUNCIL AREA: Berrigan <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 101 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 19:16",
                 "title": "incident: fire"
             }
         },
@@ -381,525 +405,72 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            148.7806749350001,
-                            -33.24812717999998
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            148.776876134,
-                                            -33.246934731
-                                        ],
-                                        [
-                                            148.777018687,
-                                            -33.2469565759999
-                                        ],
-                                        [
-                                            148.777132344,
-                                            -33.246954952
-                                        ],
-                                        [
-                                            148.777530625,
-                                            -33.246973139
-                                        ],
-                                        [
-                                            148.777959738,
-                                            -33.247110294
-                                        ],
-                                        [
-                                            148.778273745,
-                                            -33.24717745
-                                        ],
-                                        [
-                                            148.778560305,
-                                            -33.2472927599999
-                                        ],
-                                        [
-                                            148.778621488,
-                                            -33.247506824
-                                        ],
-                                        [
-                                            148.778795844,
-                                            -33.2476953849999
-                                        ],
-                                        [
-                                            148.778799231,
-                                            -33.2478625109999
-                                        ],
-                                        [
-                                            148.778777107,
-                                            -33.248173294
-                                        ],
-                                        [
-                                            148.778754983,
-                                            -33.2484840779999
-                                        ],
-                                        [
-                                            148.778648582,
-                                            -33.2488438299999
-                                        ],
-                                        [
-                                            148.778571079,
-                                            -33.249227053
-                                        ],
-                                        [
-                                            148.778547985,
-                                            -33.2494900849999
-                                        ],
-                                        [
-                                            148.77847,
-                                            -33.249849432
-                                        ],
-                                        [
-                                            148.778445938,
-                                            -33.250064713
-                                        ],
-                                        [
-                                            148.778452228,
-                                            -33.25037509
-                                        ],
-                                        [
-                                            148.778400719,
-                                            -33.2506385299999
-                                        ],
-                                        [
-                                            148.778406525,
-                                            -33.250925031
-                                        ],
-                                        [
-                                            148.778383914,
-                                            -33.251211939
-                                        ],
-                                        [
-                                            148.77827509,
-                                            -33.251452316
-                                        ],
-                                        [
-                                            148.778222128,
-                                            -33.251644131
-                                        ],
-                                        [
-                                            148.778085371,
-                                            -33.251908789
-                                        ],
-                                        [
-                                            148.778062277,
-                                            -33.2521718209999
-                                        ],
-                                        [
-                                            148.778067598,
-                                            -33.252434448
-                                        ],
-                                        [
-                                            148.778016087,
-                                            -33.252697887
-                                        ],
-                                        [
-                                            148.777736763,
-                                            -33.2529407019999
-                                        ],
-                                        [
-                                            148.777541236,
-                                            -33.2531106709999
-                                        ],
-                                        [
-                                            148.77726046,
-                                            -33.25328186
-                                        ],
-                                        [
-                                            148.776950782,
-                                            -33.253429578
-                                        ],
-                                        [
-                                            148.776811119,
-                                            -33.253550984
-                                        ],
-                                        [
-                                            148.776587172,
-                                            -33.2537213599999
-                                        ],
-                                        [
-                                            148.776421509,
-                                            -33.253962547
-                                        ],
-                                        [
-                                            148.776255842,
-                                            -33.254203735
-                                        ],
-                                        [
-                                            148.776202875,
-                                            -33.2543955469999
-                                        ],
-                                        [
-                                            148.776124873,
-                                            -33.2547548919999
-                                        ],
-                                        [
-                                            148.775957272,
-                                            -33.254900579
-                                        ],
-                                        [
-                                            148.775763187,
-                                            -33.2551421709999
-                                        ],
-                                        [
-                                            148.775681318,
-                                            -33.255310514
-                                        ],
-                                        [
-                                            148.775571031,
-                                            -33.255479264
-                                        ],
-                                        [
-                                            148.775346112,
-                                            -33.255601886
-                                        ],
-                                        [
-                                            148.775149608,
-                                            -33.2557241019999
-                                        ],
-                                        [
-                                            148.774810537,
-                                            -33.2558244699999
-                                        ],
-                                        [
-                                            148.774702662,
-                                            -33.2561125949999
-                                        ],
-                                        [
-                                            148.774421871,
-                                            -33.256283777
-                                        ],
-                                        [
-                                            148.774224882,
-                                            -33.256382115
-                                        ],
-                                        [
-                                            148.773915189,
-                                            -33.256529827
-                                        ],
-                                        [
-                                            148.773489896,
-                                            -33.256583658
-                                        ],
-                                        [
-                                            148.773209102,
-                                            -33.256754837
-                                        ],
-                                        [
-                                            148.772985139,
-                                            -33.2569252059999
-                                        ],
-                                        [
-                                            148.772730348,
-                                            -33.2569766029999
-                                        ],
-                                        [
-                                            148.772504457,
-                                            -33.25705147
-                                        ],
-                                        [
-                                            148.772279046,
-                                            -33.25715021
-                                        ],
-                                        [
-                                            148.772054599,
-                                            -33.257296702
-                                        ],
-                                        [
-                                            148.771829188,
-                                            -33.257395441
-                                        ],
-                                        [
-                                            148.771661093,
-                                            -33.2575172479999
-                                        ],
-                                        [
-                                            148.771549833,
-                                            -33.257638243
-                                        ],
-                                        [
-                                            148.771381737,
-                                            -33.257760049
-                                        ],
-                                        [
-                                            148.771042172,
-                                            -33.2578365319999
-                                        ],
-                                        [
-                                            148.770729096,
-                                            -33.257817109
-                                        ],
-                                        [
-                                            148.770500309,
-                                            -33.257748721
-                                        ],
-                                        [
-                                            148.770243106,
-                                            -33.257680738
-                                        ],
-                                        [
-                                            148.770011912,
-                                            -33.257492973
-                                        ],
-                                        [
-                                            148.769980125,
-                                            -33.257326252
-                                        ],
-                                        [
-                                            148.770118841,
-                                            -33.2571571039999
-                                        ],
-                                        [
-                                            148.770257557,
-                                            -33.256987954
-                                        ],
-                                        [
-                                            148.770425172,
-                                            -33.2568422759999
-                                        ],
-                                        [
-                                            148.770623129,
-                                            -33.256791693
-                                        ],
-                                        [
-                                            148.770873586,
-                                            -33.256525424
-                                        ],
-                                        [
-                                            148.771127412,
-                                            -33.256426279
-                                        ],
-                                        [
-                                            148.771379794,
-                                            -33.2562555109999
-                                        ],
-                                        [
-                                            148.77157534,
-                                            -33.256085551
-                                        ],
-                                        [
-                                            148.771686116,
-                                            -33.2559406789999
-                                        ],
-                                        [
-                                            148.771768957,
-                                            -33.2558200889999
-                                        ],
-                                        [
-                                            148.771880215,
-                                            -33.255699093
-                                        ],
-                                        [
-                                            148.771933674,
-                                            -33.2555311589999
-                                        ],
-                                        [
-                                            148.772071902,
-                                            -33.255338132
-                                        ],
-                                        [
-                                            148.772266962,
-                                            -33.255144296
-                                        ],
-                                        [
-                                            148.772460094,
-                                            -33.254854958
-                                        ],
-                                        [
-                                            148.772542931,
-                                            -33.254734366
-                                        ],
-                                        [
-                                            148.772708609,
-                                            -33.2544931849999
-                                        ],
-                                        [
-                                            148.772876214,
-                                            -33.254347502
-                                        ],
-                                        [
-                                            148.773074165,
-                                            -33.2542969149999
-                                        ],
-                                        [
-                                            148.77338144,
-                                            -33.25402983
-                                        ],
-                                        [
-                                            148.773490762,
-                                            -33.253813333
-                                        ],
-                                        [
-                                            148.773487867,
-                                            -33.2536700819999
-                                        ],
-                                        [
-                                            148.77348449,
-                                            -33.253502956
-                                        ],
-                                        [
-                                            148.773449803,
-                                            -33.2531929849999
-                                        ],
-                                        [
-                                            148.77330338,
-                                            -33.252980136
-                                        ],
-                                        [
-                                            148.773212826,
-                                            -33.252718726
-                                        ],
-                                        [
-                                            148.773152617,
-                                            -33.252552409
-                                        ],
-                                        [
-                                            148.77317428,
-                                            -33.252217754
-                                        ],
-                                        [
-                                            148.773200285,
-                                            -33.2520979719999
-                                        ],
-                                        [
-                                            148.773340433,
-                                            -33.252000444
-                                        ],
-                                        [
-                                            148.773450236,
-                                            -33.2518078219999
-                                        ],
-                                        [
-                                            148.773557145,
-                                            -33.2514719489999
-                                        ],
-                                        [
-                                            148.773639979,
-                                            -33.251351357
-                                        ],
-                                        [
-                                            148.773665016,
-                                            -33.2511838259999
-                                        ],
-                                        [
-                                            148.773776266,
-                                            -33.2510628279999
-                                        ],
-                                        [
-                                            148.773883654,
-                                            -33.25075083
-                                        ],
-                                        [
-                                            148.77396504,
-                                            -33.250558612
-                                        ],
-                                        [
-                                            148.774017526,
-                                            -33.250342925
-                                        ],
-                                        [
-                                            148.774185604,
-                                            -33.250221117
-                                        ],
-                                        [
-                                            148.774324784,
-                                            -33.2500758379999
-                                        ],
-                                        [
-                                            148.77431851,
-                                            -33.249765461
-                                        ],
-                                        [
-                                            148.774314648,
-                                            -33.24957446
-                                        ],
-                                        [
-                                            148.774310304,
-                                            -33.2493595839999
-                                        ],
-                                        [
-                                            148.774390239,
-                                            -33.249095741
-                                        ],
-                                        [
-                                            148.774412861,
-                                            -33.2488088339999
-                                        ],
-                                        [
-                                            148.774664731,
-                                            -33.248614182
-                                        ],
-                                        [
-                                            148.774802942,
-                                            -33.248421153
-                                        ],
-                                        [
-                                            148.775110673,
-                                            -33.248177939
-                                        ],
-                                        [
-                                            148.77533316,
-                                            -33.247935941
-                                        ],
-                                        [
-                                            148.775558061,
-                                            -33.2478133179999
-                                        ],
-                                        [
-                                            148.775867237,
-                                            -33.247641728
-                                        ],
-                                        [
-                                            148.776063238,
-                                            -33.247495635
-                                        ],
-                                        [
-                                            148.776343998,
-                                            -33.247324449
-                                        ],
-                                        [
-                                            148.776566963,
-                                            -33.2471063249999
-                                        ],
-                                        [
-                                            148.776733097,
-                                            -33.2468890119999
-                                        ],
-                                        [
-                                            148.776876134,
-                                            -33.246934731
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
+                "type": "Point",
+                "coordinates": [
+                    148.32484960500005,
+                    -34.82282272799995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "The Escort Way, Boree",
+                "sourceTitle": "Sir George Tavern-Jugiong",
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403852",
-                "created": "2020-12-31T03:36:00+11:00",
-                "updated": "2020-12-31T14:36:00+11:00",
-                "location": "3248 The Escort Way, Boree, NSW 2800",
-                "size": 40,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 3248 The Escort Way, Boree, NSW 2800 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 40 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 14:36",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403914",
+                "created": "2020-12-31T10:47:00+11:00",
+                "updated": "2020-12-31T21:47:00+11:00",
+                "location": "Riverside Drive Jugiong",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Riverside Drive Jugiong <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 21:47",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.98930500000006,
+                    -36.05874499999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Table Top Rd, Thurgoona",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403903",
+                "created": "2020-12-31T10:00:00+11:00",
+                "updated": "2020-12-31T21:00:00+11:00",
+                "location": "67 Table Top Rd, Thurgoona, NSW 2640",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 67 Table Top Rd, Thurgoona, NSW 2640 <br />COUNCIL AREA: Albury <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 21:00",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.59205200000008,
+                    -34.19616899999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bridge St, Picton",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403916",
+                "created": "2020-12-31T10:54:00+11:00",
+                "updated": "2020-12-31T21:54:00+11:00",
+                "location": "Bridge St, Picton, NSW 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bridge St, Picton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 31 Dec 2020 21:54",
                 "title": "incident: fire"
             }
         },
@@ -967,11 +538,11 @@
                 "subcategory": "other",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403901",
-                "created": "2020-12-31T09:52:00+11:00",
-                "updated": "2020-12-31T20:52:00+11:00",
+                "created": "2020-12-31T10:25:00+11:00",
+                "updated": "2020-12-31T21:25:00+11:00",
                 "location": "394 Edmondson Av, Austral, NSW 2179",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 394 Edmondson Av, Austral, NSW 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 20:52",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 394 Edmondson Av, Austral, NSW 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 21:25",
                 "title": "incident: fire"
             }
         },
@@ -1069,6 +640,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 28A Merrendale Av, Gorokan, NSW 2263 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 31 Dec 2020 15:24",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.66119600000002,
+                    -33.80364899999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mulgoa Rd, Mulgoa",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403906",
+                "created": "2020-12-31T10:18:00+11:00",
+                "updated": "2020-12-31T21:18:00+11:00",
+                "location": "690 Mulgoa Rd, Mulgoa, NSW 2745",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 690 Mulgoa Rd, Mulgoa, NSW 2745 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 21:18",
+                "title": "incident: other"
             }
         },
         {

@@ -4,10 +4,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.53162384100006,
-                    -31.183140555999955
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.54808970700003,
+                            -31.217737915999976
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.557151777,
+                                            -31.2179617689999
+                                        ],
+                                        [
+                                            147.551203081,
+                                            -31.22174867
+                                        ],
+                                        [
+                                            147.538687003,
+                                            -31.219059546
+                                        ],
+                                        [
+                                            147.539643022,
+                                            -31.216369753
+                                        ],
+                                        [
+                                            147.548936046,
+                                            -31.214418414
+                                        ],
+                                        [
+                                            147.557151777,
+                                            -31.2179617689999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -22,30 +63,6 @@
                 "location": "-31.181309 147.53512",
                 "size": 1,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: -31.181309 147.53512 <br />COUNCIL AREA: Warren <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 07:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.2630190000001,
-                    -34.99172399999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gundaroo Rd, Gundaroo",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403798",
-                "created": "2020-12-30T09:05:00+11:00",
-                "updated": "2020-12-30T20:05:00+11:00",
-                "location": "Gundaroo Rd, Gundaroo, NSW 2620",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Gundaroo Rd, Gundaroo, NSW 2620 <br />COUNCIL AREA: Yass Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2020 20:05",
                 "title": "incident: fire"
             }
         },
@@ -69,29 +86,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            144.835217249,
-                                            -29.2597885549999
-                                        ],
-                                        [
-                                            144.835170689,
-                                            -29.259959453
-                                        ],
-                                        [
-                                            144.835056753,
-                                            -29.2598553139999
-                                        ],
-                                        [
-                                            144.835217249,
-                                            -29.2597885549999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             144.835170689,
                                             -29.259959453
                                         ],
@@ -106,6 +100,29 @@
                                         [
                                             144.835170689,
                                             -29.259959453
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            144.835217249,
+                                            -29.2597885549999
+                                        ],
+                                        [
+                                            144.835170689,
+                                            -29.259959453
+                                        ],
+                                        [
+                                            144.835056753,
+                                            -29.2598553139999
+                                        ],
+                                        [
+                                            144.835217249,
+                                            -29.2597885549999
                                         ]
                                     ]
                                 ]
@@ -212,11 +229,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403599",
-                "created": "2020-12-30T05:52:00+11:00",
-                "updated": "2020-12-30T16:52:00+11:00",
+                "created": "2020-12-31T00:02:00+11:00",
+                "updated": "2020-12-31T11:02:00+11:00",
                 "location": "310 Jimaringle Rd Burraboi, NSW 2732",
                 "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 310 Jimaringle Rd Burraboi, NSW 2732 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2020 16:52",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 310 Jimaringle Rd Burraboi, NSW 2732 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 11:02",
                 "title": "incident: fire"
             }
         },
@@ -236,11 +253,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403740",
-                "created": "2020-12-30T06:29:00+11:00",
-                "updated": "2020-12-30T17:29:00+11:00",
+                "created": "2020-12-31T00:10:00+11:00",
+                "updated": "2020-12-31T11:10:00+11:00",
                 "location": "Perricoota Forest Road Womboota NSW",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Perricoota Forest Road Womboota NSW <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2020 17:29",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Perricoota Forest Road Womboota NSW <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 11:10",
                 "title": "incident: fire"
             }
         },
@@ -249,22 +266,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.0637640000001,
-                    -34.681618999999955
+                    148.7878710010001,
+                    -33.25589499999995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rye Park Rd, Broadway",
+                "sourceTitle": "The Escort Way, Boree",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403851",
-                "created": "2020-12-31T00:00:00+11:00",
-                "updated": "2020-12-31T11:00:00+11:00",
-                "location": "2186 Rye Park Rd, Broadway, NSW 2581",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403852",
+                "created": "2020-12-31T00:52:00+11:00",
+                "updated": "2020-12-31T11:52:00+11:00",
+                "location": "3248 The Escort Way, Boree, NSW 2800",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2186 Rye Park Rd, Broadway, NSW 2581 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 11:00",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 3248 The Escort Way, Boree, NSW 2800 <br />COUNCIL AREA: Cabonne <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 11:52",
                 "title": "incident: fire"
             }
         },
@@ -273,22 +290,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.43950581600006,
-                    -33.39578929399994
+                    146.91441536000002,
+                    -36.095716823999965
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "373 Oak Road, Matcham",
+                "sourceTitle": "B DOUBLE ALIGHT",
                 "category": "fire",
-                "subcategory": "burn off",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403850",
-                "created": "2020-12-31T00:01:00+11:00",
-                "updated": "2020-12-31T11:01:00+11:00",
-                "location": "373 Oak Road, Matcham",
+                "subcategory": "vehicle/equipment fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403857",
+                "created": "2020-12-30T14:34:00+11:00",
+                "updated": "2020-12-31T01:34:00+11:00",
+                "location": "HUME HIGHWAY SOUTH ALBURY",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 373 Oak Road, Matcham <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 11:01",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: HUME HIGHWAY SOUTH ALBURY <br />COUNCIL AREA: Albury <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 31 Dec 2020 01:34",
                 "title": "incident: fire"
             }
         },
@@ -345,23 +362,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.80918300000008,
-                    -33.94742499999995
+                    153.56878100000006,
+                    -28.38441899999998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fifth Av, Austral",
-                "category": "fire",
-                "subcategory": "other",
+                "sourceTitle": "Elanora Av, Pottsville",
+                "category": "other",
+                "subcategory": "assist other agency",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403849",
-                "created": "2020-12-30T23:52:00+11:00",
-                "updated": "2020-12-31T10:52:00+11:00",
-                "location": "Fifth Av, Austral, NSW 2179",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403856",
+                "created": "2020-12-31T01:02:00+11:00",
+                "updated": "2020-12-31T12:02:00+11:00",
+                "location": "47 Elanora Av, Pottsville, NSW 2489",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Fifth Av, Austral, NSW 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 10:52",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 47 Elanora Av, Pottsville, NSW 2489 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 12:02",
+                "title": "incident: other"
             }
         },
         {
@@ -369,23 +386,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.72083700000007,
-                    -31.560212999999976
+                    150.85931000000005,
+                    -34.36582999999996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hermidale Nymagee Rd, Hermidale",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403780",
-                "created": "2020-12-30T05:36:00+11:00",
-                "updated": "2020-12-30T16:36:00+11:00",
-                "location": "Hermidale Nymagee Rd, Hermidale, NSW 2831",
+                "sourceTitle": "Mount Ousley Rd, Cataract",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403858",
+                "created": "2020-12-31T01:08:00+11:00",
+                "updated": "2020-12-31T12:08:00+11:00",
+                "location": "Mount Ousley Rd, Cataract,  2560",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hermidale Nymagee Rd, Hermidale, NSW 2831 <br />COUNCIL AREA: Bogan <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2020 16:36",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mount Ousley Rd, Cataract,  2560 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 12:08",
+                "title": "incident: other"
             }
         },
         {
@@ -410,30 +427,6 @@
                 "size": 10,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Neilrex Rd, Coolah, NSW 2843 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 08:38",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.90600000000006,
-                    -33.64549999999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old Pitt Town Rd, Box Hill",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/403846",
-                "created": "2020-12-30T22:36:00+11:00",
-                "updated": "2020-12-31T09:36:00+11:00",
-                "location": "170-172 Old Pitt Town Rd, Box Hill, NSW 2765",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 170-172 Old Pitt Town Rd, Box Hill, NSW 2765 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2020 09:36",
-                "title": "incident: other"
             }
         },
         {

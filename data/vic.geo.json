@@ -9910,14 +9910,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Patullos Lane",
+                "sourceTitle": "Lascelles Av",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2021-01-02T05:58:03+11:00",
-                "updated": "2021-01-02T05:58:03+11:00",
-                "id": "ESTA:210100579",
-                "location": "Patullos Lane, Craigieburn",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2021-01-02T06:42:25+11:00",
+                "updated": "2021-01-02T06:42:25+11:00",
+                "id": "ESTA:210100582",
+                "location": "Lascelles Av, Toorak",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9925,8 +9925,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.93920093409514,
-                    -37.62093394629016
+                    145.01317889826856,
+                    -37.83957563178211
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elizabeth St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2021-01-02T06:41:27+11:00",
+                "updated": "2021-01-02T06:41:27+11:00",
+                "id": "ESTA:210100581",
+                "location": "Elizabeth St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9627260820344,
+                    -37.81268473445029
                 ]
             }
         },
@@ -26048,12 +26071,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Patullos Lane",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2021-01-02T06:05:45+11:00",
+                "updated": "2021-01-02T06:05:45+11:00",
+                "id": "ESTA:210100579",
+                "location": "Patullos Lane, Craigieburn",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93920093409514,
+                    -37.62093394629016
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
                 "status": "request for assistance",
                 "created": "2021-01-02T05:26:00+11:00",
-                "updated": "2021-01-02T05:41:00+11:00",
+                "updated": "2021-01-02T06:36:00+11:00",
                 "id": "ESTA:210100577",
                 "location": "Halls Gap",
                 "size": "Small",
@@ -26134,6 +26180,28 @@
                 "coordinates": [
                     142.00798882200428,
                     -36.0227442379438
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2021-01-02T06:22:00+11:00",
+                "updated": "2021-01-02T06:33:00+11:00",
+                "id": "ESTA:210150142",
+                "location": "Kyneton South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.42954004529085,
+                    -37.2898052586509
                 ]
             }
         },

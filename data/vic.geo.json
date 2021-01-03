@@ -9909,14 +9909,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Finlay Rd",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2021-01-03T10:59:00+11:00",
-                "updated": "2021-01-03T10:59:00+11:00",
-                "id": "ESTA:210101157",
-                "location": "Finlay Rd, Tongala",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2021-01-01T17:47:00+11:00",
+                "updated": "2021-01-03T12:27:00+11:00",
+                "id": "ESTA:210100413",
+                "location": "Bulart",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9924,8 +9924,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.93126169391212,
-                    -36.2548370096933
+                    141.90709458240622,
+                    -37.5682422456597
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2021-01-03T12:27:00+11:00",
+                "updated": "2021-01-03T12:31:00+11:00",
+                "id": "ESTA:210150474",
+                "location": "Carnegie",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05330426440327,
+                    -37.884748565620306
                 ]
             }
         },
@@ -9936,18 +9958,130 @@
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2021-01-03T09:30:00+11:00",
-                "updated": "2021-01-03T10:10:00+11:00",
-                "id": "ESTA:210150446",
-                "location": "Harkness",
+                "created": "2021-01-03T12:28:00+11:00",
+                "updated": "2021-01-03T12:32:00+11:00",
+                "id": "ESTA:210150475",
+                "location": "Mornington",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.55399588183894,
-                    -37.6648645471244
+                    145.04235471236592,
+                    -38.2392517705828
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2021-01-03T11:44:00+11:00",
+                "updated": "2021-01-03T12:33:00+11:00",
+                "id": "ESTA:210101173",
+                "location": "Drouin",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.85533400066564,
+                    -38.142087600106635
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Burbidge Dr",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2021-01-03T12:12:00+11:00",
+                "updated": "2021-01-03T12:31:00+11:00",
+                "id": "ESTA:210101179",
+                "location": "Burbidge Dr, Bacchus Marsh",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.42021216880417,
+                    -37.665193544225374
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2021-01-03T11:31:00+11:00",
+                "updated": "2021-01-03T12:31:00+11:00",
+                "id": "ESTA:210150467",
+                "location": "Mornington",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05637670244647,
+                    -38.21554181277842
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2021-01-03T08:20:00+11:00",
+                "updated": "2021-01-03T12:33:00+11:00",
+                "id": "ESTA:210150431",
+                "location": "Werribee",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.59449026361264,
+                    -37.89901674691193
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2021-01-03T10:17:00+11:00",
+                "updated": "2021-01-03T12:33:00+11:00",
+                "id": "ESTA:210150452",
+                "location": "Wyndham Vale",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.61805717535904,
+                    -37.887944006582636
                 ]
             }
         },
@@ -9957,9 +10091,9 @@
                 "sourceTitle": "Kerrs Lane",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2021-01-03T10:50:39+11:00",
-                "updated": "2021-01-03T10:50:39+11:00",
+                "status": "safe",
+                "created": "2021-01-03T12:36:21+11:00",
+                "updated": "2021-01-03T12:36:21+11:00",
                 "id": "ESTA:210101151",
                 "location": "Kerrs Lane, Lysterfield",
                 "size": "Small",
@@ -9977,44 +10111,114 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Vermont South",
-                "category": "other",
+                "sourceTitle": "Murchison Rd",
+                "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2021-01-03T11:03:15+11:00",
-                "updated": "2021-01-03T11:03:32+11:00",
-                "id": "ESTA:210101158",
-                "location": "Coonawarra Dr, Vermont South",
-                "title": "incident: other"
+                "status": "safe",
+                "created": "2021-01-03T12:13:00+11:00",
+                "updated": "2021-01-03T12:26:00+11:00",
+                "id": "ESTA:210101180",
+                "location": "Murchison Rd, Rushworth",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20174459315362,
-                    -37.85211498050069
+                    145.02943932459752,
+                    -36.589903756478854
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Altona North",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2021-01-03T11:04:07+11:00",
-                "updated": "2021-01-03T11:05:24+11:00",
-                "id": "ESTA:210101159",
-                "location": "Altona North",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2021-01-03T11:21:00+11:00",
+                "updated": "2021-01-03T12:35:00+11:00",
+                "id": "ESTA:210150464",
+                "location": "Box Hill North",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.84607183726888,
-                    -37.8440648265279
+                    145.12435327983607,
+                    -37.805570066721344
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Black Swamp Trk",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2021-01-03T12:32:00+11:00",
+                "updated": "2021-01-03T12:32:00+11:00",
+                "id": "ESTA:210101184",
+                "location": "Black Swamp Trk, Cohuna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.20484731521552,
+                    -35.70487259212582
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Johnson Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2021-01-03T12:34:00+11:00",
+                "updated": "2021-01-03T12:34:00+11:00",
+                "id": "ESTA:210101185",
+                "location": "Johnson Rd, Stanhope",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99583816983042,
+                    -36.438916265886114
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wattle Trk",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2021-01-03T12:37:00+11:00",
+                "updated": "2021-01-03T12:37:00+11:00",
+                "id": "ESTA:210101187",
+                "location": "Wattle Trk, Cohuna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.29399101091954,
+                    -35.764910744501
                 ]
             }
         },
@@ -11309,28 +11513,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jimaringle Rd Burraboi",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2021-01-02T20:55:00+11:00",
-                "updated": "2021-01-02T20:55:00+11:00",
-                "id": "2021-01-02T20:55:00.0000000:403599",
-                "location": "310 Jimaringle Rd Burraboi, Nsw 2732",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.268813134,
-                    -35.325524951
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -11417,6 +11599,28 @@
                             -35.8466979999999
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jimaringle Rd Burraboi",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2021-01-02T20:55:00+11:00",
+                "updated": "2021-01-02T20:55:00+11:00",
+                "id": "2021-01-02T20:55:00.0000000:403599",
+                "location": "310 Jimaringle Rd Burraboi, Nsw 2732",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.268813134,
+                    -35.325524951
                 ]
             }
         },
@@ -11959,6 +12163,146 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Dimboola-Rainbow Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-31T11:00:00+11:00",
+                "updated": "2020-12-31T11:00:00+11:00",
+                "id": "fbf61939e9326f20f8fabfe467c13e6b",
+                "location": "Dimboola-Rainbow Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            141.9775,
+                            -36.0233
+                        ],
+                        [
+                            141.9771,
+                            -36.0232
+                        ],
+                        [
+                            141.9747,
+                            -36.022
+                        ],
+                        [
+                            141.9716,
+                            -36.0184
+                        ],
+                        [
+                            141.9698,
+                            -36.0165
+                        ],
+                        [
+                            141.9732,
+                            -36.0163
+                        ],
+                        [
+                            141.9749,
+                            -36.0164
+                        ],
+                        [
+                            141.975,
+                            -36.0174
+                        ],
+                        [
+                            141.9741,
+                            -36.018
+                        ],
+                        [
+                            141.9764,
+                            -36.0206
+                        ],
+                        [
+                            141.9775,
+                            -36.0233
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Curran Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-15T11:00:00+11:00",
+                "updated": "2020-11-15T11:00:00+11:00",
+                "id": "0f2050d1ecf89bb9b288bd07a80921c7",
+                "location": "Curran Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.1929,
+                            -35.1565
+                        ],
+                        [
+                            143.1928,
+                            -35.1566
+                        ],
+                        [
+                            143.1925,
+                            -35.1567
+                        ],
+                        [
+                            143.1927,
+                            -35.1569
+                        ],
+                        [
+                            143.1926,
+                            -35.1574
+                        ],
+                        [
+                            143.1907,
+                            -35.158
+                        ],
+                        [
+                            143.1907,
+                            -35.1574
+                        ],
+                        [
+                            143.1901,
+                            -35.1574
+                        ],
+                        [
+                            143.1918,
+                            -35.1547
+                        ],
+                        [
+                            143.1922,
+                            -35.1545
+                        ],
+                        [
+                            143.1929,
+                            -35.1546
+                        ],
+                        [
+                            143.194,
+                            -35.1554
+                        ],
+                        [
+                            143.1929,
+                            -35.1565
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Boundary Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -12150,72 +12494,6 @@
                         [
                             146.3857,
                             -39.229
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Dimboola-Rainbow Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-31T11:00:00+11:00",
-                "updated": "2020-12-31T11:00:00+11:00",
-                "id": "fbf61939e9326f20f8fabfe467c13e6b",
-                "location": "Dimboola-Rainbow Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            141.9775,
-                            -36.0233
-                        ],
-                        [
-                            141.9771,
-                            -36.0232
-                        ],
-                        [
-                            141.9747,
-                            -36.022
-                        ],
-                        [
-                            141.9716,
-                            -36.0184
-                        ],
-                        [
-                            141.9698,
-                            -36.0165
-                        ],
-                        [
-                            141.9732,
-                            -36.0163
-                        ],
-                        [
-                            141.9749,
-                            -36.0164
-                        ],
-                        [
-                            141.975,
-                            -36.0174
-                        ],
-                        [
-                            141.9741,
-                            -36.018
-                        ],
-                        [
-                            141.9764,
-                            -36.0206
-                        ],
-                        [
-                            141.9775,
-                            -36.0233
                         ]
                     ]
                 ]
@@ -12649,110 +12927,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Unknown",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-11T11:00:00+11:00",
-                "updated": "2020-11-11T11:00:00+11:00",
-                "id": "ec4a280cbf7c3c03559c74ffb3d25443",
-                "location": "Unknown",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.6916,
-                            -35.7581
-                        ],
-                        [
-                            142.6912,
-                            -35.7582
-                        ],
-                        [
-                            142.691,
-                            -35.7583
-                        ],
-                        [
-                            142.6908,
-                            -35.7585
-                        ],
-                        [
-                            142.6908,
-                            -35.7587
-                        ],
-                        [
-                            142.6907,
-                            -35.7587
-                        ],
-                        [
-                            142.6907,
-                            -35.7582
-                        ],
-                        [
-                            142.6908,
-                            -35.7581
-                        ],
-                        [
-                            142.6916,
-                            -35.7581
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Two Bays Walking Trk",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-12T11:00:00+11:00",
-                "updated": "2020-12-12T11:00:00+11:00",
-                "id": "13e1db3fcb8461ed040ea4379d5fd5a1",
-                "location": "Two Bays Walking Trk",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.9476,
-                            -38.3509
-                        ],
-                        [
-                            144.9475,
-                            -38.3508
-                        ],
-                        [
-                            144.9475,
-                            -38.3507
-                        ],
-                        [
-                            144.9475,
-                            -38.3507
-                        ],
-                        [
-                            144.9475,
-                            -38.3507
-                        ],
-                        [
-                            144.9476,
-                            -38.3509
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Goulburn 32 - Mooroopna - Midl",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -12847,14 +13021,14 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Curran Rd",
+                "sourceTitle": "Unknown",
                 "category": "burn area",
                 "subcategory": "burn area",
                 "status": "unknown",
-                "created": "2020-11-15T11:00:00+11:00",
-                "updated": "2020-11-15T11:00:00+11:00",
-                "id": "0f2050d1ecf89bb9b288bd07a80921c7",
-                "location": "Curran Rd",
+                "created": "2020-11-11T11:00:00+11:00",
+                "updated": "2020-11-11T11:00:00+11:00",
+                "id": "ec4a280cbf7c3c03559c74ffb3d25443",
+                "location": "Unknown",
                 "title": "other: burn area"
             },
             "geometry": {
@@ -12862,56 +13036,40 @@
                 "coordinates": [
                     [
                         [
-                            143.1929,
-                            -35.1565
+                            142.6916,
+                            -35.7581
                         ],
                         [
-                            143.1928,
-                            -35.1566
+                            142.6912,
+                            -35.7582
                         ],
                         [
-                            143.1925,
-                            -35.1567
+                            142.691,
+                            -35.7583
                         ],
                         [
-                            143.1927,
-                            -35.1569
+                            142.6908,
+                            -35.7585
                         ],
                         [
-                            143.1926,
-                            -35.1574
+                            142.6908,
+                            -35.7587
                         ],
                         [
-                            143.1907,
-                            -35.158
+                            142.6907,
+                            -35.7587
                         ],
                         [
-                            143.1907,
-                            -35.1574
+                            142.6907,
+                            -35.7582
                         ],
                         [
-                            143.1901,
-                            -35.1574
+                            142.6908,
+                            -35.7581
                         ],
                         [
-                            143.1918,
-                            -35.1547
-                        ],
-                        [
-                            143.1922,
-                            -35.1545
-                        ],
-                        [
-                            143.1929,
-                            -35.1546
-                        ],
-                        [
-                            143.194,
-                            -35.1554
-                        ],
-                        [
-                            143.1929,
-                            -35.1565
+                            142.6916,
+                            -35.7581
                         ]
                     ]
                 ]
@@ -13630,6 +13788,84 @@
                         [
                             142.6885,
                             -36.4826
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Unknown",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-12T11:00:00+11:00",
+                "updated": "2020-12-12T11:00:00+11:00",
+                "id": "94e5bc5dd5d1602e0ce58d68366531c5",
+                "location": "Unknown",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.7411,
+                            -36.1526
+                        ],
+                        [
+                            142.7439,
+                            -36.1513
+                        ],
+                        [
+                            142.7479,
+                            -36.1494
+                        ],
+                        [
+                            142.754,
+                            -36.1477
+                        ],
+                        [
+                            142.7564,
+                            -36.1475
+                        ],
+                        [
+                            142.7592,
+                            -36.1476
+                        ],
+                        [
+                            142.7615,
+                            -36.1477
+                        ],
+                        [
+                            142.7611,
+                            -36.1497
+                        ],
+                        [
+                            142.7583,
+                            -36.1504
+                        ],
+                        [
+                            142.7575,
+                            -36.1508
+                        ],
+                        [
+                            142.756,
+                            -36.1522
+                        ],
+                        [
+                            142.7542,
+                            -36.1541
+                        ],
+                        [
+                            142.7542,
+                            -36.1541
+                        ],
+                        [
+                            142.7411,
+                            -36.1526
                         ]
                     ]
                 ]
@@ -15697,14 +15933,14 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Unknown",
+                "sourceTitle": "Two Bays Walking Trk",
                 "category": "burn area",
                 "subcategory": "burn area",
                 "status": "unknown",
                 "created": "2020-12-12T11:00:00+11:00",
                 "updated": "2020-12-12T11:00:00+11:00",
-                "id": "94e5bc5dd5d1602e0ce58d68366531c5",
-                "location": "Unknown",
+                "id": "13e1db3fcb8461ed040ea4379d5fd5a1",
+                "location": "Two Bays Walking Trk",
                 "title": "other: burn area"
             },
             "geometry": {
@@ -15712,60 +15948,28 @@
                 "coordinates": [
                     [
                         [
-                            142.7411,
-                            -36.1526
+                            144.9476,
+                            -38.3509
                         ],
                         [
-                            142.7439,
-                            -36.1513
+                            144.9475,
+                            -38.3508
                         ],
                         [
-                            142.7479,
-                            -36.1494
+                            144.9475,
+                            -38.3507
                         ],
                         [
-                            142.754,
-                            -36.1477
+                            144.9475,
+                            -38.3507
                         ],
                         [
-                            142.7564,
-                            -36.1475
+                            144.9475,
+                            -38.3507
                         ],
                         [
-                            142.7592,
-                            -36.1476
-                        ],
-                        [
-                            142.7615,
-                            -36.1477
-                        ],
-                        [
-                            142.7611,
-                            -36.1497
-                        ],
-                        [
-                            142.7583,
-                            -36.1504
-                        ],
-                        [
-                            142.7575,
-                            -36.1508
-                        ],
-                        [
-                            142.756,
-                            -36.1522
-                        ],
-                        [
-                            142.7542,
-                            -36.1541
-                        ],
-                        [
-                            142.7542,
-                            -36.1541
-                        ],
-                        [
-                            142.7411,
-                            -36.1526
+                            144.9476,
+                            -38.3509
                         ]
                     ]
                 ]
@@ -26430,14 +26634,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dawes Rd",
+                "sourceTitle": "Lyons Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2021-01-03T10:54:58+11:00",
-                "updated": "2021-01-03T10:54:58+11:00",
-                "id": "ESTA:210101144",
-                "location": "Dawes Rd, Invermay",
+                "created": "2021-01-03T12:08:00+11:00",
+                "updated": "2021-01-03T12:23:00+11:00",
+                "id": "ESTA:210101178",
+                "location": "Lyons Rd, Croydon North",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -26445,22 +26649,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8901775780784,
-                    -37.512468552659236
+                    145.28882822586422,
+                    -37.76751980480744
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tin Dish Rd",
+                "sourceTitle": "Great Ocean Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2021-01-03T09:52:00+11:00",
-                "updated": "2021-01-03T10:49:00+11:00",
-                "id": "ESTA:210101136",
-                "location": "Tin Dish Rd, Irrewillipe",
+                "status": "under control",
+                "created": "2021-01-03T11:21:00+11:00",
+                "updated": "2021-01-03T12:11:00+11:00",
+                "id": "ESTA:210101164",
+                "location": "Great Ocean Rd, Kennett River",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -26468,77 +26672,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.36927932715582,
-                    -38.44206703929134
+                    143.86203310383908,
+                    -38.66897473543499
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kiata Dr",
-                "category": "fire",
+                "sourceTitle": "Eleven Mile Rd",
+                "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2021-01-03T10:18:00+11:00",
-                "updated": "2021-01-03T10:28:00+11:00",
-                "id": "ESTA:210101147",
-                "location": "Kiata Dr, Mildura",
+                "created": "2021-01-03T11:56:00+11:00",
+                "updated": "2021-01-03T12:10:00+11:00",
+                "id": "ESTA:210101176",
+                "location": "Eleven Mile Rd, Tynong",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.1461844770272,
-                    -34.18761204084267
+                    145.63118647142252,
+                    -38.11683447569311
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Old Sale Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-01-03T09:53:00+11:00",
-                "updated": "2021-01-03T10:26:00+11:00",
-                "id": "ESTA:210101137",
-                "location": "Old Sale Rd, Shady Creek",
+                "sourceTitle": "Kerrs Lane",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2021-01-03T11:15:00+11:00",
+                "updated": "2021-01-03T11:15:00+11:00",
+                "id": "ESTA:210101161",
+                "location": "Kerrs Lane, Lysterfield",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.07270833551416,
-                    -38.086379410139905
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Unknown -",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "not yet under control",
-                "created": "2021-01-03T10:25:00+11:00",
-                "updated": "2021-01-03T10:25:00+11:00",
-                "id": "ESTA:210101149",
-                "location": "Unknown -, Fryerstown",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.25084538857698,
-                    -37.138875789383185
+                    145.3353049853981,
+                    -37.95252956922626
                 ]
             }
         },
@@ -26568,14 +26749,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Brunswick St",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2021-01-01T17:47:00+11:00",
-                "updated": "2021-01-02T13:47:00+11:00",
-                "id": "ESTA:210100413",
-                "location": "Bulart",
+                "created": "2021-01-03T12:20:10+11:00",
+                "updated": "2021-01-03T12:20:10+11:00",
+                "id": "ESTA:210101171",
+                "location": "Brunswick St, Fitzroy",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -26583,22 +26764,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.90709458240622,
-                    -37.5682422456597
+                    144.97830080829036,
+                    -37.798146299493354
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Humphries Rd",
+                "sourceTitle": "Sheehans Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2021-01-03T10:56:51+11:00",
-                "updated": "2021-01-03T10:56:51+11:00",
-                "id": "ESTA:210101155",
-                "location": "Humphries Rd, Frankston South",
+                "created": "2021-01-03T12:36:32+11:00",
+                "updated": "2021-01-03T12:36:32+11:00",
+                "id": "ESTA:210101182",
+                "location": "Sheehans Rd, Blackburn",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -26606,8 +26787,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10278608370183,
-                    -38.16648794634829
+                    145.1444827051909,
+                    -37.82942526274896
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Benjamin Cl",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-01-03T11:58:26+11:00",
+                "updated": "2021-01-03T11:58:26+11:00",
+                "id": "ESTA:210101170",
+                "location": "Benjamin Cl, Bundoora",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0565820145859,
+                    -37.69283160268213
                 ]
             }
         },
@@ -26618,18 +26822,18 @@
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2021-01-03T10:42:00+11:00",
-                "updated": "2021-01-03T10:56:00+11:00",
-                "id": "ESTA:210150455",
-                "location": "North Wonthaggi",
+                "created": "2021-01-03T11:49:00+11:00",
+                "updated": "2021-01-03T12:34:00+11:00",
+                "id": "ESTA:210150470",
+                "location": "Fairfield",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.60153927112154,
-                    -38.59806293410744
+                    145.0193061884634,
+                    -37.77047012175152
                 ]
             }
         },
@@ -26640,106 +26844,18 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2021-01-03T10:43:00+11:00",
-                "updated": "2021-01-03T10:46:00+11:00",
-                "id": "ESTA:210150456",
-                "location": "Mulgrave",
+                "created": "2021-01-03T12:23:00+11:00",
+                "updated": "2021-01-03T12:24:00+11:00",
+                "id": "ESTA:210150473",
+                "location": "Montmorency",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.20491171286193,
-                    -37.92813613558319
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2021-01-03T09:53:00+11:00",
-                "updated": "2021-01-03T10:45:00+11:00",
-                "id": "ESTA:210150450",
-                "location": "Box Hill North",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.12818820948053,
-                    -37.80438742857781
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2021-01-03T10:39:00+11:00",
-                "updated": "2021-01-03T10:42:00+11:00",
-                "id": "ESTA:210150454",
-                "location": "Blackburn",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1655350372059,
-                    -37.828217118172475
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2021-01-03T10:26:00+11:00",
-                "updated": "2021-01-03T10:36:00+11:00",
-                "id": "ESTA:210150453",
-                "location": "Werribee",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.68151100840575,
-                    -37.90508031082648
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2021-01-03T09:51:00+11:00",
-                "updated": "2021-01-03T10:32:00+11:00",
-                "id": "ESTA:210150449",
-                "location": "Hastings",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.19480421889972,
-                    -38.309525412213944
+                    145.1354549373262,
+                    -37.71723890303489
                 ]
             }
         },
@@ -26750,18 +26866,18 @@
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2021-01-02T21:29:00+11:00",
-                "updated": "2021-01-03T10:29:00+11:00",
-                "id": "ESTA:210150398",
-                "location": "Cockatoo",
+                "created": "2021-01-03T12:17:00+11:00",
+                "updated": "2021-01-03T12:18:00+11:00",
+                "id": "ESTA:210150472",
+                "location": "Point Cook",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.50519501218693,
-                    -37.92169129486483
+                    144.74596712557016,
+                    -37.892230243130115
                 ]
             }
         },
@@ -26772,40 +26888,18 @@
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2021-01-03T10:17:00+11:00",
-                "updated": "2021-01-03T10:16:45+11:00",
-                "id": "ESTA:210150452",
-                "location": "Wyndham Vale",
+                "created": "2021-01-03T11:35:00+11:00",
+                "updated": "2021-01-03T11:42:00+11:00",
+                "id": "ESTA:210150468",
+                "location": "Point Cook",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.61805717535904,
-                    -37.887944006582636
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2021-01-03T08:20:00+11:00",
-                "updated": "2021-01-03T08:19:31+11:00",
-                "id": "ESTA:210150431",
-                "location": "Werribee",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.59449026361264,
-                    -37.89901674691193
+                    144.78202101860296,
+                    -37.91697580106335
                 ]
             }
         },
@@ -26817,7 +26911,7 @@
                 "subcategory": "building damage",
                 "status": "request for assistance",
                 "created": "2021-01-02T22:10:00+11:00",
-                "updated": "2021-01-02T22:18:00+11:00",
+                "updated": "2021-01-03T11:34:00+11:00",
                 "id": "ESTA:210150406",
                 "location": "Hoppers Crossing",
                 "title": "incident: building damage"

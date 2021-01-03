@@ -9886,23 +9886,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mildura",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2021-01-04T00:34:39+11:00",
-                "updated": "2021-01-04T00:34:39+11:00",
-                "id": "ESTA:210101378",
-                "location": "Mildura, Mildura",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2021-01-03T22:22:00+11:00",
+                "updated": "2021-01-04T00:50:00+11:00",
+                "id": "ESTA:210150548",
+                "location": "Newtown (Geelong)",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.16945788971267,
-                    -34.18779029419258
+                    144.3237745068116,
+                    -38.143894981567335
                 ]
             }
         },
@@ -9912,9 +9911,9 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2021-01-04T00:31:00+11:00",
-                "updated": "2021-01-04T00:31:00+11:00",
+                "updated": "2021-01-04T00:52:00+11:00",
                 "id": "ESTA:210101381",
                 "location": "Cowes",
                 "size": "Small",
@@ -9932,12 +9931,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Fyansford",
+                "category": "landslide",
+                "subcategory": "landslide",
+                "status": "complete",
+                "created": "2021-01-03T22:21:10+11:00",
+                "updated": "2021-01-04T00:53:25+11:00",
+                "id": "ESTA:210150551",
+                "location": "Deviation Rd, Fyansford",
+                "title": "incident: landslide"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.31268097653822,
+                    -38.141514028120376
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Fitzgerald Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2021-01-04T00:37:44+11:00",
-                "updated": "2021-01-04T00:37:44+11:00",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2021-01-04T00:55:03+11:00",
+                "updated": "2021-01-04T00:55:03+11:00",
                 "id": "ESTA:210101380",
                 "location": "Fitzgerald Rd, Laverton North",
                 "size": "Small",
@@ -9955,23 +9976,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Snow St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2021-01-04T00:39:04+11:00",
-                "updated": "2021-01-04T00:39:04+11:00",
-                "id": "ESTA:210101379",
-                "location": "Snow St, Keilor Park",
+                "sourceTitle": "Windsor",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-01-04T00:56:21+11:00",
+                "updated": "2021-01-04T00:56:21+11:00",
+                "id": "ESTA:210101382",
+                "location": "Windsor, Windsor",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8609162624971,
-                    -37.72286809969962
+                    144.99322760505794,
+                    -37.85259550000036
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "St Kilda East",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2021-01-04T00:58:07+11:00",
+                "updated": "2021-01-04T00:58:21+11:00",
+                "id": "ESTA:210101383",
+                "location": "Murchison St, St Kilda East",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00380096127677,
+                    -37.86181148057858
                 ]
             }
         },
@@ -15885,6 +15928,84 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Unknown",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-12T11:00:00+11:00",
+                "updated": "2020-12-12T11:00:00+11:00",
+                "id": "94e5bc5dd5d1602e0ce58d68366531c5",
+                "location": "Unknown",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.7411,
+                            -36.1526
+                        ],
+                        [
+                            142.7439,
+                            -36.1513
+                        ],
+                        [
+                            142.7479,
+                            -36.1494
+                        ],
+                        [
+                            142.754,
+                            -36.1477
+                        ],
+                        [
+                            142.7564,
+                            -36.1475
+                        ],
+                        [
+                            142.7592,
+                            -36.1476
+                        ],
+                        [
+                            142.7615,
+                            -36.1477
+                        ],
+                        [
+                            142.7611,
+                            -36.1497
+                        ],
+                        [
+                            142.7583,
+                            -36.1504
+                        ],
+                        [
+                            142.7575,
+                            -36.1508
+                        ],
+                        [
+                            142.756,
+                            -36.1522
+                        ],
+                        [
+                            142.7542,
+                            -36.1541
+                        ],
+                        [
+                            142.7542,
+                            -36.1541
+                        ],
+                        [
+                            142.7411,
+                            -36.1526
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Ironbark Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -16394,84 +16515,6 @@
                         [
                             145.1812,
                             -37.7268
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Unknown",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-12T11:00:00+11:00",
-                "updated": "2020-12-12T11:00:00+11:00",
-                "id": "94e5bc5dd5d1602e0ce58d68366531c5",
-                "location": "Unknown",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.7411,
-                            -36.1526
-                        ],
-                        [
-                            142.7439,
-                            -36.1513
-                        ],
-                        [
-                            142.7479,
-                            -36.1494
-                        ],
-                        [
-                            142.754,
-                            -36.1477
-                        ],
-                        [
-                            142.7564,
-                            -36.1475
-                        ],
-                        [
-                            142.7592,
-                            -36.1476
-                        ],
-                        [
-                            142.7615,
-                            -36.1477
-                        ],
-                        [
-                            142.7611,
-                            -36.1497
-                        ],
-                        [
-                            142.7583,
-                            -36.1504
-                        ],
-                        [
-                            142.7575,
-                            -36.1508
-                        ],
-                        [
-                            142.756,
-                            -36.1522
-                        ],
-                        [
-                            142.7542,
-                            -36.1541
-                        ],
-                        [
-                            142.7542,
-                            -36.1541
-                        ],
-                        [
-                            142.7411,
-                            -36.1526
                         ]
                     ]
                 ]
@@ -26664,14 +26707,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Halls Lane",
+                "sourceTitle": "Seventh St",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2021-01-02T20:31:00+11:00",
-                "updated": "2021-01-02T20:53:00+11:00",
-                "id": "ESTA:210101009",
-                "location": "Halls Lane, Corndale",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2021-01-04T00:27:00+11:00",
+                "updated": "2021-01-04T00:49:00+11:00",
+                "id": "ESTA:210101378",
+                "location": "Seventh St, Mildura",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -26679,31 +26722,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.28840039835472,
-                    -37.53752006198806
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dusseldorp Av",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-01-03T23:37:00+11:00",
-                "updated": "2021-01-03T23:46:00+11:00",
-                "id": "ESTA:210101375",
-                "location": "Dusseldorp Av, Pakenham",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4445272187799,
-                    -38.07511079465951
+                    142.16849152716162,
+                    -34.18888957039258
                 ]
             }
         },
@@ -26733,6 +26753,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Halls Lane",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2021-01-02T20:31:00+11:00",
+                "updated": "2021-01-02T20:53:00+11:00",
+                "id": "ESTA:210101009",
+                "location": "Halls Lane, Corndale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.28840039835472,
+                    -37.53752006198806
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Macedon Ct",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -26756,23 +26799,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Old Grahamvale Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2021-01-04T00:02:26+11:00",
-                "updated": "2021-01-04T00:02:26+11:00",
-                "id": "ESTA:210101376",
-                "location": "Old Grahamvale Rd, Congupna",
+                "sourceTitle": "Snow St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2021-01-04T00:39:04+11:00",
+                "updated": "2021-01-04T00:39:04+11:00",
+                "id": "ESTA:210101379",
+                "location": "Snow St, Keilor Park",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.4325751592293,
-                    -36.32020334971114
+                    144.8609162624971,
+                    -37.72286809969962
                 ]
             }
         },
@@ -26784,7 +26827,7 @@
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2021-01-04T00:26:00+11:00",
-                "updated": "2021-01-04T00:39:00+11:00",
+                "updated": "2021-01-04T00:51:00+11:00",
                 "id": "ESTA:210150561",
                 "location": "Epping",
                 "title": "incident: tree down"
@@ -26905,28 +26948,6 @@
                 "coordinates": [
                     143.52858262637926,
                     -38.6015844496955
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2021-01-03T22:22:00+11:00",
-                "updated": "2021-01-03T22:47:00+11:00",
-                "id": "ESTA:210150548",
-                "location": "Newtown (Geelong)",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3237745068116,
-                    -38.143894981567335
                 ]
             }
         }

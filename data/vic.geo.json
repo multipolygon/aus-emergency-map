@@ -9,72 +9,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            141.23889874683687,
-                            -36.76723652858928
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    141.23575519787207,
-                                    -36.76365262986296
-                                ],
-                                [
-                                    141.24015402065305,
-                                    -36.76279312595286
-                                ],
-                                [
-                                    141.24356579052682,
-                                    -36.766162326149455
-                                ],
-                                [
-                                    141.242492906918,
-                                    -36.77049393746737
-                                ],
-                                [
-                                    141.23890947567685,
-                                    -36.771679931225705
-                                ],
-                                [
-                                    141.23599123226117,
-                                    -36.77035642975759
-                                ],
-                                [
-                                    141.23423170314695,
-                                    -36.76695303536076
-                                ],
-                                [
-                                    141.23575519787207,
-                                    -36.76365262986296
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Community Information",
-                "category": "community update",
-                "subcategory": "env",
-                "status": "unknown",
-                "created": "2020-12-21T17:07:59+11:00",
-                "updated": "2020-12-21T17:08:00+11:00",
-                "id": "15391",
-                "location": "Minimay",
-                "title": "warning: community update"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             142.12055002706438,
                             -34.295131727155024
                         ]
@@ -118,10 +52,10 @@
                 "category": "advice",
                 "subcategory": "fire",
                 "status": "minor",
-                "created": "2021-01-04T15:05:38+11:00",
-                "updated": "2021-01-04T15:05:38+11:00",
-                "id": "15482",
-                "location": "Cardross, Irymple, Koorlong, Lake Benetook, Red Cliffs, Sunny Cliffs, Thurla, Yatpool, Birdwoodton, Mildura",
+                "created": "2021-01-05T10:45:25+11:00",
+                "updated": "2021-01-05T10:45:25+11:00",
+                "id": "15485",
+                "location": "Cardross, Irymple, Koorlong, Lake Benetook, Red Cliffs, Sunny Cliffs, Thurla, Yatpool, Mildura",
                 "title": "warning: advice"
             }
         },
@@ -7811,6 +7745,72 @@
         },
         {
             "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            141.23889874683687,
+                            -36.76723652858928
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ],
+                                [
+                                    141.24015402065305,
+                                    -36.76279312595286
+                                ],
+                                [
+                                    141.24356579052682,
+                                    -36.766162326149455
+                                ],
+                                [
+                                    141.242492906918,
+                                    -36.77049393746737
+                                ],
+                                [
+                                    141.23890947567685,
+                                    -36.771679931225705
+                                ],
+                                [
+                                    141.23599123226117,
+                                    -36.77035642975759
+                                ],
+                                [
+                                    141.23423170314695,
+                                    -36.76695303536076
+                                ],
+                                [
+                                    141.23575519787207,
+                                    -36.76365262986296
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "env",
+                "status": "unknown",
+                "created": "2020-12-21T17:07:59+11:00",
+                "updated": "2020-12-21T17:08:00+11:00",
+                "id": "15391",
+                "location": "Minimay",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
             "properties": {
                 "feedType": "warning",
                 "sourceTitle": "Advice",
@@ -10022,111 +10022,66 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2021-01-05T10:43:00+11:00",
+                "updated": "2021-01-05T10:49:00+11:00",
+                "id": "ESTA:210150717",
+                "location": "Raymond Island",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.7269021133485,
+                    -37.92202797485837
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2021-01-05T10:45:00+11:00",
+                "updated": "2021-01-05T10:50:00+11:00",
+                "id": "ESTA:210150718",
+                "location": "Main Ridge",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96673559086477,
+                    -38.39868735167146
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Werribee",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2021-01-05T10:03:00+11:00",
-                "updated": "2021-01-05T10:03:00+11:00",
-                "id": "ESTA:210101782",
-                "location": "Crowlands",
-                "size": "Small",
-                "title": "incident: rescue"
+                "created": "2021-01-05T10:54:50+11:00",
+                "updated": "2021-01-05T10:54:54+11:00",
+                "id": "ESTA:210101800",
+                "location": "Hoppers Lane, Werribee",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.10934791637482,
-                    -37.149887621450155
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2021-01-05T08:26:00+11:00",
-                "updated": "2021-01-05T10:04:00+11:00",
-                "id": "ESTA:210150693",
-                "location": "Blairgowrie",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.76232559005672,
-                    -38.35965768151273
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2021-01-05T10:11:00+11:00",
-                "updated": "2021-01-05T10:13:00+11:00",
-                "id": "ESTA:210150711",
-                "location": "Melton",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.58241525754502,
-                    -37.68824951815241
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2021-01-05T08:56:00+11:00",
-                "updated": "2021-01-05T10:14:00+11:00",
-                "id": "ESTA:210150699",
-                "location": "Healesville",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.51707581152846,
-                    -37.652206632267536
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2021-01-05T10:16:00+11:00",
-                "updated": "2021-01-05T10:17:00+11:00",
-                "id": "ESTA:210150713",
-                "location": "Wildwood",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7932305413638,
-                    -37.56300341976973
+                    144.70077011029605,
+                    -37.88704749407061
                 ]
             }
         },
@@ -27295,12 +27250,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Fitzgerald Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2021-01-04T00:30:00+11:00",
+                "updated": "2021-01-05T10:36:00+11:00",
+                "id": "ESTA:210101380",
+                "location": "Fitzgerald Rd, Laverton North",
+                "size": "Medium",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7846695314974,
+                    -37.83318347517847
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2021-01-05T10:03:00+11:00",
+                "updated": "2021-01-05T10:25:00+11:00",
+                "id": "ESTA:210101782",
+                "location": "Crowlands",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.10934791637482,
+                    -37.149887621450155
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Stephens Pde",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2021-01-05T10:10:50+11:00",
-                "updated": "2021-01-05T10:10:50+11:00",
+                "created": "2021-01-05T09:43:00+11:00",
+                "updated": "2021-01-05T09:59:00+11:00",
                 "id": "ESTA:210101776",
                 "location": "Stephens Pde, Barwon Heads",
                 "size": "Small",
@@ -27310,8 +27311,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.4788474030567,
-                    -38.286154019664295
+                    144.4788388440327,
+                    -38.28616175485775
                 ]
             }
         },
@@ -27341,75 +27342,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-01-05T09:20:00+11:00",
-                "updated": "2021-01-05T09:23:00+11:00",
-                "id": "ESTA:210101771",
-                "location": "Cranbourne West",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2396201945438,
-                    -38.077842896957485
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bastion Point Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2021-01-05T09:16:00+11:00",
-                "updated": "2021-01-05T09:19:00+11:00",
-                "id": "ESTA:210101769",
-                "location": "Bastion Point Rd, Mallacoota",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.76932225689308,
-                    -37.563143870180205
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Fitzgerald Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2021-01-05T08:06:35+11:00",
-                "updated": "2021-01-05T08:06:35+11:00",
-                "id": "ESTA:210101380",
-                "location": "Fitzgerald Rd, Laverton North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.78467941726538,
-                    -37.83317536730437
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Halls Lane",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -27433,23 +27365,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Grange Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2021-01-05T10:12:40+11:00",
-                "updated": "2021-01-05T10:12:40+11:00",
-                "id": "ESTA:210101783",
-                "location": "Grange Rd, Caulfield East",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2021-01-05T10:11:00+11:00",
+                "updated": "2021-01-05T10:40:00+11:00",
+                "id": "ESTA:210150711",
+                "location": "Melton",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.04923224715918,
-                    -37.881345009758974
+                    144.58241525754502,
+                    -37.68824951815241
                 ]
             }
         },
@@ -27457,21 +27388,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2021-01-05T09:09:00+11:00",
-                "updated": "2021-01-05T10:10:00+11:00",
-                "id": "ESTA:210150704",
-                "location": "Laverton",
-                "title": "incident: rescue"
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2021-01-05T10:32:00+11:00",
+                "updated": "2021-01-05T10:38:00+11:00",
+                "id": "ESTA:210150716",
+                "location": "Dromana",
+                "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7617122024654,
-                    -37.86719984921129
+                    144.98088346753585,
+                    -38.32926764286238
                 ]
             }
         },
@@ -27482,18 +27413,62 @@
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2021-01-05T09:03:00+11:00",
-                "updated": "2021-01-05T10:00:00+11:00",
-                "id": "ESTA:210150701",
-                "location": "Caroline Springs",
+                "created": "2021-01-05T10:16:00+11:00",
+                "updated": "2021-01-05T10:34:00+11:00",
+                "id": "ESTA:210150713",
+                "location": "Wildwood",
                 "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7491282390306,
-                    -37.72693067082694
+                    144.7932305413638,
+                    -37.56300341976973
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2021-01-05T10:24:00+11:00",
+                "updated": "2021-01-05T10:31:00+11:00",
+                "id": "ESTA:210150715",
+                "location": "St Albans",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8116969950118,
+                    -37.75670320875843
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2021-01-05T09:48:00+11:00",
+                "updated": "2021-01-05T10:17:00+11:00",
+                "id": "ESTA:210150709",
+                "location": "Notting Hill",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14731920959812,
+                    -37.90230739668366
                 ]
             }
         },
@@ -27516,50 +27491,6 @@
                 "coordinates": [
                     144.9387151231083,
                     -37.8434973258979
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2021-01-05T09:48:00+11:00",
-                "updated": "2021-01-05T09:51:00+11:00",
-                "id": "ESTA:210150709",
-                "location": "Notting Hill",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.14731920959812,
-                    -37.90230739668366
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2021-01-05T08:49:00+11:00",
-                "updated": "2021-01-05T09:51:00+11:00",
-                "id": "ESTA:210150697",
-                "location": "Sebastopol",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.83200984255345,
-                    -37.586444094948135
                 ]
             }
         },

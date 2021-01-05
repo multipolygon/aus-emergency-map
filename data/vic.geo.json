@@ -9980,12 +9980,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Dandenong",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "unknown",
+                "created": "2021-01-06T09:05:56+11:00",
+                "updated": "2021-01-06T09:09:20+11:00",
+                "id": "ESTA:210150799",
+                "location": "Cleeland St, Dandenong",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.21558331223753,
+                    -37.98382030928474
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2021-01-06T08:50:00+11:00",
-                "updated": "2021-01-06T08:52:00+11:00",
+                "updated": "2021-01-06T09:42:00+11:00",
                 "id": "ESTA:210150798",
                 "location": "West Wodonga",
                 "title": "incident: building damage"
@@ -10002,46 +10024,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Goulburn Valley Hwy",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2021-01-06T08:58:52+11:00",
-                "updated": "2021-01-06T08:58:52+11:00",
-                "id": "ESTA:210102049",
-                "location": "Goulburn Valley Hwy, Congupna",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2021-01-06T09:43:00+11:00",
+                "updated": "2021-01-06T09:43:00+11:00",
+                "id": "ESTA:210150802",
+                "location": "Romsey",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.42844037292664,
-                    -36.30566300853881
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elliott Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2021-01-06T08:58:54+11:00",
-                "updated": "2021-01-06T08:58:54+11:00",
-                "id": "ESTA:210102068",
-                "location": "Elliott Av, Parkville",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95331654736464,
-                    -37.78544391009966
+                    144.705300467503,
+                    -37.35821766084327
                 ]
             }
         },
@@ -10049,21 +10047,43 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "building damage",
+                "subcategory": "building damage",
                 "status": "complete",
-                "created": "2021-01-06T07:58:00+11:00",
-                "updated": "2021-01-06T08:59:00+11:00",
-                "id": "ESTA:210150796",
-                "location": "Echuca Village",
-                "title": "incident: tree down"
+                "created": "2021-01-06T09:08:00+11:00",
+                "updated": "2021-01-06T09:44:00+11:00",
+                "id": "ESTA:210150800",
+                "location": "West Wodonga",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8067377177862,
-                    -36.107398693869264
+                    146.86423072475685,
+                    -36.126456411935656
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Box Hill North",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2021-01-06T09:45:33+11:00",
+                "updated": "2021-01-06T09:46:28+11:00",
+                "id": "ESTA:210102093",
+                "location": "Woodhouse Gr, Box Hill North",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.11814775384897,
+                    -37.80389202486826
                 ]
             }
         },
@@ -10074,9 +10094,9 @@
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "under control",
-                "created": "2021-01-05T15:59:00+11:00",
-                "updated": "2021-01-05T15:59:00+11:00",
-                "id": "2021-01-05T15:59:00.0000000:403599",
+                "created": "2021-01-06T09:25:00+11:00",
+                "updated": "2021-01-06T09:25:00+11:00",
+                "id": "2021-01-06T09:25:00.0000000:403599",
                 "location": "310 Jimaringle Rd Burraboi, Nsw 2732",
                 "title": "incident: fire"
             },
@@ -16415,6 +16435,124 @@
                         [
                             145.0569,
                             -38.3111
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Brett Dr",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-25T11:00:00+11:00",
+                "updated": "2020-12-25T11:00:00+11:00",
+                "id": "50d6f6c74fd1830e5acb1e5a90f3ff28",
+                "location": "Brett Dr",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            145.1632,
+                            -38.0927
+                        ],
+                        [
+                            145.1633,
+                            -38.0927
+                        ],
+                        [
+                            145.1634,
+                            -38.0928
+                        ],
+                        [
+                            145.1635,
+                            -38.0929
+                        ],
+                        [
+                            145.1635,
+                            -38.0931
+                        ],
+                        [
+                            145.1635,
+                            -38.0933
+                        ],
+                        [
+                            145.1636,
+                            -38.0938
+                        ],
+                        [
+                            145.1636,
+                            -38.0939
+                        ],
+                        [
+                            145.1633,
+                            -38.0942
+                        ],
+                        [
+                            145.1632,
+                            -38.0943
+                        ],
+                        [
+                            145.1631,
+                            -38.0944
+                        ],
+                        [
+                            145.1631,
+                            -38.0944
+                        ],
+                        [
+                            145.163,
+                            -38.0943
+                        ],
+                        [
+                            145.163,
+                            -38.0941
+                        ],
+                        [
+                            145.163,
+                            -38.0941
+                        ],
+                        [
+                            145.163,
+                            -38.0939
+                        ],
+                        [
+                            145.163,
+                            -38.0934
+                        ],
+                        [
+                            145.163,
+                            -38.0933
+                        ],
+                        [
+                            145.163,
+                            -38.0932
+                        ],
+                        [
+                            145.163,
+                            -38.093
+                        ],
+                        [
+                            145.163,
+                            -38.0928
+                        ],
+                        [
+                            145.163,
+                            -38.0928
+                        ],
+                        [
+                            145.1632,
+                            -38.0927
+                        ],
+                        [
+                            145.1632,
+                            -38.0927
                         ]
                     ]
                 ]
@@ -25485,6 +25623,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Aviation Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2021-01-06T09:45:00+11:00",
+                "updated": "2021-01-06T09:45:00+11:00",
+                "id": "ESTA:210102092",
+                "location": "Aviation Rd, Point Cook",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74649907164812,
+                    -37.92548317832422
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hollywood Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-01-06T09:42:53+11:00",
+                "updated": "2021-01-06T09:42:53+11:00",
+                "id": "ESTA:210102076",
+                "location": "Hollywood Dr, Roxburgh Park",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.927476451682,
+                    -37.620594019426
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Goulburn Valley Hwy",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2021-01-06T09:35:57+11:00",
+                "updated": "2021-01-06T09:35:57+11:00",
+                "id": "ESTA:210102049",
+                "location": "Goulburn Valley Hwy, Congupna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.42844037292664,
+                    -36.30566300853881
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Halls Lane",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -25508,14 +25715,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Grosvenor St",
+                "sourceTitle": "Miriam St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2021-01-06T09:45:02+11:00",
+                "updated": "2021-01-06T09:45:02+11:00",
+                "id": "ESTA:210102078",
+                "location": "Miriam St, Rosanna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0776235118166,
+                    -37.7443412411214
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mill St",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2021-01-06T09:01:09+11:00",
-                "updated": "2021-01-06T09:01:09+11:00",
-                "id": "ESTA:210102066",
-                "location": "Grosvenor St, Doncaster",
+                "created": "2021-01-06T09:44:54+11:00",
+                "updated": "2021-01-06T09:44:54+11:00",
+                "id": "ESTA:210102086",
+                "location": "Mill St, Lake Wendouree",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -25523,8 +25753,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1282395825362,
-                    -37.783258047240956
+                    143.84500924899078,
+                    -37.5537915402504
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elgin Bvd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-01-06T09:43:00+11:00",
+                "updated": "2021-01-06T09:43:00+11:00",
+                "id": "ESTA:210102088",
+                "location": "Elgin Bvd, Wodonga",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.88936796258102,
+                    -36.12134643429428
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2021-01-06T09:19:00+11:00",
+                "updated": "2021-01-06T09:42:00+11:00",
+                "id": "ESTA:210150801",
+                "location": "West Wodonga",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.86367884162993,
+                    -36.117845741775916
                 ]
             }
         },

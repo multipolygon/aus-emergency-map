@@ -9887,14 +9887,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Macgregor Av",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-01-06T21:43:00+11:00",
-                "updated": "2021-01-06T22:06:00+11:00",
-                "id": "ESTA:210102311",
-                "location": "Huntly",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2021-01-06T23:03:54+11:00",
+                "updated": "2021-01-06T23:03:54+11:00",
+                "id": "ESTA:210102330",
+                "location": "Macgregor Av, Portsea",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -9902,8 +9902,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.33928020272293,
-                    -36.680471682469445
+                    144.72213230822794,
+                    -38.323359632550684
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "David St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-01-06T23:03:14+11:00",
+                "updated": "2021-01-06T23:03:14+11:00",
+                "id": "ESTA:210102332",
+                "location": "David St, Dandenong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2205698154897,
+                    -37.977339214061374
                 ]
             }
         },
@@ -9911,21 +9934,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "building damage",
+                "subcategory": "building damage",
                 "status": "request for assistance",
-                "created": "2021-01-06T22:47:00+11:00",
-                "updated": "2021-01-06T22:51:00+11:00",
-                "id": "ESTA:210150864",
-                "location": "Blackburn",
-                "title": "incident: tree down"
+                "created": "2021-01-06T20:02:00+11:00",
+                "updated": "2021-01-06T20:20:00+11:00",
+                "id": "ESTA:210150855",
+                "location": "Sunbury",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.14342809731625,
-                    -37.824455068094444
+                    144.7555630555792,
+                    -37.58611109438194
                 ]
             }
         },
@@ -14160,84 +14183,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Unknown",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-12T11:00:00+11:00",
-                "updated": "2020-12-12T11:00:00+11:00",
-                "id": "94e5bc5dd5d1602e0ce58d68366531c5",
-                "location": "Unknown",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.7411,
-                            -36.1526
-                        ],
-                        [
-                            142.7439,
-                            -36.1513
-                        ],
-                        [
-                            142.7479,
-                            -36.1494
-                        ],
-                        [
-                            142.754,
-                            -36.1477
-                        ],
-                        [
-                            142.7564,
-                            -36.1475
-                        ],
-                        [
-                            142.7592,
-                            -36.1476
-                        ],
-                        [
-                            142.7615,
-                            -36.1477
-                        ],
-                        [
-                            142.7611,
-                            -36.1497
-                        ],
-                        [
-                            142.7583,
-                            -36.1504
-                        ],
-                        [
-                            142.7575,
-                            -36.1508
-                        ],
-                        [
-                            142.756,
-                            -36.1522
-                        ],
-                        [
-                            142.7542,
-                            -36.1541
-                        ],
-                        [
-                            142.7542,
-                            -36.1541
-                        ],
-                        [
-                            142.7411,
-                            -36.1526
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Ironbark Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -14747,6 +14692,84 @@
                         [
                             145.1812,
                             -37.7268
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Unknown",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-12T11:00:00+11:00",
+                "updated": "2020-12-12T11:00:00+11:00",
+                "id": "94e5bc5dd5d1602e0ce58d68366531c5",
+                "location": "Unknown",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.7411,
+                            -36.1526
+                        ],
+                        [
+                            142.7439,
+                            -36.1513
+                        ],
+                        [
+                            142.7479,
+                            -36.1494
+                        ],
+                        [
+                            142.754,
+                            -36.1477
+                        ],
+                        [
+                            142.7564,
+                            -36.1475
+                        ],
+                        [
+                            142.7592,
+                            -36.1476
+                        ],
+                        [
+                            142.7615,
+                            -36.1477
+                        ],
+                        [
+                            142.7611,
+                            -36.1497
+                        ],
+                        [
+                            142.7583,
+                            -36.1504
+                        ],
+                        [
+                            142.7575,
+                            -36.1508
+                        ],
+                        [
+                            142.756,
+                            -36.1522
+                        ],
+                        [
+                            142.7542,
+                            -36.1541
+                        ],
+                        [
+                            142.7542,
+                            -36.1541
+                        ],
+                        [
+                            142.7411,
+                            -36.1526
                         ]
                     ]
                 ]
@@ -25534,52 +25557,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cassons Cr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-01-06T21:54:00+11:00",
-                "updated": "2021-01-06T22:01:00+11:00",
-                "id": "ESTA:210102314",
-                "location": "Cassons Cr, Huntly",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.33889226910532,
-                    -36.67809282291661
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "King St",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2021-01-06T21:53:00+11:00",
-                "updated": "2021-01-06T22:01:00+11:00",
-                "id": "ESTA:210102313",
-                "location": "King St, Dandenong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.222449608291,
-                    -37.98362737017386
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
@@ -25626,23 +25603,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Greenmeadows Lane",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2021-01-06T22:47:52+11:00",
-                "updated": "2021-01-06T22:47:52+11:00",
-                "id": "ESTA:210102321",
-                "location": "Greenmeadows Lane, St Kilda East",
+                "sourceTitle": "Coburns Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2021-01-06T23:04:18+11:00",
+                "updated": "2021-01-06T23:04:18+11:00",
+                "id": "ESTA:210102331",
+                "location": "Coburns Rd, Melton West",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.00381902329624,
-                    -37.87293087592778
+                    144.5668756903741,
+                    -37.68560142840238
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2021-01-06T22:47:00+11:00",
+                "updated": "2021-01-06T22:51:00+11:00",
+                "id": "ESTA:210150864",
+                "location": "Blackburn",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14342809731625,
+                    -37.824455068094444
                 ]
             }
         },
@@ -25665,28 +25664,6 @@
                 "coordinates": [
                     144.13814276683817,
                     -37.048869725261696
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2021-01-06T20:02:00+11:00",
-                "updated": "2021-01-06T20:20:00+11:00",
-                "id": "ESTA:210150855",
-                "location": "Sunbury",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7555630555792,
-                    -37.58611109438194
                 ]
             }
         }

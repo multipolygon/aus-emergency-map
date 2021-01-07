@@ -10331,7 +10331,7 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "created": "2021-01-07T17:05:00+11:00",
-                "updated": "2021-01-07T21:04:00+11:00",
+                "updated": "2021-01-08T09:37:00+11:00",
                 "id": 980354,
                 "location": "1.8Km Ese Of Merrijig",
                 "size": "13.00",
@@ -10349,14 +10349,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Menzies Rd",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2021-01-08T09:25:00+11:00",
+                "updated": "2021-01-08T09:37:00+11:00",
+                "id": "ESTA:210150931",
+                "location": "Mildura",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.14874335782682,
+                    -34.18825543764018
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Martins Rd",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "bushfire",
                 "status": "responding",
-                "created": "2021-01-08T09:00:00+11:00",
-                "updated": "2021-01-08T09:00:00+11:00",
-                "id": "ESTA:210102791",
-                "location": "Menzies Rd, Kangaroo Ground",
+                "created": "2021-01-08T09:45:00+11:00",
+                "updated": "2021-01-08T09:45:00+11:00",
+                "id": "ESTA:210102814",
+                "location": "Martins Rd, Salisbury West",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -10364,30 +10386,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.23745654149468,
-                    -37.7182496836964
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jimaringle Rd Burraboi",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2021-01-07T16:37:00+11:00",
-                "updated": "2021-01-07T16:37:00+11:00",
-                "id": "2021-01-07T16:37:00.0000000:403599",
-                "location": "310 Jimaringle Rd Burraboi, Nsw 2732",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.268813134,
-                    -35.325524951
+                    143.9212692736504,
+                    -36.52774129895113
                 ]
             }
         },
@@ -11174,6 +11174,64 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-27T11:00:00+11:00",
+                "updated": "2020-11-27T11:00:00+11:00",
+                "id": "be621c2d560160b7d87d9e32a1994259",
+                "location": "Fire - Rupanyup - Barkers Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.635,
+                            -36.5655
+                        ],
+                        [
+                            142.637,
+                            -36.5661
+                        ],
+                        [
+                            142.6377,
+                            -36.5664
+                        ],
+                        [
+                            142.6376,
+                            -36.5666
+                        ],
+                        [
+                            142.6372,
+                            -36.5666
+                        ],
+                        [
+                            142.6357,
+                            -36.566
+                        ],
+                        [
+                            142.6352,
+                            -36.5657
+                        ],
+                        [
+                            142.635,
+                            -36.5656
+                        ],
+                        [
+                            142.635,
+                            -36.5655
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Murray Valley Hwy",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -11315,6 +11373,80 @@
                         [
                             146.5221,
                             -36.0471
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Unknown",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-12-14T11:00:00+11:00",
+                "updated": "2020-12-14T11:00:00+11:00",
+                "id": "ddda0084a2ea727459104a43b693bb06",
+                "location": "Unknown",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.1391,
+                            -37.7808
+                        ],
+                        [
+                            144.139,
+                            -37.7799
+                        ],
+                        [
+                            144.1396,
+                            -37.7795
+                        ],
+                        [
+                            144.1402,
+                            -37.7796
+                        ],
+                        [
+                            144.1406,
+                            -37.7799
+                        ],
+                        [
+                            144.1409,
+                            -37.7807
+                        ],
+                        [
+                            144.1409,
+                            -37.7811
+                        ],
+                        [
+                            144.1407,
+                            -37.7815
+                        ],
+                        [
+                            144.1402,
+                            -37.7818
+                        ],
+                        [
+                            144.1397,
+                            -37.7818
+                        ],
+                        [
+                            144.1392,
+                            -37.7814
+                        ],
+                        [
+                            144.1391,
+                            -37.7812
+                        ],
+                        [
+                            144.1391,
+                            -37.7808
                         ]
                     ]
                 ]
@@ -11953,6 +12085,64 @@
                         [
                             141.5083,
                             -35.1284
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2020-11-27T11:00:00+11:00",
+                "updated": "2020-11-27T11:00:00+11:00",
+                "id": "13b3bba9db2e4ad0f7264d73a4dd1dc8",
+                "location": "Fire - Rupanyup - Barkers Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.6396,
+                            -36.567
+                        ],
+                        [
+                            142.6418,
+                            -36.5678
+                        ],
+                        [
+                            142.6427,
+                            -36.5682
+                        ],
+                        [
+                            142.6424,
+                            -36.5683
+                        ],
+                        [
+                            142.6418,
+                            -36.5683
+                        ],
+                        [
+                            142.6404,
+                            -36.5675
+                        ],
+                        [
+                            142.6397,
+                            -36.5672
+                        ],
+                        [
+                            142.6397,
+                            -36.5672
+                        ],
+                        [
+                            142.6396,
+                            -36.567
                         ]
                     ]
                 ]
@@ -12757,122 +12947,6 @@
                         [
                             144.2152,
                             -36.7104
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-27T11:00:00+11:00",
-                "updated": "2020-11-27T11:00:00+11:00",
-                "id": "13b3bba9db2e4ad0f7264d73a4dd1dc8",
-                "location": "Fire - Rupanyup - Barkers Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.6396,
-                            -36.567
-                        ],
-                        [
-                            142.6418,
-                            -36.5678
-                        ],
-                        [
-                            142.6427,
-                            -36.5682
-                        ],
-                        [
-                            142.6424,
-                            -36.5683
-                        ],
-                        [
-                            142.6418,
-                            -36.5683
-                        ],
-                        [
-                            142.6404,
-                            -36.5675
-                        ],
-                        [
-                            142.6397,
-                            -36.5672
-                        ],
-                        [
-                            142.6397,
-                            -36.5672
-                        ],
-                        [
-                            142.6396,
-                            -36.567
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Fire - Rupanyup - Barkers Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-11-27T11:00:00+11:00",
-                "updated": "2020-11-27T11:00:00+11:00",
-                "id": "be621c2d560160b7d87d9e32a1994259",
-                "location": "Fire - Rupanyup - Barkers Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.635,
-                            -36.5655
-                        ],
-                        [
-                            142.637,
-                            -36.5661
-                        ],
-                        [
-                            142.6377,
-                            -36.5664
-                        ],
-                        [
-                            142.6376,
-                            -36.5666
-                        ],
-                        [
-                            142.6372,
-                            -36.5666
-                        ],
-                        [
-                            142.6357,
-                            -36.566
-                        ],
-                        [
-                            142.6352,
-                            -36.5657
-                        ],
-                        [
-                            142.635,
-                            -36.5656
-                        ],
-                        [
-                            142.635,
-                            -36.5655
                         ]
                     ]
                 ]
@@ -15643,80 +15717,6 @@
                         [
                             144.3597,
                             -37.0925
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Unknown",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2020-12-14T11:00:00+11:00",
-                "updated": "2020-12-14T11:00:00+11:00",
-                "id": "ddda0084a2ea727459104a43b693bb06",
-                "location": "Unknown",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.1391,
-                            -37.7808
-                        ],
-                        [
-                            144.139,
-                            -37.7799
-                        ],
-                        [
-                            144.1396,
-                            -37.7795
-                        ],
-                        [
-                            144.1402,
-                            -37.7796
-                        ],
-                        [
-                            144.1406,
-                            -37.7799
-                        ],
-                        [
-                            144.1409,
-                            -37.7807
-                        ],
-                        [
-                            144.1409,
-                            -37.7811
-                        ],
-                        [
-                            144.1407,
-                            -37.7815
-                        ],
-                        [
-                            144.1402,
-                            -37.7818
-                        ],
-                        [
-                            144.1397,
-                            -37.7818
-                        ],
-                        [
-                            144.1392,
-                            -37.7814
-                        ],
-                        [
-                            144.1391,
-                            -37.7812
-                        ],
-                        [
-                            144.1391,
-                            -37.7808
                         ]
                     ]
                 ]
@@ -26177,23 +26177,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Goulburn Valley Hwy",
-                "category": "fire",
-                "subcategory": "bushfire",
+                "sourceTitle": "Cylinders Dr",
+                "category": "other",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2021-01-08T08:16:00+11:00",
-                "updated": "2021-01-08T08:19:00+11:00",
-                "id": "ESTA:210102782",
-                "location": "Goulburn Valley Hwy, Koonoomoo",
+                "created": "2021-01-08T09:42:45+11:00",
+                "updated": "2021-01-08T09:42:45+11:00",
+                "id": "ESTA:210102806",
+                "location": "Cylinders Dr, Torquay",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.55904330526405,
-                    -35.85907958884276
+                    144.31660354320817,
+                    -38.3110722031723
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ramicorn Way",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-01-08T09:44:29+11:00",
+                "updated": "2021-01-08T09:44:29+11:00",
+                "id": "ESTA:210102811",
+                "location": "Ramicorn Way, Mernda",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.07687069015893,
+                    -37.595406224668814
                 ]
             }
         },
@@ -26227,8 +26250,8 @@
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2021-01-08T04:43:55+11:00",
-                "updated": "2021-01-08T04:43:55+11:00",
+                "created": "2021-01-08T09:11:26+11:00",
+                "updated": "2021-01-08T09:11:26+11:00",
                 "id": "ESTA:210102732",
                 "location": "Essex St, Prahran",
                 "size": "Small",
@@ -26240,29 +26263,6 @@
                 "coordinates": [
                     144.99669352798787,
                     -37.84839703022518
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wood St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2021-01-08T07:55:09+11:00",
-                "updated": "2021-01-08T07:55:09+11:00",
-                "id": "ESTA:210102777",
-                "location": "Wood St, Thomastown",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02711186157273,
-                    -37.69316627379232
                 ]
             }
         },

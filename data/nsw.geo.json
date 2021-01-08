@@ -28,30 +28,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.25569600000006,
-                    -33.33165999999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bookannon Lane, Byng",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404410",
-                "created": "2021-01-08T02:01:00+11:00",
-                "updated": "2021-01-08T13:01:00+11:00",
-                "location": "111 Bookannon Lane, Byng, NSW 2800",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 111 Bookannon Lane, Byng, NSW 2800 <br />COUNCIL AREA: Cabonne <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2021 13:01",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -140,23 +116,84 @@
                 "sourceTitle": "Gunbar Station",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404416",
-                "created": "2021-01-08T04:54:00+11:00",
-                "updated": "2021-01-08T15:54:00+11:00",
+                "created": "2021-01-08T06:13:00+11:00",
+                "updated": "2021-01-08T17:13:00+11:00",
                 "location": "Gunbar Rd, Gunbar, NSW 2711",
                 "size": 4,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Gunbar Rd, Gunbar, NSW 2711 <br />COUNCIL AREA: Carrathool <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2021 15:54",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Gunbar Rd, Gunbar, NSW 2711 <br />COUNCIL AREA: Carrathool <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2021 17:13",
                 "title": "incident: fire"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.08326292000004,
-                    -36.19175008299993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.08386373500002,
+                            -36.19358569599996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.083442994,
+                                            -36.1934262889999
+                                        ],
+                                        [
+                                            150.083550069,
+                                            -36.1930931639999
+                                        ],
+                                        [
+                                            150.083906989,
+                                            -36.1929028069999
+                                        ],
+                                        [
+                                            150.084406676,
+                                            -36.192771937
+                                        ],
+                                        [
+                                            150.084775492,
+                                            -36.1927362449999
+                                        ],
+                                        [
+                                            150.084965849,
+                                            -36.192890909
+                                        ],
+                                        [
+                                            150.085025335,
+                                            -36.193188342
+                                        ],
+                                        [
+                                            150.084585135,
+                                            -36.1933786989999
+                                        ],
+                                        [
+                                            150.084168729,
+                                            -36.193438186
+                                        ],
+                                        [
+                                            150.083490583,
+                                            -36.1934619799999
+                                        ],
+                                        [
+                                            150.083442994,
+                                            -36.1934262889999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -164,13 +201,13 @@
                 "sourceTitle": "Kianga Forest Rd, Kianga",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404421",
-                "created": "2021-01-08T05:53:00+11:00",
-                "updated": "2021-01-08T16:53:00+11:00",
+                "created": "2021-01-08T06:36:00+11:00",
+                "updated": "2021-01-08T17:36:00+11:00",
                 "location": "Kianga Forest Rd, Kianga, NSW 2546",
-                "size": 12,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Kianga Forest Rd, Kianga, NSW 2546 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 12 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2021 16:53",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Kianga Forest Rd, Kianga, NSW 2546 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2021 17:36",
                 "title": "incident: fire"
             }
         },
@@ -214,11 +251,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404427",
-                "created": "2021-01-08T06:00:00+11:00",
-                "updated": "2021-01-08T17:00:00+11:00",
+                "created": "2021-01-08T06:03:00+11:00",
+                "updated": "2021-01-08T17:03:00+11:00",
                 "location": "Kyalite",
                 "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Kyalite <br />COUNCIL AREA: Murray River <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2021 17:00",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Kyalite <br />COUNCIL AREA: Murray River <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2021 17:03",
                 "title": "incident: fire"
             }
         },
@@ -251,23 +288,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.8529380000001,
-                    -33.989232999999956
+                    151.58051490800005,
+                    -31.394820838999976
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hume Mtwy, Denham Court",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404426",
-                "created": "2021-01-08T06:06:00+11:00",
-                "updated": "2021-01-08T17:06:00+11:00",
-                "location": "Hume Mtwy, Denham Court, NSW 2565",
+                "sourceTitle": "Brackendale Rd, Nowendoc",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404425",
+                "created": "2021-01-08T05:46:00+11:00",
+                "updated": "2021-01-08T16:46:00+11:00",
+                "location": "Brackendale Rd, Nowendoc, NSW 2354",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Mtwy, Denham Court, NSW 2565 <br />COUNCIL AREA: Campbelltown <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Jan 2021 17:06",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Brackendale Rd, Nowendoc, NSW 2354 <br />COUNCIL AREA: Walcha <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2021 16:46",
+                "title": "incident: other"
             }
         },
         {
@@ -308,13 +345,13 @@
                 "sourceTitle": "Newell Hwy, Forbes",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404418",
-                "created": "2021-01-08T04:09:00+11:00",
-                "updated": "2021-01-08T15:09:00+11:00",
+                "created": "2021-01-08T06:23:00+11:00",
+                "updated": "2021-01-08T17:23:00+11:00",
                 "location": "Newell Hwy, Forbes, NSW 2871",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Newell Hwy, Forbes, NSW 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2021 15:09",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Newell Hwy, Forbes, NSW 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 8 Jan 2021 17:23",
                 "title": "incident: other"
             }
         },

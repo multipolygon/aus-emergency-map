@@ -156,13 +156,13 @@
                 "sourceTitle": "Houghton Rd, Gogeldrie",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404756",
-                "created": "2021-01-12T15:12:00+11:00",
-                "updated": "2021-01-13T02:12:00+11:00",
+                "created": "2021-01-12T15:48:00+11:00",
+                "updated": "2021-01-13T02:48:00+11:00",
                 "location": "Houghton Rd, Gogeldrie, NSW 2705",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Houghton Rd, Gogeldrie, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2021 02:12",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Houghton Rd, Gogeldrie, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2021 02:48",
                 "title": "incident: fire"
             }
         },
@@ -204,13 +204,13 @@
                 "sourceTitle": "Springbank, Armours Ln",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404750",
-                "created": "2021-01-12T13:42:00+11:00",
-                "updated": "2021-01-13T00:42:00+11:00",
+                "created": "2021-01-12T15:53:00+11:00",
+                "updated": "2021-01-13T02:53:00+11:00",
                 "location": "Armours lane Coolac",
                 "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Armours lane Coolac <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2021 00:42",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Armours lane Coolac <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2021 02:53",
                 "title": "incident: fire"
             }
         },
@@ -404,6 +404,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.91594300000008,
+                    -33.80553599999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "(Western Mtwy), Prospect",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404758",
+                "created": "2021-01-12T16:04:00+11:00",
+                "updated": "2021-01-13T03:04:00+11:00",
+                "location": "M4 (Western Mtwy), Prospect, NSW 2148",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M4 (Western Mtwy), Prospect, NSW 2148 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 13 Jan 2021 03:04",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.90629400000012,
                     -31.998237999999958
                 ]
@@ -421,30 +445,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 279 Barrington East Rd, Barrington, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2021 16:27",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.6169030000001,
-                    -32.909344000999965
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Caribou Rd, Cameron Park",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404753",
-                "created": "2021-01-12T15:25:00+11:00",
-                "updated": "2021-01-13T02:25:00+11:00",
-                "location": "12 Caribou Rd, Cameron Park, NSW 2285",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 12 Caribou Rd, Cameron Park, NSW 2285 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 13 Jan 2021 02:25",
-                "title": "incident: fire"
             }
         },
         {
@@ -493,6 +493,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Don Kendall Dr, Forest Hill,  2651 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2021 22:42",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.096987,
+                    -33.391377999999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Forest Rd, Spring Terrace",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404759",
+                "created": "2021-01-12T16:08:00+11:00",
+                "updated": "2021-01-13T03:08:00+11:00",
+                "location": "616 Forest Rd, Spring Terrace, NSW 2798",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 616 Forest Rd, Spring Terrace, NSW 2798 <br />COUNCIL AREA: Orange <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2021 03:08",
+                "title": "incident: fire"
             }
         },
         {
@@ -605,13 +629,13 @@
                 "sourceTitle": "Ungarie St, Ungarie",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404754",
-                "created": "2021-01-12T15:02:00+11:00",
-                "updated": "2021-01-13T02:02:00+11:00",
+                "created": "2021-01-12T15:42:00+11:00",
+                "updated": "2021-01-13T02:42:00+11:00",
                 "location": "32 Ungarie St, Ungarie, NSW 2669",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 32 Ungarie St, Ungarie, NSW 2669 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2021 02:02",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 32 Ungarie St, Ungarie, NSW 2669 <br />COUNCIL AREA: Bland <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2021 02:42",
                 "title": "incident: fire"
             }
         },

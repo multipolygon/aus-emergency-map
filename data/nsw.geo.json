@@ -117,33 +117,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.232141984,
-                                            -37.0638787469999
-                                        ],
-                                        [
-                                            149.232141688,
-                                            -37.0638792299999
-                                        ],
-                                        [
-                                            149.232135003,
-                                            -37.063877003
-                                        ],
-                                        [
-                                            149.232140069,
-                                            -37.0638782679999
-                                        ],
-                                        [
-                                            149.232141984,
-                                            -37.0638787469999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             149.232144,
                                             -37.063880001
                                         ],
@@ -171,32 +144,24 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.234371005,
-                                            -37.069416552
+                                            149.232141984,
+                                            -37.0638787469999
                                         ],
                                         [
-                                            149.233994068,
-                                            -37.069505254
+                                            149.232141688,
+                                            -37.0638792299999
                                         ],
                                         [
-                                            149.233750252,
-                                            -37.069398577
+                                            149.232135003,
+                                            -37.063877003
                                         ],
                                         [
-                                            149.233951404,
-                                            -37.069313189
+                                            149.232140069,
+                                            -37.0638782679999
                                         ],
                                         [
-                                            149.234127191,
-                                            -37.069309876
-                                        ],
-                                        [
-                                            149.234368832,
-                                            -37.069342413
-                                        ],
-                                        [
-                                            149.234371005,
-                                            -37.069416552
+                                            149.232141984,
+                                            -37.0638787469999
                                         ]
                                     ]
                                 ]
@@ -245,32 +210,32 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.226241443,
-                                            -37.060787789
+                                            149.234371005,
+                                            -37.069416552
                                         ],
                                         [
-                                            149.22615611,
-                                            -37.060939832
+                                            149.233994068,
+                                            -37.069505254
                                         ],
                                         [
-                                            149.226082312,
-                                            -37.060928135
+                                            149.233750252,
+                                            -37.069398577
                                         ],
                                         [
-                                            149.225869271,
-                                            -37.0608994309999
+                                            149.233951404,
+                                            -37.069313189
                                         ],
                                         [
-                                            149.225897696,
-                                            -37.0607549979999
+                                            149.234127191,
+                                            -37.069309876
                                         ],
                                         [
-                                            149.226076771,
-                                            -37.060738553
+                                            149.234368832,
+                                            -37.069342413
                                         ],
                                         [
-                                            149.226241443,
-                                            -37.060787789
+                                            149.234371005,
+                                            -37.069416552
                                         ]
                                     ]
                                 ]
@@ -310,6 +275,41 @@
                                         [
                                             149.225508006,
                                             -37.060546463
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.226241443,
+                                            -37.060787789
+                                        ],
+                                        [
+                                            149.22615611,
+                                            -37.060939832
+                                        ],
+                                        [
+                                            149.226082312,
+                                            -37.060928135
+                                        ],
+                                        [
+                                            149.225869271,
+                                            -37.0608994309999
+                                        ],
+                                        [
+                                            149.225897696,
+                                            -37.0607549979999
+                                        ],
+                                        [
+                                            149.226076771,
+                                            -37.060738553
+                                        ],
+                                        [
+                                            149.226241443,
+                                            -37.060787789
                                         ]
                                     ]
                                 ]
@@ -1161,6 +1161,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.17605500000002,
+                    -33.704988999999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mona Vale Rd, St Ives",
+                "category": "other",
+                "subcategory": "hazmat",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404959",
+                "created": "2021-01-14T21:28:00+11:00",
+                "updated": "2021-01-15T08:28:00+11:00",
+                "location": "420 Mona Vale Rd, St Ives, NSW 2075",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 420 Mona Vale Rd, St Ives, NSW 2075 <br />COUNCIL AREA: Ku-Ring-Gai <br />STATUS: Out of control <br />TYPE: HAZMAT <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 08:28",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.23494720400004,
                     -30.894565152999974
                 ]
@@ -1201,30 +1225,6 @@
                 "location": "Richmond Vale Rd, Richmond Vale, NSW 2323",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Richmond Vale Rd, Richmond Vale, NSW 2323 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2021 23:38",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.44190600000002,
-                    -28.93199999999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wardell Rd, Wardell",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404935",
-                "created": "2021-01-14T09:01:00+11:00",
-                "updated": "2021-01-14T20:01:00+11:00",
-                "location": "Wardell Rd, Wardell, NSW 2477",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wardell Rd, Wardell, NSW 2477 <br />COUNCIL AREA: Ballina <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2021 20:01",
                 "title": "incident: fire"
             }
         }

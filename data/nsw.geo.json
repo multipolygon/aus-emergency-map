@@ -695,6 +695,41 @@
                                 "coordinates": [
                                     [
                                         [
+                                            149.226241443,
+                                            -37.060787789
+                                        ],
+                                        [
+                                            149.22615611,
+                                            -37.060939832
+                                        ],
+                                        [
+                                            149.226082312,
+                                            -37.060928135
+                                        ],
+                                        [
+                                            149.225869271,
+                                            -37.0608994309999
+                                        ],
+                                        [
+                                            149.225897696,
+                                            -37.0607549979999
+                                        ],
+                                        [
+                                            149.226076771,
+                                            -37.060738553
+                                        ],
+                                        [
+                                            149.226241443,
+                                            -37.060787789
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             149.225508006,
                                             -37.060546463
                                         ],
@@ -725,41 +760,6 @@
                                         [
                                             149.225508006,
                                             -37.060546463
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.226241443,
-                                            -37.060787789
-                                        ],
-                                        [
-                                            149.22615611,
-                                            -37.060939832
-                                        ],
-                                        [
-                                            149.226082312,
-                                            -37.060928135
-                                        ],
-                                        [
-                                            149.225869271,
-                                            -37.0608994309999
-                                        ],
-                                        [
-                                            149.225897696,
-                                            -37.0607549979999
-                                        ],
-                                        [
-                                            149.226076771,
-                                            -37.060738553
-                                        ],
-                                        [
-                                            149.226241443,
-                                            -37.060787789
                                         ]
                                     ]
                                 ]
@@ -1443,6 +1443,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.53294000000005,
+                    -28.412311000999978
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pottsville Rd, Sleepy Hollow",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404978",
+                "created": "2021-01-15T03:00:00+11:00",
+                "updated": "2021-01-15T14:00:00+11:00",
+                "location": "Pottsville Rd, Sleepy Hollow, NSW 2483",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Pottsville Rd, Sleepy Hollow, NSW 2483 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 14:00",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.76762056300004,
                     -36.881371307999984
                 ]
@@ -1454,12 +1478,60 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404879",
-                "created": "2021-01-15T00:22:00+11:00",
-                "updated": "2021-01-15T11:22:00+11:00",
+                "created": "2021-01-15T01:50:00+11:00",
+                "updated": "2021-01-15T12:50:00+11:00",
                 "location": "7km south west of Wolumla",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 7km south west of Wolumla <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 15 Jan 2021 11:22",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 7km south west of Wolumla <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 15 Jan 2021 12:50",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.84860300000003,
+                    -31.05117699999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ringorah Rd, Marthaguy",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404974",
+                "created": "2021-01-15T02:34:00+11:00",
+                "updated": "2021-01-15T13:34:00+11:00",
+                "location": "Ringorah Rd, Marthaguy, NSW 2824",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Ringorah Rd, Marthaguy, NSW 2824 <br />COUNCIL AREA: Warren <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 13:34",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.69854021100002,
+                    -34.24472108799995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "(Picton Rd), Wilton",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404973",
+                "created": "2021-01-15T02:34:00+11:00",
+                "updated": "2021-01-15T13:34:00+11:00",
+                "location": "B88 (Picton Rd), Wilton, NSW 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: B88 (Picton Rd), Wilton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 13:34",
+                "title": "incident: other"
             }
         },
         {
@@ -1491,6 +1563,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.47999906500002,
+                    -31.933726151999963
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gilwarra Lane, Glenthorne",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404976",
+                "created": "2021-01-15T02:53:00+11:00",
+                "updated": "2021-01-15T13:53:00+11:00",
+                "location": "126 Glenthorn Lane, Glenthorne, NSW 2430",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 126 Glenthorn Lane, Glenthorne, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 13:53",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.1795139310001,
                     -32.405835019999984
                 ]
@@ -1500,13 +1596,13 @@
                 "sourceTitle": "Goorangoola Rd, Bridgman",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "under control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404965",
-                "created": "2021-01-15T00:44:00+11:00",
-                "updated": "2021-01-15T11:44:00+11:00",
+                "created": "2021-01-15T02:42:00+11:00",
+                "updated": "2021-01-15T13:42:00+11:00",
                 "location": "257 Goorangoola Rd, Bridgman, NSW 2330",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 257 Goorangoola Rd, Bridgman, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 11:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 257 Goorangoola Rd, Bridgman, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 13:42",
                 "title": "incident: other"
             }
         },
@@ -1539,22 +1635,46 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.2874220000001,
-                    -33.637922999999944
+                    150.9924350010001,
+                    -33.83701599999995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Robertson Rd, Scotland Island",
-                "category": "other",
-                "subcategory": "medical",
+                "sourceTitle": "Railway Tce, Merrylands",
+                "category": "fire",
+                "subcategory": "grass fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404970",
-                "created": "2021-01-15T01:24:00+11:00",
-                "updated": "2021-01-15T12:24:00+11:00",
-                "location": "3 Robertson Rd, Scotland Island, NSW 2105",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404979",
+                "created": "2021-01-15T03:12:00+11:00",
+                "updated": "2021-01-15T14:12:00+11:00",
+                "location": "Railway Tce, Merrylands, NSW 2160",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3 Robertson Rd, Scotland Island, NSW 2105 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 12:24",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Railway Tce, Merrylands, NSW 2160 <br />COUNCIL AREA: Cumberland <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Jan 2021 14:12",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.14034200000003,
+                    -33.43848699999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Reserve Rd, Marrangaroo",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404977",
+                "created": "2021-01-15T02:54:00+11:00",
+                "updated": "2021-01-15T13:54:00+11:00",
+                "location": "Reserve Rd, Marrangaroo,  2790",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Reserve Rd, Marrangaroo,  2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 13:54",
                 "title": "incident: other"
             }
         },
@@ -1563,22 +1683,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.74948883000002,
-                    -32.28277894599995
+                    150.8342639990001,
+                    -33.56851599999993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ulan Rd, Ulan",
+                "sourceTitle": "Wilberforce Rd, Wilberforce",
                 "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404963",
-                "created": "2021-01-15T00:29:00+11:00",
-                "updated": "2021-01-15T11:29:00+11:00",
-                "location": "Ulan Rd, Ulan, NSW 2850",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404975",
+                "created": "2021-01-15T02:12:00+11:00",
+                "updated": "2021-01-15T13:12:00+11:00",
+                "location": "451 Wilberforce Rd, Wilberforce, NSW 2756",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ulan Rd, Ulan, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 11:29",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 451 Wilberforce Rd, Wilberforce, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 13:12",
                 "title": "incident: other"
             }
         }

@@ -52,10 +52,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.1990594870001,
-                    -34.134666007999954
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.1990594870001,
+                            -34.134666007999954
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.198687912,
+                                            -34.134480578
+                                        ],
+                                        [
+                                            146.199032933,
+                                            -34.134337811
+                                        ],
+                                        [
+                                            146.199151906,
+                                            -34.1344924759999
+                                        ],
+                                        [
+                                            146.199032933,
+                                            -34.134778011
+                                        ],
+                                        [
+                                            146.198687912,
+                                            -34.134480578
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -65,11 +102,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404960",
-                "created": "2021-01-14T22:42:00+11:00",
-                "updated": "2021-01-15T09:42:00+11:00",
+                "created": "2021-01-14T23:56:00+11:00",
+                "updated": "2021-01-15T10:56:00+11:00",
                 "location": "Whitton Stock Route Rd, Myall Park, NSW 2681",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Whitton Stock Route Rd, Myall Park, NSW 2681 <br />COUNCIL AREA: Carrathool <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 15 Jan 2021 09:42",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Whitton Stock Route Rd, Myall Park, NSW 2681 <br />COUNCIL AREA: Carrathool <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 15 Jan 2021 10:56",
                 "title": "incident: fire"
             }
         },
@@ -171,6 +208,41 @@
                                 "coordinates": [
                                     [
                                         [
+                                            149.234371005,
+                                            -37.069416552
+                                        ],
+                                        [
+                                            149.233994068,
+                                            -37.069505254
+                                        ],
+                                        [
+                                            149.233750252,
+                                            -37.069398577
+                                        ],
+                                        [
+                                            149.233951404,
+                                            -37.069313189
+                                        ],
+                                        [
+                                            149.234127191,
+                                            -37.069309876
+                                        ],
+                                        [
+                                            149.234368832,
+                                            -37.069342413
+                                        ],
+                                        [
+                                            149.234371005,
+                                            -37.069416552
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             149.236110931,
                                             -37.069717559
                                         ],
@@ -210,32 +282,36 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.234371005,
-                                            -37.069416552
+                                            149.225508006,
+                                            -37.060546463
                                         ],
                                         [
-                                            149.233994068,
-                                            -37.069505254
+                                            149.225369526,
+                                            -37.060555603
                                         ],
                                         [
-                                            149.233750252,
-                                            -37.069398577
+                                            149.225210146,
+                                            -37.060408153
                                         ],
                                         [
-                                            149.233951404,
-                                            -37.069313189
+                                            149.225369659,
+                                            -37.060280883
                                         ],
                                         [
-                                            149.234127191,
-                                            -37.069309876
+                                            149.225573778,
+                                            -37.060283593
                                         ],
                                         [
-                                            149.234368832,
-                                            -37.069342413
+                                            149.225641709,
+                                            -37.0603738899999
                                         ],
                                         [
-                                            149.234371005,
-                                            -37.069416552
+                                            149.225612138,
+                                            -37.0604791
+                                        ],
+                                        [
+                                            149.225508006,
+                                            -37.060546463
                                         ]
                                     ]
                                 ]
@@ -271,45 +347,6 @@
                                         [
                                             149.226241443,
                                             -37.060787789
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.225508006,
-                                            -37.060546463
-                                        ],
-                                        [
-                                            149.225369526,
-                                            -37.060555603
-                                        ],
-                                        [
-                                            149.225210146,
-                                            -37.060408153
-                                        ],
-                                        [
-                                            149.225369659,
-                                            -37.060280883
-                                        ],
-                                        [
-                                            149.225573778,
-                                            -37.060283593
-                                        ],
-                                        [
-                                            149.225641709,
-                                            -37.0603738899999
-                                        ],
-                                        [
-                                            149.225612138,
-                                            -37.0604791
-                                        ],
-                                        [
-                                            149.225508006,
-                                            -37.060546463
                                         ]
                                     ]
                                 ]
@@ -980,11 +1017,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404805",
-                "created": "2021-01-13T23:24:00+11:00",
-                "updated": "2021-01-14T10:24:00+11:00",
+                "created": "2021-01-14T23:30:00+11:00",
+                "updated": "2021-01-15T10:30:00+11:00",
                 "location": "Platts Rd, Mila, NSW 2632",
                 "size": 102,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Platts Rd, Mila, NSW 2632 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 102 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2021 10:24",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Platts Rd, Mila, NSW 2632 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 102 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 15 Jan 2021 10:30",
                 "title": "incident: fire"
             }
         },
@@ -1017,23 +1054,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.1273880010001,
-                    -32.45277983999995
+                    150.85318500000005,
+                    -33.79790499999996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Twelve Mile Rd, Spicers Creek",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404936",
-                "created": "2021-01-14T10:19:00+11:00",
-                "updated": "2021-01-14T21:19:00+11:00",
-                "location": "Twelve Mile Rd, Spicers Creek, NSW 2820",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Twelve Mile Rd, Spicers Creek, NSW 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2021 21:19",
-                "title": "incident: fire"
+                "sourceTitle": "(Western Mtwy), Eastern Creek",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404964",
+                "created": "2021-01-15T00:04:00+11:00",
+                "updated": "2021-01-15T11:04:00+11:00",
+                "location": "M4 (Western Mtwy), Eastern Creek, NSW 2766",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M4 (Western Mtwy), Eastern Creek, NSW 2766 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Jan 2021 11:04",
+                "title": "incident: other"
             }
         },
         {
@@ -1154,6 +1191,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bluevale Rd - Wean Rd, Gunnedah <br />COUNCIL AREA: Gunnedah <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2021 08:49",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.77141900100003,
+                    -32.27492399999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ulan Rd, Ulan",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404963",
+                "created": "2021-01-14T23:38:00+11:00",
+                "updated": "2021-01-15T10:38:00+11:00",
+                "location": "Ulan Rd, Ulan, NSW 2850",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ulan Rd, Ulan, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 10:38",
+                "title": "incident: other"
             }
         }
     ]

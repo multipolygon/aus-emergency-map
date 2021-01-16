@@ -149,10 +149,167 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.47495651300005,
-                    -32.402284185999974
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.47495651300005,
+                            -32.402284185999974
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.475770835,
+                                            -32.408033127
+                                        ],
+                                        [
+                                            152.475057555,
+                                            -32.408712137
+                                        ],
+                                        [
+                                            152.474395275,
+                                            -32.4087494939999
+                                        ],
+                                        [
+                                            152.473875325,
+                                            -32.408707207
+                                        ],
+                                        [
+                                            152.473165521,
+                                            -32.4087844759999
+                                        ],
+                                        [
+                                            152.472553094,
+                                            -32.408380748
+                                        ],
+                                        [
+                                            152.472272628,
+                                            -32.4078179429999
+                                        ],
+                                        [
+                                            152.472135432,
+                                            -32.4070150389999
+                                        ],
+                                        [
+                                            152.473179735,
+                                            -32.406337428
+                                        ],
+                                        [
+                                            152.472768136,
+                                            -32.4039287169999
+                                        ],
+                                        [
+                                            152.473196979,
+                                            -32.403368879
+                                        ],
+                                        [
+                                            152.473297375,
+                                            -32.4023663849999
+                                        ],
+                                        [
+                                            152.473914884,
+                                            -32.401887566
+                                        ],
+                                        [
+                                            152.47500315,
+                                            -32.401771754
+                                        ],
+                                        [
+                                            152.476379296,
+                                            -32.400935032
+                                        ],
+                                        [
+                                            152.476570982,
+                                            -32.4004945469999
+                                        ],
+                                        [
+                                            152.477046144,
+                                            -32.400095354
+                                        ],
+                                        [
+                                            152.477994379,
+                                            -32.399658002
+                                        ],
+                                        [
+                                            152.479272671,
+                                            -32.3993824729999
+                                        ],
+                                        [
+                                            152.480265874,
+                                            -32.399346457
+                                        ],
+                                        [
+                                            152.481257699,
+                                            -32.3995511259999
+                                        ],
+                                        [
+                                            152.482153127,
+                                            -32.400076323
+                                        ],
+                                        [
+                                            152.482859426,
+                                            -32.400600739
+                                        ],
+                                        [
+                                            152.483517078,
+                                            -32.4013656509999
+                                        ],
+                                        [
+                                            152.483888512,
+                                            -32.402570668
+                                        ],
+                                        [
+                                            152.483834608,
+                                            -32.4037338279999
+                                        ],
+                                        [
+                                            152.483451972,
+                                            -32.4044944739999
+                                        ],
+                                        [
+                                            152.482074004,
+                                            -32.405652198
+                                        ],
+                                        [
+                                            152.481123202,
+                                            -32.40653085
+                                        ],
+                                        [
+                                            152.480127622,
+                                            -32.406968029
+                                        ],
+                                        [
+                                            152.479274589,
+                                            -32.4072854409999
+                                        ],
+                                        [
+                                            152.47861232,
+                                            -32.407322818
+                                        ],
+                                        [
+                                            152.477712914,
+                                            -32.40747956
+                                        ],
+                                        [
+                                            152.476576829,
+                                            -32.4076754289999
+                                        ],
+                                        [
+                                            152.475770835,
+                                            -32.408033127
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -660,11 +817,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404839",
-                "created": "2021-01-15T00:36:00+11:00",
-                "updated": "2021-01-15T11:36:00+11:00",
+                "created": "2021-01-16T07:29:00+11:00",
+                "updated": "2021-01-16T18:29:00+11:00",
                 "location": "50km South of Carinda",
                 "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 50km South of Carinda <br />COUNCIL AREA: Warren <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 15 Jan 2021 11:36",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 50km South of Carinda <br />COUNCIL AREA: Warren <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 16 Jan 2021 18:29",
                 "title": "incident: fire"
             }
         },
@@ -805,6 +962,30 @@
                 "location": "Main Canal Rd, Coleambally, NSW 2707",
                 "size": 50,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Main Canal Rd, Coleambally, NSW 2707 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 50 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 17:16",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.8023720000001,
+                    -35.41766999999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nerriga Rd, Braidwood",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405102",
+                "created": "2021-01-16T08:03:00+11:00",
+                "updated": "2021-01-16T19:03:00+11:00",
+                "location": "Nerriga Rd, Braidwood,  2622",
+                "size": 20,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Nerriga Rd, Braidwood,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 19:03",
                 "title": "incident: fire"
             }
         },
@@ -1998,14 +2179,62 @@
                 "sourceTitle": "Black Camp Creek Rd, Glen Martin",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405098",
-                "created": "2021-01-16T06:30:00+11:00",
-                "updated": "2021-01-16T17:30:00+11:00",
+                "created": "2021-01-16T07:39:00+11:00",
+                "updated": "2021-01-16T18:39:00+11:00",
                 "location": "Black Camp Creek Rd, Glen Martin, NSW 2321",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Black Camp Creek Rd, Glen Martin, NSW 2321 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 17:30",
+                "size": 5,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Black Camp Creek Rd, Glen Martin, NSW 2321 <br />COUNCIL AREA: Dungog <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 18:39",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.97084000000007,
+                    -32.46450399999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Booral Rd, Booral",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405101",
+                "created": "2021-01-16T07:30:00+11:00",
+                "updated": "2021-01-16T18:30:00+11:00",
+                "location": "2676 Booral Rd, Booral, NSW 2425",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2676 Booral Rd, Booral, NSW 2425 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 18:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.20360200000005,
+                    -35.73876299999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Calton Rd, Batehaven",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405105",
+                "created": "2021-01-16T07:26:00+11:00",
+                "updated": "2021-01-16T18:26:00+11:00",
+                "location": "Calton Rd, Batehaven,  2536",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Calton Rd, Batehaven,  2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 18:26",
+                "title": "incident: other"
             }
         },
         {
@@ -2037,30 +2266,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.8023720000001,
-                    -35.41766999999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nerriga Rd, Braidwood",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405100",
-                "created": "2021-01-16T06:54:00+11:00",
-                "updated": "2021-01-16T17:54:00+11:00",
-                "location": "Nerriga Rd, Braidwood,  2622",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Nerriga Rd, Braidwood,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 17:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.3508730000001,
                     -28.609422999999936
                 ]
@@ -2077,6 +2282,30 @@
                 "location": "Newell Hwy, Boggabilla, NSW 2409",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Newell Hwy, Boggabilla, NSW 2409 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 15:56",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.66753400000005,
+                    -34.22952699999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Picton Rd, Wilton",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405104",
+                "created": "2021-01-16T07:18:00+11:00",
+                "updated": "2021-01-16T18:18:00+11:00",
+                "location": "Picton Rd, Wilton, NSW 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Picton Rd, Wilton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 18:18",
                 "title": "incident: other"
             }
         },

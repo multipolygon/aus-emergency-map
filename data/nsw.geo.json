@@ -28,6 +28,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.6070876120001,
+                    -35.15480185399997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Christian Minde",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405133",
+                "created": "2021-01-16T10:53:00+11:00",
+                "updated": "2021-01-16T21:53:00+11:00",
+                "location": "Christians Minde",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Christians Minde <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 21:53",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -143,6 +167,30 @@
                 "location": "County Boundary Rd, Milbrulong, NSW 2656",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: County Boundary Rd, Milbrulong, NSW 2656 <br />COUNCIL AREA: Lockhart <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 10:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.55711000000008,
+                    -29.577347000999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gwydir Hwy, Jackadgery",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405125",
+                "created": "2021-01-16T10:00:00+11:00",
+                "updated": "2021-01-16T21:00:00+11:00",
+                "location": "Gwydir Hwy, Jackadgery, NSW 2460",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Gwydir Hwy, Jackadgery, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 21:00",
                 "title": "incident: fire"
             }
         },
@@ -1216,33 +1264,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.232141984,
-                                            -37.0638787469999
-                                        ],
-                                        [
-                                            149.232141688,
-                                            -37.0638792299999
-                                        ],
-                                        [
-                                            149.232135003,
-                                            -37.063877003
-                                        ],
-                                        [
-                                            149.232140069,
-                                            -37.0638782679999
-                                        ],
-                                        [
-                                            149.232141984,
-                                            -37.0638787469999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             149.226241443,
                                             -37.060787789
                                         ],
@@ -1269,6 +1290,33 @@
                                         [
                                             149.226241443,
                                             -37.060787789
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.232141984,
+                                            -37.0638787469999
+                                        ],
+                                        [
+                                            149.232141688,
+                                            -37.0638792299999
+                                        ],
+                                        [
+                                            149.232135003,
+                                            -37.063877003
+                                        ],
+                                        [
+                                            149.232140069,
+                                            -37.0638782679999
+                                        ],
+                                        [
+                                            149.232141984,
+                                            -37.0638787469999
                                         ]
                                     ]
                                 ]
@@ -2170,22 +2218,46 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.8340780000001,
-                    -32.500782999999956
+                    150.3745079040001,
+                    -33.48972826199997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Black Camp Creek Rd, Glen Martin",
+                "sourceTitle": "Assist Police Wollangambe River",
+                "category": "other",
+                "subcategory": "medical",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405130",
+                "created": "2021-01-16T10:01:00+11:00",
+                "updated": "2021-01-16T21:01:00+11:00",
+                "location": "Wollangambe Canyon,  North of Mount Wilson",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wollangambe Canyon,  North of Mount Wilson <br />COUNCIL AREA: Blue Mountains <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 16 Jan 2021 21:01",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.432723,
+                    -33.46524999999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Avoca Dr, Avoca Beach",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405098",
-                "created": "2021-01-16T08:58:00+11:00",
-                "updated": "2021-01-16T19:58:00+11:00",
-                "location": "Black Camp Creek Rd, Glen Martin, NSW 2321",
-                "size": 5,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Black Camp Creek Rd, Glen Martin, NSW 2321 <br />COUNCIL AREA: Dungog <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 19:58",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405131",
+                "created": "2021-01-16T10:48:00+11:00",
+                "updated": "2021-01-16T21:48:00+11:00",
+                "location": "182 Avoca Dr, Avoca Beach, NSW 2251",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 182 Avoca Dr, Avoca Beach, NSW 2251 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Jan 2021 21:48",
                 "title": "incident: fire"
             }
         },
@@ -2218,23 +2290,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.69581599900005,
-                    -33.71741599999996
+                    150.9579470000001,
+                    -33.89914799999997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cranebrook Rd, Castlereagh",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405088",
-                "created": "2021-01-16T04:38:00+11:00",
-                "updated": "2021-01-16T15:38:00+11:00",
-                "location": "Cranebrook Rd, Castlereagh, NSW 2749",
+                "sourceTitle": "Cutler Rd, Lansvale",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405132",
+                "created": "2021-01-16T11:00:00+11:00",
+                "updated": "2021-01-16T22:00:00+11:00",
+                "location": "42 Cutler Rd, Lansvale, NSW 2166",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cranebrook Rd, Castlereagh, NSW 2749 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 15:38",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 42 Cutler Rd, Lansvale, NSW 2166 <br />COUNCIL AREA: Fairfield <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Jan 2021 22:00",
+                "title": "incident: fire"
             }
         },
         {
@@ -2258,6 +2330,30 @@
                 "location": "Grassy Hill Trl, Colo Heights, NSW 2756",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Grassy Hill Trl, Colo Heights, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 19:47",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.33960500000012,
+                    -32.65920999999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hunter Exp, Branxton",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405128",
+                "created": "2021-01-16T10:53:00+11:00",
+                "updated": "2021-01-16T21:53:00+11:00",
+                "location": "Hunter Exp, Branxton, NSW 2335",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hunter Exp, Branxton, NSW 2335 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Jan 2021 21:53",
                 "title": "incident: other"
             }
         },
@@ -2314,22 +2410,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.46980100000007,
-                    -35.366961999999944
+                    151.36359930000003,
+                    -33.53107458799997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy, Ulladulla",
+                "sourceTitle": "Putty Beach",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "other",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405123",
-                "created": "2021-01-16T09:54:00+11:00",
-                "updated": "2021-01-16T20:54:00+11:00",
-                "location": "211 Princes Hwy, Ulladulla, NSW 2539",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405127",
+                "created": "2021-01-16T09:41:00+11:00",
+                "updated": "2021-01-16T20:41:00+11:00",
+                "location": "putty beach road killcare",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 211 Princes Hwy, Ulladulla, NSW 2539 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Jan 2021 20:54",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: putty beach road killcare <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2021 20:41",
                 "title": "incident: fire"
             }
         },
@@ -2338,23 +2434,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.39824700000008,
-                    -29.09085699999997
+                    152.8144440000001,
+                    -31.06268599999993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Woodburn Evans Head Rd, Doonbah",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/404980",
-                "created": "2021-01-15T03:48:00+11:00",
-                "updated": "2021-01-15T14:48:00+11:00",
-                "location": "575 Woodburn Evans Head Rd, Doonbah, NSW 2473",
+                "sourceTitle": "River St, West Kempsey",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405129",
+                "created": "2021-01-16T10:42:00+11:00",
+                "updated": "2021-01-16T21:42:00+11:00",
+                "location": "River St, West Kempsey, NSW 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 575 Woodburn Evans Head Rd, Doonbah, NSW 2473 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2021 14:48",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: River St, West Kempsey, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Jan 2021 21:42",
+                "title": "incident: fire"
             }
         }
     ]

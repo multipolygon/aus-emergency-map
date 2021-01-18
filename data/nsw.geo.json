@@ -4,13 +4,37 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.94433600000002,
+                    -32.471319999999935
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Frecklingtons Crossing Rd, Narromine",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405251",
+                "created": "2021-01-18T03:30:00+11:00",
+                "updated": "2021-01-18T14:30:00+11:00",
+                "location": "Frecklingtons Crossing Rd, Narromine, NSW 2821",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Frecklingtons Crossing Rd, Narromine, NSW 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Jan 2021 14:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
                         "type": "Point",
                         "coordinates": [
-                            152.47495651300005,
-                            -32.402284185999974
+                            152.4988174440001,
+                            -32.41858788199994
                         ]
                     },
                     {
@@ -485,30 +509,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.88178100000005,
-                    -31.436188000999948
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "New England Hwy, Garoo",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405240",
-                "created": "2021-01-17T23:54:00+11:00",
-                "updated": "2021-01-18T10:54:00+11:00",
-                "location": "New England Hwy, Garoo, NSW 2340",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: New England Hwy, Garoo, NSW 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Jan 2021 10:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -931,41 +931,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.234371005,
-                                            -37.069416552
-                                        ],
-                                        [
-                                            149.233994068,
-                                            -37.069505254
-                                        ],
-                                        [
-                                            149.233750252,
-                                            -37.069398577
-                                        ],
-                                        [
-                                            149.233951404,
-                                            -37.069313189
-                                        ],
-                                        [
-                                            149.234127191,
-                                            -37.069309876
-                                        ],
-                                        [
-                                            149.234368832,
-                                            -37.069342413
-                                        ],
-                                        [
-                                            149.234371005,
-                                            -37.069416552
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             149.226241443,
                                             -37.060787789
                                         ],
@@ -992,6 +957,41 @@
                                         [
                                             149.226241443,
                                             -37.060787789
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.234371005,
+                                            -37.069416552
+                                        ],
+                                        [
+                                            149.233994068,
+                                            -37.069505254
+                                        ],
+                                        [
+                                            149.233750252,
+                                            -37.069398577
+                                        ],
+                                        [
+                                            149.233951404,
+                                            -37.069313189
+                                        ],
+                                        [
+                                            149.234127191,
+                                            -37.069309876
+                                        ],
+                                        [
+                                            149.234368832,
+                                            -37.069342413
+                                        ],
+                                        [
+                                            149.234371005,
+                                            -37.069416552
                                         ]
                                     ]
                                 ]
@@ -1753,6 +1753,33 @@
                                 "coordinates": [
                                     [
                                         [
+                                            146.243484259,
+                                            -34.476870188
+                                        ],
+                                        [
+                                            146.249385322,
+                                            -34.477798177
+                                        ],
+                                        [
+                                            146.248754765,
+                                            -34.482140694
+                                        ],
+                                        [
+                                            146.243234416,
+                                            -34.4811175259999
+                                        ],
+                                        [
+                                            146.243484259,
+                                            -34.476870188
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             146.248552511,
                                             -34.477762486
                                         ],
@@ -1775,6 +1802,37 @@
                                         [
                                             146.248552511,
                                             -34.477762486
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.249361528,
+                                            -34.47824631
+                                        ],
+                                        [
+                                            146.243341492,
+                                            -34.479388451
+                                        ],
+                                        [
+                                            146.24255627,
+                                            -34.477413498
+                                        ],
+                                        [
+                                            146.243151134,
+                                            -34.4729401119999
+                                        ],
+                                        [
+                                            146.250527464,
+                                            -34.471678997
+                                        ],
+                                        [
+                                            146.249361528,
+                                            -34.47824631
                                         ]
                                     ]
                                 ]
@@ -1864,30 +1922,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.9696530000001,
-                    -32.40450599899998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Church St, Stroud",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405248",
-                "created": "2021-01-18T02:18:00+11:00",
-                "updated": "2021-01-18T13:18:00+11:00",
-                "location": "8 Church St, Stroud, NSW 2425",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8 Church St, Stroud, NSW 2425 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Jan 2021 13:18",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.28505100000007,
                     -33.678624999999954
                 ]
@@ -1904,6 +1938,30 @@
                 "location": "8 Jubilee Av, Warriewood,  2102",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8 Jubilee Av, Warriewood,  2102 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Jan 2021 09:08",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.8567710000001,
+                    -37.15770799999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kiah Store Rd, Kiah",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405250",
+                "created": "2021-01-18T03:21:00+11:00",
+                "updated": "2021-01-18T14:21:00+11:00",
+                "location": "4 Kiah Store Rd, Kiah, NSW 2551",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 Kiah Store Rd, Kiah, NSW 2551 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Jan 2021 14:21",
                 "title": "incident: other"
             }
         },

@@ -2430,14 +2430,59 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Shepparton",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2021-01-19T06:37:00+11:00",
+                "updated": "2021-01-19T06:53:00+11:00",
+                "id": "ESTA:210151722",
+                "location": "Noble Park",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16414899629552,
+                    -37.958219454144235
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2021-01-19T06:36:00+11:00",
+                "updated": "2021-01-19T06:56:00+11:00",
+                "id": "ESTA:210107012",
+                "location": "Silverleaves",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26167247805836,
+                    -38.45406855407848
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Piper St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2021-01-19T06:09:35+11:00",
-                "updated": "2021-01-19T06:09:35+11:00",
-                "id": "ESTA:210107007",
-                "location": "Shepparton, Shepparton",
+                "status": "not yet under control",
+                "created": "2021-01-19T06:39:00+11:00",
+                "updated": "2021-01-19T06:39:00+11:00",
+                "id": "ESTA:210107015",
+                "location": "Piper St, Kyneton",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -2445,30 +2490,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.4080792334804,
-                    -36.38227107137984
+                    144.44577503505258,
+                    -37.24396341326374
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2021-01-19T06:02:00+11:00",
-                "updated": "2021-01-19T06:07:00+11:00",
-                "id": "ESTA:210151720",
-                "location": "Metcalfe",
-                "title": "incident: tree down"
+                "sourceTitle": "Bonbeach",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2021-01-19T07:02:30+11:00",
+                "updated": "2021-01-19T07:03:28+11:00",
+                "id": "ESTA:210107021",
+                "location": "Mascot Av, Bonbeach",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.4354802242383,
-                    -37.119217109464145
+                    145.1278042400177,
+                    -38.06923664447028
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Oakleigh South",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "safe",
+                "created": "2021-01-19T07:01:40+11:00",
+                "updated": "2021-01-19T07:03:45+11:00",
+                "id": "ESTA:210107020",
+                "location": "Centre Rd, Oakleigh South",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.08544180836168,
+                    -37.924194273999596
                 ]
             }
         },
@@ -3248,6 +3315,41 @@
                         "coordinates": [
                             [
                                 [
+                                    149.2262,
+                                    -37.0608
+                                ],
+                                [
+                                    149.2262,
+                                    -37.0609
+                                ],
+                                [
+                                    149.2261,
+                                    -37.0609
+                                ],
+                                [
+                                    149.2259,
+                                    -37.0609
+                                ],
+                                [
+                                    149.2259,
+                                    -37.0608
+                                ],
+                                [
+                                    149.2261,
+                                    -37.0607
+                                ],
+                                [
+                                    149.2262,
+                                    -37.0608
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
                                     149.2321,
                                     -37.0639
                                 ],
@@ -3301,41 +3403,6 @@
                                 [
                                     149.2344,
                                     -37.0694
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.2262,
-                                    -37.0608
-                                ],
-                                [
-                                    149.2262,
-                                    -37.0609
-                                ],
-                                [
-                                    149.2261,
-                                    -37.0609
-                                ],
-                                [
-                                    149.2259,
-                                    -37.0609
-                                ],
-                                [
-                                    149.2259,
-                                    -37.0608
-                                ],
-                                [
-                                    149.2261,
-                                    -37.0607
-                                ],
-                                [
-                                    149.2262,
-                                    -37.0608
                                 ]
                             ]
                         ]
@@ -3449,6 +3516,28 @@
                             -37.0562730619999
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fenchurch Dr, Springdale Heights",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "out of control",
+                "created": "2021-01-19T06:46:00+11:00",
+                "updated": "2021-01-19T06:46:00+11:00",
+                "id": "2021-01-19T06:46:00.0000000:405302",
+                "location": "155 Fenchurch Dr, Springdale Heights, Nsw 2641",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.974624,
+                    -36.023409
                 ]
             }
         },
@@ -21304,6 +21393,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Nepean Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2021-01-19T06:50:00+11:00",
+                "updated": "2021-01-19T06:50:00+11:00",
+                "id": "ESTA:210107019",
+                "location": "Nepean Hwy, Mornington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0499978285069,
+                    -38.225159206861036
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Boundary Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2021-01-19T06:45:29+11:00",
+                "updated": "2021-01-19T06:45:29+11:00",
+                "id": "ESTA:210107010",
+                "location": "Boundary Rd, Dingley Village",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.11096503850212,
+                    -37.979364235828314
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Calder Fwy",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -21344,6 +21479,97 @@
                 "coordinates": [
                     142.59682202948565,
                     -38.27594275679314
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Anderson Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-01-19T06:36:26+11:00",
+                "updated": "2021-01-19T06:36:26+11:00",
+                "id": "ESTA:210107011",
+                "location": "Anderson Rd, Sunshine",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82789653336073,
+                    -37.78202279908304
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sunshine West",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-01-19T06:59:43+11:00",
+                "updated": "2021-01-19T06:59:43+11:00",
+                "id": "ESTA:210107018",
+                "location": "Sunshine West, Sunshine West",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82651179765966,
+                    -37.80662747370396
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ascot St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-01-19T06:56:04+11:00",
+                "updated": "2021-01-19T06:56:04+11:00",
+                "id": "ESTA:210107014",
+                "location": "Ascot St, Ascot Vale",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91691159853622,
+                    -37.781748072605936
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2021-01-19T06:20:00+11:00",
+                "updated": "2021-01-19T06:40:00+11:00",
+                "id": "ESTA:210151721",
+                "location": "Miepoll",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.48180087464297,
+                    -36.67370465360931
                 ]
             }
         }

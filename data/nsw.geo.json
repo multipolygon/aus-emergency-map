@@ -28,6 +28,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.232831002,
+                    -35.34224229899996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "High St, Queanbeyan East",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405386",
+                "created": "2021-01-20T03:22:00+11:00",
+                "updated": "2021-01-20T14:22:00+11:00",
+                "location": "High St, Queanbeyan East, NSW 2620",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: High St, Queanbeyan East, NSW 2620 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: ACT Fire and Rescue <br />UPDATED: 20 Jan 2021 14:22",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -798,30 +822,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.94153785700007,
-                    -34.66106365199994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Matong North Rd, Cowabbie",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405252",
-                "created": "2021-01-18T23:21:00+11:00",
-                "updated": "2021-01-19T10:21:00+11:00",
-                "location": "Matong North Rd, Cowabbie, NSW 2652",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Matong North Rd, Cowabbie, NSW 2652 <br />COUNCIL AREA: Coolamon <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Jan 2021 10:21",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -1178,41 +1178,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.226241443,
-                                            -37.060787789
-                                        ],
-                                        [
-                                            149.22615611,
-                                            -37.060939832
-                                        ],
-                                        [
-                                            149.226082312,
-                                            -37.060928135
-                                        ],
-                                        [
-                                            149.225869271,
-                                            -37.0608994309999
-                                        ],
-                                        [
-                                            149.225897696,
-                                            -37.0607549979999
-                                        ],
-                                        [
-                                            149.226076771,
-                                            -37.060738553
-                                        ],
-                                        [
-                                            149.226241443,
-                                            -37.060787789
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             149.236110931,
                                             -37.069717559
                                         ],
@@ -1252,32 +1217,59 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.234371005,
-                                            -37.069416552
+                                            149.232141984,
+                                            -37.0638787469999
                                         ],
                                         [
-                                            149.233994068,
-                                            -37.069505254
+                                            149.232141688,
+                                            -37.0638792299999
                                         ],
                                         [
-                                            149.233750252,
-                                            -37.069398577
+                                            149.232135003,
+                                            -37.063877003
                                         ],
                                         [
-                                            149.233951404,
-                                            -37.069313189
+                                            149.232140069,
+                                            -37.0638782679999
                                         ],
                                         [
-                                            149.234127191,
-                                            -37.069309876
+                                            149.232141984,
+                                            -37.0638787469999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.226241443,
+                                            -37.060787789
                                         ],
                                         [
-                                            149.234368832,
-                                            -37.069342413
+                                            149.22615611,
+                                            -37.060939832
                                         ],
                                         [
-                                            149.234371005,
-                                            -37.069416552
+                                            149.226082312,
+                                            -37.060928135
+                                        ],
+                                        [
+                                            149.225869271,
+                                            -37.0608994309999
+                                        ],
+                                        [
+                                            149.225897696,
+                                            -37.0607549979999
+                                        ],
+                                        [
+                                            149.226076771,
+                                            -37.060738553
+                                        ],
+                                        [
+                                            149.226241443,
+                                            -37.060787789
                                         ]
                                     ]
                                 ]
@@ -1326,24 +1318,32 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.232141984,
-                                            -37.0638787469999
+                                            149.234371005,
+                                            -37.069416552
                                         ],
                                         [
-                                            149.232141688,
-                                            -37.0638792299999
+                                            149.233994068,
+                                            -37.069505254
                                         ],
                                         [
-                                            149.232135003,
-                                            -37.063877003
+                                            149.233750252,
+                                            -37.069398577
                                         ],
                                         [
-                                            149.232140069,
-                                            -37.0638782679999
+                                            149.233951404,
+                                            -37.069313189
                                         ],
                                         [
-                                            149.232141984,
-                                            -37.0638787469999
+                                            149.234127191,
+                                            -37.069309876
+                                        ],
+                                        [
+                                            149.234368832,
+                                            -37.069342413
+                                        ],
+                                        [
+                                            149.234371005,
+                                            -37.069416552
                                         ]
                                     ]
                                 ]
@@ -2112,6 +2112,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.7646031380001,
+                    -36.179462453999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Buckenderra Road",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405384",
+                "created": "2021-01-20T03:02:00+11:00",
+                "updated": "2021-01-20T14:02:00+11:00",
+                "location": "490 Buckenderra road",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 490 Buckenderra road <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Jan 2021 14:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.15377300000011,
                     -34.697394000999964
                 ]
@@ -2128,6 +2152,30 @@
                 "location": "2-6 Camden St, Wingello, NSW 2579",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2-6 Camden St, Wingello, NSW 2579 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Jan 2021 11:52",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.31630000000007,
+                    -34.30934199999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Isaacs Rd, Young",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405385",
+                "created": "2021-01-20T03:21:00+11:00",
+                "updated": "2021-01-20T14:21:00+11:00",
+                "location": "Isaacs Rd, Young, NSW 2594",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Isaacs Rd, Young, NSW 2594 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 20 Jan 2021 14:21",
                 "title": "incident: fire"
             }
         },
@@ -2160,23 +2208,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.40250000000003,
-                    -34.30153999999993
+                    150.58039500000007,
+                    -35.014989999999955
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Slingers Lane, Gidginbung",
-                "category": "fire",
-                "subcategory": "haystack fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405301",
-                "created": "2021-01-19T23:32:00+11:00",
-                "updated": "2021-01-20T10:32:00+11:00",
-                "location": "Slingers Lane, Gidginbung, NSW 2666",
+                "sourceTitle": "Princes Hwy, Falls Creek",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405383",
+                "created": "2021-01-20T03:00:00+11:00",
+                "updated": "2021-01-20T14:00:00+11:00",
+                "location": "Princes Hwy, Falls Creek, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Slingers Lane, Gidginbung, NSW 2666 <br />COUNCIL AREA: Temora <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Jan 2021 10:32",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Princes Hwy, Falls Creek, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Jan 2021 14:00",
+                "title": "incident: other"
             }
         },
         {
@@ -2208,32 +2256,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.94440600000007,
-                    -32.70009299999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Swan Bay Rd, Swan Bay",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405374",
-                "created": "2021-01-19T23:02:00+11:00",
-                "updated": "2021-01-20T10:02:00+11:00",
-                "location": "771 Swan Bay Rd, Swan Bay, NSW 2324",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 771 Swan Bay Rd, Swan Bay, NSW 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 20 Jan 2021 10:02",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.68667600000003,
-                    -30.34389299999998
+                    152.77467727600003,
+                    -30.415074970999967
                 ]
             },
             "properties": {
@@ -2241,13 +2265,13 @@
                 "sourceTitle": "Waterfall Way, Dorrigo",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405382",
-                "created": "2021-01-20T01:42:00+11:00",
-                "updated": "2021-01-20T12:42:00+11:00",
+                "created": "2021-01-20T02:22:00+11:00",
+                "updated": "2021-01-20T13:22:00+11:00",
                 "location": "Waterfall Way, Dorrigo, NSW 2453",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Waterfall Way, Dorrigo, NSW 2453 <br />COUNCIL AREA: Bellingen <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Jan 2021 12:42",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Waterfall Way, Dorrigo, NSW 2453 <br />COUNCIL AREA: Bellingen <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Jan 2021 13:22",
                 "title": "incident: other"
             }
         }

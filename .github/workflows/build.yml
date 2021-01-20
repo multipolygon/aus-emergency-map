@@ -1,6 +1,8 @@
 name: Build
 
 on:
+  workflow_dispatch:
+
   push:
     branches:
       - master
@@ -15,13 +17,6 @@ jobs:
 
       - name: NPM Install
         run: npm ci
-
-      - name: Fetch data
-        run: npm run fetch
-
-      - name: Remove temp files
-        run: |
-          rm ./static/data/orig/*
 
       - name: Generate
         env:

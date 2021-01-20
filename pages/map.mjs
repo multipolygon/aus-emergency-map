@@ -84,13 +84,13 @@ export default {
                     error: false,
                     features: [],
                 },
-                sa_warn: {
-                    label: 'SA warnings',
-                    link: 'https://apps.geohub.sa.gov.au/CFSMap/index.html',
-                    loading: false,
-                    error: false,
-                    features: [],
-                },
+                // sa_warn: {
+                //     label: 'SA warnings',
+                //     link: 'https://apps.geohub.sa.gov.au/CFSMap/index.html',
+                //     loading: false,
+                //     error: false,
+                //     features: [],
+                // },
                 sa_cfs: {
                     label: 'SA CFS',
                     link: 'https://apps.geohub.sa.gov.au/CFSMap/index.html',
@@ -368,7 +368,7 @@ export default {
             } else if (src in vm.feeds && !vm.feeds[src].loading) {
                 vm.feeds[src].loading = true;
                 axios
-                    .get(`/data/${src}.geo.json`, {
+                    .get(`https://data.emergencymap.app/data/${src}.geo.json`, {
                         responseType: 'json',
                     })
                     .then(function(response) {

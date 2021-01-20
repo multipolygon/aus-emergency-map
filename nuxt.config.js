@@ -36,7 +36,7 @@ export default {
      */
     css: [
         'normalize.css/normalize.css',
-        '@mdi/font/css/materialdesignicons.min.css',
+        './style/mdi/css/materialdesignicons.min.css',
         // 'leaflet-fullscreen/dist/leaflet.fullscreen.css',
         // 'leaflet.markercluster/dist/MarkerCluster.css',
         // 'leaflet.markercluster/dist/MarkerCluster.Default.css',

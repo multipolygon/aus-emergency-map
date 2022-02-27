@@ -295,7 +295,7 @@ export default {
         },
         showResources(val) {
             this.updateMap();
-            localSet('showResources', val);
+            localSet('showResources2', val);
         },
         showLightning(val) {
             if (window.lmap && window.lightningLayer) {
@@ -765,8 +765,8 @@ export default {
 
         vm.maxAge = localGet('maxAge', 24);
         vm.fadeWithAge = localGet('fadeWithAge', true);
-        vm.showResources = localGet('showResources', true);
-        vm.showLightning = localGet('showLightning', true);
+        vm.showResources = localGet('showResources2', false);
+        vm.showLightning = localGet('showLightning', false);
         vm.sortBy = localGet('sortBy', '_age');
         vm.loadFilterTree();
         vm.feedsSelected = localGet('feedsSelected', Object.keys(vm.feeds));

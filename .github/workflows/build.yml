@@ -1,36 +1,37 @@
 name: Build
 
 on:
-  workflow_dispatch:
+    workflow_dispatch:
 
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout main
-        uses: actions/checkout@v2
+        steps:
+            - name: Checkout main
+              uses: actions/checkout@v2
 
-      - name: NPM Install
-        run: npm ci
+            - name: NPM Install
+              run: npm ci
 
-      - name: Build
-        env:
-          TF_API_KEY: ${{ secrets.TF_API_KEY }}
-        run: npm run build
+            - name: Build
+              env:
+                  TF_API_KEY: ${{ secrets.TF_API_KEY }}
+                  NODE_OPTIONS: --openssl-legacy-provider
+              run: npm run build
 
-      - name: Generate
-        env:
-          TF_API_KEY: ${{ secrets.TF_API_KEY }}
-        run: npm run generate
+            - name: Generate
+              env:
+                  TF_API_KEY: ${{ secrets.TF_API_KEY }}
+              run: npm run generate
 
-      - name: Git Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          BRANCH: gh-pages
-          FOLDER: dist
-          CLEAN: true
+            - name: Git Deploy
+              uses: JamesIves/github-pages-deploy-action@releases/v3
+              with:
+                  BRANCH: gh-pages
+                  FOLDER: dist
+                  CLEAN: true

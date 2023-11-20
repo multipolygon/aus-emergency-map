@@ -15,7 +15,7 @@ export function getSearchParam(paramName) {
 }
 
 export function objTreeSetProp(obj, prop, val) {
-    if (typeof obj === 'object') {
+    if (obj && typeof obj === 'object') {
         if (prop in obj) {
             obj[prop] = val;
         }
@@ -57,7 +57,7 @@ export function objTreeHasValue(obj, prop, val) {
 export function objPack(obj, prop, val) {
     const obj2 = {};
     for (const k in obj) {
-        if (typeof obj[k] === 'object' && (!(prop in obj[k]) || obj[k][prop] === val)) {
+        if (obj[k] && typeof obj[k] === 'object' && (!(prop in obj[k]) || obj[k][prop] === val)) {
             obj2[k] = objPack(obj[k], prop, val);
         }
     }

@@ -382,7 +382,9 @@ export default {
                                         now,
                                         vm.$moment(properties.updated, vm.$moment.ISO_8601),
                                     ),
-                                    ...properties,
+                                    ...(properties && typeof properties === 'object'
+                                        ? properties
+                                        : {}),
                                 },
                             }),
                         );
@@ -668,7 +670,7 @@ export default {
         },
         fid(feature) {
             const p = feature.properties;
-            return p._feed_src + p.id;
+            return p._feed_src + p.id + p.sourceTitle + p.created;
         },
         fhtml(feature, keys) {
             const s = [];

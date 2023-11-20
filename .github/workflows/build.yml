@@ -27,6 +27,7 @@ jobs:
             - name: Generate
               env:
                   TF_API_KEY: ${{ secrets.TF_API_KEY }}
+                  NODE_OPTIONS: --openssl-legacy-provider
               run: npm run generate
 
             - name: Git Deploy

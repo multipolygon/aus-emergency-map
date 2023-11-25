@@ -103,7 +103,9 @@
                 <div class="mdi mdi-view-list"></div>
             </div>
             <div title="Information" class="circle button small">
-                <a href="/#user-guide"><div class="mdi mdi-help-circle"></div></a>
+                <a href="/#user-guide" style="color: black;"
+                    ><div class="mdi mdi-help-circle"></div
+                ></a>
             </div>
             <div
                 v-if="shareableUrl"

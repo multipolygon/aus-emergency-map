@@ -102,8 +102,8 @@
             <div title="List" class="circle button small" @click.prevent="scrollTo('panelList')">
                 <div class="mdi mdi-view-list"></div>
             </div>
-            <div title="Info" class="circle button small" @click.prevent="scrollTo('panelInfo')">
-                <div class="mdi mdi-help-circle"></div>
+            <div title="Information" class="circle button small">
+                <a href="/#user-guide"><div class="mdi mdi-help-circle"></div></a>
             </div>
             <div
                 v-if="shareableUrl"
@@ -388,25 +388,23 @@
                     tool for the raw data and for seeing a big-picture overview.
                 </p>
                 <p>
-                    This is a non-commercial, volunteer project.
+                    This is a volunteer-time project effort.
                     <a href="https://github.com/multipolygon/aus-emergency-map">Source code</a> is
-                    available and feedback or contributions welcome.
+                    available and feedback or contributions are welcome.
                 </p>
                 <p>
-                    The layout works best on desktop, but it is also great on tablet or mobile where
-                    it can be added to the home screen.
+                    The app layout works best on desktop, but it is also great on tablet or mobile
+                    where it can be added to the home screen.
                 </p>
                 <p>
-                    For an overview of features please see the
-                    <a href="./user_guide/index.html" target="_blank">User Guide</a>.
-                </p>
-                <p>
-                    Built with free, open-source, community-driven software:
-                    <a href="http://leafletjs.com/">Leaflet</a>,
+                    Built with non-commercial, open-source, democratic, free (as in freedom of
+                    information), community-controlled software:
                     <a href="https://www.openstreetmap.org/about">OpenStreetMap</a>,
+                    <a href="http://leafletjs.com/">Leaflet</a>,
                     <a href="https://vuejs.org/">Vue.js</a> and
-                    <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>
+                    <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>.
                 </p>
+                <p>Email: <em>contact@multipolygon.net</em></p>
                 <p style="color: grey;">
                     Map data &copy;
                     <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors,

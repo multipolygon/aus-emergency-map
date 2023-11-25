@@ -6,7 +6,7 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "dev": "nuxt dev --spa -H 0.0.0.0 -p 3000",
+        "dev": "NODE_OPTIONS=--openssl-legacy-provider nuxt dev --spa -H 0.0.0.0 -p 3000",
         "build": "nuxt build",
         "generate": "nuxt generate",
         "serve": "serve -l 3000 dist",
